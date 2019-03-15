@@ -1,0 +1,855 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li class="active"><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. 什么是MongoDB">1. 什么是MongoDB</a></li><li><a href="#t12. MongoDB安装">2. MongoDB安装</a><ul><li><a href="#t22.1 windows安装">2.1 windows安装</a></li><li><a href="#t32.2 mac安装">2.2 mac安装</a></li></ul></li><li><a href="#t43. mongodb启动与连接">3. mongodb启动与连接</a><ul><li><a href="#t53.1 windows启动服务器端">3.1 windows启动服务器端</a></li></ul></li><li><a href="#t64. MongoDB基本概念">4. MongoDB基本概念</a></li><li><a href="#t75. 数据库操作">5. 数据库操作</a><ul><li><a href="#t85.1 使用数据库">5.1 使用数据库</a></li><li><a href="#t95.2 查看所有数据库">5.2 查看所有数据库</a></li><li><a href="#t105.3 查看当前使用的数据库">5.3 查看当前使用的数据库</a></li><li><a href="#t115.4 删除数据库">5.4 删除数据库</a></li></ul></li><li><a href="#t126. 集合操作">6. 集合操作</a><ul><li><a href="#t136.1 查看集合帮助">6.1 查看集合帮助</a></li><li><a href="#t146.2 查看数据库下的集合">6.2 查看数据库下的集合</a></li><li><a href="#t156.3 创建集合">6.3 创建集合</a></li><li><a href="#t166.3.1 创建一个空集合">6.3.1 创建一个空集合</a></li><li><a href="#t176.3.2 创建集合并插入一个文档">6.3.2 创建集合并插入一个文档</a></li></ul></li><li><a href="#t187. 插入文档">7. 插入文档</a><ul><li><a href="#t197.1 insert">7.1 insert</a></li><li><a href="#t207.2 save">7.2 save</a></li></ul></li><li><a href="#t218. 更新文档">8. 更新文档</a><ul><li><a href="#t228.1 语法">8.1 语法</a></li><li><a href="#t238.2 参数">8.2 参数</a></li><li><a href="#t248.3 upsert">8.3 upsert</a></li><li><a href="#t258.4 multi">8.4 multi</a></li></ul></li><li><a href="#t269. 更新操作符">9. 更新操作符</a><ul><li><a href="#t279.1 $set">9.1 $set</a></li><li><a href="#t289.2 $inc">9.2 $inc</a></li><li><a href="#t299.3 $unset">9.3 $unset</a></li><li><a href="#t309.4 $push">9.4 $push</a></li><li><a href="#t319.5 $ne">9.5 $ne</a></li><li><a href="#t329.5 $addToSet">9.5 $addToSet</a></li><li><a href="#t339.6 $each">9.6 $each</a></li><li><a href="#t349.7  $pop">9.7  $pop</a></li><li><a href="#t359.8 修改指定索引元素">9.8 修改指定索引元素</a></li></ul></li><li><a href="#t3610. 文档的删除">10. 文档的删除</a><ul><li><a href="#t3710.1 语法">10.1 语法</a></li><li><a href="#t3810.2 参数">10.2 参数</a></li><li><a href="#t3910.3 实例">10.3 实例</a></li></ul></li><li><a href="#t4011. 查询文档">11. 查询文档</a><ul><li><a href="#t4111.1 find">11.1 find</a></li><li><a href="#t4211.2 查询指定列">11.2 查询指定列</a></li><li><a href="#t4311.3 findOne">11.3 findOne</a></li><li><a href="#t4411.4 $in">11.4 $in</a></li><li><a href="#t4511.5 $nin">11.5 $nin</a></li><li><a href="#t4611.6  $not">11.6  $not</a></li><li><a href="#t4711.7  array">11.7  array</a></li><li><a href="#t4811.8 where">11.8 where</a></li><li><a href="#t4911.9   cursor">11.9   cursor</a></li><li><a href="#t5012.2 大于等于操作符">12.2 大于等于操作符</a></li><li><a href="#t5112.3 小于操作符">12.3 小于操作符</a></li><li><a href="#t5212.4 小于等于操作符">12.4 小于等于操作符</a></li><li><a href="#t5312.5 同时使用 $gte和$lte">12.5 同时使用 $gte和$lte</a></li><li><a href="#t5412.6 等于">12.6 等于</a></li><li><a href="#t5512.7 使用 _id进行查询">12.7 使用 _id进行查询</a></li><li><a href="#t5612.8 查询结果集的条数">12.8 查询结果集的条数</a></li><li><a href="#t5712.9 正则匹配">12.9 正则匹配</a></li></ul></li><li><a href="#t5813. 与和或">13. 与和或</a><ul><li><a href="#t5913.1 and">13.1 and</a></li><li><a href="#t6013.2 or">13.2 or</a></li><li><a href="#t6113.3 and和or联用">13.3 and和or联用</a></li></ul></li><li><a href="#t6214. 分页查询">14. 分页查询</a><ul><li><a href="#t6314.1 limit">14.1 limit</a></li><li><a href="#t6414.2 skip">14.2 skip</a></li><li><a href="#t6514.3 skip+limit">14.3 skip+limit</a></li><li><a href="#t6614.4 sort排序">14.4 sort排序</a></li></ul></li><li><a href="#t6715. 执行脚本">15. 执行脚本</a><ul><li><a href="#t6816.  备份与导出">16.  备份与导出</a></li></ul></li><li><a href="#t6917.  权限">17.  权限</a><ul><li><a href="#t7017.1 创建用户">17.1 创建用户</a></li><li><a href="#t7117.3 删除用户">17.3 删除用户</a></li><li><a href="#t7217.4 启动数据库权限检查">17.4 启动数据库权限检查</a></li><li><a href="#t7317.5 鉴权">17.5 鉴权</a></li></ul></li><li><a href="#t7418. 索引">18. 索引</a><ul><li><a href="#t7518.1 准备数据">18.1 准备数据</a></li><li><a href="#t7618.2 打印出查询时间">18.2 打印出查询时间</a></li><li><a href="#t7718.3  建立索引">18.3  建立索引</a></li></ul></li><li><a href="#t7819. 附录">19. 附录</a><ul><li><a href="#t7919.1 ObjectId构成">19.1 ObjectId构成</a></li><li><a href="#t8019.2 Mongodb启动命令mongod参数说明">19.2 Mongodb启动命令mongod参数说明</a></li></ul></li><li><a href="#t8119.3 集合命令">19.3 集合命令</a><ul><li><a href="#t8219.4 数据库中的内置角色">19.4 数据库中的内置角色</a></li></ul></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. 什么是MongoDB">1. 什么是MongoDB <a href="#t01. 什么是MongoDB"> # </a></h2>
+<ul>
+<li>MongoDB是一个基于分布式文件存储的开源数据库系统</li>
+<li>MongoDB 将数据存储为一个文档，数据结构由键值(key=&gt;value)对组成。MongoDB 文档类似于 JSON 对象。字段值可以包含其他文档，数组及文档数组。</li>
+</ul>
+<h2 id="t12. MongoDB安装">2. MongoDB安装 <a href="#t12. MongoDB安装"> # </a></h2>
+<h3 id="t22.1 windows安装">2.1 windows安装 <a href="#t22.1 windows安装"> # </a></h3>
+<p><a href="https://www.mongodb.org/downloads">Windows官方安装指南</a></p>
+<ul>
+<li><p>mongodb32位安装版
+链接: <a href="https://pan.baidu.com/s/1SHJ1vre_CQOE3u-W0zniqQ">https://pan.baidu.com/s/1SHJ1vre_CQOE3u-W0zniqQ</a> 密码: chan</p>
+</li>
+<li><p>MongoDB64位绿色版
+链接: <a href="https://pan.baidu.com/s/1EkAB2SrcU1mfMfff_WDxtA">https://pan.baidu.com/s/1EkAB2SrcU1mfMfff_WDxtA</a> 密码: w913</p>
+</li>
+<li><p>mongo客户端
+链接: <a href="https://pan.baidu.com/s/1YFxLZ-55D-WFR8os2fXN0A">https://pan.baidu.com/s/1YFxLZ-55D-WFR8os2fXN0A</a> 密码: 61qd</p>
+</li>
+</ul>
+<h3 id="t32.2 mac安装">2.2 mac安装 <a href="#t32.2 mac安装"> # </a></h3>
+<p><a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/">Mac官方安装指南</a></p>
+<ol>
+<li><p>先安装homebrew</p>
+<pre><code>http://brew.sh/
+</code></pre></li>
+<li><p>使用brew安装mongodb</p>
+<pre><code>brew install mongodb
+</code></pre></li>
+<li><p>再安装可视化工具
+<a href="https://robomongo.org/">Robomongo</a></p>
+</li>
+</ol>
+<h2 id="t43. mongodb启动与连接">3. mongodb启动与连接 <a href="#t43. mongodb启动与连接"> # </a></h2>
+<h3 id="t53.1 windows启动服务器端">3.1 windows启动服务器端 <a href="#t53.1 windows启动服务器端"> # </a></h3>
+<ol>
+<li>找到mongodb安装目录,一般是 <code>C:\Program Files\MongoDB 2.6 Standard\bin</code></li>
+<li>按下Shift+鼠标右键,选择在此处打开命令窗口</li>
+<li>在除C盘外的盘符新建一个空目录,如 <code>D:\Mongodb\data</code></li>
+<li>在命令行中输入<code>mongod --dbpath=刚创建的空目录</code>,如<pre><code class="lang-js">mongod --dbpath=D:\Mongodb\data
+</code></pre>
+</li>
+<li>再按回车键</li>
+</ol>
+<p><img src="http://img.zhufengpeixun.cn/mongostart.png" class="img-responsive"></p>
+<ul>
+<li>如果出现<code>waiting for connections on port 27017</code>就表示<strong>启动成功</strong>,已经在27017端口上监听了客户端的请求</li>
+<li>注意：<code>--dbpath</code>后的值表示数据库文件的存储路径,而且后面的路径必须事先创建好，必须已经<strong>存在</strong>，否则服务开启失败</li>
+<li>注意：这个命令窗体绝对<strong>不能关</strong>,关闭这个窗口就相当于停止了<code>mongodb</code>服务</li>
+</ul>
+<h2 id="t64. MongoDB基本概念">4. MongoDB基本概念 <a href="#t64. MongoDB基本概念"> # </a></h2>
+<ul>
+<li><strong>数据库</strong> MongoDB的单个实例可以容纳<strong>多个</strong>独立的数据库，比如一个学生管理系统就可以对应一个数据库实例</li>
+<li><strong>集合</strong> 数据库是由集合组成的,一个集合用来表示一个<strong>实体</strong>,如学生集合</li>
+<li><strong>文档</strong> 集合是由文档组成的，一个文档表示一条<strong>记录</strong>,比如一位同学张三就是一个文档</li>
+</ul>
+<p><img src="http://img.zhufengpeixun.cn/mongostat.jpg" alt="mongostat"></p>
+<h2 id="t75. 数据库操作">5. 数据库操作 <a href="#t75. 数据库操作"> # </a></h2>
+<h3 id="t85.1 使用数据库">5.1 使用数据库 <a href="#t85.1 使用数据库"> # </a></h3>
+<p><strong>语法</strong></p>
+<pre><code>use database_name     
+</code></pre><ul>
+<li>database_name 代表数据库的名字</li>
+<li>注：如果此数据库存在，则切换到此数据库下,如果此数据库还不存在也可以切过来,但是并不能立刻创建数据库</li>
+</ul>
+<p>切换到 <code>school</code>数据库下</p>
+<pre><code class="lang-js">use school
+</code></pre>
+<h3 id="t95.2 查看所有数据库">5.2 查看所有数据库 <a href="#t95.2 查看所有数据库"> # </a></h3>
+<p><strong>语法</strong></p>
+<pre><code class="lang-js">show dbs
+</code></pre>
+<ul>
+<li>备注: 我们刚创建的数据库<code>school</code>如果不在列表内， 要显示它，我们需要向<code>school</code>数据库插入一些数据</li>
+</ul>
+<pre><code class="lang-js">db.students.insert({<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx'</span>,<span class="hljs-attr">age</span>:<span class="hljs-number">1</span>});
+</code></pre>
+<h3 id="t105.3 查看当前使用的数据库">5.3 查看当前使用的数据库 <a href="#t105.3 查看当前使用的数据库"> # </a></h3>
+<p><strong>语法</strong></p>
+<pre><code class="lang-js">db
+</code></pre>
+<ul>
+<li>注：db代表的是当前数据库 也就是school这个数据库</li>
+</ul>
+<h3 id="t115.4 删除数据库">5.4 删除数据库 <a href="#t115.4 删除数据库"> # </a></h3>
+<p><strong>语法</strong></p>
+<pre><code class="lang-js">db.dropDatabase()
+</code></pre>
+<h2 id="t126. 集合操作">6. 集合操作 <a href="#t126. 集合操作"> # </a></h2>
+<h3 id="t136.1 查看集合帮助">6.1 查看集合帮助 <a href="#t136.1 查看集合帮助"> # </a></h3>
+<p><strong>语法</strong></p>
+<pre><code class="lang-js">db.students.help();
+</code></pre>
+<h3 id="t146.2 查看数据库下的集合">6.2 查看数据库下的集合 <a href="#t146.2 查看数据库下的集合"> # </a></h3>
+<pre><code class="lang-js">show collections
+</code></pre>
+<h3 id="t156.3 创建集合">6.3 创建集合 <a href="#t156.3 创建集合"> # </a></h3>
+<h3 id="t166.3.1 创建一个空集合">6.3.1 创建一个空集合 <a href="#t166.3.1 创建一个空集合"> # </a></h3>
+<pre><code class="lang-js">db.createCollection(collection_Name)      
+</code></pre>
+<ul>
+<li>collection_Name集合的名称</li>
+</ul>
+<h3 id="t176.3.2 创建集合并插入一个文档">6.3.2 创建集合并插入一个文档 <a href="#t176.3.2 创建集合并插入一个文档"> # </a></h3>
+<ul>
+<li>collection_Name集合的名称</li>
+<li>document要插入的文档</li>
+</ul>
+<pre><code class="lang-js">db.collection_Name.insert(<span class="hljs-built_in">document</span>)
+</code></pre>
+<h2 id="t187. 插入文档">7. 插入文档 <a href="#t187. 插入文档"> # </a></h2>
+<h3 id="t197.1 insert">7.1 insert <a href="#t197.1 insert"> # </a></h3>
+<pre><code class="lang-js">db.collection_name.insert(<span class="hljs-built_in">document</span>);
+<span class="hljs-string">`
+</span></code></pre>
+<ul>
+<li>collection_name 集合的名字</li>
+<li>document 插入的文档</li>
+</ul>
+<blockquote>
+<p>每当插入一条新文档的时候mongodb会自动为此文档生成一个<code>_id</code>属性,_id一定是唯一的，用来唯一标识一个文档
+ _id也可以直接指定，但如果数据库中此集合下已经有此_id的话插入会失败</p>
+</blockquote>
+<pre><code class="lang-js">db.students.insert({<span class="hljs-attr">_id</span>:<span class="hljs-number">1</span>,<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx'</span>,<span class="hljs-attr">age</span>:<span class="hljs-number">1</span>});
+WriteResult({ <span class="hljs-string">"nInserted"</span> : <span class="hljs-number">1</span> })
+db.students.insert({<span class="hljs-attr">_id</span>:<span class="hljs-number">1</span>,<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx'</span>,<span class="hljs-attr">age</span>:<span class="hljs-number">1</span>});
+</code></pre>
+<h3 id="t207.2 save">7.2 save <a href="#t207.2 save"> # </a></h3>
+<pre><code class="lang-js">db.collection_name.save(<span class="hljs-built_in">document</span>)
+</code></pre>
+<ul>
+<li>collection_name 集合的名字</li>
+<li>document 插入的文档</li>
+</ul>
+<blockquote>
+<p>注：如果不指定 _id 字段 save() 方法类似于 insert() 方法。如果指定 _id 字段，则会更新该 _id 的数据。</p>
+</blockquote>
+<pre><code class="lang-js">&gt; db.students.save({<span class="hljs-attr">_id</span>:<span class="hljs-number">1</span>,<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx'</span>,<span class="hljs-attr">age</span>:<span class="hljs-number">1</span>});
+WriteResult({ <span class="hljs-string">"nMatched"</span> : <span class="hljs-number">1</span>, <span class="hljs-string">"nUpserted"</span> : <span class="hljs-number">0</span>, <span class="hljs-string">"nModified"</span> : <span class="hljs-number">0</span> })
+&gt; db.students.save({<span class="hljs-attr">_id</span>:<span class="hljs-number">1</span>,<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx'</span>,<span class="hljs-attr">age</span>:<span class="hljs-number">100</span>});
+WriteResult({ <span class="hljs-string">"nMatched"</span> : <span class="hljs-number">1</span>, <span class="hljs-string">"nUpserted"</span> : <span class="hljs-number">0</span>, <span class="hljs-string">"nModified"</span> : <span class="hljs-number">1</span> })
+</code></pre>
+<h2 id="t218. 更新文档">8. 更新文档 <a href="#t218. 更新文档"> # </a></h2>
+<h3 id="t228.1 语法">8.1 语法 <a href="#t228.1 语法"> # </a></h3>
+<pre><code class="lang-js">db.collection.update(
+   &lt;query&gt;,
+   &lt;updateObj&gt;,
+   {
+     upsert: &lt;boolean&gt;,
+     multi: &lt;boolean&gt;
+   }
+)
+</code></pre>
+<h3 id="t238.2 参数">8.2 参数 <a href="#t238.2 参数"> # </a></h3>
+<ul>
+<li>query  查询条件,指定要更新符合哪些条件的文档</li>
+<li>update  更新后的对象或指定一些更新的操作符<ul>
+<li>$set直接指定更新后的值</li>
+<li>$inc在原基础上累加</li>
+</ul>
+</li>
+<li>upsert 可选，这个参数的意思是，如果不存在符合条件的记录时是否插入updateObj.  默认是false,不插入。</li>
+<li>multi  可选，mongodb 默认只更新找到的第一条记录，如果这个参数为true,就更新所有符合条件的记录。</li>
+</ul>
+<h3 id="t248.3 upsert">8.3 upsert <a href="#t248.3 upsert"> # </a></h3>
+<p>将<code>students</code>集合中数据中<code>name</code>是zfpx2的值修改为zfpx22</p>
+<pre><code class="lang-js">&gt; db.students.insert({<span class="hljs-attr">_id</span>:<span class="hljs-number">1</span>,<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx1'</span>});
+WriteResult({ <span class="hljs-string">"nInserted"</span> : <span class="hljs-number">1</span> })
+&gt; db.students.update({<span class="hljs-attr">_id</span>:<span class="hljs-number">2</span>},{<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx2'</span>},{<span class="hljs-attr">upsert</span>:<span class="hljs-literal">true</span>});
+WriteResult({ <span class="hljs-string">"nMatched"</span> : <span class="hljs-number">0</span>, <span class="hljs-string">"nUpserted"</span> : <span class="hljs-number">1</span>, <span class="hljs-string">"nModified"</span> : <span class="hljs-number">0</span>, <span class="hljs-string">"_id"</span> : <span class="hljs-number">2</span> })
+</code></pre>
+<h3 id="t258.4 multi">8.4 multi <a href="#t258.4 multi"> # </a></h3>
+<ul>
+<li>如果有多条name是zfpx2的数据只更新一条,如果想全部更新需要指定<code>{multi:true}</code>的参数<pre><code class="lang-js">db.students.update({<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx2'</span>},{<span class="hljs-attr">$set</span>:{<span class="hljs-attr">age</span>:<span class="hljs-number">10</span>}},{<span class="hljs-attr">multi</span>:<span class="hljs-literal">true</span>});
+WriteResult({ <span class="hljs-string">"nMatched"</span> : <span class="hljs-number">2</span>, <span class="hljs-string">"nUpserted"</span> : <span class="hljs-number">0</span>, <span class="hljs-string">"nModified"</span> : <span class="hljs-number">2</span> });
+</code></pre>
+</li>
+</ul>
+<h2 id="t269. 更新操作符">9. 更新操作符 <a href="#t269. 更新操作符"> # </a></h2>
+<h3 id="t279.1 $set">9.1 $set <a href="#t279.1 $set"> # </a></h3>
+<p>直接指定更新后的值</p>
+<pre><code class="lang-js">db.c3.update({<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx2'</span>},{<span class="hljs-attr">$set</span>:{<span class="hljs-attr">age</span>:<span class="hljs-number">10</span>}},{<span class="hljs-attr">multi</span>:<span class="hljs-literal">true</span>});
+</code></pre>
+<h3 id="t289.2 $inc">9.2 $inc <a href="#t289.2 $inc"> # </a></h3>
+<p>在原基础上累加</p>
+<pre><code class="lang-js">db.c3.update({<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx2'</span>},{<span class="hljs-attr">$inc</span>:{<span class="hljs-attr">age</span>:<span class="hljs-number">1</span>}},{<span class="hljs-attr">multi</span>:<span class="hljs-literal">true</span>});
+</code></pre>
+<h3 id="t299.3 $unset">9.3 $unset <a href="#t299.3 $unset"> # </a></h3>
+<p>删除指定的键</p>
+<pre><code class="lang-js">db.c3.update({<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx2'</span>},{<span class="hljs-attr">$unset</span>:{<span class="hljs-attr">age</span>:<span class="hljs-number">1</span>}},{<span class="hljs-attr">multi</span>:<span class="hljs-literal">true</span>});
+</code></pre>
+<h3 id="t309.4 $push">9.4 $push <a href="#t309.4 $push"> # </a></h3>
+<p>向数组中添加元素 </p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> result = db.student.update({<span class="hljs-attr">name</span>:<span class="hljs-string">'张三'</span>},{
+    <span class="hljs-attr">$push</span>:{<span class="hljs-string">"hobbys"</span>:<span class="hljs-string">"smoking"</span>}
+});
+</code></pre>
+<h3 id="t319.5 $ne">9.5 $ne <a href="#t319.5 $ne"> # </a></h3>
+<p>$ne类似于MYSQL的 <code>not in</code> 或者<code>not exists</code></p>
+<pre><code class="lang-js">db.student.update({<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx1'</span>,<span class="hljs-attr">hobbys</span>:{<span class="hljs-attr">$ne</span>:<span class="hljs-string">'smoking'</span>}},{<span class="hljs-attr">$push</span>:{<span class="hljs-string">"hobbys"</span>:<span class="hljs-string">"smoking"</span>}});
+</code></pre>
+<h3 id="t329.5 $addToSet">9.5 $addToSet <a href="#t329.5 $addToSet"> # </a></h3>
+<p>向集合中添加元素</p>
+<pre><code class="lang-js">db.student.update({<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx1'</span>},{<span class="hljs-attr">$addToSet</span>:{<span class="hljs-string">"hobbys"</span>:<span class="hljs-string">"smoking"</span>}});
+</code></pre>
+<h3 id="t339.6 $each">9.6 $each <a href="#t339.6 $each"> # </a></h3>
+<p>把数组中的元素逐个添加到集合中</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> hobbys = [<span class="hljs-string">"A"</span>,<span class="hljs-string">'B'</span>];
+db.student.update({<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx1'</span>},{<span class="hljs-attr">$addToSet</span>:{<span class="hljs-attr">hobbys</span>:{<span class="hljs-attr">$each</span>:hobbys}}});
+</code></pre>
+<h3 id="t349.7  $pop">9.7  $pop <a href="#t349.7  $pop"> # </a></h3>
+<p>从数组中移除指定的索引中对应的元素</p>
+<pre><code class="lang-js">db.student.update({<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx1'</span>},{<span class="hljs-attr">$pop</span>:{<span class="hljs-attr">hobbys</span>:<span class="hljs-number">1</span>}});
+</code></pre>
+<h3 id="t359.8 修改指定索引元素">9.8 修改指定索引元素 <a href="#t359.8 修改指定索引元素"> # </a></h3>
+<pre><code class="lang-js">db.c3.update({<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx1'</span>},{<span class="hljs-attr">$set</span>:{<span class="hljs-string">"hobbys.0"</span>:<span class="hljs-string">"smoking2"</span>}});
+</code></pre>
+<h2 id="t3610. 文档的删除">10. 文档的删除 <a href="#t3610. 文档的删除"> # </a></h2>
+<p>remove方法是用来移除集合中的数据</p>
+<h3 id="t3710.1 语法">10.1 语法 <a href="#t3710.1 语法"> # </a></h3>
+<pre><code class="lang-js">db.collection.remove(
+   &lt;query&gt;,
+   {
+     justOne: &lt;boolean&gt;
+   }
+)
+</code></pre>
+<h3 id="t3810.2 参数">10.2 参数 <a href="#t3810.2 参数"> # </a></h3>
+<ul>
+<li>query :（可选）删除的文档的条件。</li>
+<li>justOne : （可选）如果设为 true 或 1，则只删除匹配到的多个文档中的第一个</li>
+</ul>
+<h3 id="t3910.3 实例">10.3 实例 <a href="#t3910.3 实例"> # </a></h3>
+<p>删除worker集合里name是zfpx2的所有文档数据</p>
+<pre><code class="lang-js">&gt; db.students.remove({<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx2'</span>});
+WriteResult({ <span class="hljs-string">"nRemoved"</span> : <span class="hljs-number">2</span> })
+</code></pre>
+<p>即使匹配多条也只删除一条</p>
+<pre><code class="lang-js">&gt; db.students.remove({<span class="hljs-attr">name</span>:<span class="hljs-string">"zfpx2"</span>},{<span class="hljs-attr">justOne</span>:<span class="hljs-literal">true</span>})
+WriteResult({ <span class="hljs-string">"nRemoved"</span> : <span class="hljs-number">1</span> })
+</code></pre>
+<h2 id="t4011. 查询文档">11. 查询文档 <a href="#t4011. 查询文档"> # </a></h2>
+<h3 id="t4111.1 find">11.1 find <a href="#t4111.1 find"> # </a></h3>
+<p><strong>语法</strong></p>
+<pre><code>db.collection_name.find()
+</code></pre><p><strong>参数</strong></p>
+<ul>
+<li>collection_name 集合的名字</li>
+</ul>
+<p><strong>实例</strong>
+查询students下所有的文档</p>
+<pre><code>db.students.find()
+</code></pre><h3 id="t4211.2 查询指定列">11.2 查询指定列 <a href="#t4211.2 查询指定列"> # </a></h3>
+<p><strong>语法</strong></p>
+<pre><code>db.collection_name.find({queryWhere},{key:1,key:1})
+</code></pre><p><strong>参数列表</strong></p>
+<ul>
+<li>collection_name  集合的名字</li>
+<li>queryWhere 参阅查询条件操作符</li>
+<li>key 指定要返回的列</li>
+<li>1 表示要显示</li>
+</ul>
+<p><strong>实例</strong>
+只返回显示age列</p>
+<pre><code>&gt; db.students.find({},{age:1});
+</code></pre><h3 id="t4311.3 findOne">11.3 findOne <a href="#t4311.3 findOne"> # </a></h3>
+<p>查询匹配结果的第一条数据
+<strong>语法</strong></p>
+<pre><code>db.collection_name.findOne()
+</code></pre><p><strong>实例</strong></p>
+<pre><code>db.students.findOne()
+</code></pre><h3 id="t4411.4 $in">11.4 $in <a href="#t4411.4 $in"> # </a></h3>
+<p>查询字段在某个范围内</p>
+<pre><code class="lang-js">db.student.find({<span class="hljs-attr">age</span>:{<span class="hljs-attr">$in</span>:[<span class="hljs-number">30</span>,<span class="hljs-number">100</span>]}},{<span class="hljs-attr">name</span>:<span class="hljs-number">1</span>,<span class="hljs-attr">age</span>:<span class="hljs-number">1</span>});
+</code></pre>
+<h3 id="t4511.5 $nin">11.5 $nin <a href="#t4511.5 $nin"> # </a></h3>
+<p>查询字段不在某个范围内</p>
+<pre><code class="lang-js">db.student.find({<span class="hljs-attr">age</span>:{<span class="hljs-attr">$nin</span>:[<span class="hljs-number">30</span>,<span class="hljs-number">100</span>]}},{<span class="hljs-attr">name</span>:<span class="hljs-number">1</span>,<span class="hljs-attr">age</span>:<span class="hljs-number">1</span>});
+</code></pre>
+<h3 id="t4611.6  $not">11.6  $not <a href="#t4611.6  $not"> # </a></h3>
+<p>对特定条件取反</p>
+<pre><code class="lang-js">db.student.find({<span class="hljs-attr">age</span>:{<span class="hljs-attr">$not</span>:{<span class="hljs-attr">$gte</span>:<span class="hljs-number">20</span>,<span class="hljs-attr">$lte</span>:<span class="hljs-number">30</span>}}});
+</code></pre>
+<h3 id="t4711.7  array">11.7  array <a href="#t4711.7  array"> # </a></h3>
+<p>对数组的查询</p>
+<pre><code class="lang-js"><span class="hljs-comment">//按所有元素匹配</span>
+<span class="hljs-comment">//let result = db.student.find({friends:[ "A", "B", "C", "D" ]});</span>
+<span class="hljs-comment">//匹配一项 包含A的就可以</span>
+<span class="hljs-comment">//let result = db.student.find({friends:"A"});</span>
+<span class="hljs-comment">//$all 必须同时包含A B</span>
+<span class="hljs-comment">//let result = db.student.find({friends:{$all:['A',"B"]}});</span>
+<span class="hljs-comment">//$in 或者关系 ，包含A或者B</span>
+<span class="hljs-comment">//let result = db.student.find({friends:{$in:['A',"B"]}});</span>
+<span class="hljs-comment">//$size 按数组的长度去匹配</span>
+<span class="hljs-comment">//let result = db.student.find({friends:{$size:4}});</span>
+<span class="hljs-comment">//$slice 只返回数组中的某一部分</span>
+<span class="hljs-comment">//let result = db.student.find({friends:{$size:5}},{name:1,friends:{$slice:1}});</span>
+<span class="hljs-comment">//let result = db.student.find({friends:{$size:5}},{name:1,friends:{$slice:-1}});</span>
+</code></pre>
+<h3 id="t4811.8 where">11.8 where <a href="#t4811.8 where"> # </a></h3>
+<pre><code class="lang-js">db.student.find({<span class="hljs-attr">$where</span>:<span class="hljs-string">"this.age&gt;30"</span>},{<span class="hljs-attr">name</span>:<span class="hljs-number">1</span>,<span class="hljs-attr">age</span>:<span class="hljs-number">1</span>});
+</code></pre>
+<h3 id="t4911.9   cursor">11.9   cursor <a href="#t4911.9   cursor"> # </a></h3>
+<ul>
+<li>游标不是查询结果，而是查询的一个返回资源或者接口，通过这个接口，可以逐条读取数据
+<code>`</code>js
+var result = db.student.find();</li>
+</ul>
+<p>//while(result.hasNext()){
+//    printjson(result.next());
+//}</p>
+<p>result.forEach(element=&gt;printjson(element));</p>
+<pre><code>
+## 12. 条件操作符
+条件操作符用于比较两个表达式并从mongoDB集合中获取数据
+
+### 12.1 大于操作符
+**语法**
+</code></pre><p>db.collectoin_name.find({<key>:{$gt:<value>}})</value></key></p>
+<pre><code>
+**参数**
+- collectoin_name  集合名称
+- key   字段
+- value   值
+
+
+查询 age 大于 30的数据
+```js
+db.students.find({age:{$gt:30}})
+</code></pre><h3 id="t5012.2 大于等于操作符">12.2 大于等于操作符 <a href="#t5012.2 大于等于操作符"> # </a></h3>
+<p><strong>语法</strong></p>
+<pre><code class="lang-js">db.collectoin_name.find({&lt;key&gt;:{<span class="hljs-attr">$gte</span>:<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">value</span>&gt;</span>}})
+</span></code></pre>
+<p><strong>参数</strong></p>
+<ul>
+<li>collectoin_name 集合名称</li>
+<li>key  字段</li>
+<li>value  值</li>
+</ul>
+<p>查询age 3大于等于30 的数据</p>
+<pre><code class="lang-js">db.students.find({<span class="hljs-attr">age</span>: {<span class="hljs-attr">$gte</span>: <span class="hljs-number">30</span>}}) 
+</code></pre>
+<h3 id="t5112.3 小于操作符">12.3 小于操作符 <a href="#t5112.3 小于操作符"> # </a></h3>
+<p><strong>语法</strong></p>
+<pre><code class="lang-js">db.collectoin_name.find( {&lt;key&gt;:{<span class="hljs-attr">$lt</span>:<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">value</span>&gt;</span>}})
+</span></code></pre>
+<p><strong>参数</strong></p>
+<ul>
+<li>collectoin_name集合名称</li>
+<li>key 字段</li>
+<li>value 值</li>
+</ul>
+<p><strong>实例</strong></p>
+<pre><code class="lang-js">db.students.find({<span class="hljs-attr">age</span>: {<span class="hljs-attr">$lt</span>: <span class="hljs-number">30</span>}}) 查询age 小于<span class="hljs-number">30</span>的数据
+</code></pre>
+<h3 id="t5212.4 小于等于操作符">12.4 小于等于操作符 <a href="#t5212.4 小于等于操作符"> # </a></h3>
+<p><strong>语法</strong></p>
+<pre><code>db.collectoin_name.find({&lt;key&gt;:{$lte:&lt;value&gt;}})
+</code></pre><p><strong>参数</strong></p>
+<ul>
+<li>collectoin_name集合名词</li>
+<li>key字段</li>
+<li>value值</li>
+</ul>
+<p>查询age 小于等于30的数据</p>
+<pre><code>db.students.find({age: {$lte: 30}}) 
+</code></pre><h3 id="t5312.5 同时使用 $gte和$lte">12.5 同时使用 $gte和$lte <a href="#t5312.5 同时使用 $gte和$lte"> # </a></h3>
+<p><strong>语法</strong></p>
+<pre><code class="lang-js">db.collectoin_name.find({&lt;key&gt;:{<span class="hljs-attr">$gte</span>:&lt;value&gt;},&lt;key&gt;:{$lte:&lt;value&gt;}})
+</code></pre>
+<p><strong>参数</strong></p>
+<ul>
+<li>collectoin_name 集合名称</li>
+<li>key 字段</li>
+<li>value 值</li>
+</ul>
+<p><strong>实例</strong>
+查询age 大于等于 30 并且 age 小于等于 50  的数据</p>
+<pre><code class="lang-js">db.students.find({<span class="hljs-attr">age</span>: {<span class="hljs-attr">$gte</span>: <span class="hljs-number">30</span>, <span class="hljs-attr">$lte</span>: <span class="hljs-number">50</span>}})
+</code></pre>
+<h3 id="t5412.6 等于">12.6 等于 <a href="#t5412.6 等于"> # </a></h3>
+<p><strong>语法</strong></p>
+<pre><code class="lang-js">db.collectoin_name.find({&lt;key&gt;:&lt;value&gt;,&lt;key&gt;:&lt;value&gt;})
+</code></pre>
+<p><strong>参数</strong></p>
+<ul>
+<li>collectoin_name集合名词</li>
+<li>key字段</li>
+<li>value值</li>
+</ul>
+<p>查询age = 30的数据</p>
+<pre><code class="lang-js">db.students.find({<span class="hljs-string">"age"</span>: <span class="hljs-number">30</span>})<span class="hljs-string">`
+</span></code></pre>
+<h3 id="t5512.7 使用 _id进行查询">12.7 使用 _id进行查询 <a href="#t5512.7 使用 _id进行查询"> # </a></h3>
+<p><strong>语法</strong></p>
+<pre><code class="lang-js">db.collectoin_name.find({<span class="hljs-string">"_id"</span> : ObjectId(<span class="hljs-string">"value"</span>)})
+</code></pre>
+<p><strong>参数</strong></p>
+<ul>
+<li>value  <code>_id</code>的值</li>
+</ul>
+<p><strong>实例</strong>
+查询_id是 562af23062d5a57609133974 数据</p>
+<pre><code class="lang-js">&gt; db.students.find({<span class="hljs-attr">_id</span>:ObjectId(<span class="hljs-string">"5adb666ecd738e9771638985"</span>)});
+{ <span class="hljs-string">"_id"</span> : ObjectId(<span class="hljs-string">"5adb666ecd738e9771638985"</span>), <span class="hljs-string">"name"</span> : <span class="hljs-string">"zzzz"</span> }
+</code></pre>
+<h3 id="t5612.8 查询结果集的条数">12.8 查询结果集的条数 <a href="#t5612.8 查询结果集的条数"> # </a></h3>
+<p><strong>语法</strong></p>
+<pre><code class="lang-js">db.collectoin_name.find().count()
+</code></pre>
+<p><strong>参数</strong></p>
+<ul>
+<li>collectoin_name 集合名称</li>
+</ul>
+<p><strong>实例</strong></p>
+<pre><code class="lang-js">db.students.find().count()
+</code></pre>
+<h3 id="t5712.9 正则匹配">12.9 正则匹配 <a href="#t5712.9 正则匹配"> # </a></h3>
+<p><strong>语法</strong></p>
+<pre><code class="lang-js">db.collection.find({<span class="hljs-attr">key</span>:<span class="hljs-regexp">/value/</span>})
+</code></pre>
+<p><strong>参数</strong></p>
+<ul>
+<li>collectoin_name 集合名称</li>
+<li>key 字段</li>
+<li>value 值</li>
+</ul>
+<p><strong>实例</strong>
+查询name里包含zhang的数据</p>
+<pre><code class="lang-js">db.students.find({<span class="hljs-attr">name</span>:<span class="hljs-regexp">/value/</span>})
+</code></pre>
+<p>查询某个字段的值当中是否以另一个值开头</p>
+<pre><code class="lang-js">db.students.find({<span class="hljs-attr">name</span>:<span class="hljs-regexp">/^zhang/</span>})
+</code></pre>
+<h2 id="t5813. 与和或">13. 与和或 <a href="#t5813. 与和或"> # </a></h2>
+<h3 id="t5913.1 and">13.1 and <a href="#t5913.1 and"> # </a></h3>
+<p>find方法可以传入多个键(key)，每个键(key)以逗号隔开</p>
+<p><strong>语法</strong></p>
+<pre><code class="lang-js">db.collection_name.find({<span class="hljs-attr">key1</span>:value1, <span class="hljs-attr">key2</span>:value2})
+</code></pre>
+<p><strong>实例</strong>
+查询name是zfpx并且age是1的数据</p>
+<pre><code class="lang-js">db.students.find({<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx'</span>,<span class="hljs-attr">age</span>:<span class="hljs-number">1</span>})
+</code></pre>
+<h3 id="t6013.2 or">13.2 or <a href="#t6013.2 or"> # </a></h3>
+<p><strong>语法</strong></p>
+<pre><code class="lang-js">db.collection_name.find(
+   {
+      <span class="hljs-attr">$or</span>: [
+   {<span class="hljs-attr">key1</span>: value1}, {<span class="hljs-attr">key2</span>:value2}
+      ]
+   }
+)
+</code></pre>
+<p><strong>实例</strong>
+查询age = 30 或者 age = 50  的数据</p>
+<pre><code class="lang-js">db.students.find({<span class="hljs-attr">$or</span>:[{<span class="hljs-attr">age</span>:<span class="hljs-number">30</span>},{<span class="hljs-attr">age</span>:<span class="hljs-number">50</span>}]})
+</code></pre>
+<h3 id="t6113.3 and和or联用">13.3 and和or联用 <a href="#t6113.3 and和or联用"> # </a></h3>
+<p><strong>语法</strong></p>
+<pre><code class="lang-js">db.collection_name.find(
+   {
+     <span class="hljs-attr">key1</span>:value1,
+     <span class="hljs-attr">key2</span>:value2,
+     <span class="hljs-attr">$or</span>: [
+   {<span class="hljs-attr">key1</span>: value1},
+   {<span class="hljs-attr">key2</span>:value2}
+     ]
+   }
+)
+</code></pre>
+<p><strong>实例</strong>
+查询 name是zfpx 并且 age是30 或者 age是 50 的数据</p>
+<pre><code class="lang-js">db.students.find({<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx'</span>,<span class="hljs-attr">$or</span>:[{<span class="hljs-attr">age</span>:<span class="hljs-number">30</span>},{<span class="hljs-attr">age</span>:<span class="hljs-number">50</span>}]})
+</code></pre>
+<h2 id="t6214. 分页查询">14. 分页查询 <a href="#t6214. 分页查询"> # </a></h2>
+<h3 id="t6314.1 limit">14.1 limit <a href="#t6314.1 limit"> # </a></h3>
+<p>读取指定数量的数据记录
+<strong>语法</strong></p>
+<pre><code class="lang-js">db.collectoin_name.find().limit(number)
+</code></pre>
+<p><strong> 参数</strong></p>
+<ul>
+<li>collectoin_name集合</li>
+<li>number读取的条数</li>
+</ul>
+<p><strong>实例</strong>
+查询前3条数据</p>
+<pre><code class="lang-js">db.students.find().limit(<span class="hljs-number">3</span>)
+</code></pre>
+<h3 id="t6414.2 skip">14.2 skip <a href="#t6414.2 skip"> # </a></h3>
+<p>跳过指定数量的数据，skip方法同样接受一个数字参数作为跳过的记录条数
+<strong>语法</strong></p>
+<pre><code class="lang-js">db.collectoin_name.find().skip(number)
+</code></pre>
+<p><strong>参数</strong></p>
+<ul>
+<li>collectoin_name集合</li>
+<li>number跳过的条数</li>
+</ul>
+<p><strong>实例</strong>
+查询3条以后的数据</p>
+<pre><code class="lang-js">db.students.find().skip(<span class="hljs-number">3</span>)
+</code></pre>
+<h3 id="t6514.3 skip+limit">14.3 skip+limit <a href="#t6514.3 skip+limit"> # </a></h3>
+<p>通常用这种方式来实现分页功能
+<strong>语法</strong></p>
+<pre><code class="lang-js">db.collectoin_name.find().skip(skipNum).limit(limitNum)
+</code></pre>
+<p><strong>参数</strong></p>
+<ul>
+<li>collectoin_name 集合名称</li>
+<li>skipNum 跳过的条数</li>
+<li>limitNum 限制返回的条数</li>
+</ul>
+<p><strong>实例</strong>
+查询在4-6之间的数据</p>
+<pre><code class="lang-js">db.students.find().skip(<span class="hljs-number">3</span>).limit(<span class="hljs-number">3</span>);
+</code></pre>
+<h3 id="t6614.4 sort排序">14.4 sort排序 <a href="#t6614.4 sort排序"> # </a></h3>
+<p>sort()方法可以通过参数指定排序的字段，并使用 1 和 -1 来指定排序的方式，其中 1 为升序排列，而-1是用于降序排列。
+<strong>语法</strong></p>
+<pre><code class="lang-js">db.collectoin_name.find().sort({<span class="hljs-attr">key</span>:<span class="hljs-number">1</span>})
+db.collectoin_name.find().sort({<span class="hljs-attr">key</span>:<span class="hljs-number">-1</span>})
+</code></pre>
+<p><strong>参数</strong></p>
+<ul>
+<li>collectoin_name集合</li>
+<li>key表示字段</li>
+</ul>
+<p><strong>实例</strong>
+查询出并升序排序 {age:1}  age表示按那个字段排序 1表示升序</p>
+<pre><code>db.students.find().sort({age:1})
+</code></pre><h2 id="t6715. 执行脚本">15. 执行脚本 <a href="#t6715. 执行脚本"> # </a></h2>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> username = <span class="hljs-string">'zfpx'</span>;
+<span class="hljs-keyword">var</span> password = <span class="hljs-string">'123456'</span>;
+<span class="hljs-keyword">var</span> user = { <span class="hljs-string">"username"</span>: username, <span class="hljs-string">"password"</span>: password };
+<span class="hljs-keyword">var</span> db = connect(<span class="hljs-string">'students'</span>);<span class="hljs-comment">//选择users数据库</span>
+<span class="hljs-keyword">var</span> result = db.users.insert(user);
+print(<span class="hljs-string">'write '</span> + result);
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> start = <span class="hljs-built_in">Date</span>.now();
+<span class="hljs-keyword">var</span> db = connect(<span class="hljs-string">'students'</span>);
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">1000</span>; i++) {
+    db.users.insert({ <span class="hljs-string">"username"</span>: <span class="hljs-string">"zfpx"</span> + i });
+}
+<span class="hljs-keyword">var</span> cost = <span class="hljs-built_in">Date</span>.now() - start;
+print(<span class="hljs-string">'cost '</span> + cost + <span class="hljs-string">' ms'</span>);
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> start = <span class="hljs-built_in">Date</span>.now();
+<span class="hljs-keyword">var</span> db = connect(<span class="hljs-string">'students'</span>);
+<span class="hljs-keyword">var</span> users = [];
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">1000</span>; i++) {
+    users.push({ <span class="hljs-string">"username"</span>: <span class="hljs-string">"zfpx"</span> + i });
+}
+db.users.insert(users);
+<span class="hljs-keyword">var</span> cost = <span class="hljs-built_in">Date</span>.now() - start;
+print(<span class="hljs-string">'cost '</span> + cost + <span class="hljs-string">' ms'</span>);
+</code></pre>
+<p>在命令行中执行</p>
+<pre><code class="lang-js">script&gt;mongo <span class="hljs-number">1.</span>js
+MongoDB shell version: <span class="hljs-number">2.6</span><span class="hljs-number">.7</span>
+connecting to: test
+connecting to: students
+write WriteResult({ <span class="hljs-string">"nInserted"</span> : <span class="hljs-number">1</span> })
+</code></pre>
+<h3 id="t6816.  备份与导出">16.  备份与导出 <a href="#t6816.  备份与导出"> # </a></h3>
+<pre><code class="lang-js">mongodump
+    -- host <span class="hljs-number">127.0</span><span class="hljs-number">.0</span><span class="hljs-number">.1</span>
+    -- port <span class="hljs-number">27017</span>
+    -- out D:<span class="hljs-regexp">/databack/</span>backup
+    -- collection mycollection
+    -- db test
+    -- username
+    -- password
+<span class="hljs-comment">//mongodump --host 127.0.0.1 --port 27017 --out ./backup --collection users --db students</span>
+<span class="hljs-comment">//db.users.drop();</span>
+
+mongorestore
+--host
+--port
+--username
+--password
+
+<span class="hljs-comment">// mongorestore --host 127.0.0.1 --port 27017 ./backup</span>
+</code></pre>
+<h2 id="t6917.  权限">17.  权限 <a href="#t6917.  权限"> # </a></h2>
+<h3 id="t7017.1 创建用户">17.1 创建用户 <a href="#t7017.1 创建用户"> # </a></h3>
+<ul>
+<li>使用<code>use admin</code>进入我们的admin库</li>
+<li>使用<code>db.createUser</code>方法来创建集合</li>
+</ul>
+<pre><code class="lang-js">db.createUser({
+    user:'zfpx',
+    pwd:'123456',
+    customData:{
+        name:'zhufengpeixun',
+        email:'zhufengpeixun@126.com',
+        age:9
+    },
+    roles:[
+        {
+          role:'readWrite',
+          db:'school'
+        },
+        'read'
+    ]
+});
+
+### 17.2 查询用户
+```js
+db.system.users.find();
+</code></pre>
+<h3 id="t7117.3 删除用户">17.3 删除用户 <a href="#t7117.3 删除用户"> # </a></h3>
+<pre><code class="lang-js">db.system.users.remove({<span class="hljs-attr">user</span>:<span class="hljs-string">'zfpx'</span>});
+</code></pre>
+<h3 id="t7217.4 启动数据库权限检查">17.4 启动数据库权限检查 <a href="#t7217.4 启动数据库权限检查"> # </a></h3>
+<pre><code class="lang-js">mongod --auth
+mongo  -u zfpx -p <span class="hljs-number">123456</span> <span class="hljs-number">127.0</span><span class="hljs-number">.0</span><span class="hljs-number">.1</span>:<span class="hljs-number">27017</span>/admin
+</code></pre>
+<h3 id="t7317.5 鉴权">17.5 鉴权 <a href="#t7317.5 鉴权"> # </a></h3>
+<pre><code class="lang-js">use admin;
+db.auth(<span class="hljs-string">'zfpx'</span>,<span class="hljs-string">'zfpx'</span>);
+</code></pre>
+<ul>
+<li>正确返回1，如果错误返回0</li>
+</ul>
+<h2 id="t7418. 索引">18. 索引 <a href="#t7418. 索引"> # </a></h2>
+<h3 id="t7518.1 准备数据">18.1 准备数据 <a href="#t7518.1 准备数据"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> db = connect(<span class="hljs-string">'school'</span>);<span class="hljs-comment">//选择users数据库</span>
+<span class="hljs-keyword">var</span> users = [];
+<span class="hljs-keyword">for</span>(<span class="hljs-keyword">var</span> i=<span class="hljs-number">0</span>;i&lt;<span class="hljs-number">20</span>;i++){
+    users.push({<span class="hljs-attr">_id</span>:i,<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx'</span>+i});
+}
+print(users.length);
+db.users.insert(users);
+</code></pre>
+<h3 id="t7618.2 打印出查询时间">18.2 打印出查询时间 <a href="#t7618.2 打印出查询时间"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> startTime = <span class="hljs-built_in">Date</span>.now();
+<span class="hljs-keyword">var</span>  db = connect(<span class="hljs-string">'school'</span>);          
+<span class="hljs-keyword">var</span>  records=db.users.find({<span class="hljs-attr">name</span>:<span class="hljs-string">"zfpx100"</span>});
+records.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">item</span>)</span>{printjson(item)});
+print(<span class="hljs-built_in">Date</span>.now() - startTime);
+</code></pre>
+<h3 id="t7718.3  建立索引">18.3  建立索引 <a href="#t7718.3  建立索引"> # </a></h3>
+<pre><code class="lang-js">db.users.ensureIndex({<span class="hljs-attr">name</span>:<span class="hljs-number">1</span>});
+</code></pre>
+<h2 id="t7819. 附录">19. 附录 <a href="#t7819. 附录"> # </a></h2>
+<h3 id="t7919.1 ObjectId构成">19.1 ObjectId构成 <a href="#t7919.1 ObjectId构成"> # </a></h3>
+<p>之前我们使用MySQL等关系型数据库时，主键都是设置成自增的。但在分布式环境下，这种方法就不可行了，会产生冲突。为此，MongoDB采用了一个称之为ObjectId的类型来做主键。ObjectId是一个12字节的 BSON 类型字符串。按照字节顺序，一次代表：</p>
+<ul>
+<li>4字节：UNIX时间戳</li>
+<li>3字节：表示运行MongoDB的机器</li>
+<li>2字节：表示生成此_id的进程</li>
+<li>3字节：由一个随机数开始的计数器生成的值</li>
+</ul>
+<h3 id="t8019.2 Mongodb启动命令mongod参数说明">19.2 Mongodb启动命令mongod参数说明 <a href="#t8019.2 Mongodb启动命令mongod参数说明"> # </a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">选项</th>
+<th style="text-align:left">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">--port</td>
+<td style="text-align:left">指定服务端口号，默认端口27017</td>
+</tr>
+<tr>
+<td style="text-align:left">--logpath</td>
+<td style="text-align:left">指定MongoDB日志文件，注意是指定文件不是目录</td>
+</tr>
+<tr>
+<td style="text-align:left">--logappend</td>
+<td style="text-align:left">使用追加的方式写日志</td>
+</tr>
+<tr>
+<td style="text-align:left">--dbpath</td>
+<td style="text-align:left">指定数据库路径</td>
+</tr>
+<tr>
+<td style="text-align:left">--directoryperdb</td>
+<td style="text-align:left">设置每个数据库将被保存在一个单独的目录</td>
+</tr>
+</tbody>
+</table>
+<h2 id="t8119.3 集合命令">19.3 集合命令 <a href="#t8119.3 集合命令"> # </a></h2>
+<ul>
+<li>db.students.help();</li>
+<li>DBCollection help</li>
+<li>db.students.find().help() - show DBCursor help 显示游标帮助</li>
+<li>db.students.count()   显示条数</li>
+<li>db.students.copyTo(newColl) - duplicates collection by copying all docum
+ents to newColl; no indexes are copied. 把一个旧集合拷贝到一个新的集合，不拷贝索引</li>
+<li>db.students.convertToCapped(maxBytes) - calls {convertToCapped:'students
+', size:maxBytes}} command  </li>
+<li>db.students.dataSize() 数据大小</li>
+<li>db.students.distinct( key ) - e.g. db.students.distinct( 'x' ) 统计唯一的key的数量</li>
+<li>db.students.drop() drop the collection ，删除集合</li>
+<li>db.students.dropIndex(index) - e.g. db.students.dropIndex( "indexName" ) 删除索引
+or db.students.dropIndex( { "indexKey" : 1 } )</li>
+<li>db.students.dropIndexes() 删除 所有的索引</li>
+<li>db.students.ensureIndex(keypattern[,options]) - options is an object wit
+h these possible fields: name, unique, dropDups 添加索引</li>
+<li>db.students.reIndex() </li>
+<li>db.students.find([query],[fields]) - query is an optional query filter.
+fields is optional set of fields to return. 查找文档<pre><code>     e.g. db.students.find( {x:
+</code></pre>77} , {name:1, x:1} )</li>
+<li>db.students.find(...).count() 数量</li>
+<li>db.students.find(...).limit(n) 限制返回的条数</li>
+<li>db.students.find(...).skip(n) 设置跳过的条数</li>
+<li>db.students.find(...).sort(...) 排序</li>
+<li>db.students.findOne([query]) 查找一条</li>
+<li>db.students.findAndModify( { update : ... , remove : bool [, query: {},
+sort: {}, 'new': false] } )  查找并且修改 更新后的值，是否删除，查询条件 排序  是否返回新值</li>
+<li>db.students.getDB() get DB object associated with collection 获得DB</li>
+<li>db.students.getPlanCache() get query plan cache associated with collecti
+on</li>
+<li>db.students.getIndexes() 获取索引</li>
+<li>db.students.group( { key : ..., initial: ..., reduce : ...[, cond: ...]
+} ) 分组统计 </li>
+<li>db.students.insert(obj) 插入文档</li>
+<li>db.students.mapReduce( mapFunction , reduceFunction , <optional params="">
+) 统计 </optional></li>
+<li>db.students.aggregate( [pipeline], <optional params=""> ) - performs an agg
+regation on a collection; returns a cursor 聚合</optional></li>
+<li>db.students.remove(query) 删除 </li>
+<li>db.students.renameCollection( newName , <droptarget> ) renames the colle
+ction. 重命名集合</droptarget></li>
+<li>db.students.runCommand( name , <options> ) runs a db command with the gi
+ven name where the first param is the collection name</options></li>
+<li>db.students.save(obj) 保存对象</li>
+<li>db.students.stats() 统计信息</li>
+<li>db.students.storageSize() - includes free space allocated to this collec
+tion</li>
+<li>db.students.totalIndexSize() - size in bytes of all the indexes</li>
+<li>db.students.totalSize() - storage allocated for all data and indexes</li>
+<li>db.students.update(query, object[, upsert_bool, multi_bool]) - instead o
+f two flags, you can pass an object with fields: upsert, multi 更新</li>
+<li>db.students.validate( <full> ) - SLOW</full></li>
+<li>db.students.getShardVersion() - only for use with sharding</li>
+<li>db.students.getShardDistribution() - prints statistics about data distri
+bution in the cluster</li>
+<li>db.students.getSplitKeysForChunks( <maxchunksize> ) - calculates split p
+oints over all chunks and returns splitter function</maxchunksize></li>
+<li>db.students.getWriteConcern() - returns the write concern used for any o
+perations on this collection, inherited from server/db if set</li>
+<li>db.students.setWriteConcern( <write concern="" doc=""> ) - sets the write conc
+ern for writes to the collection</write></li>
+<li>db.students.unsetWriteConcern( <write concern="" doc=""> ) - unsets the write
+concern for writes to the collection</write></li>
+</ul>
+<h3 id="t8219.4 数据库中的内置角色">19.4 数据库中的内置角色 <a href="#t8219.4 数据库中的内置角色"> # </a></h3>
+<ul>
+<li>数据库用户角色：read、readWrite</li>
+<li>数据库管理角色：dbAdmin、dbOwner、userAdmin</li>
+<li>集群管理角色：clusterAdmin、clusterManager、clusterMonitor、hostManage</li>
+<li>备份恢复角色：backup、restore</li>
+<li>所有数据库角色：readAnyDatabase、readWriteAnyDatabase、userAdminAnyDatabase、dbAdminAnyDatabase</li>
+<li>超级用户角色：root</li>
+<li>内部角色：__system</li>
+</ul>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

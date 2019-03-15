@@ -1,0 +1,667 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li class="active"><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. React生命周期">1. React生命周期</a></li><li><a href="#t12. 使用 PropTypes 进行类型检查">2. 使用 PropTypes 进行类型检查</a></li><li><a href="#t23. 优化性能">3. 优化性能</a><ul><li><a href="#t33.1 使用生产版本">3.1 使用生产版本</a></li><li><a href="#t44. 使用 Chrome 性能分析工具 分析组件性能">4. 使用 Chrome 性能分析工具 分析组件性能</a></li><li><a href="#t55. 避免重新渲染">5. 避免重新渲染</a></li><li><a href="#t65.1 shouldComponentUpdate">5.1 shouldComponentUpdate</a></li><li><a href="#t75.2 React.PureComponent 与 React.Component 完全相同，但是在shouldComponentUpdate()中实现时，使用了 props 和 state 的浅比较">5.2 React.PureComponent 与 React.Component 完全相同，但是在shouldComponentUpdate()中实现时，使用了 props 和 state 的浅比较</a></li><li><a href="#t85.3 使用 Immutable 数据结构">5.3 使用 Immutable 数据结构</a></li></ul></li><li><a href="#t96. Reconciliation">6. Reconciliation</a></li><li><a href="#t107. 上下文(Context)">7. 上下文(Context)</a></li><li><a href="#t118. 片段(fragments)">8. 片段(fragments)</a></li><li><a href="#t129. 插槽(Portals)">9. 插槽(Portals)</a></li><li><a href="#t1310. 错误边界(Error Boundaries)">10. 错误边界(Error Boundaries)</a></li><li><a href="#t1411. 高阶组件(Higher-Order Components)">11. 高阶组件(Higher-Order Components)</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. React生命周期">1. React生命周期 <a href="#t01. React生命周期"> # </a></h2>
+<pre><code class="lang-js"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Counter</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span></span>{ <span class="hljs-comment">// 他会比较两个状态相等就不会刷新视图 PureComponent是浅比较</span>
+  <span class="hljs-keyword">static</span> defaultProps = {
+    <span class="hljs-attr">name</span>:<span class="hljs-string">'珠峰培训'</span>
+  };
+  <span class="hljs-keyword">constructor</span>(props){
+    <span class="hljs-keyword">super</span>();
+    <span class="hljs-keyword">this</span>.state = {<span class="hljs-attr">number</span>:<span class="hljs-number">0</span>}
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'1.constructor构造函数'</span>)
+  }
+  componentWillMount(){ <span class="hljs-comment">// 取本地的数据 同步的方式：采用渲染之前获取数据，只渲染一次</span>
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'2.组件将要加载 componentWillMount'</span>);
+  }
+  componentDidMount(){
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'4.组件挂载完成 componentDidMount'</span>);
+  }
+  handleClick=<span class="hljs-function"><span class="hljs-params">()</span>=&gt;</span>{
+    <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">number</span>:<span class="hljs-keyword">this</span>.state.number+<span class="hljs-number">1</span>});
+  };
+  <span class="hljs-comment">// react可以shouldComponentUpdate方法中优化 PureComponent 可以帮我们做这件事</span>
+  shouldComponentUpdate(nextProps,nextState){ <span class="hljs-comment">// 代表的是下一次的属性 和 下一次的状态</span>
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'5.组件是否更新 shouldComponentUpdate'</span>);
+    <span class="hljs-keyword">return</span> nextState.number%<span class="hljs-number">2</span>;
+    <span class="hljs-comment">// return nextState.number!==this.state.number; //如果此函数种返回了false 就不会调用render方法了</span>
+  } <span class="hljs-comment">//不要随便用setState 可能会死循环</span>
+  componentWillUpdate(){
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'6.组件将要更新 componentWillUpdate'</span>);
+  }
+  componentDidUpdate(){
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'7.组件完成更新 componentDidUpdate'</span>);
+  }
+  render(){
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'3.render'</span>);
+    <span class="hljs-keyword">return</span> (
+      <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>{this.state.number}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        {this.state.number&gt;3?null:<span class="hljs-tag">&lt;<span class="hljs-name">ChildCounter</span> <span class="hljs-attr">n</span>=<span class="hljs-string">{this.state.number}/</span>&gt;</span>}
+        <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>+<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    )
+  }
+}
+class ChildCounter extends Component{
+  componentWillUnmount(){
+    console.log('组件将要卸载componentWillUnmount')
+  }
+  componentWillMount(){
+    console.log('child componentWillMount')
+  }
+  render(){
+    console.log('child-render')
+    return (<span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+      {this.props.n}
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>)
+  }
+  componentDidMount(){
+    console.log('child componentDidMount')
+  }
+  componentWillReceiveProps(newProps){ // 第一次不会执行，之后属性更新时才会执行
+    console.log('child componentWillReceiveProps')
+  }
+  shouldComponentUpdate(nextProps,nextState){
+    return nextProps.n%3; //子组件判断接收的属性 是否满足更新条件 为true则更新
+  }
+}
+// defaultProps
+// constructor
+// componentWillMount
+// render
+// componentDidMount
+// 状态更新会触发的
+// shouldComponentUpdate nextProps,nextState=&gt;boolean
+// componentWillUpdate
+// componentDidUpdate
+// 属性更新
+// componentWillReceiveProps newProps
+// 卸载
+// componentWillUnmount
+</span></code></pre>
+<p><img src="http://son.fullstackjavascript.cn/lifeCycle.png" alt="lifeCycle"></p>
+<h2 id="t12. 使用 PropTypes 进行类型检查">2. 使用 PropTypes 进行类型检查 <a href="#t12. 使用 PropTypes 进行类型检查"> # </a></h2>
+<p>React 内置了类型检测的功能。要在组件中进行类型检测，你可以赋值 propTypes 属性</p>
+<ul>
+<li>.array 数组</li>
+<li>.bool 布尔值</li>
+<li>.func 函数</li>
+<li>.number 数字</li>
+<li>.object 对象</li>
+<li>.string 字符串</li>
+<li>.symbol 符号</li>
+<li>.node 任何东西都可以被渲染:numbers, strings, elements,或者是包含这些类型的数组(或者是片段)。</li>
+<li>.element React元素</li>
+<li>.instanceOf(Message) 类的一个实例</li>
+<li>.oneOf(['News', 'Photos']) 枚举值</li>
+<li>.oneOfType([PropTypes.string,PropTypes.number,PropTypes.instanceOf(Message)]) 多种类型其中之一</li>
+<li>.arrayOf(PropTypes.number) 某种类型的数组</li>
+<li>.objectOf(PropTypes.number)  某种类型的对象</li>
+<li>.shape({color: PropTypes.string,fontSize: PropTypes.number}) 特定形式的对象</li>
+<li>.func.isRequired 可以使用 `isRequired' 链接上述任何一个，以确保在没有提供 prop 的情况下显示警告</li>
+<li>.any.isRequired 任何数据类型的值</li>
+<li>function(props, propName, componentName) { return new Error()} 自定义的验证器</li>
+<li>.arrayOf(function(propValue, key, componentName, location, propFullName) {}</li>
+</ul>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+<span class="hljs-keyword">import</span> PropTypes <span class="hljs-keyword">from</span> <span class="hljs-string">'prop-types'</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span></span>{
+  <span class="hljs-keyword">static</span> defaultProps = {
+    <span class="hljs-attr">name</span>:<span class="hljs-string">'Stranger'</span>
+  }
+    <span class="hljs-keyword">static</span> propTypes={
+        <span class="hljs-attr">name</span>: PropTypes.string.isRequired,
+        <span class="hljs-attr">age</span>: PropTypes.number.isRequired,
+        <span class="hljs-attr">gender</span>: PropTypes.oneOf([<span class="hljs-string">'male'</span>,<span class="hljs-string">'famale'</span>]),
+        <span class="hljs-attr">hobby</span>: PropTypes.array,
+        <span class="hljs-attr">postion</span>: PropTypes.shape({
+            <span class="hljs-attr">x</span>: PropTypes.number,
+            <span class="hljs-attr">y</span>:PropTypes.number
+        }),
+        age(props,propName,componentName) {
+            <span class="hljs-keyword">let</span> age=props[propName];
+            <span class="hljs-keyword">if</span> (age &lt;<span class="hljs-number">0</span> || age&gt;<span class="hljs-number">120</span>) {
+                <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">`Invalid Prop <span class="hljs-subst">${propName}</span> supplied to <span class="hljs-subst">${componentName}</span>`</span>)
+            }
+        }
+    }
+    render() {
+        <span class="hljs-keyword">let</span> {name,age,gender,hobby,position}=<span class="hljs-keyword">this</span>.props;
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">table</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">thead</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>姓名<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>年龄<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>性别<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>爱好<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>位置<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>{name}<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>{age}<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>{gender}<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>{hobby.join(',')}<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>{position.x+' '+position.y}<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span></span>
+        )
+    }
+}
+<span class="hljs-keyword">let</span> person={
+    <span class="hljs-attr">age</span>: <span class="hljs-number">100</span>,
+    <span class="hljs-attr">gender</span>:<span class="hljs-string">'male'</span>,
+    <span class="hljs-attr">hobby</span>: [<span class="hljs-string">'basketball'</span>,<span class="hljs-string">'football'</span>],
+    <span class="hljs-attr">position</span>: {<span class="hljs-attr">x</span>: <span class="hljs-number">10</span>,<span class="hljs-attr">y</span>: <span class="hljs-number">10</span>},
+}
+ReactDOM.render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Person</span> {<span class="hljs-attr">...person</span>}/&gt;</span>, document.getElementById('root'));
+
+</span></code></pre>
+<h2 id="t23. 优化性能">3. 优化性能 <a href="#t23. 优化性能"> # </a></h2>
+<p>在内部，React使用几种巧妙的技术来最大限度地减少更新UI所需的昂贵的 DOM 操作的数量</p>
+<h3 id="t33.1 使用生产版本">3.1 使用生产版本 <a href="#t33.1 使用生产版本"> # </a></h3>
+<ul>
+<li>最好在开发应用时使用开发模式，部署应用时换为生产模式</li>
+</ul>
+<p><strong>Create React App</strong></p>
+<pre><code class="lang-js">npm run build
+</code></pre>
+<p><strong>单文件构建</strong></p>
+<pre><code class="lang-js">&lt;script src=<span class="hljs-string">"https://unpkg.com/react@15/dist/react.min.js"</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></span>
+&lt;script src=<span class="hljs-string">"https://unpkg.com/react-dom@15/dist/react-dom.min.js"</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></span>
+</code></pre>
+<p><strong>webpack</strong></p>
+<pre><code class="lang-js"><span class="hljs-keyword">new</span> webpack.DefinePlugin({
+  <span class="hljs-string">'process.env'</span>: {
+    <span class="hljs-attr">NODE_ENV</span>: <span class="hljs-built_in">JSON</span>.stringify(<span class="hljs-string">'production'</span>)
+  }
+}),
+<span class="hljs-keyword">new</span> webpack.optimize.UglifyJsPlugin()
+</code></pre>
+<h3 id="t44. 使用 Chrome 性能分析工具 分析组件性能">4. 使用 Chrome 性能分析工具 分析组件性能 <a href="#t44. 使用 Chrome 性能分析工具 分析组件性能"> # </a></h3>
+<ol>
+<li>通过添加 ?react_perf 查询字段加载你的应用(例如：<a href="http://localhost:3000/?react_perf)。">http://localhost:3000/?react_perf)。</a></li>
+<li>打开 Chrome DevTools Performance 并点击 Record 。<a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference">timeline-tool</a></li>
+<li>执行你想要分析的操作，不要超过20秒，否则 Chrome 可能会挂起。</li>
+<li>停止记录。</li>
+<li>在 User Timing 标签下，React事件将会分组列出。<a href="https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad">react-16</a></li>
+</ol>
+<h3 id="t55. 避免重新渲染">5. 避免重新渲染 <a href="#t55. 避免重新渲染"> # </a></h3>
+<ul>
+<li>React 构建并维护渲染 UI 的内部表示</li>
+<li>当组件的 props 和 state 改变时，React 通过比较新返回的元素 和 之前渲染的元素 来决定是否有必要更新DOM元素。当二者不相等时，则更新 DOM 元素</li>
+</ul>
+<p><img src="http://img.zhufengpeixun.cn/should-component.png" alt="shouldComponentUpdate"></p>
+<h3 id="t65.1 shouldComponentUpdate">5.1 shouldComponentUpdate <a href="#t65.1 shouldComponentUpdate"> # </a></h3>
+<h3 id="t75.2 React.PureComponent 与 React.Component 完全相同，但是在shouldComponentUpdate()中实现时，使用了 props 和 state 的浅比较">5.2 React.PureComponent 与 React.Component 完全相同，但是在shouldComponentUpdate()中实现时，使用了 props 和 state 的浅比较 <a href="#t75.2 React.PureComponent 与 React.Component 完全相同，但是在shouldComponentUpdate()中实现时，使用了 props 和 state 的浅比较"> # </a></h3>
+<h3 id="t85.3 使用 Immutable 数据结构">5.3 使用 Immutable 数据结构 <a href="#t85.3 使用 Immutable 数据结构"> # </a></h3>
+<ul>
+<li>不可变(Immutable): 一个集合一旦创建，在其他时间是不可更改的。</li>
+<li>持久的(Persistent): 新的集合可以基于之前的结合创建并产生突变，例如：set。原来的集合在新集合创建之后仍然是可用的。</li>
+<li>结构共享(Structural Sharing): 新的集合尽可能通过之前集合相同的结构创建，最小程度地减少复制操作来提高性能。<pre><code class="lang-js"><span class="hljs-keyword">import</span> { is } <span class="hljs-keyword">from</span> <span class="hljs-string">'immutable'</span>;
+shouldComponentUpdate: <span class="hljs-function">(<span class="hljs-params">nextProps, nextState</span>) =&gt;</span> {
+<span class="hljs-keyword">return</span> !(<span class="hljs-keyword">this</span>.props === nextProps || is(<span class="hljs-keyword">this</span>.props, nextProps)) ||
+       !(<span class="hljs-keyword">this</span>.state === nextState || is(<span class="hljs-keyword">this</span>.state, nextState));
+}
+</code></pre>
+改进setState<pre><code class="lang-js"><span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">data</span>: <span class="hljs-keyword">this</span>.state.data.update(<span class="hljs-string">'counter'</span>, counter =&gt; counter + <span class="hljs-number">1</span>) });
+</code></pre>
+</li>
+</ul>
+<h2 id="t96. Reconciliation">6. Reconciliation <a href="#t96. Reconciliation"> # </a></h2>
+<p><a href="http://www.css88.com/react/docs/reconciliation.html">reconciliation</a></p>
+<p>当比较不同的两个树，React 首先比较两个根元素。根据根跟的类型不同，它有不同的行为</p>
+<ul>
+<li>当根元素类型不同时，React 将会销毁原先的树并重写构建新的树</li>
+<li>当比较两个相同类型的 React DOM 元素时，React 检查它们的属性（attributes），保留相同的底层 DOM 节点，只更新发生改变的属性（attributes）</li>
+<li>当一个组件更新的时候，组件实例保持不变，以便在渲染中保持state。React会更新组件实例的属性来匹配新的元素，并在元素实例上调用 componentWillReceiveProps() 和 componentWillUpdate()</li>
+<li>Keys</li>
+</ul>
+<h2 id="t107. 上下文(Context)">7. 上下文(Context) <a href="#t107. 上下文(Context)"> # </a></h2>
+<p>在某些场景下，你想在整个组件树中传递数据，但却不想手动地在每一层传递属性。你可以直接在 React 中使用强大的”context” API解决上述问题</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+<span class="hljs-keyword">import</span> PropTypes <span class="hljs-keyword">from</span> <span class="hljs-string">'prop-types'</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Header</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Title</span>/&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        )
+    }
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Title</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    <span class="hljs-keyword">static</span> contextTypes={
+        <span class="hljs-attr">color</span>:PropTypes.string
+    }
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{color:this.context.color}}</span>&gt;</span>
+                Title
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        )
+    }
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Content</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">Content</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        )
+    }
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Content</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    <span class="hljs-keyword">static</span> contextTypes={
+        <span class="hljs-attr">color</span>: PropTypes.string,
+        <span class="hljs-attr">changeColor</span>:PropTypes.func
+    }
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{color:this.context.color}}</span>&gt;</span>
+                Content
+                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{()</span>=&gt;</span>this.context.changeColor('green')}&gt;绿色<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{()</span>=&gt;</span>this.context.changeColor('orange')}&gt;橙色<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        )
+    }
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Page</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    <span class="hljs-keyword">constructor</span>() {
+        <span class="hljs-keyword">super</span>();
+        <span class="hljs-keyword">this</span>.state={<span class="hljs-attr">color</span>:<span class="hljs-string">'red'</span>};
+    }
+    <span class="hljs-keyword">static</span> childContextTypes={
+        <span class="hljs-attr">color</span>: PropTypes.string,
+        <span class="hljs-attr">changeColor</span>:PropTypes.func
+    }
+    getChildContext() {
+        <span class="hljs-keyword">return</span> {
+            <span class="hljs-attr">color</span>: <span class="hljs-keyword">this</span>.state.color,
+            <span class="hljs-attr">changeColor</span>:<span class="hljs-function">(<span class="hljs-params">color</span>)=&gt;</span>{
+                <span class="hljs-keyword">this</span>.setState({color})
+            }
+        }
+    }
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Header</span>/&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Main</span>/&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        )
+    }
+}
+ReactDOM.render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Page</span>/&gt;</span></span>,<span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#root'</span>));
+</code></pre>
+<h2 id="t118. 片段(fragments)">8. 片段(fragments) <a href="#t118. 片段(fragments)"> # </a></h2>
+<p>React 中一个常见模式是为一个组件返回多个元素。 片段(fragments) 可以让你将子元素列表添加到一个分组中，并且不会在DOM中增加额外节点。</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">List</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span></span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;React.Fragment&gt;
+            {
+                this.props.todos.map(item =&gt; (&lt;li&gt;{item}&lt;/li&gt;))
+            }
+           &lt;/React.Fragment&gt;
+        )
+    }
+}
+class Todos extends React.Component{
+    constructor() {
+        super();
+        this.state={todos:['a','b','c']};
+    }
+    render() {
+        return (
+            &lt;ul&gt;
+                &lt;List todos={this.state.todos}/&gt;
+            &lt;/ul&gt;
+        )
+    }
+}
+
+ReactDOM.render(&lt;Todos/&gt;,document.querySelector('#root'));
+</code></pre>
+<h2 id="t129. 插槽(Portals)">9. 插槽(Portals) <a href="#t129. 插槽(Portals)"> # </a></h2>
+<p>Portals 提供了一种很好的方法，将子节点渲染到父组件 DOM 层次结构之外的 DOM 节点。</p>
+<pre><code class="lang-js">ReactDOM.createPortal(child, container)
+</code></pre>
+<ul>
+<li>第一个参数（child）是任何可渲染的 React 子元素，例如一个元素，字符串或 片段(fragment)</li>
+<li>第二个参数（container）则是一个 DOM 元素</li>
+</ul>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'./modal.css'</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Modal</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    <span class="hljs-keyword">constructor</span>() {
+        <span class="hljs-keyword">super</span>();
+        <span class="hljs-keyword">this</span>.modal=<span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#modal-root'</span>);
+    }
+    render() {
+        <span class="hljs-keyword">return</span> ReactDOM.createPortal(<span class="hljs-keyword">this</span>.props.children,<span class="hljs-keyword">this</span>.modal);
+    }
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Page</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    <span class="hljs-keyword">constructor</span>() {
+        <span class="hljs-keyword">super</span>();
+        <span class="hljs-keyword">this</span>.state={<span class="hljs-attr">show</span>:<span class="hljs-literal">false</span>};
+    }
+    handleClick=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">show</span>:!<span class="hljs-keyword">this</span>.state.show});
+    }
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>显示模态窗口<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+                {
+                    this.state.show&amp;&amp;<span class="hljs-tag">&lt;<span class="hljs-name">Modal</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"modal"</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"modal"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"modal-content"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"modal-content"</span>&gt;</span>
+                                内容
+                                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>关闭<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">Modal</span>&gt;</span>
+                }
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        )
+    }
+}
+ReactDOM.render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Page</span>/&gt;</span></span>,<span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#root'</span>));
+</code></pre>
+<pre><code class="lang-css"><span class="hljs-selector-class">.modal</span>{
+    <span class="hljs-attribute">position</span>: fixed;
+    <span class="hljs-attribute">left</span>:<span class="hljs-number">0</span>;
+    <span class="hljs-attribute">top</span>:<span class="hljs-number">0</span>;
+    <span class="hljs-attribute">right</span>:<span class="hljs-number">0</span>;
+    <span class="hljs-attribute">bottom</span>:<span class="hljs-number">0</span>;
+    <span class="hljs-attribute">background</span>: <span class="hljs-built_in">rgba</span>(0,0,0,.5);
+    <span class="hljs-attribute">display</span>: block;
+}
+
+@<span class="hljs-keyword">keyframes</span> zoom{
+    <span class="hljs-selector-tag">from</span>{<span class="hljs-attribute">transform</span>:<span class="hljs-built_in">scale</span>(0);}
+    <span class="hljs-selector-tag">to</span>{<span class="hljs-attribute">transform</span>:<span class="hljs-built_in">scale</span>(1);}
+}
+
+<span class="hljs-selector-class">.modal</span> <span class="hljs-selector-class">.modal-content</span>{
+    <span class="hljs-attribute">width</span>:<span class="hljs-number">50%</span>;
+    <span class="hljs-attribute">height</span>:<span class="hljs-number">50%</span>;
+    <span class="hljs-attribute">background</span>: white;
+    <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">10px</span>;
+    <span class="hljs-attribute">margin</span>:<span class="hljs-number">100px</span> auto;
+    <span class="hljs-attribute">display</span>:flex;
+    <span class="hljs-attribute">flex-direction</span>: row;
+    <span class="hljs-attribute">justify-content</span>: center;
+    <span class="hljs-attribute">align-items</span>: center;
+    <span class="hljs-attribute">animation</span>: zoom .<span class="hljs-number">6s</span>;
+}
+</code></pre>
+<h2 id="t1310. 错误边界(Error Boundaries)">10. 错误边界(Error Boundaries) <a href="#t1310. 错误边界(Error Boundaries)"> # </a></h2>
+<p>部分 UI 中的 JavaScript 错误不应该破坏整个应用程序。
+为了解决 React 用户的这个问题，React 16引入了一个 “错误边界(Error Boundaries)” 的新概念。</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ErrorBoundary</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span></span>{
+    <span class="hljs-keyword">constructor</span>(props) {
+        <span class="hljs-keyword">super</span>(props);
+        <span class="hljs-keyword">this</span>.state={<span class="hljs-attr">hasError</span>:<span class="hljs-literal">false</span>};
+    }
+    componentDidCatch(err,info) {
+        <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">hasError</span>: <span class="hljs-literal">true</span>});
+    }
+    render() {
+        <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.state.hasError) {
+            <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Something Went Wrong<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span></span>
+        }
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.props.children;
+    }
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Page</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span></span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">ErrorBoundary</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Clock</span>/&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">ErrorBoundary</span>&gt;</span></span>
+        )
+    }
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Clock</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span></span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>hello{null.toString()}<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        )
+    }
+}
+
+ReactDOM.render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Page</span>/&gt;</span></span>,<span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#root'</span>));
+</code></pre>
+<h2 id="t1411. 高阶组件(Higher-Order Components)">11. 高阶组件(Higher-Order Components) <a href="#t1411. 高阶组件(Higher-Order Components)"> # </a></h2>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> NewComponent = higherOrderComponent(OldComponent)
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> (WrappedComponent,name) =&gt; {
+    <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HighOrderComponent</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+        <span class="hljs-keyword">constructor</span>() {
+            <span class="hljs-keyword">super</span>();
+            <span class="hljs-keyword">this</span>.state={<span class="hljs-attr">data</span>:<span class="hljs-literal">null</span>};
+        }
+
+        componentWillMount() {
+            <span class="hljs-keyword">let</span> data=localStorage.getItem(name);
+            <span class="hljs-keyword">this</span>.setState({data});
+        }
+
+        render() {
+            <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">WrappedComponent</span> <span class="hljs-attr">data</span>=<span class="hljs-string">{this.state.data}/</span>&gt;</span>
+        }
+    }
+    return HighOrderComponent;
+}
+</span></code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+<span class="hljs-keyword">import</span> wrapLocalData <span class="hljs-keyword">from</span> <span class="hljs-string">'./wrapLocalData'</span>;
+<span class="hljs-keyword">let</span> UserName=<span class="hljs-function">(<span class="hljs-params">props</span>) =&gt;</span> {
+    <span class="hljs-keyword">return</span> &lt;input type="text" defaultValue={props.data}/&gt;
+}
+let Password=(props) =&gt; {
+    return &lt;input type="text" defaultValue={props.data}/&gt;
+}
+let NewUserName=wrapLocalData(UserName,'username');
+let NewPassword=wrapLocalData(Password,'password');
+class Form extends Component{
+    render() {
+        return (
+            &lt;form&gt;
+                &lt;NewUserName /&gt;
+                &lt;NewPassword/&gt;
+            &lt;/form&gt;
+        )
+    }
+}
+ReactDOM.render(&lt;Form/&gt;,document.querySelector('#root'));
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> (WrappedComponent,name) =&gt; {
+    <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HighOrderComponent</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+        <span class="hljs-keyword">constructor</span>() {
+            <span class="hljs-keyword">super</span>();
+            <span class="hljs-keyword">this</span>.state={<span class="hljs-attr">data</span>:<span class="hljs-literal">null</span>};
+        }
+
+        componentWillMount() {
+            fetch(<span class="hljs-string">'/data.json'</span>,{
+                <span class="hljs-attr">method</span>: <span class="hljs-string">'GET'</span>
+            }).then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> response.json()).then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> {
+                <span class="hljs-built_in">console</span>.log(data[name]);
+                <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">data</span>:data[name]});
+            })
+
+        }
+
+        render() {
+            <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">WrappedComponent</span> <span class="hljs-attr">data</span>=<span class="hljs-string">{this.state.data}/</span>&gt;</span>
+        }
+    }
+    return HighOrderComponent;
+}
+
+</span></code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+<span class="hljs-keyword">import</span> wrapLocalData <span class="hljs-keyword">from</span> <span class="hljs-string">'./wrapLocalData'</span>;
+<span class="hljs-keyword">import</span> wrapAjax <span class="hljs-keyword">from</span> <span class="hljs-string">'./wrapAjax'</span>;
+<span class="hljs-keyword">let</span> UserName=<span class="hljs-function">(<span class="hljs-params">props</span>) =&gt;</span> {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'UserName '</span>,props);
+    <span class="hljs-keyword">return</span> &lt;input type="text" value={props.data} /&gt;
+}
+let Password=(props) =&gt; {
+    return &lt;input type="text" value={props.data}/&gt;
+}
+let NewUserName=wrapAjax(UserName,'username');
+let NewPassword=wrapAjax(Password,'password');
+class Form extends Component{
+    render() {
+        return (
+            &lt;form&gt;
+                &lt;NewUserName /&gt;
+                &lt;NewPassword/&gt;
+            &lt;/form&gt;
+        )
+    }
+}
+ReactDOM.render(&lt;Form/&gt;,document.querySelector('#root'));
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+<span class="hljs-keyword">import</span> wrapLocalData <span class="hljs-keyword">from</span> <span class="hljs-string">'./wrapLocalData'</span>;
+<span class="hljs-keyword">import</span> wrapAjax <span class="hljs-keyword">from</span> <span class="hljs-string">'./wrapAjax'</span>;
+<span class="hljs-keyword">let</span> UserName=<span class="hljs-function">(<span class="hljs-params">props</span>) =&gt;</span> {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'UserName '</span>,props);
+    <span class="hljs-keyword">return</span> &lt;input type="text" value={props.data} /&gt;
+}
+let Password=(props) =&gt; {
+    return &lt;input type="text" value={props.data}/&gt;
+}
+UserName=wrapAjax(UserName);
+UserName=wrapLocalData(UserName,'username');
+class Form extends Component{
+    render() {
+        return (
+            &lt;form&gt;
+                &lt;UserName /&gt;
+            &lt;/form&gt;
+        )
+    }
+}
+ReactDOM.render(&lt;Form/&gt;,document.querySelector('#root'));
+</code></pre>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

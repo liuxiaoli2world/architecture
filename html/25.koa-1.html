@@ -1,0 +1,562 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li class="active"><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. koa">1. koa</a></li><li><a href="#t12.安装">2.安装</a></li><li><a href="#t22.应用程序">2.应用程序</a></li><li><a href="#t33.级联中间件">3.级联中间件</a><ul><li><a href="#t44. 上下文(Context)">4. 上下文(Context)</a></li></ul></li><li><a href="#t55.获取请求参数">5.获取请求参数</a></li><li><a href="#t66.获取请求体">6.获取请求体</a></li><li><a href="#t77.使用中间件获取普通请求体">7.使用中间件获取普通请求体</a></li><li><a href="#t88.使用中间件获取包含文件的请求体">8.使用中间件获取包含文件的请求体</a></li><li><a href="#t99. 路由中间件">9. 路由中间件</a></li><li><a href="#t1010.cookie">10.cookie</a></li><li><a href="#t1111.session">11.session</a></li><li><a href="#t1212. 模板引擎">12. 模板引擎</a></li><li><a href="#t1313. 静态资源中间件">13. 静态资源中间件</a></li><li><a href="#t1414. koa实现">14. koa实现</a></li><li><a href="#t1515. generator">15. generator</a></li><li><a href="#t1616. form-data">16. form-data</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. koa">1. koa <a href="#t01. koa"> # </a></h2>
+<p><a href="http://koajs.com/">koajs</a>
+Koa2是现在最流行的基于Node.js平台的web开发框架</p>
+<h2 id="t12.安装">2.安装 <a href="#t12.安装"> # </a></h2>
+<pre><code class="lang-js">npm i koa
+</code></pre>
+<h2 id="t22.应用程序">2.应用程序 <a href="#t22.应用程序"> # </a></h2>
+<p>Koa 应用程序是一个包含一组中间件函数的对象，它是按照类似堆栈的方式组织和执行的。</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">'koa'</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+
+app.use(<span class="hljs-keyword">async</span> ctx =&gt; {
+  ctx.body = <span class="hljs-string">'Hello World'</span>;
+});
+
+app.on(<span class="hljs-string">'error'</span>, err =&gt; {
+  log.error(<span class="hljs-string">'server error'</span>, err)
+});
+
+app.listen(<span class="hljs-number">3000</span>);
+<span class="hljs-comment">//app.callback()</span>
+<span class="hljs-comment">//http.createServer(app.callback()).listen(3000);</span>
+<span class="hljs-comment">//https.createServer(app.callback()).listen(3000);</span>
+</code></pre>
+<h2 id="t33.级联中间件">3.级联中间件 <a href="#t33.级联中间件"> # </a></h2>
+<p>Koa 中间件以更传统的方式级联</p>
+<pre><code class="lang-js">app.use(<span class="hljs-function"><span class="hljs-keyword">function</span>)
+</span></code></pre>
+<p><img src="http://img.zhufengpeixun.cn/koa-middleware.jpg" alt="koa-middleware"></p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">'koa'</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+
+<span class="hljs-comment">// x-response-time</span>
+
+app.use(<span class="hljs-keyword">async</span> (ctx, next) =&gt; {
+  <span class="hljs-keyword">const</span> start = <span class="hljs-built_in">Date</span>.now();
+  <span class="hljs-keyword">await</span> next();
+  <span class="hljs-keyword">const</span> ms = <span class="hljs-built_in">Date</span>.now() - start;
+  ctx.set(<span class="hljs-string">'X-Response-Time'</span>, <span class="hljs-string">`<span class="hljs-subst">${ms}</span>ms`</span>);
+});
+
+<span class="hljs-comment">// logger</span>
+
+app.use(<span class="hljs-keyword">async</span> (ctx, next) =&gt; {
+  <span class="hljs-keyword">const</span> start = <span class="hljs-built_in">Date</span>.now();
+  <span class="hljs-keyword">await</span> next();
+  <span class="hljs-keyword">const</span> ms = <span class="hljs-built_in">Date</span>.now() - start;
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">`<span class="hljs-subst">${ctx.method}</span> <span class="hljs-subst">${ctx.url}</span> - <span class="hljs-subst">${ms}</span>`</span>);
+});
+
+<span class="hljs-comment">// response</span>
+
+app.use(<span class="hljs-keyword">async</span> ctx =&gt; {
+  ctx.body = <span class="hljs-string">'Hello World'</span>;
+});
+
+app.listen(<span class="hljs-number">3000</span>);
+</code></pre>
+<h3 id="t44. 上下文(Context)">4. 上下文(Context) <a href="#t44. 上下文(Context)"> # </a></h3>
+<p>Koa Context 将 node 的 request 和 response 对象封装到单个对象中，为编写 Web 应用程序和 API 提供了许多有用的方法</p>
+<ul>
+<li>ctx.request; // 这是 koa Request</li>
+<li>ctx.response; // 这是 koa Response</li>
+<li>ctrx.req  //原始的http请求对象</li>
+<li>ctx.res   //原始的http响应对象</li>
+<li>ctx.app 应用程序实例引用</li>
+<li>ctx.request是Koa2中context经过封装的请求对象</li>
+</ul>
+<blockquote>
+<p>绕过 Koa 的 response 处理是 不被支持的</p>
+</blockquote>
+<h2 id="t55.获取请求参数">5.获取请求参数 <a href="#t55.获取请求参数"> # </a></h2>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">'koa'</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+app.use(<span class="hljs-keyword">async</span> (ctx) =&gt; {
+    <span class="hljs-built_in">console</span>.log(ctx.method); <span class="hljs-comment">//获取请求方法</span>
+    <span class="hljs-built_in">console</span>.log(ctx.url);    <span class="hljs-comment">//获取请求URL</span>
+    <span class="hljs-built_in">console</span>.log(ctx.query);  <span class="hljs-comment">//获取解析的查询字符串对象</span>
+    <span class="hljs-built_in">console</span>.log(ctx.querystring); <span class="hljs-comment">//根据 ? 获取原始查询字符串.</span>
+    <span class="hljs-built_in">console</span>.log(ctx.headers);<span class="hljs-comment">//获取请求头对象</span>
+    ctx.body = ctx.url;
+});
+
+app.listen(<span class="hljs-number">3000</span>, () =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'server is starting at port 3000'</span>);
+});
+</code></pre>
+<h2 id="t66.获取请求体">6.获取请求体 <a href="#t66.获取请求体"> # </a></h2>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">'koa'</span>);
+<span class="hljs-keyword">const</span> querystring = <span class="hljs-built_in">require</span>(<span class="hljs-string">'querystring'</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+app.use(<span class="hljs-keyword">async</span> (ctx) =&gt; {
+    <span class="hljs-keyword">if</span> (ctx.method == <span class="hljs-string">'GET'</span>) {
+        ctx.set(<span class="hljs-string">'Content-Type'</span>, <span class="hljs-string">'text/html;charset=utf-8'</span>);
+        ctx.body = (
+            <span class="hljs-string">`
+            &lt;form method="POST"&gt;
+               &lt;input name="username" &gt;
+               &lt;input type="submit"&gt;
+            &lt;/form&gt;
+            `</span>
+        );
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (ctx.method == <span class="hljs-string">'POST'</span>) {
+        ctx.set(<span class="hljs-string">'Content-Type'</span>, <span class="hljs-string">'application/json'</span>);
+        ctx.body = <span class="hljs-keyword">await</span> parseBody(ctx);
+    } <span class="hljs-keyword">else</span> {
+        ctx.body = <span class="hljs-string">'Not Allowed'</span>;
+    }
+});
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">parseBody</span>(<span class="hljs-params">ctx</span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">resolve, reject</span>) </span>{
+        <span class="hljs-keyword">let</span> buffers = [];
+        ctx.req.on(<span class="hljs-string">'data'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+            buffers.push(data);
+        });
+        ctx.req.on(<span class="hljs-string">'end'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+            <span class="hljs-keyword">let</span> body = buffers.toString();
+            body = querystring.parse(body);
+            resolve(body);
+        });
+        ctx.req.on(<span class="hljs-string">'error'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">errdata</span>) </span>{
+            reject(err);
+        });
+    });
+}
+
+app.listen(<span class="hljs-number">3000</span>, () =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'server is starting at port 3000'</span>);
+});
+</code></pre>
+<h2 id="t77.使用中间件获取普通请求体">7.使用中间件获取普通请求体 <a href="#t77.使用中间件获取普通请求体"> # </a></h2>
+<pre><code class="lang-js">npm i koa-bodyparser -S
+</code></pre>
+<p><a href="https://npmjs.org/package/koa-bodyparser">koa-bodyparser</a></p>
+<pre><code>const Koa = require('koa');
+const querystring = require('querystring');
+const bodyParser = require('koa-bodyparser');
+const app = new Koa();
+app.use(bodyParser());
+app.use(async (ctx) =&gt; {
+    if (ctx.method == 'GET') {
+        ctx.set('Content-Type', 'text/html;charset=utf-8');
+        ctx.body = (
+            `
+            &lt;form method="POST"&gt;
+               &lt;input name="username" &gt;
+               &lt;input type="submit"&gt;
+            &lt;/form&gt;
+            `
+        );
+    } else if (ctx.method == 'POST') {
+        ctx.set('Content-Type', 'application/json');
+        ctx.body = ctx.request.body;
+    } else {
+        ctx.body = 'Not Allowed';
+    }
+});
+
+app.listen(3000, () =&gt; {
+    console.log('server is starting at port 3000');
+});
+</code></pre><h2 id="t88.使用中间件获取包含文件的请求体">8.使用中间件获取包含文件的请求体 <a href="#t88.使用中间件获取包含文件的请求体"> # </a></h2>
+<p><a href="https://www.npmjs.com/package/koa-better-body">koa-better-body</a></p>
+<pre><code class="lang-js">npm i koa-better-body -S
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">'koa'</span>);
+<span class="hljs-keyword">const</span> querystring = <span class="hljs-built_in">require</span>(<span class="hljs-string">'querystring'</span>);
+<span class="hljs-keyword">const</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">'path'</span>);
+<span class="hljs-keyword">const</span> convert = <span class="hljs-built_in">require</span>(<span class="hljs-string">'koa-convert'</span>);
+<span class="hljs-keyword">const</span> bodyParser = <span class="hljs-built_in">require</span>(<span class="hljs-string">'koa-better-body'</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+app.use(convert(bodyParser({
+    <span class="hljs-attr">uploadDir</span>: path.join(__dirname, <span class="hljs-string">'uploads'</span>),
+    <span class="hljs-attr">keepExtensions</span>: <span class="hljs-literal">true</span>
+})));
+app.use(<span class="hljs-keyword">async</span> (ctx) =&gt; {
+    <span class="hljs-keyword">if</span> (ctx.method == <span class="hljs-string">'GET'</span>) {
+        ctx.set(<span class="hljs-string">'Content-Type'</span>, <span class="hljs-string">'text/html;charset=utf-8'</span>);
+        ctx.body = (
+            <span class="hljs-string">`
+            &lt;form method="POST" enctype="multipart/form-data"&gt;
+               &lt;input name="username" &gt;
+               &lt;input name="avatar" type="file" &gt;
+               &lt;input type="submit"&gt;
+            &lt;/form&gt;
+            `</span>
+        );
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (ctx.method == <span class="hljs-string">'POST'</span>) {
+        ctx.set(<span class="hljs-string">'Content-Type'</span>, <span class="hljs-string">'application/json'</span>);
+        <span class="hljs-built_in">console</span>.log(ctx.request.fields);
+        ctx.body = ctx.request.body;
+    } <span class="hljs-keyword">else</span> {
+        ctx.body = <span class="hljs-string">'Not Allowed'</span>;
+    }
+});
+
+app.listen(<span class="hljs-number">3000</span>, () =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'server is starting at port 3000'</span>);
+});
+</code></pre>
+<pre><code class="lang-json">{
+    username: 'zfpx',
+    avatar: [File {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        size: 78540,
+        path: '\%uploads\%upload_b631c6cbae762214afbe18b6e18d9f68.png',
+        name: 'mm.png',
+        type: 'image/png',
+        hash: null,
+        lastModifiedDate: 2018 - 03 - 09 T09: 12: 20.679 Z,
+        _writeStream: [WriteStream]
+    }]
+}
+</code></pre>
+<h2 id="t99. 路由中间件">9. 路由中间件 <a href="#t99. 路由中间件"> # </a></h2>
+<pre><code class="lang-js">npm install --save koa-router
+</code></pre>
+<p>单级路由</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">'koa'</span>);
+<span class="hljs-keyword">const</span> Router = <span class="hljs-built_in">require</span>(<span class="hljs-string">'koa-router'</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+
+<span class="hljs-keyword">let</span> user = <span class="hljs-keyword">new</span> Router();
+user.get(<span class="hljs-string">'/user'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">ctx</span>) </span>{
+    ctx.body = <span class="hljs-string">'get user '</span>;
+}).get(<span class="hljs-string">'/query/:id'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">ctx</span>) </span>{
+    ctx.body = ctx.params;
+}).post(<span class="hljs-string">'/user'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">ctx</span>) </span>{
+    ctx.body = <span class="hljs-string">'post user '</span>;
+}).get(<span class="hljs-string">'/home'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">ctx</span>) </span>{
+    ctx.body = <span class="hljs-string">'get home '</span>;
+});
+app.use(user.routes());
+
+app.listen(<span class="hljs-number">3000</span>, () =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'server is starting at port 3000'</span>);
+});
+</code></pre>
+<p>多级路由</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> user = <span class="hljs-keyword">new</span> Router();
+user.get(<span class="hljs-string">'/add'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">ctx</span>) </span>{
+    ctx.body = <span class="hljs-string">'get user add '</span>;
+});
+
+<span class="hljs-keyword">let</span> article = <span class="hljs-keyword">new</span> Router();
+article.get(<span class="hljs-string">'/add'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">ctx</span>) </span>{
+    ctx.body = <span class="hljs-string">'get article add '</span>;
+});
+
+<span class="hljs-keyword">let</span> router = <span class="hljs-keyword">new</span> Router();
+router.use(<span class="hljs-string">'/user'</span>, user.routes());
+router.use(<span class="hljs-string">'/article'</span>, article.routes());
+app.use(router.routes());
+</code></pre>
+<h2 id="t1010.cookie">10.cookie <a href="#t1010.cookie"> # </a></h2>
+<ul>
+<li>ctx.cookies.get(name,[optins]):读取上下文请求中的cookie。</li>
+<li>ctx.cookies.set(name,value,[options])：在上下文中写入cookie。<ul>
+<li>domain：写入cookie所在的域名</li>
+<li>path：写入cookie所在的路径</li>
+<li>maxAge：Cookie最大有效时长</li>
+<li>expires：cookie失效时间</li>
+<li>httpOnly:是否只用http请求中获得</li>
+<li>overwirte：是否允许重写</li>
+</ul>
+</li>
+</ul>
+<pre><code class="lang-js">app.use(<span class="hljs-keyword">async</span> (ctx, next) =&gt; {
+    <span class="hljs-built_in">console</span>.log(ctx.url);
+
+    <span class="hljs-keyword">if</span> (ctx.url == <span class="hljs-string">'/write'</span>) {
+        ctx.cookies.set(<span class="hljs-string">'name'</span>, <span class="hljs-string">'zfpx'</span>);
+        ctx.body = <span class="hljs-string">'write'</span>;
+    } <span class="hljs-keyword">else</span> {
+        next();
+    }
+});
+app.use(<span class="hljs-keyword">async</span> (ctx) =&gt; {
+    <span class="hljs-keyword">if</span> (ctx.url == <span class="hljs-string">'/read'</span>) {
+        ctx.body = ctx.cookies.get(<span class="hljs-string">'name'</span>);
+    }
+});
+</code></pre>
+<h2 id="t1111.session">11.session <a href="#t1111.session"> # </a></h2>
+<p><a href="https://www.npmjs.com/package/koa-session">koa-session</a></p>
+<pre><code class="lang-js">$ npm install koa-session
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">'koa'</span>);
+<span class="hljs-keyword">const</span> session = <span class="hljs-built_in">require</span>(<span class="hljs-string">'koa-session'</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+app.keys = [<span class="hljs-string">'zfpx'</span>];
+app.use(session({}, app));
+app.use(<span class="hljs-keyword">async</span> (ctx) =&gt; {
+    <span class="hljs-keyword">let</span> visit = ctx.session.visit;
+    <span class="hljs-keyword">if</span> (visit) {
+        visit = visit + <span class="hljs-number">1</span>;
+    } <span class="hljs-keyword">else</span> {
+        visit = <span class="hljs-number">1</span>;
+    }
+    ctx.session.visit = visit;
+    ctx.body = <span class="hljs-string">`这是你的第<span class="hljs-subst">${visit}</span>次访问`</span>;
+});
+app.listen(<span class="hljs-number">3000</span>);
+</code></pre>
+<h2 id="t1212. 模板引擎">12. 模板引擎 <a href="#t1212. 模板引擎"> # </a></h2>
+<pre><code class="lang-js">npm i koa-views ejs -S
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">'koa'</span>);
+<span class="hljs-keyword">const</span> views = <span class="hljs-built_in">require</span>(<span class="hljs-string">'koa-views'</span>);
+<span class="hljs-keyword">const</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">'path'</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+app.use(views(path.join(__dirname, <span class="hljs-string">'./views'</span>), {
+    <span class="hljs-attr">extension</span>: <span class="hljs-string">'ejs'</span>
+}));
+
+app.use(<span class="hljs-keyword">async</span> ctx =&gt; {
+    <span class="hljs-keyword">await</span> ctx.render(<span class="hljs-string">'index'</span>, { <span class="hljs-attr">name</span>: <span class="hljs-string">'珠峰培训'</span> });
+});
+
+app.listen(<span class="hljs-number">3000</span>, () =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'server is starting at port 3000'</span>);
+});
+</code></pre>
+<h2 id="t1313. 静态资源中间件">13. 静态资源中间件 <a href="#t1313. 静态资源中间件"> # </a></h2>
+<pre><code class="lang-js">npm install --save koa-<span class="hljs-keyword">static</span>
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> <span class="hljs-keyword">static</span> = <span class="hljs-built_in">require</span>(<span class="hljs-string">'koa-static'</span>)
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa()
+app.use(<span class="hljs-keyword">static</span>(path.join( __dirname,  <span class="hljs-string">'public'</span>)))
+app.use( <span class="hljs-keyword">async</span> ( ctx ) =&gt; {
+  ctx.body = <span class="hljs-string">'Not Found'</span>
+})
+</code></pre>
+<h2 id="t1414. koa实现">14. koa实现 <a href="#t1414. koa实现"> # </a></h2>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./koa'</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+app.use(<span class="hljs-keyword">async</span> (<span class="hljs-keyword">async</span>, next) =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-number">1</span>);
+    <span class="hljs-keyword">await</span> next();
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-number">2</span>);
+});
+app.use(<span class="hljs-keyword">async</span> (ctx, next) =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-number">3</span>);
+    <span class="hljs-keyword">await</span> next();
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-number">4</span>);
+});
+app.use(<span class="hljs-keyword">async</span> (ctx, next) =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-number">5</span>);
+});
+app.listen(<span class="hljs-number">3000</span>);
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> http = <span class="hljs-built_in">require</span>(<span class="hljs-string">'http'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Koa</span> </span>{
+    <span class="hljs-keyword">constructor</span>() {
+        <span class="hljs-keyword">this</span>.middleware = [];
+    }
+    use(fn) {
+        <span class="hljs-keyword">this</span>.middleware.push(fn);
+    }
+    listen(port) {
+        <span class="hljs-keyword">let</span> middleware = <span class="hljs-keyword">this</span>.middleware;
+        <span class="hljs-keyword">let</span> server = http.createServer(<span class="hljs-function">(<span class="hljs-params">req, res</span>) =&gt;</span> {
+            <span class="hljs-keyword">let</span> ctx = { req, res }
+            <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">dispatch</span>(<span class="hljs-params">idx</span>) </span>{
+                middleware[idx](ctx, () =&gt; dispatch(idx + <span class="hljs-number">1</span>));
+            }
+            dispatch(<span class="hljs-number">0</span>);
+        });
+        server.listen(port);
+    }
+}
+
+<span class="hljs-built_in">module</span>.exports = Koa;
+</code></pre>
+<h2 id="t1515. generator">15. generator <a href="#t1515. generator"> # </a></h2>
+<p><a href="https://github.com/17koa/koa-generator">koa-generator</a></p>
+<pre><code class="lang-js">$ npm install -g koa-generator
+</code></pre>
+<pre><code class="lang-js">$ koa /tmp/foo &amp;&amp; cd /tmp/foo
+$ npm install
+$ npm start
+</code></pre>
+<h2 id="t1616. form-data">16. form-data <a href="#t1616. form-data"> # </a></h2>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">'koa'</span>);
+<span class="hljs-keyword">const</span> views = <span class="hljs-built_in">require</span>(<span class="hljs-string">'koa-views'</span>);
+<span class="hljs-keyword">const</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">'fs'</span>);
+<span class="hljs-keyword">let</span> querystring = <span class="hljs-built_in">require</span>(<span class="hljs-string">'querystring'</span>);
+<span class="hljs-keyword">let</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">'path'</span>);
+<span class="hljs-keyword">let</span> uuid = <span class="hljs-built_in">require</span>(<span class="hljs-string">'uuid'</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+app.use(<span class="hljs-keyword">async</span> (ctx, next) =&gt; {
+    <span class="hljs-keyword">if</span> (ctx.method == <span class="hljs-string">'GET'</span>) {
+        ctx.set(<span class="hljs-string">'Content-Type'</span>, <span class="hljs-string">'text/html;charset=utf8'</span>);
+        ctx.body = (
+            <span class="hljs-string">`
+                &lt;form id="userform" method="POST" enctype="multipart/form-data"&gt;
+                  用户名:&lt;input type="text"  name="username"&gt; 
+                  密码&lt;input type="text" name="password"&gt; 
+                  头像&lt;input type="file" name="avatar"&gt;
+                  &lt;input type="submit"&gt;
+                 &lt;/form&gt;
+                `</span>
+        );
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (ctx.method == <span class="hljs-string">'POST'</span>) {
+        <span class="hljs-keyword">let</span> buffers = [];
+        ctx.req.on(<span class="hljs-string">'data'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+            buffers.push(data);
+        });
+        ctx.req.on(<span class="hljs-string">'end'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+            <span class="hljs-keyword">let</span> result = Buffer.concat(buffers);
+            <span class="hljs-keyword">let</span> type = ctx.headers[<span class="hljs-string">'content-type'</span>];
+            <span class="hljs-keyword">let</span> matched = type.match(<span class="hljs-regexp">/\bboundary=(.+)\b/</span>);
+            <span class="hljs-keyword">if</span> (matched) {
+                <span class="hljs-keyword">let</span> seperator = <span class="hljs-string">'--'</span> + matched[<span class="hljs-number">1</span>];
+                <span class="hljs-keyword">let</span> body = process(seperator, result);
+                ctx.body = body;
+            } <span class="hljs-keyword">else</span> {
+                next();
+            }
+        });
+        ctx.body = <span class="hljs-string">'hello'</span>;
+    } <span class="hljs-keyword">else</span> {
+        next();
+    }
+
+});
+app.listen(<span class="hljs-number">3000</span>);
+Buffer.prototype.split = Buffer.prototype.split || <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">sep</span>) </span>{
+    <span class="hljs-keyword">let</span> len = Buffer.byteLength(sep);
+    <span class="hljs-keyword">let</span> parts = [];
+    <span class="hljs-keyword">let</span> offset = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">let</span> pos = <span class="hljs-number">-1</span>;
+    <span class="hljs-keyword">while</span> (<span class="hljs-number">-1</span> != (pos = <span class="hljs-keyword">this</span>.indexOf(sep, offset))) {
+        parts.push(<span class="hljs-keyword">this</span>.slice(offset, pos));
+        offset = pos + len;
+    }
+    parts.push(<span class="hljs-keyword">this</span>.slice(offset));
+    <span class="hljs-keyword">return</span> parts;
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">process</span>(<span class="hljs-params">seperator, result</span>) </span>{
+    <span class="hljs-keyword">let</span> lines = result.split(seperator);
+    lines = lines.slice(<span class="hljs-number">1</span>, <span class="hljs-number">-1</span>);
+    <span class="hljs-keyword">let</span> body = {};
+    <span class="hljs-keyword">let</span> files = [];
+    lines.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">line</span>) </span>{
+        <span class="hljs-keyword">let</span> [desc, val] = line.split(<span class="hljs-string">'\r\n\r\n'</span>);
+        desc = desc.toString();
+        val = val.slice(<span class="hljs-number">0</span>, <span class="hljs-number">-2</span>);
+        <span class="hljs-keyword">if</span> (desc.includes(<span class="hljs-string">'filename'</span>)) {<span class="hljs-comment">//如果是文件的话</span>
+            <span class="hljs-keyword">let</span> [, line1, line2] = desc.split(<span class="hljs-string">'\r\n'</span>);
+            <span class="hljs-keyword">let</span> obj1 = querystring.parse(line1, <span class="hljs-string">'; '</span>);
+            <span class="hljs-keyword">let</span> obj2 = querystring.parse(line2, <span class="hljs-string">'; '</span>);
+            <span class="hljs-keyword">let</span> filepath = path.join(__dirname, <span class="hljs-string">'uploads'</span>, uuid.v4());
+            fs.writeFileSync(filepath, val);
+            files.push({
+                ...obj1, filepath
+            });
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-keyword">let</span> matched = desc.match(<span class="hljs-regexp">/\bname=(.+)\b/</span>);
+            <span class="hljs-keyword">if</span> (matched)
+                body[matched[<span class="hljs-number">1</span>]] = val.toString();
+        }
+    });
+    <span class="hljs-keyword">return</span> { body, files };
+}
+</code></pre>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

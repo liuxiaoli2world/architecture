@@ -1,0 +1,795 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li class="active"><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01.构建基本服务器">1.构建基本服务器</a><ul><li><a href="#t11.1 测试用例">1.1 测试用例</a></li></ul></li><li><a href="#t22. 封装Router">2. 封装Router</a><ul><li><a href="#t32.1 测试用例">2.1 测试用例</a></li></ul></li><li><a href="#t43.实现中间件">3.实现中间件</a><ul><li><a href="#t53.1 测试用例">3.1 测试用例</a></li></ul></li><li><a href="#t64.req.params">4.req.params</a><ul><li><a href="#t74.1 测试用例">4.1 测试用例</a></li></ul></li><li><a href="#t85.模版引擎">5.模版引擎</a><ul><li><a href="#t95.1 测试用例">5.1 测试用例</a></li><li><a href="#t105.2 渲染函数">5.2 渲染函数</a></li><li><a href="#t115.3 模版引擎">5.3 模版引擎</a></li></ul></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01.构建基本服务器">1.构建基本服务器 <a href="#t01.构建基本服务器"> # </a></h2>
+<ul>
+<li>创建express模块,导出一个函数，执行函数可以返回一个app对象</li>
+<li>app对象里定义<code>get</code>和<code>listen</code>两个方法</li>
+<li>get方法用于往路由里添加一条路由规则</li>
+<li>初始化router对象保存所有的路由</li>
+<li>listen方法用于启动一个HTTP服务器并指定处理函数</li>
+</ul>
+<h3 id="t11.1 测试用例">1.1 测试用例 <a href="#t11.1 测试用例"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'../index'</span>);
+<span class="hljs-keyword">const</span> app = express();
+app.get(<span class="hljs-string">'/'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res</span>)</span>{
+    res.end(<span class="hljs-string">'hello'</span>);
+});
+app.listen(<span class="hljs-number">3000</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'server started on port 3000'</span>);
+});
+</code></pre>
+<p><a href="https://gitee.com/zhufengnodejs/zf-express/commit/6d1ddf74c81c59406141fa234caf5ee60d132366">1.构建基本服务器</a></p>
+<h2 id="t22. 封装Router">2. 封装Router <a href="#t22. 封装Router"> # </a></h2>
+<ul>
+<li>app从字面量变为Application类</li>
+<li>丰富HTTP请求方法</li>
+<li>封装Router</li>
+<li>路径一样的路由整合为一组，引入Layer的概念</li>
+<li>增加路由控制，支持next方法，并增加错误捕获功能</li>
+<li>执行Router.handle的时候传入out参数</li>
+</ul>
+<h3 id="t32.1 测试用例">2.1 测试用例 <a href="#t32.1 测试用例"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'../'</span>);
+<span class="hljs-keyword">const</span> app = express();
+<span class="hljs-comment">/**
+app.get('/',function(req,res,next){
+    console.log(1);
+    next();
+},function(req,res,next){
+    console.log(11);
+    next();
+}).get('/',function(req,res,next){
+    console.log(2);
+    next();
+}).get('/',function(req,res,next){
+    console.log(3);
+    res.end('ok');
+});
+app.listen(3000);
+**/</span>
+<span class="hljs-comment">//-----------</span>
+
+app.get(<span class="hljs-string">'/'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res,next</span>)</span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-number">1</span>);
+    next(<span class="hljs-string">'wrong'</span>);
+},<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res,next</span>)</span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-number">11</span>);
+    next();
+}).get(<span class="hljs-string">'/'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res,next</span>)</span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-number">2</span>);
+    next();
+}).get(<span class="hljs-string">'/'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res,next</span>)</span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-number">3</span>);
+    res.end(<span class="hljs-string">'ok'</span>);
+}).get(<span class="hljs-string">'/'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,req,res,next</span>)</span>{
+    res.end(<span class="hljs-string">'catch: '</span>+err);
+});
+app.listen(<span class="hljs-number">3000</span>);
+
+</code></pre>
+<pre><code class="lang-js">
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Route</span>(<span class="hljs-params">path</span>)</span>{
+    <span class="hljs-keyword">this</span>.path = path;
+    <span class="hljs-keyword">this</span>.methods = {};
+    <span class="hljs-keyword">this</span>.stack = [];
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Layer</span>(<span class="hljs-params">path,handler</span>)</span>{
+    <span class="hljs-keyword">this</span>.path = path;
+    <span class="hljs-keyword">this</span>.handler = handler;
+    <span class="hljs-keyword">this</span>.regexp = pathToRegexp(<span class="hljs-keyword">this</span>.path,<span class="hljs-keyword">this</span>.keys = []);
+}
+
+<span class="hljs-comment">//route主要跟path有关</span>
+proto.route = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">path</span>) </span>{
+    <span class="hljs-keyword">const</span> route = <span class="hljs-keyword">new</span> Route(path);
+    <span class="hljs-keyword">const</span> layer = <span class="hljs-keyword">new</span> Layer(path, route.dispatch.bind(route));
+    layer.route = route;
+    <span class="hljs-keyword">this</span>.stack.push(layer);
+    <span class="hljs-keyword">return</span> route;
+}
+methods.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">method</span>) </span>{
+    proto[method] = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">path</span>) </span>{
+        <span class="hljs-comment">//创建路由实例，添加Router Layer,创建时和path有关</span>
+        <span class="hljs-keyword">let</span> route = <span class="hljs-keyword">this</span>.route(path);
+        <span class="hljs-comment">//调用路由方法 添加route Layer</span>
+        route[method].apply(route, slice.call(<span class="hljs-built_in">arguments</span>, <span class="hljs-number">1</span>));
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+    }
+});
+lib/router/route.js
+<span class="hljs-string">``</span><span class="hljs-string">`js
+function Route(path){
+     +    this.path = path;
+     +    this.methods = {};
+     +    this.stack = [];
+     +}
+     +
+     +methods.forEach(function(method){
+     +    Route.prototype[method] = function(){
+     +        const handlers = Array.from(arguments);
+     +        for(let i=0;i&lt;handlers.length;i++){
+     +            let layer = new Layer('/',handlers[i]);
+     +            layer.method = method;
+     +            this.stack.push(layer);
+     +        }
+     +        this.methods[method] = true;
+     +        return this;
+     +    }
+     +});
+     +Route.prototype._handles_method = function(method){
+     +    return this.methods[method];
+     +}
+     +
+     +Route.prototype.dispatch = function(req,res,out){
+     +    let idx = 0,self=this;
+     +    function next(err){
+     +        if(err){
+     +            return out(err);
+     +        }
+     +        if(idx &gt;= self.stack.length){
+     +            return out(err);
+     +        }
+     +        let layer = self.stack[idx++];
+     +        if(layer.method == req.method.toLowerCase()){
+     +            layer.handle_request(req,res,next);
+     +        }else{
+     +            next();
+     +        }
+     +    }
+     +    next();
+     +}
+</span></code></pre>
+<p>lib/router/layer.js</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Layer</span>(<span class="hljs-params">path,handler</span>)</span>{
+     +    <span class="hljs-keyword">this</span>.path = path;
+     +    <span class="hljs-keyword">this</span>.handler = handler;
+     +}
+     +Layer.prototype.match = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">path</span>)</span>{
+     +    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.path == path;
+     +}
+     +Layer.prototype.handle_request = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res,next</span>)</span>{
+     +    <span class="hljs-keyword">this</span>.handler(req,res,next);
+     +}
+     +Layer.prototype.handle_error = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,req,res,next</span>)</span>{
+     +    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">this</span>.handler.length != <span class="hljs-number">4</span>){
+     +        <span class="hljs-keyword">return</span> next(err);
+     +    }
+     +    <span class="hljs-keyword">this</span>.handle(err,req,res,next);
+     +}
+</code></pre>
+<p>lib/application.js</p>
+<pre><code class="lang-js">+Application.prototype.lazyrouter = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+     +    <span class="hljs-keyword">if</span>(!<span class="hljs-keyword">this</span>._router){
+     +        <span class="hljs-keyword">this</span>._router = <span class="hljs-keyword">new</span> Router();
+               }
+     +}
++methods.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">method</span>)</span>{
+     +    Application.prototype[method] = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+     +       <span class="hljs-keyword">this</span>.lazyrouter();
+     +       <span class="hljs-keyword">this</span>._router[method].apply(<span class="hljs-keyword">this</span>._router,slice.call(<span class="hljs-built_in">arguments</span>));
+     +       <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+               }
+     +});
+     +
+     +Application.prototype.listen = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+     +    <span class="hljs-keyword">const</span> self = <span class="hljs-keyword">this</span>;
+     +    <span class="hljs-keyword">const</span> server = http.createServer(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res</span>)</span>{
+     +        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">done</span>(<span class="hljs-params"></span>)</span>{
+     +            res.end(<span class="hljs-string">'Not Found'</span>);
+     +        }
+     +        self._router.handle(req,res,done);
+     +    });
+     +    server.listen.apply(server,<span class="hljs-built_in">arguments</span>);
+           }
+
+</code></pre>
+<p>lib/router/index.js</p>
+<pre><code class="lang-js"><span class="hljs-comment">//route主要跟path有关</span>
+     +Router.prototype.route = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">path</span>)</span>{
+     +    <span class="hljs-keyword">const</span> route = <span class="hljs-keyword">new</span> Route(path);
+     +    <span class="hljs-keyword">const</span> layer = <span class="hljs-keyword">new</span> Layer(path,route.dispatch.bind(route));
+     +    layer.route = route;
+     +    <span class="hljs-keyword">this</span>.stack.push(layer);
+     +    <span class="hljs-keyword">return</span> route;
+     +}
+     +methods.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">method</span>)</span>{
+     +    Router.prototype[method] = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">path</span>)</span>{
+     +        <span class="hljs-comment">//创建路由实例，添加Router Layer</span>
+     +        <span class="hljs-keyword">let</span> route = <span class="hljs-keyword">this</span>.route(path);
+     +        <span class="hljs-comment">//调用路由方法 添加route Layer</span>
+     +        route[method].apply(route,slice.call(<span class="hljs-built_in">arguments</span>,<span class="hljs-number">1</span>));
+     +        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+     +    }
+     +});
+     +
+     +Router.prototype.handle = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res,out</span>)</span>{
+     +    <span class="hljs-keyword">let</span> idx=<span class="hljs-number">0</span>,self=<span class="hljs-keyword">this</span>;
+     +    <span class="hljs-keyword">let</span> {pathname} = url.parse(req.url,<span class="hljs-literal">true</span>);
+     +    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">next</span>(<span class="hljs-params">err</span>)</span>{
+     +        <span class="hljs-keyword">if</span>(idx &gt;= self.stack.length){
+     +            <span class="hljs-keyword">return</span> out(err);
+     +        }
+     +        <span class="hljs-keyword">let</span> layer = self.stack[idx++];
+     +        <span class="hljs-keyword">if</span>(layer.match(pathname) &amp;&amp; layer.route&amp;&amp;layer.route._handles_method(req.method.toLowerCase())){
+     +            <span class="hljs-keyword">if</span>(err){
+     +                <span class="hljs-comment">//没有中间件之前此写法无效</span>
+     +                layer.handle_error(err,req,res,next);
+     +            }<span class="hljs-keyword">else</span>{
+     +                layer.handle_request(req,res,next);
+     +            }
+     +        }<span class="hljs-keyword">else</span>{
+     +            next();
+     +        }
+     +    }
+     +    next();
+     +}
+</code></pre>
+<p>lib/router/route.js</p>
+<pre><code class="lang-js">+Route.prototype.dispatch = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res,out</span>)</span>{
+     +    <span class="hljs-keyword">let</span> idx = <span class="hljs-number">0</span>,self=<span class="hljs-keyword">this</span>;
+     +    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">next</span>(<span class="hljs-params">err</span>)</span>{
+     +        <span class="hljs-keyword">if</span>(err){
+     +            <span class="hljs-keyword">return</span> out(err);
+     +        }
+     +        <span class="hljs-keyword">if</span>(idx &gt;= self.stack.length){
+     +            <span class="hljs-keyword">return</span> out(err);
+     +        }
+     +        <span class="hljs-keyword">let</span> layer = self.stack[idx++];
+     +        <span class="hljs-keyword">if</span>(layer.method == req.method.toLowerCase()){
+     +            layer.handle_request(req,res,next);
+     +        }<span class="hljs-keyword">else</span>{
+     +            next();
+     +        }
+     +    }
+     +    next();
+     +}
+</code></pre>
+<p><a href="https://gitee.com/zhufengnodejs/zf-express/commit/18e91f908a1f287e76cb4ffbc1b331dc16381c06">2. 封装Router</a></p>
+<h2 id="t43.实现中间件">3.实现中间件 <a href="#t43.实现中间件"> # </a></h2>
+<ul>
+<li>application中添加use方法</li>
+<li>Router变函数</li>
+<li>抽象出Router方便复用</li>
+<li>Router处理中间件</li>
+</ul>
+<h3 id="t53.1 测试用例">3.1 测试用例 <a href="#t53.1 测试用例"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'../'</span>);
+<span class="hljs-keyword">const</span> app = express();
+<span class="hljs-comment">/**
+app.use(function(req,res,next){
+    console.log('Ware1:',Date.now());
+    next();
+});
+app.get('/',function(req,res,next){
+    res.end('1');
+});
+const user = express.Router();
+user.use(function(req,res,next){
+    console.log('Ware2',Date.now());
+    next();
+});
+user.use('/2',function(req,res,next){
+    res.end('2');
+});
+app.use('/user',user);
+app.use(function(err,req,res,next){
+    res.end('catch '+err);
+});
+app.listen(3000,function(){
+    console.log('server started at port 3000');
+});
+ **/</span>
+<span class="hljs-comment">//----------------------------</span>
+app.use(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res,next</span>)</span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Ware1:'</span>,<span class="hljs-built_in">Date</span>.now());
+    next(<span class="hljs-string">'wrong'</span>);
+});
+app.get(<span class="hljs-string">'/'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res,next</span>)</span>{
+    res.end(<span class="hljs-string">'1'</span>);
+});
+<span class="hljs-keyword">const</span> user = express.Router();
+user.use(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res,next</span>)</span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Ware2'</span>,<span class="hljs-built_in">Date</span>.now());
+    next();
+});
+user.use(<span class="hljs-string">'/2'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res,next</span>)</span>{
+    res.end(<span class="hljs-string">'2'</span>);
+});
+app.use(<span class="hljs-string">'/user'</span>,user);
+app.use(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,req,res,next</span>)</span>{
+    res.end(<span class="hljs-string">'catch '</span>+err);
+});
+app.listen(<span class="hljs-number">3000</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'server started at port 3000'</span>);
+});
+
+</code></pre>
+<p>lib/application.js</p>
+<pre><code class="lang-js">+Application.prototype.use = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">handler</span>)</span>{
+     +    <span class="hljs-keyword">this</span>.lazyrouter();
+     +    <span class="hljs-keyword">let</span> path = <span class="hljs-string">'/'</span>;
+     +    <span class="hljs-keyword">let</span> router = <span class="hljs-keyword">this</span>._router;
+     +    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> handler != <span class="hljs-string">'function'</span>){
+     +        path = handler;
+     +        handler = <span class="hljs-built_in">arguments</span>[<span class="hljs-number">1</span>];
+     +    }
+     +    router.use(path,handler);
+     +    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+     +}
+     +
+</code></pre>
+<p>lib/router/index.js</p>
+<pre><code class="lang-js"> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Router</span>(<span class="hljs-params"></span>)</span>{
+         -  <span class="hljs-keyword">this</span>.stack = [];
+     +  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">router</span>(<span class="hljs-params">req,res,next</span>)</span>{
+     +    router.handle(req,res,next);
+     +  }
+     +  <span class="hljs-built_in">Object</span>.setPrototypeOf(router,proto);
+     +  router.stack = [];
+     +  <span class="hljs-keyword">return</span> router;
+           }
+     +<span class="hljs-keyword">const</span> proto = <span class="hljs-built_in">Object</span>.create(<span class="hljs-literal">null</span>);
+
++proto.use = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">handler</span>)</span>{
+     +  <span class="hljs-keyword">let</span> path = <span class="hljs-string">'/'</span>,router= <span class="hljs-keyword">this</span>._router;
+     +  <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> handler != <span class="hljs-string">'function'</span>){
+     +      path = handler;
+     +      handler = <span class="hljs-built_in">arguments</span>[<span class="hljs-number">1</span>];
+     +  }
+     +  <span class="hljs-keyword">let</span> layer = <span class="hljs-keyword">new</span> Layer(path,handler);
+     +  layer.route = <span class="hljs-literal">undefined</span>;
+     +  <span class="hljs-keyword">this</span>.stack.push(layer);
+     +  <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+     +}
+
++proto.handle = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res,out</span>)</span>{
+     +    <span class="hljs-keyword">let</span> idx=<span class="hljs-number">0</span>,self=<span class="hljs-keyword">this</span>,removed=<span class="hljs-string">''</span>,slashAdded=<span class="hljs-literal">false</span>;
+               <span class="hljs-keyword">let</span> {pathname} = url.parse(req.url,<span class="hljs-literal">true</span>);
+               <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">next</span>(<span class="hljs-params">err</span>)</span>{
+     +        <span class="hljs-keyword">if</span>(slashAdded){
+     +            req.url = <span class="hljs-string">''</span>;
+     +            slashAdded = <span class="hljs-literal">true</span>;
+     +        }
+     +        <span class="hljs-keyword">if</span>(removed.length&gt;<span class="hljs-number">0</span>){
+     +            req.url = removed + req.url;
+     +            removed = <span class="hljs-string">''</span>;
+     +        }
+                   <span class="hljs-keyword">if</span>(idx &gt;= self.stack.length){
+                       <span class="hljs-keyword">return</span> out(err);
+                   }
+                   <span class="hljs-keyword">let</span> layer = self.stack[idx++];
+         -        <span class="hljs-keyword">if</span>(layer.match(pathname) &amp;&amp; layer.route&amp;&amp;layer.route._handles_method(req.method.toLowerCase())){
+     +        <span class="hljs-keyword">if</span>(layer.match(pathname)){
+                       <span class="hljs-keyword">if</span>(err){
+         -                <span class="hljs-comment">//没有中间件之前此写法无效</span>
+                           layer.handle_error(err,req,res,next);
+                       }<span class="hljs-keyword">else</span>{
+         -                layer.handle_request(req,res,next);
+     +                <span class="hljs-keyword">if</span>(!layer.route){
+     +                    <span class="hljs-keyword">let</span> removed = layer.path;
+     +                    req.url = req.url.slice(<span class="hljs-number">0</span>,removed.length);
+     +                    <span class="hljs-keyword">if</span>(req.url == <span class="hljs-string">''</span>){
+     +                        req.url = <span class="hljs-string">'/'</span>;
+     +                        slashAdded = <span class="hljs-literal">true</span>;
+     +                    }
+     +                    layer.handle_request(req,res,next)
+     +                }<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(layer.route._handles_method(req.method)){
+     +                    layer.handle_request(req,res,next);
+     +                }<span class="hljs-keyword">else</span>{
+     +                    next(err);
+     +                }
+                       }
+                   }<span class="hljs-keyword">else</span>{
+         -            next();
+     +            next(err);
+                   }
+               }
+               next();
+</code></pre>
+<p>lib/router/layer.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">if</span>(<span class="hljs-keyword">this</span>.path == path){
+     +        <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+     +    }
+     +    <span class="hljs-keyword">if</span>(!<span class="hljs-keyword">this</span>.route){
+     +        <span class="hljs-keyword">if</span>(<span class="hljs-keyword">this</span>.path == <span class="hljs-string">'/'</span>){
+     +            <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+     +        }
+     +        <span class="hljs-keyword">if</span>(<span class="hljs-keyword">this</span>.path = path.slice(<span class="hljs-number">0</span>,<span class="hljs-keyword">this</span>.path.length)){
+     +            <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+     +        }
+     +    }
+     +    <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+</code></pre>
+<p><a href="https://gitee.com/zhufengnodejs/zf-express/commit/76fd590dd1b3a38dc8f2e686d1ffea729df0b8b4">3.实现中间件</a></p>
+<h2 id="t64.req.params">4.req.params <a href="#t64.req.params"> # </a></h2>
+<ul>
+<li>可以获取<code>req.params</code></li>
+<li>提供<code>app.param</code>的能力<ul>
+<li>layer借助<code>path-to-regexp</code>提取params</li>
+<li>在Router.handle里,process_params函数一次调用参数处理函数</li>
+</ul>
+</li>
+</ul>
+<h3 id="t74.1 测试用例">4.1 测试用例 <a href="#t74.1 测试用例"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'../'</span>);
+<span class="hljs-keyword">const</span> app = express();
+app.param(<span class="hljs-string">'uid'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res,next,val,name</span>)</span>{
+    req.user = {<span class="hljs-attr">id</span>:<span class="hljs-number">1</span>,<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx'</span>};
+    next();
+})
+app.param(<span class="hljs-string">'uid'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res,next,val,name</span>)</span>{
+    req.user.name = <span class="hljs-string">'zfpx2'</span>;
+    next();
+})
+app.get(<span class="hljs-string">'/user/:uid'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res</span>)</span>{
+    <span class="hljs-built_in">console</span>.log(req.user);
+    res.end(<span class="hljs-string">'user'</span>);
+});
+app.listen(<span class="hljs-number">3000</span>);
+</code></pre>
+<p>lib/router/layer.js</p>
+<pre><code class="lang-js"> Layer.prototype.match = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">path</span>)</span>{
+               <span class="hljs-keyword">if</span>(<span class="hljs-keyword">this</span>.path == path){
+                   <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+               }
+     +    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">this</span>.route){
+     +        <span class="hljs-keyword">this</span>.params = {};
+     +        <span class="hljs-keyword">let</span> matches = <span class="hljs-keyword">this</span>.regexp.exec(path);
+     +        <span class="hljs-keyword">if</span>(matches){
+     +            <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i=<span class="hljs-number">1</span>;i&lt;matches.length;i++){
+     +                <span class="hljs-keyword">let</span> key = <span class="hljs-keyword">this</span>.keys[i<span class="hljs-number">-1</span>];
+     +                <span class="hljs-keyword">let</span> prop = key.name;
+     +                <span class="hljs-keyword">this</span>.params[prop] = matches[i];
+     +            }
+     +            <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.params);
+     +            <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+     +        }
+     +    }
+</code></pre>
+<p>lib/router/index.js</p>
+<pre><code class="lang-js">+proto.param = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">name, handler</span>) </span>{
+     +    <span class="hljs-keyword">if</span> (!<span class="hljs-keyword">this</span>.paramCallbacks[name]) {
+     +        <span class="hljs-keyword">this</span>.paramCallbacks[name] = []
+     +    }
+     +    <span class="hljs-keyword">this</span>.paramCallbacks[name].push(handler);
+     +}
+     +proto.process_params = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">layer, req, res, done</span>) </span>{
+     +  <span class="hljs-keyword">const</span> paramCallbacks = <span class="hljs-keyword">this</span>.paramCallbacks;
+     +  <span class="hljs-keyword">const</span>  keys = layer.keys;
+     +  <span class="hljs-keyword">if</span>(!keys || keys.length ==<span class="hljs-number">0</span>){
+     +      <span class="hljs-keyword">return</span> done();
+     +  }
+     +  <span class="hljs-keyword">let</span> keyIndex=<span class="hljs-number">0</span>,name,callbacks,key,val;
+     +  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">param</span>(<span class="hljs-params"></span>)</span>{
+     +      <span class="hljs-keyword">if</span>(keyIndex &gt;= keys.length){
+     +          <span class="hljs-keyword">return</span> done();
+     +      }
+     +      key = keys[keyIndex++];
+     +      name = key.name;
+     +      val = req.params[name];
+     +      callbacks = paramCallbacks[name];
+     +      <span class="hljs-keyword">if</span>(!val || !callbacks){
+     +          <span class="hljs-keyword">return</span> param();
+     +      }
+     +      execCallback();
+     +  }
+     +  <span class="hljs-keyword">let</span> callbackIndex = <span class="hljs-number">0</span>;
+     +  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">execCallback</span>(<span class="hljs-params"></span>)</span>{
+     +      <span class="hljs-keyword">let</span> cb = callbacks[callbackIndex++];
+     +      <span class="hljs-keyword">if</span>(!cb){
+     +          <span class="hljs-keyword">return</span> param();
+     +      }
+     +      cb(req,res,execCallback,val,name);
+     +  }
+     +  param();
+     +}
+</code></pre>
+<p><a href="https://gitee.com/zhufengnodejs/zf-express/commit/8162f4cbca91d06722c073bc923d564b7db1f965">4.req.params</a></p>
+<h2 id="t85.模版引擎">5.模版引擎 <a href="#t85.模版引擎"> # </a></h2>
+<ul>
+<li>如何开发或绑定一个渲染引擎</li>
+<li>注册一个渲染引擎</li>
+<li>指定模版路径</li>
+<li><p>渲染模版引擎</p>
+</li>
+<li><p>app.engine(ext,callback)</p>
+<ul>
+<li>ext 文件扩展名</li>
+<li>callback 模版引擎的主函数<ul>
+<li>文件路径</li>
+<li>参数对象</li>
+<li>回调函数</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="t95.1 测试用例">5.1 测试用例 <a href="#t95.1 测试用例"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'../'</span>);
+<span class="hljs-keyword">const</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">'path'</span>);
+<span class="hljs-keyword">const</span> html = <span class="hljs-built_in">require</span>(<span class="hljs-string">'../lib/html'</span>);
+<span class="hljs-keyword">const</span> app = express();
+<span class="hljs-keyword">const</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">'fs'</span>);
+app.engine(<span class="hljs-string">'html'</span>,html);
+app.set(<span class="hljs-string">'views'</span>,path.resolve(<span class="hljs-string">'views'</span>));
+app.set(<span class="hljs-string">'view engine'</span>,<span class="hljs-string">'html'</span>);
+app.get(<span class="hljs-string">'/'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res,next</span>)</span>{
+    res.render(<span class="hljs-string">'index'</span>,{<span class="hljs-attr">title</span>:<span class="hljs-string">'hello'</span>,<span class="hljs-attr">user</span>:{<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx'</span>}});
+});
+app.listen(<span class="hljs-number">3000</span>);
+</code></pre>
+<h3 id="t105.2 渲染函数">5.2 渲染函数 <a href="#t105.2 渲染函数"> # </a></h3>
+<p>application.js</p>
+<pre><code class="lang-js">Application.prototype.set = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">key,val</span>)</span>{
+    <span class="hljs-keyword">if</span>(<span class="hljs-built_in">arguments</span>.length == <span class="hljs-number">1</span>){
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.settings[key];
+    }
+    <span class="hljs-keyword">this</span>.settings[key] = val;
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+}
+
+Application.prototype.engine = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">ext,fn</span>)</span>{
+  <span class="hljs-keyword">let</span> extension = ext[<span class="hljs-number">0</span>]==<span class="hljs-string">'.'</span>?ext:<span class="hljs-string">'.'</span>+ext;
+  <span class="hljs-keyword">this</span>.engines[extension] = fn;
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+}
+
+Application.prototype.render = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">name,options,callback</span>)</span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'app render'</span>);
+    <span class="hljs-keyword">let</span> engines = <span class="hljs-keyword">this</span>.engines;
+    <span class="hljs-keyword">let</span> type = <span class="hljs-string">'.'</span>+<span class="hljs-keyword">this</span>.get(<span class="hljs-string">'view engine'</span>);
+    <span class="hljs-keyword">let</span> render = engines[type];
+    name = name.includes(<span class="hljs-string">'.'</span>)?name:name+type;
+    <span class="hljs-keyword">let</span> file = path.join(<span class="hljs-keyword">this</span>.get(<span class="hljs-string">'views'</span>),name);
+    render(file,options,callback);
+}
+
+methods.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">method</span>)</span>{
+    Application.prototype[method] = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+        <span class="hljs-keyword">if</span>(method == <span class="hljs-string">'get'</span>){
+            <span class="hljs-keyword">if</span>(<span class="hljs-built_in">arguments</span>.length == <span class="hljs-number">1</span>){
+                <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.set(<span class="hljs-built_in">arguments</span>[<span class="hljs-number">0</span>]);
+            }
+        }
+       <span class="hljs-keyword">this</span>.lazyrouter();
+       <span class="hljs-keyword">this</span>._router[method].apply(<span class="hljs-keyword">this</span>._router,slice.call(<span class="hljs-built_in">arguments</span>));
+       <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+    }
+});
+
+<span class="hljs-keyword">const</span> server = http.createServer(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res</span>)</span>{
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">done</span>(<span class="hljs-params"></span>)</span>{
+            res.end(<span class="hljs-string">'Not Found'</span>);
+        }
++       res.app = self;
+        self._router.handle(req,res,done);
+    });
+</code></pre>
+<p>middle/init.js</p>
+<pre><code class="lang-js"><span class="hljs-built_in">module</span>.exports = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res,next</span>)</span>{
+    res.render = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">filepath,options,callback</span>)</span>{
+        <span class="hljs-keyword">let</span> self = <span class="hljs-keyword">this</span>;
+        <span class="hljs-keyword">let</span> done = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,html</span>)</span>{
+            res.setHeader(<span class="hljs-string">'Content-Type'</span>,<span class="hljs-string">'text.html;charset=utf-8'</span>);
+            res.end(html);
+        }
+        res.app.render(filepath,options,callback||done);
+    }
+    next();
+}
+</code></pre>
+<h3 id="t115.3 模版引擎">5.3 模版引擎 <a href="#t115.3 模版引擎"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">'fs'</span>);
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">render</span>(<span class="hljs-params">filepath,options,callback</span>)</span>{
+  fs.readFile(filepath,<span class="hljs-string">'utf8'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,content</span>)</span>{
+      <span class="hljs-keyword">if</span>(err) <span class="hljs-keyword">return</span> callback(err);
+      <span class="hljs-keyword">let</span> head = <span class="hljs-string">"let tpl = ``;\n with(obj){\n tpl +=`"</span>;
+      content = content.replace(<span class="hljs-regexp">/&lt;%=([\s\S]+?)%&gt;/g</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+          <span class="hljs-keyword">return</span> <span class="hljs-string">"${"</span>+<span class="hljs-built_in">arguments</span>[<span class="hljs-number">1</span>]+<span class="hljs-string">"}"</span>;
+      });
+      content = content.replace(<span class="hljs-regexp">/&lt;%([\s\S]+?)%&gt;/g</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+          <span class="hljs-keyword">return</span> <span class="hljs-string">"`;\n"</span>+<span class="hljs-built_in">arguments</span>[<span class="hljs-number">1</span>]+<span class="hljs-string">" tpl+=`"</span>;
+      });
+      <span class="hljs-keyword">let</span> tail = <span class="hljs-string">"`\n}\nreturn tpl;"</span>;
+      <span class="hljs-keyword">let</span> html = head + content + tail;
+      <span class="hljs-built_in">console</span>.log(html);
+      html = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Function</span>(<span class="hljs-string">'obj'</span>,html);
+      html = html(options);
+      <span class="hljs-keyword">return</span> callback(<span class="hljs-literal">null</span>,html);
+  })
+}
+<span class="hljs-built_in">module</span>.exports = render;
+<span class="hljs-comment">/**
+&lt;%if(user){%&gt;
+  hello &lt;%=user.name%&gt;
+&lt;%}else{%&gt;
+  hello guest
+&lt;%}%&gt;
+*/</span>
+<span class="hljs-comment">/**
+ let tpl = ``;
+ with (obj) {
+        tpl += ``;
+        if (user) {
+            tpl += `hello ${user.name}`;
+        } else {
+            tpl += `hello guest`;
+        }
+        tpl += ``;
+    }
+ return tpl;
+ **/</span>
+
+</code></pre>
+<p>lib/application.js</p>
+<pre><code class="lang-js">Application.prototype.set = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">key,val</span>)</span>{
+     +    <span class="hljs-keyword">if</span>(<span class="hljs-built_in">arguments</span>.length == <span class="hljs-number">1</span>){
+     +        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.settings[key];
+     +    }
+     +    <span class="hljs-keyword">this</span>.settings[key] = val;
+     +    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+     +}
+     +
+     +Application.prototype.engine = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">ext,fn</span>)</span>{
+     +  <span class="hljs-keyword">let</span> extension = ext[<span class="hljs-number">0</span>]==<span class="hljs-string">'.'</span>?ext:<span class="hljs-string">'.'</span>+ext;
+     +  <span class="hljs-keyword">this</span>.engines[extension] = fn;
+     +  <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+     +}
+     +
+     +Application.prototype.render = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">name,options,callback</span>)</span>{
+     +    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'app render'</span>);
+     +    <span class="hljs-keyword">let</span> engines = <span class="hljs-keyword">this</span>.engines;
+     +    <span class="hljs-keyword">let</span> type = <span class="hljs-string">'.'</span>+<span class="hljs-keyword">this</span>.get(<span class="hljs-string">'view engine'</span>);
+     +    <span class="hljs-keyword">let</span> render = engines[type];
+     +    name = name.includes(<span class="hljs-string">'.'</span>)?name:name+type;
+     +    <span class="hljs-keyword">let</span> file = path.join(<span class="hljs-keyword">this</span>.get(<span class="hljs-string">'views'</span>),name);
+     +    render(file,options,callback);
+     +}
+     +
+           methods.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">method</span>)</span>{
+               Application.prototype[method] = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+     +        <span class="hljs-keyword">if</span>(method == <span class="hljs-string">'get'</span>){
+     +            <span class="hljs-keyword">if</span>(<span class="hljs-built_in">arguments</span>.length == <span class="hljs-number">1</span>){
+     +                <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.set(<span class="hljs-built_in">arguments</span>[<span class="hljs-number">0</span>]);
+     +            }
+     +        }
+                  <span class="hljs-keyword">this</span>.lazyrouter();
+                  <span class="hljs-keyword">this</span>._router[method].apply(<span class="hljs-keyword">this</span>._router,slice.call(<span class="hljs-built_in">arguments</span>));
+                  <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+@@ <span class="hljs-number">-37</span>,<span class="hljs-number">6</span> +<span class="hljs-number">70</span>,<span class="hljs-number">7</span> @@ Application.prototype.listen = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+                   <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">done</span>(<span class="hljs-params"></span>)</span>{
+                       res.end(<span class="hljs-string">'Not Found'</span>);
+                   }
+     +        res.app = self;
+                   self._router.handle(req,res,done);
+               });
+               server.listen.apply(server,<span class="hljs-built_in">arguments</span>);
+</code></pre>
+<p>lib/html.js</p>
+<pre><code class="lang-js">+<span class="hljs-keyword">const</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">'fs'</span>);
+     +<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">render</span>(<span class="hljs-params">filepath,options,callback</span>)</span>{
+     +  fs.readFile(filepath,<span class="hljs-string">'utf8'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,content</span>)</span>{
+     +      <span class="hljs-keyword">if</span>(err) <span class="hljs-keyword">return</span> callback(err);
+     +      <span class="hljs-keyword">let</span> head = <span class="hljs-string">"let tpl = ``;\n with(obj){\n tpl +=`"</span>;
+     +      content = content.replace(<span class="hljs-regexp">/&lt;%=([\s\S]+?)%&gt;/g</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+     +          <span class="hljs-keyword">return</span> <span class="hljs-string">"${"</span>+<span class="hljs-built_in">arguments</span>[<span class="hljs-number">1</span>]+<span class="hljs-string">"}"</span>;
+     +      });
+     +      content = content.replace(<span class="hljs-regexp">/&lt;%([\s\S]+?)%&gt;/g</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+     +          <span class="hljs-keyword">return</span> <span class="hljs-string">"`;\n"</span>+<span class="hljs-built_in">arguments</span>[<span class="hljs-number">1</span>]+<span class="hljs-string">" tpl+=`"</span>;
+     +      });
+     +      <span class="hljs-keyword">let</span> tail = <span class="hljs-string">"`\n}\nreturn tpl;"</span>;
+     +      <span class="hljs-keyword">let</span> html = head + content + tail;
+     +      <span class="hljs-built_in">console</span>.log(html);
+     +      html = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Function</span>(<span class="hljs-string">'obj'</span>,html);
+     +      html = html(options);
+     +      <span class="hljs-keyword">return</span> callback(<span class="hljs-literal">null</span>,html);
+     +  })
+     +}
+     +<span class="hljs-built_in">module</span>.exports = render;
+</code></pre>
+<p>lib/middle/init.js</p>
+<pre><code class="lang-js">+<span class="hljs-built_in">module</span>.exports = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res,next</span>)</span>{
+     +    res.render = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">filepath,options,callback</span>)</span>{
+     +        <span class="hljs-keyword">let</span> self = <span class="hljs-keyword">this</span>;
+     +        <span class="hljs-keyword">let</span> done = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,html</span>)</span>{
+     +            res.setHeader(<span class="hljs-string">'Content-Type'</span>,<span class="hljs-string">'text.html;charset=utf-8'</span>);
+     +            res.end(html);
+     +        }
+     +        res.app.render(filepath,options,callback||done);
+     +    }
+     +    next();
+     +}
+</code></pre>
+<p><a href="https://gitee.com/zhufengnodejs/zf-express/commit/b0755572a1ccc7e48769454ac2ade56c01c2240e">5.模版引擎</a></p>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

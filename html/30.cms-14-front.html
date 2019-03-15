@@ -1,0 +1,2893 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li class="active"><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. 初始化项目">1. 初始化项目</a></li><li><a href="#t12. 配置别名">2. 配置别名</a></li><li><a href="#t23. 注册登录">3. 注册登录</a><ul><li><a href="#t33.1 login/index.js">3.1 login/index.js</a><ul><li><a href="#t43.1 头部导入">3.1 头部导入</a></li><li><a href="#t53.2 Login">3.2 Login</a></li><li><a href="#t63.3 connect">3.3 connect</a></li><li><a href="#t73.4 LoginForm.state">3.4 LoginForm.state</a></li><li><a href="#t83.5 handleWebsiteChange">3.5 handleWebsiteChange</a></li><li><a href="#t93.6 handleConfirmBlur">3.6 handleConfirmBlur</a></li><li><a href="#t103.7 compareToFirstPassword">3.7 compareToFirstPassword</a></li><li><a href="#t113.8 validateToNextPassword">3.8 validateToNextPassword</a></li><li><a href="#t123.9 render Layout">3.9 render Layout</a></li><li><a href="#t133.10 render.addresses">3.10 render.addresses</a></li><li><a href="#t143.11 countrySelector">3.11 countrySelector</a></li><li><a href="#t153.12 websiteOptions">3.12 websiteOptions</a></li><li><a href="#t163.13  return">3.13  return</a></li><li><a href="#t173.14  login">3.14  login</a></li></ul></li><li><a href="#t183.2 utils/request.js">3.2 utils/request.js</a></li><li><a href="#t193.3  models/login.js">3.3  models/login.js</a></li><li><a href="#t203.4 login/services/login.js">3.4 login/services/login.js</a></li></ul></li><li><a href="#t214.验证码">4.验证码</a><ul><li><a href="#t224.1 login/index.js">4.1 login/index.js</a></li></ul></li><li><a href="#t235.后台管理界面布局模版">5.后台管理界面布局模版</a><ul><li><a href="#t245.1 /admin/_layout.js">5.1 /admin/_layout.js</a></li></ul></li><li><a href="#t256. 顶部导航条">6. 顶部导航条</a><ul><li><a href="#t266.1 src/components/AdminHeader.js">6.1 src/components/AdminHeader.js</a></li><li><a href="#t276.2 src/global.less">6.2 src/global.less</a></li><li><a href="#t286.3 admin/_layout.js">6.3 admin/_layout.js</a></li></ul></li><li><a href="#t297.左侧菜单和用户页面">7.左侧菜单和用户页面</a><ul><li><a href="#t307.1 components/MenuList.js">7.1 components/MenuList.js</a></li><li><a href="#t317.2 admin/_layout.js">7.2 admin/_layout.js</a></li></ul></li><li><a href="#t327. 用户管理">7. 用户管理</a><ul><li><a href="#t337.1 src/utils/request.js">7.1 src/utils/request.js</a></li><li><a href="#t347.2 user.import">7.2 user.import</a></li><li><a href="#t357.3 user">7.3 user</a></li><li><a href="#t367.4 EditModal">7.4 EditModal</a></li><li><a href="#t377.5 admin/user/index.js">7.5 admin/user/index.js</a></li><li><a href="#t387.3 /user/constants.js">7.3 /user/constants.js</a></li><li><a href="#t397.4 /user/models/user.js">7.4 /user/models/user.js</a></li><li><a href="#t407.5 user/services/user.js">7.5 user/services/user.js</a></li></ul></li><li><a href="#t418. 全部删除">8. 全部删除</a><ul><li><a href="#t428.1 user/index.js">8.1 user/index.js</a></li><li><a href="#t438.2 user/models/user.js">8.2 user/models/user.js</a></li><li><a href="#t448.3 user/services/user.js">8.3 user/services/user.js</a></li></ul></li><li><a href="#t459. 搜索">9. 搜索</a><ul><li><a href="#t469.1 admin/user/index.js">9.1 admin/user/index.js</a></li><li><a href="#t479.2 user/models/user.js">9.2 user/models/user.js</a></li><li><a href="#t489.3 user/services/user.js">9.3 user/services/user.js</a></li></ul></li><li><a href="#t4910. 点击选择行">10. 点击选择行</a><ul><li><a href="#t5010.1 admin/user/index.js">10.1 admin/user/index.js</a></li></ul></li><li><a href="#t5111. 角色管理">11. 角色管理</a><ul><li><a href="#t5211.1 /role/index.js">11.1 /role/index.js</a></li><li><a href="#t5311.2 /role/models/role.js">11.2 /role/models/role.js</a></li><li><a href="#t5411.3 admin/role/services/role.js">11.3 admin/role/services/role.js</a></li></ul></li><li><a href="#t5512. 设置权限">12. 设置权限</a><ul><li><a href="#t5612.1 role/index.js">12.1 role/index.js</a></li><li><a href="#t5712.2 models/role.js">12.2 models/role.js</a></li><li><a href="#t5812.3 services/role.js">12.3 services/role.js</a></li></ul></li><li><a href="#t5913.给角色加用户">13.给角色加用户</a><ul><li><a href="#t6013.1 roles/page.js">13.1 roles/page.js</a></li><li><a href="#t6113.2 models/roles.js">13.2 models/roles.js</a></li><li><a href="#t6213.3 services/roles.js">13.3 services/roles.js</a></li></ul></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. 初始化项目">1. 初始化项目 <a href="#t01. 初始化项目"> # </a></h2>
+<ul>
+<li><a href="https://umijs.org/zh/guide/create-umi-app.html">create-umi-app</a></li>
+</ul>
+<pre><code class="lang-js">$ mkdir myapp &amp;&amp; cd myapp
+$ yarn create umi
+$ cnpm i styled-components jsonwebtoken -S
+$ npm start
+</code></pre>
+<h2 id="t12. 配置别名">2. 配置别名 <a href="#t12. 配置别名"> # </a></h2>
+<p>.webpackrc.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> {resolve}=<span class="hljs-built_in">require</span>(<span class="hljs-string">'path'</span>);
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    <span class="hljs-string">"alias"</span>:{
+        <span class="hljs-string">"@"</span>:resolve(<span class="hljs-string">"src"</span>)
+    }
+}
+</code></pre>
+<h2 id="t23. 注册登录">3. 注册登录 <a href="#t23. 注册登录"> # </a></h2>
+<p><img src="http://img.zhufengpeixun.cn/regit.png" alt="注册"></p>
+<p><img src="http://img.zhufengpeixun.cn/login.png" alt="注册"></p>
+<h3 id="t33.1 login/index.js">3.1 login/index.js <a href="#t33.1 login/index.js"> # </a></h3>
+<h4 id="t43.1 头部导入">3.1 头部导入 <a href="#t43.1 头部导入"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component,Fragment} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> {Layout,Form,Icon,Input,Button,Checkbox,Cascader,Select,Row,Col,AutoComplete,message} <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+<span class="hljs-keyword">import</span> styled <span class="hljs-keyword">from</span> <span class="hljs-string">'styled-components'</span>;
+<span class="hljs-keyword">import</span> { connect } <span class="hljs-keyword">from</span> <span class="hljs-string">'dva'</span>;
+<span class="hljs-keyword">const</span> {Footer,Content}=Layout;
+<span class="hljs-keyword">const</span> Option=Select.Option;
+<span class="hljs-keyword">const</span> AutoCompleteOption = AutoComplete.Option;
+<span class="hljs-keyword">const</span> FormItem=Form.Item;
+</code></pre>
+<h4 id="t53.2 Login">3.2 Login <a href="#t53.2 Login"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Login</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    handleSubmit=<span class="hljs-function"><span class="hljs-params">event</span> =&gt;</span> {
+        event.preventDefault();
+        <span class="hljs-keyword">this</span>.userForm.props.form.validateFields(<span class="hljs-function">(<span class="hljs-params">err,values</span>) =&gt;</span> {
+                <span class="hljs-keyword">if</span> (err) {
+                    message.error(<span class="hljs-string">'输入不合法!'</span>);
+                } <span class="hljs-keyword">else</span> {
+                    <span class="hljs-keyword">this</span>.props.dispatch({
+                        <span class="hljs-attr">type</span>: <span class="hljs-keyword">this</span>.props.isLogin?<span class="hljs-string">'login/login'</span>:<span class="hljs-string">'login/signup'</span>,
+                        <span class="hljs-attr">payload</span>:values
+                    });
+                }
+        });
+    }
+    changeLoginStatus=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>:<span class="hljs-string">'login/changeLoginStatus'</span>
+        });
+    }
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Layout</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Content</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">LoginForm</span>
+                        <span class="hljs-attr">isLogin</span>=<span class="hljs-string">{this.props.isLogin}</span>
+                        <span class="hljs-attr">handleSubmit</span>=<span class="hljs-string">{this.handleSubmit}</span>
+                        <span class="hljs-attr">wrappedComponentRef</span>=<span class="hljs-string">{inst</span> =&gt;</span> this.userForm=inst}
+                        changeLoginStatus={this.changeLoginStatus}
+                        errorInfo={this.props.errorInfo}
+                    /&gt;
+                <span class="hljs-tag">&lt;/<span class="hljs-name">Content</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Footer</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">textAlign:</span> '<span class="hljs-attr">center</span>' }}&gt;</span> 珠峰培训 ©2018<span class="hljs-tag">&lt;/<span class="hljs-name">Footer</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">Layout</span>&gt;</span>
+       )
+   }
+}
+</span></code></pre>
+<h4 id="t63.3 connect">3.3 connect <a href="#t63.3 connect"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> connect(
+    <span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> ({
+        ...state.login,
+        <span class="hljs-attr">loading</span>:state.loading.models.login
+    })
+)(Login);
+</code></pre>
+<h4 id="t73.4 LoginForm.state">3.4 LoginForm.state <a href="#t73.4 LoginForm.state"> # </a></h4>
+<pre><code class="lang-js">state={<span class="hljs-attr">autoCompleteResult</span>:[],<span class="hljs-attr">confirmDirty</span>:<span class="hljs-literal">false</span>}
+</code></pre>
+<h4 id="t83.5 handleWebsiteChange">3.5 handleWebsiteChange <a href="#t83.5 handleWebsiteChange"> # </a></h4>
+<pre><code class="lang-js">handleWebsiteChange=<span class="hljs-function">(<span class="hljs-params">value</span>) =&gt;</span> {
+    <span class="hljs-keyword">let</span> autoCompleteResult;
+    <span class="hljs-keyword">if</span> (value) {
+        autoCompleteResult=[<span class="hljs-string">'.com'</span>,<span class="hljs-string">'.cn'</span>,<span class="hljs-string">'.org'</span>].map(<span class="hljs-function"><span class="hljs-params">domain</span>=&gt;</span><span class="hljs-string">`<span class="hljs-subst">${value}</span><span class="hljs-subst">${domain}</span>`</span>);
+    } <span class="hljs-keyword">else</span> {
+        autoCompleteResult=[];
+    }
+    <span class="hljs-keyword">this</span>.setState({autoCompleteResult});
+}
+</code></pre>
+<h4 id="t93.6 handleConfirmBlur">3.6 handleConfirmBlur <a href="#t93.6 handleConfirmBlur"> # </a></h4>
+<pre><code class="lang-js">handleConfirmBlur = <span class="hljs-function">(<span class="hljs-params">e</span>) =&gt;</span> {
+    <span class="hljs-keyword">const</span> value = e.target.value;
+    <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">confirmDirty</span>: <span class="hljs-keyword">this</span>.state.confirmDirty || !!value });
+}
+</code></pre>
+<h4 id="t103.7 compareToFirstPassword">3.7 compareToFirstPassword <a href="#t103.7 compareToFirstPassword"> # </a></h4>
+<pre><code class="lang-js">compareToFirstPassword=<span class="hljs-function">(<span class="hljs-params">rule,value,callback</span>) =&gt;</span> {
+    <span class="hljs-keyword">const</span> form=<span class="hljs-keyword">this</span>.props.form;
+    <span class="hljs-keyword">if</span> (value &amp;&amp; value !== form.getFieldValue(<span class="hljs-string">'password'</span>)) {
+        callback(<span class="hljs-string">'密码不匹配'</span>);
+    } <span class="hljs-keyword">else</span> {
+        callback();
+    }
+}
+</code></pre>
+<h4 id="t113.8 validateToNextPassword">3.8 validateToNextPassword <a href="#t113.8 validateToNextPassword"> # </a></h4>
+<pre><code class="lang-js">validateToNextPassword=<span class="hljs-function">(<span class="hljs-params">rule,value,callback</span>) =&gt;</span> {
+    <span class="hljs-keyword">const</span> form=<span class="hljs-keyword">this</span>.props.form;
+    <span class="hljs-keyword">if</span> (value&amp;&amp;<span class="hljs-keyword">this</span>.state.confirmDirty) {
+        <span class="hljs-comment">//force属性可以设置是否对已校验过的表单项再次校验，默认是false</span>
+        form.validateFields([<span class="hljs-string">'confirm'</span>],{<span class="hljs-attr">force</span>:<span class="hljs-literal">true</span>});
+    }
+    callback();
+}
+</code></pre>
+<h4 id="t123.9 render Layout">3.9 render Layout <a href="#t123.9 render Layout"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> {<span class="hljs-attr">form</span>: {getFieldDecorator},isLogin,handleSubmit}=<span class="hljs-keyword">this</span>.props;
+<span class="hljs-keyword">const</span> formItemLayout={
+    <span class="hljs-attr">labelCol</span>:{
+            <span class="hljs-attr">span</span>:<span class="hljs-number">4</span>
+    },
+    <span class="hljs-attr">wrapperCol</span>: {
+            <span class="hljs-attr">span</span>:<span class="hljs-number">20</span>
+        }
+}
+<span class="hljs-keyword">const</span> tailFormItemLayout={
+    <span class="hljs-attr">wrapperCol</span>: {
+        <span class="hljs-attr">span</span>: <span class="hljs-number">20</span>,
+        <span class="hljs-attr">offset</span>:<span class="hljs-number">4</span>
+   }
+}
+</code></pre>
+<h4 id="t133.10 render.addresses">3.10 render.addresses <a href="#t133.10 render.addresses"> # </a></h4>
+<pre><code class="lang-js"> <span class="hljs-keyword">const</span> addresses=[
+            {
+                <span class="hljs-attr">value</span>:<span class="hljs-string">'guangdong'</span>,
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'广东'</span>,
+                <span class="hljs-attr">children</span>: [
+                    {
+                        <span class="hljs-attr">value</span>:<span class="hljs-string">'guangzhou'</span>,
+                        <span class="hljs-attr">label</span>: <span class="hljs-string">'广州'</span>,
+                    },
+                    {
+                        <span class="hljs-attr">value</span>:<span class="hljs-string">'dongguan'</span>,
+                        <span class="hljs-attr">label</span>: <span class="hljs-string">'东莞'</span>,
+                    }
+                ]
+            },
+            {
+                <span class="hljs-attr">value</span>:<span class="hljs-string">'shandong'</span>,
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'山东'</span>,
+                <span class="hljs-attr">children</span>: [
+                    {
+                        <span class="hljs-attr">value</span>:<span class="hljs-string">'jinan'</span>,
+                        <span class="hljs-attr">label</span>: <span class="hljs-string">'济南'</span>,
+                    },
+                    {
+                        <span class="hljs-attr">value</span>:<span class="hljs-string">'shouguang'</span>,
+                        <span class="hljs-attr">label</span>: <span class="hljs-string">'寿光'</span>,
+                    }
+                ]
+            }
+        ]
+</code></pre>
+<h4 id="t143.11 countrySelector">3.11 countrySelector <a href="#t143.11 countrySelector"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> countrySelector=getFieldDecorator(<span class="hljs-string">'prefix'</span>,{<span class="hljs-attr">initialValue</span>: <span class="hljs-string">'86'</span>})(
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Select</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{width:</span> <span class="hljs-attr">70</span>}}&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">Option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"86"</span>&gt;</span>+86<span class="hljs-tag">&lt;/<span class="hljs-name">Option</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">Option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"87"</span>&gt;</span>+87<span class="hljs-tag">&lt;/<span class="hljs-name">Option</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">Select</span>&gt;</span></span>
+);
+</code></pre>
+<h4 id="t153.12 websiteOptions">3.12 websiteOptions <a href="#t153.12 websiteOptions"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> websiteOptions=<span class="hljs-keyword">this</span>.state.autoCompleteResult.map(<span class="hljs-function"><span class="hljs-params">website</span> =&gt;</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">AutoCompleteOption</span> <span class="hljs-attr">key</span>=<span class="hljs-string">{website}</span>&gt;</span>{website}<span class="hljs-tag">&lt;/<span class="hljs-name">AutoCompleteOption</span>&gt;</span></span>
+));
+</code></pre>
+<h4 id="t163.13  return">3.13  return <a href="#t163.13  return"> # </a></h4>
+<pre><code class="lang-js"> &lt;FormWrapper&gt;
+              &lt;Form onSubmit={handleSubmit} style={{width:isLogin?'300px':'500px'}}&gt;
+                &lt;h3&gt;欢迎注册&lt;/h3&gt;
+                &lt;FormItem label="用户名" {...formItemLayout}&gt;
+                            {
+                                getFieldDecorator('username',{
+                                    rules:[{required:true,message:'请输入你的用户名'}]
+                                })(&lt;Input prefix={&lt;Icon type="user" style={{color:'rbga(0,0,0,.25)'}}/&gt;} placeholder="用户名"/&gt;)
+                            }
+                &lt;/FormItem&gt;
+                &lt;FormItem label="密码" {...formItemLayout}&gt;
+                            {
+                                getFieldDecorator('password',{
+                            rules: [{required: true,message: '请输入你的密码'},
+                                {validator:this.validateToNextPassword}
+                                ]
+                                })(&lt;Input prefix={&lt;Icon type="lock" style={{color:'rbga(0,0,0,.25)'}}/&gt;} placeholder="密码"/&gt;)
+                            }
+                    &lt;/FormItem&gt;
+                {
+                        !isLogin&amp;&amp;(
+                            &lt;FormItem label="确认密码" {...formItemLayout}&gt;
+                            {
+                                getFieldDecorator('confirm',{
+                            rules: [{required: true,message: '请输入你的确认密码'},
+                                {validator:this.compareToFirstPassword}
+                                ]
+                                })(&lt;Input prefix={&lt;Icon type="lock" style={{color:'rbga(0,0,0,.25)'}}/&gt;} placeholder="确认密码"/&gt;)
+                            }
+                          &lt;/FormItem&gt;
+                        )
+                }
+                {
+                        !isLogin&amp;&amp;(
+                            &lt;FormItem label="邮箱" {...formItemLayout}&gt;
+                            {
+                                getFieldDecorator('email',{
+                            rules: [{type:'email',message:'必须输入合法的邮箱地址'},{required:true,message:'请输入邮箱'}]
+                                })(&lt;Input prefix={&lt;Icon type="mail" style={{color:'rbga(0,0,0,.25)'}}/&gt;} placeholder="密码"/&gt;)
+                            }
+                           &lt;/FormItem&gt;
+                        )
+                    }
+                {
+                        !isLogin&amp;&amp;(
+                            &lt;FormItem label="住址" {...formItemLayout}&gt;
+                            {
+                               getFieldDecorator('address',{
+                                 initialValue:["guangdong","guangzhou"],
+                                 rules: [{type:'array',required:true,message:'必须输入合法的地址'}]
+                                })(&lt;Cascader options={addresses}/&gt;)
+                            }
+                          &lt;/FormItem&gt;
+                        )
+                }
+                {
+                        !isLogin&amp;&amp;(
+                            &lt;FormItem label="手机号" {...formItemLayout}&gt;
+                            {
+                               getFieldDecorator('phone',{
+                                 rules: [{required:true,message:'必须输入合法的手机号'}]
+                               })(&lt;Input addonBefore={countrySelector} style={{width:'100%'}}/&gt;)
+                            }
+                           &lt;/FormItem&gt;
+                        )
+                }
+                {
+                        !isLogin&amp;&amp;(
+                            &lt;FormItem label="个人主页" {...formItemLayout}&gt;
+                            {
+                               getFieldDecorator('website',{
+                                 rules: [{required:true,message:'必须输入合法的网址'}]
+                            })(
+                                &lt;AutoComplete
+                                dataSource={websiteOptions}
+                                onChange={this.handleWebsiteChange}
+                                placeholder="网址"
+                                &gt;
+                                    &lt;Input/&gt;
+                                &lt;/AutoComplete&gt;
+                            )
+                                }
+                            &lt;/FormItem&gt;
+                        )
+                }
+                {
+                        !isLogin&amp;&amp;(
+                            &lt;FormItem label="验证码" {...formItemLayout} extra="证明你不是机器人"&gt;
+                              &lt;Row gutter={8}&gt;
+                                &lt;Col span={12}&gt;
+                                {
+                                       getFieldDecorator('captcha',{
+                                         rules: [{required:true,message:'必须输入验证码'}]
+                                   })(&lt;Input /&gt;)
+                                }
+                                &lt;/Col&gt;
+                                &lt;Col span={12}&gt;
+                                    &lt;Button&gt;获取验证码&lt;/Button&gt;
+                                &lt;/Col&gt;
+                              &lt;/Row&gt;
+                           &lt;/FormItem&gt;
+                        )
+                    }
+                {
+                        !isLogin&amp;&amp;(
+                            &lt;FormItem {...tailFormItemLayout}&gt;
+                                {getFieldDecorator('agreement', {
+                                    valuePropName: 'checked',
+                                })(
+                                    &lt;Checkbox&gt;我已经阅读并同意 &lt;a href=""&gt;协议&lt;/a&gt;&lt;/Checkbox&gt;
+                                )}
+                            &lt;/FormItem&gt;
+                        )
+                }
+                {
+                        isLogin?(&lt;FormItem&gt;
+                                    &lt;Button type="primary" htmlType="submit" style={{width:'100%'}}&gt;登录&lt;/Button&gt;
+                                        没有账号? &lt;a href="#" onClick={this.props.changeLoginStatus}&gt;立刻注册!&lt;/a&gt;
+                                    &lt;/FormItem&gt;):(
+                                &lt;FormItem&gt;
+                                    &lt;Button type="primary" htmlType="submit" style={{width:'100%'}}&gt;注册&lt;/Button&gt;
+                                    已有账号? &lt;a href="#" onClick={this.props.changeLoginStatus}&gt;立即登录!&lt;/a&gt;
+                                &lt;/FormItem&gt;
+                        )
+                }
+                &lt;/Form&gt;
+            &lt;/FormWrapper&gt;
+</code></pre>
+<h4 id="t173.14  login">3.14  login <a href="#t173.14  login"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component,Fragment} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> {Layout,Form,Icon,Input,Button,Checkbox,Cascader,Select,Row,Col,AutoComplete,message} <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+<span class="hljs-keyword">import</span> styled <span class="hljs-keyword">from</span> <span class="hljs-string">'styled-components'</span>;
+<span class="hljs-keyword">import</span> { connect } <span class="hljs-keyword">from</span> <span class="hljs-string">'dva'</span>;
+<span class="hljs-keyword">const</span> {Footer,Content}=Layout;
+<span class="hljs-keyword">const</span> Option=Select.Option;
+<span class="hljs-keyword">const</span> AutoCompleteOption = AutoComplete.Option;
+<span class="hljs-keyword">const</span> FormItem=Form.Item;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Login</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    handleSubmit=<span class="hljs-function"><span class="hljs-params">event</span> =&gt;</span> {
+        event.preventDefault();
+        <span class="hljs-keyword">this</span>.userForm.props.form.validateFields(<span class="hljs-function">(<span class="hljs-params">err,values</span>) =&gt;</span> {
+                <span class="hljs-keyword">if</span> (err) {
+                    message.error(<span class="hljs-string">'输入不合法!'</span>);
+                } <span class="hljs-keyword">else</span> {
+                    <span class="hljs-keyword">this</span>.props.dispatch({
+                        <span class="hljs-attr">type</span>: <span class="hljs-keyword">this</span>.props.isLogin?<span class="hljs-string">'login/login'</span>:<span class="hljs-string">'login/signup'</span>,
+                        <span class="hljs-attr">payload</span>:values
+                    });
+                }
+        });
+    }
+    changeLoginStatus=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>:<span class="hljs-string">'login/changeLoginStatus'</span>
+        });
+    }
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;Layout&gt;
+                &lt;Content&gt;
+                    &lt;LoginForm
+                        isLogin={this.props.isLogin}
+                        handleSubmit={this.handleSubmit}
+                        wrappedComponentRef={inst =&gt; this.userForm=inst}
+                        changeLoginStatus={this.changeLoginStatus}
+                        errorInfo={this.props.errorInfo}
+                    /&gt;
+                &lt;/Content&gt;
+                &lt;Footer style={{ textAlign: 'center' }}&gt; 珠峰培训 ©2018&lt;/Footer&gt;
+            &lt;/Layout&gt;
+       )
+   }
+}
+
+export default connect(
+    state =&gt; ({
+        ...state.login,
+        loading:state.loading.models.login
+    })
+)(Login);
+
+class LoginForm extends Component{
+    state={autoCompleteResult:[],confirmDirty:false}
+    handleWebsiteChange=(value) =&gt; {
+        let autoCompleteResult;
+        if (value) {
+            autoCompleteResult=['.com','.cn','.org'].map(domain=&gt;`${value}${domain}`);
+        } else {
+            autoCompleteResult=[];
+        }
+        this.setState({autoCompleteResult});
+    }
+    handleConfirmBlur = (e) =&gt; {
+        const value = e.target.value;
+        this.setState({ confirmDirty: this.state.confirmDirty || !!value });
+      }
+
+    compareToFirstPassword=(rule,value,callback) =&gt; {
+        const form=this.props.form;
+        if (value &amp;&amp; value !== form.getFieldValue('password')) {
+            callback('密码不匹配');
+        } else {
+            callback();
+        }
+    }
+    validateToNextPassword=(rule,value,callback) =&gt; {
+        const form=this.props.form;
+        if (value&amp;&amp;this.state.confirmDirty) {
+            form.validateFields(['confirm'],{force:true});
+        }
+        callback();
+    }
+    render() {
+        const {form: {getFieldDecorator},isLogin,handleSubmit}=this.props;
+        const formItemLayout={
+            labelCol:{
+                span:4
+            },
+            wrapperCol: {
+                span:20
+            }
+
+        }
+        const tailFormItemLayout={
+            wrapperCol: {
+                span: 20,
+                offset:4
+            }
+        }
+        const addresses=[
+            {
+                value:'guangdong',
+                label: '广东',
+                children: [
+                    {
+                        value:'guangzhou',
+                        label: '广州',
+                    },
+                    {
+                        value:'dongguan',
+                        label: '东莞',
+                    }
+                ]
+            },
+            {
+                value:'shandong',
+                label: '山东',
+                children: [
+                    {
+                        value:'jinan',
+                        label: '济南',
+                    },
+                    {
+                        value:'shouguang',
+                        label: '寿光',
+                    }
+                ]
+            }
+        ]
+        const countrySelector=getFieldDecorator('prefix',{initialValue: '86'})(
+            &lt;Select style={{width: 70}}&gt;
+                &lt;Option value="86"&gt;+86&lt;/Option&gt;
+                &lt;Option value="87"&gt;+87&lt;/Option&gt;
+            &lt;/Select&gt;
+        );
+        const websiteOptions=this.state.autoCompleteResult.map(website =&gt; (
+            &lt;AutoCompleteOption key={website}&gt;{website}&lt;/AutoCompleteOption&gt;
+        ));
+        return (
+            &lt;FormWrapper&gt;
+              &lt;Form onSubmit={handleSubmit} style={{width:isLogin?'300px':'500px'}}&gt;
+                &lt;h3&gt;欢迎注册&lt;/h3&gt;
+                &lt;FormItem label="用户名" {...formItemLayout}&gt;
+                            {
+                                getFieldDecorator('username',{
+                                    rules:[{required:true,message:'请输入你的用户名'}]
+                                })(&lt;Input prefix={&lt;Icon type="user" style={{color:'rbga(0,0,0,.25)'}}/&gt;} placeholder="用户名"/&gt;)
+                            }
+                &lt;/FormItem&gt;
+                &lt;FormItem label="密码" {...formItemLayout}&gt;
+                            {
+                                getFieldDecorator('password',{
+                            rules: [{required: true,message: '请输入你的密码'},
+                                {validator:this.validateToNextPassword}
+                                ]
+                                })(&lt;Input prefix={&lt;Icon type="lock" style={{color:'rbga(0,0,0,.25)'}}/&gt;} placeholder="密码"/&gt;)
+                            }
+                    &lt;/FormItem&gt;
+                {
+                        !isLogin&amp;&amp;(
+                            &lt;FormItem label="确认密码" {...formItemLayout}&gt;
+                            {
+                                getFieldDecorator('confirm',{
+                            rules: [{required: true,message: '请输入你的确认密码'},
+                                {validator:this.compareToFirstPassword}
+                                ]
+                                })(&lt;Input prefix={&lt;Icon type="lock" style={{color:'rbga(0,0,0,.25)'}}/&gt;} placeholder="确认密码"/&gt;)
+                            }
+                          &lt;/FormItem&gt;
+                        )
+                }
+                {
+                        !isLogin&amp;&amp;(
+                            &lt;FormItem label="邮箱" {...formItemLayout}&gt;
+                            {
+                                getFieldDecorator('email',{
+                            rules: [{type:'email',message:'必须输入合法的邮箱地址'},{required:true,message:'请输入邮箱'}]
+                                })(&lt;Input prefix={&lt;Icon type="mail" style={{color:'rbga(0,0,0,.25)'}}/&gt;} placeholder="密码"/&gt;)
+                            }
+                           &lt;/FormItem&gt;
+                        )
+                    }
+                {
+                        !isLogin&amp;&amp;(
+                            &lt;FormItem label="住址" {...formItemLayout}&gt;
+                            {
+                               getFieldDecorator('address',{
+                                 initialValue:["guangdong","guangzhou"],
+                                 rules: [{type:'array',required:true,message:'必须输入合法的地址'}]
+                                })(&lt;Cascader options={addresses}/&gt;)
+                            }
+                          &lt;/FormItem&gt;
+                        )
+                }
+                {
+                        !isLogin&amp;&amp;(
+                            &lt;FormItem label="手机号" {...formItemLayout}&gt;
+                            {
+                               getFieldDecorator('phone',{
+                                 rules: [{required:true,message:'必须输入合法的手机号'}]
+                               })(&lt;Input addonBefore={countrySelector} style={{width:'100%'}}/&gt;)
+                            }
+                           &lt;/FormItem&gt;
+                        )
+                }
+                {
+                        !isLogin&amp;&amp;(
+                            &lt;FormItem label="个人主页" {...formItemLayout}&gt;
+                            {
+                               getFieldDecorator('website',{
+                                 rules: [{required:true,message:'必须输入合法的网址'}]
+                            })(
+                                &lt;AutoComplete
+                                dataSource={websiteOptions}
+                                onChange={this.handleWebsiteChange}
+                                placeholder="网址"
+                                &gt;
+                                    &lt;Input/&gt;
+                                &lt;/AutoComplete&gt;
+                            )
+                                }
+                            &lt;/FormItem&gt;
+                        )
+                }
+                {
+                        !isLogin&amp;&amp;(
+                            &lt;FormItem label="验证码" {...formItemLayout} extra="证明你不是机器人"&gt;
+                              &lt;Row gutter={8}&gt;
+                                &lt;Col span={12}&gt;
+                                {
+                                       getFieldDecorator('captcha',{
+                                         rules: [{required:true,message:'必须输入验证码'}]
+                                   })(&lt;Input /&gt;)
+                                }
+                                &lt;/Col&gt;
+                                &lt;Col span={12}&gt;
+                                    &lt;Button&gt;获取验证码&lt;/Button&gt;
+                                &lt;/Col&gt;
+                              &lt;/Row&gt;
+                           &lt;/FormItem&gt;
+                        )
+                    }
+                {
+                        !isLogin&amp;&amp;(
+                            &lt;FormItem {...tailFormItemLayout}&gt;
+                                {getFieldDecorator('agreement', {
+                                    valuePropName: 'checked',
+                                })(
+                                    &lt;Checkbox&gt;我已经阅读并同意 &lt;a href=""&gt;协议&lt;/a&gt;&lt;/Checkbox&gt;
+                                )}
+                            &lt;/FormItem&gt;
+                        )
+                }
+                {
+                        isLogin?(&lt;FormItem&gt;
+                                    &lt;Button type="primary" htmlType="submit" style={{width:'100%'}}&gt;登录&lt;/Button&gt;
+                                        没有账号? &lt;a href="#" onClick={this.props.changeLoginStatus}&gt;立刻注册!&lt;/a&gt;
+                                    &lt;/FormItem&gt;):(
+                                &lt;FormItem&gt;
+                               &lt;Button type="primary" htmlType="submit" style={{width:'100%'}}&gt;注册&lt;/Button&gt;
+                            已有账号? &lt;a href="#" onClick={this.props.changeLoginStatus}&gt;立即登录!&lt;/a&gt;
+                                &lt;/FormItem&gt;
+                        )
+                }
+                &lt;/Form&gt;
+            &lt;/FormWrapper&gt;
+
+        )
+  }
+}
+LoginForm = Form.create()(LoginForm);
+const FormWrapper=styled.div`
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   height:calc(100vh - 70px);
+   h3 {
+    text-align:center;
+   }
+   form {
+       border:1px solid #999;
+       border-radius:5px;
+       padding:20px;
+   }
+   `
+</code></pre>
+<h3 id="t183.2 utils/request.js">3.2 utils/request.js <a href="#t183.2 utils/request.js"> # </a></h3>
+<p>src/utils/request.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> fetch <span class="hljs-keyword">from</span> <span class="hljs-string">'dva/fetch'</span>;
+<span class="hljs-keyword">const</span> BASE_URL = <span class="hljs-string">'http://127.0.0.1:7001'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">url, options</span>) </span>{
+  <span class="hljs-keyword">let</span> token = localStorage.getItem(<span class="hljs-string">'token'</span>);
+  <span class="hljs-keyword">if</span> (token) {
+    options.headers = options.headers || {};
+    options.headers.authorization = token;
+  }
+  options.method = options.method || <span class="hljs-string">'GET'</span>;
+  options.headers[<span class="hljs-string">"Content-Type"</span>] = <span class="hljs-string">"application/json"</span>;
+  options.headers[<span class="hljs-string">"Accept"</span>] = <span class="hljs-string">"application/json"</span>;
+  options.credentials = <span class="hljs-string">'include'</span>;
+  <span class="hljs-keyword">return</span> fetch(BASE_URL + url, {
+    ...baseOptions,
+    ...options,
+    <span class="hljs-attr">headers</span>: {
+      ...baseOptions.headers,
+      ...options.headers
+    }
+  }).then(<span class="hljs-function"><span class="hljs-params">res</span> =&gt;</span> res.json());
+}
+</code></pre>
+<h3 id="t193.3  models/login.js">3.3  models/login.js <a href="#t193.3  models/login.js"> # </a></h3>
+<p>src/pages/login/models/login.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> service <span class="hljs-keyword">from</span> <span class="hljs-string">'../services/login'</span>;
+<span class="hljs-keyword">import</span> {decode} <span class="hljs-keyword">from</span> <span class="hljs-string">'jsonwebtoken'</span>;
+<span class="hljs-keyword">import</span> {routerRedux} <span class="hljs-keyword">from</span> <span class="hljs-string">'dva/router'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+  <span class="hljs-attr">namespace</span>:<span class="hljs-string">'login'</span>,
+  <span class="hljs-attr">state</span>:{
+      <span class="hljs-attr">isLogin</span>:<span class="hljs-literal">true</span>,<span class="hljs-comment">//是否正在注册</span>
+      errorInfo:<span class="hljs-string">''</span>,<span class="hljs-comment">//放着报错信息</span>
+      userInfo:<span class="hljs-literal">null</span><span class="hljs-comment">//如果用户登录之后，会把用户信息放在这里</span>
+  },
+
+  <span class="hljs-attr">subscriptions</span>: {
+      setup({dispatch,history}) {
+          history.listen(<span class="hljs-function">(<span class="hljs-params">{pathname,query}</span>) =&gt;</span> {
+              <span class="hljs-keyword">if</span> (pathname == <span class="hljs-string">'/login'</span>) {
+
+              } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (pathname == <span class="hljs-string">'/signup'</span>) {
+
+              }
+          });
+      }
+  },
+  <span class="hljs-attr">effects</span>:{
+      *signup({payload},{call,put}){
+        <span class="hljs-keyword">yield</span> call(service.signup,payload);
+        <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:<span class="hljs-string">'save'</span>,<span class="hljs-attr">payload</span>:{<span class="hljs-attr">isLogin</span>:<span class="hljs-literal">true</span>}});
+      },
+      *login({payload},{call,put}){
+        <span class="hljs-keyword">const</span> token=<span class="hljs-keyword">yield</span> call(service.login,payload);
+        <span class="hljs-keyword">const</span> userInfo = decode(token);
+        <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:<span class="hljs-string">'save'</span>,<span class="hljs-attr">payload</span>:{userInfo}});
+        localStorage.setItem(<span class="hljs-string">'token'</span>,token);
+        <span class="hljs-keyword">yield</span> put(routerRedux.push(<span class="hljs-string">'/admin'</span>));
+      },
+      *loadUser({payload},{call,put}) {
+            <span class="hljs-keyword">let</span> token=localStorage.getItem(<span class="hljs-string">'token'</span>);
+            <span class="hljs-keyword">if</span> (token) {
+                <span class="hljs-keyword">const</span> user = decode(token);
+                <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:<span class="hljs-string">'setUserInfo'</span>,<span class="hljs-attr">payload</span>:user});
+            } <span class="hljs-keyword">else</span> {
+                <span class="hljs-keyword">yield</span> put(routerRedux.push(<span class="hljs-string">'/login'</span>));
+            }
+        }
+  },
+  <span class="hljs-attr">reducers</span>:{
+    save(state,action){
+      <span class="hljs-keyword">return</span> {...state,...action.payload};
+    }
+  }
+}
+</code></pre>
+<h3 id="t203.4 login/services/login.js">3.4 login/services/login.js <a href="#t203.4 login/services/login.js"> # </a></h3>
+<p>src/pages/login/services/login.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> request <span class="hljs-keyword">from</span> <span class="hljs-string">'@/request'</span>;
+
+<span class="hljs-comment">//定义一个注册的方法,调用api接口</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">signup</span>(<span class="hljs-params">payload</span>)</span>{
+  <span class="hljs-keyword">return</span> request(<span class="hljs-string">'/api/signup'</span>,{
+      <span class="hljs-attr">method</span>:<span class="hljs-string">'POST'</span>,
+      <span class="hljs-attr">body</span>:<span class="hljs-built_in">JSON</span>.stringify(payload)
+  });
+}
+<span class="hljs-comment">//定义一个登陆的方法</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">login</span>(<span class="hljs-params">payload</span>) </span>{
+  <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/login`</span>,{
+    <span class="hljs-attr">method</span>: <span class="hljs-string">'POST'</span>,
+    <span class="hljs-attr">body</span>:<span class="hljs-built_in">JSON</span>.stringify(payload)
+  });
+}
+</code></pre>
+<h2 id="t214.验证码">4.验证码 <a href="#t214.验证码"> # </a></h2>
+<h3 id="t224.1 login/index.js">4.1 login/index.js <a href="#t224.1 login/index.js"> # </a></h3>
+<p>src/pages/login/index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> captchaUrl=<span class="hljs-string">`http://127.0.0.1:7001/captcha?ts=`</span>;
+
+refreshCaptcha = <span class="hljs-function">(<span class="hljs-params">event</span>)=&gt;</span>{
+    event.target.src = captchaUrl+<span class="hljs-built_in">Date</span>.now();
+}
+
+&lt;FormItem label=<span class="hljs-string">"验证码"</span> {...formItemLayout} extra=<span class="hljs-string">"证明你不是机器人"</span>&gt;
+     <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Row</span> <span class="hljs-attr">gutter</span>=<span class="hljs-string">{8}</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">Col</span> <span class="hljs-attr">span</span>=<span class="hljs-string">{12}</span>&gt;</span>
+              {
+                  getFieldDecorator('captcha',{
+                      rules: [{required:true,message:'必须输入验证码'}]
+                  })(<span class="hljs-tag">&lt;<span class="hljs-name">Input</span> /&gt;</span>)
+              }
+          <span class="hljs-tag">&lt;/<span class="hljs-name">Col</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">Col</span> <span class="hljs-attr">span</span>=<span class="hljs-string">{12}</span>&gt;</span>
+                 <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{captchaUrl}</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.refreshCaptcha}/</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">Col</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">FormItem</span>&gt;</span></span>
+</code></pre>
+<h2 id="t235.后台管理界面布局模版">5.后台管理界面布局模版 <a href="#t235.后台管理界面布局模版"> # </a></h2>
+<h3 id="t245.1 /admin/_layout.js">5.1 /admin/_layout.js <a href="#t245.1 /admin/_layout.js"> # </a></h3>
+<p>src/pages/admin/_layout.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component,Fragment} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> { Layout } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+<span class="hljs-keyword">const</span> { Header, Footer, Sider, Content } = Layout;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Layout</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Header</span>&gt;</span>Header<span class="hljs-tag">&lt;/<span class="hljs-name">Header</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Layout</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">Sider</span>&gt;</span>Sider<span class="hljs-tag">&lt;/<span class="hljs-name">Sider</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">Content</span>&gt;</span>Content<span class="hljs-tag">&lt;/<span class="hljs-name">Content</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">Layout</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Footer</span>&gt;</span>
+                   珠峰培训 ©2018
+                <span class="hljs-tag">&lt;/<span class="hljs-name">Footer</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">Layout</span>&gt;</span></span>
+       )
+   }
+}
+</code></pre>
+<h2 id="t256. 顶部导航条">6. 顶部导航条 <a href="#t256. 顶部导航条"> # </a></h2>
+<h3 id="t266.1 src/components/AdminHeader.js">6.1 src/components/AdminHeader.js <a href="#t266.1 src/components/AdminHeader.js"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> {Layout} <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+<span class="hljs-keyword">import</span> {connect} <span class="hljs-keyword">from</span> <span class="hljs-string">'dva'</span>;
+<span class="hljs-keyword">const</span> {Header}=Layout;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">AdminHeader</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+  componentWillMount() {
+      <span class="hljs-keyword">this</span>.props.dispatch({
+          <span class="hljs-attr">type</span>:<span class="hljs-string">'login/loadUser'</span>
+      });
+  }
+  render() {
+    <span class="hljs-keyword">let</span> {userInfo}=<span class="hljs-keyword">this</span>.props;
+      <span class="hljs-keyword">return</span> (
+        <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Header</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"logo"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"http://img.zhufengpeixun.cn/zfpxlogo.png"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"logo"</span>/&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"welcome"</span>&gt;</span>欢迎登录 {userInfo&amp;&amp;userInfo.username}<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">Header</span>&gt;</span>
+      )
+  }
+}
+export default connect(
+  state =&gt; state.login
+)(AdminHeader);
+
+</span></code></pre>
+<h3 id="t276.2 src/global.less">6.2 src/global.less <a href="#t276.2 src/global.less"> # </a></h3>
+<p>src/global.less</p>
+<pre><code class="lang-less"><span class="hljs-selector-class">.ant-layout</span> <span class="hljs-selector-class">.ant-layout-header</span> {
+  <span class="hljs-selector-class">.logo</span>{
+      <span class="hljs-attribute">width</span>:<span class="hljs-number">120px</span>;
+      <span class="hljs-attribute">height</span>:<span class="hljs-number">32px</span>;
+      <span class="hljs-attribute">margin</span>:<span class="hljs-number">16px</span>;
+      <span class="hljs-attribute">float</span>:left;
+  }
+  <span class="hljs-selector-class">.welcome</span>{
+      <span class="hljs-attribute">float</span>:right;
+      <span class="hljs-attribute">color</span>:<span class="hljs-number">#FFF</span>;
+  }
+}
+</code></pre>
+<h3 id="t286.3 admin/_layout.js">6.3 admin/_layout.js <a href="#t286.3 admin/_layout.js"> # </a></h3>
+<p>src/pages/admin/_layout.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> { Layout } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+<span class="hljs-keyword">import</span> AdminHeader <span class="hljs-keyword">from</span> <span class="hljs-string">'../../components/AdminHeader'</span>;
+<span class="hljs-keyword">const</span> {Footer,Sider,Content}=Layout;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Layout</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">AdminHeader</span>/&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Layout</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">Sider</span>&gt;</span>Sider<span class="hljs-tag">&lt;/<span class="hljs-name">Sider</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">Content</span>&gt;</span>Content<span class="hljs-tag">&lt;/<span class="hljs-name">Content</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">Layout</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Footer</span>&gt;</span>
+                   珠峰培训 ©2018
+                <span class="hljs-tag">&lt;/<span class="hljs-name">Footer</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">Layout</span>&gt;</span></span>
+       )
+   }
+}
+</code></pre>
+<h2 id="t297.左侧菜单和用户页面">7.左侧菜单和用户页面 <a href="#t297.左侧菜单和用户页面"> # </a></h2>
+<h3 id="t307.1 components/MenuList.js">7.1 components/MenuList.js <a href="#t307.1 components/MenuList.js"> # </a></h3>
+<p>src/components/MenuList.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component,Fragment} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> {Menu,Icon} <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+<span class="hljs-keyword">import</span> Link <span class="hljs-keyword">from</span> <span class="hljs-string">'umi/link'</span>;
+<span class="hljs-keyword">import</span> {connect} <span class="hljs-keyword">from</span> <span class="hljs-string">'dva'</span>;
+<span class="hljs-keyword">const</span> SubMenu=Menu.SubMenu;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MenuList</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    renderMenus=<span class="hljs-function">(<span class="hljs-params">resources=[]</span>) =&gt;</span> {
+        <span class="hljs-keyword">return</span> resources.map(<span class="hljs-function"><span class="hljs-params">resource</span> =&gt;</span> {
+            <span class="hljs-keyword">if</span> (resource.children.length&gt;<span class="hljs-number">0</span>) {
+                <span class="hljs-keyword">return</span> (
+                    &lt;SubMenu key={resource.key} title={&lt;span&gt;&lt;Icon type={resource.icon} /&gt;{resource.name}&lt;/span&gt;}&gt;
+                        {this.renderMenus(resource.children)}
+                    &lt;/SubMenu&gt;
+                )    
+            } else {
+                return &lt;Menu.Item key={resource.key}&gt;&lt;Link to={resource.key}&gt;&lt;Icon type={resource.icon} /&gt;{resource.name}&lt;/Link&gt;&lt;/Menu.Item&gt;;
+            }
+        });
+    }
+    render() {
+        let {userInfo}=this.props;
+        if (!userInfo)
+            return null;
+        return (
+            &lt;Menu
+                theme="dark"
+                defaultSelectedKeys={['/admin']}
+                defaultOpenKeys={['/admin']}
+                mode="inline"
+            &gt;
+                {
+                    this.renderMenus(userInfo.resources)
+                }
+            &lt;/Menu&gt;
+        )
+    }
+}
+export default connect(
+    state =&gt; state.login
+  )(MenuList);
+</code></pre>
+<pre><code class="lang-js"> <span class="hljs-keyword">let</span> list = <span class="hljs-keyword">await</span> app.mysql.query(<span class="hljs-string">`SELECT resource.* FROM user_role,role_resource,resource where user_role.role_id = role_resource.role_id AND role_resource.resource_id = resource.id AND user_role.user_id = ? ORDER BY resource.id ASC`</span>,[user.id]);
+      <span class="hljs-keyword">let</span> resources = [];
+      <span class="hljs-keyword">let</span> map = {};
+      list.forEach(<span class="hljs-function"><span class="hljs-params">item</span> =&gt;</span> {
+          item.children = [];
+          map[item.id] = item;
+          <span class="hljs-keyword">if</span> (item.parent_id == <span class="hljs-number">0</span>) {
+            resources.push(item);
+          } <span class="hljs-keyword">else</span> {
+            map[item.parent_id].children.push(item);
+          }
+      });
+      user.resources=resources;
+</code></pre>
+<h3 id="t317.2 admin/_layout.js">7.2 admin/_layout.js <a href="#t317.2 admin/_layout.js"> # </a></h3>
+<p>src/pages/admin/_layout.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> { Layout } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+<span class="hljs-keyword">import</span> AdminHeader <span class="hljs-keyword">from</span> <span class="hljs-string">'../../components/AdminHeader'</span>;
+<span class="hljs-keyword">import</span> MenuList <span class="hljs-keyword">from</span> <span class="hljs-string">'../../components/MenuList'</span>;
+<span class="hljs-keyword">const</span> {Footer,Sider,Content}=Layout;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Layout</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">AdminHeader</span>/&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Layout</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">Sider</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">MenuList</span>/&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">Sider</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">Content</span>&gt;</span>
+                        {this.props.children}
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">Content</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">Layout</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Footer</span>&gt;</span>
+                   珠峰培训 ©2018
+                <span class="hljs-tag">&lt;/<span class="hljs-name">Footer</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">Layout</span>&gt;</span></span>
+       )
+   }
+}
+</code></pre>
+<h2 id="t327. 用户管理">7. 用户管理 <a href="#t327. 用户管理"> # </a></h2>
+<h3 id="t337.1 src/utils/request.js">7.1 src/utils/request.js <a href="#t337.1 src/utils/request.js"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> fetch <span class="hljs-keyword">from</span> <span class="hljs-string">'dva/fetch'</span>;
+<span class="hljs-keyword">const</span> BASE_URL = <span class="hljs-string">'http://127.0.0.1:7001'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">url, options</span>) </span>{
+  <span class="hljs-keyword">let</span> token = localStorage.getItem(<span class="hljs-string">'token'</span>);
+  <span class="hljs-keyword">if</span> (token) {
+    options.headers = options.headers || {};
+    options.headers.authorization = token;
+  }
+  options.method = options.method || <span class="hljs-string">'GET'</span>;
+  options.headers[<span class="hljs-string">"Content-Type"</span>] = <span class="hljs-string">"application/json"</span>;
+  options.headers[<span class="hljs-string">"Accept"</span>] = <span class="hljs-string">"application/json"</span>;
+  options.credentials = <span class="hljs-string">'include'</span>;
+  <span class="hljs-keyword">return</span> fetch(BASE_URL + url, {
+    ...baseOptions,
+    ...options,
+    <span class="hljs-attr">headers</span>: {
+      ...baseOptions.headers,
+      ...options.headers
+    }
+  }).then(<span class="hljs-function"><span class="hljs-params">res</span> =&gt;</span> res.json());
+}
+
+</code></pre>
+<h3 id="t347.2 user.import">7.2 user.import <a href="#t347.2 user.import"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component,Fragment} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> {connect} <span class="hljs-keyword">from</span> <span class="hljs-string">'dva'</span>;
+<span class="hljs-keyword">import</span> {Card,Table,Button,Modal,Form,Input,message,Popconfirm} <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+<span class="hljs-keyword">import</span> {PAGE_SIZE} <span class="hljs-keyword">from</span> <span class="hljs-string">'./constants'</span>;
+<span class="hljs-keyword">import</span> { routerRedux } <span class="hljs-keyword">from</span> <span class="hljs-string">'dva/router'</span>;
+<span class="hljs-keyword">const</span> FormItem=Form.Item;
+</code></pre>
+<h3 id="t357.3 user">7.3 user <a href="#t357.3 user"> # </a></h3>
+<pre><code class="lang-js">@connect(
+    <span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> ({...state.user,<span class="hljs-attr">loading</span>:state.loading.models.user})
+)
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">user</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    save = <span class="hljs-function">(<span class="hljs-params">payload</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">'user/save'</span>,
+            payload
+        });
+    }
+    onAdd=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.save({<span class="hljs-attr">editVisible</span>: <span class="hljs-literal">true</span>,<span class="hljs-attr">isCreate</span>:<span class="hljs-literal">true</span>,<span class="hljs-attr">record</span>: {} });
+    }
+    onEdit=<span class="hljs-function">(<span class="hljs-params">record</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.save({<span class="hljs-attr">editVisible</span>: <span class="hljs-literal">true</span>,<span class="hljs-attr">isCreate</span>:<span class="hljs-literal">false</span>,record});
+    }
+    onEditCancel=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.save({ <span class="hljs-attr">editVisible</span> : <span class="hljs-literal">false</span> });
+    }
+    onEditOk=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.editForm.props.form.validateFields(<span class="hljs-function">(<span class="hljs-params">err,values</span>) =&gt;</span> {
+            <span class="hljs-keyword">if</span> (err) {
+                <span class="hljs-keyword">return</span> message.error(<span class="hljs-string">'表单校验失败!'</span>);
+            } <span class="hljs-keyword">else</span> {
+                <span class="hljs-keyword">this</span>.props.dispatch({
+                    <span class="hljs-attr">type</span>: <span class="hljs-keyword">this</span>.props.isCreate?<span class="hljs-string">'user/create'</span>:<span class="hljs-string">'user/update'</span>,
+                    <span class="hljs-attr">payload</span>:values
+                });
+            }
+        });
+    }
+    onDel=<span class="hljs-function">(<span class="hljs-params">id</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">'user/del'</span>,
+            <span class="hljs-attr">payload</span>:id
+        });
+    }
+    render() {
+        <span class="hljs-keyword">const</span> columns=[
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">'用户名'</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">'username'</span>,
+                <span class="hljs-attr">key</span>: <span class="hljs-string">'username'</span>
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">'邮箱'</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">'email'</span>,
+                <span class="hljs-attr">key</span>: <span class="hljs-string">'email'</span>
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">'性别'</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">'gender'</span>,
+                <span class="hljs-attr">key</span>: <span class="hljs-string">'gender'</span>,
+                <span class="hljs-attr">render</span>: <span class="hljs-function">(<span class="hljs-params">val,record</span>)=&gt;</span>(
+                    val==<span class="hljs-number">1</span>?<span class="hljs-string">'男'</span>:<span class="hljs-string">'女'</span>
+                )
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">'操作'</span>,
+                <span class="hljs-attr">key</span>: <span class="hljs-string">'operation'</span>,
+                <span class="hljs-attr">render</span>: <span class="hljs-function">(<span class="hljs-params">val,record</span>) =&gt;</span> (
+                    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Fragment</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">Button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"warning"</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{()</span>=&gt;</span>this.onEdit(record)}&gt;编辑<span class="hljs-tag">&lt;/<span class="hljs-name">Button</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">Popconfirm</span>
+                            <span class="hljs-attr">okText</span>=<span class="hljs-string">"确认"</span>
+                            <span class="hljs-attr">cancelText</span>=<span class="hljs-string">"取消"</span>
+                            <span class="hljs-attr">title</span>=<span class="hljs-string">"确认删除此用户吗?"</span>
+                            <span class="hljs-attr">onConfirm</span>=<span class="hljs-string">{()</span> =&gt;</span> this.onDel(record.id)}&gt;
+                             <span class="hljs-tag">&lt;<span class="hljs-name">Button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"danger"</span>&gt;</span>删除<span class="hljs-tag">&lt;/<span class="hljs-name">Button</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">Popconfirm</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">Fragment</span>&gt;</span></span>
+                )
+            }
+        ]
+        <span class="hljs-keyword">let</span> {list,record,isCreate,editVisible,loading,dispatch,pageNum,total}=<span class="hljs-keyword">this</span>.props;
+        <span class="hljs-keyword">const</span> pagination={
+            <span class="hljs-attr">current</span>: pageNum,
+            <span class="hljs-attr">pageSize</span>: PAGE_SIZE,
+            <span class="hljs-attr">showQuickJumper</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-attr">showTotal</span>: <span class="hljs-function">(<span class="hljs-params">total,range</span>) =&gt;</span> {
+                <span class="hljs-keyword">return</span> <span class="hljs-string">`共<span class="hljs-subst">${total}</span>条`</span>;
+            },
+            total,
+            <span class="hljs-attr">onChange</span>: <span class="hljs-function">(<span class="hljs-params">pageNum</span>) =&gt;</span> {
+                <span class="hljs-comment">//router.push(`/admin/user?pageNum=${pageNum}`);</span>
+                <span class="hljs-comment">//dispatch(routerRedux.push(`/admin/user?pageNum=${pageNum}`));</span>
+                dispatch(routerRedux.push({
+                    <span class="hljs-attr">pathname</span>: <span class="hljs-string">'/admin/user'</span>,
+                    <span class="hljs-attr">query</span>:{pageNum}
+                }));
+            }
+        }
+        <span class="hljs-keyword">const</span> rowSelection={
+            <span class="hljs-attr">type</span>: <span class="hljs-string">'checkbox'</span>,
+            <span class="hljs-attr">selectedRowKeys</span>: <span class="hljs-keyword">this</span>.props.selectedRowKeys,
+            <span class="hljs-attr">onChange</span>: <span class="hljs-function">(<span class="hljs-params">selectedRowKeys</span>) =&gt;</span> {
+                <span class="hljs-keyword">this</span>.save({selectedRowKeys});
+            }
+        }
+        <span class="hljs-keyword">return</span> (
+            &lt;Card&gt;
+                &lt;Button type="warning" onClick={this.onAdd}&gt;添加&lt;/Button&gt;
+                &lt;Table
+                    columns={columns}
+                    dataSource={list}
+                    loading={loading}
+                    rowKey={record =&gt; record.id}
+                    pagination={pagination}
+                    rowSelection={rowSelection}
+                /&gt;
+                &lt;EditModal
+                    wrappedComponentRef={instance =&gt;this.editForm=instance}
+                    isCreate={isCreate}
+                    visible={editVisible}
+                    onOk={this.onEditOk}
+                    onCancel={this.onEditCancel}
+                    record={record}
+                /&gt;
+            &lt;/Card&gt;
+        )
+    }
+}
+</code></pre>
+<h3 id="t367.4 EditModal">7.4 EditModal <a href="#t367.4 EditModal"> # </a></h3>
+<pre><code class="lang-js">@Form.create()
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">EditModal</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    render() {
+        <span class="hljs-keyword">let</span> {visible,onOk,isCreate,onCancel,record,<span class="hljs-attr">form</span>: {getFieldDecorator}}=<span class="hljs-keyword">this</span>.props;
+        <span class="hljs-keyword">let</span> {username,email,id}=record;
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Modal</span>
+                <span class="hljs-attr">title</span>=<span class="hljs-string">{isCreate?</span>'创建用户'<span class="hljs-attr">:</span>'修改用户'}
+                <span class="hljs-attr">visible</span>=<span class="hljs-string">{visible}</span>
+                <span class="hljs-attr">onOk</span>=<span class="hljs-string">{onOk}</span>
+                <span class="hljs-attr">onCancel</span>=<span class="hljs-string">{onCancel}</span>
+                <span class="hljs-attr">destroyOnClose</span>
+            &gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Form</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">FormItem</span>&gt;</span>
+                       {
+                            getFieldDecorator('id',{
+                                initialValue: id
+                            })(<span class="hljs-tag">&lt;<span class="hljs-name">Input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"hidden"</span> /&gt;</span>)
+                        }
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">FormItem</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">FormItem</span>
+                        <span class="hljs-attr">label</span>=<span class="hljs-string">"用户名"</span>
+                    &gt;</span>
+                        {
+                            getFieldDecorator('username',{
+                                rules: [{
+                                    required: true,
+                                    message:'用户名必须输入'
+                                }],
+                                initialValue: username
+                            })(<span class="hljs-tag">&lt;<span class="hljs-name">Input</span> /&gt;</span>)
+                        }
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">FormItem</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">FormItem</span> <span class="hljs-attr">label</span>=<span class="hljs-string">"邮箱"</span> &gt;</span>
+                        {
+                            getFieldDecorator('email',{
+                                initialValue: email,
+                                rules: [{required: true,message:'用户名必须输入'
+                            }]})(<span class="hljs-tag">&lt;<span class="hljs-name">Input</span>/&gt;</span>)
+                        }
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">FormItem</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">Form</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">Modal</span>&gt;</span>
+        )
+    }
+}
+</span></code></pre>
+<h3 id="t377.5 admin/user/index.js">7.5 admin/user/index.js <a href="#t377.5 admin/user/index.js"> # </a></h3>
+<p>src/pages/admin/user/index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component,Fragment} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> {connect} <span class="hljs-keyword">from</span> <span class="hljs-string">'dva'</span>;
+<span class="hljs-keyword">import</span> {Card,Table,Button,Modal,Form,Input,message,Popconfirm} <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+<span class="hljs-keyword">import</span> {PAGE_SIZE} <span class="hljs-keyword">from</span> <span class="hljs-string">'./constants'</span>;
+<span class="hljs-keyword">import</span> { routerRedux } <span class="hljs-keyword">from</span> <span class="hljs-string">'dva/router'</span>;
+<span class="hljs-keyword">const</span> FormItem=Form.Item;
+@connect(
+    <span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> ({...state.user,<span class="hljs-attr">loading</span>:state.loading.models.user})
+)
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">user</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    save = <span class="hljs-function">(<span class="hljs-params">payload</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">'user/save'</span>,
+            payload
+        });
+    }
+    onAdd=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.save({<span class="hljs-attr">editVisible</span>: <span class="hljs-literal">true</span>,<span class="hljs-attr">isCreate</span>:<span class="hljs-literal">true</span>,<span class="hljs-attr">record</span>: {} });
+    }
+    onEdit=<span class="hljs-function">(<span class="hljs-params">record</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.save({<span class="hljs-attr">editVisible</span>: <span class="hljs-literal">true</span>,<span class="hljs-attr">isCreate</span>:<span class="hljs-literal">false</span>,record});
+    }
+    onEditCancel=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.save({ <span class="hljs-attr">editVisible</span> : <span class="hljs-literal">false</span> });
+    }
+    onEditOk=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.editForm.props.form.validateFields(<span class="hljs-function">(<span class="hljs-params">err,values</span>) =&gt;</span> {
+            <span class="hljs-keyword">if</span> (err) {
+                <span class="hljs-keyword">return</span> message.error(<span class="hljs-string">'表单校验失败!'</span>);
+            } <span class="hljs-keyword">else</span> {
+                <span class="hljs-keyword">this</span>.props.dispatch({
+                    <span class="hljs-attr">type</span>: <span class="hljs-keyword">this</span>.props.isCreate?<span class="hljs-string">'user/create'</span>:<span class="hljs-string">'user/update'</span>,
+                    <span class="hljs-attr">payload</span>:values
+                });
+            }
+        });
+    }
+    onDel=<span class="hljs-function">(<span class="hljs-params">id</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">'user/del'</span>,
+            <span class="hljs-attr">payload</span>:id
+        });
+    }
+    render() {
+        <span class="hljs-keyword">const</span> columns=[
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">'用户名'</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">'username'</span>,
+                <span class="hljs-attr">key</span>: <span class="hljs-string">'username'</span>
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">'邮箱'</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">'email'</span>,
+                <span class="hljs-attr">key</span>: <span class="hljs-string">'email'</span>
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">'性别'</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">'gender'</span>,
+                <span class="hljs-attr">key</span>: <span class="hljs-string">'gender'</span>,
+                <span class="hljs-attr">render</span>: <span class="hljs-function">(<span class="hljs-params">val,record</span>)=&gt;</span>(
+                    val==<span class="hljs-number">1</span>?<span class="hljs-string">'男'</span>:<span class="hljs-string">'女'</span>
+                )
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">'操作'</span>,
+                <span class="hljs-attr">key</span>: <span class="hljs-string">'operation'</span>,
+                <span class="hljs-attr">render</span>: <span class="hljs-function">(<span class="hljs-params">val,record</span>) =&gt;</span> (
+                    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Fragment</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">Button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"warning"</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{()</span>=&gt;</span>this.onEdit(record)}&gt;编辑<span class="hljs-tag">&lt;/<span class="hljs-name">Button</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">Popconfirm</span>
+                            <span class="hljs-attr">okText</span>=<span class="hljs-string">"确认"</span>
+                            <span class="hljs-attr">cancelText</span>=<span class="hljs-string">"取消"</span>
+                            <span class="hljs-attr">title</span>=<span class="hljs-string">"确认删除此用户吗?"</span>
+                            <span class="hljs-attr">onConfirm</span>=<span class="hljs-string">{()</span> =&gt;</span> this.onDel(record.id)}&gt;
+                             <span class="hljs-tag">&lt;<span class="hljs-name">Button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"danger"</span>&gt;</span>删除<span class="hljs-tag">&lt;/<span class="hljs-name">Button</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">Popconfirm</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">Fragment</span>&gt;</span></span>
+                )
+            }
+        ]
+        <span class="hljs-keyword">let</span> {list,record,isCreate,editVisible,loading,dispatch,pageNum,total}=<span class="hljs-keyword">this</span>.props;
+        <span class="hljs-keyword">const</span> pagination={
+            <span class="hljs-attr">current</span>: pageNum,
+            <span class="hljs-attr">pageSize</span>: PAGE_SIZE,
+            <span class="hljs-attr">showQuickJumper</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-attr">showTotal</span>: <span class="hljs-function">(<span class="hljs-params">total,range</span>) =&gt;</span> {
+                <span class="hljs-keyword">return</span> <span class="hljs-string">`共<span class="hljs-subst">${total}</span>条`</span>;
+            },
+            total,
+            <span class="hljs-attr">onChange</span>: <span class="hljs-function">(<span class="hljs-params">pageNum</span>) =&gt;</span> {
+                <span class="hljs-comment">//router.push(`/admin/user?pageNum=${pageNum}`);</span>
+                <span class="hljs-comment">//dispatch(routerRedux.push(`/admin/user?pageNum=${pageNum}`));</span>
+                dispatch(routerRedux.push({
+                    <span class="hljs-attr">pathname</span>: <span class="hljs-string">'/admin/user'</span>,
+                    <span class="hljs-attr">query</span>:{pageNum}
+                }));
+            }
+        }
+        <span class="hljs-keyword">const</span> rowSelection={
+            <span class="hljs-attr">type</span>: <span class="hljs-string">'checkbox'</span>,
+            <span class="hljs-attr">selectedRowKeys</span>: <span class="hljs-keyword">this</span>.props.selectedRowKeys,
+            <span class="hljs-attr">onChange</span>: <span class="hljs-function">(<span class="hljs-params">selectedRowKeys</span>) =&gt;</span> {
+                <span class="hljs-keyword">this</span>.save({selectedRowKeys});
+            }
+        }
+        <span class="hljs-keyword">return</span> (
+            &lt;Card&gt;
+                &lt;Button type="warning" onClick={this.onAdd}&gt;添加&lt;/Button&gt;
+                &lt;Table
+                    columns={columns}
+                    dataSource={list}
+                    loading={loading}
+                    rowKey={record =&gt; record.id}
+                    pagination={pagination}
+                    rowSelection={rowSelection}
+                /&gt;
+                &lt;EditModal
+                    wrappedComponentRef={instance =&gt;this.editForm=instance}
+                    isCreate={isCreate}
+                    visible={editVisible}
+                    onOk={this.onEditOk}
+                    onCancel={this.onEditCancel}
+                    record={record}
+                /&gt;
+            &lt;/Card&gt;
+        )
+    }
+}
+
+@Form.create()
+class EditModal extends Component{
+    render() {
+        let {visible,onOk,isCreate,onCancel,record,form: {getFieldDecorator}}=this.props;
+        let {username,email,id}=record;
+        return (
+            &lt;Modal
+                title={isCreate?'创建用户':'修改用户'}
+                visible={visible}
+                onOk={onOk}
+                onCancel={onCancel}
+                destroyOnClose
+            &gt;
+                &lt;Form&gt;
+                    &lt;FormItem&gt;
+                       {
+                            getFieldDecorator('id',{
+                                initialValue: id
+                            })(&lt;Input type="hidden" /&gt;)
+                        }
+                    &lt;/FormItem&gt;
+                    &lt;FormItem
+                        label="用户名"
+                    &gt;
+                        {
+                            getFieldDecorator('username',{
+                                rules: [{
+                                    required: true,
+                                    message:'用户名必须输入'
+                                }],
+                                initialValue: username
+                            })(&lt;Input /&gt;)
+                        }
+                    &lt;/FormItem&gt;
+                    &lt;FormItem label="邮箱" &gt;
+                        {
+                            getFieldDecorator('email',{
+                                initialValue: email,
+                                rules: [{required: true,message:'用户名必须输入'
+                            }]})(&lt;Input/&gt;)
+                        }
+                    &lt;/FormItem&gt;
+                &lt;/Form&gt;
+            &lt;/Modal&gt;
+        )
+    }
+}
+</code></pre>
+<h3 id="t387.3 /user/constants.js">7.3 /user/constants.js <a href="#t387.3 /user/constants.js"> # </a></h3>
+<p>src/pages/admin/user/constants.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span>  <span class="hljs-keyword">const</span> PAGE_SIZE = <span class="hljs-number">3</span>;
+</code></pre>
+<h3 id="t397.4 /user/models/user.js">7.4 /user/models/user.js <a href="#t397.4 /user/models/user.js"> # </a></h3>
+<p>src/pages/admin/user/models/user.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> userService <span class="hljs-keyword">from</span> <span class="hljs-string">'../services/user'</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    <span class="hljs-attr">namespace</span>: <span class="hljs-string">'user'</span>,
+    <span class="hljs-attr">state</span>: {
+        <span class="hljs-attr">list</span>: [],
+        <span class="hljs-attr">isCreate</span>:<span class="hljs-literal">true</span>,
+        <span class="hljs-attr">editVisible</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">pageNum</span>:<span class="hljs-number">1</span>,
+        <span class="hljs-attr">record</span>: {},
+        <span class="hljs-attr">selectedRowKeys</span>:[]
+    },
+    <span class="hljs-attr">reducers</span>: {
+        save(state,{payload}) {
+            <span class="hljs-keyword">return</span> {...state,...payload};
+        }
+    },
+    <span class="hljs-attr">effects</span>: {
+        *fetch({<span class="hljs-attr">payload</span>: {pageNum=<span class="hljs-number">1</span>}},{call,put}) {
+            <span class="hljs-keyword">const</span> {list,total}=<span class="hljs-keyword">yield</span> call(userService.fetch,pageNum);
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:<span class="hljs-string">'save'</span>,<span class="hljs-attr">payload</span>:{list,<span class="hljs-attr">pageNum</span>:<span class="hljs-built_in">parseInt</span>(pageNum),total}});
+        },
+        *create({payload},{call,put}) {
+            <span class="hljs-keyword">yield</span> call(userService.create,payload);
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>,<span class="hljs-attr">payload</span>: {<span class="hljs-attr">pageNum</span>:<span class="hljs-number">1</span>}});
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:<span class="hljs-string">'save'</span>,<span class="hljs-attr">payload</span>:{<span class="hljs-attr">editVisible</span>:<span class="hljs-literal">false</span>}});
+        },
+        *update({payload},{call,put,select}) {
+            <span class="hljs-keyword">yield</span> call(userService.update,payload);
+            <span class="hljs-keyword">let</span> pageNum=<span class="hljs-keyword">yield</span> select(<span class="hljs-function"><span class="hljs-params">state</span>=&gt;</span>state.user.pageNum);
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>,<span class="hljs-attr">payload</span>: {pageNum}});
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:<span class="hljs-string">'save'</span>,<span class="hljs-attr">payload</span>:{<span class="hljs-attr">editVisible</span>:<span class="hljs-literal">false</span>}});
+        },
+        *del({payload},{call,put}) {
+            <span class="hljs-keyword">yield</span> call(userService.del,payload);
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>,<span class="hljs-attr">payload</span>: {<span class="hljs-attr">pageNum</span>:<span class="hljs-number">1</span>}});
+        }
+    },
+    <span class="hljs-attr">subscriptions</span>: {
+        setup({dispatch,history}) {
+            <span class="hljs-keyword">return</span> history.listen(<span class="hljs-function">(<span class="hljs-params">{pathname,query}</span>) =&gt;</span> {
+                <span class="hljs-keyword">if</span> (pathname===<span class="hljs-string">'/admin/user'</span>) {
+                    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'pathname'</span>,pathname);
+                    dispatch({<span class="hljs-attr">type</span>:<span class="hljs-string">'fetch'</span>,<span class="hljs-attr">payload</span>:query});
+                }
+            });
+        }
+    }
+}
+</code></pre>
+<h3 id="t407.5 user/services/user.js">7.5 user/services/user.js <a href="#t407.5 user/services/user.js"> # </a></h3>
+<p>src/pages/admin/user/services/user.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> request <span class="hljs-keyword">from</span> <span class="hljs-string">'../../../../utils/request'</span>;
+<span class="hljs-keyword">import</span> {PAGE_SIZE} <span class="hljs-keyword">from</span> <span class="hljs-string">'../constants'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">fetch</span>(<span class="hljs-params">pageNum</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/user?pageNum=<span class="hljs-subst">${pageNum}</span>&amp;pageSize=<span class="hljs-subst">${PAGE_SIZE}</span>`</span>);
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">create</span>(<span class="hljs-params">values</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/user`</span>,{
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'POST'</span>,
+        <span class="hljs-attr">headers</span>:{<span class="hljs-string">"Content-Type"</span>:<span class="hljs-string">"application/json"</span>},
+        <span class="hljs-attr">body</span>:<span class="hljs-built_in">JSON</span>.stringify(values)
+    });
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">update</span>(<span class="hljs-params">values</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/user/<span class="hljs-subst">${values.id}</span>`</span>,{
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'PUT'</span>,
+        <span class="hljs-attr">headers</span>:{<span class="hljs-string">"Content-Type"</span>:<span class="hljs-string">"application/json"</span>},
+        <span class="hljs-attr">body</span>:<span class="hljs-built_in">JSON</span>.stringify(values)
+    });
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">del</span>(<span class="hljs-params">id</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/user/<span class="hljs-subst">${id}</span>`</span>,{
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'DELETE'</span>
+    });
+}
+</code></pre>
+<h2 id="t418. 全部删除">8. 全部删除 <a href="#t418. 全部删除"> # </a></h2>
+<h3 id="t428.1 user/index.js">8.1 user/index.js <a href="#t428.1 user/index.js"> # </a></h3>
+<p>src/pages/admin/user/index.js</p>
+<pre><code class="lang-diff"><span class="hljs-addition">+ onAllDel=() =&gt; {</span>
+<span class="hljs-addition">+         this.props.dispatch({</span>
+<span class="hljs-addition">+             type: 'user/delAll',</span>
+<span class="hljs-addition">+             payload:this.props.selectedRowKeys</span>
+<span class="hljs-addition">+         });</span>
+<span class="hljs-addition">+     }</span>
+  &lt;Button type="warning" onClick={this.onAdd}&gt;添加&lt;/Button&gt;
+<span class="hljs-addition">+ &lt;Button type="danger" onClick={this.onAllDel}&gt;全部删除&lt;/Button&gt;</span>
+</code></pre>
+<h3 id="t438.2 user/models/user.js">8.2 user/models/user.js <a href="#t438.2 user/models/user.js"> # </a></h3>
+<p>src/pages/admin/user/models/user.js</p>
+<pre><code class="lang-diff"><span class="hljs-addition">+ *delAll({payload},{call,put}) {</span>
+<span class="hljs-addition">+             yield call(userService.delAll,payload);</span>
+<span class="hljs-addition">+             yield put({type: 'fetch',payload: {pageNum:1}});</span>
+<span class="hljs-addition">+ }</span>
+</code></pre>
+<h3 id="t448.3 user/services/user.js">8.3 user/services/user.js <a href="#t448.3 user/services/user.js"> # </a></h3>
+<p>src/pages/admin/user/services/user.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">delAll</span>(<span class="hljs-params">ids</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/user/<span class="hljs-subst">${ids[<span class="hljs-number">0</span>]}</span>`</span>,{
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'DELETE'</span>,
+        <span class="hljs-attr">headers</span>: {<span class="hljs-string">"Content-Type"</span>: <span class="hljs-string">"application/json"</span>},
+        <span class="hljs-attr">body</span>: <span class="hljs-built_in">JSON</span>.stringify(ids)
+    });
+}
+</code></pre>
+<h2 id="t459. 搜索">9. 搜索 <a href="#t459. 搜索"> # </a></h2>
+<h3 id="t469.1 admin/user/index.js">9.1 admin/user/index.js <a href="#t469.1 admin/user/index.js"> # </a></h3>
+<p>src/pages/admin/user/index.js</p>
+<pre><code class="lang-diff">onSearch=() =&gt; {
+        let values=this.searchForm.props.form.getFieldsValue();
+        let where=Object.keys(values).reduce((memo,key) =&gt; {
+            if (values[key]){
+                memo[key]=values[key];
+            }
+            return memo;
+        },{});
+        this.props.dispatch({
+            type: 'user/search',
+            payload:where
+        });
+    }
+
+&lt;Card&gt;
+    &lt;SearchForm
+        where={where}
+        onSearch={this.onSearch}
+        wrappedComponentRef={inst=&gt;this.searchForm=inst}/&gt;
+&lt;/Card&gt;
+
+@Form.create()
+class SearchForm extends Component{
+    render() {
+        let {form: {getFieldDecorator},onSearch,where={}}=this.props;
+        return (
+            &lt;Form layout="inline"&gt;
+                    &lt;FormItem
+                        label="用户名"
+                    &gt;
+                        {
+                            getFieldDecorator('username',{initialValue:where.username})(&lt;Input /&gt;)
+                        }
+                    &lt;/FormItem&gt;
+                    &lt;FormItem
+                        label="邮箱"
+                    &gt;
+                        {
+                            getFieldDecorator('email',{initialValue:where.email})(&lt;Input/&gt;)
+                        }
+                &lt;/FormItem&gt;
+                &lt;FormItem&gt;
+                    &lt;Button onClick={onSearch} shape="circle" icon="search"&gt;&lt;/Button&gt;
+                &lt;/FormItem&gt;
+                &lt;/Form&gt;
+        )
+    }
+}
+
+</code></pre>
+<h3 id="t479.2 user/models/user.js">9.2 user/models/user.js <a href="#t479.2 user/models/user.js"> # </a></h3>
+<p>src/pages/admin/user/models/user.js</p>
+<pre><code class="lang-js">        *fetch({<span class="hljs-attr">payload</span>: {pageNum,where}},{call,put,select}) {
+            <span class="hljs-keyword">if</span> (!where) {
+                where =<span class="hljs-keyword">yield</span> select(<span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> state.user.where);
+            }
+            <span class="hljs-keyword">if</span> (!pageNum) {
+                pageNum =<span class="hljs-keyword">yield</span> select(<span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> state.user.pageNum);
+            }
+            <span class="hljs-keyword">const</span> {list,total}=<span class="hljs-keyword">yield</span> call(userService.fetch,pageNum,where);
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:<span class="hljs-string">'save'</span>,<span class="hljs-attr">payload</span>:{list,<span class="hljs-attr">pageNum</span>:<span class="hljs-built_in">parseInt</span>(pageNum),total,where}});
+        },
+        *search({<span class="hljs-attr">payload</span>:where},{call,put}) {
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>,<span class="hljs-attr">payload</span>: {<span class="hljs-attr">pageNum</span>:<span class="hljs-number">1</span>,where}});
+        }
+</code></pre>
+<h3 id="t489.3 user/services/user.js">9.3 user/services/user.js <a href="#t489.3 user/services/user.js"> # </a></h3>
+<p>src/pages/admin/user/services/user.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> querystring <span class="hljs-keyword">from</span> <span class="hljs-string">'querystring'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">fetch</span>(<span class="hljs-params">pageNum,where</span>) </span>{
+    <span class="hljs-keyword">let</span> whereString=querystring.stringify(where);
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/user?pageNum=<span class="hljs-subst">${pageNum}</span>&amp;pageSize=<span class="hljs-subst">${PAGE_SIZE}</span>&amp;<span class="hljs-subst">${whereString}</span>`</span>);
+}
+</code></pre>
+<h2 id="t4910. 点击选择行">10. 点击选择行 <a href="#t4910. 点击选择行"> # </a></h2>
+<h3 id="t5010.1 admin/user/index.js">10.1 admin/user/index.js <a href="#t5010.1 admin/user/index.js"> # </a></h3>
+<p>src/pages/admin/user/index.js</p>
+<pre><code class="lang-js"> &lt;Table
+                    columns={columns}
+                    dataSource={list}
+                    loading={loading}
+                    rowKey={record =&gt; record.id}
+                    pagination={pagination}
+                    rowSelection={rowSelection}
+                    onRow = {
++                      <span class="hljs-function">(<span class="hljs-params">record</span>) =&gt;</span> {
++                        <span class="hljs-keyword">return</span> {
++                          onClick: <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
++                            <span class="hljs-keyword">let</span> selectedRowKeys = <span class="hljs-keyword">this</span>.props.selectedRowKeys;
++                            <span class="hljs-keyword">let</span> index = selectedRowKeys.indexOf(record.id);
++                            <span class="hljs-keyword">if</span> (index == <span class="hljs-number">-1</span>) {
++                              selectedRowKeys = [...selectedRowKeys, record.id];
++                            } <span class="hljs-keyword">else</span> {
++                              selectedRowKeys = selectedRowKeys.filter(<span class="hljs-function"><span class="hljs-params">key</span> =&gt;</span> key !=record.id);
++                            }
++                            <span class="hljs-keyword">this</span>.save({
++                              selectedRowKeys
++                            });
++                          }
++                        }
++                      }
++                    }
+                /&gt;
+</code></pre>
+<h2 id="t5111. 角色管理">11. 角色管理 <a href="#t5111. 角色管理"> # </a></h2>
+<h3 id="t5211.1 /role/index.js">11.1 /role/index.js <a href="#t5211.1 /role/index.js"> # </a></h3>
+<p>src/pages/role/index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component,Fragment} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> {connect} <span class="hljs-keyword">from</span> <span class="hljs-string">'dva'</span>;
+<span class="hljs-keyword">import</span> {Card,Table,Button,Modal,Form,Input,message,Popconfirm} <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+<span class="hljs-keyword">import</span> {PAGE_SIZE} <span class="hljs-keyword">from</span> <span class="hljs-string">'./constants'</span>;
+<span class="hljs-keyword">import</span> { routerRedux } <span class="hljs-keyword">from</span> <span class="hljs-string">'dva/router'</span>;
+<span class="hljs-keyword">const</span> FormItem=Form.Item;
+<span class="hljs-keyword">const</span> ENTITY=<span class="hljs-string">'role'</span>;
+@connect(
+    <span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> ({...state[ENTITY],<span class="hljs-attr">loading</span>:state.loading.models[ENTITY]})
+)
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Role</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    save = <span class="hljs-function">(<span class="hljs-params">payload</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/save`</span>,
+            payload
+        });
+    }
+    onAdd=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.save({<span class="hljs-attr">editVisible</span>: <span class="hljs-literal">true</span>,<span class="hljs-attr">isCreate</span>:<span class="hljs-literal">true</span>,<span class="hljs-attr">record</span>: {} });
+    }
+    onEdit=<span class="hljs-function">(<span class="hljs-params">record</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.save({<span class="hljs-attr">editVisible</span>: <span class="hljs-literal">true</span>,<span class="hljs-attr">isCreate</span>:<span class="hljs-literal">false</span>,record});
+    }
+    onEditCancel=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.save({ <span class="hljs-attr">editVisible</span> : <span class="hljs-literal">false</span> });
+    }
+    onEditOk=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.editForm.props.form.validateFields(<span class="hljs-function">(<span class="hljs-params">err,values</span>) =&gt;</span> {
+            <span class="hljs-keyword">if</span> (err) {
+                <span class="hljs-keyword">return</span> message.error(<span class="hljs-string">'表单校验失败!'</span>);
+            } <span class="hljs-keyword">else</span> {
+                <span class="hljs-keyword">this</span>.props.dispatch({
+                    <span class="hljs-attr">type</span>: <span class="hljs-keyword">this</span>.props.isCreate?<span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/create`</span>:<span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/update`</span>,
+                    <span class="hljs-attr">payload</span>:values
+                });
+            }
+        });
+    }
+    onDel=<span class="hljs-function">(<span class="hljs-params">id</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/del`</span>,
+            <span class="hljs-attr">payload</span>:id
+        });
+    }
+    onAllDel=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/delAll`</span>,
+            <span class="hljs-attr">payload</span>:<span class="hljs-keyword">this</span>.props.selectedRowKeys
+        });
+    }
+    onSearch=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">let</span> values=<span class="hljs-keyword">this</span>.searchForm.props.form.getFieldsValue();
+        <span class="hljs-keyword">let</span> where=<span class="hljs-built_in">Object</span>.keys(values).reduce(<span class="hljs-function">(<span class="hljs-params">memo,key</span>) =&gt;</span> {
+            <span class="hljs-keyword">if</span> (values[key]){
+                memo[key]=values[key];
+            }
+            <span class="hljs-keyword">return</span> memo;
+        },{});
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/search`</span>,
+            <span class="hljs-attr">payload</span>:where
+        });
+    }
+    render() {
+        <span class="hljs-keyword">const</span> columns=[
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">'名称'</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">'name'</span>,
+                <span class="hljs-attr">key</span>: <span class="hljs-string">'name'</span>
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">'操作'</span>,
+                <span class="hljs-attr">key</span>: <span class="hljs-string">'operation'</span>,
+                <span class="hljs-attr">render</span>: <span class="hljs-function">(<span class="hljs-params">val,record</span>) =&gt;</span> (
+                    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Fragment</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">Button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"warning"</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{()</span>=&gt;</span>this.onEdit(record)}&gt;编辑<span class="hljs-tag">&lt;/<span class="hljs-name">Button</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">Popconfirm</span>
+                            <span class="hljs-attr">okText</span>=<span class="hljs-string">"确认"</span>
+                            <span class="hljs-attr">cancelText</span>=<span class="hljs-string">"取消"</span>
+                            <span class="hljs-attr">title</span>=<span class="hljs-string">"确认删除吗?"</span>
+                            <span class="hljs-attr">onConfirm</span>=<span class="hljs-string">{()</span> =&gt;</span> this.onDel(record.id)}&gt;
+                             <span class="hljs-tag">&lt;<span class="hljs-name">Button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"danger"</span>&gt;</span>删除<span class="hljs-tag">&lt;/<span class="hljs-name">Button</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">Popconfirm</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">Fragment</span>&gt;</span></span>
+                )
+            }
+        ]
+        <span class="hljs-keyword">let</span> {list,record,isCreate,editVisible,loading,dispatch,pageNum,total,where}=<span class="hljs-keyword">this</span>.props;
+        <span class="hljs-keyword">const</span> pagination={
+            <span class="hljs-attr">current</span>: pageNum,
+            <span class="hljs-attr">pageSize</span>: PAGE_SIZE,
+            <span class="hljs-attr">showQuickJumper</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-attr">showTotal</span>: <span class="hljs-function">(<span class="hljs-params">total,range</span>) =&gt;</span> {
+                <span class="hljs-keyword">return</span> <span class="hljs-string">`共<span class="hljs-subst">${total}</span>条`</span>;
+            },
+            total,
+            <span class="hljs-attr">onChange</span>: <span class="hljs-function">(<span class="hljs-params">pageNum</span>) =&gt;</span> {
+                <span class="hljs-comment">//router.push(`/admin/user?pageNum=${pageNum}`);</span>
+                <span class="hljs-comment">//dispatch(routerRedux.push(`/admin/user?pageNum=${pageNum}`));</span>
+                dispatch(routerRedux.push({
+                    <span class="hljs-attr">pathname</span>: <span class="hljs-string">`/admin/<span class="hljs-subst">${ENTITY}</span>`</span>,
+                    <span class="hljs-attr">query</span>:{pageNum}
+                }));
+            }
+        }
+        <span class="hljs-keyword">const</span> rowSelection={
+            <span class="hljs-attr">type</span>: <span class="hljs-string">'checkbox'</span>,
+            <span class="hljs-attr">selectedRowKeys</span>: <span class="hljs-keyword">this</span>.props.selectedRowKeys,
+            <span class="hljs-attr">onChange</span>: <span class="hljs-function">(<span class="hljs-params">selectedRowKeys</span>) =&gt;</span> {
+                <span class="hljs-keyword">this</span>.save({selectedRowKeys});
+            }
+        }
+        <span class="hljs-keyword">return</span> (
+            &lt;Fragment&gt;
+              &lt;Card&gt;
+                    &lt;SearchForm
+                        where={where}
+                        onSearch={this.onSearch}
+                        wrappedComponentRef={inst=&gt;this.searchForm=inst}/&gt;
+              &lt;/Card&gt;
+              &lt;Card&gt;
+                &lt;Button type="warning" onClick={this.onAdd}&gt;添加&lt;/Button&gt;
+                &lt;Button type="danger" onClick={this.onAllDel}&gt;全部删除&lt;/Button&gt;
+                &lt;Table
+                    columns={columns}
+                    dataSource={list}
+                    loading={loading}
+                    rowKey={record =&gt; record.id}
+                    pagination={pagination}
+                    rowSelection={rowSelection}
+                    onRow = {
+                      (record) =&gt; {
+                        return {
+                          onClick: () =&gt; {
+                            let selectedRowKeys = this.props.selectedRowKeys;
+                            let index = selectedRowKeys.indexOf(record.id);
+                            if (index == -1) {
+                              selectedRowKeys = [...selectedRowKeys, record.id];
+                            } else {
+                              selectedRowKeys = selectedRowKeys.filter(key =&gt; key != record.id);
+                            }
+                            this.save({
+                              selectedRowKeys
+                            });
+                          }
+                        }
+                      }
+                    }
+                /&gt;
+                &lt;EditModal
+                    wrappedComponentRef={instance =&gt;this.editForm=instance}
+                    isCreate={isCreate}
+                    visible={editVisible}
+                    onOk={this.onEditOk}
+                    onCancel={this.onEditCancel}
+                    record={record}
+                /&gt;
+                    &lt;/Card&gt;
+             &lt;/Fragment&gt;
+        )
+    }
+}
+
+@Form.create()
+class SearchForm extends Component{
+    render() {
+        let {form: {getFieldDecorator},onSearch,where={}}=this.props;
+        return (
+            &lt;Form layout="inline"&gt;
+                    &lt;FormItem
+                        label="名称"
+                    &gt;
+                        {
+                            getFieldDecorator('name',{initialValue:where.name})(&lt;Input /&gt;)
+                        }
+                    &lt;/FormItem&gt;
+                &lt;FormItem&gt;
+                    &lt;Button onClick={onSearch} shape="circle" icon="search"&gt;&lt;/Button&gt;
+                &lt;/FormItem&gt;
+                &lt;/Form&gt;
+        )
+    }
+}
+
+
+@Form.create()
+class EditModal extends Component{
+    render() {
+        let {visible,onOk,isCreate,onCancel,record,form: {getFieldDecorator}}=this.props;
+        let {name,id}=record;
+        return (
+            &lt;Modal
+                title={isCreate?'创建':'修改'}
+                visible={visible}
+                onOk={onOk}
+                onCancel={onCancel}
+                destroyOnClose
+            &gt;
+                &lt;Form&gt;
+                    &lt;FormItem&gt;
+                       {
+                            getFieldDecorator('id',{
+                                initialValue: id
+                            })(&lt;Input type="hidden" /&gt;)
+                        }
+                    &lt;/FormItem&gt;
+                    &lt;FormItem
+                        label="名称"
+                    &gt;
+                        {
+                            getFieldDecorator('name',{
+                                rules: [{
+                                    required: true,
+                                    message:'名称'
+                                }],
+                                initialValue: name
+                            })(&lt;Input /&gt;)
+                        }
+                    &lt;/FormItem&gt;
+                &lt;/Form&gt;
+            &lt;/Modal&gt;
+        )
+    }
+}
+
+</code></pre>
+<h3 id="t5311.2 /role/models/role.js">11.2 /role/models/role.js <a href="#t5311.2 /role/models/role.js"> # </a></h3>
+<p>src/pages/admin/role/models/role.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> service <span class="hljs-keyword">from</span> <span class="hljs-string">'../services/role'</span>;
+<span class="hljs-keyword">const</span> ENTITY=<span class="hljs-string">'role'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    <span class="hljs-attr">namespace</span>: ENTITY,
+    <span class="hljs-attr">state</span>: {
+        <span class="hljs-attr">list</span>: [],
+        <span class="hljs-attr">isCreate</span>:<span class="hljs-literal">true</span>,
+        <span class="hljs-attr">editVisible</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">pageNum</span>:<span class="hljs-number">1</span>,
+        <span class="hljs-attr">record</span>: {},
+        <span class="hljs-attr">selectedRowKeys</span>: [],
+        <span class="hljs-attr">where</span>: {}
+    },
+    <span class="hljs-attr">reducers</span>: {
+        save(state,{payload}) {
+            <span class="hljs-keyword">return</span> {...state,...payload};
+        }
+    },
+    <span class="hljs-attr">effects</span>: {
+        *fetch({<span class="hljs-attr">payload</span>: {pageNum,where}},{call,put,select}) {
+            <span class="hljs-keyword">if</span> (!where) {
+                where =<span class="hljs-keyword">yield</span> select(<span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> state[ENTITY].where);
+            }
+            <span class="hljs-keyword">if</span> (!pageNum) {
+                pageNum =<span class="hljs-keyword">yield</span> select(<span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> state[ENTITY].pageNum);
+            }
+            <span class="hljs-keyword">const</span> {list,total}=<span class="hljs-keyword">yield</span> call(service.fetch,pageNum,where);
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:<span class="hljs-string">'save'</span>,<span class="hljs-attr">payload</span>:{list,<span class="hljs-attr">pageNum</span>:<span class="hljs-built_in">parseInt</span>(pageNum),total,where}});
+        },
+        *create({payload},{call,put}) {
+            <span class="hljs-keyword">yield</span> call(service.create,payload);
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>,<span class="hljs-attr">payload</span>: {<span class="hljs-attr">pageNum</span>:<span class="hljs-number">1</span>}});
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:<span class="hljs-string">'save'</span>,<span class="hljs-attr">payload</span>:{<span class="hljs-attr">editVisible</span>:<span class="hljs-literal">false</span>}});
+        },
+        *update({payload},{call,put,select}) {
+            <span class="hljs-keyword">yield</span> call(service.update,payload);
+            <span class="hljs-keyword">let</span> pageNum=<span class="hljs-keyword">yield</span> select(<span class="hljs-function"><span class="hljs-params">state</span>=&gt;</span>state[ENTITY].pageNum);
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>,<span class="hljs-attr">payload</span>: {pageNum}});
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:<span class="hljs-string">'save'</span>,<span class="hljs-attr">payload</span>:{<span class="hljs-attr">editVisible</span>:<span class="hljs-literal">false</span>}});
+        },
+        *del({payload},{call,put}) {
+            <span class="hljs-keyword">yield</span> call(service.del,payload);
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>,<span class="hljs-attr">payload</span>: {<span class="hljs-attr">pageNum</span>:<span class="hljs-number">1</span>}});
+        },
+        *delAll({payload},{call,put}) {
+            <span class="hljs-keyword">yield</span> call(service.delAll,payload);
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>,<span class="hljs-attr">payload</span>: {<span class="hljs-attr">pageNum</span>:<span class="hljs-number">1</span>}});
+        },
+        *search({<span class="hljs-attr">payload</span>:where},{call,put}) {
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>,<span class="hljs-attr">payload</span>: {<span class="hljs-attr">pageNum</span>:<span class="hljs-number">1</span>,where}});
+        }
+    },
+    <span class="hljs-attr">subscriptions</span>: {
+        setup({dispatch,history}) {
+            <span class="hljs-keyword">return</span> history.listen(<span class="hljs-function">(<span class="hljs-params">{pathname,query}</span>) =&gt;</span> {
+                <span class="hljs-keyword">if</span> (pathname===<span class="hljs-string">`/admin/<span class="hljs-subst">${ENTITY}</span>`</span>) {
+                    dispatch({<span class="hljs-attr">type</span>:<span class="hljs-string">'fetch'</span>,<span class="hljs-attr">payload</span>:query});
+                }
+            });
+        }
+    }
+}
+</code></pre>
+<h3 id="t5411.3 admin/role/services/role.js">11.3 admin/role/services/role.js <a href="#t5411.3 admin/role/services/role.js"> # </a></h3>
+<p>src/pages/admin/role/services/role.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> request <span class="hljs-keyword">from</span> <span class="hljs-string">'../../../../utils/request'</span>;
+<span class="hljs-keyword">import</span> {PAGE_SIZE} <span class="hljs-keyword">from</span> <span class="hljs-string">'../constants'</span>;
+<span class="hljs-keyword">import</span> querystring <span class="hljs-keyword">from</span> <span class="hljs-string">'querystring'</span>;
+<span class="hljs-keyword">const</span> ENTITY=<span class="hljs-string">'role'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">fetch</span>(<span class="hljs-params">pageNum,where</span>) </span>{
+    <span class="hljs-keyword">let</span> whereString=querystring.stringify(where);
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/<span class="hljs-subst">${ENTITY}</span>?pageNum=<span class="hljs-subst">${pageNum}</span>&amp;pageSize=<span class="hljs-subst">${PAGE_SIZE}</span>&amp;<span class="hljs-subst">${whereString}</span>`</span>);
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">create</span>(<span class="hljs-params">values</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/<span class="hljs-subst">${ENTITY}</span>`</span>,{
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'POST'</span>,
+        <span class="hljs-attr">headers</span>:{<span class="hljs-string">"Content-Type"</span>:<span class="hljs-string">"application/json"</span>},
+        <span class="hljs-attr">body</span>:<span class="hljs-built_in">JSON</span>.stringify(values)
+    });
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">update</span>(<span class="hljs-params">values</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/<span class="hljs-subst">${ENTITY}</span>/<span class="hljs-subst">${values.id}</span>`</span>,{
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'PUT'</span>,
+        <span class="hljs-attr">headers</span>:{<span class="hljs-string">"Content-Type"</span>:<span class="hljs-string">"application/json"</span>},
+        <span class="hljs-attr">body</span>:<span class="hljs-built_in">JSON</span>.stringify(values)
+    });
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">del</span>(<span class="hljs-params">id</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/<span class="hljs-subst">${ENTITY}</span>/<span class="hljs-subst">${id}</span>`</span>,{
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'DELETE'</span>
+    });
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">delAll</span>(<span class="hljs-params">ids</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/<span class="hljs-subst">${ENTITY}</span>/<span class="hljs-subst">${ids[<span class="hljs-number">0</span>]}</span>`</span>,{
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'DELETE'</span>,
+        <span class="hljs-attr">headers</span>: {<span class="hljs-string">"Content-Type"</span>: <span class="hljs-string">"application/json"</span>},
+        <span class="hljs-attr">body</span>: <span class="hljs-built_in">JSON</span>.stringify(ids)
+    });
+}
+</code></pre>
+<h2 id="t5512. 设置权限">12. 设置权限 <a href="#t5512. 设置权限"> # </a></h2>
+<h3 id="t5612.1 role/index.js">12.1 role/index.js <a href="#t5612.1 role/index.js"> # </a></h3>
+<p>src/pages/admin/role/index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component,Fragment} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> {connect} <span class="hljs-keyword">from</span> <span class="hljs-string">'dva'</span>;
+<span class="hljs-keyword">import</span> {Card,Table,Button,Modal,Form,Input,message,Popconfirm,Tree} <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+<span class="hljs-keyword">import</span> {PAGE_SIZE} <span class="hljs-keyword">from</span> <span class="hljs-string">'./constants'</span>;
+<span class="hljs-keyword">import</span> { routerRedux } <span class="hljs-keyword">from</span> <span class="hljs-string">'dva/router'</span>;
+<span class="hljs-keyword">const</span> FormItem=Form.Item;
+<span class="hljs-keyword">const</span> ENTITY=<span class="hljs-string">'role'</span>;
+<span class="hljs-keyword">const</span> TreeNode=Tree.TreeNode;
+@connect(
+    <span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> ({...state[ENTITY],<span class="hljs-attr">loading</span>:state.loading.models[ENTITY]})
+)
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Enity</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    save = <span class="hljs-function">(<span class="hljs-params">payload</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/save`</span>,
+            payload
+        });
+    }
+    onAdd=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.save({<span class="hljs-attr">editVisible</span>: <span class="hljs-literal">true</span>,<span class="hljs-attr">isCreate</span>:<span class="hljs-literal">true</span>,<span class="hljs-attr">record</span>: {} });
+    }
+    onEdit=<span class="hljs-function">(<span class="hljs-params">record</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.save({<span class="hljs-attr">editVisible</span>: <span class="hljs-literal">true</span>,<span class="hljs-attr">isCreate</span>:<span class="hljs-literal">false</span>,record});
+    }
+    onEditCancel=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.save({ <span class="hljs-attr">editVisible</span> : <span class="hljs-literal">false</span> });
+    }
+    onEditOk=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.editForm.props.form.validateFields(<span class="hljs-function">(<span class="hljs-params">err,values</span>) =&gt;</span> {
+            <span class="hljs-keyword">if</span> (err) {
+                <span class="hljs-keyword">return</span> message.error(<span class="hljs-string">'表单校验失败!'</span>);
+            } <span class="hljs-keyword">else</span> {
+                <span class="hljs-keyword">this</span>.props.dispatch({
+                    <span class="hljs-attr">type</span>: <span class="hljs-keyword">this</span>.props.isCreate?<span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/create`</span>:<span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/update`</span>,
+                    <span class="hljs-attr">payload</span>:values
+                });
+            }
+        });
+    }
+    onDel=<span class="hljs-function">(<span class="hljs-params">id</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/del`</span>,
+            <span class="hljs-attr">payload</span>:id
+        });
+    }
+    onAllDel=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/delAll`</span>,
+            <span class="hljs-attr">payload</span>:<span class="hljs-keyword">this</span>.props.selectedRowKeys
+        });
+    }
+    onSearch=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">let</span> values=<span class="hljs-keyword">this</span>.searchForm.props.form.getFieldsValue();
+        <span class="hljs-keyword">let</span> where=<span class="hljs-built_in">Object</span>.keys(values).reduce(<span class="hljs-function">(<span class="hljs-params">memo,key</span>) =&gt;</span> {
+            <span class="hljs-keyword">if</span> (values[key]){
+                memo[key]=values[key];
+            }
+            <span class="hljs-keyword">return</span> memo;
+        },{});
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/search`</span>,
+            <span class="hljs-attr">payload</span>:where
+        });
+    }
+    setRolePermission=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.props.selectedRows.length==<span class="hljs-number">1</span>) {
+            <span class="hljs-keyword">let</span> record=<span class="hljs-keyword">this</span>.props.selectedRows[<span class="hljs-number">0</span>];
+            <span class="hljs-keyword">this</span>.save({<span class="hljs-attr">setPermissionVisible</span>:<span class="hljs-literal">true</span>,record,<span class="hljs-attr">checkedKeys</span>:record.resourceIds});
+        } <span class="hljs-keyword">else</span> {
+            message.error(<span class="hljs-string">'为角色设置权限时要选择并且只能选择一个角色!'</span>);
+        }
+    }
+    onCheckPermission=<span class="hljs-function">(<span class="hljs-params">checkedKeys</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.save({checkedKeys});
+    }
+    setRolePermissionOk=<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/setRolePermission`</span>
+        });
+    }
+    render() {
+        <span class="hljs-keyword">const</span> columns=[
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">'名称'</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">'name'</span>,
+                <span class="hljs-attr">key</span>: <span class="hljs-string">'name'</span>
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">'操作'</span>,
+                <span class="hljs-attr">key</span>: <span class="hljs-string">'operation'</span>,
+                <span class="hljs-attr">render</span>: <span class="hljs-function">(<span class="hljs-params">val,record</span>) =&gt;</span> (
+                    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Fragment</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">Button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"warning"</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{()</span>=&gt;</span>this.onEdit(record)}&gt;编辑<span class="hljs-tag">&lt;/<span class="hljs-name">Button</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">Popconfirm</span>
+                            <span class="hljs-attr">okText</span>=<span class="hljs-string">"确认"</span>
+                            <span class="hljs-attr">cancelText</span>=<span class="hljs-string">"取消"</span>
+                            <span class="hljs-attr">title</span>=<span class="hljs-string">"确认删除此记录吗?"</span>
+                            <span class="hljs-attr">onConfirm</span>=<span class="hljs-string">{()</span> =&gt;</span> this.onDel(record.id)}&gt;
+                             <span class="hljs-tag">&lt;<span class="hljs-name">Button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"danger"</span>&gt;</span>删除<span class="hljs-tag">&lt;/<span class="hljs-name">Button</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">Popconfirm</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">Fragment</span>&gt;</span></span>
+                )
+            }
+        ]
+        <span class="hljs-keyword">let</span> {list,record,isCreate,editVisible,loading,dispatch,page,total,where,setPermissionVisible,resources,checkedKeys}=<span class="hljs-keyword">this</span>.props;
+        <span class="hljs-keyword">const</span> pagination={
+            <span class="hljs-attr">current</span>: page,
+            <span class="hljs-attr">pageSize</span>: PAGE_SIZE,
+            <span class="hljs-attr">showQuickJumper</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-attr">showTotal</span>: <span class="hljs-function">(<span class="hljs-params">total,range</span>) =&gt;</span> {
+                <span class="hljs-keyword">return</span> <span class="hljs-string">`共<span class="hljs-subst">${total}</span>条`</span>;
+            },
+            total,
+            <span class="hljs-attr">onChange</span>: <span class="hljs-function">(<span class="hljs-params">page</span>) =&gt;</span> {
+                <span class="hljs-comment">//router.push(`/admin/user?page=${page}`);</span>
+                <span class="hljs-comment">//dispatch(routerRedux.push(`/admin/user?page=${page}`));</span>
+                dispatch(routerRedux.push({
+                    <span class="hljs-attr">pathname</span>: <span class="hljs-string">`/admin/<span class="hljs-subst">${ENTITY}</span>`</span>,
+                    <span class="hljs-attr">query</span>:{page}
+                }));
+            }
+        }
+        <span class="hljs-keyword">const</span> rowSelection={
+            <span class="hljs-attr">type</span>: <span class="hljs-string">'checkbox'</span>,
+            <span class="hljs-attr">selectedRowKeys</span>: <span class="hljs-keyword">this</span>.props.selectedRowKeys,
+            <span class="hljs-attr">onChange</span>: <span class="hljs-function">(<span class="hljs-params">selectedRowKeys,selectedRows</span>) =&gt;</span> {
+                <span class="hljs-keyword">this</span>.save({selectedRowKeys,selectedRows});
+            }
+        }
+        <span class="hljs-keyword">return</span> (
+            &lt;Fragment&gt;
+                    &lt;Card&gt;
+                    &lt;SearchForm
+                        where={where}
+                    onSearch={this.onSearch}
+                    wrappedComponentRef={inst=&gt;this.searchForm=inst}
+                /&gt;
+            &lt;/Card&gt;
+            &lt;Card&gt;
+                &lt;Button.Group&gt;
+                    &lt;Button type="warning" onClick={this.onAdd}&gt;添加&lt;/Button&gt;
+                    &lt;Button type="danger" onClick={this.onAllDel}&gt;全部删除&lt;/Button&gt;
+                    &lt;Button icon="solution" onClick={this.setRolePermission}&gt;设置权限&lt;/Button&gt;
+                    &lt;Button icon="team" onClick={this.setRoleUser}&gt;用户授权&lt;/Button&gt;
+                &lt;/Button.Group&gt;
+
+                &lt;Table
+                    columns={columns}
+                    dataSource={list}
+                    loading={loading}
+                    rowKey={record =&gt; record.id}
+                    pagination={pagination}
+                        rowSelection={rowSelection}
+                        onRow={
+                            (record) =&gt; {
+                                return {
+                                    onClick: () =&gt; {
+                                        let selectedRowKeys=this.props.selectedRowKeys;
+                                        let selectedRows = this.props.selectedRows;
+                                        let index = selectedRowKeys.indexOf(record.id);
+                                        if (index==-1) {
+                                            selectedRowKeys=[...selectedRowKeys,record.id];
+                                            selectedRows=[...selectedRows,record];
+                                        } else {
+                                            selectedRowKeys=selectedRowKeys.filter(key =&gt; key!=record.id);
+                                            selectedRows=selectedRows.filter(row =&gt; row.id!=record.id);
+                                        }
+                                        this.save({selectedRowKeys,selectedRows});
+                                    }
+                                }    
+                            }
+                        }
+                /&gt;
+                &lt;EditModal
+                    wrappedComponentRef={instance =&gt;this.editForm=instance}
+                    isCreate={isCreate}
+                    visible={editVisible}
+                    onOk={this.onEditOk}
+                    onCancel={this.onEditCancel}
+                    record={record}
+                /&gt;
+                &lt;PermissonModal
+                    visible={setPermissionVisible}
+                    record={record}
+                    resources={resources}
+                    checkedKeys={checkedKeys}
+                    onCheck={this.onCheckPermission}
+                    onOk={this.setRolePermissionOk}
+                    onCancel={()=&gt;this.save({setPermissionVisible:false})}
+                /&gt;
+            &lt;/Card&gt;
+          &lt;/Fragment&gt;
+        )
+    }
+}
+
+@Form.create()
+class SearchForm extends Component{
+    render() {
+        let {form: {getFieldDecorator},onSearch,where={}}=this.props;
+        return (
+            &lt;Form layout="inline"&gt;
+                    &lt;FormItem
+                        label="角色名称"
+                    &gt;
+                        {
+                            getFieldDecorator('name',{initialValue:where.name})(&lt;Input /&gt;)
+                        }
+                    &lt;/FormItem&gt;
+                &lt;FormItem&gt;
+                    &lt;Button onClick={onSearch} shape="circle" icon="search"&gt;&lt;/Button&gt;
+                &lt;/FormItem&gt;
+                &lt;/Form&gt;
+        )
+    }
+}
+
+class PermissonModal extends Component{
+    renderResources=(children) =&gt; {
+        return children.map(child =&gt; {
+            if (child.children.length &gt; 0) {
+                return (
+                    &lt;TreeNode title={child.name} key={child.id}&gt;
+                        {this.renderResources(child.children)}
+                    &lt;/TreeNode&gt;
+                )
+            } else {
+                return &lt;TreeNode title={child.name} key={child.id}/&gt;
+            }
+        });
+    }
+    render() {
+        let {onCheck,visible,onOk,onCancel,checkedKeys,resources=[]}=this.props;
+        return (
+            &lt;Modal
+                visible={visible}
+                title="为角色设置权限"
+                onOk={onOk}
+                onCancel={onCancel}
+                destroyOnClose
+            &gt;
+                &lt;Tree
+                    checkable
+                    defaultExpandAll
+                    onCheck={onCheck}
+                    checkedKeys={checkedKeys}
+                &gt;
+                    &lt;TreeNode title="所有权限" key={0} disabled&gt;
+                        {this.renderResources(resources)}
+                    &lt;/TreeNode&gt;
+                &lt;/Tree&gt;
+            &lt;/Modal&gt;
+        )
+
+    }
+}
+
+@Form.create()
+class EditModal extends Component{
+    render() {
+        let {visible,onOk,isCreate,onCancel,record,form: {getFieldDecorator}}=this.props;
+        let {name,email,id}=record;
+        return (
+            &lt;Modal
+                title={isCreate?'创建':'修改'}
+                visible={visible}
+                onOk={onOk}
+                onCancel={onCancel}
+                destroyOnClose
+            &gt;
+                &lt;Form&gt;
+                    &lt;FormItem&gt;
+                       {
+                            getFieldDecorator('id',{
+                                initialValue: id
+                            })(&lt;Input type="hidden" /&gt;)
+                        }
+                    &lt;/FormItem&gt;
+                    &lt;FormItem
+                        label="角色名称"
+                    &gt;
+                        {
+                            getFieldDecorator('name',{
+                                rules: [{
+                                    required: true,
+                                    message:'角色名称必须输入'
+                                }],
+                                initialValue: name
+                            })(&lt;Input /&gt;)
+                        }
+                    &lt;/FormItem&gt;
+                &lt;/Form&gt;
+            &lt;/Modal&gt;
+        )
+    }
+}
+
+</code></pre>
+<h3 id="t5712.2 models/role.js">12.2 models/role.js <a href="#t5712.2 models/role.js"> # </a></h3>
+<p>src/pages/admin/role/models/role.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> service <span class="hljs-keyword">from</span> <span class="hljs-string">'../services/role'</span>;
+<span class="hljs-keyword">const</span> ENTITY=<span class="hljs-string">'role'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    <span class="hljs-attr">namespace</span>: ENTITY,
+    <span class="hljs-attr">state</span>: {
+        <span class="hljs-attr">list</span>: [],
+        <span class="hljs-attr">isCreate</span>:<span class="hljs-literal">true</span>,
+        <span class="hljs-attr">editVisible</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">page</span>:<span class="hljs-number">1</span>,
+        <span class="hljs-attr">record</span>: {},
+        <span class="hljs-attr">selectedRowKeys</span>: [],
+        <span class="hljs-attr">selectedRows</span>: [],
+        <span class="hljs-attr">checkedKeys</span>: [],
+        <span class="hljs-attr">resources</span>:[],
+        <span class="hljs-attr">setPermissionVisible</span>:<span class="hljs-literal">false</span>,
+        <span class="hljs-attr">where</span>: {}
+    },
+    <span class="hljs-attr">reducers</span>: {
+        save(state,{payload}) {
+            <span class="hljs-keyword">return</span> {...state,...payload};
+        }
+    },
+    <span class="hljs-attr">effects</span>: {
+        *fetch({<span class="hljs-attr">payload</span>: {page,where}},{call,put,select}) {
+            <span class="hljs-keyword">if</span> (!where) {
+                where =<span class="hljs-keyword">yield</span> select(<span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> state[ENTITY].where);
+            }
+            <span class="hljs-keyword">if</span> (!page) {
+                page =<span class="hljs-keyword">yield</span> select(<span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> state[ENTITY].page);
+            }
+            <span class="hljs-keyword">const</span> {list,total}=<span class="hljs-keyword">yield</span> call(service.fetch,page,where);
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:<span class="hljs-string">'save'</span>,<span class="hljs-attr">payload</span>:{page,where,list,<span class="hljs-attr">page</span>:<span class="hljs-built_in">parseInt</span>(page),total}});
+        },
+        *search({<span class="hljs-attr">payload</span>:where},{call,put}) {
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>,<span class="hljs-attr">payload</span>: {<span class="hljs-attr">page</span>:<span class="hljs-number">1</span>,where}});
+        },
+        *create({payload},{call,put}) {
+            <span class="hljs-keyword">yield</span> call(service.create,payload);
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>,<span class="hljs-attr">payload</span>: {<span class="hljs-attr">page</span>:<span class="hljs-number">1</span>}});
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:<span class="hljs-string">'save'</span>,<span class="hljs-attr">payload</span>:{<span class="hljs-attr">editVisible</span>:<span class="hljs-literal">false</span>}});
+        },
+        *update({payload},{call,put,select}) {
+            <span class="hljs-keyword">yield</span> call(service.update,payload);
+            <span class="hljs-keyword">let</span> page=<span class="hljs-keyword">yield</span> select(<span class="hljs-function"><span class="hljs-params">state</span>=&gt;</span>state[ENTITY].page);
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>,<span class="hljs-attr">payload</span>: {page}});
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:<span class="hljs-string">'save'</span>,<span class="hljs-attr">payload</span>:{<span class="hljs-attr">editVisible</span>:<span class="hljs-literal">false</span>}});
+        },
+        *del({payload},{call,put}) {
+            <span class="hljs-keyword">yield</span> call(service.del,payload);
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>,<span class="hljs-attr">payload</span>: {<span class="hljs-attr">page</span>:<span class="hljs-number">1</span>}});
+        },
+        *delAll({payload},{call,put}) {
+            <span class="hljs-keyword">yield</span> call(service.delAll,payload);
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>,<span class="hljs-attr">payload</span>: {<span class="hljs-attr">page</span>:<span class="hljs-number">1</span>}});
+        },
+        *getResource({payload},{call,put}) {
+            <span class="hljs-keyword">const</span> resources=<span class="hljs-keyword">yield</span> call(service.getResources);
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:<span class="hljs-string">'save'</span>,<span class="hljs-attr">payload</span>:{resources}});
+        },
+        *setRolePermission({payload},{call,put,select}) {
+            <span class="hljs-keyword">let</span> {record,checkedKeys}=<span class="hljs-keyword">yield</span> select(<span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> state[ENTITY]);
+            <span class="hljs-keyword">yield</span> call(service.setRolePermission,{<span class="hljs-attr">roleId</span>:record.id,<span class="hljs-attr">resourceIds</span>:checkedKeys});
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>,<span class="hljs-attr">payload</span>: {}});
+            <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:<span class="hljs-string">'save'</span>,<span class="hljs-attr">payload</span>:{<span class="hljs-attr">setPermissionVisible</span>:<span class="hljs-literal">false</span>,<span class="hljs-attr">selectedRowKeys</span>:[],<span class="hljs-attr">selectedRows</span>:[]}});
+        }
+    },
+    <span class="hljs-attr">subscriptions</span>: {
+        setup({dispatch,history}) {
+            <span class="hljs-keyword">return</span> history.listen(<span class="hljs-function">(<span class="hljs-params">{pathname,query}</span>) =&gt;</span> {
+                <span class="hljs-keyword">if</span> (pathname === <span class="hljs-string">`/admin/<span class="hljs-subst">${ENTITY}</span>`</span>) {
+                    dispatch({<span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>,<span class="hljs-attr">payload</span>: query});
+                    dispatch({<span class="hljs-attr">type</span>:<span class="hljs-string">'getResource'</span>});
+                }
+            });
+        }
+    }
+}
+</code></pre>
+<h3 id="t5812.3 services/role.js">12.3 services/role.js <a href="#t5812.3 services/role.js"> # </a></h3>
+<p>src/pages/admin/role/services/role.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getResources</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/api/<span class="hljs-subst">${ENTITY}</span>/getResources`</span>);
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">setRolePermission</span>(<span class="hljs-params">values</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/api/<span class="hljs-subst">${ENTITY}</span>/setRolePermission`</span>,{
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'POST'</span>,
+        <span class="hljs-attr">headers</span>:{<span class="hljs-string">"Content-Type"</span>:<span class="hljs-string">"application/json"</span>},
+        <span class="hljs-attr">body</span>:<span class="hljs-built_in">JSON</span>.stringify(values)
+    });
+}
+</code></pre>
+<h2 id="t5913.给角色加用户">13.给角色加用户 <a href="#t5913.给角色加用户"> # </a></h2>
+<h3 id="t6013.1 roles/page.js">13.1 roles/page.js <a href="#t6013.1 roles/page.js"> # </a></h3>
+<p>src/pages/admin/roles/page.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component, Fragment } <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> { Transfer, Icon, Tree, Card, Table, Button, Modal, Form, Input, Radio, message, Popconfirm, Select } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+<span class="hljs-keyword">import</span> { connect } <span class="hljs-keyword">from</span> <span class="hljs-string">'dva'</span>;
+<span class="hljs-keyword">import</span> { routerRedux } <span class="hljs-keyword">from</span> <span class="hljs-string">'dva/router'</span>;
+<span class="hljs-keyword">let</span> Option = Select.Option;
+<span class="hljs-keyword">const</span> ENTITY = <span class="hljs-string">'role'</span>;
+@connect(
+    <span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> ({ ...state[ENTITY], <span class="hljs-attr">loading</span>: state.loading.models[ENTITY] })
+)
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Base</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    save = <span class="hljs-function">(<span class="hljs-params">payload</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/save`</span>,
+            payload
+        });
+    }
+    handleAdd = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.save({ <span class="hljs-attr">editVisible</span>: <span class="hljs-literal">true</span>, <span class="hljs-attr">record</span>: { <span class="hljs-attr">gender</span>: <span class="hljs-number">1</span> }, <span class="hljs-attr">isCreate</span>: <span class="hljs-literal">true</span> });
+    }
+    handleSave = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-comment">//values = {name:'zfpx',email:"email",gender:1}</span>
+        <span class="hljs-keyword">this</span>.editForm.props.form.validateFields(<span class="hljs-function">(<span class="hljs-params">err, values</span>) =&gt;</span> {
+            <span class="hljs-keyword">if</span> (err) {
+                <span class="hljs-keyword">return</span> message.warn(<span class="hljs-string">'你输入的表单数据不合法!'</span>);
+            } <span class="hljs-keyword">else</span> {
+                <span class="hljs-keyword">this</span>.props.dispatch({
+                    <span class="hljs-attr">type</span>: <span class="hljs-keyword">this</span>.props.isCreate ? <span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/add`</span> : <span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/update`</span>,
+                    <span class="hljs-attr">payload</span>: values
+                });
+            }
+        });
+    }
+    handleEdit = <span class="hljs-function">(<span class="hljs-params">record</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.save({
+            <span class="hljs-attr">editVisible</span>: <span class="hljs-literal">true</span>,
+            record,
+            <span class="hljs-attr">isCreate</span>: <span class="hljs-literal">false</span>
+        });
+    }
+    handleDel = <span class="hljs-function">(<span class="hljs-params">id</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/del`</span>,
+            <span class="hljs-attr">payload</span>: id
+        });
+    }
+    handleDelAll = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/delAll`</span>,
+            <span class="hljs-attr">payload</span>: <span class="hljs-keyword">this</span>.props.selectedRowKeys
+        });
+    }
+    handleSearch = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">let</span> values = <span class="hljs-keyword">this</span>.searchForm.props.form.getFieldsValue();
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'values'</span>, values);
+        <span class="hljs-keyword">let</span> where = <span class="hljs-built_in">Object</span>.entries(values).reduce(<span class="hljs-function">(<span class="hljs-params">memo, [key, val]</span>) =&gt;</span> {
+            <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> val == <span class="hljs-string">'undefined'</span>) {
+                memo[key] = val;
+            }
+            <span class="hljs-keyword">return</span> memo;
+        }, {});
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/fetch`</span>,
+            <span class="hljs-attr">payload</span>: { where }
+        });
+    }
+    <span class="hljs-comment">//开始给角色分配权限</span>
+    setResource = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">let</span> selectedRows = <span class="hljs-keyword">this</span>.props.selectedRows;
+        <span class="hljs-keyword">if</span> (selectedRows.length == <span class="hljs-number">1</span>) {
+            <span class="hljs-keyword">let</span> record = selectedRows[<span class="hljs-number">0</span>];
+            <span class="hljs-keyword">this</span>.save({ <span class="hljs-attr">setResourceVisible</span>: <span class="hljs-literal">true</span>, record, <span class="hljs-attr">checkedKeys</span>: record.resourceIds });
+        } <span class="hljs-keyword">else</span> {
+            message.warn(<span class="hljs-string">'请选中并且只能选中一个角色!'</span>);
+        }
+    }
+    setResourceOk = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/setResource`</span>
+        });
+    }
+    onSetResourceCheck = <span class="hljs-function">(<span class="hljs-params">checkedKeys</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.save({ checkedKeys });
+    }
+
+    <span class="hljs-comment">//开始给角色分配用户</span>
+    setUser = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">let</span> selectedRows = <span class="hljs-keyword">this</span>.props.selectedRows;
+        <span class="hljs-keyword">if</span> (selectedRows.length == <span class="hljs-number">1</span>) {
+            <span class="hljs-keyword">let</span> record = selectedRows[<span class="hljs-number">0</span>];
+            <span class="hljs-keyword">this</span>.save({ <span class="hljs-attr">setUserVisible</span>: <span class="hljs-literal">true</span>, record, <span class="hljs-attr">targetKeys</span>: record.userIds });
+        } <span class="hljs-keyword">else</span> {
+            message.warn(<span class="hljs-string">'请选中并且只能选中一个角色!'</span>);
+        }
+    }
+    setUserOk = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({
+            <span class="hljs-attr">type</span>: <span class="hljs-string">`<span class="hljs-subst">${ENTITY}</span>/setUser`</span>
+        });
+    }
+    onSetUserChange = <span class="hljs-function">(<span class="hljs-params">targetKeys</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.save({ targetKeys });
+    }
+    render() {
+        <span class="hljs-keyword">let</span> columns = [
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">'姓名'</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">'name'</span>,
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">'邮箱'</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">'email'</span>,
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">'性别'</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">'gender'</span>,
+                <span class="hljs-attr">render</span>: <span class="hljs-function">(<span class="hljs-params">val, record</span>) =&gt;</span> (val === <span class="hljs-number">1</span> ? <span class="hljs-string">'男'</span> : <span class="hljs-string">'女'</span>)
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">'操作'</span>,
+                <span class="hljs-attr">render</span>: <span class="hljs-function">(<span class="hljs-params">val, record</span>) =&gt;</span> {
+                    <span class="hljs-keyword">return</span> (
+                        &lt;Button.Group&gt;
+                            &lt;Button type="warning" icon="edit" onClick={() =&gt; this.handleEdit(record)}&gt;编辑&lt;/Button&gt;
+                            &lt;Popconfirm title="你确定要删除吗?" okText="是" cancelText="否" onConfirm={() =&gt; this.handleDel(record.id)}&gt;
+                                &lt;Button type="danger" icon="delete"&gt;删除&lt;/Button&gt;
+                            &lt;/Popconfirm&gt;
+                        &lt;/Button.Group&gt;
+                    )
+                }
+            }
+        ]
+        let { list, editVisible, record, isCreate, selectedRowKeys,
+            pageNum, total, loading,
+            setResourceVisible, checkedKeys, resources, setUserVisible, targetKeys, users
+        } = this.props;
+        let rowSelection = {
+            type: 'checkbox',
+            selectedRowKeys,
+            onChange: (selectedRowKeys, selectedRows) =&gt; {
+                this.save({ selectedRowKeys, selectedRows });
+            }
+        }
+        let pagination = {
+            current: pageNum,//当前页码
+            pageSize: 3,
+            total,//总条数
+            showQuickJumper: true,
+            showTotal: (total) =&gt; `共${total}条`,
+            onChange: (pageNum, pageSize) =&gt; {
+                //跳转路径有三种方法
+                this.props.dispatch(routerRedux.push(`/admin/${ENTITY}?pageNum=${pageNum}`));
+            }
+        }
+        return (
+            &lt;Fragment&gt;
+                &lt;Card&gt;
+                    &lt;SearchForm
+                        wrappedComponentRef={inst =&gt; this.searchForm = inst}
+                        handleSearch={this.handleSearch} /&gt;
+                &lt;/Card&gt;
+                &lt;Card&gt;
+                    &lt;Button type="primary" icon="plus-circle" onClick={this.handleAdd}&gt;添加&lt;/Button&gt;
+                    &lt;Button style={{ marginLeft: 8 }} type="dashed" icon="delete" onClick={this.handleDelAll}&gt;批量删除&lt;/Button&gt;
+                    &lt;Button style={{ marginLeft: 8 }} type="primary" icon="plus-circle" onClick={this.setResource}&gt;分配权限&lt;/Button&gt;
+                    &lt;Button style={{ marginLeft: 8 }} type="primary" icon="plus-circle" onClick={this.setUser}&gt;分配用户&lt;/Button&gt;
+                    &lt;Table
+                        columns={columns}
+                        dataSource={list}
+                        loading={loading}
+                        rowKey={record =&gt; record.id}
+                        rowSelection={rowSelection}
+                        pagination={pagination}
+                        onRow={record =&gt; ({
+                            onClick: () =&gt; {
+                                let index = selectedRowKeys.indexOf(record.id);
+                                if (index == -1) {
+                                    selectedRowKeys = [...selectedRowKeys, record.id];
+                                } else {
+                                    selectedRowKeys = selectedRowKeys.filter(key =&gt; key != record.id);
+                                }
+                                this.save({ selectedRowKeys });
+                            }
+                        })}
+                    /&gt;
+                    &lt;EditModal
+                        wrappedComponentRef={inst =&gt; this.editForm = inst}
+                        visible={editVisible}
+                        isCreate={isCreate}
+                        record={record}
+                        onOk={this.handleSave}
+                        onCancel={() =&gt; this.save({ editVisible: false })}
+                    /&gt;
+                    &lt;SetResourceModal
+                        visible={setResourceVisible}
+                        record={record}
+                        onOk={this.setResourceOk}
+                        checkedKeys={checkedKeys}
+                        onCheck={this.onSetResourceCheck}
+                        resources={resources}
+                        onCancel={() =&gt; this.save({ setResourceVisible: false })}
+                    /&gt;
+                    &lt;SetUserModal
+                        visible={setUserVisible}
+                        record={record}
+                        onOk={this.setUserOk}
+                        targetKeys={targetKeys}
+                        onChange={this.onSetUserChange}
+                        users={users}
+                        onCancel={() =&gt; this.save({ setUserVisible: false })}
+                    /&gt;
+                &lt;/Card &gt;
+            &lt;/Fragment&gt;
+        )
+    }
+}
+
+class SetUserModal extends Component {
+    render() {
+        let { visible, onOk, onCancel, record, targetKeys, onChange, users } = this.props;
+        return (
+            &lt;Modal
+                title={`为 ${record.name} 分配用户`}
+                visible={visible}
+                onOk={onOk}
+                okText={"确定"}
+                cancelText={"取消"}
+                onCancel={onCancel}
+                destroyOnClose
+            &gt;
+                &lt;Transfer
+                    dataSource={users}
+                    targetKeys={targetKeys}
+                    titles={["待选用户", "已选用户"]}
+                    onChange={onChange}
+                    render={row =&gt; row.name}
+                    rowKey={row =&gt; row.id}
+                /&gt;
+            &lt;/Modal&gt;
+        )
+    }
+}
+
+
+class SetResourceModal extends Component {
+    renderTree = (children = []) =&gt; {
+        return children.map(item =&gt; {
+            if (item.children &amp;&amp; item.children.length &gt; 0) {
+                return (
+                    &lt;Tree.TreeNode title={&lt;span&gt;&lt;Icon type={item.type} /&gt;{item.name}&lt;/span&gt;} key={item.id} &gt;
+                        {this.renderTree(item.children)}
+                    &lt;/Tree.TreeNode&gt;
+                )
+            } else {
+                return &lt;Tree.TreeNode title={&lt;span&gt;&lt;Icon type={item.type} /&gt;{item.name}&lt;/span&gt;} key={item.id} /&gt;
+            }
+        });
+    }
+    render() {
+        let { visible, onOk, onCancel, record, checkedKeys, onCheck, resources } = this.props;
+
+        return (
+            &lt;Modal
+                title="为角色分权限"
+                visible={visible}
+                onOk={onOk}
+                okText={"确定"}
+                cancelText={"取消"}
+                onCancel={onCancel}
+                destroyOnClose
+            &gt;
+                &lt;Tree
+                    checkable
+                    defaultExpandAll
+                    checkedKeys={checkedKeys}
+                    destroyOnClose
+                    onCheck={onCheck}
+                &gt;
+                    &lt;Tree.TreeNode title="平台权限" key={0} disabled&gt;
+                        {this.renderTree(resources)}
+                    &lt;/Tree.TreeNode&gt;
+                &lt;/Tree&gt;
+            &lt;/Modal&gt;
+        )
+    }
+}
+
+@Form.create()
+class SearchForm extends Component {
+    render() {
+        let { form: { getFieldDecorator }, handleSearch } = this.props;
+        return (
+            &lt;Form layout="inline"&gt;
+                &lt;Form.Item&gt;
+                    {
+                        getFieldDecorator('name', {})(&lt;Input placeholder="用户名" /&gt;)
+                    }
+                &lt;/Form.Item&gt;
+                &lt;Form.Item  &gt;
+                    {
+                        getFieldDecorator('email', {})(&lt;Input placeholder="邮箱" /&gt;)
+                    }
+                &lt;/Form.Item&gt;
+                &lt;Form.Item&gt;
+                    {
+                        getFieldDecorator('gender', {})(&lt;Select onSelect={handleSearch}&gt;
+                            &lt;Option value={1}&gt;男&lt;/Option&gt;
+                            &lt;Option value={0}&gt;女&lt;/Option&gt;
+                        &lt;/Select&gt;)
+                    }
+
+                &lt;/Form.Item&gt;
+                &lt;Form.Item&gt;
+                    &lt;Button
+                        onClick={handleSearch}
+                        icon="search" shape="circle"&gt;&lt;/Button&gt;
+                &lt;/Form.Item&gt;
+            &lt;/Form&gt;
+        )
+    }
+}
+
+//一旦用Form.create()的结果进行装饰了，那么此组件就会获取一个props.form的属性.form有很多个方法
+@Form.create()
+class EditModal extends Component {
+    render() {
+        let { visible, form: { getFieldDecorator }, onOk, onCancel, record, isCreate } = this.props;
+        let formItemLayout = {
+            labelCol: {
+                xs: { span: 24 },
+                sm: { span: 6 },
+            },
+            wrapperCol: {
+                xs: { span: 24 },
+                sm: { span: 18 },
+            },
+        }
+        return (
+            &lt;Modal
+                title={isCreate ? "新增用户" : "编辑用户"}
+                visible={visible}
+                onOk={onOk}
+                okText={"确定"}
+                cancelText={"取消"}
+                onCancel={onCancel}
+                destroyOnClose
+            &gt;
+                &lt;Form&gt;
+                    &lt;Form.Item&gt;
+                        {
+                            getFieldDecorator('id', {
+                                initialValue: record.id
+                            })(&lt;Input type="hidden" /&gt;)
+                        }
+                    &lt;/Form.Item&gt;
+                    &lt;Form.Item label="用户名" {...formItemLayout}&gt;
+                        {
+                            getFieldDecorator('name', {
+                                initialValue: record.name,
+                                rules: [
+                                    { required: true, message: '请输入用户名' }
+                                ]
+                            })(&lt;Input placeholder="用户名" /&gt;)
+                        }
+                    &lt;/Form.Item&gt;
+                    &lt;Form.Item label="邮箱" {...formItemLayout}&gt;
+                        {
+                            getFieldDecorator('email', {
+                                initialValue: record.email,
+                                rules: [
+                                    { type: 'email', message: '请输入合法的邮箱地址!' },
+                                    { required: true, message: '请输入邮箱!' }
+                                ]
+                            })(&lt;Input placeholder="邮箱" /&gt;)
+                        }
+                    &lt;/Form.Item&gt;
+                    &lt;Form.Item label="性别" {...formItemLayout}&gt;
+                        {
+                            getFieldDecorator('gender', {
+                                initialValue: record.gender,
+                                rules: [
+                                    { required: true, message: '请选择性别' }
+                                ]
+                            })(
+                                &lt;Radio.Group&gt;
+                                    &lt;Radio value={1}&gt;男&lt;/Radio&gt;
+                                    &lt;Radio value={0}&gt;女&lt;/Radio&gt;
+                                &lt;/Radio.Group&gt;
+                            )
+                        }
+                    &lt;/Form.Item&gt;
+                &lt;/Form&gt;
+            &lt;/Modal&gt;
+        )
+    }
+}
+</code></pre>
+<h3 id="t6113.2 models/roles.js">13.2 models/roles.js <a href="#t6113.2 models/roles.js"> # </a></h3>
+<p>src/pages/admin/roles/models/roles.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> service <span class="hljs-keyword">from</span> <span class="hljs-string">'../services/role'</span>;
+<span class="hljs-keyword">import</span> { PAGE_SIZE } <span class="hljs-keyword">from</span> <span class="hljs-string">'../constants'</span>;
+<span class="hljs-keyword">const</span> ENTITY = <span class="hljs-string">'role'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+
+    <span class="hljs-attr">namespace</span>: ENTITY,
+
+    <span class="hljs-attr">state</span>: {
+        <span class="hljs-attr">isCreate</span>: <span class="hljs-literal">true</span>,
+        <span class="hljs-attr">list</span>: [],
+        <span class="hljs-attr">pageNum</span>: <span class="hljs-number">1</span>,
+        <span class="hljs-attr">total</span>: <span class="hljs-number">0</span>,
+        <span class="hljs-attr">where</span>: {},
+        <span class="hljs-attr">editVisible</span>: <span class="hljs-literal">false</span>,<span class="hljs-comment">//是否显示编辑窗口</span>
+        record: { <span class="hljs-attr">gender</span>: <span class="hljs-number">1</span> },<span class="hljs-comment">//代表当前正在编辑的对象</span>
+        selectedRowKeys: [],
+        <span class="hljs-attr">selectedRows</span>: [],
+        <span class="hljs-attr">setResourceVisible</span>: <span class="hljs-literal">false</span>,<span class="hljs-comment">//设置权限的模态窗口是否显示</span>
+        checkedKeys: [],<span class="hljs-comment">//哪些权限被选中了</span>
+        resources: [],<span class="hljs-comment">//资源,是一个数组，里面第一层放着顶层资源</span>
+        setUserVisible: <span class="hljs-literal">false</span>,<span class="hljs-comment">//窗口是否显示</span>
+        targetKeys: [],<span class="hljs-comment">//选中的用户</span>
+        users: [] <span class="hljs-comment">//所有的用户</span>
+    },
+
+    <span class="hljs-attr">subscriptions</span>: {
+        setup({ dispatch, history }) {
+            <span class="hljs-comment">// 通过地址来分页   /admin/user?pageNum=2</span>
+            history.listen(<span class="hljs-function">(<span class="hljs-params">{ pathname, query }</span>) =&gt;</span> {
+                <span class="hljs-keyword">if</span> (pathname === <span class="hljs-string">`/admin/<span class="hljs-subst">${ENTITY}</span>`</span>) {
+                    dispatch({ <span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>, <span class="hljs-attr">payload</span>: query });
+                    dispatch({ <span class="hljs-attr">type</span>: <span class="hljs-string">'getResource'</span> });
+                    dispatch({ <span class="hljs-attr">type</span>: <span class="hljs-string">'getUser'</span> });
+                }
+            });
+        },
+    },
+
+    <span class="hljs-attr">effects</span>: {
+        *fetch({ <span class="hljs-attr">payload</span>: { pageNum, where } }, { call, put, select }) {
+            <span class="hljs-keyword">if</span> (!pageNum) {
+                pageNum = <span class="hljs-keyword">yield</span> select(<span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> state[ENTITY].pageNum);
+            }
+            <span class="hljs-keyword">if</span> (!where) {
+                where = <span class="hljs-keyword">yield</span> select(<span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> state[ENTITY].where);
+            }
+            <span class="hljs-keyword">let</span> { list, total } = <span class="hljs-keyword">yield</span> call(service.list, pageNum, PAGE_SIZE, where);
+            <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: <span class="hljs-string">'save'</span>, <span class="hljs-attr">payload</span>: { list, total, <span class="hljs-attr">pageNum</span>: <span class="hljs-built_in">parseInt</span>(pageNum), where } });
+        },
+        *add({ payload }, { call, put }) {
+            <span class="hljs-keyword">yield</span> call(service.add, payload);
+            <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>, <span class="hljs-attr">payload</span>: {} });
+            <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: <span class="hljs-string">'save'</span>, <span class="hljs-attr">payload</span>: { <span class="hljs-attr">editVisible</span>: <span class="hljs-literal">false</span> } });
+        },
+        *update({ payload }, { call, put }) {
+            <span class="hljs-keyword">yield</span> call(service.update, payload);
+            <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>, <span class="hljs-attr">payload</span>: {} });
+            <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: <span class="hljs-string">'save'</span>, <span class="hljs-attr">payload</span>: { <span class="hljs-attr">editVisible</span>: <span class="hljs-literal">false</span> } });
+        },
+        *del({ payload }, { call, put }) {
+            <span class="hljs-keyword">yield</span> call(service.del, payload);
+            <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>, <span class="hljs-attr">payload</span>: {} });
+        },
+        *delAll({ payload }, { call, put }) {
+            <span class="hljs-keyword">yield</span> call(service.delAll, payload);
+            <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>, <span class="hljs-attr">payload</span>: {} });
+        },
+        *getResource({ }, { call, put }) {
+            <span class="hljs-keyword">let</span> resources = <span class="hljs-keyword">yield</span> call(service.getResource);
+            <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: <span class="hljs-string">'save'</span>, <span class="hljs-attr">payload</span>: { resources } });
+        },
+        *getUser({ }, { call, put }) {
+            <span class="hljs-keyword">let</span> users = <span class="hljs-keyword">yield</span> call(service.getUser);
+            <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: <span class="hljs-string">'save'</span>, <span class="hljs-attr">payload</span>: { users } });
+        },
+        *setResource({ }, { call, put, select }) {
+            <span class="hljs-keyword">let</span> record = <span class="hljs-keyword">yield</span> select(<span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> state.role.record);
+            <span class="hljs-keyword">let</span> checkedKeys = <span class="hljs-keyword">yield</span> select(<span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> state.role.checkedKeys);
+            <span class="hljs-keyword">yield</span> call(service.setResource, {
+                <span class="hljs-attr">roleId</span>: record.id,
+                <span class="hljs-attr">resourceIds</span>: checkedKeys
+            });
+            <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: <span class="hljs-string">'save'</span>, <span class="hljs-attr">payload</span>: { <span class="hljs-attr">setResourceVisible</span>: <span class="hljs-literal">false</span>, <span class="hljs-attr">selectedRowKeys</span>: [], <span class="hljs-attr">selectedRows</span>: [] } });
+            <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>, <span class="hljs-attr">payload</span>: {} });
+        },
+        *setUser({ }, { call, put, select }) {
+            <span class="hljs-keyword">let</span> record = <span class="hljs-keyword">yield</span> select(<span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> state.role.record);
+            <span class="hljs-keyword">let</span> targetKeys = <span class="hljs-keyword">yield</span> select(<span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> state.role.targetKeys);
+            <span class="hljs-keyword">yield</span> call(service.setUser, {
+                <span class="hljs-attr">roleId</span>: record.id,
+                <span class="hljs-attr">userIds</span>: targetKeys
+            });
+            <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: <span class="hljs-string">'save'</span>, <span class="hljs-attr">payload</span>: { <span class="hljs-attr">setUserVisible</span>: <span class="hljs-literal">false</span>, <span class="hljs-attr">selectedRowKeys</span>: [], <span class="hljs-attr">selectedRows</span>: [] } });
+            <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: <span class="hljs-string">'fetch'</span>, <span class="hljs-attr">payload</span>: {} });
+        }
+    },
+
+    <span class="hljs-attr">reducers</span>: {
+        save(state, action) {
+            <span class="hljs-keyword">return</span> { ...state, ...action.payload };
+        }
+    },
+
+};
+
+</code></pre>
+<h3 id="t6213.3 services/roles.js">13.3 services/roles.js <a href="#t6213.3 services/roles.js"> # </a></h3>
+<p>src/pages/admin/roles/services/roles.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> request <span class="hljs-keyword">from</span> <span class="hljs-string">'@/utils/request'</span>;
+<span class="hljs-keyword">import</span> querystring <span class="hljs-keyword">from</span> <span class="hljs-string">'querystring'</span>;
+<span class="hljs-keyword">const</span> ENTITY = <span class="hljs-string">'role'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">list</span>(<span class="hljs-params">pageNum, pageSize, where</span>) </span>{
+    <span class="hljs-keyword">let</span> wherestring = querystring.stringify(where);
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/api/<span class="hljs-subst">${ENTITY}</span>?pageNum=<span class="hljs-subst">${pageNum}</span>&amp;pageSize=<span class="hljs-subst">${pageSize}</span>&amp;<span class="hljs-subst">${wherestring}</span>`</span>);
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getResource</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/api/<span class="hljs-subst">${ENTITY}</span>/getResource`</span>);
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getUser</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/api/<span class="hljs-subst">${ENTITY}</span>/getUser`</span>);
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">add</span>(<span class="hljs-params">values</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/api/<span class="hljs-subst">${ENTITY}</span>`</span>, {
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'POST'</span>,
+        <span class="hljs-attr">headers</span>: {
+            <span class="hljs-string">"Content-Type"</span>: <span class="hljs-string">"application/json"</span>
+        },
+        <span class="hljs-attr">body</span>: <span class="hljs-built_in">JSON</span>.stringify(values)
+    });
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">setResource</span>(<span class="hljs-params">values</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/api/<span class="hljs-subst">${ENTITY}</span>/setResource`</span>, {
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'POST'</span>,
+        <span class="hljs-attr">headers</span>: {
+            <span class="hljs-string">"Content-Type"</span>: <span class="hljs-string">"application/json"</span>
+        },
+        <span class="hljs-attr">body</span>: <span class="hljs-built_in">JSON</span>.stringify(values)
+    });
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">setUser</span>(<span class="hljs-params">values</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/api/<span class="hljs-subst">${ENTITY}</span>/setUser`</span>, {
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'POST'</span>,
+        <span class="hljs-attr">headers</span>: {
+            <span class="hljs-string">"Content-Type"</span>: <span class="hljs-string">"application/json"</span>
+        },
+        <span class="hljs-attr">body</span>: <span class="hljs-built_in">JSON</span>.stringify(values)
+    });
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">update</span>(<span class="hljs-params">values</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/api/<span class="hljs-subst">${ENTITY}</span>/<span class="hljs-subst">${values.id}</span>`</span>, {
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'PUT'</span>,
+        <span class="hljs-attr">headers</span>: {
+            <span class="hljs-string">"Content-Type"</span>: <span class="hljs-string">"application/json"</span>
+        },
+        <span class="hljs-attr">body</span>: <span class="hljs-built_in">JSON</span>.stringify(values)
+    });
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">del</span>(<span class="hljs-params">id</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/api/<span class="hljs-subst">${ENTITY}</span>/<span class="hljs-subst">${id}</span>`</span>, {
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'DELETE'</span>
+    });
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">delAll</span>(<span class="hljs-params">ids</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">`/api/<span class="hljs-subst">${ENTITY}</span>/<span class="hljs-subst">${ids[<span class="hljs-number">0</span>]}</span>`</span>, {
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'DELETE'</span>,
+        <span class="hljs-attr">headers</span>: {
+            <span class="hljs-string">"Content-Type"</span>: <span class="hljs-string">"application/json"</span>
+        },
+        <span class="hljs-attr">body</span>: <span class="hljs-built_in">JSON</span>.stringify(ids)
+    });
+}
+</code></pre>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

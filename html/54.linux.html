@@ -1,0 +1,1592 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li class="active"><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. Linux">1. Linux</a></li><li><a href="#t12.版本">2.版本</a></li><li><a href="#t23. Linux与Windows的不同">3. Linux与Windows的不同</a></li><li><a href="#t34. Linux安装">4. Linux安装</a><ul><li><a href="#t44.1 什么是虚拟机">4.1 什么是虚拟机</a></li><li><a href="#t54.2 虚拟机的主要特点">4.2 虚拟机的主要特点</a></li></ul></li><li><a href="#t64.3 建议VMWare配置">4.3 建议VMWare配置</a><ul><li><a href="#t74.4 虚拟机的安装">4.4 虚拟机的安装</a></li><li><a href="#t84.5 虚拟机使用">4.5 虚拟机使用</a><ul><li><a href="#t94.5.1 新建虚拟机">4.5.1 新建虚拟机</a></li><li><a href="#t104.5.2 硬件管理">4.5.2 硬件管理</a></li><li><a href="#t114.5.3 网络链接">4.5.3 网络链接</a></li><li><a href="#t124.5.4 使用快照">4.5.4 使用快照</a></li><li><a href="#t134.5.4 克隆">4.5.4 克隆</a></li><li><a href="#t144.5.5 分区">4.5.5 分区</a></li><li><a href="#t154.5.6 扩展分区">4.5.6 扩展分区</a></li><li><a href="#t164.5.7 格式化">4.5.7 格式化</a></li><li><a href="#t174.5.8 给分区分配盘符">4.5.8 给分区分配盘符</a></li><li><a href="#t184.5.9 硬件设备文件名">4.5.9 硬件设备文件名</a></li><li><a href="#t194.5.10 分区设备文件名">4.5.10 分区设备文件名</a><ul><li><a href="#t204.5.10.1 IDE硬盘接口">4.5.10.1 IDE硬盘接口</a></li><li><a href="#t214.5.10.2 SCSI硬盘接口">4.5.10.2 SCSI硬盘接口</a></li><li><a href="#t224.5.10.3 SATA硬盘接口">4.5.10.3 SATA硬盘接口</a></li></ul></li><li><a href="#t234.5.10 挂载点">4.5.10 挂载点</a></li></ul></li><li><a href="#t244.6 linux系统安装">4.6 linux系统安装</a><ul><li><a href="#t254.6.1 安装类型">4.6.1 安装类型</a></li><li><a href="#t264.6.2 密码">4.6.2 密码</a></li><li><a href="#t274.6.3 安装类型">4.6.3 安装类型</a></li><li><a href="#t284.6.4 安装日志">4.6.4 安装日志</a></li><li><a href="#t294.6.5 配置IP地址">4.6.5 配置IP地址</a><ul><li><a href="#t304.6.5.1 setup">4.6.5.1 setup</a></li><li><a href="#t314.6.5.2 ifcfg-eth0">4.6.5.2 ifcfg-eth0</a></li><li><a href="#t324.6.5.2 网卡接口关闭与激活">4.6.5.2 网卡接口关闭与激活</a></li><li><a href="#t334.6.5.3 网络服务启动与关闭">4.6.5.3 网络服务启动与关闭</a></li></ul></li></ul></li></ul></li><li><a href="#t345.linux常用命令">5.linux常用命令</a><ul><li><a href="#t355.1 常见目录">5.1 常见目录</a></li><li><a href="#t365.2 命令基本格式">5.2 命令基本格式</a><ul><li><a href="#t375.2.1 命令提示符">5.2.1 命令提示符</a></li><li><a href="#t385.2.2 命令格式">5.2.2 命令格式</a></li><li><a href="#t395.2.3 ls">5.2.3 ls</a><ul><li><a href="#t405.2.3.1 -l">5.2.3.1 -l</a></li><li><a href="#t415.2.3.2 文件类型和权限">5.2.3.2 文件类型和权限</a></li></ul></li></ul></li><li><a href="#t425.3 文件处理命令">5.3 文件处理命令</a><ul><li><a href="#t435.3.1 mkdir">5.3.1 mkdir</a></li><li><a href="#t445.3.2 cd">5.3.2 cd</a></li><li><a href="#t455.3.3 pwd">5.3.3 pwd</a></li><li><a href="#t465.3.4 rmdir">5.3.4 rmdir</a></li><li><a href="#t475.3.5 rm">5.3.5 rm</a></li><li><a href="#t485.3.6 cp">5.3.6 cp</a></li><li><a href="#t495.3.7 mv">5.3.7 mv</a></li><li><a href="#t505.3.8 ln">5.3.8 ln</a><ul><li><a href="#t515.3.8.1  硬链接特征">5.3.8.1  硬链接特征</a></li><li><a href="#t525.3.8.2  软链接特征">5.3.8.2  软链接特征</a></li></ul></li></ul></li><li><a href="#t535.4 文件搜索命令">5.4 文件搜索命令</a><ul><li><a href="#t545.4.1 locate">5.4.1 locate</a></li><li><a href="#t555.4.2 whereis">5.4.2 whereis</a></li><li><a href="#t565.4.3 which">5.4.3 which</a></li><li><a href="#t575.4.4 环境变量">5.4.4 环境变量</a></li><li><a href="#t585.4.5 find">5.4.5 find</a><ul><li><a href="#t595.4.5.1 按名称搜索">5.4.5.1 按名称搜索</a></li><li><a href="#t605.4.5.2 通配符">5.4.5.2 通配符</a></li><li><a href="#t615.4.5.3 -i">5.4.5.3 -i</a></li><li><a href="#t625.4.5.4 -user">5.4.5.4 -user</a></li><li><a href="#t635.4.5.5 按时间搜索">5.4.5.5 按时间搜索</a></li><li><a href="#t645.4.5.6 按大小搜索">5.4.5.6 按大小搜索</a></li><li><a href="#t655.4.5.7 按i节点搜索">5.4.5.7 按i节点搜索</a></li><li><a href="#t665.4.5.8 综合应用">5.4.5.8 综合应用</a></li><li><a href="#t675.4.5.9 grep">5.4.5.9 grep</a></li></ul></li></ul></li><li><a href="#t685.5 帮助命令">5.5 帮助命令</a><ul><li><a href="#t695.5.1 基本用法">5.5.1 基本用法</a></li><li><a href="#t705.5.2 man的级别">5.5.2 man的级别</a></li><li><a href="#t715.5.3 查看命令级别">5.5.3 查看命令级别</a></li><li><a href="#t725.5.4 关键字搜索">5.5.4 关键字搜索</a></li><li><a href="#t735.5.5 shell 内部帮助">5.5.5 shell 内部帮助</a></li></ul></li><li><a href="#t745.6 压缩与解压缩命令">5.6 压缩与解压缩命令</a><ul><li><a href="#t755.6.1 zip格式">5.6.1 zip格式</a></li><li><a href="#t765.6.2 gzip">5.6.2 gzip</a></li><li><a href="#t775.6.3 .bz2格式压缩">5.6.3 .bz2格式压缩</a></li><li><a href="#t785.6.4 tar">5.6.4 tar</a></li><li><a href="#t795.6.4 tar.gz压缩格式">5.6.4 tar.gz压缩格式</a></li></ul></li><li><a href="#t805.7 关机和重启命令">5.7 关机和重启命令</a><ul><li><a href="#t815.7.1 shutdown">5.7.1 shutdown</a></li><li><a href="#t825.7.2 init">5.7.2 init</a></li><li><a href="#t835.7.3 logout">5.7.3 logout</a></li></ul></li><li><a href="#t845.8 挂载">5.8 挂载</a><ul><li><a href="#t855.8.1 挂载命令">5.8.1 挂载命令</a></li></ul></li><li><a href="#t865.8.2 挂载命令格式">5.8.2 挂载命令格式</a><ul><li><a href="#t875.8.3 挂载光驱">5.8.3 挂载光驱</a></li><li><a href="#t885.8.4 卸载光驱">5.8.4 卸载光驱</a></li><li><a href="#t895.8.4 挂载U盘">5.8.4 挂载U盘</a></li></ul></li><li><a href="#t905.9 查看登录用户信息">5.9 查看登录用户信息</a><ul><li><a href="#t915.9.1 w">5.9.1 w</a></li><li><a href="#t925.9.2 who">5.9.2 who</a></li><li><a href="#t935.9.3 last">5.9.3 last</a></li><li><a href="#t945.9.4 lastlog">5.9.4 lastlog</a></li></ul></li></ul></li><li><a href="#t956. shell">6. shell</a><ul><li><a href="#t966.1 查看支持的shell">6.1 查看支持的shell</a></li><li><a href="#t976.2 echo">6.2 echo</a></li><li><a href="#t986.3 编写执行shell">6.3 编写执行shell</a></li><li><a href="#t996.4 别名">6.4 别名</a></li><li><a href="#t1006.5 命令的生效顺序">6.5 命令的生效顺序</a></li><li><a href="#t1016.6 命令快捷键">6.6 命令快捷键</a></li><li><a href="#t1026.7 历史命令">6.7 历史命令</a></li><li><a href="#t1036.8 调用">6.8 调用</a></li><li><a href="#t1046.9 输出重定向">6.9 输出重定向</a><ul><li><a href="#t1056.9.1 标准输入输出">6.9.1 标准输入输出</a></li><li><a href="#t1066.9.2 输入重定向">6.9.2 输入重定向</a></li></ul></li><li><a href="#t1076.10 管道符号">6.10 管道符号</a><ul><li><a href="#t1086.10.1 多命令顺序执行">6.10.1 多命令顺序执行</a></li><li><a href="#t1096.10.2 管道符号">6.10.2 管道符号</a></li><li><a href="#t1106.10.3 通配符">6.10.3 通配符</a></li><li><a href="#t1116.10.4 其它符号">6.10.4 其它符号</a></li></ul></li></ul></li><li><a href="#t1127. vi编辑器">7. vi编辑器</a><ul><li><a href="#t1137.1 操作模式">7.1 操作模式</a></li><li><a href="#t1147.2 常用指令">7.2 常用指令</a><ul><li><a href="#t1157.2.1 底行模式">7.2.1 底行模式</a></li><li><a href="#t1167.2.2 命令模式">7.2.2 命令模式</a></li></ul></li></ul></li><li><a href="#t1178. 用户和用户组">8. 用户和用户组</a><ul><li><a href="#t1188.1 用户组">8.1 用户组</a><ul><li><a href="#t1198.1.1 /etc/group">8.1.1 /etc/group</a></li><li><a href="#t1208.1.2 /etc/gshadow">8.1.2 /etc/gshadow</a></li><li><a href="#t1218.1.3 /etc/passwd">8.1.3 /etc/passwd</a></li><li><a href="#t1228.1.4 /etc/shadow">8.1.4 /etc/shadow</a></li></ul></li></ul></li><li><a href="#t1238. 用户操作">8. 用户操作</a></li><li><a href="#t1249. 用户命令">9. 用户命令</a></li><li><a href="#t12510. 附录">10. 附录</a><ul><li><a href="#t12610.1 系统启动">10.1 系统启动</a><ul><li><a href="#t12710.1.1 BIOS">10.1.1 BIOS</a></li><li><a href="#t12810.1.2 硬件自检">10.1.2 硬件自检</a></li><li><a href="#t12910.1.3 启动顺序">10.1.3 启动顺序</a></li><li><a href="#t13010.1.4 主引导记录的结构">10.1.4 主引导记录的结构</a></li><li><a href="#t13110.1.5 分区表">10.1.5 分区表</a></li><li><a href="#t13210.1.6 硬盘启动">10.1.6 硬盘启动</a></li><li><a href="#t13310.1.7 操作系统">10.1.7 操作系统</a></li></ul></li></ul></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. Linux">1. Linux <a href="#t01. Linux"> # </a></h2>
+<ul>
+<li>Linux是一套免费使用和自由传播的类Unix操作系统</li>
+<li>在服务器端领域和嵌入式领域有非常广泛的应用</li>
+</ul>
+<h2 id="t12.版本">2.版本 <a href="#t12.版本"> # </a></h2>
+<p>分为内核版本和发型版本</p>
+<ul>
+<li><a href="https://www.kernel.org/">kernel</a></li>
+<li>各个厂商会制作自己的发行版本<ul>
+<li>redhat</li>
+<li>CentOS</li>
+<li>debian</li>
+<li>ubuntu</li>
+<li>fedora</li>
+</ul>
+</li>
+</ul>
+<h2 id="t23. Linux与Windows的不同">3. Linux与Windows的不同 <a href="#t23. Linux与Windows的不同"> # </a></h2>
+<ul>
+<li>Linux严格区分大小写</li>
+<li>Linux中所有的内容以文件形式保存，包括硬件、用户和文件。</li>
+<li>Linux不靠扩展名区分文件类型，是靠权限来区分，但是有一些约定的扩展名，是给管理员看的<ul>
+<li>压缩包 <code>.gz</code> <code>.bz2</code> <code>.tar.bz2</code> <code>.tgz</code></li>
+<li>二进制文件 <code>.rpm</code></li>
+<li>网页文件 <code>.html .php</code></li>
+<li>脚本文件 <code>.sh</code></li>
+<li>配置文件 <code>.conf</code></li>
+</ul>
+</li>
+<li>Windows下的程序不能直接在Linux中安装和运行</li>
+<li>Linux更多使用字符界面<ul>
+<li>占用的系统资源更少</li>
+<li>减少了出错和被攻击的可能性，会让系统更稳定</li>
+</ul>
+</li>
+</ul>
+<h2 id="t34. Linux安装">4. Linux安装 <a href="#t34. Linux安装"> # </a></h2>
+<h3 id="t44.1 什么是虚拟机">4.1 什么是虚拟机 <a href="#t44.1 什么是虚拟机"> # </a></h3>
+<ul>
+<li>是一个虚拟PC的软件</li>
+<li>可以在现有的操作系统上虚拟出一个新的硬件环境</li>
+<li>相当于模拟出一台新的个人电脑</li>
+<li>可以实现在一台机器上真正同时运行两个独立的操作系统</li>
+<li><a href="http://www.vmware.com">VMware</a> </li>
+<li><a href="VMware8">VMware8</a> </li>
+</ul>
+<h3 id="t54.2 虚拟机的主要特点">4.2 虚拟机的主要特点 <a href="#t54.2 虚拟机的主要特点"> # </a></h3>
+<ul>
+<li>不需要分区或重新开机就能在同一台PC上使用两种以上的操作系统</li>
+<li>本机系统可以与虚拟机系统网络通信</li>
+<li>可以设定并且随时修改虚拟机操作系统的硬件环境</li>
+<li>系统快照可以方便备份和回滚</li>
+</ul>
+<h2 id="t64.3 建议VMWare配置">4.3 建议VMWare配置 <a href="#t64.3 建议VMWare配置"> # </a></h2>
+<ul>
+<li>CPU 建议主频1GHz以上</li>
+<li>内存 建议2GB以上</li>
+<li>硬盘 建议分区空闲空间8GB以上</li>
+</ul>
+<h3 id="t74.4 虚拟机的安装">4.4 虚拟机的安装 <a href="#t74.4 虚拟机的安装"> # </a></h3>
+<ul>
+<li><a href="http://www.vmware.com">VMware8.0</a> </li>
+</ul>
+<h3 id="t84.5 虚拟机使用">4.5 虚拟机使用 <a href="#t84.5 虚拟机使用"> # </a></h3>
+<h4 id="t94.5.1 新建虚拟机">4.5.1 新建虚拟机 <a href="#t94.5.1 新建虚拟机"> # </a></h4>
+<ul>
+<li><ol>
+<li>Create a New Virtual Machine开始新建虚拟机向导</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>我以后再安装操作系统</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>Linux  CentOS 32位</li>
+</ol>
+</li>
+<li><ol start="4">
+<li>20G硬盘</li>
+</ol>
+</li>
+</ul>
+<h4 id="t104.5.2 硬件管理">4.5.2 硬件管理 <a href="#t104.5.2 硬件管理"> # </a></h4>
+<h4 id="t114.5.3 网络链接">4.5.3 网络链接 <a href="#t114.5.3 网络链接"> # </a></h4>
+<ul>
+<li>虚拟机网卡-查看网络属性<ul>
+<li>Vmware Virtual Ethernet Adapter For VMnet1</li>
+<li>Vmware Virtual Ethernet Adapter For VMnet8</li>
+</ul>
+</li>
+<li>网络连接<ul>
+<li>桥接 直接连接到物理网络，会占用一个局域网内的真实IP地址，优先选择桥接</li>
+<li>NAT 使用已共享的主机IP地址，可以上网，利用VMnet8网卡通信</li>
+<li>Host-Only 与主机共享一个私有网络，只能本机使用，利用VMnet1进行通信，不能上网，</li>
+</ul>
+</li>
+</ul>
+<h4 id="t124.5.4 使用快照">4.5.4 使用快照 <a href="#t124.5.4 使用快照"> # </a></h4>
+<ul>
+<li>可以使用快照</li>
+<li>在合适的时间恢复快照</li>
+</ul>
+<h4 id="t134.5.4 克隆">4.5.4 克隆 <a href="#t134.5.4 克隆"> # </a></h4>
+<p>从当前的虚拟机克隆出一个虚拟机</p>
+<ul>
+<li>可以克隆当前或者快照</li>
+<li>克隆方式可以选择链接克隆或者完整克隆</li>
+</ul>
+<h4 id="t144.5.5 分区">4.5.5 分区 <a href="#t144.5.5 分区"> # </a></h4>
+<p><img src="http://img.zhufengpeixun.cn/diskformat2.jpg" alt="diskformat2"></p>
+<ul>
+<li>磁盘分区是使用分区编辑器在磁盘上划分几个逻辑部分</li>
+<li>磁盘一旦划分成多个分区，不同类的目录与文件可以存储进不同的分区内</li>
+<li>分区表的长度只有64个字节，里面又分成四项，每项16个字节。所以，一个硬盘最多只能分四个一级分区，又叫做"主分区"</li>
+</ul>
+<h4 id="t154.5.6 扩展分区">4.5.6 扩展分区 <a href="#t154.5.6 扩展分区"> # </a></h4>
+<ul>
+<li>为了突破4个分区的限制，就取出一个分区作为扩展分区<ul>
+<li>扩展分区最多只能有1个</li>
+<li>主分区加扩展分区最多有4个</li>
+<li>不能写入数据，只能包含逻辑分区，逻辑分区最多是23个</li>
+</ul>
+</li>
+</ul>
+<h4 id="t164.5.7 格式化">4.5.7 格式化 <a href="#t164.5.7 格式化"> # </a></h4>
+<ul>
+<li>格式化是指根据用户选定的文件系统(如FAT16(2G),FAT32(4G)、NTFS、EXT2、EXT3、EXT4)对分区进行划分</li>
+<li>目的是为了更好的写入和读取数据</li>
+<li>主要是把整个分区切分成等大小的数据块，每个数据块是4KB，10K需要使用2个半的数据块。是存放文件的最小空间。</li>
+<li>在分区中划出一片用于存放文件分配表，目录表等用户文件管理的磁盘空间。<ul>
+<li>ID</li>
+<li>修改时间</li>
+<li>权限</li>
+<li>数据块位置</li>
+</ul>
+</li>
+<li>格式化会清空数据</li>
+</ul>
+<h4 id="t174.5.8 给分区分配盘符">4.5.8 给分区分配盘符 <a href="#t174.5.8 给分区分配盘符"> # </a></h4>
+<ul>
+<li>分区</li>
+<li>格式化</li>
+<li>给分区分配设备文件名</li>
+<li>分配盘符</li>
+</ul>
+<h4 id="t184.5.9 硬件设备文件名">4.5.9 硬件设备文件名 <a href="#t184.5.9 硬件设备文件名"> # </a></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">硬件</th>
+<th style="text-align:left">设备文件名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">IDE硬盘</td>
+<td style="text-align:left">/dev/hd[a-d]</td>
+</tr>
+<tr>
+<td style="text-align:left">SCSI/SATA/USB硬盘</td>
+<td style="text-align:left">/dev/sd[a-p]</td>
+</tr>
+<tr>
+<td style="text-align:left">光驱</td>
+<td style="text-align:left">/dev/cdrom或/dev/hdc</td>
+</tr>
+<tr>
+<td style="text-align:left">软盘</td>
+<td style="text-align:left">/dev/fd[0-1]</td>
+</tr>
+<tr>
+<td style="text-align:left">打印机(25针)</td>
+<td style="text-align:left">/dev/lp[0-2]</td>
+</tr>
+<tr>
+<td style="text-align:left">打印机(USB)</td>
+<td style="text-align:left">/dev/usb/lp[0-15]</td>
+</tr>
+<tr>
+<td style="text-align:left">鼠标</td>
+<td style="text-align:left">/dev/mouse</td>
+</tr>
+</tbody>
+</table>
+<h4 id="t194.5.10 分区设备文件名">4.5.10 分区设备文件名 <a href="#t194.5.10 分区设备文件名"> # </a></h4>
+<ul>
+<li>设备文件名只要插入硬盘，Linux会自动检测和分配</li>
+<li>1-4一定给主分区和扩展分区使用</li>
+<li>逻辑分区一定从5开始</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">硬件</th>
+<th style="text-align:left">设备文件名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">/dev/hda1</td>
+<td style="text-align:left">IDE硬盘接口(133M/秒)</td>
+</tr>
+<tr>
+<td style="text-align:left">/dev/sda1</td>
+<td style="text-align:left">SCSI硬盘接口(200M/秒)、SATA硬盘接口(500M/秒)</td>
+</tr>
+</tbody>
+</table>
+<h5 id="t204.5.10.1 IDE硬盘接口">4.5.10.1 IDE硬盘接口 <a href="#t204.5.10.1 IDE硬盘接口"> # </a></h5>
+<p><img src="http://img.zhufengpeixun.cn/idedisk.jpg" alt="idedisk"></p>
+<h5 id="t214.5.10.2 SCSI硬盘接口">4.5.10.2 SCSI硬盘接口 <a href="#t214.5.10.2 SCSI硬盘接口"> # </a></h5>
+<p><img src="http://img.zhufengpeixun.cn/SCSIdisk.jpg" alt="SCSIdisk"></p>
+<h5 id="t224.5.10.3 SATA硬盘接口">4.5.10.3 SATA硬盘接口 <a href="#t224.5.10.3 SATA硬盘接口"> # </a></h5>
+<p><img src="http://img.zhufengpeixun.cn/satadisk.jpeg" alt="satadisk"></p>
+<h4 id="t234.5.10 挂载点">4.5.10 挂载点 <a href="#t234.5.10 挂载点"> # </a></h4>
+<ul>
+<li>在Linux中是以目录作为盘符，称为挂载点</li>
+<li>把盘符(目录)和分区链接在一起的过程成为挂载</li>
+<li>/为根目录，必须挂载到一个分区上，默认所有子目录都会写入这个分区</li>
+<li>同一级目录下面的所有子目录可以有自己的独立存储空间</li>
+<li>必须有的分区<ul>
+<li>/ 根分区</li>
+<li>swap分区(交换分区，虚拟内存，一般为内存的2倍，不要超过2G)</li>
+</ul>
+</li>
+<li>推荐分区<ul>
+<li>/boot (启动分区,200M) 单独分区，避免分区写满造成系统无法启动</li>
+</ul>
+</li>
+</ul>
+<p><img src="http://img.zhufengpeixun.cn/mount.jpg" alt="mount"></p>
+<h3 id="t244.6 linux系统安装">4.6 linux系统安装 <a href="#t244.6 linux系统安装"> # </a></h3>
+<ul>
+<li>选择操作系统</li>
+<li>选择光驱启动</li>
+</ul>
+<p><img src="http://img.zhufengpeixun.cn/centostype.png" alt="centostype"></p>
+<p><img src="http://img.zhufengpeixun.cn/manuldisk.png" alt="manuldisk"></p>
+<p><img src="http://img.zhufengpeixun.cn/dividedisk.png" alt="dividedisk"></p>
+<p><img src="http://img.zhufengpeixun.cn/storewarning.png" alt="storewarning"></p>
+<p><img src="http://img.zhufengpeixun.cn/network1.png" alt="network1"></p>
+<p><img src="http://img.zhufengpeixun.cn/network2.png" alt="network2"></p>
+<p><img src="http://img.zhufengpeixun.cn/network3.png" alt="network3"></p>
+<h4 id="t254.6.1 安装类型">4.6.1 安装类型 <a href="#t254.6.1 安装类型"> # </a></h4>
+<ul>
+<li><code>Install or upgrade an existing system</code> 安装或者升级现有系统</li>
+<li><code>Install system with basic video driver</code> 安装过程采用基本的显卡驱动</li>
+<li><code>Rescue installed system</code> 进入系统修复模式</li>
+<li><code>Boot from local drive</code> 退出安装从硬盘启动</li>
+<li><code>Memory test</code> 存储介质检测</li>
+</ul>
+<h4 id="t264.6.2 密码">4.6.2 密码 <a href="#t264.6.2 密码"> # </a></h4>
+<ul>
+<li>复杂性<ul>
+<li>八位字符以上、大小写字母、数字、符号</li>
+<li>不能是英文单词</li>
+<li>不能是和用户相关的内容</li>
+</ul>
+</li>
+<li>易记忆性</li>
+<li>实效性</li>
+</ul>
+<h4 id="t274.6.3 安装类型">4.6.3 安装类型 <a href="#t274.6.3 安装类型"> # </a></h4>
+<ul>
+<li>Desktop (桌面)</li>
+<li>Minimal Desktop (最小化桌面)</li>
+<li>Minimal (最小化)</li>
+<li><code>Basic Server</code> (基本服务器,推荐)</li>
+<li>Database Server (数据库服务器)</li>
+<li>Web Server (网页服务器)</li>
+<li>Virutal Host (虚拟主机)</li>
+<li>software development workstation(软件开发工作站)</li>
+</ul>
+<h4 id="t284.6.4 安装日志">4.6.4 安装日志 <a href="#t284.6.4 安装日志"> # </a></h4>
+<ul>
+<li>/root/install.log 存储了安装在系统中的软件包及其版本信息</li>
+<li>/root/install.log.syslog 存储了安装过程中留下的事件记录</li>
+<li>/root/anaconda-ks.cfg 记录了安装过程中设置的选项信息，可以做为安装的模版文件</li>
+</ul>
+<h4 id="t294.6.5 配置IP地址">4.6.5 配置IP地址 <a href="#t294.6.5 配置IP地址"> # </a></h4>
+<h5 id="t304.6.5.1 setup">4.6.5.1 setup <a href="#t304.6.5.1 setup"> # </a></h5>
+<ul>
+<li>防火墙配置</li>
+<li>网络配置</li>
+<li>系统服务</li>
+<li>验证配置</li>
+</ul>
+<h5 id="t314.6.5.2 ifcfg-eth0">4.6.5.2 ifcfg-eth0 <a href="#t314.6.5.2 ifcfg-eth0"> # </a></h5>
+<p>cat /etc/sysconfig/network-scripts/ifcfg-eth0</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">TYPE=Ethernet</td>
+<td style="text-align:left">#网卡类型</td>
+</tr>
+<tr>
+<td style="text-align:left">DEVICE=eth0</td>
+<td style="text-align:left">#网卡接口名称</td>
+</tr>
+<tr>
+<td style="text-align:left">ONBOOT=yes</td>
+<td style="text-align:left">#系统启动时是否自动加载</td>
+</tr>
+<tr>
+<td style="text-align:left">BOOTPROTO=static</td>
+<td style="text-align:left">#启用地址协议 --static:静态协议 --bootp协议 --dhcp协议</td>
+</tr>
+<tr>
+<td style="text-align:left">IPADDR=192.168.1.11</td>
+<td style="text-align:left">#网卡IP地址</td>
+</tr>
+<tr>
+<td style="text-align:left">NETMASK=255.255.255.0</td>
+<td style="text-align:left">#网卡网络地址</td>
+</tr>
+<tr>
+<td style="text-align:left">GATEWAY=192.168.1.1</td>
+<td style="text-align:left">#网卡网关地址</td>
+</tr>
+<tr>
+<td style="text-align:left">DNS1=10.203.104.41</td>
+<td style="text-align:left">#网卡DNS地址</td>
+</tr>
+<tr>
+<td style="text-align:left">HWADDR=00:0C:29:13:5D:74</td>
+<td style="text-align:left">#网卡设备MAC地址</td>
+</tr>
+<tr>
+<td style="text-align:left">BROADCAST=192.168.1.255</td>
+<td style="text-align:left">#网卡广播地址</td>
+</tr>
+</tbody>
+</table>
+<h5 id="t324.6.5.2 网卡接口关闭与激活">4.6.5.2 网卡接口关闭与激活 <a href="#t324.6.5.2 网卡接口关闭与激活"> # </a></h5>
+<pre><code class="lang-js">ifdown eth0 #关闭网络
+ifup eth0 #启动网络
+</code></pre>
+<h5 id="t334.6.5.3 网络服务启动与关闭">4.6.5.3 网络服务启动与关闭 <a href="#t334.6.5.3 网络服务启动与关闭"> # </a></h5>
+<pre><code class="lang-js">service network restart #重启网络服务
+</code></pre>
+<h2 id="t345.linux常用命令">5.linux常用命令 <a href="#t345.linux常用命令"> # </a></h2>
+<h3 id="t355.1 常见目录">5.1 常见目录 <a href="#t355.1 常见目录"> # </a></h3>
+<ul>
+<li>/ 根目录</li>
+<li>/boot 启动目录，启动相关文件</li>
+<li>/dev 设备文件</li>
+<li>/etc 配置文件</li>
+<li>/home 普通用户的家目录,可以操作</li>
+<li>/lib 系统库保存目录</li>
+<li>/mnt 移动设备挂载目录</li>
+<li>/media 光盘挂载目录</li>
+<li>/misc 磁带机挂载目录</li>
+<li>/root 超级用户的家目录,可以操作</li>
+<li>/tmp 临时目录,可以操作</li>
+<li>/proc 不能直接操作，保存的是内存的挂载点</li>
+<li>/sys 不能直接操作，保存的是内存的挂载点</li>
+<li>/var 变量</li>
+<li>/bin 普通命令</li>
+<li>/sbin 命令保存目录，级用户才可以执行的命令</li>
+<li>/usr/bin 系统软件资源目录  面向普通用户的系统命令</li>
+<li>/usr/sbin 系统软件资源目录 面向超级用户的系统命令</li>
+</ul>
+<h3 id="t365.2 命令基本格式">5.2 命令基本格式 <a href="#t365.2 命令基本格式"> # </a></h3>
+<h4 id="t375.2.1 命令提示符">5.2.1 命令提示符 <a href="#t375.2.1 命令提示符"> # </a></h4>
+<pre><code class="lang-sh">[root@zhangrenyang ~]<span class="hljs-comment">#</span>
+</code></pre>
+<ul>
+<li>root 当前登录用户</li>
+<li>localhost 主机名</li>
+<li>~ 当前工作目录,默认是当前用户的家目录，root就是/root,普通用户是 /home/用户名</li>
+<li>提示符 超级用户是 #,普通用户是$</li>
+</ul>
+<h4 id="t385.2.2 命令格式">5.2.2 命令格式 <a href="#t385.2.2 命令格式"> # </a></h4>
+<ul>
+<li>命令 [选项] [参数]</li>
+<li>当有多个选项时，可以写在一起</li>
+<li>一般参数有简化和完整写法两种   <code>-a</code> 与 <code>--all</code>等效</li>
+</ul>
+<h4 id="t395.2.3 ls">5.2.3 ls <a href="#t395.2.3 ls"> # </a></h4>
+<ul>
+<li>查询目录中的内容</li>
+<li>ls [选项] [文件或者目录]</li>
+<li>选项<ul>
+<li>-a 显示所有文件，包括隐藏文件</li>
+<li>-l 显示详细信息</li>
+<li>-d 查看目录本身的属性而非子文件 ls /etc/</li>
+<li>-h 人性化的方式显示文件大小</li>
+<li>-i 显示inode,也就是i节点，每个节点都有ID号</li>
+</ul>
+</li>
+<li>默认当前目录下的文件列表</li>
+</ul>
+<h5 id="t405.2.3.1 -l">5.2.3.1 -l <a href="#t405.2.3.1 -l"> # </a></h5>
+<p>显示详细信息</p>
+<pre><code class="lang-sh">drwxr-xr-x .  1 root  root   800 Sep 16 00:19 logs
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">drwxr-xr-x</th>
+<th style="text-align:left">.</th>
+<th style="text-align:left">1</th>
+<th style="text-align:left">root</th>
+<th style="text-align:left">root</th>
+<th style="text-align:left">800</th>
+<th style="text-align:left">Sep 16 00:19</th>
+<th style="text-align:left">logs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">文件类型和权限</td>
+<td style="text-align:left">ACL权限</td>
+<td style="text-align:left">硬链接引用计数</td>
+<td style="text-align:left">所有者</td>
+<td style="text-align:left">所属组</td>
+<td style="text-align:left">文件大小</td>
+<td style="text-align:left">最后修改时间</td>
+<td style="text-align:left">文件名</td>
+</tr>
+</tbody>
+</table>
+<h5 id="t415.2.3.2 文件类型和权限">5.2.3.2 文件类型和权限 <a href="#t415.2.3.2 文件类型和权限"> # </a></h5>
+<pre><code class="lang-sh">-rw-r--r--
+</code></pre>
+<ul>
+<li>文件类型  - 文件、d 目录、l 软链接文件</li>
+<li>u(所有者)、g(所属组)、o(其他人)</li>
+<li>r(read) 读取、w(write) 写入、x(execute) 执行</li>
+</ul>
+<h3 id="t425.3 文件处理命令">5.3 文件处理命令 <a href="#t425.3 文件处理命令"> # </a></h3>
+<h4 id="t435.3.1 mkdir">5.3.1 mkdir <a href="#t435.3.1 mkdir"> # </a></h4>
+<ul>
+<li>建立目录 make directory</li>
+<li>mkdir -p [目录名]<ul>
+<li>-p 递归创建</li>
+</ul>
+</li>
+</ul>
+<h4 id="t445.3.2 cd">5.3.2 cd <a href="#t445.3.2 cd"> # </a></h4>
+<ul>
+<li>切换所在目录 change directory</li>
+<li>cd [目录]<ul>
+<li>~ 家目录</li>
+<li>家目录</li>
+<li><ul>
+<li>上次目录</li>
+</ul>
+</li>
+<li>. 当前目录</li>
+<li>.. 上级目录</li>
+</ul>
+</li>
+<li>相对路径是参照当前所在目录</li>
+<li>绝对路径是从根目录开始</li>
+<li>按TAB键可以补全命令和目录</li>
+</ul>
+<h4 id="t455.3.3 pwd">5.3.3 pwd <a href="#t455.3.3 pwd"> # </a></h4>
+<ul>
+<li>显示当前目录 pwd</li>
+</ul>
+<h4 id="t465.3.4 rmdir">5.3.4 rmdir <a href="#t465.3.4 rmdir"> # </a></h4>
+<ul>
+<li>删除目录 remove empty  directory</li>
+<li>rmdir [目录名]</li>
+</ul>
+<h4 id="t475.3.5 rm">5.3.5 rm <a href="#t475.3.5 rm"> # </a></h4>
+<ul>
+<li>删除文件或者目录 remove</li>
+<li>rm [文件或者目录]<ul>
+<li>-r 删除目录</li>
+<li>-f 强制删除</li>
+</ul>
+</li>
+<li>rm -rf 文件或者目录] 递归强制删除所有目录</li>
+</ul>
+<h4 id="t485.3.6 cp">5.3.6 cp <a href="#t485.3.6 cp"> # </a></h4>
+<ul>
+<li>copy 复制命令</li>
+<li>copy [源文件或者目录] [目标文件]<ul>
+<li>-r 复制目录,默认是复制文件</li>
+<li>-p 连带文件属性复制</li>
+<li>-d 若源文件是链接文件，则复制连接属性</li>
+<li>-a 相当于 -rpd</li>
+</ul>
+</li>
+</ul>
+<h4 id="t495.3.7 mv">5.3.7 mv <a href="#t495.3.7 mv"> # </a></h4>
+<ul>
+<li>移动文件或者改名 move</li>
+<li>mv [源文件或者目录] [目标文件]</li>
+</ul>
+<h4 id="t505.3.8 ln">5.3.8 ln <a href="#t505.3.8 ln"> # </a></h4>
+<ul>
+<li>链接命令,生成链接文件 <code>link</code></li>
+</ul>
+<h5 id="t515.3.8.1  硬链接特征">5.3.8.1  硬链接特征 <a href="#t515.3.8.1  硬链接特征"> # </a></h5>
+<ul>
+<li>拥有相同的i节点和存储block块，可以看作是同一个文件</li>
+<li>可以通过i节点访问</li>
+<li>不能跨分区</li>
+<li>不能针对目录使用</li>
+<li>一般不使用</li>
+</ul>
+<h5 id="t525.3.8.2  软链接特征">5.3.8.2  软链接特征 <a href="#t525.3.8.2  软链接特征"> # </a></h5>
+<ul>
+<li>ln -s [源文件] [目标文件] <ul>
+<li>-s 创建软链接</li>
+</ul>
+</li>
+<li>类似Windows快捷方式</li>
+<li>软链接拥有自己的i节点和Block块，但是数据块中只保存源文件的文件名和i节点号，并没有实际的文件数据</li>
+<li>lrwxrwxrwx l 软链接  软链接的文件权限都是 777</li>
+<li>修改任意一个文件，另一个都会改变</li>
+<li>删除源文件，软链接不能使用</li>
+<li>软链接源文件必须写绝对路径</li>
+</ul>
+<h3 id="t535.4 文件搜索命令">5.4 文件搜索命令 <a href="#t535.4 文件搜索命令"> # </a></h3>
+<h4 id="t545.4.1 locate">5.4.1 locate <a href="#t545.4.1 locate"> # </a></h4>
+<ul>
+<li>在后台数据库中按文件名搜索，速度比较快</li>
+<li>数据保存在<code>/var/lib/mlocate</code>后台数据库，每天更新一次</li>
+<li>可以<code>updatedb</code>命令立刻更新数据库</li>
+<li>只能搜索文件名</li>
+<li><code>/etc/updatedb.conf</code> 建立索引的配置文件<ul>
+<li>PRUNE_BIND_MOUNTS = "yes" 全部生效，开启搜索限制</li>
+<li>PRUNEFS 不搜索的文件系统</li>
+<li>PRUNENAMES 忽略的文件类型</li>
+<li>PRUNEPATHS 忽略的路径 /tmp</li>
+</ul>
+</li>
+</ul>
+<h4 id="t555.4.2 whereis">5.4.2 whereis <a href="#t555.4.2 whereis"> # </a></h4>
+<ul>
+<li>搜索命令所在路径以及帮助文档所在位置</li>
+<li>whereis 命令名 <code>whereis ls</code><ul>
+<li>-b 只查找可执行文件</li>
+<li>-m 只查找帮助文件</li>
+</ul>
+</li>
+</ul>
+<h4 id="t565.4.3 which">5.4.3 which <a href="#t565.4.3 which"> # </a></h4>
+<ul>
+<li>可以看到别名 <code>which ls</code></li>
+<li>能看到的都是外部安装的命令</li>
+<li>无法查看Shell自带的命令，如 <code>which cd</code></li>
+</ul>
+<h4 id="t575.4.4 环境变量">5.4.4 环境变量 <a href="#t575.4.4 环境变量"> # </a></h4>
+<p><code>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</code></p>
+<ul>
+<li>定义的是系统搜索命令的路径</li>
+<li>echo $PATH</li>
+</ul>
+<h4 id="t585.4.5 find">5.4.5 find <a href="#t585.4.5 find"> # </a></h4>
+<ul>
+<li>文件搜索命令</li>
+<li>find [搜索范围] [搜索条件]</li>
+</ul>
+<h5 id="t595.4.5.1 按名称搜索">5.4.5.1 按名称搜索 <a href="#t595.4.5.1 按名称搜索"> # </a></h5>
+<ul>
+<li>避免大范围的搜索，会非常消耗系统资源<pre><code class="lang-sh">find / -name aaa.log
+</code></pre>
+</li>
+</ul>
+<h5 id="t605.4.5.2 通配符">5.4.5.2 通配符 <a href="#t605.4.5.2 通配符"> # </a></h5>
+<ul>
+<li>find是在系统当中搜索符合条件的文件名，如果需要匹配，使用通配符匹配，通配符是完全匹配</li>
+<li>通配符<ul>
+<li><code>*</code>  匹配任意内容</li>
+<li><code>?</code> 匹配任意一个字符</li>
+<li><code>[]</code> 匹配任意一个中括号内的字符</li>
+</ul>
+</li>
+</ul>
+<pre><code class="lang-sh">find . -name <span class="hljs-string">"ab[cdef]"</span>
+</code></pre>
+<h5 id="t615.4.5.3 -i">5.4.5.3 -i <a href="#t615.4.5.3 -i"> # </a></h5>
+<p>不区分大小写</p>
+<pre><code class="lang-sh">find / -iname A.log
+</code></pre>
+<h5 id="t625.4.5.4 -user">5.4.5.4 -user <a href="#t625.4.5.4 -user"> # </a></h5>
+<p>按所有者进行搜索</p>
+<pre><code class="lang-sh">find /root -user root
+find /root -nouser
+</code></pre>
+<h5 id="t635.4.5.5 按时间搜索">5.4.5.5 按时间搜索 <a href="#t635.4.5.5 按时间搜索"> # </a></h5>
+<pre><code class="lang-sh">find /nginx/access.log -mtime +5
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">atime</td>
+<td style="text-align:left">文件访问时间</td>
+</tr>
+<tr>
+<td style="text-align:left">ctime</td>
+<td style="text-align:left">改变文件属性</td>
+</tr>
+<tr>
+<td style="text-align:left">mtime</td>
+<td style="text-align:left">修改文件内容</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">-5</td>
+<td style="text-align:left">5天内修改的文件</td>
+</tr>
+<tr>
+<td style="text-align:left">5</td>
+<td style="text-align:left">5天前当前修改的文件</td>
+</tr>
+<tr>
+<td style="text-align:left">+5</td>
+<td style="text-align:left">5天前修改的文件</td>
+</tr>
+</tbody>
+</table>
+<h5 id="t645.4.5.6 按大小搜索">5.4.5.6 按大小搜索 <a href="#t645.4.5.6 按大小搜索"> # </a></h5>
+<ul>
+<li>k小写,M大写</li>
+</ul>
+<pre><code class="lang-sh">find . -size 100k
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">-8k</td>
+<td style="text-align:left">小于8K</td>
+</tr>
+<tr>
+<td style="text-align:left">8k</td>
+<td style="text-align:left">等于8K</td>
+</tr>
+<tr>
+<td style="text-align:left">+8k</td>
+<td style="text-align:left">大于8K</td>
+</tr>
+<tr>
+<td style="text-align:left">+8M</td>
+<td style="text-align:left">小于8M</td>
+</tr>
+</tbody>
+</table>
+<h5 id="t655.4.5.7 按i节点搜索">5.4.5.7 按i节点搜索 <a href="#t655.4.5.7 按i节点搜索"> # </a></h5>
+<pre><code class="lang-sh">find . -inum 123456
+</code></pre>
+<h5 id="t665.4.5.8 综合应用">5.4.5.8 综合应用 <a href="#t665.4.5.8 综合应用"> # </a></h5>
+<pre><code class="lang-sh">find /tmp -size +10k -a -size -20k
+</code></pre>
+<ul>
+<li>查找/etc目录下，大于10KB并且小于20KB的文件</li>
+<li>-a and 逻辑与，两个条件都满足</li>
+<li>-o or 逻辑或，两个条件满足一个就可以</li>
+</ul>
+<pre><code class="lang-sh">find /tmp -size +10k -a -size -20k -<span class="hljs-built_in">exec</span> ls -lh {} \;
+</code></pre>
+<ul>
+<li>exec  对上个命令的结果进行操作</li>
+</ul>
+<h5 id="t675.4.5.9 grep">5.4.5.9 grep <a href="#t675.4.5.9 grep"> # </a></h5>
+<ul>
+<li>在文件当中匹配符合条件的字符串</li>
+<li>grep "10"  access.log<ul>
+<li><code>-i</code> 忽略大小写 </li>
+<li><code>-v</code> 排除指定字符串</li>
+</ul>
+</li>
+<li>find命令，在系统当中搜索符合条件的文件名，如果需要匹配，使用通配符匹配，通配符是完全匹配</li>
+<li>grep命令 在文件当中搜索符合条件的字符串，如果需要匹配，使用正则表达式进行匹配，正则表达式时包含匹配</li>
+</ul>
+<h3 id="t685.5 帮助命令">5.5 帮助命令 <a href="#t685.5 帮助命令"> # </a></h3>
+<h4 id="t695.5.1 基本用法">5.5.1 基本用法 <a href="#t695.5.1 基本用法"> # </a></h4>
+<ul>
+<li>man 命令 获取指定命令的帮助</li>
+<li><code>man ls</code>  查看ls的帮助</li>
+</ul>
+<h4 id="t705.5.2 man的级别">5.5.2 man的级别 <a href="#t705.5.2 man的级别"> # </a></h4>
+<ul>
+<li>1 查看命令的帮助</li>
+<li>2 查看可被内核调用的函数的帮助</li>
+<li>3 查看函数和函数库的帮助</li>
+<li>4 查看特殊文件的帮助</li>
+<li>5 查看配置文件的帮助</li>
+<li>6 查看游戏的帮助</li>
+<li>7 查看其它的帮助</li>
+<li>8 查看系统管理员可用命令的帮助</li>
+<li>9 查看和内核相关文件的帮助</li>
+</ul>
+<h4 id="t715.5.3 查看命令级别">5.5.3 查看命令级别 <a href="#t715.5.3 查看命令级别"> # </a></h4>
+<ul>
+<li>查看命令级别</li>
+<li>1p: POSIX utilities</li>
+<li>POSIX表示可移植操作系统接口（Portable Operating System Interface of UNIX，缩写为 POSIX ），POSIX标准定义了操作系统应该为应用程序提供的接口标准.</li>
+</ul>
+<pre><code class="lang-js">man -f ls
+whatis ls
+man <span class="hljs-number">1</span> ls
+man <span class="hljs-number">1</span>p ls
+</code></pre>
+<h4 id="t725.5.4 关键字搜索">5.5.4 关键字搜索 <a href="#t725.5.4 关键字搜索"> # </a></h4>
+<pre><code class="lang-js">- man -k passwd
+</code></pre>
+<h4 id="t735.5.5 shell 内部帮助">5.5.5 shell 内部帮助 <a href="#t735.5.5 shell 内部帮助"> # </a></h4>
+<ul>
+<li><code>whereis</code>找到就是外部，找不到就是内部<pre><code class="lang-sh"><span class="hljs-built_in">help</span> <span class="hljs-built_in">cd</span>
+</code></pre>
+</li>
+</ul>
+<h3 id="t745.6 压缩与解压缩命令">5.6 压缩与解压缩命令 <a href="#t745.6 压缩与解压缩命令"> # </a></h3>
+<p><code>.zip</code> <code>.gz</code> <code>.bz2</code>  <code>.tar.gz</code> <code>.tar.bz2</code></p>
+<h4 id="t755.6.1 zip格式">5.6.1 zip格式 <a href="#t755.6.1 zip格式"> # </a></h4>
+<ul>
+<li>压缩文件  zip 压缩文件名 源文件</li>
+<li>压缩目录  zip -r 压缩文件名 源目录</li>
+<li>解压      unzip 压缩文件名<pre><code class="lang-js">mkdir book
+touch book/<span class="hljs-number">1.</span>txt
+touch book/<span class="hljs-number">2.</span>txt
+zip -r book.zip book
+unzip book.zip
+</code></pre>
+</li>
+</ul>
+<h4 id="t765.6.2 gzip">5.6.2 gzip <a href="#t765.6.2 gzip"> # </a></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">命令</th>
+<th style="text-align:left">示例</th>
+<th style="text-align:left">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">gzip 源文件</td>
+<td style="text-align:left">gzip a.txt</td>
+<td style="text-align:left">压缩为.gz格式的压缩文件，源文件会消失</td>
+</tr>
+<tr>
+<td style="text-align:left">gzip -c 源文件 &gt; 压缩文件</td>
+<td style="text-align:left">gzip -c yum.txt &gt; yum.txt.gz</td>
+<td style="text-align:left">压缩为.gz格式的压缩文件，源文件不会消失</td>
+</tr>
+<tr>
+<td style="text-align:left">gzip -r 目录</td>
+<td style="text-align:left">gzip -r xx</td>
+<td style="text-align:left">压缩目录下的所有子文件，但是不压缩目录</td>
+</tr>
+<tr>
+<td style="text-align:left">gzip -d  压缩文件名</td>
+<td style="text-align:left">gzip -d  yum.txt.gz</td>
+<td style="text-align:left">解压缩文件,不保留压缩包</td>
+</tr>
+<tr>
+<td style="text-align:left">gunzip 压缩文件</td>
+<td style="text-align:left">gunzip  yum.txt.gz</td>
+<td style="text-align:left">解压缩文件,不保留压缩包</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>压缩是压缩目录下的文件</li>
+</ul>
+<h4 id="t775.6.3 .bz2格式压缩">5.6.3 .bz2格式压缩 <a href="#t775.6.3 .bz2格式压缩"> # </a></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">命令</th>
+<th style="text-align:left">示例</th>
+<th style="text-align:left">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">bzip2 源文件</td>
+<td style="text-align:left">bzip2 1.txt</td>
+<td style="text-align:left">压缩为.bz2格式的文件，不保留源文件</td>
+</tr>
+<tr>
+<td style="text-align:left">bzip2 -k 源文件</td>
+<td style="text-align:left">zip2 -k 1.txt</td>
+<td style="text-align:left">压缩为.bz2格式的文件，保留源文件</td>
+</tr>
+<tr>
+<td style="text-align:left">bzip2 -d 压缩文件名</td>
+<td style="text-align:left">bzip2 -d 1.txt.bz2</td>
+<td style="text-align:left">解压压缩包</td>
+</tr>
+<tr>
+<td style="text-align:left">bunzip2 压缩文件名</td>
+<td style="text-align:left">bunzip2 1.txt.bz2</td>
+<td style="text-align:left">解压压缩包</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>bzip2 不能压缩目录</li>
+</ul>
+<h4 id="t785.6.4 tar">5.6.4 tar <a href="#t785.6.4 tar"> # </a></h4>
+<ul>
+<li>打包命令</li>
+<li>tar -cvf 打包文件名 源文件<ul>
+<li>-c 打包</li>
+<li>-v 显示过程</li>
+<li>-f 指定打包后的文件名</li>
+</ul>
+</li>
+</ul>
+<pre><code class="lang-sh">tar -cvf book.tar book
+gzip book.tar
+bzip2 book.tar
+</code></pre>
+<ul>
+<li>x 解打包<pre><code class="lang-sh">tar -xvf book.tar
+</code></pre>
+</li>
+</ul>
+<h4 id="t795.6.4 tar.gz压缩格式">5.6.4 tar.gz压缩格式 <a href="#t795.6.4 tar.gz压缩格式"> # </a></h4>
+<p>可以先打包为<code>.tar</code>格式，再压缩为<code>.gz</code>格式
+  -z 压缩为.tar.gz格式
+  -x 解压缩.tar.gz格式
+|命令|示例|含义|
+|:----|:----|:----|
+|tar -zcvf 压缩包名 <code>.tar.gz</code>源文件|tar -zcvf book.gar.gz book|可以先打包为<code>.tar</code>格式，再压缩为<code>.gz</code>格式|
+|tar -zxvf 压缩包名.tar.gz|tar -zxvf book.tar.gz|解压tar.gz压缩包|
+|tar -jcvf 压缩包名 <code>.tar.bz2</code>源文件|tar -zcvf .tar.bz2 book|可以先打包为<code>.tar</code>格式，再压缩为<code>.bz2</code>格式|
+|tar -jxvf 压缩包名.tar.bz2|tar -zxvf book.tar.bz2|解压tar.bz2压缩包|</p>
+<h3 id="t805.7 关机和重启命令">5.7 关机和重启命令 <a href="#t805.7 关机和重启命令"> # </a></h3>
+<h4 id="t815.7.1 shutdown">5.7.1 shutdown <a href="#t815.7.1 shutdown"> # </a></h4>
+<p>shutdown 关机命令</p>
+<ul>
+<li>-c 取消前一个关机命令</li>
+<li>-h 关机</li>
+<li>-r 重启<pre><code class="lang-sh">shutdown -r 06:00
+shutdown -c
+</code></pre>
+</li>
+</ul>
+<h4 id="t825.7.2 init">5.7.2 init <a href="#t825.7.2 init"> # </a></h4>
+<p>关机</p>
+<pre><code class="lang-js">init <span class="hljs-number">0</span>
+</code></pre>
+<p>重启</p>
+<pre><code class="lang-js">init <span class="hljs-number">6</span>
+</code></pre>
+<p>系统的运行级别</p>
+<ul>
+<li>0 关机</li>
+<li>1 但用户</li>
+<li>2 不 完全多用户，不包含NFS服务</li>
+<li>3 完全多用户</li>
+<li>4 未分配</li>
+<li>5 图形界面</li>
+<li>6 重启</li>
+</ul>
+<h4 id="t835.7.3 logout">5.7.3 logout <a href="#t835.7.3 logout"> # </a></h4>
+<p>退出登录</p>
+<pre><code class="lang-sh"><span class="hljs-built_in">logout</span>
+</code></pre>
+<h3 id="t845.8 挂载">5.8 挂载 <a href="#t845.8 挂载"> # </a></h3>
+<h4 id="t855.8.1 挂载命令">5.8.1 挂载命令 <a href="#t855.8.1 挂载命令"> # </a></h4>
+<ul>
+<li>mount 查看系统中已经挂载的设备<pre><code class="lang-sh">mount 
+mount -a
+</code></pre>
+<h3 id="t865.8.2 挂载命令格式">5.8.2 挂载命令格式 <a href="#t865.8.2 挂载命令格式"> # </a></h3>
+</li>
+<li>mount [-t 文件系统] [-o 特殊选项] 设备文件名 挂载点</li>
+<li>选项<ul>
+<li>-t 文件系统 ext4 iso9660</li>
+<li>-o 特殊选项 </li>
+</ul>
+</li>
+</ul>
+<h4 id="t875.8.3 挂载光驱">5.8.3 挂载光驱 <a href="#t875.8.3 挂载光驱"> # </a></h4>
+<pre><code class="lang-sh">mkdir /mnt/<span class="hljs-built_in">cd</span>
+mount -t iso9660 /dev/sr0 /mnt/cdrom
+</code></pre>
+<h4 id="t885.8.4 卸载光驱">5.8.4 卸载光驱 <a href="#t885.8.4 卸载光驱"> # </a></h4>
+<pre><code class="lang-sh">umount /dev/sr0
+umount /mnt/cdrom
+</code></pre>
+<h4 id="t895.8.4 挂载U盘">5.8.4 挂载U盘 <a href="#t895.8.4 挂载U盘"> # </a></h4>
+<pre><code class="lang-sh">fdisk -l
+mount -t vfat /dev/sdb1 /mnt/usb
+</code></pre>
+<ul>
+<li>linux默认不支持NTFS格式</li>
+</ul>
+<h3 id="t905.9 查看登录用户信息">5.9 查看登录用户信息 <a href="#t905.9 查看登录用户信息"> # </a></h3>
+<h4 id="t915.9.1 w">5.9.1 w <a href="#t915.9.1 w"> # </a></h4>
+<p>查看登录用户信息</p>
+<ul>
+<li>USER 登录的用户名</li>
+<li>TTY 登录的终端 tty1 本地终端 pts/0远程终端</li>
+<li>FROM 登录的IP</li>
+<li>LOGIN  登录时间</li>
+<li>IDLE 用户闲置时间</li>
+<li>JCPU 该终端所有进程占用的时间</li>
+<li>PCPU 当前进程所占用的时间</li>
+<li>WHAT 正在执行的命令</li>
+</ul>
+<h4 id="t925.9.2 who">5.9.2 who <a href="#t925.9.2 who"> # </a></h4>
+<p>查看登录用户信息</p>
+<ul>
+<li>USER 登录的用户名</li>
+<li>TTY 登录的终端 tty1 本地终端 pts/0远程终端</li>
+<li>LOGIN  登录时间（登录的IP）</li>
+</ul>
+<h4 id="t935.9.3 last">5.9.3 last <a href="#t935.9.3 last"> # </a></h4>
+<p>查看当前登录和过去登录的用户信息
+默认读取 <code>/var/log/wtmp</code> 文件</p>
+<ul>
+<li>用户名</li>
+<li>登录终端</li>
+<li>登录IP</li>
+<li>登录时间</li>
+<li>退出时间(在线时间)</li>
+</ul>
+<h4 id="t945.9.4 lastlog">5.9.4 lastlog <a href="#t945.9.4 lastlog"> # </a></h4>
+<p>查看所有用户的最后一次登录时间</p>
+<ul>
+<li>用户名</li>
+<li>登录终端</li>
+<li>登录IP</li>
+<li>最后一次登录时间</li>
+</ul>
+<h2 id="t956. shell">6. shell <a href="#t956. shell"> # </a></h2>
+<ul>
+<li>shell是一个命令行解释器，它为用户提供了一个向Linux内核发送请求以便运行程序的界面系统级程序</li>
+<li>用户可以用Shell来启动、挂起、停止或者编写一些程序</li>
+<li>Shell还是一个功能相当强大的编程语言，易编写，易调试，灵活性较强。</li>
+<li>Shell是解释执行的脚本语言，在Shell中可以直接调用Linux系统命令。</li>
+</ul>
+<h3 id="t966.1 查看支持的shell">6.1 查看支持的shell <a href="#t966.1 查看支持的shell"> # </a></h3>
+<ul>
+<li>/etc/shells</li>
+</ul>
+<h3 id="t976.2 echo">6.2 echo <a href="#t976.2 echo"> # </a></h3>
+<ul>
+<li>输出命令</li>
+<li>--e 支持反斜线控制的字符转换</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">控制字符</th>
+<th style="text-align:left">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">\a</td>
+<td style="text-align:left">输出警告音</td>
+</tr>
+<tr>
+<td style="text-align:left">\b</td>
+<td style="text-align:left">退格键，也就是向左删除键</td>
+</tr>
+<tr>
+<td style="text-align:left">\n</td>
+<td style="text-align:left">换行符</td>
+</tr>
+<tr>
+<td style="text-align:left">\r</td>
+<td style="text-align:left">回车键</td>
+</tr>
+<tr>
+<td style="text-align:left">\t</td>
+<td style="text-align:left">制表符，也就是Tab键</td>
+</tr>
+<tr>
+<td style="text-align:left">\v</td>
+<td style="text-align:left">垂直制表符</td>
+</tr>
+<tr>
+<td style="text-align:left">\onnn</td>
+<td style="text-align:left">按照八进制ASCII码表输出字符，其中0为数字零，nnn是三位八进制数</td>
+</tr>
+<tr>
+<td style="text-align:left">\xhh</td>
+<td style="text-align:left">按照十六进制ASCII码表输出字符，其中hh是两位十六进制数</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>30m-47m</li>
+<li>echo -e "\e[1;31m warning \e[0m"</li>
+</ul>
+<p>|符号|颜色|
+|#30m|黑色|
+|#31|红色|
+|#32|绿色|
+|#33|黄色|
+|##34|蓝色|
+|##35|洋红|
+|##36|青涩|
+|##37|白色|</p>
+<h3 id="t986.3 编写执行shell">6.3 编写执行shell <a href="#t986.3 编写执行shell"> # </a></h3>
+<pre><code class="lang-sh"><span class="hljs-meta">#!/bin/bash</span>
+<span class="hljs-built_in">echo</span> -e <span class="hljs-string">"\e[1;34m hello world \e[0m"</span>
+</code></pre>
+<p>赋予执行权限，直接运行</p>
+<pre><code class="lang-sh">chmod 755 hello.sh
+./hello.sh
+</code></pre>
+<p>通过Bash调用执行脚本</p>
+<pre><code class="lang-sh">bash hello.sh
+</code></pre>
+<h3 id="t996.4 别名">6.4 别名 <a href="#t996.4 别名"> # </a></h3>
+<ul>
+<li>命令别名 == 小名</li>
+<li>临时生效</li>
+<li>alias</li>
+<li>alias rm="rm -i"</li>
+<li>写入环境变量配置文件 vi ~/.bashrc </li>
+<li>source ~/.bashrc</li>
+<li>unalias 别名 删除别名</li>
+</ul>
+<h3 id="t1006.5 命令的生效顺序">6.5 命令的生效顺序 <a href="#t1006.5 命令的生效顺序"> # </a></h3>
+<ul>
+<li>绝对路径或者相对路径</li>
+<li>别名</li>
+<li>bash内部命令</li>
+<li>按照$PATH环境变量定义的目录查找顺序找到的第一个命令</li>
+</ul>
+<h3 id="t1016.6 命令快捷键">6.6 命令快捷键 <a href="#t1016.6 命令快捷键"> # </a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">命令</th>
+<th style="text-align:left">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">ctrl+c</td>
+<td style="text-align:left">强制终止当前命令</td>
+</tr>
+<tr>
+<td style="text-align:left">ctrl+l</td>
+<td style="text-align:left">清屏</td>
+</tr>
+<tr>
+<td style="text-align:left">ctrl+a</td>
+<td style="text-align:left">光标移动到命令行首</td>
+</tr>
+<tr>
+<td style="text-align:left">ctrl+e</td>
+<td style="text-align:left">光标移动到命令行尾</td>
+</tr>
+<tr>
+<td style="text-align:left">ctrl+u</td>
+<td style="text-align:left">从光标所在的位置删除到行首</td>
+</tr>
+<tr>
+<td style="text-align:left">ctrl+z</td>
+<td style="text-align:left">把命令放入后台</td>
+</tr>
+<tr>
+<td style="text-align:left">ctrl+r</td>
+<td style="text-align:left">在历史命令中搜索</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t1026.7 历史命令">6.7 历史命令 <a href="#t1026.7 历史命令"> # </a></h3>
+<ul>
+<li>history [选项] [历史命令保存文件]</li>
+<li>选项<ul>
+<li>-c 清空历史命令</li>
+<li>-w 把缓存中的历史命令写入历史命令保存文件 ~/.bash_history</li>
+</ul>
+</li>
+<li>默认保存1000条   /etc/profile HISSIZE=10000</li>
+</ul>
+<h3 id="t1036.8 调用">6.8 调用 <a href="#t1036.8 调用"> # </a></h3>
+<ul>
+<li>使用上下箭头调用以前的历史命令</li>
+<li>使用 !n 重复执行第n条历史命令</li>
+<li>使用 !! 重复执行上一条命令</li>
+<li>使用  !字符  重复执行最后一条以该字符串开头的命令</li>
+</ul>
+<h3 id="t1046.9 输出重定向">6.9 输出重定向 <a href="#t1046.9 输出重定向"> # </a></h3>
+<h4 id="t1056.9.1 标准输入输出">6.9.1 标准输入输出 <a href="#t1056.9.1 标准输入输出"> # </a></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">设备</th>
+<th style="text-align:left">设备文件名</th>
+<th style="text-align:left">文件描述符</th>
+<th style="text-align:left">类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">键盘</td>
+<td style="text-align:left">/dev/stdin</td>
+<td style="text-align:left">0</td>
+<td style="text-align:left">标准输入</td>
+</tr>
+<tr>
+<td style="text-align:left">显示器</td>
+<td style="text-align:left">/dev/stdout</td>
+<td style="text-align:left">1</td>
+<td style="text-align:left">标准输出</td>
+</tr>
+<tr>
+<td style="text-align:left">显示器</td>
+<td style="text-align:left">/dev/stderr</td>
+<td style="text-align:left">2</td>
+<td style="text-align:left">标准错误输出</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">类型</th>
+<th style="text-align:left">符号</th>
+<th style="text-align:left">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">标准输出重定向</td>
+<td style="text-align:left">命令 &gt; 文件</td>
+<td style="text-align:left">以覆盖的方式，把命令的正确输出输出到指定的文件或设备当中</td>
+</tr>
+<tr>
+<td style="text-align:left">标准输出重定向</td>
+<td style="text-align:left">命令 &gt;&gt; 文件</td>
+<td style="text-align:left">以追加的方式，把命令的正确输出输出到指定的文件或设备当中</td>
+</tr>
+<tr>
+<td style="text-align:left">错误输出重定向</td>
+<td style="text-align:left">命令&gt;文件</td>
+<td style="text-align:left">以覆盖的方式，把命令的错误输出输出到指定的文件或设备当中</td>
+</tr>
+<tr>
+<td style="text-align:left">错误输出重定向</td>
+<td style="text-align:left">命令&gt;&gt;文件</td>
+<td style="text-align:left">以追加的方式，把命令的错误输出输出到指定的文件或设备当中</td>
+</tr>
+<tr>
+<td style="text-align:left">正确输出和错误输出同时保存</td>
+<td style="text-align:left">命令&gt;文件 2&gt;&amp;1</td>
+<td style="text-align:left">以覆盖的方式，把正确输出和错误输出都保存到同一个文件当中</td>
+</tr>
+<tr>
+<td style="text-align:left">正确输出和错误输出同时保存</td>
+<td style="text-align:left">命令&gt;文件 2&gt;&gt;&amp;1</td>
+<td style="text-align:left">以追加的方式，把正确输出和错误输出都保存到同一个文件当中</td>
+</tr>
+<tr>
+<td style="text-align:left">正确输出和错误输出同时保存</td>
+<td style="text-align:left">命令&amp;&gt;文件</td>
+<td style="text-align:left">以覆盖的方式，把正确输出和错误输出都保存到同一个文件当中</td>
+</tr>
+<tr>
+<td style="text-align:left">正确输出和错误输出同时保存</td>
+<td style="text-align:left">命令&amp;&gt;&gt;文件</td>
+<td style="text-align:left">以追加的方式，把正确输出和错误输出都保存到同一个文件当中</td>
+</tr>
+<tr>
+<td style="text-align:left">正确输出和错误输出同时保存</td>
+<td style="text-align:left">命令&gt;&gt;文件1 2&gt;文件2</td>
+<td style="text-align:left">以覆盖的方式，正确的输出追加到文件1中，把错误输出追加到文件2中</td>
+</tr>
+</tbody>
+</table>
+<h4 id="t1066.9.2 输入重定向">6.9.2 输入重定向 <a href="#t1066.9.2 输入重定向"> # </a></h4>
+<ul>
+<li>命令 &lt; 文件把文件做为命令的输入</li>
+<li><p>命令 &lt;&lt; 标识符
+标识符把标识符之间内容作为命令的输入</p>
+</li>
+<li><p>wc &lt; access.log</p>
+</li>
+<li>wc &lt;<hello>&gt;</hello></li>
+</ul>
+<h3 id="t1076.10 管道符号">6.10 管道符号 <a href="#t1076.10 管道符号"> # </a></h3>
+<h4 id="t1086.10.1 多命令顺序执行">6.10.1 多命令顺序执行 <a href="#t1086.10.1 多命令顺序执行"> # </a></h4>
+<p>|多命令执行符|格式|作用|
+|;|命令1;命令2|多个命令执行，命令之间没有任何逻辑联系|
+|&amp;&amp;|命令1&amp;&amp;命令2|逻辑与   当命令1正确执行，则命令2才会执行  当命令1执行不正确，则命令2不会执行|
+||||命令1|| 命令2|逻辑或 当命令1执行不正确，则命令2才会执行 当命令1正确执行，则命令2不会执行|</p>
+<pre><code class="lang-sh">- date;ls;date;ls
+- ls &amp;&amp; <span class="hljs-built_in">echo</span> yes || <span class="hljs-built_in">echo</span> no
+</code></pre>
+<h4 id="t1096.10.2 管道符号">6.10.2 管道符号 <a href="#t1096.10.2 管道符号"> # </a></h4>
+<ul>
+<li>命令1的正确输出会作为命令2的操作对象</li>
+<li>命令1|命令2<pre><code class="lang-sh">ls /etc/ | more
+netstat -an | grep ESTABLISHED | wc -l
+</code></pre>
+</li>
+</ul>
+<h4 id="t1106.10.3 通配符">6.10.3 通配符 <a href="#t1106.10.3 通配符"> # </a></h4>
+<p>匹配文件名和目录名
+|通配符|作用|
+|:----|:----|
+|?|匹配一个任意字符|
+|*|匹配0个或任意字符，也就是可以匹配任意内容|
+|[]|匹配中括号中任意一个字符|
+|[-]|匹配中括号中任意一个字符,-代表范围|
+|[^]|匹配不是中括号中的一个字符|</p>
+<h4 id="t1116.10.4 其它符号">6.10.4 其它符号 <a href="#t1116.10.4 其它符号"> # </a></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">符号</th>
+<th style="text-align:left">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">''</td>
+<td style="text-align:left">单引号。在单引号中所有的特殊符号，如$和`都没有特殊含义</td>
+</tr>
+<tr>
+<td style="text-align:left">""</td>
+<td style="text-align:left">双引号，在双引号里特殊符号都没有特殊含义，但是 $ ` \ 例外，拥有调用变量值，引用命令和转义的含义</td>
+</tr>
+<tr>
+<td style="text-align:left"><code></code></td>
+<td style="text-align:left">反引号，扩起来的是系统命令</td>
+</tr>
+<tr>
+<td style="text-align:left">$()</td>
+<td style="text-align:left">和反引号一样</td>
+</tr>
+<tr>
+<td style="text-align:left">#</td>
+<td style="text-align:left">在shell脚本中，#开头的行代表注释</td>
+</tr>
+<tr>
+<td style="text-align:left">$</td>
+<td style="text-align:left">用于调用变量的值</td>
+</tr>
+<tr>
+<td style="text-align:left">\</td>
+<td style="text-align:left">转义符号</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-sh">-  a=`ls`
+-  b=$(ls)
+</code></pre>
+<h2 id="t1127. vi编辑器">7. vi编辑器 <a href="#t1127. vi编辑器"> # </a></h2>
+<ul>
+<li>VI visual interface</li>
+<li>可视化接口</li>
+<li>类似与windows中的记事本</li>
+<li>vim支持多级撤销</li>
+<li>跨平台</li>
+<li>语法高亮</li>
+<li>支持图形界面</li>
+</ul>
+<p><img src="http://www.178linux.com/wp-content/uploads/2017/08/20170805144200_78923.png" alt="vi"></p>
+<h3 id="t1137.1 操作模式">7.1 操作模式 <a href="#t1137.1 操作模式"> # </a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">模式名</th>
+<th style="text-align:left">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Command Mode 命令模式</td>
+<td style="text-align:left">等待输入的模式</td>
+</tr>
+<tr>
+<td style="text-align:left">Insert Mode 输入模式</td>
+<td style="text-align:left">编辑模式，用于输入文本</td>
+</tr>
+<tr>
+<td style="text-align:left">Last Line Mode 底行模式(尾行、末行)</td>
+<td style="text-align:left">可以输入指令，搜索，保存</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>vim + abc</li>
+<li>vim +3 abc</li>
+<li>vim +5 abc</li>
+<li>vim +/xxx abc</li>
+<li>vim a b c :n</li>
+</ul>
+<h3 id="t1147.2 常用指令">7.2 常用指令 <a href="#t1147.2 常用指令"> # </a></h3>
+<h4 id="t1157.2.1 底行模式">7.2.1 底行模式 <a href="#t1157.2.1 底行模式"> # </a></h4>
+<ul>
+<li>:w 保存</li>
+<li>:q 退出</li>
+<li>:! 强制保存</li>
+<li>:ls 列出所有的文件</li>
+<li>:n 下一个</li>
+<li>:N 上一个</li>
+<li>:15 跳转到指定行</li>
+<li>/xxx 从光标位置开始向后搜索 xxx 字符串</li>
+<li>?xxx 从光标位置开始向前搜索</li>
+</ul>
+<h4 id="t1167.2.2 命令模式">7.2.2 命令模式 <a href="#t1167.2.2 命令模式"> # </a></h4>
+<ul>
+<li>h 光标左移</li>
+<li>j 光标下移</li>
+<li>k 光标上移</li>
+<li><p>l 光标右移</p>
+</li>
+<li><p>ctrl+f 向下翻页(front)</p>
+</li>
+<li>ctrl+b 向上翻页</li>
+<li>ctrl+d 向下翻半页</li>
+<li><p>ctrl+u 向上翻半页</p>
+</li>
+<li><p>dd 删除光标所在行</p>
+</li>
+<li>o 在光标所在行的下方插入一行并切换到输入模式</li>
+<li>yy 复制光标所在的行</li>
+<li>p 在光标所在行的下方粘贴</li>
+<li>P 在光标所在行的上方粘贴</li>
+</ul>
+<h2 id="t1178. 用户和用户组">8. 用户和用户组 <a href="#t1178. 用户和用户组"> # </a></h2>
+<ul>
+<li>使用操作系统的人都是用户</li>
+<li>用户组是具有相同系统权限的一组用户</li>
+</ul>
+<h3 id="t1188.1 用户组">8.1 用户组 <a href="#t1188.1 用户组"> # </a></h3>
+<h4 id="t1198.1.1 /etc/group">8.1.1 /etc/group <a href="#t1198.1.1 /etc/group"> # </a></h4>
+<ul>
+<li>/etc/group 存储当前系统中所有用户组信息</li>
+<li>group:x:123:abc,def</li>
+<li>组名称:组密码占位符:组编号:组中用户名列表</li>
+<li>root 组编号为0</li>
+<li>1-499系统预留的编号 预留给安装的软件和服务的</li>
+<li>用户手动创建的用户组从500开始</li>
+<li>组密码占位符都是x</li>
+</ul>
+<h4 id="t1208.1.2 /etc/gshadow">8.1.2 /etc/gshadow <a href="#t1208.1.2 /etc/gshadow"> # </a></h4>
+<ul>
+<li>存放当前系统中用户组的密码信息</li>
+<li>和group中的记录一一对应</li>
+<li>Group: * : :abc</li>
+<li>组名称 组密码 组管理者 组中用户名</li>
+</ul>
+<h4 id="t1218.1.3 /etc/passwd">8.1.3 /etc/passwd <a href="#t1218.1.3 /etc/passwd"> # </a></h4>
+<ul>
+<li>存储当前系统中所有用户的信息</li>
+<li>user:x:123:456:xxxxx:/home/user:/bin/bash</li>
+<li>用户名:密码占位符:用户编号: 用户注释信息:用户主目录:shell类型</li>
+</ul>
+<h4 id="t1228.1.4 /etc/shadow">8.1.4 /etc/shadow <a href="#t1228.1.4 /etc/shadow"> # </a></h4>
+<ul>
+<li>存放当前系统中所有用户的密码信息</li>
+<li>user:xxx:::::::</li>
+<li>用户名:密码:</li>
+</ul>
+<h2 id="t1238. 用户操作">8. 用户操作 <a href="#t1238. 用户操作"> # </a></h2>
+<p>添加组</p>
+<pre><code class="lang-sh">groupadd student
+</code></pre>
+<p>修改组名称</p>
+<pre><code class="lang-sh">groupmod -n stu student 
+</code></pre>
+<p>修改组编号</p>
+<pre><code class="lang-sh">groupmod -g 111 stu 
+</code></pre>
+<p>添加分组并指定编号</p>
+<pre><code class="lang-sh">groupadd -g 222 teacher 
+</code></pre>
+<p>删除分组</p>
+<pre><code class="lang-sh">groupdel 222 
+</code></pre>
+<p>添加分组</p>
+<pre><code class="lang-sh">groupadd teacher 
+</code></pre>
+<p>为用户指定所属组</p>
+<pre><code class="lang-sh">useradd -g teacher zhangsan 
+</code></pre>
+<p>为用户指定所属组</p>
+<pre><code class="lang-sh">useradd -g teacher lisi 
+</code></pre>
+<p>为用户指定工作目录</p>
+<pre><code class="lang-sh">useradd -d /home/zhangsan zhangsan 
+</code></pre>
+<p>指定注释</p>
+<pre><code class="lang-sh">usermod -c iamateacher zhangsan 
+</code></pre>
+<p>修改用户名</p>
+<pre><code class="lang-sh">usermod -l zhangsan zhangsan2
+</code></pre>
+<p>指定文件夹</p>
+<pre><code class="lang-js">usermod -d /home/zhangsan2 zhangsan2 
+</code></pre>
+<p>修改用户所属组</p>
+<pre><code class="lang-sh">usermod -g stu zhangsan2 
+</code></pre>
+<p>删除用户</p>
+<pre><code class="lang-js">userdel zhangsan2 
+</code></pre>
+<p>删除所属文件夹</p>
+<pre><code class="lang-sh">userdel -r lisi 
+</code></pre>
+<h2 id="t1249. 用户命令">9. 用户命令 <a href="#t1249. 用户命令"> # </a></h2>
+<p>显示登录的用户名</p>
+<pre><code class="lang-sh">whoami
+</code></pre>
+<p>显示指定用户信息，包括用户编号，用户名 主要组的编号及名称，附属组列表</p>
+<pre><code class="lang-sh">id zhangsan  
+</code></pre>
+<p>显示zhangsan用户所在的所有组</p>
+<pre><code class="lang-sh">groups zhangsan 
+</code></pre>
+<p>显示用户详细资料</p>
+<pre><code class="lang-sh">finger zhangsan  
+</code></pre>
+<h2 id="t12510. 附录">10. 附录 <a href="#t12510. 附录"> # </a></h2>
+<h3 id="t12610.1 系统启动">10.1 系统启动 <a href="#t12610.1 系统启动"> # </a></h3>
+<h4 id="t12710.1.1 BIOS">10.1.1 BIOS <a href="#t12710.1.1 BIOS"> # </a></h4>
+<ul>
+<li>计算机通电后，第一件事就是读取刷入ROM芯片的开机程序，这个程序叫做(Basic Input/Output System)</li>
+</ul>
+<h4 id="t12810.1.2 硬件自检">10.1.2 硬件自检 <a href="#t12810.1.2 硬件自检"> # </a></h4>
+<ul>
+<li>BIOS程序首先检查，计算机硬件能否满足运行的基本条件，这叫做"硬件自检"（Power-On Self-Test)</li>
+<li>如果硬件出现问题，主板会发出不同含义的蜂鸣，启动中止。如果没有问题，屏幕就会显示出CPU、内存、硬盘等信息。</li>
+</ul>
+<h4 id="t12910.1.3 启动顺序">10.1.3 启动顺序 <a href="#t12910.1.3 启动顺序"> # </a></h4>
+<ul>
+<li>硬件自检完成后，BIOS把控制权转交给下一阶段的启动程序。</li>
+<li>这时，BIOS需要知道，"下一阶段的启动程序"具体存放在哪一个设备</li>
+<li>BIOS需要有一个外部储存设备的排序，排在前面的设备就是优先转交控制权的设备。这种排序叫做"启动顺序"（Boot Sequence）</li>
+<li>BIOS按照"启动顺序"，把控制权转交给排在第一位的储存设备。</li>
+<li>这时，计算机读取该设备的第一个扇区，也就是读取最前面的512个字节。如果这512个字节的最后两个字节是0x55和0xAA，表明这个设备可以用于启动；如果不是，表明设备不能用于启动，控制权于是被转交给"启动顺序"中的下一个设备。</li>
+<li>这最前面的512个字节，就叫做"主引导记录"（Master boot record，缩写为MBR）</li>
+</ul>
+<h4 id="t13010.1.4 主引导记录的结构">10.1.4 主引导记录的结构 <a href="#t13010.1.4 主引导记录的结构"> # </a></h4>
+<ul>
+<li>"主引导记录"只有512个字节，放不了太多东西。它的主要作用是，告诉计算机到硬盘的哪一个位置去找操作系统。<ul>
+<li>（1） 第1-446字节：是用来记录系统的启动信息的,调用操作系统的机器码</li>
+<li>（2） 第447-510字节(64个字节)：分区表（Partition table），分区表的作用，是将硬盘分成若干个区</li>
+<li>（3） 第511-512字节：主引导记录签名（0x55和0xAA）</li>
+</ul>
+</li>
+</ul>
+<h4 id="t13110.1.5 分区表">10.1.5 分区表 <a href="#t13110.1.5 分区表"> # </a></h4>
+<ul>
+<li>磁盘分区是使用分区编辑器在磁盘上划分几个逻辑部分</li>
+<li>磁盘一旦划分成多个分区，不同类的目录与文件可以存储进不同的分区内</li>
+<li>"主引导记录"因此必须知道将控制权转交给哪个区</li>
+<li>分区表的长度只有64个字节，里面又分成四项，每项16个字节。所以，一个硬盘最多只能分四个一级分区，又叫做"主分区"<ul>
+<li>（1） 第1个字节：如果为0x80，就表示该主分区是激活分区，控制权要转交给这个分区。四个主分区里面只能有一个是激活的。</li>
+<li>（2） 第2-4个字节：主分区第一个扇区的物理位置（柱面、磁头、扇区号等等）。</li>
+<li>（3） 第5个字节：主分区类型，比如FAT32、NTFS等。</li>
+<li>（4） 第6-8个字节：主分区最后一个扇区的物理位置。</li>
+<li>（5） 第9-12字节：该主分区第一个扇区的逻辑地址。</li>
+<li>（6） 第13-16字节：主分区的扇区总数。</li>
+</ul>
+</li>
+</ul>
+<h4 id="t13210.1.6 硬盘启动">10.1.6 硬盘启动 <a href="#t13210.1.6 硬盘启动"> # </a></h4>
+<ul>
+<li>计算机的控制权就要转交给硬盘的某个分区了</li>
+<li>四个主分区里面，只有一个是激活的。计算机会读取激活分区的第一个扇区，叫做"卷引导记录"（Volume boot record，缩写为VBR）</li>
+</ul>
+<h4 id="t13310.1.7 操作系统">10.1.7 操作系统 <a href="#t13310.1.7 操作系统"> # </a></h4>
+<ul>
+<li>控制权转交给操作系统后，操作系统的内核首先被载入内存。</li>
+<li>以Linux系统为例，先载入<code>/boot</code>目录下面的<code>kernel</code>。内核加载成功后，第一个运行的程序是<code>/sbin/init</code>。它根据配置文件（Debian系统是/etc/initab）产生init进程。这是Linux启动后的第一个进程，pid进程编号为1，其他进程都是它的后代</li>
+<li>然后，<code>init</code>线程加载系统的各个模块，比如窗口程序和网络程序，直至执行<code>/bin/login</code>程序，跳出登录界面，等待用户输入用户名和密码。</li>
+</ul>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

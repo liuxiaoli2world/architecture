@@ -1,0 +1,714 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li class="active"><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. 可共享可变状态是万恶之源">1. 可共享可变状态是万恶之源</a></li><li><a href="#t12. 什么是 Immutable">2. 什么是 Immutable</a></li><li><a href="#t23. Immutable类库">3. Immutable类库</a><ul><li><a href="#t33.1 Map">3.1 Map</a></li><li><a href="#t43.2 List">3.2 List</a></li></ul></li><li><a href="#t54. Immutable优势">4. Immutable优势</a><ul><li><a href="#t64.1  降低复杂度">4.1  降低复杂度</a></li><li><a href="#t74.2 节省内存">4.2 节省内存</a></li><li><a href="#t84.3 方便回溯">4.3 方便回溯</a></li></ul></li><li><a href="#t95. React性能优化">5. React性能优化</a><ul><li><a href="#t105.1 计数器">5.1 计数器</a></li><li><a href="#t115.2 深度克隆">5.2 深度克隆</a></li><li><a href="#t125.3 深比较">5.3 深比较</a></li><li><a href="#t135.4 immutable">5.4 immutable</a></li></ul></li><li><a href="#t146. redux+immutable">6. redux+immutable</a></li><li><a href="#t157. redux-immutable">7. redux-immutable</a></li><li><a href="#t168. react-router-redux">8. react-router-redux</a></li><li><a href="#t179. react-router-redux">9. react-router-redux</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. 可共享可变状态是万恶之源">1. 可共享可变状态是万恶之源 <a href="#t01. 可共享可变状态是万恶之源"> # </a></h2>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> objA = { <span class="hljs-attr">name</span>: <span class="hljs-string">'zfpx'</span> };
+<span class="hljs-keyword">let</span> objB = objA;
+objB.name = <span class="hljs-string">'9'</span>;
+<span class="hljs-built_in">console</span>.log(objA.name);
+</code></pre>
+<h2 id="t12. 什么是 Immutable">2. 什么是 Immutable <a href="#t12. 什么是 Immutable"> # </a></h2>
+<ul>
+<li>Immutable Data 就是一旦创建，就不能再被更改的数据。对 Immutable 对象的任何修改或添加删除操作都会返回一个新的 Immutable 对象</li>
+<li>Immutable 实现的原理是 Persistent Data Structure（持久化数据结构），也就是使用旧数据创建新数据时，要保证旧数据同时可用且不变
+同时为了避免 deepCopy 把所有节点都复制一遍带来的性能损耗</li>
+<li>Immutable 使用了 Structural Sharing（结构共享），即如果对象树中一个节点发生变化，只修改这个节点和受它影响的父节点，其它节点则进行共享</li>
+<li><a href="http://facebook.github.io/immutable-js/docs/#/">immutable-js</a> </li>
+</ul>
+<p><a href="http://img.zhufengpeixun.cn/immutablejs.gif">immutablejs</a></p>
+<h2 id="t23. Immutable类库">3. Immutable类库 <a href="#t23. Immutable类库"> # </a></h2>
+<p>内部实现了一套完整的 Persistent Data Structure,还有很多易用的数据类型。像 <code>Collection</code>、<code>List</code>、<code>Map</code>、<code>Set</code>、<code>Record</code>、<code>Seq</code></p>
+<h3 id="t33.1 Map">3.1 Map <a href="#t33.1 Map"> # </a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">方法</th>
+<th style="text-align:left">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">isMap</td>
+<td style="text-align:left">判断是否是Map</td>
+</tr>
+<tr>
+<td style="text-align:left">clear</td>
+<td style="text-align:left">清空值</td>
+</tr>
+<tr>
+<td style="text-align:left">set</td>
+<td style="text-align:left">设置值</td>
+</tr>
+<tr>
+<td style="text-align:left">delete</td>
+<td style="text-align:left">删除值</td>
+</tr>
+<tr>
+<td style="text-align:left">update</td>
+<td style="text-align:left">更新值</td>
+</tr>
+<tr>
+<td style="text-align:left">merge</td>
+<td style="text-align:left">合并值</td>
+</tr>
+<tr>
+<td style="text-align:left">setIn</td>
+<td style="text-align:left">设置值</td>
+</tr>
+<tr>
+<td style="text-align:left">deleteIn</td>
+<td style="text-align:left">删除值</td>
+</tr>
+<tr>
+<td style="text-align:left">updateIn</td>
+<td style="text-align:left">更新值</td>
+</tr>
+<tr>
+<td style="text-align:left">mergeIn</td>
+<td style="text-align:left">合并值</td>
+</tr>
+<tr>
+<td style="text-align:left">get</td>
+<td style="text-align:left">获取值</td>
+</tr>
+<tr>
+<td style="text-align:left">getIn</td>
+<td style="text-align:left">获取值</td>
+</tr>
+<tr>
+<td style="text-align:left">keys</td>
+<td style="text-align:left">key的数组</td>
+</tr>
+<tr>
+<td style="text-align:left">values</td>
+<td style="text-align:left">value的数组</td>
+</tr>
+<tr>
+<td style="text-align:left">entries</td>
+<td style="text-align:left">entry的数组</td>
+</tr>
+<tr>
+<td style="text-align:left">toJS</td>
+<td style="text-align:left">转成普通JS对象</td>
+</tr>
+<tr>
+<td style="text-align:left">toObject</td>
+<td style="text-align:left">转成普通对象</td>
+</tr>
+<tr>
+<td style="text-align:left">toJSON</td>
+<td style="text-align:left">转成JSON对象</td>
+</tr>
+<tr>
+<td style="text-align:left">toArray</td>
+<td style="text-align:left">转成数组</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> obj1 = immutable.Map({ <span class="hljs-attr">name</span>: <span class="hljs-string">'zfpx'</span>, <span class="hljs-attr">age</span>: <span class="hljs-number">8</span> });
+<span class="hljs-keyword">let</span> obj2 = obj1.set(<span class="hljs-string">'name'</span>, <span class="hljs-string">'zfpx2'</span>);
+<span class="hljs-keyword">let</span> obj3 = obj2.update(<span class="hljs-string">'age'</span>, x =&gt; x + <span class="hljs-number">1</span>);
+<span class="hljs-keyword">let</span> obj4 = obj3.merge({ <span class="hljs-attr">home</span>: <span class="hljs-string">'北京'</span> });
+<span class="hljs-built_in">console</span>.log(obj1, obj2, obj3, obj4);
+
+
+<span class="hljs-keyword">let</span> obj6 = immutable.fromJS({ <span class="hljs-attr">user</span>: { <span class="hljs-attr">name</span>: <span class="hljs-string">'zfpx'</span>, <span class="hljs-attr">age</span>: <span class="hljs-number">8</span> }, <span class="hljs-string">'k'</span>: <span class="hljs-string">'v'</span> });
+<span class="hljs-keyword">let</span> obj7 = obj6.setIn([<span class="hljs-string">'user'</span>, <span class="hljs-string">'name'</span>], <span class="hljs-string">'zfpx2'</span>);
+<span class="hljs-keyword">let</span> obj8 = obj7.updateIn([<span class="hljs-string">'user'</span>, <span class="hljs-string">'age'</span>], x =&gt; x + <span class="hljs-number">1</span>);
+<span class="hljs-keyword">let</span> obj9 = obj8.mergeIn([<span class="hljs-string">"user"</span>], { <span class="hljs-attr">home</span>: <span class="hljs-string">'北京'</span> });
+<span class="hljs-built_in">console</span>.log(obj6, obj7, obj8, obj9);
+
+<span class="hljs-built_in">console</span>.log(obj6.get(<span class="hljs-string">'user'</span>));
+
+<span class="hljs-built_in">console</span>.log(obj6.getIn([<span class="hljs-string">'user'</span>, <span class="hljs-string">'name'</span>]));
+<span class="hljs-built_in">console</span>.log(...obj6.keys());
+<span class="hljs-built_in">console</span>.log(...obj6.values());
+<span class="hljs-built_in">console</span>.log(...obj6.entries());
+
+<span class="hljs-keyword">var</span> map1 = immutable.Map({ <span class="hljs-attr">name</span>: <span class="hljs-string">'zfpx'</span>, <span class="hljs-attr">age</span>: <span class="hljs-number">9</span> });
+<span class="hljs-keyword">var</span> map2 = immutable.Map({ <span class="hljs-attr">name</span>: <span class="hljs-string">'zfpx'</span>, <span class="hljs-attr">age</span>: <span class="hljs-number">9</span> });
+assert(map1 !== map2);
+assert(<span class="hljs-built_in">Object</span>.is(map1, map2) === <span class="hljs-literal">false</span>);
+assert(immutable.is(map1, map2) === <span class="hljs-literal">true</span>); 
+</code></pre>
+<h3 id="t43.2 List">3.2 List <a href="#t43.2 List"> # </a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">方法</th>
+<th style="text-align:left">作用</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">isList</td>
+<td style="text-align:left">判断是否是List</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">size</td>
+<td style="text-align:left">统计个数</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">push</td>
+<td style="text-align:left">添加</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">pop</td>
+<td style="text-align:left">弹出最后一个</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">update</td>
+<td style="text-align:left">更新</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">delete</td>
+<td style="text-align:left">删除指定元素的数组</td>
+<td>delete(2)</td>
+</tr>
+<tr>
+<td style="text-align:left">insert</td>
+<td style="text-align:left">插入指定元素的数组</td>
+<td>insert(2)</td>
+</tr>
+<tr>
+<td style="text-align:left">clear</td>
+<td style="text-align:left">清空数组</td>
+<td>clear()</td>
+</tr>
+<tr>
+<td style="text-align:left">concat</td>
+<td style="text-align:left">合并</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">map</td>
+<td style="text-align:left">映射</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">filter</td>
+<td style="text-align:left">过滤</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">get</td>
+<td style="text-align:left">获取</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">find</td>
+<td style="text-align:left">查找</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">includes</td>
+<td style="text-align:left">判断包含</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">last</td>
+<td style="text-align:left">最后一个</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">reduce</td>
+<td style="text-align:left">计算总和</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">count</td>
+<td style="text-align:left">统计个数</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> immutable = <span class="hljs-built_in">require</span>(<span class="hljs-string">'immutable'</span>);
+<span class="hljs-keyword">let</span> arr1 = immutable.fromJS([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>]);
+<span class="hljs-built_in">console</span>.log(arr1.size);
+<span class="hljs-keyword">let</span> arr2 = arr1.push(<span class="hljs-number">4</span>);
+<span class="hljs-built_in">console</span>.log(arr2);
+<span class="hljs-keyword">let</span> arr3 = arr2.pop();
+<span class="hljs-built_in">console</span>.log(arr3);
+<span class="hljs-keyword">let</span> arr4 = arr3.update(<span class="hljs-number">2</span>, x =&gt; x + <span class="hljs-number">1</span>);
+<span class="hljs-built_in">console</span>.log(arr4);
+<span class="hljs-keyword">let</span> arr5 = arr4.concat([<span class="hljs-number">5</span>, <span class="hljs-number">6</span>]);
+<span class="hljs-built_in">console</span>.log(arr5);
+<span class="hljs-keyword">let</span> arr6 = arr5.map(<span class="hljs-function"><span class="hljs-params">item</span> =&gt;</span> item * <span class="hljs-number">2</span>);
+<span class="hljs-built_in">console</span>.log(arr6);
+<span class="hljs-keyword">let</span> arr7 = arr6.filter(<span class="hljs-function"><span class="hljs-params">item</span> =&gt;</span> item &gt;= <span class="hljs-number">10</span>);
+<span class="hljs-built_in">console</span>.log(arr7);
+<span class="hljs-built_in">console</span>.log(arr7.get(<span class="hljs-number">0</span>));
+<span class="hljs-built_in">console</span>.log(arr7.includes(<span class="hljs-number">10</span>));
+<span class="hljs-built_in">console</span>.log(arr7.last());
+<span class="hljs-keyword">let</span> val = arr7.reduce(<span class="hljs-function">(<span class="hljs-params">val, item</span>) =&gt;</span> val + item, <span class="hljs-number">0</span>);
+<span class="hljs-built_in">console</span>.log(val);
+<span class="hljs-built_in">console</span>.log(arr7.count());
+
+<span class="hljs-comment">// 0 1 2 3 4 5  =&gt; 3 4 5 =&gt; 6 8 10 =&gt; 6 8 10 =&gt; 8 10 =&gt; 18</span>
+<span class="hljs-keyword">let</span> ret = immutable.Range(<span class="hljs-number">1</span>, <span class="hljs-number">6</span>).skip(<span class="hljs-number">3</span>).map(<span class="hljs-function">(<span class="hljs-params">n</span>) =&gt;</span> n * <span class="hljs-number">2</span>).filter(<span class="hljs-function">(<span class="hljs-params">n</span>) =&gt;</span> n % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>).take(<span class="hljs-number">2</span>).reduce(<span class="hljs-function">(<span class="hljs-params">a, b</span>) =&gt;</span> a + b, <span class="hljs-number">0</span>);
+<span class="hljs-built_in">console</span>.log(ret);
+</code></pre>
+<h2 id="t54. Immutable优势">4. Immutable优势 <a href="#t54. Immutable优势"> # </a></h2>
+<h3 id="t64.1  降低复杂度">4.1  降低复杂度 <a href="#t64.1  降低复杂度"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> obj = {<span class="hljs-attr">age</span>:<span class="hljs-number">8</span>};
+handle(obj);
+<span class="hljs-built_in">console</span>.log(obj.age);
+</code></pre>
+<h3 id="t74.2 节省内存">4.2 节省内存 <a href="#t74.2 节省内存"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> Immutable=<span class="hljs-built_in">require</span>(<span class="hljs-string">'immutable'</span>);
+<span class="hljs-keyword">let</span> p1=Immutable.fromJS({
+    <span class="hljs-attr">name</span>: <span class="hljs-string">'zfpx'</span>,
+    <span class="hljs-attr">home</span>:{<span class="hljs-attr">name</span>:<span class="hljs-string">'beijing'</span>}
+});
+<span class="hljs-keyword">let</span> p2 = p1.set(<span class="hljs-string">'name'</span>,<span class="hljs-string">'zfpx2'</span>);
+<span class="hljs-built_in">console</span>.log(p1.get(<span class="hljs-string">'home'</span>)== p2.get(<span class="hljs-string">'home'</span>));
+</code></pre>
+<h3 id="t84.3 方便回溯">4.3 方便回溯 <a href="#t84.3 方便回溯"> # </a></h3>
+<p>只要把每次的状态都放在一个数组中就可以很方便的实现撤销重做功能</p>
+<h2 id="t95. React性能优化">5. React性能优化 <a href="#t95. React性能优化"> # </a></h2>
+<h3 id="t105.1 计数器">5.1 计数器 <a href="#t105.1 计数器"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+<span class="hljs-keyword">import</span> _ <span class="hljs-keyword">from</span> <span class="hljs-string">'lodash'</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Caculator</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    state = {
+        <span class="hljs-attr">number</span>: <span class="hljs-number">0</span>
+    }
+    handleClick = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">let</span> amount = <span class="hljs-keyword">this</span>.amount.value ? <span class="hljs-built_in">Number</span>(<span class="hljs-keyword">this</span>.amount.value) : <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">this</span>.state.number = <span class="hljs-keyword">this</span>.state.number + amount;
+        <span class="hljs-keyword">this</span>.setState(<span class="hljs-keyword">this</span>.state);
+    }
+    shouldComponentUpdate(nextProps, prevState) {
+        <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+    }
+    render() {
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'render'</span>);
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>{this.state.number}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">ref</span>=<span class="hljs-string">{input</span> =&gt;</span> this.amount = input} /&gt;
+                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>+<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        )
+    }
+}
+
+
+ReactDOM.render(
+    <span class="hljs-tag">&lt;<span class="hljs-name">Caculator</span> /&gt;</span>,
+    document.getElementById('root')
+)
+</span></code></pre>
+<h3 id="t115.2 深度克隆">5.2 深度克隆 <a href="#t115.2 深度克隆"> # </a></h3>
+<pre><code class="lang-js">  handleClick = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">let</span> amount = <span class="hljs-keyword">this</span>.amount.value ? <span class="hljs-built_in">Number</span>(<span class="hljs-keyword">this</span>.amount.value) : <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">let</span> state = _.cloneDeep(<span class="hljs-keyword">this</span>.state);
+        state.number = <span class="hljs-keyword">this</span>.state.number + amount;
+        <span class="hljs-keyword">this</span>.setState(state);
+    }
+</code></pre>
+<h3 id="t125.3 深比较">5.3 深比较 <a href="#t125.3 深比较"> # </a></h3>
+<pre><code class="lang-js"> shouldComponentUpdate(nextProps, prevState) {
+        <span class="hljs-keyword">return</span> !_.isEqual(prevState, <span class="hljs-keyword">this</span>.state);
+ }
+</code></pre>
+<h3 id="t135.4 immutable">5.4 immutable <a href="#t135.4 immutable"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+<span class="hljs-keyword">import</span> _ <span class="hljs-keyword">from</span> <span class="hljs-string">'lodash'</span>;
+<span class="hljs-keyword">import</span> { is, <span class="hljs-built_in">Map</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">'immutable'</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Caculator</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    state = {
+        <span class="hljs-attr">counter</span>: <span class="hljs-built_in">Map</span>({ <span class="hljs-attr">number</span>: <span class="hljs-number">0</span> })
+    }
+    handleClick = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">let</span> amount = <span class="hljs-keyword">this</span>.amount.value ? <span class="hljs-built_in">Number</span>(<span class="hljs-keyword">this</span>.amount.value) : <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">counter</span>: <span class="hljs-keyword">this</span>.state.counter.update(<span class="hljs-string">'number'</span>, val =&gt; val + amount) });
+    }
+    shouldComponentUpdate(nextProps = {}, nextState = {}) {
+        nextState = nextState == <span class="hljs-literal">null</span> ? {} : nextState;
+        <span class="hljs-keyword">const</span> thisProps = <span class="hljs-keyword">this</span>.props || {}, thisState = <span class="hljs-keyword">this</span>.state || {}, nextState = <span class="hljs-keyword">this</span>.state || {};
+        <span class="hljs-keyword">if</span> (<span class="hljs-built_in">Object</span>.keys(thisProps).length !== <span class="hljs-built_in">Object</span>.keys(nextProps).length ||
+            <span class="hljs-built_in">Object</span>.keys(thisState).length !== <span class="hljs-built_in">Object</span>.keys(nextState).length) {
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+        }
+
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">const</span> key <span class="hljs-keyword">in</span> nextProps) {
+            <span class="hljs-keyword">if</span> (!is(thisProps[key], nextProps[key])) {
+                <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+            }
+        }
+
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">const</span> key <span class="hljs-keyword">in</span> nextState) {
+            <span class="hljs-keyword">if</span> (thisState[key] !== nextState[key] &amp;&amp; !is(thisState[key], nextState[key])) {
+                <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+            }
+        }
+        <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+    }
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>{this.state.counter.get('number')}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">ref</span>=<span class="hljs-string">{input</span> =&gt;</span> this.amount = input} /&gt;
+                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>+<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        )
+    }
+}
+
+
+ReactDOM.render(
+    <span class="hljs-tag">&lt;<span class="hljs-name">Caculator</span> /&gt;</span>,
+    document.getElementById('root')
+)
+</span></code></pre>
+<h2 id="t146. redux+immutable">6. redux+immutable <a href="#t146. redux+immutable"> # </a></h2>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+<span class="hljs-keyword">import</span> PropTypes <span class="hljs-keyword">from</span> <span class="hljs-string">'prop-types'</span>
+<span class="hljs-keyword">import</span> { createStore, combineReducers, applyMiddleware } <span class="hljs-keyword">from</span> <span class="hljs-string">'redux'</span>
+<span class="hljs-keyword">import</span> { Provider, connect } <span class="hljs-keyword">from</span> <span class="hljs-string">'react-redux'</span>
+<span class="hljs-keyword">import</span> immutable, { is, <span class="hljs-built_in">Map</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">'immutable'</span>;
+<span class="hljs-keyword">import</span> PureComponent <span class="hljs-keyword">from</span> <span class="hljs-string">'./PureComponent'</span>;
+
+<span class="hljs-keyword">const</span> ADD = <span class="hljs-string">'ADD'</span>;
+
+<span class="hljs-keyword">const</span> initState = <span class="hljs-built_in">Map</span>({ <span class="hljs-attr">number</span>: <span class="hljs-number">0</span> });
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">counter</span>(<span class="hljs-params">state = initState, action</span>) </span>{
+    <span class="hljs-keyword">switch</span> (action.type) {
+        <span class="hljs-keyword">case</span> ADD:
+            <span class="hljs-keyword">return</span> state.update(<span class="hljs-string">'number'</span>, (value) =&gt; value + action.payload);
+        <span class="hljs-keyword">default</span>:
+            <span class="hljs-keyword">return</span> state
+    }
+}
+
+<span class="hljs-keyword">const</span> store = createStore(counter);
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Caculator</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">PureComponent</span> </span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>{this.props.number}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">ref</span>=<span class="hljs-string">{input</span> =&gt;</span> this.amount = input} /&gt;
+                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{()</span> =&gt;</span> this.props.add(this.amount.value ? Number(this.amount.value) : 0)}&gt;+<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        )
+    }
+}
+let actions = {
+    add(payload) {
+        return { type: ADD, payload }
+    }
+}
+const ConnectedCaculator = connect(
+    state =&gt; ({ number: state.get('number') }),
+    actions
+)(Caculator)
+
+ReactDOM.render(
+    <span class="hljs-tag">&lt;<span class="hljs-name">Provider</span> <span class="hljs-attr">store</span>=<span class="hljs-string">{store}</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">ConnectedCaculator</span> /&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">Provider</span>&gt;</span>,
+    document.getElementById('root')
+)
+</span></code></pre>
+<h2 id="t157. redux-immutable">7. redux-immutable <a href="#t157. redux-immutable"> # </a></h2>
+<ul>
+<li><a href="https://github.com/gajus/redux-immutable#readme">redux-immutable</a><pre><code class="lang-js"><span class="hljs-keyword">import</span> { combineReducers } <span class="hljs-keyword">from</span> <span class="hljs-string">'redux-immutable'</span>;
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">combineReducers</span>(<span class="hljs-params">reducers</span>) </span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">state = Map(</span>), <span class="hljs-title">action</span>) </span>{
+      <span class="hljs-keyword">let</span> newState = <span class="hljs-built_in">Map</span>();
+      <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> key <span class="hljs-keyword">in</span> reducers) {
+          newState = newState.set(key, reducers[key](state.get(key), action));
+      }
+      <span class="hljs-keyword">return</span> newState;
+  }
+}
+<span class="hljs-keyword">let</span> reducers = combineReducers({
+  counter
+});
+<span class="hljs-keyword">const</span> ConnectedCaculator = connect(
+  <span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> {
+      <span class="hljs-keyword">return</span> ({ <span class="hljs-attr">number</span>: state.getIn([<span class="hljs-string">'counter'</span>, <span class="hljs-string">'number'</span>]) })
+  },
+  actions
+)(Caculator)
+</code></pre>
+</li>
+</ul>
+<h2 id="t168. react-router-redux">8. react-router-redux <a href="#t168. react-router-redux"> # </a></h2>
+<pre><code class="lang-js">import React from "react";
+import ReactDOM from "react-dom";
+
+import { createStore, applyMiddleware } from "redux";
+import { Provider } from "react-redux";
+import { combineReducers } from 'redux-immutable';
+import createHistory from "history/createBrowserHistory";
+import { Route } from "react-router";
+import { Map } from 'immutable';
+
+import {
+    ConnectedRouter,
+    routerMiddleware,
+    push,
+    LOCATION_CHANGE
+} from "react-router-redux";
+
+const initialRouterState = Map({
+    location: null,
+    action: null
+});
+
+export function routerReducer(state = initialRouterState, { type, payload = {} } = {}) {
+    if (type === LOCATION_CHANGE) {
+        const location = payload.location || payload;
+        const action = payload.action;
+
+        return state
+            .set('location', location)
+            .set('action', action);
+    }
+
+    return state;
+}
+const history = createHistory();
+
+const middleware = routerMiddleware(history);
+
+
+const store = createStore(
+    combineReducers({
+        router: routerReducer
+    }),
+    applyMiddleware(middleware)
+);
+window.push = push;
+window.store = store;
+let Home = () =&gt; &lt;div&gt;Home&lt;/div&gt;
+let About = () =&gt; &lt;div&gt;About&lt;/div&gt;
+let Topics = () =&gt; &lt;div&gt;Topics&lt;/div&gt;
+ReactDOM.render(
+    &lt;Provider store={store}&gt;
+        &lt;ConnectedRouter history={history}&gt;
+            &lt;div&gt;
+                &lt;Route exact path="/" component={Home} /&gt;
+                &lt;Route path="/about" component={About} /&gt;
+                &lt;Route path="/topics" component={Topics} /&gt;
+            &lt;/div&gt;
+        &lt;/ConnectedRouter&gt;
+    &lt;/Provider&gt;,
+    document.getElementById("root")
+);
+</code></pre>
+<h2 id="t179. react-router-redux">9. react-router-redux <a href="#t179. react-router-redux"> # </a></h2>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">"react"</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">"react-dom"</span>;
+
+<span class="hljs-keyword">import</span> { createStore, combineReducers, applyMiddleware } <span class="hljs-keyword">from</span> <span class="hljs-string">"redux"</span>;
+<span class="hljs-keyword">import</span> { Provider } <span class="hljs-keyword">from</span> <span class="hljs-string">"react-redux"</span>;
+
+<span class="hljs-keyword">import</span> createHistory <span class="hljs-keyword">from</span> <span class="hljs-string">"history/createBrowserHistory"</span>;
+<span class="hljs-keyword">import</span> { Router, Route } <span class="hljs-keyword">from</span> <span class="hljs-string">"react-router"</span>;
+<span class="hljs-keyword">import</span> { Link } <span class="hljs-keyword">from</span> <span class="hljs-string">"react-router-dom"</span>;
+<span class="hljs-keyword">import</span> PropTypes <span class="hljs-keyword">from</span> <span class="hljs-string">'prop-types'</span>;
+
+<span class="hljs-comment">// import {</span>
+<span class="hljs-comment">//     ConnectedRouter,</span>
+<span class="hljs-comment">//     routerReducer,</span>
+<span class="hljs-comment">//     routerMiddleware,</span>
+<span class="hljs-comment">//     push</span>
+<span class="hljs-comment">// } from "react-router-redux";</span>
+
+<span class="hljs-keyword">const</span> CALL_HISTORY_METHOD = <span class="hljs-string">'@@router/CALL_HISTORY_METHOD'</span>;
+<span class="hljs-keyword">const</span> LOCATION_CHANGE = <span class="hljs-string">'LOCATION_CHANGE'</span>;
+<span class="hljs-keyword">var</span> initialRouteState = {
+    <span class="hljs-attr">location</span>: <span class="hljs-literal">null</span>
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ConnectedRouter</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">static</span> contextTypes = {
+        <span class="hljs-attr">store</span>: PropTypes.object
+    };
+
+    handleLocationChange = <span class="hljs-function">(<span class="hljs-params">location</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.store.dispatch({
+            <span class="hljs-attr">type</span>: LOCATION_CHANGE,
+            <span class="hljs-attr">payload</span>: location
+        });
+    }
+    componentWillMount() {
+        <span class="hljs-keyword">this</span>.store = <span class="hljs-keyword">this</span>.context.store;
+        <span class="hljs-keyword">this</span>.history = <span class="hljs-keyword">this</span>.props.history;
+        history.listen(<span class="hljs-keyword">this</span>.handleLocationChange);
+    }
+
+    render() {
+        <span class="hljs-keyword">return</span> &lt;Router {...this.props} /&gt;
+    };
+}
+
+function routerReducer(state = initialRouteState, action) {
+    let { type, payload } = action;
+    if (type === LOCATION_CHANGE) {
+        return { ...state, location: payload };
+    }
+    return state;
+}
+
+function routerMiddleware(history) {
+    return function () {
+        return function (next) {
+            return function (action) {
+                if (action.type !== CALL_HISTORY_METHOD) {
+                    return next(action);
+                }
+
+                var _action$payload = action.payload,
+                    method = _action$payload.method,
+                    args = _action$payload.args;
+                history[method].apply(history, args);
+            };
+        };
+    };
+}
+//push
+function push(...args) {
+    return {
+        type: CALL_HISTORY_METHOD,
+        payload: { method: 'push', args: args }
+    };
+}
+
+
+// Create a history of your choosing (we're using a browser history in this case)
+const history = createHistory();
+
+// Build the middleware for intercepting and dispatching navigation actions
+const middleware = routerMiddleware(history);
+
+// Add the reducer to your store on the `router` key
+// Also apply our middleware for navigating
+const store = createStore(
+    combineReducers({
+        router: routerReducer
+    }),
+    applyMiddleware(middleware)
+);
+window.push = push;
+window.store = store;
+// Now you can dispatch navigation actions from anywhere!
+// store.dispatch(push('/foo'))
+let Home = () =&gt; &lt;div&gt;Home&lt;/div&gt;
+let About = () =&gt; &lt;div&gt;About&lt;/div&gt;
+ReactDOM.render(
+    &lt;Provider store={store}&gt;
+        {/* ConnectedRouter will use the store from Provider automatically */}
+        &lt;ConnectedRouter history={history}&gt;
+            &lt;div&gt;
+                &lt;Link to="/"&gt;Home&lt;/Link&gt;
+                &lt;Link to="/about"&gt;About&lt;/Link&gt;
+                &lt;Route exact path="/" component={Home} /&gt;
+                &lt;Route path="/about" component={About} /&gt;
+            &lt;/div&gt;
+        &lt;/ConnectedRouter&gt;
+    &lt;/Provider&gt;,
+    document.getElementById("root")
+);
+</code></pre>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

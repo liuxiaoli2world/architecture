@@ -1,0 +1,860 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li class="active"><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01.初始化项目">1.初始化项目</a></li><li><a href="#t12.使用MYSQL">2.使用MYSQL</a><ul><li><a href="#t22.1 数据库脚本">2.1 数据库脚本</a></li><li><a href="#t32.2 在egg使用mysql">2.2 在egg使用mysql</a></li></ul></li><li><a href="#t43. 用户管理">3. 用户管理</a><ul><li><a href="#t53.1 app/router.js">3.1 app/router.js</a></li><li><a href="#t63.2 config/config.default.js">3.2 config/config.default.js</a></li><li><a href="#t73.3 controller/user.js">3.3 controller/user.js</a></li><li><a href="#t83.4 service/user.js">3.4 service/user.js</a></li></ul></li><li><a href="#t94. 提取基类">4. 提取基类</a><ul><li><a href="#t104.1 app/controller/api.js">4.1 app/controller/api.js</a></li><li><a href="#t114.2 app/controller/base.js">4.2 app/controller/base.js</a></li><li><a href="#t124.3 app/service/base.js">4.3 app/service/base.js</a></li><li><a href="#t134.4 controller/user.js">4.4 controller/user.js</a></li></ul></li><li><a href="#t144.5 service/user.js">4.5 service/user.js</a></li><li><a href="#t155. 角色">5. 角色</a><ul><li><a href="#t165.1  app/router.js">5.1  app/router.js</a></li><li><a href="#t175.2  controller/role.js">5.2  controller/role.js</a></li><li><a href="#t185.3 app/service/role.js">5.3 app/service/role.js</a></li></ul></li><li><a href="#t196. 其它实体">6. 其它实体</a><ul><li><a href="#t206.1 app/controller/api.js">6.1 app/controller/api.js</a></li><li><a href="#t216.2 app/controller/base.js">6.2 app/controller/base.js</a></li><li><a href="#t226.3 app/router.js">6.3 app/router.js</a></li><li><a href="#t236.4 service/base.js">6.4 service/base.js</a></li><li><a href="#t246.5 controller/resource.js">6.5 controller/resource.js</a></li><li><a href="#t256.6 controller/roleResource.js">6.6 controller/roleResource.js</a></li><li><a href="#t266.7 controller/roleUser.js">6.7 controller/roleUser.js</a></li><li><a href="#t276.8 app/service/resource.js">6.8 app/service/resource.js</a></li><li><a href="#t286.9 service/roleResource.js">6.9 service/roleResource.js</a></li><li><a href="#t296.10 app/service/roleUser.js">6.10 app/service/roleUser.js</a></li></ul></li><li><a href="#t307. 权限管理">7. 权限管理</a><ul><li><a href="#t317.1 controller/role.js">7.1 controller/role.js</a></li><li><a href="#t327.2 service/role.js">7.2 service/role.js</a></li><li><a href="#t337.3 app/router.js">7.3 app/router.js</a></li></ul></li><li><a href="#t348. 验证码">8. 验证码</a><ul><li><a href="#t358.1 app/router.js">8.1 app/router.js</a></li><li><a href="#t368.2 controller/index.js">8.2 controller/index.js</a></li></ul></li><li><a href="#t379. 跨域">9. 跨域</a><ul><li><a href="#t389.1  config/config.default.js">9.1  config/config.default.js</a></li><li><a href="#t399.2 config/plugin.js">9.2 config/plugin.js</a></li></ul></li><li><a href="#t4010. 注册登录">10. 注册登录</a><ul><li><a href="#t4110.1 app/controller/user.js">10.1 app/controller/user.js</a></li><li><a href="#t4210.2 config.default.js">10.2 config.default.js</a></li><li><a href="#t4310.3 app/middleware/auth.js">10.3 app/middleware/auth.js</a></li><li><a href="#t4410.4 app/router.js">10.4 app/router.js</a></li></ul></li><li><a href="#t4511. 参考">11. 参考</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01.初始化项目">1.初始化项目 <a href="#t01.初始化项目"> # </a></h2>
+<pre><code class="lang-js">$ npm i egg-init -g
+$ egg-init cms-api --type=simple
+$ cd cms-api
+$ npm i
+$ npm run dev
+</code></pre>
+<h2 id="t12.使用MYSQL">2.使用MYSQL <a href="#t12.使用MYSQL"> # </a></h2>
+<h3 id="t22.1 数据库脚本">2.1 数据库脚本 <a href="#t22.1 数据库脚本"> # </a></h3>
+<pre><code class="lang-sql"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-keyword">user</span> (
+ <span class="hljs-keyword">id</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) PRIMARY <span class="hljs-keyword">KEY</span> AUTO_INCREMENT,
+ username <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+ <span class="hljs-keyword">password</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+ email <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+ phone <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+ gender tinyint(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+ birthday datetime <span class="hljs-literal">NULL</span>,
+ address <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>
+);
+
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-keyword">role</span> (
+ <span class="hljs-keyword">id</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) PRIMARY <span class="hljs-keyword">KEY</span> AUTO_INCREMENT,
+ <span class="hljs-keyword">name</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>
+);
+
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> user_role (
+user_id <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span>,
+role_id <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span>,
+PRIMARY <span class="hljs-keyword">KEY</span> (user_id, role_id) 
+);
+
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-keyword">resource</span> (
+<span class="hljs-keyword">id</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) PRIMARY <span class="hljs-keyword">KEY</span> AUTO_INCREMENT,
+<span class="hljs-keyword">name</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span>
+);
+
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> role_resource (
+role_id <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span> AUTO_INCREMENT,
+resource_id <span class="hljs-built_in">int</span>(<span class="hljs-number">255</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span>,
+PRIMARY <span class="hljs-keyword">KEY</span> (role_id, resource_id) 
+);
+</code></pre>
+<h3 id="t32.2 在egg使用mysql">2.2 在egg使用mysql <a href="#t32.2 在egg使用mysql"> # </a></h3>
+<p>config/config.default.js</p>
+<pre><code class="lang-js">config.security = {
+    <span class="hljs-attr">csrf</span>:<span class="hljs-literal">false</span>
+  } 
+config.mysql = {
+    <span class="hljs-comment">// 单数据库信息配置</span>
+    client: {
+      <span class="hljs-comment">// host</span>
+      host: <span class="hljs-string">'localhost'</span>,
+      <span class="hljs-comment">// 端口号</span>
+      port: <span class="hljs-string">'3306'</span>,
+      <span class="hljs-comment">// 用户名</span>
+      user: <span class="hljs-string">'root'</span>,
+      <span class="hljs-comment">// 密码</span>
+      password: <span class="hljs-string">'root'</span>,
+      <span class="hljs-comment">// 数据库名</span>
+      database: <span class="hljs-string">'cms2'</span>,
+}
+</code></pre>
+<p>config/plugin.js</p>
+<pre><code class="lang-js">exports.mysql = {
+    <span class="hljs-attr">enable</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-attr">package</span>: <span class="hljs-string">'egg-mysql'</span>,
+};
+</code></pre>
+<h2 id="t43. 用户管理">3. 用户管理 <a href="#t43. 用户管理"> # </a></h2>
+<ul>
+<li><a href="https://eggjs.org/zh-cn/basics/router.html#restful-%E9%A3%8E%E6%A0%BC%E7%9A%84-url-%E5%AE%9A%E4%B9%89">restful-风格的-url-定义</a></li>
+</ul>
+<h3 id="t53.1 app/router.js">3.1 app/router.js <a href="#t53.1 app/router.js"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-built_in">module</span>.exports = <span class="hljs-function"><span class="hljs-params">app</span> =&gt;</span> {
+  <span class="hljs-keyword">const</span> { router, controller } = app;
+  router.get(<span class="hljs-string">'/'</span>,controller.home.index);
+  router.resources(<span class="hljs-string">'user'</span>, <span class="hljs-string">'/api/user'</span>, controller.user);
+};
+</code></pre>
+<h3 id="t63.2 config/config.default.js">3.2 config/config.default.js <a href="#t63.2 config/config.default.js"> # </a></h3>
+<p>config/config.default.js</p>
+<pre><code class="lang-diff">// 是否加载到 app 上，默认开启
+<span class="hljs-addition">+    app: true,</span>
+</code></pre>
+<h3 id="t73.3 controller/user.js">3.3 controller/user.js <a href="#t73.3 controller/user.js"> # </a></h3>
+<p>app/controller/user.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Controller = <span class="hljs-built_in">require</span>(<span class="hljs-string">'egg'</span>).Controller;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">UserController</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Controller</span> </span>{
+  <span class="hljs-keyword">async</span> index() {
+    <span class="hljs-keyword">let</span> {ctx,service}=<span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">let</span> users=<span class="hljs-keyword">await</span> service.user.select();
+    ctx.body = users;
+  }
+
+  <span class="hljs-keyword">async</span> create() {
+    <span class="hljs-keyword">let</span> {ctx,service}=<span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">let</span> user=ctx.request.body;
+    <span class="hljs-keyword">await</span> service.user.create(user);
+    ctx.body={
+      <span class="hljs-attr">code</span>: <span class="hljs-number">0</span>,
+      <span class="hljs-attr">data</span>:<span class="hljs-string">'success!'</span>
+    }
+  }
+
+  <span class="hljs-keyword">async</span> update() {
+    <span class="hljs-keyword">let</span> {ctx,service}=<span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">let</span> user=ctx.request.body;
+    user.id=ctx.params.id;
+    <span class="hljs-keyword">let</span> savedUser=<span class="hljs-keyword">await</span> service.user.update(user);
+    ctx.body={
+      <span class="hljs-attr">code</span>: <span class="hljs-number">0</span>,
+      <span class="hljs-attr">data</span>:<span class="hljs-string">'success!'</span>
+    }
+  }
+  <span class="hljs-keyword">async</span> destroy() {
+    <span class="hljs-keyword">let</span> {ctx,service}=<span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">let</span> id=ctx.params.id;
+    <span class="hljs-keyword">await</span> service.user.delete(id);
+    ctx.body={
+      <span class="hljs-attr">code</span>: <span class="hljs-number">0</span>,
+      <span class="hljs-attr">data</span>:<span class="hljs-string">'success!'</span>
+    }
+  }
+}
+
+<span class="hljs-built_in">module</span>.exports = UserController;
+</code></pre>
+<h3 id="t83.4 service/user.js">3.4 service/user.js <a href="#t83.4 service/user.js"> # </a></h3>
+<p>app/service/user.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> {Service}=<span class="hljs-built_in">require</span>(<span class="hljs-string">'egg'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">UserService</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Service</span></span>{
+    <span class="hljs-keyword">async</span> select() {
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">await</span> <span class="hljs-keyword">this</span>.app.mysql.select(<span class="hljs-string">'user'</span>);
+    }
+    <span class="hljs-keyword">async</span> create(entity) {
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">await</span> <span class="hljs-keyword">this</span>.app.mysql.insert(<span class="hljs-string">'user'</span>,entity);
+    }
+    <span class="hljs-keyword">async</span> update(entity) {
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">await</span> <span class="hljs-keyword">this</span>.app.mysql.update(<span class="hljs-string">'user'</span>,entity);
+    }
+    <span class="hljs-keyword">async</span> <span class="hljs-keyword">delete</span>(id) {
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">await</span> <span class="hljs-keyword">this</span>.app.mysql.delete(<span class="hljs-string">'user'</span>,{id});
+    }
+}
+<span class="hljs-built_in">module</span>.exports=UserService;
+</code></pre>
+<h2 id="t94. 提取基类">4. 提取基类 <a href="#t94. 提取基类"> # </a></h2>
+<h3 id="t104.1 app/controller/api.js">4.1 app/controller/api.js <a href="#t104.1 app/controller/api.js"> # </a></h3>
+<p>app/controller/api.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> BaseController = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./base'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ApiController</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">BaseController</span> </span>{
+    <span class="hljs-keyword">async</span> index() {
+    <span class="hljs-keyword">let</span> {ctx,service}=<span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">let</span> list=<span class="hljs-keyword">await</span> service[<span class="hljs-keyword">this</span>.model].select();
+    ctx.body = list;
+  }
+
+  <span class="hljs-keyword">async</span> create() {
+    <span class="hljs-keyword">let</span> {ctx,service}=<span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">let</span> user=ctx.request.body;
+    <span class="hljs-keyword">await</span> service[<span class="hljs-keyword">this</span>.model].create(user);
+    ctx.body={
+      <span class="hljs-attr">code</span>: <span class="hljs-number">0</span>,
+      <span class="hljs-attr">data</span>:<span class="hljs-string">'success!'</span>
+    }
+  }
+
+  <span class="hljs-keyword">async</span> update() {
+    <span class="hljs-keyword">let</span> {ctx,service}=<span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">let</span> user=ctx.request.body;
+    user.id=ctx.params.id;
+    <span class="hljs-keyword">await</span> service[<span class="hljs-keyword">this</span>.model].update(user);
+    ctx.body={
+      <span class="hljs-attr">code</span>: <span class="hljs-number">0</span>,
+      <span class="hljs-attr">data</span>:<span class="hljs-string">'success!'</span>
+    }
+  }
+  <span class="hljs-keyword">async</span> destroy() {
+    <span class="hljs-keyword">let</span> {ctx,service}=<span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">let</span> id=ctx.params.id;
+    <span class="hljs-keyword">await</span> service[<span class="hljs-keyword">this</span>.model].delete(id);
+    ctx.body={
+      <span class="hljs-attr">code</span>: <span class="hljs-number">0</span>,
+      <span class="hljs-attr">data</span>:<span class="hljs-string">'success!'</span>
+    }
+  }
+}
+<span class="hljs-built_in">module</span>.exports=ApiController;
+</code></pre>
+<h3 id="t114.2 app/controller/base.js">4.2 app/controller/base.js <a href="#t114.2 app/controller/base.js"> # </a></h3>
+<p> app/controller/base.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Controller = <span class="hljs-built_in">require</span>(<span class="hljs-string">'egg'</span>).Controller;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">BaseController</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Controller</span> </span>{
+    success(data) {
+        <span class="hljs-keyword">let</span> {ctx}=<span class="hljs-keyword">this</span>;
+        ctx.body={
+            <span class="hljs-attr">code</span>: <span class="hljs-number">0</span>,
+            data
+        }
+    }
+    error(error) {
+        <span class="hljs-keyword">let</span> {ctx}=<span class="hljs-keyword">this</span>;
+        ctx.status=<span class="hljs-number">404</span>;
+        ctx.body={
+            <span class="hljs-attr">code</span>: <span class="hljs-number">1</span>,
+            error
+        }
+    }
+}
+<span class="hljs-built_in">module</span>.exports=BaseController;
+</code></pre>
+<h3 id="t124.3 app/service/base.js">4.3 app/service/base.js <a href="#t124.3 app/service/base.js"> # </a></h3>
+<p>app/service/base.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> {Service}=<span class="hljs-built_in">require</span>(<span class="hljs-string">'egg'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">BaseService</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Service</span></span>{
+    <span class="hljs-keyword">async</span> select() {
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">await</span> <span class="hljs-keyword">this</span>.app.mysql.select(<span class="hljs-keyword">this</span>.model);
+    }
+    <span class="hljs-keyword">async</span> create(entity) {
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">await</span> <span class="hljs-keyword">this</span>.app.mysql.insert(<span class="hljs-keyword">this</span>.model,entity);
+    }
+    <span class="hljs-keyword">async</span> update(entity) {
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">await</span> <span class="hljs-keyword">this</span>.app.mysql.update(<span class="hljs-keyword">this</span>.model,entity);
+    }
+    <span class="hljs-keyword">async</span> <span class="hljs-keyword">delete</span>(id) {
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">await</span> <span class="hljs-keyword">this</span>.app.mysql.delete(<span class="hljs-keyword">this</span>.model,{id});
+    }
+}
+<span class="hljs-built_in">module</span>.exports=BaseService;
+</code></pre>
+<h3 id="t134.4 controller/user.js">4.4 controller/user.js <a href="#t134.4 controller/user.js"> # </a></h3>
+<p>app/controller/user.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> ApiController = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./api'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">UserController</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ApiController</span> </span>{
+  <span class="hljs-keyword">constructor</span>(...args) {
+    <span class="hljs-keyword">super</span>(...args);
+    <span class="hljs-keyword">this</span>.model=<span class="hljs-string">'user'</span>;
+  }
+}
+
+<span class="hljs-built_in">module</span>.exports = UserController;
+</code></pre>
+<h2 id="t144.5 service/user.js">4.5 service/user.js <a href="#t144.5 service/user.js"> # </a></h2>
+<p>app/service/user.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> BaseService = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./base'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">UserService</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">BaseService</span></span>{
+    <span class="hljs-keyword">constructor</span>(...args) {
+        <span class="hljs-keyword">super</span>(...args);
+        <span class="hljs-keyword">this</span>.model=<span class="hljs-string">'user'</span>;
+    }
+}
+<span class="hljs-built_in">module</span>.exports=UserService;
+</code></pre>
+<h2 id="t155. 角色">5. 角色 <a href="#t155. 角色"> # </a></h2>
+<h3 id="t165.1  app/router.js">5.1  app/router.js <a href="#t165.1  app/router.js"> # </a></h3>
+<p>app/router.js</p>
+<pre><code class="lang-diff"><span class="hljs-addition">+ router.resources('role', '/api/role', controller.role);</span>
+</code></pre>
+<h3 id="t175.2  controller/role.js">5.2  controller/role.js <a href="#t175.2  controller/role.js"> # </a></h3>
+<p> app/controller/role.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> ApiController = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./api'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">RoleController</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ApiController</span> </span>{
+  <span class="hljs-keyword">constructor</span>(...args) {
+    <span class="hljs-keyword">super</span>(...args);
+    <span class="hljs-keyword">this</span>.model=<span class="hljs-string">'role'</span>;
+  }
+}
+
+<span class="hljs-built_in">module</span>.exports = RoleController;
+</code></pre>
+<h3 id="t185.3 app/service/role.js">5.3 app/service/role.js <a href="#t185.3 app/service/role.js"> # </a></h3>
+<p>app/service/role.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> BaseService = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./base'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">RoleService</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">BaseService</span></span>{
+    <span class="hljs-keyword">constructor</span>(...args) {
+        <span class="hljs-keyword">super</span>(...args);
+        <span class="hljs-keyword">this</span>.model=<span class="hljs-string">'role'</span>;
+    }
+}
+<span class="hljs-built_in">module</span>.exports=RoleService;
+</code></pre>
+<h2 id="t196. 其它实体">6. 其它实体 <a href="#t196. 其它实体"> # </a></h2>
+<h3 id="t206.1 app/controller/api.js">6.1 app/controller/api.js <a href="#t206.1 app/controller/api.js"> # </a></h3>
+<ul>
+<li>实现分页功能</li>
+<li>根据返回值来判断成功还是失败</li>
+</ul>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> BaseController = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./base'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ApiController</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">BaseController</span> </span>{
+    <span class="hljs-keyword">async</span> index() {
+    <span class="hljs-keyword">const</span> {ctx,service}=<span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">const</span> {pageNum,pageSize,...where}=ctx.query;
+    <span class="hljs-keyword">let</span> result=<span class="hljs-keyword">await</span> service[<span class="hljs-keyword">this</span>.model].list(<span class="hljs-built_in">isNaN</span>(pageNum)?<span class="hljs-number">1</span>:<span class="hljs-built_in">parseInt</span>(pageNum),<span class="hljs-built_in">isNaN</span>(pageSize)?<span class="hljs-keyword">this</span>.config.PAGE_SIZE:<span class="hljs-built_in">parseInt</span>(pageSize),where);
+    <span class="hljs-keyword">this</span>.success(result);
+  }
+
+  <span class="hljs-keyword">async</span> create() {
+    <span class="hljs-keyword">let</span> {ctx,service}=<span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">let</span> user=ctx.request.body;
+    <span class="hljs-keyword">let</span> result = <span class="hljs-keyword">await</span> service[<span class="hljs-keyword">this</span>.model].create(user);
+    result&gt;<span class="hljs-number">0</span>? <span class="hljs-keyword">this</span>.success(<span class="hljs-string">'添加成功'</span>):<span class="hljs-keyword">this</span>.error(<span class="hljs-string">'添加失败'</span>);
+  }
+
+  <span class="hljs-keyword">async</span> update() {
+    <span class="hljs-keyword">let</span> {ctx,service}=<span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">let</span> user=ctx.request.body;
+    user.id=ctx.params.id;
+    <span class="hljs-keyword">let</span> result = <span class="hljs-keyword">await</span> service[<span class="hljs-keyword">this</span>.model].update(user);
+    result&gt;<span class="hljs-number">0</span>? <span class="hljs-keyword">this</span>.success(<span class="hljs-string">'更新成功'</span>):<span class="hljs-keyword">this</span>.error(<span class="hljs-string">'更新失败'</span>);
+  }
+  <span class="hljs-keyword">async</span> destroy() {
+    <span class="hljs-keyword">let</span> {ctx,service}=<span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">let</span> id=ctx.params.id;
+    <span class="hljs-keyword">let</span> ids=ctx.request.body;
+    <span class="hljs-keyword">if</span> (!ids) {ids=[id]}
+    <span class="hljs-keyword">let</span> result = <span class="hljs-keyword">await</span> service[<span class="hljs-keyword">this</span>.model].delete(ids);
+    result&gt;<span class="hljs-number">0</span>? <span class="hljs-keyword">this</span>.success(<span class="hljs-string">'删除成功'</span>):<span class="hljs-keyword">this</span>.error(<span class="hljs-string">'删除失败'</span>);
+  }
+}
+<span class="hljs-built_in">module</span>.exports=ApiController;
+</code></pre>
+<h3 id="t216.2 app/controller/base.js">6.2 app/controller/base.js <a href="#t216.2 app/controller/base.js"> # </a></h3>
+<p>app/controller/base.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Controller = <span class="hljs-built_in">require</span>(<span class="hljs-string">'egg'</span>).Controller;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">BaseController</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Controller</span> </span>{
+    success(data) {
+        <span class="hljs-keyword">let</span> {ctx}=<span class="hljs-keyword">this</span>;
+        ctx.body={
+            <span class="hljs-attr">code</span>: <span class="hljs-number">0</span>,
+            data
+        }
+    }
+    error(error) {
+        <span class="hljs-keyword">let</span> {ctx}=<span class="hljs-keyword">this</span>;
+        ctx.status=<span class="hljs-number">500</span>;
+        ctx.body={
+            <span class="hljs-attr">code</span>: <span class="hljs-number">1</span>,
+            error
+        }
+    }
+}
+<span class="hljs-built_in">module</span>.exports=BaseController;
+</code></pre>
+<h3 id="t226.3 app/router.js">6.3 app/router.js <a href="#t226.3 app/router.js"> # </a></h3>
+<p>app/router.js</p>
+<pre><code class="lang-js"><span class="hljs-built_in">module</span>.exports = <span class="hljs-function"><span class="hljs-params">app</span> =&gt;</span> {
+  <span class="hljs-keyword">const</span> { router, controller } = app;
+  router.get(<span class="hljs-string">'/'</span>,controller.home.index);
+  router.resources(<span class="hljs-string">'user'</span>,<span class="hljs-string">'/api/user'</span>,controller.user);
+  router.resources(<span class="hljs-string">'role'</span>,<span class="hljs-string">'/api/role'</span>,controller.role);
+  router.resources(<span class="hljs-string">'resource'</span>, <span class="hljs-string">'/api/resource'</span>, controller.resource);
+  router.resources(<span class="hljs-string">'roleUser'</span>, <span class="hljs-string">'/api/roleUser'</span>, controller.roleUser);
+  router.resources(<span class="hljs-string">'roleResource'</span>, <span class="hljs-string">'/api/roleResource'</span>, controller.roleResource);
+};
+</code></pre>
+<h3 id="t236.4 service/base.js">6.4 service/base.js <a href="#t236.4 service/base.js"> # </a></h3>
+<p>app/service/base.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> {Service}=<span class="hljs-built_in">require</span>(<span class="hljs-string">'egg'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">BaseService</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Service</span></span>{
+    <span class="hljs-keyword">async</span> list(pageNum,pageSize,where) {
+        <span class="hljs-keyword">const</span> {app} = <span class="hljs-keyword">this</span>;
+        <span class="hljs-keyword">const</span> list=<span class="hljs-keyword">await</span> app.mysql.select(<span class="hljs-keyword">this</span>.model,{
+            where,
+            <span class="hljs-attr">order</span>: [[<span class="hljs-string">'id'</span>,<span class="hljs-string">'desc'</span>]],
+            <span class="hljs-attr">offset</span>: (pageNum<span class="hljs-number">-1</span>)*pageSize,
+            <span class="hljs-attr">limit</span> :pageSize
+        });
+        <span class="hljs-keyword">const</span> total=<span class="hljs-keyword">await</span> app.mysql.count(<span class="hljs-keyword">this</span>.model,where);
+        <span class="hljs-keyword">return</span> {list,total};
+    }
+    <span class="hljs-keyword">async</span> create(entity) {
+        <span class="hljs-keyword">const</span> {app}=<span class="hljs-keyword">this</span>;
+        <span class="hljs-keyword">let</span> result=<span class="hljs-keyword">await</span> app.mysql.insert(<span class="hljs-keyword">this</span>.model,entity);
+        <span class="hljs-keyword">const</span> affectedRows=result.affectedRows;
+        <span class="hljs-keyword">return</span> affectedRows;
+
+    }
+    <span class="hljs-keyword">async</span> update(entity) {
+        <span class="hljs-keyword">const</span> {app}=<span class="hljs-keyword">this</span>;
+        <span class="hljs-keyword">let</span> result = <span class="hljs-keyword">await</span> app.mysql.update(<span class="hljs-keyword">this</span>.model,entity);
+        <span class="hljs-keyword">const</span> affectedRows=result.affectedRows;
+        <span class="hljs-keyword">return</span> affectedRows;
+    }
+    <span class="hljs-keyword">async</span> <span class="hljs-keyword">delete</span>(ids) {
+        <span class="hljs-keyword">const</span> {app}=<span class="hljs-keyword">this</span>;
+        <span class="hljs-keyword">let</span> result = <span class="hljs-keyword">await</span> app.mysql.delete(<span class="hljs-keyword">this</span>.model,{<span class="hljs-attr">id</span>:ids});
+        <span class="hljs-keyword">const</span> affectedRows=result.affectedRows;
+        <span class="hljs-keyword">return</span> affectedRows;
+    }
+}
+<span class="hljs-built_in">module</span>.exports=BaseService;
+</code></pre>
+<h3 id="t246.5 controller/resource.js">6.5 controller/resource.js <a href="#t246.5 controller/resource.js"> # </a></h3>
+<p>app/controller/resource.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> ApiController = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./api'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ResourceController</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ApiController</span> </span>{
+  <span class="hljs-keyword">constructor</span>(...args) {
+    <span class="hljs-keyword">super</span>(...args);
+    <span class="hljs-keyword">this</span>.model=<span class="hljs-string">'resource'</span>;
+  }
+}
+<span class="hljs-built_in">module</span>.exports = ResourceController;
+</code></pre>
+<h3 id="t256.6 controller/roleResource.js">6.6 controller/roleResource.js <a href="#t256.6 controller/roleResource.js"> # </a></h3>
+<p>app/controller/roleResource.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> ApiController = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./api'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">RoleResourceController</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ApiController</span> </span>{
+  <span class="hljs-keyword">constructor</span>(...args) {
+    <span class="hljs-keyword">super</span>(...args);
+    <span class="hljs-keyword">this</span>.model=<span class="hljs-string">'roleResource'</span>;
+  }
+}
+<span class="hljs-built_in">module</span>.exports = RoleResourceController;
+</code></pre>
+<h3 id="t266.7 controller/roleUser.js">6.7 controller/roleUser.js <a href="#t266.7 controller/roleUser.js"> # </a></h3>
+<p>app/controller/roleUser.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> ApiController = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./api'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">RoleUserController</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ApiController</span> </span>{
+  <span class="hljs-keyword">constructor</span>(...args) {
+    <span class="hljs-keyword">super</span>(...args);
+    <span class="hljs-keyword">this</span>.model=<span class="hljs-string">'roleUser'</span>;
+  }
+}
+
+<span class="hljs-built_in">module</span>.exports = RoleUserController;
+</code></pre>
+<h3 id="t276.8 app/service/resource.js">6.8 app/service/resource.js <a href="#t276.8 app/service/resource.js"> # </a></h3>
+<p>service/resource.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> BaseService = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./base'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ResourceService</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">BaseService</span></span>{
+    <span class="hljs-keyword">constructor</span>(...args) {
+        <span class="hljs-keyword">super</span>(...args);
+        <span class="hljs-keyword">this</span>.model=<span class="hljs-string">'resource'</span>;
+    }
+}
+<span class="hljs-built_in">module</span>.exports=ResourceService;
+</code></pre>
+<h3 id="t286.9 service/roleResource.js">6.9 service/roleResource.js <a href="#t286.9 service/roleResource.js"> # </a></h3>
+<p>app/service/roleResource.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> BaseService = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./base'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">roleResourceService</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">BaseService</span></span>{
+    <span class="hljs-keyword">constructor</span>(...args) {
+        <span class="hljs-keyword">super</span>(...args);
+        <span class="hljs-keyword">this</span>.model=<span class="hljs-string">'role_resource'</span>;
+    }
+}
+<span class="hljs-built_in">module</span>.exports=roleResourceService;
+</code></pre>
+<h3 id="t296.10 app/service/roleUser.js">6.10 app/service/roleUser.js <a href="#t296.10 app/service/roleUser.js"> # </a></h3>
+<p>app/service/roleUser.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> BaseService = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./base'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">roleUserService</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">BaseService</span></span>{
+    <span class="hljs-keyword">constructor</span>(...args) {
+        <span class="hljs-keyword">super</span>(...args);
+        <span class="hljs-keyword">this</span>.model=<span class="hljs-string">'role_user'</span>;
+    }
+}
+<span class="hljs-built_in">module</span>.exports=roleUserService;
+</code></pre>
+<h2 id="t307. 权限管理">7. 权限管理 <a href="#t307. 权限管理"> # </a></h2>
+<h3 id="t317.1 controller/role.js">7.1 controller/role.js <a href="#t317.1 controller/role.js"> # </a></h3>
+<p>app/controller/role.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> ApiController = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./api'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">RoleController</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ApiController</span> </span>{
+  <span class="hljs-keyword">constructor</span>(...args) {
+    <span class="hljs-keyword">super</span>(...args);
+    <span class="hljs-keyword">this</span>.model=<span class="hljs-string">'role'</span>;
+  }
+
+  <span class="hljs-keyword">async</span> getResource() {
+    <span class="hljs-keyword">const</span> { app, ctx, service } = <span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">const</span> result = <span class="hljs-keyword">await</span> service[<span class="hljs-keyword">this</span>.model].getResource();
+    ctx.body = result;
+  }
+  <span class="hljs-keyword">async</span> setResource() {
+    <span class="hljs-keyword">const</span> { app, ctx, service } = <span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">let</span> body = ctx.request.body;<span class="hljs-comment">//{roleId,resourceIds</span>
+    <span class="hljs-keyword">const</span> result = <span class="hljs-keyword">await</span> service[<span class="hljs-keyword">this</span>.model].setResource(body);
+    ctx.body = result;
+  }
+  <span class="hljs-keyword">async</span> getUser() {
+    <span class="hljs-keyword">const</span> { app, ctx, service } = <span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">const</span> result = <span class="hljs-keyword">await</span> service[<span class="hljs-keyword">this</span>.model].getUser();
+    ctx.body = result;
+  }
+  <span class="hljs-keyword">async</span> setUser() {
+    <span class="hljs-keyword">const</span> { app, ctx, service } = <span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">let</span> body = ctx.request.body;<span class="hljs-comment">//{roleId,userIds}</span>
+    <span class="hljs-keyword">const</span> result = <span class="hljs-keyword">await</span> service[<span class="hljs-keyword">this</span>.model].setUser(body);
+    ctx.body = result;
+  }
+}
+
+<span class="hljs-built_in">module</span>.exports = RoleController;
+</code></pre>
+<h3 id="t327.2 service/role.js">7.2 service/role.js <a href="#t327.2 service/role.js"> # </a></h3>
+<p>app/service/role.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> BaseService = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./base'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">RoleService</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">BaseService</span></span>{
+    <span class="hljs-keyword">constructor</span>(...args) {
+        <span class="hljs-keyword">super</span>(...args);
+        <span class="hljs-keyword">this</span>.model=<span class="hljs-string">'role'</span>;
+    }
+    <span class="hljs-keyword">async</span> list(pageNum, pageSize, where) {
+        <span class="hljs-keyword">const</span> { app } = <span class="hljs-keyword">this</span>;
+        <span class="hljs-keyword">const</span> list = <span class="hljs-keyword">await</span> app.mysql.select(<span class="hljs-keyword">this</span>.model, {
+          where,
+          <span class="hljs-attr">orders</span>: [[<span class="hljs-string">'id'</span>, <span class="hljs-string">'desc'</span>]],
+          <span class="hljs-attr">offset</span>: (pageNum - <span class="hljs-number">1</span>) * pageSize,
+          <span class="hljs-attr">limit</span>: pageSize,
+        });
+        <span class="hljs-comment">//list  resourceIds=代表这个角色所拥有的资源ID数组</span>
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; list.length; i++) {
+          <span class="hljs-keyword">let</span> rows = <span class="hljs-keyword">await</span> app.mysql.select(<span class="hljs-string">'role_resource'</span>, {
+            <span class="hljs-attr">where</span>: { <span class="hljs-attr">role_id</span>: list[i].id }
+          });<span class="hljs-comment">//[{role_id:1,resource_id:2},{role_id:1,resource_id:3}]</span>
+          list[i].resourceIds = rows.map(<span class="hljs-function"><span class="hljs-params">item</span> =&gt;</span> item.resource_id);<span class="hljs-comment">//[2,3]</span>
+
+          rows = <span class="hljs-keyword">await</span> app.mysql.select(<span class="hljs-string">'role_user'</span>, {
+            <span class="hljs-attr">where</span>: { <span class="hljs-attr">role_id</span>: list[i].id }
+          });<span class="hljs-comment">//[{role_id:1,resource_id:2},{role_id:1,resource_id:3}]</span>
+          list[i].userIds = rows.map(<span class="hljs-function"><span class="hljs-params">item</span> =&gt;</span> item.user_id);<span class="hljs-comment">//[2,3]</span>
+        }
+        <span class="hljs-comment">//count用来统计总条数</span>
+        <span class="hljs-keyword">const</span> total = <span class="hljs-keyword">await</span> app.mysql.count(<span class="hljs-keyword">this</span>.model, where);
+        <span class="hljs-keyword">return</span> { list, total };
+    }
+    <span class="hljs-keyword">async</span> getResource() {
+        <span class="hljs-keyword">const</span> { app } = <span class="hljs-keyword">this</span>;
+        <span class="hljs-keyword">const</span> list = <span class="hljs-keyword">await</span> app.mysql.select(<span class="hljs-string">'resource'</span>);
+        <span class="hljs-keyword">let</span> rootMenus = [];
+        <span class="hljs-keyword">let</span> map = {};
+        list.forEach(<span class="hljs-function"><span class="hljs-params">item</span> =&gt;</span> {
+          item.children = [];
+          map[item.id] = item;<span class="hljs-comment">//创建了一个Key-Value,key就是对象的ID，值就是对象本身</span>
+          <span class="hljs-keyword">if</span> (item.parent_id == <span class="hljs-number">0</span>) {
+            rootMenus.push(item);
+          } <span class="hljs-keyword">else</span> {
+            map[item.parent_id].children.push(item)
+          }
+        });
+        <span class="hljs-keyword">return</span> rootMenus;
+      }
+    <span class="hljs-keyword">async</span> setResource(values) {
+        <span class="hljs-keyword">const</span> { app } = <span class="hljs-keyword">this</span>;
+        <span class="hljs-keyword">await</span> app.mysql.query(<span class="hljs-string">`DELETE FROM role_resource WHERE role_id = ?`</span>, [values.roleId]);
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; values.resourceIds.length; i++) {
+          <span class="hljs-keyword">await</span> <span class="hljs-keyword">this</span>.app.mysql.insert(<span class="hljs-string">'role_resource'</span>, {
+            <span class="hljs-attr">role_id</span>: values.roleId,
+            <span class="hljs-attr">resource_id</span>: values.resourceIds[i]
+          });
+        }
+        <span class="hljs-keyword">return</span> <span class="hljs-string">'修改权限成功'</span>;
+      }
+    <span class="hljs-keyword">async</span> getUser() {
+        <span class="hljs-keyword">const</span> { app } = <span class="hljs-keyword">this</span>;
+        <span class="hljs-keyword">const</span> list = <span class="hljs-keyword">await</span> app.mysql.select(<span class="hljs-string">'user'</span>);
+        <span class="hljs-keyword">return</span> list;
+      }
+    <span class="hljs-keyword">async</span> setUser(values){
+      <span class="hljs-keyword">const</span> {app} = <span class="hljs-keyword">this</span>;
+      <span class="hljs-keyword">let</span> {roleId,userIds} = values;
+      <span class="hljs-keyword">const</span> conn = <span class="hljs-keyword">await</span> app.mysql.beginTransaction(); <span class="hljs-comment">// 初始化事务</span>
+      <span class="hljs-keyword">try</span> {
+         <span class="hljs-comment">//1.先删除 所有的关联记录 DELETE FROM role_user WHERE role_id=1</span>
+          <span class="hljs-keyword">await</span> conn.query(<span class="hljs-string">`DELETE FROM role_user WHERE role_id=?`</span>,[roleId]);
+          <span class="hljs-comment">//2.插入新的关联记录</span>
+          <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i=<span class="hljs-number">0</span>;i&lt;userIds.length;i++){
+            <span class="hljs-keyword">let</span> userId = userIds[i];
+            <span class="hljs-keyword">await</span> conn.insert(<span class="hljs-string">'role_user'</span>,{<span class="hljs-attr">role_id</span>:roleId,<span class="hljs-attr">user_id</span>:userId});
+          }
+        <span class="hljs-keyword">await</span> conn.commit(); <span class="hljs-comment">// 提交事务</span>
+      } <span class="hljs-keyword">catch</span> (err) {
+        <span class="hljs-comment">// error, rollback</span>
+        <span class="hljs-keyword">await</span> conn.rollback(); <span class="hljs-comment">// 一定记得捕获异常后回滚事务！！</span>
+        <span class="hljs-keyword">throw</span> err;
+      }
+
+      <span class="hljs-keyword">return</span> <span class="hljs-string">'给角色分配用户成功!'</span>
+    }
+
+}
+<span class="hljs-built_in">module</span>.exports=RoleService;
+</code></pre>
+<h3 id="t337.3 app/router.js">7.3 app/router.js <a href="#t337.3 app/router.js"> # </a></h3>
+<p>app/router.js</p>
+<pre><code class="lang-js">router.post(<span class="hljs-string">'/role/setUser'</span>, controller.role.setUser);
+router.get(<span class="hljs-string">'/role/getUser'</span>, controller.role.getUser);
+router.post(<span class="hljs-string">'/role/setResource'</span>, controller.role.setResource);
+router.get(<span class="hljs-string">'/role/getResource'</span>, controller.role.getResource);
+</code></pre>
+<h2 id="t348. 验证码">8. 验证码 <a href="#t348. 验证码"> # </a></h2>
+<ul>
+<li><a href="https://www.npmjs.com/package/svg-captcha">svg-captcha</a><h3 id="t358.1 app/router.js">8.1 app/router.js <a href="#t358.1 app/router.js"> # </a></h3>
+app/router.js<pre><code class="lang-js">router.get(<span class="hljs-string">'/captcha'</span>,controller.index.captcha);
+</code></pre>
+<h3 id="t368.2 controller/index.js">8.2 controller/index.js <a href="#t368.2 controller/index.js"> # </a></h3>
+app/controller/index.js<pre><code class="lang-js"><span class="hljs-keyword">const</span> BaseController=<span class="hljs-built_in">require</span>(<span class="hljs-string">'./base'</span>);
+<span class="hljs-keyword">const</span> svgCaptcha = <span class="hljs-built_in">require</span>(<span class="hljs-string">'svg-captcha'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">IndexController</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">BaseController</span> </span>{
+  <span class="hljs-keyword">async</span> captcha() {
+  <span class="hljs-keyword">let</span> {ctx}=<span class="hljs-keyword">this</span>;
+  <span class="hljs-keyword">var</span> captcha=svgCaptcha.create({});
+  ctx.session.captcha=captcha.text;
+  ctx.set(<span class="hljs-string">'Content-Type'</span>,<span class="hljs-string">'image/svg+xml'</span>);
+  ctx.body=captcha.data;
+}
+}
+<span class="hljs-built_in">module</span>.exports=IndexController;
+</code></pre>
+<h2 id="t379. 跨域">9. 跨域 <a href="#t379. 跨域"> # </a></h2>
+</li>
+<li>跨域传<code>cookie</code>的时候要求主域要一致，不能从<code>localhost</code>跨到<code>127.0.0.1</code></li>
+<li><a href="https://www.npmjs.com/package/egg-cors">egg-cors</a></li>
+</ul>
+<h3 id="t389.1  config/config.default.js">9.1  config/config.default.js <a href="#t389.1  config/config.default.js"> # </a></h3>
+<p>config/config.default.js</p>
+<pre><code class="lang-js">config.security = {
+    <span class="hljs-attr">csrf</span>: <span class="hljs-literal">false</span>,
+    <span class="hljs-attr">domainWhiteList</span>: [ <span class="hljs-string">'http://localhost:8000'</span> ]
+} 
+</code></pre>
+<h3 id="t399.2 config/plugin.js">9.2 config/plugin.js <a href="#t399.2 config/plugin.js"> # </a></h3>
+<p>config/plugin.js</p>
+<pre><code class="lang-js">exports.cors = {
+    <span class="hljs-attr">enable</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-attr">package</span>: <span class="hljs-string">'egg-cors'</span>,
+};
+</code></pre>
+<h2 id="t4010. 注册登录">10. 注册登录 <a href="#t4010. 注册登录"> # </a></h2>
+<h3 id="t4110.1 app/controller/user.js">10.1 app/controller/user.js <a href="#t4110.1 app/controller/user.js"> # </a></h3>
+<p>app/controller/user.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> ApiController = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./api'</span>);
+<span class="hljs-keyword">const</span> {sign} = <span class="hljs-built_in">require</span>(<span class="hljs-string">'jsonwebtoken'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">UserController</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ApiController</span> </span>{
+  <span class="hljs-keyword">constructor</span>(...args) {
+    <span class="hljs-keyword">super</span>(...args);
+    <span class="hljs-keyword">this</span>.model = <span class="hljs-string">'user'</span>;
+  }
+
+  <span class="hljs-keyword">async</span> login() {
+    <span class="hljs-keyword">let</span> {ctx,app} = <span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">let</span> body = ctx.request.body;
+    <span class="hljs-keyword">const</span> result = <span class="hljs-keyword">await</span> app.mysql.select(<span class="hljs-string">'user'</span>, {
+      <span class="hljs-attr">where</span>: {
+        <span class="hljs-attr">username</span>: body.username,
+        <span class="hljs-attr">password</span>: body.password
+      },
+      <span class="hljs-attr">limit</span>: <span class="hljs-number">1</span>,
+      <span class="hljs-attr">offset</span>: <span class="hljs-number">0</span>
+    });
+    <span class="hljs-keyword">if</span> (result &amp;&amp; result.length &gt; <span class="hljs-number">0</span>) {
+      <span class="hljs-keyword">let</span> user = <span class="hljs-built_in">JSON</span>.parse(<span class="hljs-built_in">JSON</span>.stringify(result[<span class="hljs-number">0</span>]));
+      <span class="hljs-keyword">let</span> list = <span class="hljs-keyword">await</span> app.mysql.query(<span class="hljs-string">`SELECT resource.* FROM user_role,role_resource,resource where user_role.role_id = role_resource.role_id AND role_resource.resource_id = resource.id AND user_role.user_id = ? ORDER BY resource.id ASC`</span>,[user.id]);
+      <span class="hljs-keyword">let</span> resources = [];
+      <span class="hljs-keyword">let</span> map = {};
+      list.forEach(<span class="hljs-function"><span class="hljs-params">item</span> =&gt;</span> {
+          item.children = [];
+          map[item.id] = item;
+          <span class="hljs-keyword">if</span> (item.parent_id == <span class="hljs-number">0</span>) {
+            resources.push(item);
+          } <span class="hljs-keyword">else</span> {
+            map[item.parent_id].children.push(item);
+          }
+      });
+      user.resources=resources;
+      <span class="hljs-keyword">this</span>.success(sign(user, <span class="hljs-keyword">this</span>.config.jwtSecret));
+    } <span class="hljs-keyword">else</span> {
+      <span class="hljs-keyword">this</span>.error(<span class="hljs-string">'登录失败'</span>);
+    }
+  }
+  <span class="hljs-keyword">async</span> signup() {
+    <span class="hljs-keyword">let</span> {ctx,app} = <span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">let</span> body = ctx.request.body;
+    <span class="hljs-keyword">let</span> captcha = body.captcha;
+    <span class="hljs-keyword">delete</span> body.captcha;
+    <span class="hljs-keyword">if</span> (ctx.session.captcha &amp;&amp; captcha.toLowerCase() == ctx.session.captcha.toLowerCase()) {
+      <span class="hljs-keyword">const</span> result = <span class="hljs-keyword">await</span> app.mysql.insert(<span class="hljs-string">'user'</span>, body);
+      <span class="hljs-keyword">const</span> insertSuccess = result.affectedRows === <span class="hljs-number">1</span>;
+      <span class="hljs-keyword">if</span> (insertSuccess &gt; <span class="hljs-number">0</span>) {
+        <span class="hljs-keyword">this</span>.success({
+          <span class="hljs-attr">id</span>: result.insertId
+        });
+      } <span class="hljs-keyword">else</span> {
+        <span class="hljs-keyword">this</span>.error(<span class="hljs-string">'添加失败'</span>);
+      }
+    } <span class="hljs-keyword">else</span> {
+      <span class="hljs-keyword">this</span>.error(<span class="hljs-string">'验证码错误!'</span>);
+    }
+  }
+}
+
+<span class="hljs-built_in">module</span>.exports = UserController;
+</code></pre>
+<h3 id="t4210.2 config.default.js">10.2 config.default.js <a href="#t4210.2 config.default.js"> # </a></h3>
+<p>config/config.default.js</p>
+<pre><code class="lang-js">config.security = {
+    <span class="hljs-attr">csrf</span>: <span class="hljs-literal">false</span>,
+    <span class="hljs-attr">domainWhiteList</span>: [ <span class="hljs-string">'http://localhost:8000'</span> ]
+} 
+config.jwtSecret=<span class="hljs-string">"zfpx"</span>;
+config.cors = {
+    <span class="hljs-attr">credentials</span>: <span class="hljs-literal">true</span>
+}
+</code></pre>
+<h3 id="t4310.3 app/middleware/auth.js">10.3 app/middleware/auth.js <a href="#t4310.3 app/middleware/auth.js"> # </a></h3>
+<p>app/middleware/auth.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> {verify}=<span class="hljs-built_in">require</span>(<span class="hljs-string">'jsonwebtoken'</span>);
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">verifyToken</span>(<span class="hljs-params">token,jwtSecret</span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">resolve,reject</span>) </span>{
+        verify(token,jwtSecret,<span class="hljs-keyword">async</span> (err,data) =&gt; {
+            <span class="hljs-keyword">if</span> (err) {
+                reject(err);
+            } <span class="hljs-keyword">else</span> {
+                resolve(data);
+            }
+        });
+    });
+}
+<span class="hljs-built_in">module</span>.exports=<span class="hljs-function">(<span class="hljs-params">options,app</span>) =&gt;</span> {
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">ctx,next</span>) </span>{
+        <span class="hljs-keyword">const</span> token=ctx.get(<span class="hljs-string">'authorization'</span>);
+        <span class="hljs-keyword">if</span> (token) {
+            <span class="hljs-keyword">try</span> {
+                <span class="hljs-keyword">let</span> user = <span class="hljs-keyword">await</span> verifyToken(token,app.config.jwtSecret);
+                ctx.session.user=user;
+                <span class="hljs-keyword">await</span> next();
+            } <span class="hljs-keyword">catch</span> (err) {
+                ctx.status=<span class="hljs-number">401</span>;
+                ctx.body={
+                    <span class="hljs-attr">code</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">error</span>:<span class="hljs-string">'token验证失败'</span>
+                }
+            }
+        } <span class="hljs-keyword">else</span> {
+            ctx.status=<span class="hljs-number">401</span>;
+                ctx.body={
+                    <span class="hljs-attr">code</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">error</span>:<span class="hljs-string">'请提供token'</span>
+                }
+        }
+    }
+}
+</code></pre>
+<h3 id="t4410.4 app/router.js">10.4 app/router.js <a href="#t4410.4 app/router.js"> # </a></h3>
+<p>app/router.js</p>
+<pre><code class="lang-js">  <span class="hljs-keyword">const</span> auth=app.middleware.auth({},app);
+  router.post(<span class="hljs-string">'/login'</span>,controller.user.login);
+  router.post(<span class="hljs-string">'/signup'</span>,controller.user.signup);
+  router.get(<span class="hljs-string">'/captcha'</span>,controller.index.captcha);
+  router.get(<span class="hljs-string">'/'</span>,controller.home.index);
+  router.post(<span class="hljs-string">'/role/setUser'</span>, controller.role.setUser);
+  router.get(<span class="hljs-string">'/role/getUser'</span>, controller.role.getUser);
+  router.post(<span class="hljs-string">'/role/setResource'</span>, controller.role.setResource);
+  router.get(<span class="hljs-string">'/role/getResource'</span>, controller.role.getResource);
+  router.resources(<span class="hljs-string">'user'</span>,<span class="hljs-string">'/api/user'</span>,auth,controller.user);
+  router.resources(<span class="hljs-string">'role'</span>,<span class="hljs-string">'/api/role'</span>,auth,controller.role);
+  router.resources(<span class="hljs-string">'resource'</span>, <span class="hljs-string">'/api/resource'</span>, auth,controller.resource);
+  router.resources(<span class="hljs-string">'roleUser'</span>, <span class="hljs-string">'/api/roleUser'</span>, auth,controller.roleUser);
+  router.resources(<span class="hljs-string">'roleResource'</span>, <span class="hljs-string">'/api/roleResource'</span>, auth,controller.roleResource);
+</code></pre>
+<h2 id="t4511. 参考">11. 参考 <a href="#t4511. 参考"> # </a></h2>
+<ul>
+<li><a href="https://eggjs.org/zh-cn/basics/router.html#restful-%E9%A3%8E%E6%A0%BC%E7%9A%84-url-%E5%AE%9A%E4%B9%89">restful</a></li>
+<li><a href="https://www.npmjs.com/package/egg-cors">egg-cors</a></li>
+<li><a href="https://www.npmjs.com/package/svg-captcha">svg-captcha</a></li>
+</ul>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

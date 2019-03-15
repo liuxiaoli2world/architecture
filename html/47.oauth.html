@@ -1,0 +1,713 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li class="active"><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. 应用场景">1. 应用场景</a></li><li><a href="#t12. 名词">2. 名词</a></li><li><a href="#t23.设计思路">3.设计思路</a></li><li><a href="#t34. 工作流程">4. 工作流程</a></li><li><a href="#t45. 客户端的授权模式">5. 客户端的授权模式</a><ul><li><a href="#t55.1 授权码模式">5.1 授权码模式</a></li><li><a href="#t65.2 简化模式">5.2 简化模式</a></li><li><a href="#t75.3 密码模式">5.3 密码模式</a></li><li><a href="#t85.4 客户端模式">5.4 客户端模式</a></li></ul></li><li><a href="#t96. 接入QQ">6. 接入QQ</a><ul><li><a href="#t106.1 接入流程">6.1 接入流程</a></li><li><a href="#t116.2 QQ开发平台的前置条件">6.2 QQ开发平台的前置条件</a></li><li><a href="#t126.3 安装服务器">6.3 安装服务器</a></li><li><a href="#t136.4 添加应用">6.4 添加应用</a></li><li><a href="#t146.5 编写应用">6.5 编写应用</a><ul><li><a href="#t156.5.1 QQ连接">6.5.1 QQ连接</a></li><li><a href="#t166.5.2 获取数据流程">6.5.2 获取数据流程</a></li></ul></li></ul></li><li><a href="#t177.开发自己的Oauth系统">7.开发自己的Oauth系统</a><ul><li><a href="#t187.1 开发客户端">7.1 开发客户端</a><ul><li><a href="#t197.1.1 config.js">7.1.1 config.js</a></li><li><a href="#t207.1.2 utils.js">7.1.2 utils.js</a></li><li><a href="#t217.1.3 model.js">7.1.3 model.js</a></li><li><a href="#t227.1.4 app.js">7.1.4 app.js</a></li><li><a href="#t237.1.5 user.js">7.1.5 user.js</a></li><li><a href="#t247.1.6 login.html">7.1.6 login.html</a></li><li><a href="#t257.1.7 index.html">7.1.7 index.html</a></li></ul></li><li><a href="#t267.2 开发授权服务器">7.2 开发授权服务器</a><ul><li><a href="#t277.2.1 model.js">7.2.1 model.js</a></li><li><a href="#t287.2.2 mock.js">7.2.2 mock.js</a></li><li><a href="#t297.2.3 app.js">7.2.3 app.js</a></li><li><a href="#t307.2.4 oauth2.js">7.2.4 oauth2.js</a></li><li><a href="#t317.2.5 routes/users.js">7.2.5 routes/users.js</a></li><li><a href="#t327.2.6 authorize.html">7.2.6 authorize.html</a></li></ul></li></ul></li><li><a href="#t338. 参考资料">8. 参考资料</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. 应用场景">1. 应用场景 <a href="#t01. 应用场景"> # </a></h2>
+<ul>
+<li>比如百度希望能获取QQ用户的相册</li>
+<li>问题是只有得到用户的授权，QQ才会同意让百度读取这些照片</li>
+<li>那么，我们怎样获得用户的授权呢？</li>
+</ul>
+<p>传统方法是，QQ用户将自己的QQ号和密码，告诉百度，后者就可以读取用户的相册了。这样的做法有以下几个严重的缺点</p>
+<ol>
+<li>百度为了后续的服务，会保存用户的密码，这样很不安全</li>
+<li>百度不得不部署密码登录，而我们知道，单纯的密码登录并不安全</li>
+<li>百度拥有了获取用户储存在QQ上所有资料的权力，用户没法限制百度获得授权的范围和有效期</li>
+<li>用户只有修改密码，才能收回赋予百度的权力。但是这样做，会使得其他所有获得用户授权的第三方应用程序全部失效</li>
+<li>只要有一个第三方应用程序被破解，就会导致用户密码泄漏，以及所有被密码保护的数据泄漏。</li>
+</ol>
+<blockquote>
+<p>OAuth就是为了解决上面这些问题而诞生的。</p>
+</blockquote>
+<h2 id="t12. 名词">2. 名词 <a href="#t12. 名词"> # </a></h2>
+<ol>
+<li>client: 第三方应用程序，本文中又称客户端，即上个例子中的"百度"</li>
+<li>Resource Owner：资源所有者，本文中又称"QQ用户"（user）。</li>
+<li>User Agent：用户代理，本文中就是指浏览器。</li>
+<li>http service: 提供服务的HTTP服务提供商， 即上个例子中的"QQ服务器"</li>
+<li>Authorization server：认证服务器，即服务提供商专门用来处理认证的服务器。</li>
+<li>Resource server：资源服务器，即服务提供商存放用户生成的资源的服务器。它与认证服务器，可以是同一台服务器，也可以是不同的服务器。</li>
+</ol>
+<blockquote>
+<p>OAuth的作用就是让"客户端"安全可控地获取"用户"的授权，与"服务商提供商"进行互动。</p>
+</blockquote>
+<h2 id="t23.设计思路">3.设计思路 <a href="#t23.设计思路"> # </a></h2>
+<ul>
+<li>OAuth在"客户端"与"服务提供商"之间，设置了一个授权层（authorization layer）。</li>
+<li>"客户端"不能直接登录"服务提供商"，只能登录授权层，以此将用户与客户端区分开来。</li>
+<li>"客户端"登录授权层所用的令牌（token），与用户的密码不同。用户可以在登录的时候，指定授权层令牌的权限范围和有效期。</li>
+<li>"客户端"登录授权层以后，"服务提供商"根据令牌的权限范围和有效期，向"客户端"开放用户储存的资料。</li>
+</ul>
+<h2 id="t34. 工作流程">4. 工作流程 <a href="#t34. 工作流程"> # </a></h2>
+<p><img src="http://img.zhufengpeixun.cn/oauthflows.png" alt="oauthflows"></p>
+<ul>
+<li>A 用户打开客户端以后，客户端要求用户给予授权。</li>
+<li>B 用户同意给予客户端授权。</li>
+<li>C 客户端使用上一步获得的授权，向认证服务器申请令牌。</li>
+<li>D 认证服务器对客户端进行认证以后，确认无误，同意发放令牌。</li>
+<li>E 客户端使用令牌，向资源服务器申请获取资源。</li>
+<li>F 资源服务器确认令牌无误，同意向客户端开放资源。</li>
+</ul>
+<h2 id="t45. 客户端的授权模式">5. 客户端的授权模式 <a href="#t45. 客户端的授权模式"> # </a></h2>
+<ul>
+<li>客户端必须得到用户的授权（authorization grant），才能获得令牌（access token）</li>
+<li>OAuth 2.0定义了四种授权方式。</li>
+</ul>
+<h3 id="t55.1 授权码模式">5.1 授权码模式 <a href="#t55.1 授权码模式"> # </a></h3>
+<ul>
+<li>授权码模式（authorization code）是功能最完整、流程最严密的授权模式</li>
+<li>它的特点就是通过客户端的后台服务器，与"服务提供商"的认证服务器进行互动。</li>
+</ul>
+<p><img src="http://img.zhufengpeixun.cn/authorizationcode2.png" alt="authorizationcode2"></p>
+<p>它的步骤如下：</p>
+<ul>
+<li>A 用户访问客户端，后者将前者导向认证服务器</li>
+<li>B 用户选择是否给予客户端授权</li>
+<li>C 假设用户给予授权，认证服务器将用户导向客户端事先指定的"重定向URI"（redirection URI），同时附上一个授权码</li>
+<li>D 客户端收到授权码，附上早先的"重定向URI"，向认证服务器申请令牌。这一步是在客户端的后台的服务器上完成的，对用户不可见</li>
+<li>E 认证服务器核对了授权码和重定向URI，确认无误后，向客户端发送访问令牌（access token）和更新令牌（refresh token）</li>
+</ul>
+<h3 id="t65.2 简化模式">5.2 简化模式 <a href="#t65.2 简化模式"> # </a></h3>
+<p>简化模式（implicit grant type）不通过第三方应用程序的服务器，直接在浏览器中向认证服务器申请令牌，跳过了"授权码"这个步骤，因此得名。所有步骤在浏览器中完成，令牌对访问者是可见的，且客户端不需要认证。</p>
+<p><img src="http://img.zhufengpeixun.cn/implicitgranttype.png" alt="implicitgranttype"></p>
+<p>它的步骤如下：</p>
+<ul>
+<li>A 客户端将用户导向认证服务器。</li>
+<li>B 用户决定是否给于客户端授权。</li>
+<li>C 假设用户给予授权，认证服务器将用户导向客户端指定的"重定向URI"，并在URI的Hash部分包含了</li>
+<li>D 浏览器向资源服务器发出请求，其中不包括上一步收到的Hash值。</li>
+<li>E 资源服务器返回一个网页，其中包含的代码可以获取Hash值中的令牌。</li>
+<li>F 浏览器执行上一步获得的脚本，提取出令牌。</li>
+<li>G 浏览器将令牌发给客户端。</li>
+</ul>
+<h3 id="t75.3 密码模式">5.3 密码模式 <a href="#t75.3 密码模式"> # </a></h3>
+<ul>
+<li>密码模式（Resource Owner Password Credentials Grant）中，用户向客户端提供自己的用户名和密码。客户端使用这些信息，向"服务商提供商"索要授权。</li>
+<li>在这种模式中，用户必须把自己的密码给客户端，但是客户端不得储存密码。这通常用在用户对客户端高度信任的情况下，比如客户端是操作系统的一部分，或者由一个著名公司出品。而认证服务器只有在其他授权模式无法执行的情况下，才能考虑使用这种模式。</li>
+</ul>
+<p><img src="http://img.zhufengpeixun.cn/password.png" alt="password"></p>
+<p>它的步骤如下：</p>
+<ul>
+<li>A 用户向客户端提供用户名和密码。</li>
+<li>B 客户端将用户名和密码发给认证服务器，向后者请求令牌。</li>
+<li>C 认证服务器确认无误后，向客户端提供访问令牌。</li>
+</ul>
+<h3 id="t85.4 客户端模式">5.4 客户端模式 <a href="#t85.4 客户端模式"> # </a></h3>
+<ul>
+<li>客户端模式（Client Credentials Grant）指客户端以自己的名义，而不是以用户的名义，向"服务提供商"进行认证。</li>
+<li>严格地说，客户端模式并不属于OAuth框架所要解决的问题。在这种模式中，用户直接向客户端注册，客户端以自己的名义要求"服务提供商"提供服务，其实不存在授权问题。</li>
+</ul>
+<p><img src="http://img.zhufengpeixun.cn/clientmode.png" alt="clientmode"></p>
+<p>它的步骤如下：</p>
+<ul>
+<li>A 客户端向认证服务器进行身份认证，并要求一个访问令牌。</li>
+<li>B 认证服务器确认无误后，向客户端提供访问令牌。</li>
+</ul>
+<h2 id="t96. 接入QQ">6. 接入QQ <a href="#t96. 接入QQ"> # </a></h2>
+<ul>
+<li><a href="http://wiki.connect.qq.com/%E7%BD%91%E7%AB%99%E6%8E%A5%E5%85%A5%E6%B5%81%E7%A8%8B">QQ网站接入流程</a></li>
+<li><a href="http://wiki.connect.qq.com/%E4%BD%BF%E7%94%A8authorization_code%E8%8E%B7%E5%8F%96access_token">使用Authorization Code获取Access Token</a></li>
+</ul>
+<h3 id="t106.1 接入流程">6.1 接入流程 <a href="#t106.1 接入流程"> # </a></h3>
+<p><img src="http://img.zhufengpeixun.cn/qqflow.jpg" alt="qqflow"></p>
+<ol>
+<li>开发者注册</li>
+<li>放置QQ登录按钮</li>
+<li>获取Access Token</li>
+<li>获取用户的OpenID</li>
+<li>调用OpenAPI访问修改用户信息</li>
+</ol>
+<h3 id="t116.2 QQ开发平台的前置条件">6.2 QQ开发平台的前置条件 <a href="#t116.2 QQ开发平台的前置条件"> # </a></h3>
+<ul>
+<li>QQ</li>
+<li>可以通过域名访问的服务器</li>
+<li>关于备案</li>
+<li>服务器域名环境</li>
+</ul>
+<h3 id="t126.3 安装服务器">6.3 安装服务器 <a href="#t126.3 安装服务器"> # </a></h3>
+<pre><code class="lang-js">apt update
+apt upgrade
+wget -qO- https:<span class="hljs-comment">//raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash</span>
+source  /root/.bashrc
+nvm install stable
+npm install pm2 -g
+apt install nginx
+</code></pre>
+<h3 id="t136.4 添加应用">6.4 添加应用 <a href="#t136.4 添加应用"> # </a></h3>
+<ul>
+<li>域名   <a href="http://front.zhufengpeixun.cn">http://front.zhufengpeixun.cn</a></li>
+<li>回调地址 <a href="http://front.zhufengpeixun.cn/user/callback">http://front.zhufengpeixun.cn/user/callback</a></li>
+<li>网站名称 珠峰前端精华</li>
+<li>网站备案号 </li>
+<li>网站图标 </li>
+</ul>
+<h3 id="t146.5 编写应用">6.5 编写应用 <a href="#t146.5 编写应用"> # </a></h3>
+<h4 id="t156.5.1 QQ连接">6.5.1 QQ连接 <a href="#t156.5.1 QQ连接"> # </a></h4>
+<pre><code class="lang-js">https:<span class="hljs-comment">//graph.qq.com/oauth2.0/authorize?response_type=code&amp;client_id=101499238&amp;redirect_uri=http%3A%2F%2Ffront.zhufengpeixun.cn%2Fuser%2Fcallback&amp;scope=get_user_info"</span>
+</code></pre>
+<h4 id="t166.5.2 获取数据流程">6.5.2 获取数据流程 <a href="#t166.5.2 获取数据流程"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> client_id=<span class="hljs-string">'101499238'</span>;
+<span class="hljs-keyword">const</span> client_secret=<span class="hljs-string">"1af7ef89da1cbb3dae41465a1865a523"</span>;
+<span class="hljs-keyword">const</span> redirect_uri=<span class="hljs-string">'http://front.zhufengpeixun.cn/user/callback'</span>;
+<span class="hljs-keyword">const</span> code=<span class="hljs-string">'57C038D3AD7C5588570FF8F723EB57DE'</span>;
+<span class="hljs-keyword">const</span> request = <span class="hljs-built_in">require</span>(<span class="hljs-string">'then-jsonp'</span>);
+<span class="hljs-keyword">const</span> axios=<span class="hljs-built_in">require</span>(<span class="hljs-string">'axios'</span>);
+<span class="hljs-keyword">const</span> querystring=<span class="hljs-built_in">require</span>(<span class="hljs-string">'querystring'</span>);
+<span class="hljs-keyword">const</span> access_token=<span class="hljs-string">'0CF4BD6B1BA83606E20218E6BA16FF4A'</span>;
+<span class="hljs-keyword">const</span> refresh_token=<span class="hljs-string">'7E3C2110B9813BF714BA212094699F7F'</span>;
+<span class="hljs-keyword">const</span> openid=<span class="hljs-string">'0E302B779D8D4C72D21E3172C015682B'</span>;
+<span class="hljs-keyword">const</span> options={
+    <span class="hljs-attr">grant_type</span>: <span class="hljs-string">'authorization_code'</span>,
+    client_id,
+    client_secret,
+    code,
+    redirect_uri
+}
+<span class="hljs-keyword">const</span> query=querystring.stringify(options);
+
+ (<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">const</span> response=<span class="hljs-keyword">await</span> axios.get(<span class="hljs-string">`https://graph.qq.com/oauth2.0/token?<span class="hljs-subst">${query}</span>`</span>);
+    <span class="hljs-keyword">const</span> data=response.data;
+    <span class="hljs-keyword">const</span> result=querystring.parse(data);
+    <span class="hljs-keyword">return</span> result;
+})().then(<span class="hljs-function"><span class="hljs-params">ret</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(ret)); 
+
+(<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">const</span> response=<span class="hljs-keyword">await</span> request(<span class="hljs-string">'GET'</span>,<span class="hljs-string">`https://graph.qq.com/oauth2.0/me?access_token=<span class="hljs-subst">${access_token}</span>`</span>,{<span class="hljs-attr">callbackName</span>:<span class="hljs-string">"callback"</span>});
+    <span class="hljs-keyword">return</span> response;
+})().then(<span class="hljs-function"><span class="hljs-params">ret</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(ret));
+
+(<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">const</span> options={
+        <span class="hljs-attr">grant_type</span>: <span class="hljs-string">'refresh_token'</span>,
+        client_id,
+        client_secret,
+        refresh_token
+    }
+    <span class="hljs-keyword">const</span> query=querystring.stringify(options);
+    <span class="hljs-keyword">const</span> response=<span class="hljs-keyword">await</span> axios.get(<span class="hljs-string">`https://graph.qq.com/oauth2.0/token?<span class="hljs-subst">${query}</span>`</span>);
+    <span class="hljs-keyword">const</span> data=response.data;
+    <span class="hljs-keyword">const</span> result=querystring.parse(data);
+    <span class="hljs-keyword">return</span> result;
+})().then(<span class="hljs-function"><span class="hljs-params">ret</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(ret)); 
+
+(<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">const</span> options={
+        access_token,
+        <span class="hljs-attr">oauth_consumer_key</span>:client_id,
+        openid
+    }
+    <span class="hljs-keyword">const</span> query=querystring.stringify(options);
+    <span class="hljs-keyword">const</span> response=<span class="hljs-keyword">await</span> axios.get(<span class="hljs-string">`https://graph.qq.com/user/get_user_info?<span class="hljs-subst">${query}</span>`</span>);
+    <span class="hljs-keyword">const</span> data=response.data;
+    <span class="hljs-keyword">return</span> data;
+})().then(<span class="hljs-function"><span class="hljs-params">ret</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(ret));
+</code></pre>
+<ul>
+<li><a href="https://gitee.com/zhufengpeixun/qq-client">qq-client</a></li>
+</ul>
+<h2 id="t177.开发自己的Oauth系统">7.开发自己的Oauth系统 <a href="#t177.开发自己的Oauth系统"> # </a></h2>
+<h3 id="t187.1 开发客户端">7.1 开发客户端 <a href="#t187.1 开发客户端"> # </a></h3>
+<p><a href="https://gitee.com/zhufengpeixun/auth-client">auth-client</a></p>
+<h4 id="t197.1.1 config.js">7.1.1 config.js <a href="#t197.1.1 config.js"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-built_in">module</span>.exports={
+    <span class="hljs-attr">appId</span>: <span class="hljs-string">'38aa47d5-da52-417c-a742-1a341a689fcc'</span>,
+    <span class="hljs-attr">appKey</span>: <span class="hljs-string">'e49b9b51-7348-4d1e-be59-7bb3125d9337'</span>,
+    <span class="hljs-attr">redirect_uri</span>:<span class="hljs-string">'http://localhost:3000/user/callback'</span>,
+    <span class="hljs-attr">fetchAccessTokenUrl</span>: <span class="hljs-string">'http://localhost:4000/oauth2.0/token'</span>,
+    <span class="hljs-attr">fetchOpenIdUrl</span>: <span class="hljs-string">'http://localhost:4000/oauth2.0/me'</span>,
+    <span class="hljs-attr">getUserInfoUrl</span>:<span class="hljs-string">'http://localhost:4000/user/get_user_info'</span>
+}
+</code></pre>
+<h4 id="t207.1.2 utils.js">7.1.2 utils.js <a href="#t207.1.2 utils.js"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> {parse,format}=<span class="hljs-built_in">require</span>(<span class="hljs-string">'url'</span>);
+exports.addQueryParamsToUrl=<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">url,options</span>) </span>{
+    <span class="hljs-keyword">let</span> {protocol,host,pathname,query}=parse(url,<span class="hljs-literal">true</span>);
+    <span class="hljs-built_in">Object</span>.assign(query,options);
+    <span class="hljs-keyword">return</span> format({protocol,host,pathname,query});
+}
+</code></pre>
+<h4 id="t217.1.3 model.js">7.1.3 model.js <a href="#t217.1.3 model.js"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> mongoose=<span class="hljs-built_in">require</span>(<span class="hljs-string">'mongoose'</span>);
+<span class="hljs-comment">//https://github.com/Automattic/mongoose/issues/6880</span>
+mongoose.set(<span class="hljs-string">'useFindAndModify'</span>,<span class="hljs-literal">false</span>);
+<span class="hljs-keyword">const</span> opts = { <span class="hljs-attr">useNewUrlParser</span>: <span class="hljs-literal">true</span> };
+<span class="hljs-keyword">let</span> conn=mongoose.createConnection(<span class="hljs-string">'mongodb://localhost/client'</span>,opts);
+<span class="hljs-keyword">let</span> Schema=mongoose.Schema;
+
+<span class="hljs-keyword">let</span> UserSchema=<span class="hljs-keyword">new</span> Schema({
+    <span class="hljs-attr">access_token</span>: {<span class="hljs-attr">type</span>: <span class="hljs-built_in">String</span>,<span class="hljs-attr">required</span>: <span class="hljs-literal">true</span>},
+    <span class="hljs-attr">refresh_token</span>:<span class="hljs-built_in">String</span>,
+    <span class="hljs-attr">username</span>: {<span class="hljs-attr">type</span>:<span class="hljs-built_in">String</span>,<span class="hljs-attr">required</span>:<span class="hljs-literal">true</span>},
+    <span class="hljs-attr">avatar</span>:{<span class="hljs-attr">type</span>:<span class="hljs-built_in">String</span>,<span class="hljs-attr">required</span>:<span class="hljs-literal">true</span>}
+});
+
+exports.User=conn.model(<span class="hljs-string">'User'</span>,UserSchema);
+</code></pre>
+<h4 id="t227.1.4 app.js">7.1.4 app.js <a href="#t227.1.4 app.js"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> express=<span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>);
+<span class="hljs-keyword">const</span> path=<span class="hljs-built_in">require</span>(<span class="hljs-string">'path'</span>);
+<span class="hljs-keyword">const</span> session=<span class="hljs-built_in">require</span>(<span class="hljs-string">'express-session'</span>);
+<span class="hljs-keyword">const</span> bodyParser=<span class="hljs-built_in">require</span>(<span class="hljs-string">'body-parser'</span>);
+<span class="hljs-keyword">const</span> app=express();
+<span class="hljs-keyword">const</span> logger=<span class="hljs-built_in">require</span>(<span class="hljs-string">'morgan'</span>);
+<span class="hljs-keyword">const</span> oauth=<span class="hljs-built_in">require</span>(<span class="hljs-string">'./routes/oauth2'</span>);
+<span class="hljs-keyword">const</span> user=<span class="hljs-built_in">require</span>(<span class="hljs-string">'./routes/user'</span>);
+app.set(<span class="hljs-string">'view engine'</span>,<span class="hljs-string">'html'</span>);
+app.set(<span class="hljs-string">'views'</span>,path.resolve(__dirname,<span class="hljs-string">'views'</span>));
+app.engine(<span class="hljs-string">'html'</span>,<span class="hljs-built_in">require</span>(<span class="hljs-string">'ejs'</span>).__express);
+
+app.use(bodyParser.urlencoded({<span class="hljs-attr">extends</span>: <span class="hljs-literal">true</span>}));
+app.use(logger(<span class="hljs-string">'dev'</span>));
+app.use(session({
+    <span class="hljs-attr">secret</span>: <span class="hljs-string">'zfpx'</span>,
+    <span class="hljs-attr">saveUninitialized</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-attr">resave</span>:<span class="hljs-literal">true</span>
+}));
+app.use(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res,next</span>) </span>{
+    res.createError=<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">status,message</span>) </span>{
+        <span class="hljs-keyword">let</span> error=<span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(message);
+        error.code=<span class="hljs-number">1</span>;
+        error.status=status;
+        error.message=message;
+        <span class="hljs-keyword">return</span> error;
+    }
+    req.session.user={
+        <span class="hljs-string">"_id"</span>: <span class="hljs-string">"5b7f6f189d384c73a7ee9038"</span>,
+        <span class="hljs-string">"username"</span>: <span class="hljs-string">"zhangsan"</span>,
+        <span class="hljs-string">"password"</span>: <span class="hljs-string">"4"</span>,
+        <span class="hljs-string">"avatar"</span>:<span class="hljs-string">"http://www.gravatar.com/avatar/93e9084aa289b7f1f5e4ab6716a56c3b"</span>
+    };
+    next();
+});
+app.use(<span class="hljs-string">'/oauth2.0'</span>,oauth);
+app.use(<span class="hljs-string">'/user'</span>,user);
+app.use(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err,req,res,next</span>) </span>{
+    res.status(err.status||<span class="hljs-number">500</span>).json({<span class="hljs-attr">code</span>:err.code,<span class="hljs-attr">message</span>:err.message});
+});
+app.listen(<span class="hljs-number">4000</span>,() =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">`服务已经在4000端口上启动`</span>);
+});
+</code></pre>
+<h4 id="t237.1.5 user.js">7.1.5 user.js <a href="#t237.1.5 user.js"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> express=<span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>);
+<span class="hljs-keyword">const</span> axios=<span class="hljs-built_in">require</span>(<span class="hljs-string">'axios'</span>);
+<span class="hljs-keyword">const</span> {User}=<span class="hljs-built_in">require</span>(<span class="hljs-string">'../model'</span>);
+<span class="hljs-keyword">const</span> querystring = <span class="hljs-built_in">require</span>(<span class="hljs-string">'querystring'</span>);
+<span class="hljs-keyword">const</span> {appId,appKey,redirect_uri,fetchAccessTokenUrl,fetchOpenIdUrl,getUserInfoUrl}=<span class="hljs-built_in">require</span>(<span class="hljs-string">'../config'</span>);
+<span class="hljs-keyword">const</span> {addQueryParamsToUrl}=<span class="hljs-built_in">require</span>(<span class="hljs-string">'../utils'</span>);
+<span class="hljs-keyword">let</span> router=express.Router();
+router.get(<span class="hljs-string">'/login'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res</span>) </span>{
+    res.render(<span class="hljs-string">'login'</span>);
+});
+router.get(<span class="hljs-string">'/callback'</span>,<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res</span>) </span>{
+    <span class="hljs-keyword">let</span> {code}=req.query;
+    <span class="hljs-keyword">let</span> options={
+        <span class="hljs-attr">grant_type</span>: <span class="hljs-string">'authorization_code'</span>,
+        <span class="hljs-attr">client_id</span>: appId,
+        <span class="hljs-attr">client_secret</span>: appKey,
+        code,
+        redirect_uri
+    }
+    <span class="hljs-keyword">let</span> url=addQueryParamsToUrl(fetchAccessTokenUrl,options);
+    <span class="hljs-keyword">let</span> result=<span class="hljs-keyword">await</span> axios.get(url);
+    <span class="hljs-keyword">let</span> {access_token,expires_in,refresh_token}=querystring.parse(result.data);
+
+    url=addQueryParamsToUrl(fetchOpenIdUrl,{
+        access_token
+    });
+    result=<span class="hljs-keyword">await</span> axios.get(url);
+    <span class="hljs-keyword">let</span> start=result.data.indexOf(<span class="hljs-string">'{'</span>);
+    <span class="hljs-keyword">let</span> end=result.data.lastIndexOf(<span class="hljs-string">'}'</span>);
+    result.data=result.data.slice(start,end+<span class="hljs-number">1</span>);
+    <span class="hljs-keyword">let</span> {client_id,openid}=<span class="hljs-built_in">JSON</span>.parse(result.data);
+    url=addQueryParamsToUrl(getUserInfoUrl,{
+        access_token,
+        <span class="hljs-attr">oauth_consumer_key</span>: client_id,
+        openid
+    });
+    result=<span class="hljs-keyword">await</span> axios.get(url);
+    <span class="hljs-keyword">let</span> {username,avatar}=result.data;
+    <span class="hljs-keyword">let</span> user = <span class="hljs-keyword">await</span> User.create({
+        access_token,
+        refresh_token,
+        username,
+        avatar
+    });
+    req.session.user=user;
+    res.redirect(<span class="hljs-string">'/'</span>);
+});
+<span class="hljs-built_in">module</span>.exports=router;
+</code></pre>
+<h4 id="t247.1.6 login.html">7.1.6 login.html <a href="#t247.1.6 login.html"> # </a></h4>
+<pre><code class="lang-js">&lt;%include header.html%&gt;
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-md-12"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"http://localhost:4000/oauth2.0/authorize?response_type=code&amp;client_id=5b7f704beacb0274b068da17&amp;redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fuser%2Fcallback&amp;scope=list_album,get_user_info"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/images/qq.png"</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">%include</span> <span class="hljs-attr">footer.html</span>%&gt;</span>
+</span></code></pre>
+<h4 id="t257.1.7 index.html">7.1.7 index.html <a href="#t257.1.7 index.html"> # </a></h4>
+<pre><code class="lang-js">&lt;%include header.html%&gt;
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-md-12"</span>&gt;</span>
+        你已经登录，欢迎你 <span class="hljs-tag">&lt;<span class="hljs-name">%=user.username%</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"&lt;%=user.avatar%&gt;"</span>/&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">%include</span> <span class="hljs-attr">footer.html</span>%&gt;</span>
+</span></code></pre>
+<h3 id="t267.2 开发授权服务器">7.2 开发授权服务器 <a href="#t267.2 开发授权服务器"> # </a></h3>
+<p><a href="https://gitee.com/zhufengpeixun/auth-server">auth-server</a></p>
+<h4 id="t277.2.1 model.js">7.2.1 model.js <a href="#t277.2.1 model.js"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> mongoose=<span class="hljs-built_in">require</span>(<span class="hljs-string">'mongoose'</span>);
+<span class="hljs-comment">//https://github.com/Automattic/mongoose/issues/6880</span>
+mongoose.set(<span class="hljs-string">'useFindAndModify'</span>,<span class="hljs-literal">false</span>);
+<span class="hljs-keyword">const</span> opts = { <span class="hljs-attr">useNewUrlParser</span>: <span class="hljs-literal">true</span> };
+<span class="hljs-keyword">let</span> conn=mongoose.createConnection(<span class="hljs-string">'mongodb://localhost/oauth'</span>,opts);
+<span class="hljs-keyword">let</span> Schema=mongoose.Schema;
+<span class="hljs-keyword">let</span> ObjectId=Schema.Types.ObjectId;
+<span class="hljs-keyword">let</span> ApplicationSchema=<span class="hljs-keyword">new</span> Schema({
+    <span class="hljs-attr">appId</span>: {<span class="hljs-attr">type</span>:<span class="hljs-built_in">String</span>,<span class="hljs-attr">required</span>:<span class="hljs-literal">true</span>}, <span class="hljs-comment">//appId</span>
+    appKey: {<span class="hljs-attr">type</span>:<span class="hljs-built_in">String</span>,<span class="hljs-attr">required</span>:<span class="hljs-literal">true</span>}, <span class="hljs-comment">//appKey</span>
+    website: {<span class="hljs-attr">type</span>: <span class="hljs-built_in">String</span>,<span class="hljs-attr">required</span>: <span class="hljs-literal">true</span>}, <span class="hljs-comment">//网站名称</span>
+    redirect_uri: {<span class="hljs-attr">type</span>: <span class="hljs-built_in">String</span>,<span class="hljs-attr">required</span>: <span class="hljs-literal">true</span>}<span class="hljs-comment">//回调地址</span>
+});
+
+exports.Application=conn.model(<span class="hljs-string">'Application'</span>,ApplicationSchema);
+
+<span class="hljs-keyword">let</span> UserSchema=<span class="hljs-keyword">new</span> Schema({
+    <span class="hljs-attr">username</span>: {<span class="hljs-attr">type</span>:<span class="hljs-built_in">String</span>,<span class="hljs-attr">required</span>:<span class="hljs-literal">true</span>}, <span class="hljs-comment">//appId</span>
+    password: {<span class="hljs-attr">type</span>: <span class="hljs-built_in">String</span>,<span class="hljs-attr">required</span>: <span class="hljs-literal">true</span>}, <span class="hljs-comment">//appKey</span>
+    avatar:{<span class="hljs-attr">type</span>:<span class="hljs-built_in">String</span>,<span class="hljs-attr">required</span>:<span class="hljs-literal">true</span>}
+});
+
+exports.User=conn.model(<span class="hljs-string">'User'</span>,UserSchema);
+
+<span class="hljs-keyword">let</span> AuthorizationCodeSchema=<span class="hljs-keyword">new</span> Schema({
+    <span class="hljs-attr">client_id</span>: {<span class="hljs-attr">type</span>: <span class="hljs-built_in">String</span>,<span class="hljs-attr">required</span>: <span class="hljs-literal">true</span>}, 
+    <span class="hljs-attr">user</span>: {<span class="hljs-attr">type</span>: ObjectId,<span class="hljs-attr">ref</span>: <span class="hljs-string">'User'</span>,<span class="hljs-attr">required</span>:<span class="hljs-literal">true</span>}, 
+    <span class="hljs-attr">permissions</span>: {<span class="hljs-attr">type</span>: [{<span class="hljs-attr">type</span>:ObjectId,<span class="hljs-attr">ref</span>:<span class="hljs-string">'Permission'</span>}],<span class="hljs-attr">required</span>: <span class="hljs-literal">true</span>},
+    <span class="hljs-attr">createAt</span>:{<span class="hljs-attr">type</span>:<span class="hljs-built_in">Date</span>,<span class="hljs-attr">default</span>:<span class="hljs-built_in">Date</span>.now}<span class="hljs-comment">//10分钟内过期</span>
+});
+
+exports.AuthorizationCode=conn.model(<span class="hljs-string">'AuthorizationCode'</span>,AuthorizationCodeSchema);
+
+<span class="hljs-keyword">let</span> PermissionSchema=<span class="hljs-keyword">new</span> Schema({
+    <span class="hljs-attr">name</span>: {<span class="hljs-attr">type</span>:<span class="hljs-built_in">String</span>,<span class="hljs-attr">required</span>:<span class="hljs-literal">true</span>}, 
+    <span class="hljs-attr">scope</span>: {<span class="hljs-attr">type</span>: <span class="hljs-built_in">String</span>,<span class="hljs-attr">required</span>: <span class="hljs-literal">true</span>}
+});
+
+exports.Permission=conn.model(<span class="hljs-string">'Permission'</span>,PermissionSchema);
+
+<span class="hljs-keyword">let</span> AccessTokenSchema=<span class="hljs-keyword">new</span> Schema({
+    <span class="hljs-attr">client_id</span>: {<span class="hljs-attr">type</span>: <span class="hljs-built_in">String</span>,<span class="hljs-attr">required</span>: <span class="hljs-literal">true</span>}, 
+    <span class="hljs-attr">user</span>: {<span class="hljs-attr">type</span>: ObjectId,<span class="hljs-attr">ref</span>: <span class="hljs-string">'User'</span>,<span class="hljs-attr">required</span>:<span class="hljs-literal">true</span>}, 
+    <span class="hljs-attr">permissions</span>: {<span class="hljs-attr">type</span>: [{<span class="hljs-attr">type</span>: ObjectId,<span class="hljs-attr">ref</span>: <span class="hljs-string">'Permission'</span>}],<span class="hljs-attr">required</span>: <span class="hljs-literal">true</span>},
+    <span class="hljs-attr">refresh_token</span>:{<span class="hljs-attr">type</span>:<span class="hljs-built_in">String</span>},
+    <span class="hljs-attr">createAt</span>:{<span class="hljs-attr">type</span>:<span class="hljs-built_in">Date</span>,<span class="hljs-attr">default</span>:<span class="hljs-built_in">Date</span>.now}<span class="hljs-comment">//10分钟内过期</span>
+});
+
+exports.AccessToken=conn.model(<span class="hljs-string">'AccessToken'</span>,AccessTokenSchema);
+</code></pre>
+<h4 id="t287.2.2 mock.js">7.2.2 mock.js <a href="#t287.2.2 mock.js"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> uuid=<span class="hljs-built_in">require</span>(<span class="hljs-string">'uuid'</span>);
+<span class="hljs-keyword">let</span> {Application,User,AuthorizationCode,Permission}=<span class="hljs-built_in">require</span>(<span class="hljs-string">'./model'</span>);
+
+<span class="hljs-comment">/* User.create({username: 'zhangsan',password: '4'},(err,doc) =&gt; {
+    console.log(doc);
+}); */</span>
+
+<span class="hljs-keyword">let</span> appId=uuid.v4();<span class="hljs-comment">// 38aa47d5-da52-417c-a742-1a341a689fcc</span>
+<span class="hljs-keyword">let</span> appKey=uuid.v4();<span class="hljs-comment">// e49b9b51-7348-4d1e-be59-7bb3125d9337</span>
+<span class="hljs-keyword">let</span> redirect_uri=<span class="hljs-string">'http://localhost:3000/user/callback'</span>;
+<span class="hljs-keyword">let</span> encode_redirect_uri=<span class="hljs-built_in">encodeURIComponent</span>(redirect_uri);
+<span class="hljs-built_in">console</span>.log(encode_redirect_uri);
+<span class="hljs-comment">//let name='珠峰培训';</span>
+<span class="hljs-comment">/* Application.create({appId,appKey,redirect_uri,name},(err,doc) =&gt; {
+    console.log(doc);
+}); */</span>
+
+<span class="hljs-comment">//let name='获得您的昵称、头像、性别';</span>
+<span class="hljs-keyword">let</span> name=<span class="hljs-string">"获取登录用户的相册列表"</span>;
+<span class="hljs-comment">//let scope='get_user_info';//</span>
+<span class="hljs-keyword">let</span> scope=<span class="hljs-string">'list_album'</span>;
+<span class="hljs-comment">/* Permission.create({name,scope},(err,doc) =&gt; {
+    console.log(doc);
+}); */</span>
+</code></pre>
+<h4 id="t297.2.3 app.js">7.2.3 app.js <a href="#t297.2.3 app.js"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> express=<span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>);
+<span class="hljs-keyword">const</span> path=<span class="hljs-built_in">require</span>(<span class="hljs-string">'path'</span>);
+<span class="hljs-keyword">const</span> session=<span class="hljs-built_in">require</span>(<span class="hljs-string">'express-session'</span>);
+<span class="hljs-keyword">const</span> bodyParser=<span class="hljs-built_in">require</span>(<span class="hljs-string">'body-parser'</span>);
+<span class="hljs-keyword">const</span> app=express();
+<span class="hljs-keyword">const</span> logger=<span class="hljs-built_in">require</span>(<span class="hljs-string">'morgan'</span>);
+<span class="hljs-keyword">const</span> oauth=<span class="hljs-built_in">require</span>(<span class="hljs-string">'./routes/oauth2'</span>);
+<span class="hljs-keyword">const</span> user=<span class="hljs-built_in">require</span>(<span class="hljs-string">'./routes/user'</span>);
+app.set(<span class="hljs-string">'view engine'</span>,<span class="hljs-string">'html'</span>);
+app.set(<span class="hljs-string">'views'</span>,path.resolve(__dirname,<span class="hljs-string">'views'</span>));
+app.engine(<span class="hljs-string">'html'</span>,<span class="hljs-built_in">require</span>(<span class="hljs-string">'ejs'</span>).__express);
+
+app.use(bodyParser.urlencoded({<span class="hljs-attr">extends</span>: <span class="hljs-literal">true</span>}));
+app.use(logger(<span class="hljs-string">'dev'</span>));
+app.use(session({
+    <span class="hljs-attr">secret</span>: <span class="hljs-string">'zfpx'</span>,
+    <span class="hljs-attr">saveUninitialized</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-attr">resave</span>:<span class="hljs-literal">true</span>
+}));
+app.use(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res,next</span>) </span>{
+    res.createError=<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">status,message</span>) </span>{
+        <span class="hljs-keyword">let</span> error=<span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(message);
+        error.code=<span class="hljs-number">1</span>;
+        error.status=status;
+        error.message=message;
+        <span class="hljs-keyword">return</span> error;
+    }
+    req.session.user={
+        <span class="hljs-string">"_id"</span>: <span class="hljs-string">"5b7f6f189d384c73a7ee9038"</span>,
+        <span class="hljs-string">"username"</span>: <span class="hljs-string">"zhangsan"</span>,
+        <span class="hljs-string">"password"</span>: <span class="hljs-string">"4"</span>,
+        <span class="hljs-string">"avatar"</span>:<span class="hljs-string">"http://www.gravatar.com/avatar/93e9084aa289b7f1f5e4ab6716a56c3b"</span>
+    };
+    next();
+});
+app.use(<span class="hljs-string">'/oauth2.0'</span>,oauth);
+app.use(<span class="hljs-string">'/user'</span>,user);
+app.use(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err,req,res,next</span>) </span>{
+    res.status(err.status||<span class="hljs-number">500</span>).json({<span class="hljs-attr">code</span>:err.code,<span class="hljs-attr">message</span>:err.message});
+});
+app.listen(<span class="hljs-number">4000</span>,() =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">`服务已经在4000端口上启动`</span>);
+});
+</code></pre>
+<h4 id="t307.2.4 oauth2.js">7.2.4 oauth2.js <a href="#t307.2.4 oauth2.js"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> express=<span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>);
+<span class="hljs-keyword">let</span> uuid=<span class="hljs-built_in">require</span>(<span class="hljs-string">'uuid'</span>);
+<span class="hljs-keyword">const</span> querystring=<span class="hljs-built_in">require</span>(<span class="hljs-string">'querystring'</span>);
+<span class="hljs-keyword">const</span> {Application,Permission,AuthorizationCode,AccessToken}=<span class="hljs-built_in">require</span>(<span class="hljs-string">'../model'</span>);
+<span class="hljs-keyword">let</span> router=express.Router();
+router.get(<span class="hljs-string">'/authorize'</span>,<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res,next</span>) </span>{
+    <span class="hljs-comment">//http://localhost:4000/oauth2.0/authorize?response_type=code&amp;client_id=5b7f704beacb0274b068da17&amp;redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fuser%2Fcallback</span>
+    <span class="hljs-keyword">let</span> {response_type=<span class="hljs-string">'code'</span>,client_id,redirect_uri,scope=<span class="hljs-string">'get_user_info'</span>}=req.query;
+    <span class="hljs-keyword">if</span> (!client_id) {
+        <span class="hljs-keyword">return</span> next(res.createError(<span class="hljs-number">400</span>,<span class="hljs-string">'缺少 client_id 参数'</span>));
+    }
+    <span class="hljs-keyword">if</span> (!redirect_uri) {
+        <span class="hljs-keyword">return</span> next(res.createError(<span class="hljs-number">400</span>,<span class="hljs-string">'缺少 redirect_uri 参数'</span>));
+    }
+    redirect_uri=<span class="hljs-built_in">decodeURIComponent</span>(redirect_uri);
+    <span class="hljs-keyword">let</span> client=<span class="hljs-keyword">await</span> Application.findById(client_id);
+    <span class="hljs-keyword">if</span> (client.redirect_uri !== redirect_uri) {
+        <span class="hljs-keyword">return</span> next(res.createError(<span class="hljs-number">400</span>,<span class="hljs-string">'传入的回调地址不匹配'</span>));
+    }
+    <span class="hljs-keyword">let</span> query={<span class="hljs-attr">$or</span>: scope.split(<span class="hljs-string">','</span>).map(<span class="hljs-function"><span class="hljs-params">item</span> =&gt;</span> ({<span class="hljs-attr">scope</span>: item}))};
+    <span class="hljs-keyword">let</span> permissions=<span class="hljs-keyword">await</span> Permission.find(query);
+    res.render(<span class="hljs-string">'authorize'</span>,{
+        <span class="hljs-attr">user</span>:req.session.user,
+        client,
+        permissions
+    });    
+});
+
+router.post(<span class="hljs-string">'/authorize'</span>,<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res,next</span>) </span>{
+    <span class="hljs-keyword">let</span> {client_id,redirect_uri}=req.query;
+    <span class="hljs-keyword">let</span> {permissions}=req.body;
+    <span class="hljs-keyword">if</span> (!<span class="hljs-built_in">Array</span>.isArray(permissions)) {
+        permissions=[permissions]
+    }
+    <span class="hljs-keyword">let</span> authorizationCode=<span class="hljs-keyword">await</span> AuthorizationCode.create({
+        client_id,
+        <span class="hljs-attr">user</span>: req.session.user._id,
+        permissions
+    });
+    res.redirect(<span class="hljs-string">`<span class="hljs-subst">${redirect_uri}</span>?code=<span class="hljs-subst">${authorizationCode._id}</span>`</span>);
+});
+
+router.get(<span class="hljs-string">'/token'</span>,<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res,next</span>) </span>{
+    <span class="hljs-keyword">let</span> {grant_type,client_id,client_secret,code,redirect_uri}=req.query;
+    <span class="hljs-keyword">let</span> authorizationCode=<span class="hljs-keyword">await</span> AuthorizationCode.findById(code);
+    <span class="hljs-keyword">if</span> (!authorizationCode) {
+        <span class="hljs-keyword">return</span> next(res.createError(<span class="hljs-number">400</span>,<span class="hljs-string">'授权码错误'</span>));
+    }
+    <span class="hljs-keyword">let</span> accessToken=<span class="hljs-keyword">await</span> AccessToken.create({
+        <span class="hljs-attr">client_id</span>: authorizationCode.client_id,
+        <span class="hljs-attr">user</span>:authorizationCode.user,
+        <span class="hljs-attr">refresh_token</span>: uuid.v4(),
+        <span class="hljs-attr">permissions</span>:authorizationCode.permissions
+    });
+    <span class="hljs-keyword">let</span> result={<span class="hljs-attr">access_token</span>: accessToken._id.toString(),<span class="hljs-attr">expires_in</span>: <span class="hljs-number">60</span>*<span class="hljs-number">60</span>*<span class="hljs-number">24</span>*<span class="hljs-number">90</span>};
+    res.send(querystring.stringify(result));
+});
+
+router.get(<span class="hljs-string">'/me'</span>,<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res,next</span>) </span>{
+    <span class="hljs-keyword">let</span> {access_token}=req.query;
+    <span class="hljs-keyword">if</span> (!access_token) {
+        <span class="hljs-keyword">return</span> next(res.createError(<span class="hljs-number">400</span>,<span class="hljs-string">'access_token未提供'</span>));
+    }
+    <span class="hljs-keyword">let</span> {client_id,<span class="hljs-attr">user</span>:openid} = <span class="hljs-keyword">await</span> AccessToken.findById(access_token);
+    <span class="hljs-keyword">let</span> result={
+        client_id,
+        openid
+    }
+    res.send(<span class="hljs-string">`callback(<span class="hljs-subst">${<span class="hljs-built_in">JSON</span>.stringify(result)}</span>)`</span>);    
+});
+<span class="hljs-built_in">module</span>.exports=router;
+</code></pre>
+<h4 id="t317.2.5 routes/users.js">7.2.5 routes/users.js <a href="#t317.2.5 routes/users.js"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>);
+<span class="hljs-keyword">const</span> {User} = <span class="hljs-built_in">require</span>(<span class="hljs-string">'../model'</span>);
+<span class="hljs-keyword">let</span> router=express.Router();
+router.get(<span class="hljs-string">'/get_user_info'</span>,<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res</span>) </span>{
+    <span class="hljs-keyword">let</span> {access_token,oauth_consumer_key,openid}=req.query;
+    <span class="hljs-keyword">let</span> user = <span class="hljs-keyword">await</span> User.findById(openid);
+    res.json(user);
+});
+<span class="hljs-built_in">module</span>.exports=router;
+</code></pre>
+<h4 id="t327.2.6 authorize.html">7.2.6 authorize.html <a href="#t327.2.6 authorize.html"> # </a></h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">%include</span> <span class="hljs-attr">header.html</span>%&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-md-12"</span>&gt;</span>
+       <span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">method</span>=<span class="hljs-string">"POST"</span>&gt;</span>
+           <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-md-6"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"panel panel-default"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"panel-heading"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">h4</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text-center"</span>&gt;</span>快速登录<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"panel-body text-center"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"&lt;%=user.avatar%&gt;"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"display:inline-block"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"img-responsive"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"头像"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"panel-footer text-center"</span>&gt;</span>
+                      <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"submit"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-primary"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"授权并登录"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-md-6"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list-group"</span>&gt;</span>
+                 <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list-group-item"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">%=client.website%</span>&gt;</span>将获得以下权限：<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                 <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list-group-item"</span>&gt;</span>
+                   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"checkbox"</span>&gt;</span>
+                           <span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"checkbox"</span>&gt;</span>全选
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+                   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                   <span class="hljs-tag">&lt;<span class="hljs-name">%permissions.forEach(function(permission){%</span>&gt;</span>
+                      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"checkbox"</span>&gt;</span>
+                           <span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"checkbox"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"permissions"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"&lt;%=permission._id%&gt;"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">%=permission.name%</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+                      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                   <span class="hljs-tag">&lt;<span class="hljs-name">%})%</span>&gt;</span>
+                 <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                 <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list-group-item"</span>&gt;</span>授权后表明你已同意 QQ登录服务协议<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+       <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">%include</span> <span class="hljs-attr">footer.html</span>%&gt;</span>
+</code></pre>
+<h2 id="t338. 参考资料">8. 参考资料 <a href="#t338. 参考资料"> # </a></h2>
+<ul>
+<li><a href="http://www.rfcreader.com/#rfc6749">rfc6749</a></li>
+<li><a href="https://connect.qq.com/">QQ互联</a></li>
+<li><a href="http://wiki.connect.qq.com/%E5%BC%80%E5%8F%91%E6%94%BB%E7%95%A5_server-side#Step2.EF.BC.9A.E8.8E.B7.E5.8F.96AuthorizationCode"> 开发攻略_Server-side的Step2和Step3</a></li>
+<li><a href="http://wiki.connect.qq.com/%E4%BD%BF%E7%94%A8authorization_code%E8%8E%B7%E5%8F%96access_token">使用Authorization Code获取Access Token</a></li>
+<li><a href="http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html">理解OAuth 2.0</a></li>
+</ul>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

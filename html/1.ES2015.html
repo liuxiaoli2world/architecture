@@ -1,0 +1,724 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li class="active"><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t0ECMAScript6">ECMAScript6</a></li><li><a href="#t11. 作用域变量">1. 作用域变量</a><ul><li><a href="#t21.1 var的问题">1.1 var的问题</a></li><li><a href="#t31.2 块级作用域">1.2 块级作用域</a><ul><li><a href="#t41.2.1 实现块级作用域">1.2.1 实现块级作用域</a></li><li><a href="#t51.2.2 不会污染全局对象">1.2.2 不会污染全局对象</a></li><li><a href="#t61.2.3 for循环中也可以使用i">1.2.3 for循环中也可以使用i</a></li><li><a href="#t71.2.4 重复定义会报错">1.2.4 重复定义会报错</a></li><li><a href="#t81.2.5 不存在变量的预解释">1.2.5 不存在变量的预解释</a></li><li><a href="#t91.2.6 闭包的新写法">1.2.6 闭包的新写法</a></li></ul></li></ul></li><li><a href="#t102. 常量">2. 常量</a><ul><li><a href="#t112.1 常量不能重新赋值">2.1 常量不能重新赋值</a></li><li><a href="#t122.2 变量值可改变">2.2 变量值可改变</a></li><li><a href="#t132.3 不同的块级作用域可以多次定义">2.3 不同的块级作用域可以多次定义</a></li></ul></li><li><a href="#t143. 解构">3. 解构</a><ul><li><a href="#t153.1 解析数组">3.1 解析数组</a></li><li><a href="#t163.2 嵌套赋值">3.2 嵌套赋值</a></li><li><a href="#t173.3 省略赋值">3.3 省略赋值</a></li><li><a href="#t183.4 解构对象">3.4 解构对象</a></li><li><a href="#t193.5 默认值">3.5 默认值</a></li></ul></li><li><a href="#t204. 字符串">4. 字符串</a><ul><li><a href="#t214.1 模板字符串">4.1 模板字符串</a></li><li><a href="#t224.2 带标签的模板字符串">4.2 带标签的模板字符串</a></li><li><a href="#t234.3  字符串新方法">4.3  字符串新方法</a></li><li><a href="#t244.4 repeat">4.4 repeat</a></li></ul></li><li><a href="#t255. 函数">5. 函数</a><ul><li><a href="#t265.1 默认参数">5.1 默认参数</a></li><li><a href="#t275.2 展开操作符">5.2 展开操作符</a></li><li><a href="#t285.3 剩余操作符">5.3 剩余操作符</a></li><li><a href="#t295.4 解构参数">5.4 解构参数</a></li><li><a href="#t305.5 函数的名字">5.5 函数的名字</a></li><li><a href="#t315.6 箭头函数">5.6 箭头函数</a></li><li><a href="#t325.7 数组的新方法">5.7 数组的新方法</a><ul><li><a href="#t335.7.1 from">5.7.1 from</a></li><li><a href="#t345.7.2 Array.of">5.7.2 Array.of</a></li><li><a href="#t355.7.3 copyWithin">5.7.3 copyWithin</a></li><li><a href="#t365.7.4 find">5.7.4 find</a></li><li><a href="#t375.7.5 fill">5.7.5 fill</a></li><li><a href="#t385.7.5 map">5.7.5 map</a></li><li><a href="#t395.7.6 reduce">5.7.6 reduce</a></li><li><a href="#t405.7.7 filter">5.7.7 filter</a></li><li><a href="#t415.7.8 forEach">5.7.8 forEach</a></li></ul></li></ul></li><li><a href="#t426. 对象">6. 对象</a><ul><li><a href="#t436.1 对象字面量">6.1 对象字面量</a></li><li><a href="#t446.2 Object.is">6.2 Object.is</a></li><li><a href="#t456.3 Object.assign">6.3 Object.assign</a></li><li><a href="#t466.4 Object.setPrototypeOf">6.4 Object.setPrototypeOf</a></li><li><a href="#t476.5 proto">6.5 proto</a></li><li><a href="#t486.6 super">6.6 super</a></li></ul></li><li><a href="#t497. 类">7. 类</a><ul><li><a href="#t507.1 class">7.1 class</a></li><li><a href="#t517.2 get与set">7.2 get与set</a></li><li><a href="#t527.3 静态方法-static">7.3 静态方法-static</a></li><li><a href="#t537.4 继承extends">7.4 继承extends</a></li></ul></li><li><a href="#t548.生成器(Generator)与迭代器(Iterator)">8.生成器(Generator)与迭代器(Iterator)</a><ul><li><a href="#t558.1 Iterators模拟">8.1 Iterators模拟</a></li><li><a href="#t568.2 Generators">8.2 Generators</a></li></ul></li><li><a href="#t579.集合">9.集合</a><ul><li><a href="#t589.1 Set">9.1 Set</a></li><li><a href="#t599.2 Map">9.2 Map</a></li></ul></li><li><a href="#t6010.模块">10.模块</a><ul><li><a href="#t6110.1 模块">10.1 模块</a></li><li><a href="#t6210.2 重命名">10.2 重命名</a></li><li><a href="#t6310.3 默认导出">10.3 默认导出</a></li><li><a href="#t6411 深度克隆">11 深度克隆</a></li></ul></li><li><a href="#t65作业">作业</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t0ECMAScript6">ECMAScript6 <a href="#t0ECMAScript6"> # </a></h2>
+<p>ECMAScript简称就是ES,你可以把它看成是一套标准,JavaScript就是实施了这套标准的一门语言,现在主流浏览器使用的是ECMAScript5。</p>
+<p><a href="http://babeljs.io/repl">http://babeljs.io/repl</a></p>
+<h2 id="t11. 作用域变量">1. 作用域变量 <a href="#t11. 作用域变量"> # </a></h2>
+<p>作用域就是一个变量的作用范围。也就是你声明一个变量以后,这个变量可以在什么场合下使用
+以前的<em>JavaScript</em>只有全局作用域，还有一个函数作用域</p>
+<h3 id="t21.1 var的问题">1.1 var的问题 <a href="#t21.1 var的问题"> # </a></h3>
+<ol>
+<li><p>var没有块级作用域，定义后在当前闭包中都可以访问，如果变量名重复，就会覆盖前面定义的变量，并且也有可能被其他人更改。</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">if</span> (<span class="hljs-literal">true</span>) {
+     <span class="hljs-keyword">var</span> a = <span class="hljs-string">"a"</span>; <span class="hljs-comment">// 期望a是某一个值</span>
+ }
+<span class="hljs-built_in">console</span>.log(a);
+</code></pre>
+</li>
+<li><p>var在for循环标记变量共享，一般在循环中使用的i会被共享，其本质上也是由于没有块级作用域造成的</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">3</span>; i++) {
+     setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+         alert(i);
+     }, <span class="hljs-number">0</span>);
+ }
+</code></pre>
+<blockquote>
+<p>结果<br>
+弹窗三次 <code>3</code></p>
+</blockquote>
+</li>
+</ol>
+<h3 id="t31.2 块级作用域">1.2 块级作用域 <a href="#t31.2 块级作用域"> # </a></h3>
+<p>在用var定义变量的时候，变量是通过闭包进行隔离的，现在用了let，不仅仅可以通过闭包隔离，还增加了一些块级作用域隔离。
+块级作用用一组大括号定义一个块,使用 let 定义的变量在大括号的外面是访问不到的</p>
+<h4 id="t41.2.1 实现块级作用域">1.2.1 实现块级作用域 <a href="#t41.2.1 实现块级作用域"> # </a></h4>
+<pre><code class="lang-javascript"><span class="hljs-keyword">if</span>(<span class="hljs-literal">true</span>){
+    <span class="hljs-keyword">let</span> name = <span class="hljs-string">'zfpx'</span>;
+}
+<span class="hljs-built_in">console</span>.log(name);<span class="hljs-comment">// ReferenceError: name is not defined</span>
+</code></pre>
+<h4 id="t51.2.2 不会污染全局对象">1.2.2 不会污染全局对象 <a href="#t51.2.2 不会污染全局对象"> # </a></h4>
+<pre><code class="lang-javascript"><span class="hljs-keyword">if</span>(<span class="hljs-literal">true</span>){
+    <span class="hljs-keyword">let</span> name = <span class="hljs-string">'zfpx'</span>;
+}
+<span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">window</span>.name);
+</code></pre>
+<blockquote>
+<p>结果
+undefined</p>
+</blockquote>
+<h4 id="t61.2.3 for循环中也可以使用i">1.2.3 for循环中也可以使用i <a href="#t61.2.3 for循环中也可以使用i"> # </a></h4>
+<pre><code class="lang-javascript"><span class="hljs-comment">// 嵌套循环不会相互影响</span>
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">3</span>; i++) {
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"out"</span>, i);
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">2</span>; i++) {
+            <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"in"</span>, i);
+        }
+    }
+</code></pre>
+<blockquote>
+<p>结果
+out 0
+in 0
+in 1
+out 1
+in 0
+in 1
+out 2
+in 0
+in 1</p>
+</blockquote>
+<h4 id="t71.2.4 重复定义会报错">1.2.4 重复定义会报错 <a href="#t71.2.4 重复定义会报错"> # </a></h4>
+<pre><code class="lang-javascript"><span class="hljs-keyword">if</span>(<span class="hljs-literal">true</span>){
+    <span class="hljs-keyword">let</span> a = <span class="hljs-number">1</span>;
+    <span class="hljs-keyword">let</span> a = <span class="hljs-number">2</span>; <span class="hljs-comment">//Identifier 'a' has already been declared</span>
+}
+</code></pre>
+<h4 id="t81.2.5 不存在变量的预解释">1.2.5 不存在变量的预解释 <a href="#t81.2.5 不存在变量的预解释"> # </a></h4>
+<pre><code class="lang-javascript"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">2</span>; i ++){
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'inner'</span>,i);
+    <span class="hljs-keyword">let</span> i = <span class="hljs-number">100</span>;
+}
+</code></pre>
+<blockquote>
+<p>结果
+<strong>i is not defined</strong></p>
+</blockquote>
+<h4 id="t91.2.6 闭包的新写法">1.2.6 闭包的新写法 <a href="#t91.2.6 闭包的新写法"> # </a></h4>
+<p>以前</p>
+<pre><code class="lang-javascript">;(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+
+})();
+</code></pre>
+<p>现在</p>
+<pre><code class="lang-javascript">{
+}
+</code></pre>
+<h2 id="t102. 常量">2. 常量 <a href="#t102. 常量"> # </a></h2>
+<p>使用<code>const</code>我们可以去声明一个常量，常量一旦赋值就不能再修改了</p>
+<h3 id="t112.1 常量不能重新赋值">2.1 常量不能重新赋值 <a href="#t112.1 常量不能重新赋值"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> MY_NAME = <span class="hljs-string">'zfpx'</span>;
+MY_NAME = <span class="hljs-string">'zfpx2'</span>;<span class="hljs-comment">//Assignment to constant variable</span>
+</code></pre>
+<h3 id="t122.2 变量值可改变">2.2 变量值可改变 <a href="#t122.2 变量值可改变"> # </a></h3>
+<blockquote>
+<p>注意<code>const</code>限制的是不能给变量重新赋值，而变量的值本身是可以改变的,下面的操作是可以的</p>
+</blockquote>
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> names = [<span class="hljs-string">'zfpx1'</span>];
+names.push(<span class="hljs-string">'zfpx2'</span>);
+<span class="hljs-built_in">console</span>.log(names);
+</code></pre>
+<h3 id="t132.3 不同的块级作用域可以多次定义">2.3 不同的块级作用域可以多次定义 <a href="#t132.3 不同的块级作用域可以多次定义"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> A = <span class="hljs-string">"0"</span>;
+{
+    <span class="hljs-keyword">const</span> A = <span class="hljs-string">"A"</span>;
+    <span class="hljs-built_in">console</span>.log(A)
+}
+{
+    <span class="hljs-keyword">const</span> A = <span class="hljs-string">"B"</span>;
+    <span class="hljs-built_in">console</span>.log(A)
+}
+<span class="hljs-built_in">console</span>.log(A)
+</code></pre>
+<blockquote>
+<p>结果
+A
+B
+0</p>
+</blockquote>
+<h2 id="t143. 解构">3. 解构 <a href="#t143. 解构"> # </a></h2>
+<h3 id="t153.1 解析数组">3.1 解析数组 <a href="#t153.1 解析数组"> # </a></h3>
+<p>解构意思就是分解一个东西的结构,可以用一种类似数组的方式定义N个变量，可以将一个数组中的值按照规则赋值过去。</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> [name,age] = [<span class="hljs-string">'zfpx'</span>,<span class="hljs-number">8</span>];
+<span class="hljs-built_in">console</span>.log(name,age);
+</code></pre>
+<h3 id="t163.2 嵌套赋值">3.2 嵌套赋值 <a href="#t163.2 嵌套赋值"> # </a></h3>
+<pre><code class="lang-javascript">    <span class="hljs-keyword">let</span> [x, [y], z] = [<span class="hljs-number">1</span>, [<span class="hljs-number">2.1</span>, <span class="hljs-number">2.2</span>]];
+    <span class="hljs-built_in">console</span>.log(x, y, z);
+
+    <span class="hljs-keyword">let</span> [x, [y,z]] = [<span class="hljs-number">1</span>, [<span class="hljs-number">2.1</span>, <span class="hljs-number">2.2</span>]];
+    <span class="hljs-built_in">console</span>.log(x,y,z);
+
+    <span class="hljs-keyword">let</span> [json,arr,num] = [{<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx'</span>},[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>],<span class="hljs-number">3</span>];
+    <span class="hljs-built_in">console</span>.log(json,arr,num);
+</code></pre>
+<blockquote>
+<p>1 2.1 undefined
+1 2.1 2.2
+{ name: 'zfpx' } [ 1, 2 ] 3</p>
+</blockquote>
+<h3 id="t173.3 省略赋值">3.3 省略赋值 <a href="#t173.3 省略赋值"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> [, , x] = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];
+<span class="hljs-built_in">console</span>.log(x);
+</code></pre>
+<h3 id="t183.4 解构对象">3.4 解构对象 <a href="#t183.4 解构对象"> # </a></h3>
+<p>对象也可以被解构</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> obj = {<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx'</span>,<span class="hljs-attr">age</span>:<span class="hljs-number">8</span>};
+<span class="hljs-comment">//对象里的name属性的值会交给name这个变量，age的值会交给age这个变量</span>
+<span class="hljs-keyword">var</span> {name,age} = obj;
+<span class="hljs-comment">//对象里的name属性的值会交给myname这个变量，age的值会交给myage这个变量</span>
+<span class="hljs-keyword">let</span> {<span class="hljs-attr">name</span>: myname, <span class="hljs-attr">age</span>: myage} = obj;
+<span class="hljs-built_in">console</span>.log(name,age,myname,myage);
+</code></pre>
+<h3 id="t193.5 默认值">3.5 默认值 <a href="#t193.5 默认值"> # </a></h3>
+<p>在赋值和传参的时候可以使用默认值</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> [a = <span class="hljs-string">"a"</span>, b = <span class="hljs-string">"b"</span>, c =<span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">'C必须指定'</span>)] = [<span class="hljs-number">1</span>, , <span class="hljs-number">3</span>];
+<span class="hljs-built_in">console</span>.log(a, b, c);
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">ajax</span> (<span class="hljs-params">options</span>) </span>{
+    <span class="hljs-keyword">var</span> method = options.method || <span class="hljs-string">"get"</span>;
+    <span class="hljs-keyword">var</span> data = options.data || {};
+    <span class="hljs-comment">//.....</span>
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">ajax</span> (<span class="hljs-params">{method = <span class="hljs-string">"get"</span>, data}</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">arguments</span>);
+}
+ajax({
+    <span class="hljs-attr">method</span>: <span class="hljs-string">"post"</span>,
+    <span class="hljs-attr">data</span>: {<span class="hljs-string">"name"</span>: <span class="hljs-string">"zfpx"</span>}
+});
+
+</code></pre>
+<h2 id="t204. 字符串">4. 字符串 <a href="#t204. 字符串"> # </a></h2>
+<h3 id="t214.1 模板字符串">4.1 模板字符串 <a href="#t214.1 模板字符串"> # </a></h3>
+<p>模板字符串用反引号(数字1左边的那个键)包含，其中的变量用<code>${}</code>括起来</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> name = <span class="hljs-string">'zfpx'</span>,age = <span class="hljs-number">8</span>;
+<span class="hljs-keyword">let</span> desc = <span class="hljs-string">`<span class="hljs-subst">${name}</span> is <span class="hljs-subst">${age}</span> old!`</span>;
+<span class="hljs-built_in">console</span>.log(desc);
+
+<span class="hljs-comment">//所有模板字符串的空格和换行，都是被保留的</span>
+<span class="hljs-keyword">var</span> str = <span class="hljs-string">`&lt;ul&gt;
+&lt;li&gt;a&lt;/li&gt;
+&lt;li&gt;b&lt;/li&gt;
+&lt;/ul&gt;`</span>;
+<span class="hljs-built_in">console</span>.log(str);
+</code></pre>
+<blockquote>
+<p>其中的变量会用变量的值替换掉</p>
+</blockquote>
+<pre><code>function replace(desc){
+  return desc.replace(/\$\{([^}]+)\}/g,function(matched,key){
+    return eval(key);
+  });
+}
+</code></pre><h3 id="t224.2 带标签的模板字符串">4.2 带标签的模板字符串 <a href="#t224.2 带标签的模板字符串"> # </a></h3>
+<p>可以在模板字符串的前面添加一个标签，这个标签可以去处理模板字符串
+标签其实就是一个函数,函数可以接收两个参数,一个是<code>strings</code>,就是模板字符串里的每个部分的字符
+还有一个参数可以使用<code>rest</code>的形式<code>values</code>,这个参数里面是模板字符串里的值</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> name = <span class="hljs-string">'zfpx'</span>,age = <span class="hljs-number">8</span>;
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">desc</span>(<span class="hljs-params">strings,...values</span>)</span>{
+    <span class="hljs-built_in">console</span>.log(strings,values);
+}
+desc<span class="hljs-string">`<span class="hljs-subst">${name}</span> is <span class="hljs-subst">${age}</span> old!`</span>;
+
+</code></pre>
+<h3 id="t234.3  字符串新方法">4.3  字符串新方法 <a href="#t234.3  字符串新方法"> # </a></h3>
+<ul>
+<li>includes()：返回布尔值，表示是否找到了参数字符串。</li>
+<li>startsWith()：返回布尔值，表示参数字符串是否在源字符串的头部。</li>
+<li>endsWith()：返回布尔值，表示参数字符串是否在源字符串的尾部。</li>
+</ul>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> s = <span class="hljs-string">'zfpx'</span>;
+s.startsWith(<span class="hljs-string">'z'</span>) <span class="hljs-comment">// true</span>
+s.endsWith(<span class="hljs-string">'x'</span>) <span class="hljs-comment">// true</span>
+s.includes(<span class="hljs-string">'p'</span>) <span class="hljs-comment">// true</span>
+</code></pre>
+<p>第二个参数，表示开始搜索的位置</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> s = <span class="hljs-string">'zfpx'</span>;
+<span class="hljs-built_in">console</span>.log(s.startsWith(<span class="hljs-string">'p'</span>,<span class="hljs-number">2</span>)); <span class="hljs-comment">// true</span>
+<span class="hljs-built_in">console</span>.log(s.endsWith(<span class="hljs-string">'f'</span>,<span class="hljs-number">2</span>)); <span class="hljs-comment">// true</span>
+<span class="hljs-built_in">console</span>.log(s.includes(<span class="hljs-string">'f'</span>,<span class="hljs-number">2</span>)); <span class="hljs-comment">// false</span>
+</code></pre>
+<blockquote>
+<p>endsWith的行为与其他两个方法有所不同。它针对前n个字符，而其他两个方法针对从第n个位置直到字符串结束</p>
+</blockquote>
+<h3 id="t244.4 repeat">4.4 repeat <a href="#t244.4 repeat"> # </a></h3>
+<p>repeat方法返回一个新字符串，表示将原字符串重复n次。</p>
+<pre><code class="lang-javascript"><span class="hljs-string">'x'</span>.repeat(<span class="hljs-number">3</span>);
+<span class="hljs-string">'x'</span>.repeat(<span class="hljs-number">0</span>);
+</code></pre>
+<h2 id="t255. 函数">5. 函数 <a href="#t255. 函数"> # </a></h2>
+<h3 id="t265.1 默认参数">5.1 默认参数 <a href="#t265.1 默认参数"> # </a></h3>
+<p>可以给定义的函数接收的参数设置默认的值
+在执行这个函数的时候，如果不指定函数的参数的值，就会使用参数的这些默认的值</p>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">ajax</span>(<span class="hljs-params">url,method=<span class="hljs-string">'GET'</span>,dataType=<span class="hljs-string">"json"</span></span>)</span>{
+  <span class="hljs-built_in">console</span>.log(url);
+  <span class="hljs-built_in">console</span>.log(method);
+  <span class="hljs-built_in">console</span>.log(dataType);
+}
+</code></pre>
+<h3 id="t275.2 展开操作符">5.2 展开操作符 <a href="#t275.2 展开操作符"> # </a></h3>
+<p>把...放在数组前面可以把一个数组进行展开,可以把一个数组直接传入一个函数而不需要使用<code>apply</code></p>
+<pre><code class="lang-javascript"><span class="hljs-comment">//传入参数</span>
+<span class="hljs-keyword">let</span> print = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,b,c</span>)</span>{
+    <span class="hljs-built_in">console</span>.log(a,b,c);
+}
+print([<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>]);
+print(...[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>]);
+
+<span class="hljs-comment">// 可以替代apply</span>
+<span class="hljs-keyword">var</span> m1 = <span class="hljs-built_in">Math</span>.max.apply(<span class="hljs-literal">null</span>, [<span class="hljs-number">8</span>, <span class="hljs-number">9</span>, <span class="hljs-number">4</span>, <span class="hljs-number">1</span>]);
+<span class="hljs-keyword">var</span> m2 = <span class="hljs-built_in">Math</span>.max(...[<span class="hljs-number">8</span>, <span class="hljs-number">9</span>, <span class="hljs-number">4</span>, <span class="hljs-number">1</span>]);
+
+<span class="hljs-comment">// 可以替代concat</span>
+<span class="hljs-keyword">var</span> arr1 = [<span class="hljs-number">1</span>, <span class="hljs-number">3</span>];
+<span class="hljs-keyword">var</span> arr2 = [<span class="hljs-number">3</span>, <span class="hljs-number">5</span>];
+<span class="hljs-keyword">var</span> arr3 = arr1.concat(arr2);
+<span class="hljs-keyword">var</span> arr4 = [...arr1, ...arr2];
+<span class="hljs-built_in">console</span>.log(arr3,arr4);
+
+<span class="hljs-comment">//类数组的转数组</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">max</span>(<span class="hljs-params">a,b,c</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">Math</span>.max(...arguments));
+}
+max(<span class="hljs-number">1</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>);
+</code></pre>
+<h3 id="t285.3 剩余操作符">5.3 剩余操作符 <a href="#t285.3 剩余操作符"> # </a></h3>
+<p>剩余操作符可以把其余的参数的值都放到一个叫<code>b</code>的数组里面</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> rest = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">a,...rest</span>)</span>{
+    <span class="hljs-built_in">console</span>.log(a,rest);
+}
+rest(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>);
+</code></pre>
+<h3 id="t295.4 解构参数">5.4 解构参数 <a href="#t295.4 解构参数"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> destruct = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">{name,age}</span>)</span>{
+    <span class="hljs-built_in">console</span>.log(name,age);
+}
+destruct({<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx'</span>,<span class="hljs-attr">age</span>:<span class="hljs-number">6</span>});
+</code></pre>
+<h3 id="t305.5 函数的名字">5.5 函数的名字 <a href="#t305.5 函数的名字"> # </a></h3>
+<p>ECMAScript 6 给函数添加了一个<code>name</code>属性</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> desc = <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">descname</span>(<span class="hljs-params"></span>)</span>{}
+<span class="hljs-built_in">console</span>.log(desc.name);
+</code></pre>
+<h3 id="t315.6 箭头函数">5.6 箭头函数 <a href="#t315.6 箭头函数"> # </a></h3>
+<p>箭头函数简化了函数的的定义方式，一般以 "=&gt;" 操作符左边为输入的参数，而右边则是进行的操作以及返回的值<code>inputs=&gt;output</code></p>
+<pre><code class="lang-javascript">[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>].forEach(<span class="hljs-function"><span class="hljs-params">val</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(val)););
+</code></pre>
+<blockquote>
+<p>输入参数如果多于一个要用()包起来，函数体如果有多条语句需要用{}包起来</p>
+</blockquote>
+<p>箭头函数根本没有自己的this，导致内部的this就是外层代码块的this。
+正是因为它没有this，从而避免了this指向的问题。</p>
+<pre><code class="lang-diff">var person = {
+    name:'zfpx',
+    getName:function(){
+<span class="hljs-deletion">-        setTimeout(function(){console.log(this);},1000); //在浏览器执行的话this指向window</span>
+<span class="hljs-addition">+        setTimeout(() =&gt; console.log(this),1000);//在浏览器执行的话this指向person</span>
+    }
+}
+person.getName();
+</code></pre>
+<h3 id="t325.7 数组的新方法">5.7 数组的新方法 <a href="#t325.7 数组的新方法"> # </a></h3>
+<h4 id="t335.7.1 from">5.7.1 from <a href="#t335.7.1 from"> # </a></h4>
+<p>将一个数组或者类数组变成数组,会复制一份</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> newArr = <span class="hljs-built_in">Array</span>.from(oldArr);
+</code></pre>
+<h4 id="t345.7.2 Array.of">5.7.2 Array.of <a href="#t345.7.2 Array.of"> # </a></h4>
+<p>of是为了将一组数值,转换为数组</p>
+<pre><code class="lang-javascript"><span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">Array</span>(<span class="hljs-number">3</span>), <span class="hljs-built_in">Array</span>(<span class="hljs-number">3</span>).length);
+<span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">Array</span>.of(<span class="hljs-number">3</span>), <span class="hljs-built_in">Array</span>.of(<span class="hljs-number">3</span>).length);
+</code></pre>
+<h4 id="t355.7.3 copyWithin">5.7.3 copyWithin <a href="#t355.7.3 copyWithin"> # </a></h4>
+<p>Array.prototype.copyWithin(target, start = 0, end = this.length)
+覆盖目标的下标 开始的下标 结束的后一个的下标</p>
+<pre><code class="lang-javascript">[<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>].copyWithin(<span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>);
+</code></pre>
+<h4 id="t365.7.4 find">5.7.4 find <a href="#t365.7.4 find"> # </a></h4>
+<p>查到对应的元素和索引</p>
+<pre><code>let arr = [1, 2 ,3, 3, 4, 5];
+    let find = arr.find((item, index, arr) =&gt; {
+        return item === 3;
+    });
+    let findIndex = arr.findIndex((item, index, arr) =&gt; {
+        return item === 3;
+    });
+
+    console.log(find, findIndex);
+</code></pre><h4 id="t375.7.5 fill">5.7.5 fill <a href="#t375.7.5 fill"> # </a></h4>
+<p>就是填充数组的意思 会更改原数组
+Array.prototype.fill(value, start, end = this.length);</p>
+<pre><code> let arr = [1, 2, 3, 4, 5, 6];
+ arr.fill('a', 1, 2);
+ console.log(arr);
+</code></pre><h4 id="t385.7.5 map">5.7.5 map <a href="#t385.7.5 map"> # </a></h4>
+<h4 id="t395.7.6 reduce">5.7.6 reduce <a href="#t395.7.6 reduce"> # </a></h4>
+<h4 id="t405.7.7 filter">5.7.7 filter <a href="#t405.7.7 filter"> # </a></h4>
+<h4 id="t415.7.8 forEach">5.7.8 forEach <a href="#t415.7.8 forEach"> # </a></h4>
+<h2 id="t426. 对象">6. 对象 <a href="#t426. 对象"> # </a></h2>
+<h3 id="t436.1 对象字面量">6.1 对象字面量 <a href="#t436.1 对象字面量"> # </a></h3>
+<p>如果你想在对象里添加跟变量名一样的属性，并且属性的值就是变量表示的值就可以直接在对象里加上这些属性</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> name = <span class="hljs-string">'zfpx'</span>;
+<span class="hljs-keyword">let</span> age = <span class="hljs-number">8</span>;
+<span class="hljs-keyword">let</span> getName = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.name);
+}
+<span class="hljs-keyword">let</span> person = {
+    name,
+    age,
+    getName
+}
+person.getName();
+</code></pre>
+<h3 id="t446.2 Object.is">6.2 Object.is <a href="#t446.2 Object.is"> # </a></h3>
+<p>对比两个值是否相等</p>
+<pre><code class="lang-javascript"><span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">Object</span>.is(<span class="hljs-literal">NaN</span>,<span class="hljs-literal">NaN</span>));
+
+</code></pre>
+<h3 id="t456.3 Object.assign">6.3 Object.assign <a href="#t456.3 Object.assign"> # </a></h3>
+<p>把多个对象的属性复制到一个对象中,第一个参数是复制的对象,从第二个参数开始往后,都是复制的源对象</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> nameObj = {<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx'</span>};
+<span class="hljs-keyword">var</span> ageObj = {<span class="hljs-attr">age</span>:<span class="hljs-number">8</span>};
+<span class="hljs-keyword">var</span> obj = {};
+<span class="hljs-built_in">Object</span>.assign(obj,nameObj,ageObj);
+<span class="hljs-built_in">console</span>.log(obj);
+
+<span class="hljs-comment">//克隆对象</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">clone</span> (<span class="hljs-params">obj</span>) </span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-built_in">Object</span>.assign({}, obj);
+}
+</code></pre>
+<h3 id="t466.4 Object.setPrototypeOf">6.4 Object.setPrototypeOf <a href="#t466.4 Object.setPrototypeOf"> # </a></h3>
+<p>将一个指定的对象的原型设置为另一个对象或者null</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> obj1  = {<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx1'</span>};
+<span class="hljs-keyword">var</span> obj2 =  {<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx2'</span>};
+<span class="hljs-keyword">var</span> obj = {};
+<span class="hljs-built_in">Object</span>.setPrototypeOf(obj,obj1);
+<span class="hljs-built_in">console</span>.log(obj.name);
+<span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">Object</span>.getPrototypeOf(obj));
+<span class="hljs-built_in">Object</span>.setPrototypeOf(obj,obj2);
+<span class="hljs-built_in">console</span>.log(obj.name);
+<span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">Object</span>.getPrototypeOf(obj));
+</code></pre>
+<h3 id="t476.5 proto">6.5 proto <a href="#t476.5 proto"> # </a></h3>
+<p>直接在对象表达式中设置prototype</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> obj1  = {<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx1'</span>};
+<span class="hljs-keyword">var</span> obj3 = {
+    <span class="hljs-attr">__proto__</span>:obj1
+}
+<span class="hljs-built_in">console</span>.log(obj3.name);
+<span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">Object</span>.getPrototypeOf(obj3));
+</code></pre>
+<h3 id="t486.6 super">6.6 super <a href="#t486.6 super"> # </a></h3>
+<p>通过super可以调用prototype上的属性或方法</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> person ={
+    eat(){
+        <span class="hljs-keyword">return</span> <span class="hljs-string">'milk'</span>;
+    }
+}
+<span class="hljs-keyword">let</span> student = {
+    <span class="hljs-attr">__proto__</span>:person,
+    eat(){
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">super</span>.eat()+<span class="hljs-string">' bread'</span>
+    }
+}
+<span class="hljs-built_in">console</span>.log(student.eat());
+</code></pre>
+<h2 id="t497. 类">7. 类 <a href="#t497. 类"> # </a></h2>
+<h3 id="t507.1 class">7.1 class <a href="#t507.1 class"> # </a></h3>
+<p>使用<code>class</code>这个关键词定义一个类,基于这个类创建实例以后会自动执行<code>constructor</code>方法,此方法可以用来初始化</p>
+<pre><code class="lang-javascript"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> </span>{
+    <span class="hljs-keyword">constructor</span>(name){
+        <span class="hljs-keyword">this</span>.name = name;
+    }
+    getName(){
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.name);
+    }
+}
+<span class="hljs-keyword">let</span> person = <span class="hljs-keyword">new</span> Person(<span class="hljs-string">'zfpx'</span>);
+person.getName();
+</code></pre>
+<h3 id="t517.2 get与set">7.2 get与set <a href="#t517.2 get与set"> # </a></h3>
+<p><code>getter</code>可以用来得获取属性，<code>setter</code>可以去设置属性</p>
+<pre><code class="lang-javascript"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> </span>{
+    <span class="hljs-keyword">constructor</span>(){
+        <span class="hljs-keyword">this</span>.hobbies = [];
+    }
+    set hobby(hobby){
+        <span class="hljs-keyword">this</span>.hobbies.push(hobby);
+    }
+    get hobby(){
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.hobbies;
+    }
+}
+<span class="hljs-keyword">let</span> person = <span class="hljs-keyword">new</span> Person();
+person.hobby = <span class="hljs-string">'basketball'</span>;
+person.hobby = <span class="hljs-string">'football'</span>;
+<span class="hljs-built_in">console</span>.log(person.hobby);
+</code></pre>
+<h3 id="t527.3 静态方法-static">7.3 静态方法-static <a href="#t527.3 静态方法-static"> # </a></h3>
+<p>在类里面添加静态的方法可以使用<code>static</code>这个关键词，静态方法就是不需要实例化类就能使用的方法</p>
+<pre><code class="lang-javascript"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> </span>{
+   <span class="hljs-keyword">static</span> add(a,b){
+       <span class="hljs-keyword">return</span> a+b;
+   }
+}
+<span class="hljs-built_in">console</span>.log(Person.add(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>));
+
+</code></pre>
+<h3 id="t537.4 继承extends">7.4 继承extends <a href="#t537.4 继承extends"> # </a></h3>
+<p>一个类可以去继承其它的类里的东西</p>
+<pre><code class="lang-javascript"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> </span>{
+   <span class="hljs-keyword">constructor</span>(name){
+     <span class="hljs-keyword">this</span>.name = name;
+   }
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Teacher</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Person</span></span>{
+    <span class="hljs-keyword">constructor</span>(name,age){
+        <span class="hljs-keyword">super</span>(name);
+        <span class="hljs-keyword">this</span>.age = age;
+    }
+}
+<span class="hljs-keyword">var</span> teacher = <span class="hljs-keyword">new</span> Teacher(<span class="hljs-string">'zfpx'</span>,<span class="hljs-number">8</span>);
+<span class="hljs-built_in">console</span>.log(teacher.name,teacher.age);
+</code></pre>
+<h2 id="t548.生成器(Generator)与迭代器(Iterator)">8.生成器(Generator)与迭代器(Iterator) <a href="#t548.生成器(Generator)与迭代器(Iterator)"> # </a></h2>
+<p>Generator是一个特殊的函数，执行它会返回一个Iterator对象。
+通过遍历迭代器，
+<code>Generator</code>函数运行后会返回一个遍历器对象，而不是普通函数的返回值。</p>
+<h3 id="t558.1 Iterators模拟">8.1 Iterators模拟 <a href="#t558.1 Iterators模拟"> # </a></h3>
+<p>迭代器有一个next方法，每次执行的时候会返回一个对象
+对象里面有两个属性，一个是<code>value</code>表示返回的值，还有就是布尔值<code>done</code>,表示是否迭代完成</p>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">buy</span>(<span class="hljs-params">books</span>) </span>{
+    <span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">return</span> {
+        next(){
+            <span class="hljs-keyword">let</span> done = i == books.length;
+            <span class="hljs-keyword">let</span> value = !done ? books[i++] : <span class="hljs-literal">undefined</span>;
+            <span class="hljs-keyword">return</span> {
+                <span class="hljs-attr">value</span>: value,
+                <span class="hljs-attr">done</span>: done
+            }
+        }
+    }
+}
+
+<span class="hljs-keyword">let</span> iterators = buy([<span class="hljs-string">'js'</span>, <span class="hljs-string">'html'</span>]);
+<span class="hljs-keyword">var</span> curr;
+<span class="hljs-keyword">do</span> {
+    curr = iterators.next();
+    <span class="hljs-built_in">console</span>.log(curr);
+} <span class="hljs-keyword">while</span> (!curr.done);
+</code></pre>
+<h3 id="t568.2 Generators">8.2 Generators <a href="#t568.2 Generators"> # </a></h3>
+<p>生成器用于创建迭代器</p>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">buy</span>(<span class="hljs-params">books</span>)</span>{
+    <span class="hljs-keyword">for</span>(<span class="hljs-keyword">var</span> i=<span class="hljs-number">0</span>;i&lt;books.length;i++){
+        <span class="hljs-keyword">yield</span> books[i];
+    }
+}
+<span class="hljs-keyword">let</span> buying = buy([<span class="hljs-string">'js'</span>,<span class="hljs-string">'html'</span>]);
+<span class="hljs-keyword">var</span> curr;
+<span class="hljs-keyword">do</span> {
+    curr = buying.next();
+    <span class="hljs-built_in">console</span>.log(curr);
+} <span class="hljs-keyword">while</span> (!curr.done);
+</code></pre>
+<h2 id="t579.集合">9.集合 <a href="#t579.集合"> # </a></h2>
+<h3 id="t589.1 Set">9.1 Set <a href="#t589.1 Set"> # </a></h3>
+<p>一个<code>Set</code>是一堆东西的集合,<code>Set</code>有点像数组,不过跟数组不一样的是，<code>Set</code>里面不能有重复的内容</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> books = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Set</span>();
+books.add(<span class="hljs-string">'js'</span>);
+books.add(<span class="hljs-string">'js'</span>);<span class="hljs-comment">//添加重复元素集合的元素个数不会改变</span>
+books.add(<span class="hljs-string">'html'</span>);
+books.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">book</span>)</span>{<span class="hljs-comment">//循环集合</span>
+    <span class="hljs-built_in">console</span>.log(book);
+})
+<span class="hljs-built_in">console</span>.log(books.size);<span class="hljs-comment">//集合中元数的个数</span>
+<span class="hljs-built_in">console</span>.log(books.has(<span class="hljs-string">'js'</span>));<span class="hljs-comment">//判断集合中是否有此元素</span>
+books.delete(<span class="hljs-string">'js'</span>);<span class="hljs-comment">//从集合中删除此元素</span>
+<span class="hljs-built_in">console</span>.log(books.size);
+<span class="hljs-built_in">console</span>.log(books.has(<span class="hljs-string">'js'</span>));
+books.clear();<span class="hljs-comment">//清空 set</span>
+<span class="hljs-built_in">console</span>.log(books.size);
+</code></pre>
+<h3 id="t599.2 Map">9.2 Map <a href="#t599.2 Map"> # </a></h3>
+<p>可以使用 Map 来组织这种名值对的数据</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> books = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Map</span>();
+books.set(<span class="hljs-string">'js'</span>,{<span class="hljs-attr">name</span>:<span class="hljs-string">'js'</span>});<span class="hljs-comment">//向map中添加元素</span>
+books.set(<span class="hljs-string">'html'</span>,{<span class="hljs-attr">name</span>:<span class="hljs-string">'html'</span>});
+<span class="hljs-built_in">console</span>.log(books.size);<span class="hljs-comment">//查看集合中的元素</span>
+<span class="hljs-built_in">console</span>.log(books.get(<span class="hljs-string">'js'</span>));<span class="hljs-comment">//通过key获取值</span>
+books.delete(<span class="hljs-string">'js'</span>);<span class="hljs-comment">//执照key删除元素</span>
+<span class="hljs-built_in">console</span>.log(books.has(<span class="hljs-string">'js'</span>));<span class="hljs-comment">//判断map中有没有key</span>
+books.forEach(<span class="hljs-function">(<span class="hljs-params">value, key</span>) =&gt;</span> { <span class="hljs-comment">//forEach可以迭代map</span>
+    <span class="hljs-built_in">console</span>.log( key + <span class="hljs-string">' = '</span> + value);
+});
+books.clear();<span class="hljs-comment">//清空map</span>
+</code></pre>
+<h2 id="t6010.模块">10.模块 <a href="#t6010.模块"> # </a></h2>
+<p>可以根据应用的需求把代码分成不同的模块
+每个模块里可以导出它需要让其它模块使用的东西
+在其它模块里面可以导入这些模块导出的东西</p>
+<h3 id="t6110.1 模块">10.1 模块 <a href="#t6110.1 模块"> # </a></h3>
+<p>在浏览器中使用模块需要借助
+导出</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">export</span> <span class="hljs-keyword">var</span> name = <span class="hljs-string">'zfpx'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">var</span> age = <span class="hljs-number">8</span>;
+</code></pre>
+<p>导入</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">//import {name,age} from './school.js';</span>
+<span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> school <span class="hljs-keyword">from</span> <span class="hljs-string">'./school.js'</span>;
+<span class="hljs-built_in">console</span>.log(school.name,school.age);
+</code></pre>
+<p>在页面中引用</p>
+<pre><code class="lang-javascript">&lt;script src=<span class="hljs-string">"https://google.github.io/traceur-compiler/bin/traceur.js"</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></span>
+&lt;script src=<span class="hljs-string">"https://google.github.io/traceur-compiler/bin/BrowserSystem.js"</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></span>
+&lt;script src=<span class="hljs-string">"https://google.github.io/traceur-compiler/src/bootstrap.js"</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></span>
+&lt;script type=<span class="hljs-string">"module"</span> src=<span class="hljs-string">"index.js"</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></span>
+</code></pre>
+<h3 id="t6210.2 重命名">10.2 重命名 <a href="#t6210.2 重命名"> # </a></h3>
+<p>导出时重命名</p>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">say</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'say'</span>);
+}
+<span class="hljs-keyword">export</span> {say <span class="hljs-keyword">as</span> say2};
+</code></pre>
+<p>导入时重命名</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> {say2 <span class="hljs-keyword">as</span> say3} <span class="hljs-keyword">from</span> <span class="hljs-string">'./school.js'</span>;
+</code></pre>
+<h3 id="t6310.3 默认导出">10.3 默认导出 <a href="#t6310.3 默认导出"> # </a></h3>
+<p>每个模块都可以有一个默认要导出的东西
+导出</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">say</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'say'</span>);
+}
+</code></pre>
+<p>导入</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> say <span class="hljs-keyword">from</span> <span class="hljs-string">'./school.js'</span>;
+</code></pre>
+<h3 id="t6411 深度克隆">11 深度克隆 <a href="#t6411 深度克隆"> # </a></h3>
+<pre><code>var parent = {
+  age: 5,
+  hobby: [1, 2, 3],
+  home: {city: '北京'},
+};
+
+var child = extendDeep(parent);
+child.age = 6;
+child.hobby.push('4');
+child.home.city = '广东';
+console.log('child ', child); //[1, 2, 3, 4]
+console.log('parent ', parent);
+function extend(parent) {
+  let child;
+  if (Object.prototype.toString.call(parent) == '[object Object]') {
+    child = {};
+    for (let key in parent) {
+      child[key] = extend(parent[key])
+    }
+  } else if (Object.prototype.toString.call(parent) == '[object Array]') {
+    child = parent.map(item =&gt; extend(item));
+  } else {
+    return parent;
+  }
+  return child;
+}
+
+function extendDeep(parent, child) {
+  child = child || {};
+  for (var key in parent) {
+    if (typeof parent[key] === "object") {
+      child[key] = (Object.prototype.toString.call(parent[key]) === "[object Array]") ? [] : {};
+      extendDeep(parent[key], child[key]);
+    } else {
+      child[key] = parent[key];
+    }
+  }
+  return child;
+}
+</code></pre><h2 id="t65作业">作业 <a href="#t65作业"> # </a></h2>
+<ol>
+<li>自己实现一个跟原来默认功能一样的标签字符串方法</li>
+</ol>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

@@ -1,0 +1,684 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li class="active"><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. 微信支付">1. 微信支付</a></li><li><a href="#t12. 申请流程">2. 申请流程</a><ul><li><a href="#t22.1 注册公众号">2.1 注册公众号</a></li><li><a href="#t32.2 认证公众号">2.2 认证公众号</a></li><li><a href="#t42.3 提交资料申请微信支付">2.3 提交资料申请微信支付</a></li><li><a href="#t52.4  开户成功，进行账户验证">2.4  开户成功，进行账户验证</a></li><li><a href="#t62.5  在线签署协议">2.5  在线签署协议</a></li><li><a href="#t72.6  启动设计和开发">2.6  启动设计和开发</a></li></ul></li><li><a href="#t83. 准备素材">3. 准备素材</a></li><li><a href="#t94.接入流程">4.接入流程</a></li><li><a href="#t105.绘制页面">5.绘制页面</a><ul><li><a href="#t115.1 生成项目">5.1 生成项目</a></li><li><a href="#t125.2 支持模版">5.2 支持模版</a><ul><li><a href="#t135.2.1 package.json">5.2.1 package.json</a></li><li><a href="#t145.2.2 app/controller/home.js">5.2.2 app/controller/home.js</a></li><li><a href="#t155.2.3 checkout.html">5.2.3 checkout.html</a></li><li><a href="#t165.2.4 config.default.js">5.2.4 config.default.js</a></li><li><a href="#t175.2.5 plugin.js">5.2.5 plugin.js</a></li></ul></li><li><a href="#t185.3 支付和通知">5.3 支付和通知</a><ul><li><a href="#t195.3.1 package.json">5.3.1 package.json</a></li><li><a href="#t205.3.2 app/router.js">5.3.2 app/router.js</a></li><li><a href="#t215.3.3 home.js">5.3.3 home.js</a></li><li><a href="#t225.3.4 checkout.html">5.3.4 checkout.html</a></li><li><a href="#t235.3.5 config.default.js">5.3.5 config.default.js</a></li></ul></li><li><a href="#t245.4 查询结果">5.4 查询结果</a><ul><li><a href="#t255.4.1 app/router.js">5.4.1 app/router.js</a></li><li><a href="#t265.4.2 result.html">5.4.2 result.html</a></li><li><a href="#t275.4.3 config.default.js">5.4.3 config.default.js</a></li><li><a href="#t285.4.4 app/controller/home.js">5.4.4 app/controller/home.js</a></li></ul></li></ul></li><li><a href="#t29参考资料">参考资料</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. 微信支付">1. 微信支付 <a href="#t01. 微信支付"> # </a></h2>
+<ul>
+<li>扫码支付是指商户系统按微信支付协议生成支付二维码，用户再用微信“扫一扫”来完成支付。</li>
+<li>适用于PC网站支付、实体店单品等场景。</li>
+</ul>
+<p><img src="http://file.service.qq.com/user-files/uploads/201808/8f41fd93e1f52c38fbd067b9d09f11ed.jpg" alt="qcode"></p>
+<h2 id="t12. 申请流程">2. 申请流程 <a href="#t12. 申请流程"> # </a></h2>
+<h3 id="t22.1 注册公众号">2.1 注册公众号 <a href="#t22.1 注册公众号"> # </a></h3>
+<p>请根据营业执照类型选择以下主体注册：</p>
+<ul>
+<li><a href="http://kf.qq.com/faq/120911VrYVrA151009JB3i2Q.html">个体工商户</a></li>
+<li><a href="http://kf.qq.com/faq/120911VrYVrA151013MfYvYV.html">企业/公司</a></li>
+<li><a href="http://kf.qq.com/faq/120911VrYVrA15100973ABZz.html">政府</a></li>
+<li><a href="http://kf.qq.com/faq/120911VrYVrA151013aMNfeQ.html">媒体</a></li>
+<li><a href="http://kf.qq.com/faq/120911VrYVrA151013nYFZ7Z.html">其他类型</a>|</li>
+</ul>
+<h3 id="t32.2 认证公众号">2.2 认证公众号 <a href="#t32.2 认证公众号"> # </a></h3>
+<p>公众号认证后才可申请微信支付，认证费：300元/次
+查看<a href="http://kf.qq.com/product/weixinmp.html#hid=97">认证流程</a></p>
+<h3 id="t42.3 提交资料申请微信支付">2.3 提交资料申请微信支付 <a href="#t42.3 提交资料申请微信支付"> # </a></h3>
+<p>登录公众平台，点击左侧菜单【微信支付】，开始填写资料等待审核，审核时间为48小时内。</p>
+<h3 id="t52.4  开户成功，进行账户验证">2.4  开户成功，进行账户验证 <a href="#t52.4  开户成功，进行账户验证"> # </a></h3>
+<p>资料审核通过后，开户信息会通过邮件、公众号发送给联系人，请按照指引填写财付通备付金汇入的随机金额，完成账户验证。（查看验证方法）</p>
+<h3 id="t62.5  在线签署协议">2.5  在线签署协议 <a href="#t62.5  在线签署协议"> # </a></h3>
+<p>本协议为线上电子协议，签署后方可进行交易及资金结算，签署完立即生效。点此提前预览协议内容。</p>
+<h3 id="t72.6  启动设计和开发">2.6  启动设计和开发 <a href="#t72.6  启动设计和开发"> # </a></h3>
+<p>支付接口已获得，可根据<a href="https://pay.weixin.qq.com/wiki/doc/api/index.html">开发文档</a>进行开发，也可了解成功案例界面示意及素材。</p>
+<h2 id="t83. 准备素材">3. 准备素材 <a href="#t83. 准备素材"> # </a></h2>
+<ul>
+<li><a href="https://pay.weixin.qq.com/wiki/doc/api/native.php?chapter=6_1">扫码支付</a></li>
+<li>APPID <a href="https://mp.weixin.qq.com">公众平台</a>(1959583119)-&gt;右上角-&gt;开发者ID-&gt;AppID</li>
+<li>商户号码和配置回调链接 <a href="https://pay.weixin.qq.com">商户平台</a>-&gt;产品中心-&gt;开发配置-&gt;商户信息-&gt;商户号</li>
+<li>配置APPID <a href="https://pay.weixin.qq.com">商户平台</a>-&gt;产品中心-&gt;APPID授权管理</li>
+<li>API密钥 <a href="https://pay.weixin.qq.com">商户平台</a>-&gt;账户中心-&gt;API安全-&gt;设置API密钥</li>
+</ul>
+<h2 id="t94.接入流程">4.接入流程 <a href="#t94.接入流程"> # </a></h2>
+<ul>
+<li>商户后台系统先调用微信支付的统一下单接口</li>
+<li>微信后台系统返回链接参数code_url</li>
+<li>商户后台系统将code_url值生成二维码图片</li>
+<li>用户使用微信客户端扫码后发起支付</li>
+<li>注意：code_url有效期为2小时，过期后扫码不能再发起支付。</li>
+</ul>
+<p><img src="https://pay.weixin.qq.com/wiki/doc/api/img/chapter6_5_1.png" alt="接入流程"></p>
+<p>业务流程说明：</p>
+<ul>
+<li>1）商户后台系统根据用户选购的商品生成订单。</li>
+<li>2）用户确认支付后调用微信支付<a href="https://pay.weixin.qq.com/wiki/doc/api/native.php?chapter=9_1">统一下单API</a>生成预支付交易；</li>
+<li>3）微信支付系统收到请求后生成预支付交易单，并返回交易会话的二维码链接code_url。</li>
+<li>4）商户后台系统根据返回的code_url生成二维码。</li>
+<li>5）用户打开微信“扫一扫”扫描二维码，微信客户端将扫码内容发送到微信支付系统。</li>
+<li>6）微信支付系统收到客户端请求，验证链接有效性后发起用户支付，要求用户授权。</li>
+<li>7）用户在微信客户端输入密码，确认支付后，微信客户端提交授权。</li>
+<li>8）微信支付系统根据用户授权完成支付交易。</li>
+<li>9）微信支付系统完成支付交易后给微信客户端返回交易结果，并将交易结果通过短信、微信消息提示用户。微信客户端展示支付交易结果页面。</li>
+<li>10）微信支付系统通过发送异步消息通知商户后台系统支付结果。商户后台系统需回复接收情况，通知微信后台系统不再发送该单的支付通知。</li>
+<li>11）未收到支付通知的情况，商户后台系统调用<a href="https://pay.weixin.qq.com/wiki/doc/api/native.php?chapter=9_2">查询订单API</a></li>
+<li>12）商户确认订单已支付后给用户发货。</li>
+</ul>
+<h2 id="t105.绘制页面">5.绘制页面 <a href="#t105.绘制页面"> # </a></h2>
+<h3 id="t115.1 生成项目">5.1 生成项目 <a href="#t115.1 生成项目"> # </a></h3>
+<pre><code class="lang-js">$ npm i egg-init -g
+$ egg-init zhufeng-wxpay --type=simple
+$ cd zhufeng-wxpay
+$ npm i
+$ npm run dev
+$ open localhost:<span class="hljs-number">7001</span>
+
+ssh -vnNT -R <span class="hljs-number">7689</span>:localhost:<span class="hljs-number">7001</span> root@<span class="hljs-number">47.105</span><span class="hljs-number">.88</span><span class="hljs-number">.180</span>
+</code></pre>
+<h3 id="t125.2 支持模版">5.2 支持模版 <a href="#t125.2 支持模版"> # </a></h3>
+<h4 id="t135.2.1 package.json">5.2.1 package.json <a href="#t135.2.1 package.json"> # </a></h4>
+<pre><code class="lang-js">yarn add egg-view-ejs
+</code></pre>
+<h4 id="t145.2.2 app/controller/home.js">5.2.2 app/controller/home.js <a href="#t145.2.2 app/controller/home.js"> # </a></h4>
+<p>app/controller/home.js</p>
+<pre><code class="lang-diff">   async checkout() {
+<span class="hljs-deletion">-      </span>
+<span class="hljs-addition">+      const { ctx, app } = this;</span>
+<span class="hljs-addition">+      await ctx.render('checkout');</span>
+   }
+ }
+</code></pre>
+<h4 id="t155.2.3 checkout.html">5.2.3 checkout.html <a href="#t155.2.3 checkout.html"> # </a></h4>
+<p>app/view/checkout.html</p>
+<pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"UTF-8"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"viewport"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"width=device-width, initial-scale=1.0"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">http-equiv</span>=<span class="hljs-string">"X-UA-Compatible"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"ie=edge"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"</span> <span class="hljs-attr">integrity</span>=<span class="hljs-string">"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"</span> <span class="hljs-attr">crossorigin</span>=<span class="hljs-string">"anonymous"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"</span> <span class="hljs-attr">integrity</span>=<span class="hljs-string">"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"</span> <span class="hljs-attr">crossorigin</span>=<span class="hljs-string">"anonymous"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"</span> <span class="hljs-attr">integrity</span>=<span class="hljs-string">"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"</span> <span class="hljs-attr">crossorigin</span>=<span class="hljs-string">"anonymous"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"</span> <span class="hljs-attr">integrity</span>=<span class="hljs-string">"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"</span> <span class="hljs-attr">crossorigin</span>=<span class="hljs-string">"anonymous"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>微信支付<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row justify-content-center"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-4"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card text-center mt-5"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-header"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>微信支付<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/public/images/qrcode.png"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-img-top"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-body"</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/public/images/scan.png"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">""</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"w-100"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<h4 id="t165.2.4 config.default.js">5.2.4 config.default.js <a href="#t165.2.4 config.default.js"> # </a></h4>
+<p>config/config.default.js</p>
+<pre><code class="lang-js">  config.view={
+    <span class="hljs-attr">defaultViewEngine</span>: <span class="hljs-string">'ejs'</span>,
+    <span class="hljs-attr">defaultExtension</span>:<span class="hljs-string">'.html'</span>,
+    <span class="hljs-attr">mapping</span>: {
+       <span class="hljs-string">'.html'</span>:<span class="hljs-string">'ejs'</span>
+    } 
+  }
+</code></pre>
+<h4 id="t175.2.5 plugin.js">5.2.5 plugin.js <a href="#t175.2.5 plugin.js"> # </a></h4>
+<p>config/plugin.js</p>
+<pre><code class="lang-js">exports.ejs = {
+    <span class="hljs-attr">enable</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-attr">package</span>: <span class="hljs-string">'egg-view-ejs'</span>,
+};
+</code></pre>
+<h3 id="t185.3 支付和通知">5.3 支付和通知 <a href="#t185.3 支付和通知"> # </a></h3>
+<h4 id="t195.3.1 package.json">5.3.1 package.json <a href="#t195.3.1 package.json"> # </a></h4>
+<pre><code class="lang-diff">   "dependencies": {
+<span class="hljs-addition">+    "axios": "^0.18.0",</span>
+<span class="hljs-addition">+    "moment": "^2.22.2",</span>
+<span class="hljs-addition">+    "qrcode": "^1.2.2",</span>
+<span class="hljs-addition">+    "randomstring": "^1.1.5",</span>
+<span class="hljs-addition">+    "uuid": "^3.3.2",</span>
+<span class="hljs-addition">+    "xml-js": "^1.6.7"</span>
+   }
+</code></pre>
+<h4 id="t205.3.2 app/router.js">5.3.2 app/router.js <a href="#t205.3.2 app/router.js"> # </a></h4>
+<p>app/router.js</p>
+<pre><code class="lang-js">  router.post(<span class="hljs-string">'/wxpay/notify'</span>,controller.home.notify);
+</code></pre>
+<h4 id="t215.3.3 home.js">5.3.3 home.js <a href="#t215.3.3 home.js"> # </a></h4>
+<p>app/controller/home.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Controller = <span class="hljs-built_in">require</span>(<span class="hljs-string">'egg'</span>).Controller;
+<span class="hljs-keyword">const</span> moment = <span class="hljs-built_in">require</span>(<span class="hljs-string">'moment'</span>);
+<span class="hljs-keyword">const</span> randomstring = <span class="hljs-built_in">require</span>(<span class="hljs-string">'randomstring'</span>);
+<span class="hljs-keyword">const</span> querystring = <span class="hljs-built_in">require</span>(<span class="hljs-string">'querystring'</span>);
+<span class="hljs-keyword">const</span> crypto = <span class="hljs-built_in">require</span>(<span class="hljs-string">'crypto'</span>);
+<span class="hljs-keyword">const</span> xmljs = <span class="hljs-built_in">require</span>(<span class="hljs-string">'xml-js'</span>);
+<span class="hljs-keyword">const</span> axios = <span class="hljs-built_in">require</span>(<span class="hljs-string">'axios'</span>);
+<span class="hljs-keyword">const</span> qrcode = <span class="hljs-built_in">require</span>(<span class="hljs-string">'qrcode'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HomeController</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Controller</span> </span>{
+  <span class="hljs-keyword">async</span> index() {
+    <span class="hljs-keyword">this</span>.ctx.body = <span class="hljs-string">'hi, egg'</span>;
+  }
+  wxSign(order, key,logger) {
+    <span class="hljs-comment">//对参数进行排序  </span>
+    <span class="hljs-keyword">let</span> sortedOrder = <span class="hljs-built_in">Object</span>.keys(order).sort().reduce(<span class="hljs-function">(<span class="hljs-params">memo, key</span>) =&gt;</span> {
+      memo[key] = order[key];
+      <span class="hljs-keyword">return</span> memo;
+    }, {});
+    logger.info(<span class="hljs-string">'排过序的订单'</span>, sortedOrder);
+    <span class="hljs-comment">//转化成字符串  </span>
+    <span class="hljs-keyword">const</span> stringifiedOrder = querystring.stringify(sortedOrder, <span class="hljs-literal">null</span>, <span class="hljs-literal">null</span>, {
+      <span class="hljs-attr">encodeURIComponent</span>: querystring.unescape
+    });
+    logger.info(<span class="hljs-string">'不带key的订单字符串'</span>, stringifiedOrder);
+    <span class="hljs-comment">//加上密钥  </span>
+    <span class="hljs-keyword">const</span> stringifiedOrderWithKey = <span class="hljs-string">`<span class="hljs-subst">${stringifiedOrder}</span>&amp;key=<span class="hljs-subst">${key}</span>`</span>;
+    logger.info(<span class="hljs-string">'带key的订单字符串'</span>, stringifiedOrderWithKey);
+    <span class="hljs-comment">//计算出签名</span>
+    <span class="hljs-keyword">const</span> sign = crypto.createHash(<span class="hljs-string">'md5'</span>).update(stringifiedOrderWithKey).digest(<span class="hljs-string">'hex'</span>).toUpperCase();
+    <span class="hljs-keyword">return</span> sign;
+  }
+  <span class="hljs-keyword">async</span> checkout() {
+    <span class="hljs-keyword">const</span> {
+      ctx,
+      app
+    } = <span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">const</span> {
+      logger
+    } = ctx;
+    <span class="hljs-keyword">const</span> {
+      wxpay = {}
+    } = app.config;
+    <span class="hljs-comment">//公众账号ID</span>
+    <span class="hljs-keyword">const</span> appid = wxpay.appid;
+    <span class="hljs-comment">//商户号码 商户平台(https://pay.weixin.qq.com)-&gt;产品中心-&gt;开发配置-&gt;商户信息-&gt;商户号</span>
+    <span class="hljs-comment">//APPID授权管理 商户平台(https://pay.weixin.qq.com)-&gt;产品中心-&gt;开发配置-&gt;商户信息-&gt;商户号</span>
+    <span class="hljs-keyword">const</span> mch_id = wxpay.mch_id;
+    <span class="hljs-comment">//回调通知url</span>
+    <span class="hljs-keyword">const</span> notify_url = wxpay.notify_url;
+    <span class="hljs-comment">//密钥</span>
+    <span class="hljs-keyword">const</span> key = wxpay.key;
+    <span class="hljs-comment">//统一下单接口</span>
+    <span class="hljs-keyword">const</span> unifiedorder = wxpay.unifiedorder;
+    <span class="hljs-comment">//商户订单号</span>
+    <span class="hljs-keyword">const</span> out_trade_no = moment().local().format(<span class="hljs-string">'YYYYMMDDhhmmss'</span>);
+    <span class="hljs-comment">//商品描述</span>
+    <span class="hljs-keyword">const</span> body = <span class="hljs-string">'珠峰培训'</span>;
+    <span class="hljs-comment">//商品价格</span>
+    <span class="hljs-keyword">const</span> total_fee = <span class="hljs-number">1</span>;
+    <span class="hljs-comment">//支付类型</span>
+    <span class="hljs-keyword">const</span> trade_type = <span class="hljs-string">'NATIVE'</span>;
+    <span class="hljs-comment">//商品ID</span>
+    <span class="hljs-keyword">const</span> product_id = <span class="hljs-number">100</span>;
+    <span class="hljs-comment">//随机字符串</span>
+    <span class="hljs-keyword">const</span> nonce_str = randomstring.generate(<span class="hljs-number">32</span>);
+    <span class="hljs-comment">//构建订单  </span>
+    <span class="hljs-keyword">let</span> order = {
+      appid,
+      mch_id,
+      out_trade_no,
+      body,
+      total_fee,
+      product_id,
+      notify_url,
+      nonce_str,
+      trade_type
+    }
+    <span class="hljs-keyword">const</span> sign = <span class="hljs-keyword">this</span>.wxSign(order, key,logger);
+    logger.info(<span class="hljs-string">'签名'</span>, sign);
+    <span class="hljs-comment">//转换成XML格式    </span>
+    <span class="hljs-keyword">const</span> xmlOrder = xmljs.js2xml({
+      <span class="hljs-attr">xml</span>: {
+        ...order,
+        sign
+      }
+    }, {
+      <span class="hljs-attr">compact</span>: <span class="hljs-literal">true</span>
+    });
+    logger.info(<span class="hljs-string">'XML订单'</span>, xmlOrder);
+    <span class="hljs-comment">//请求统一下单接口</span>
+    <span class="hljs-keyword">const</span> unifiedorderResponse = <span class="hljs-keyword">await</span> axios.post(unifiedorder, xmlOrder);
+    logger.info(<span class="hljs-string">'统一下单响应'</span>, unifiedorderResponse.data);
+
+    <span class="hljs-keyword">const</span> _prepay = xmljs.xml2js(unifiedorderResponse.data, {
+      <span class="hljs-attr">compact</span>: <span class="hljs-literal">true</span>,
+      <span class="hljs-attr">cdataKey</span>: <span class="hljs-string">'value'</span>,
+      <span class="hljs-attr">textKey</span>:<span class="hljs-string">'value'</span>
+    });
+    logger.info(<span class="hljs-string">'_prepay'</span>, _prepay);
+
+    <span class="hljs-keyword">const</span> prepay = <span class="hljs-built_in">Object</span>.entries(_prepay.xml).reduce(<span class="hljs-function">(<span class="hljs-params">memo, [key, value]</span>) =&gt;</span> {
+      memo[key]=value.value;
+      <span class="hljs-keyword">return</span> memo;
+    }, {});
+
+    logger.info(<span class="hljs-string">'prepay'</span>, prepay);
+    <span class="hljs-keyword">const</span> {
+      code_url
+    } = prepay;
+    <span class="hljs-keyword">const</span> qrcodeUrl = <span class="hljs-keyword">await</span> qrcode.toDataURL(code_url, {
+      <span class="hljs-attr">width</span>: <span class="hljs-number">300</span>
+    });
+    <span class="hljs-keyword">await</span> ctx.render(<span class="hljs-string">'checkout'</span>, {
+      qrcodeUrl
+    });
+  }
+  parseXML(req) {
+      <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">resolve,reject</span>)</span>{
+          <span class="hljs-keyword">let</span> buffers = [];
+          req.on(<span class="hljs-string">'data'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">data</span>) </span>{
+              buffers.push(data);
+          });
+          req.on(<span class="hljs-string">'end'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+              <span class="hljs-keyword">let</span> ret = Buffer.concat(buffers);
+              resolve(ret.toString());
+          });
+      });
+  }
+  <span class="hljs-keyword">async</span> notify() {
+    <span class="hljs-keyword">const</span> {ctx,app} = <span class="hljs-keyword">this</span>;
+      <span class="hljs-keyword">const</span> { logger } = ctx;
+      <span class="hljs-keyword">const</span> {
+        wxpay = {}
+      } = app.config;
+      <span class="hljs-keyword">const</span> key = wxpay.key;
+    <span class="hljs-keyword">let</span> body = <span class="hljs-keyword">await</span> <span class="hljs-keyword">this</span>.parseXML(ctx.req);
+    logger.debug(<span class="hljs-string">'request'</span>,body);  
+    <span class="hljs-keyword">const</span> _payment = xmljs.xml2js(body, {
+      <span class="hljs-attr">compact</span>: <span class="hljs-literal">true</span>,
+      <span class="hljs-attr">cdataKey</span>: <span class="hljs-string">'value'</span>,
+      <span class="hljs-attr">textKey</span>:<span class="hljs-string">'value'</span>
+    });
+    logger.info(<span class="hljs-string">'_payment'</span>, _payment);
+    <span class="hljs-keyword">const</span> payment = <span class="hljs-built_in">Object</span>.entries(_payment.xml).reduce(<span class="hljs-function">(<span class="hljs-params">memo, [key, value]</span>) =&gt;</span> {
+      memo[key] = value.value;
+      <span class="hljs-keyword">return</span> memo;
+    }, {});
+    logger.info(<span class="hljs-string">'payment'</span>, payment);
+    <span class="hljs-keyword">const</span> paymentSign = payment.sign;
+    logger.debug(<span class="hljs-string">'paymentSign'</span>, paymentSign);
+    <span class="hljs-keyword">delete</span> payment.sign;
+    <span class="hljs-keyword">const</span> mySign = <span class="hljs-keyword">this</span>.wxSign(payment, key,logger);
+    logger.debug(<span class="hljs-string">'mySign'</span>, mySign);
+    <span class="hljs-keyword">const</span> return_code = paymentSign === mySign ? <span class="hljs-string">'SUCCESS'</span> : <span class="hljs-string">"FAIL"</span>;
+    <span class="hljs-keyword">const</span> reply = {
+      <span class="hljs-attr">xml</span>: {
+        return_code
+      }
+    }
+    <span class="hljs-keyword">const</span> ret = xmljs.js2xml(reply, {
+      <span class="hljs-attr">compact</span>: <span class="hljs-literal">true</span>
+    });
+    logger.debug(<span class="hljs-string">'通知返回'</span>, ret);
+    ctx.body = ret;
+  }
+}
+
+<span class="hljs-built_in">module</span>.exports = HomeController;
+</code></pre>
+<h4 id="t225.3.4 checkout.html">5.3.4 checkout.html <a href="#t225.3.4 checkout.html"> # </a></h4>
+<p>app/view/checkout.html</p>
+<pre><code class="lang-diff"><span class="hljs-deletion">-    &lt;img src="/public/images/qrcode.png" class="card-img-top"&gt;</span>
+<span class="hljs-addition">+    &lt;img src="&lt;%=qrcodeUrl%&gt;" class="card-img-top"&gt;</span>
+</code></pre>
+<h4 id="t235.3.5 config.default.js">5.3.5 config.default.js <a href="#t235.3.5 config.default.js"> # </a></h4>
+<p>config/config.default.js</p>
+<pre><code class="lang-js">  config.logger={
+    <span class="hljs-attr">level</span>: <span class="hljs-string">'DEBUG'</span>,
+    <span class="hljs-attr">allowDebugAtProd</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-attr">consoleLevel</span>: <span class="hljs-string">'DEBUG'</span>
+  }
+  exports.security = {
+    <span class="hljs-attr">csrf</span>: {
+      <span class="hljs-attr">enable</span>: <span class="hljs-literal">false</span>,
+      <span class="hljs-attr">ignoreJSON</span>: <span class="hljs-literal">true</span>
+    }
+  };
+  config.wxpay={
+    <span class="hljs-attr">appid</span>: <span class="hljs-string">''</span>,
+    <span class="hljs-attr">mch_id</span>: <span class="hljs-string">''</span>,
+    <span class="hljs-attr">key</span>: <span class="hljs-string">''</span>,
+    <span class="hljs-attr">notify_url</span>: <span class="hljs-string">'http://front.zhufengpeixun.cn/wxpay/notify'</span>,
+    <span class="hljs-attr">unifiedorder</span>:<span class="hljs-string">'https://api.mch.weixin.qq.com/pay/unifiedorder'</span>
+  }
+</code></pre>
+<h3 id="t245.4 查询结果">5.4 查询结果 <a href="#t245.4 查询结果"> # </a></h3>
+<h4 id="t255.4.1 app/router.js">5.4.1 app/router.js <a href="#t255.4.1 app/router.js"> # </a></h4>
+<pre><code class="lang-js">router.get(<span class="hljs-string">'/wxpay/query'</span>,controller.home.query);
+</code></pre>
+<h4 id="t265.4.2 result.html">5.4.2 result.html <a href="#t265.4.2 result.html"> # </a></h4>
+<p>app/view/result.html</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"jumbotron mt-5 text-center"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">%=trade_state_desc%</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+<h4 id="t275.4.3 config.default.js">5.4.3 config.default.js <a href="#t275.4.3 config.default.js"> # </a></h4>
+<p>config/config.default.js</p>
+<pre><code class="lang-html">+    unifiedorder: 'https://api.mch.weixin.qq.com/pay/unifiedorder',
++    orderquery:'https://api.mch.weixin.qq.com/pay/orderquery'
+</code></pre>
+<h4 id="t285.4.4 app/controller/home.js">5.4.4 app/controller/home.js <a href="#t285.4.4 app/controller/home.js"> # </a></h4>
+<p>home.js</p>
+<pre><code class="lang-js"><span class="hljs-meta">'use strict'</span>;
+
+<span class="hljs-keyword">const</span> Controller = <span class="hljs-built_in">require</span>(<span class="hljs-string">'egg'</span>).Controller;
+<span class="hljs-keyword">const</span> moment = <span class="hljs-built_in">require</span>(<span class="hljs-string">'moment'</span>);
+<span class="hljs-keyword">const</span> randomstring = <span class="hljs-built_in">require</span>(<span class="hljs-string">'randomstring'</span>);
+<span class="hljs-keyword">const</span> querystring = <span class="hljs-built_in">require</span>(<span class="hljs-string">'querystring'</span>);
+<span class="hljs-keyword">const</span> crypto = <span class="hljs-built_in">require</span>(<span class="hljs-string">'crypto'</span>);
+<span class="hljs-keyword">const</span> transformer = <span class="hljs-built_in">require</span>(<span class="hljs-string">'xml-js'</span>);
+<span class="hljs-keyword">const</span> axios = <span class="hljs-built_in">require</span>(<span class="hljs-string">'axios'</span>);
+<span class="hljs-keyword">const</span> qrcode = <span class="hljs-built_in">require</span>(<span class="hljs-string">'qrcode'</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HomeController</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Controller</span> </span>{
+  <span class="hljs-keyword">async</span> index() {
+    <span class="hljs-keyword">this</span>.ctx.body = <span class="hljs-string">'hi, egg'</span>;
+  }
+  wxSign(order, key,logger) {
+    <span class="hljs-comment">//对参数进行排序  </span>
+    <span class="hljs-keyword">let</span> sortedOrder = <span class="hljs-built_in">Object</span>.keys(order).sort().reduce(<span class="hljs-function">(<span class="hljs-params">memo, key</span>) =&gt;</span> {
+      memo[key] = order[key];
+      <span class="hljs-keyword">return</span> memo;
+    }, {});
+    logger.info(<span class="hljs-string">'排过序的订单'</span>, sortedOrder);
+    <span class="hljs-comment">//转化成字符串  </span>
+    <span class="hljs-keyword">const</span> stringifiedOrder = querystring.stringify(sortedOrder, <span class="hljs-literal">null</span>, <span class="hljs-literal">null</span>, {
+      <span class="hljs-attr">encodeURIComponent</span>: querystring.unescape
+    });
+    logger.info(<span class="hljs-string">'不带key的订单字符串'</span>, stringifiedOrder);
+    <span class="hljs-comment">//加上密钥  </span>
+    <span class="hljs-keyword">const</span> stringifiedOrderWithKey = <span class="hljs-string">`<span class="hljs-subst">${stringifiedOrder}</span>&amp;key=<span class="hljs-subst">${key}</span>`</span>;
+    logger.info(<span class="hljs-string">'带key的订单字符串'</span>, stringifiedOrderWithKey);
+    <span class="hljs-comment">//计算出签名</span>
+    <span class="hljs-keyword">const</span> sign = crypto.createHash(<span class="hljs-string">'md5'</span>).update(stringifiedOrderWithKey).digest(<span class="hljs-string">'hex'</span>).toUpperCase();
+    <span class="hljs-keyword">return</span> sign;
+  }
+  xml2js(data,logger) {
+    <span class="hljs-keyword">const</span> _result = transformer.xml2js(data, {
+      <span class="hljs-attr">compact</span>: <span class="hljs-literal">true</span>,
+      <span class="hljs-attr">cdataKey</span>: <span class="hljs-string">'value'</span>,
+      <span class="hljs-attr">textKey</span>:<span class="hljs-string">'value'</span>
+    });
+    logger.info(<span class="hljs-string">'_result'</span>, _result);
+
+    <span class="hljs-keyword">const</span> result = <span class="hljs-built_in">Object</span>.entries(_result.xml).reduce(<span class="hljs-function">(<span class="hljs-params">memo, [key, value]</span>) =&gt;</span> {
+      memo[key]=value.value;
+      <span class="hljs-keyword">return</span> memo;
+    },{});
+    logger.info(<span class="hljs-string">'result'</span>, result);
+    <span class="hljs-keyword">return</span> result;
+  }
+  <span class="hljs-keyword">async</span> checkout() {
+    <span class="hljs-keyword">const</span> {
+      ctx,
+      app
+    } = <span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">const</span> {
+      logger
+    } = ctx;
+    <span class="hljs-keyword">const</span> {
+      wxpay = {}
+    } = app.config;
+    <span class="hljs-comment">//公众账号ID</span>
+    <span class="hljs-keyword">const</span> appid = wxpay.appid;
+    <span class="hljs-comment">//商户号码 商户平台(https://pay.weixin.qq.com)-&gt;产品中心-&gt;开发配置-&gt;商户信息-&gt;商户号</span>
+    <span class="hljs-comment">//APPID授权管理 商户平台(https://pay.weixin.qq.com)-&gt;产品中心-&gt;开发配置-&gt;商户信息-&gt;商户号</span>
+    <span class="hljs-keyword">const</span> mch_id = wxpay.mch_id;
+    <span class="hljs-comment">//回调通知url</span>
+    <span class="hljs-keyword">const</span> notify_url = wxpay.notify_url;
+    <span class="hljs-comment">//密钥</span>
+    <span class="hljs-keyword">const</span> key = wxpay.key;
+    <span class="hljs-comment">//统一下单接口</span>
+    <span class="hljs-keyword">const</span> unifiedorder = wxpay.unifiedorder;
+    <span class="hljs-comment">//商户订单号</span>
+    <span class="hljs-keyword">const</span> out_trade_no=moment().local().format(<span class="hljs-string">'YYYYMMDDhhmmss'</span>);
+    ctx.session.out_trade_no=out_trade_no;
+    <span class="hljs-comment">//商品描述</span>
+    <span class="hljs-keyword">const</span> body = <span class="hljs-string">'珠峰培训'</span>;
+    <span class="hljs-comment">//商品价格</span>
+    <span class="hljs-keyword">const</span> total_fee = <span class="hljs-number">1</span>;
+    <span class="hljs-comment">//支付类型</span>
+    <span class="hljs-keyword">const</span> trade_type = <span class="hljs-string">'NATIVE'</span>;
+    <span class="hljs-comment">//商品ID</span>
+    <span class="hljs-keyword">const</span> product_id = <span class="hljs-number">100</span>;
+    <span class="hljs-comment">//随机字符串</span>
+    <span class="hljs-keyword">const</span> nonce_str = randomstring.generate(<span class="hljs-number">32</span>);
+    <span class="hljs-comment">//构建订单  </span>
+    <span class="hljs-keyword">let</span> order = {
+      appid,
+      mch_id,
+      out_trade_no,
+      body,
+      total_fee,
+      product_id,
+      notify_url,
+      nonce_str,
+      trade_type
+    }
+    <span class="hljs-keyword">const</span> sign = <span class="hljs-keyword">this</span>.wxSign(order, key,logger);
+    logger.info(<span class="hljs-string">'签名'</span>, sign);
+    <span class="hljs-comment">//转换成XML格式    </span>
+    <span class="hljs-keyword">const</span> xmlOrder = transformer.js2xml({
+      <span class="hljs-attr">xml</span>: {
+        ...order,
+        sign
+      }
+    }, {
+      <span class="hljs-attr">compact</span>: <span class="hljs-literal">true</span>
+    });
+    logger.info(<span class="hljs-string">'XML订单'</span>, xmlOrder);
+    <span class="hljs-comment">//请求统一下单接口</span>
+    <span class="hljs-keyword">const</span> unifiedorderResponse = <span class="hljs-keyword">await</span> axios.post(unifiedorder, xmlOrder);
+    logger.info(<span class="hljs-string">'统一下单响应'</span>, unifiedorderResponse.data);
+    <span class="hljs-keyword">const</span> prepay=<span class="hljs-keyword">this</span>.xml2js(unifiedorderResponse.data,logger);
+    logger.info(<span class="hljs-string">'prepay'</span>, prepay);
+    <span class="hljs-keyword">const</span> {
+      code_url
+    } = prepay;
+    <span class="hljs-keyword">const</span> qrcodeUrl = <span class="hljs-keyword">await</span> qrcode.toDataURL(code_url, {
+      <span class="hljs-attr">width</span>: <span class="hljs-number">300</span>
+    });
+    <span class="hljs-keyword">await</span> ctx.render(<span class="hljs-string">'checkout'</span>, {
+      qrcodeUrl
+    });
+  }
+  parseXML(req) {
+      <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">resolve,reject</span>)</span>{
+          <span class="hljs-keyword">let</span> buffers = [];
+          req.on(<span class="hljs-string">'data'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">data</span>) </span>{
+              buffers.push(data);
+          });
+          req.on(<span class="hljs-string">'end'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+              <span class="hljs-keyword">let</span> ret = Buffer.concat(buffers);
+              resolve(ret.toString());
+          });
+      });
+  }
+  <span class="hljs-keyword">async</span> notify() {
+    <span class="hljs-keyword">const</span> {ctx,app} = <span class="hljs-keyword">this</span>;
+      <span class="hljs-keyword">const</span> { logger } = ctx;
+      <span class="hljs-keyword">const</span> {
+        wxpay = {}
+      } = app.config;
+      <span class="hljs-keyword">const</span> key = wxpay.key;
+    <span class="hljs-keyword">let</span> body = <span class="hljs-keyword">await</span> <span class="hljs-keyword">this</span>.parseXML(ctx.req);
+    logger.debug(<span class="hljs-string">'request'</span>,body);  
+    <span class="hljs-keyword">const</span> payment=<span class="hljs-keyword">this</span>.xml2js(body,logger);
+    logger.info(<span class="hljs-string">'payment'</span>, payment);
+    <span class="hljs-keyword">const</span> paymentSign = payment.sign;
+    logger.debug(<span class="hljs-string">'paymentSign'</span>, paymentSign);
+    <span class="hljs-keyword">delete</span> payment.sign;
+    <span class="hljs-keyword">const</span> mySign = <span class="hljs-keyword">this</span>.wxSign(payment, key,logger);
+    logger.debug(<span class="hljs-string">'mySign'</span>, mySign);
+    <span class="hljs-keyword">const</span> return_code = paymentSign === mySign ? <span class="hljs-string">'SUCCESS'</span> : <span class="hljs-string">"FAIL"</span>;
+    <span class="hljs-keyword">const</span> reply = {
+      <span class="hljs-attr">xml</span>: {
+        return_code
+      }
+    }
+    <span class="hljs-keyword">const</span> ret = transformer.js2xml(reply, {
+      <span class="hljs-attr">compact</span>: <span class="hljs-literal">true</span>
+    });
+    logger.debug(<span class="hljs-string">'通知返回'</span>, ret);
+    ctx.body = ret;
+  }
+
+  <span class="hljs-keyword">async</span> query() {
+    <span class="hljs-keyword">const</span> {
+      ctx,
+      app
+    } = <span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">const</span> {
+      logger
+    } = ctx;
+    <span class="hljs-keyword">const</span> {
+      wxpay = {}
+    } = app.config;
+    <span class="hljs-comment">//公众账号ID</span>
+    <span class="hljs-keyword">const</span> appid = wxpay.appid;
+    <span class="hljs-comment">//商户号码 </span>
+    <span class="hljs-keyword">const</span> mch_id = wxpay.mch_id;
+    <span class="hljs-comment">//密钥</span>
+    <span class="hljs-keyword">const</span> key = wxpay.key;
+    <span class="hljs-comment">//统一下单接口</span>
+    <span class="hljs-keyword">const</span> orderquery=wxpay.orderquery;
+    <span class="hljs-comment">//随机字符串</span>
+    <span class="hljs-keyword">const</span> nonce_str = randomstring.generate(<span class="hljs-number">32</span>);
+    <span class="hljs-keyword">let</span> query={
+      appid,
+      mch_id,
+      <span class="hljs-attr">out_trade_no</span>: ctx.session.out_trade_no,
+      nonce_str
+    }
+
+    <span class="hljs-keyword">let</span> sign=<span class="hljs-keyword">this</span>.wxSign(query,key,logger);
+    logger.info(<span class="hljs-string">'签名'</span>, sign);
+    <span class="hljs-comment">//转换成XML格式    </span>
+    <span class="hljs-keyword">const</span> xmlQuery = transformer.js2xml({
+      <span class="hljs-attr">xml</span>: {
+        ...query,
+        sign
+      }
+    }, {
+      <span class="hljs-attr">compact</span>: <span class="hljs-literal">true</span>
+    });
+    logger.info(<span class="hljs-string">'XML查询条件'</span>, xmlQuery);
+    <span class="hljs-comment">//请求统一下单接口</span>
+    <span class="hljs-keyword">const</span> orderqueryResponse = <span class="hljs-keyword">await</span> axios.post(orderquery, xmlQuery);
+    logger.info(<span class="hljs-string">'订单查询响应'</span>,orderqueryResponse.data);
+    <span class="hljs-keyword">const</span> queryResult =<span class="hljs-keyword">this</span>.xml2js(orderqueryResponse.data,logger);
+    logger.info(<span class="hljs-string">'queryResult'</span>,queryResult);
+    <span class="hljs-keyword">await</span> ctx.render(<span class="hljs-string">'result'</span>,queryResult);
+  }
+}
+<span class="hljs-built_in">module</span>.exports = HomeController;
+</code></pre>
+<h2 id="t29参考资料">参考资料 <a href="#t29参考资料"> # </a></h2>
+<ul>
+<li><a href="http://kf.qq.com/faq/170116AziqYV1701162eyAzA.html">扫码支付接入方法指引</a></li>
+<li><a href="https://pay.weixin.qq.com">登录微信支付</a></li>
+<li><a href="https://pay.weixin.qq.com/wiki/doc/api/index.html">微信支付WIKI</a></li>
+<li><a href="http://kf.qq.com/product/weixinmp.html">微信帮助文档</a></li>
+<li><a href="https://mp.weixin.qq.com">登录微信公众账号</a></li>
+<li><a href="https://jz.fkw.com/blog/660">微信支付接入教程</a></li>
+<li><a href="https://pay.weixin.qq.com/wiki/doc/api/native.php?chapter=9_1">统一下单API</a></li>
+<li><a href="https://pay.weixin.qq.com/wiki/doc/api/native.php?chapter=9_2">查询订单API</a></li>
+<li><a href="https://www.npmjs.com/package/xml-js">xml-js</a></li>
+</ul>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

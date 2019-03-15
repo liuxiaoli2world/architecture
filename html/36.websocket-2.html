@@ -1,0 +1,828 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li class="active"><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. socket.io">1. socket.io</a></li><li><a href="#t12. socket.io的特点">2. socket.io的特点</a></li><li><a href="#t23. 初步使用">3. 初步使用</a><ul><li><a href="#t33.1 安装部署">3.1 安装部署</a></li><li><a href="#t43.2 启动服务">3.2 启动服务</a></li><li><a href="#t53.3 客户端引用">3.3 客户端引用</a></li><li><a href="#t63.4 发送消息">3.4 发送消息</a></li></ul></li><li><a href="#t74. 深入分析">4. 深入分析</a><ul><li><a href="#t84.1 send方法">4.1 send方法</a></li><li><a href="#t94.2 服务端事件">4.2 服务端事件</a></li><li><a href="#t104.3 客户端事件">4.3 客户端事件</a></li></ul></li><li><a href="#t115. 划分命名空间">5. 划分命名空间</a><ul><li><a href="#t125.1 服务器端划分命名空间">5.1 服务器端划分命名空间</a></li><li><a href="#t135.2 客户端连接命名空间">5.2 客户端连接命名空间</a></li></ul></li><li><a href="#t146. 房间">6. 房间</a><ul><li><a href="#t156.1  进入房间">6.1  进入房间</a></li><li><a href="#t166.2  离开房间">6.2  离开房间</a></li></ul></li><li><a href="#t177. 全局广播">7. 全局广播</a><ul><li><a href="#t187.1 向大厅和所有人房间内的人广播">7.1 向大厅和所有人房间内的人广播</a></li><li><a href="#t197.2 向除了自己外的所有人广播">7.2 向除了自己外的所有人广播</a></li></ul></li><li><a href="#t208. 房间内广播">8. 房间内广播</a><ul><li><a href="#t218.1 向房间内广播">8.1 向房间内广播</a></li><li><a href="#t228.2 向房间内广播">8.2 向房间内广播</a></li><li><a href="#t238.3 获取房间列表">8.3 获取房间列表</a></li><li><a href="#t248.4 获取房间内的客户id值">8.4 获取房间内的客户id值</a></li></ul></li><li><a href="#t259. 聊天室">9. 聊天室</a></li><li><a href="#t2610. 聊天室">10. 聊天室</a><ul><li><a href="#t2710.1 app.js">10.1 app.js</a></li><li><a href="#t2810.2 index.html">10.2 index.html</a></li></ul></li><li><a href="#t2910. 参考">10. 参考</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. socket.io">1. socket.io <a href="#t01. socket.io"> # </a></h2>
+<p>Socket.IO是一个WebSocket库，包括了客户端的js和服务器端的nodejs，它的目标是构建可以在不同浏览器和移动设备上使用的实时应用。</p>
+<h2 id="t12. socket.io的特点">2. socket.io的特点 <a href="#t12. socket.io的特点"> # </a></h2>
+<ul>
+<li>易用性：socket.io封装了服务端和客户端，使用起来非常简单方便。</li>
+<li>跨平台：socket.io支持跨平台，这就意味着你有了更多的选择，可以在自己喜欢的平台下开发实时应用。</li>
+<li>自适应：它会自动根据浏览器从WebSocket、AJAX长轮询、Iframe流等等各种方式中选择最佳的方式来实现网络实时应用，非常方便和人性化，而且支持的浏览器最低达IE5.5。</li>
+</ul>
+<h2 id="t23. 初步使用">3. 初步使用 <a href="#t23. 初步使用"> # </a></h2>
+<h3 id="t33.1 安装部署">3.1 安装部署 <a href="#t33.1 安装部署"> # </a></h3>
+<p>使用npm安装socket.io</p>
+<pre><code class="lang-javascript">$ npm install socket.io
+</code></pre>
+<h3 id="t43.2 启动服务">3.2 启动服务 <a href="#t43.2 启动服务"> # </a></h3>
+<p>创建 <code>app.js</code> 文件</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>);
+<span class="hljs-keyword">var</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">'path'</span>);
+<span class="hljs-keyword">var</span> app = express();
+
+app.get(<span class="hljs-string">'/'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req, res</span>) </span>{
+    res.sendFile(path.resolve(<span class="hljs-string">'index.html'</span>));
+});
+
+<span class="hljs-keyword">var</span> server = <span class="hljs-built_in">require</span>(<span class="hljs-string">'http'</span>).createServer(app);
+<span class="hljs-keyword">var</span> io = <span class="hljs-built_in">require</span>(<span class="hljs-string">'socket.io'</span>)(server);
+
+io.on(<span class="hljs-string">'connection'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">socket</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'客户端已经连接'</span>);
+    socket.on(<span class="hljs-string">'message'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">msg</span>) </span>{
+        <span class="hljs-built_in">console</span>.log(msg);
+        socket.send(<span class="hljs-string">'sever:'</span> + msg);
+    });
+});
+server.listen(<span class="hljs-number">80</span>);
+</code></pre>
+<h3 id="t53.3 客户端引用">3.3 客户端引用 <a href="#t53.3 客户端引用"> # </a></h3>
+<p>服务端运行后会在根目录动态生成socket.io的客户端js文件 
+客户端可以通过固定路径<code>/socket.io/socket.io.js</code>添加引用<br>客户端加载socket.io文件后会得到一个全局的对象io<br><code>connect</code>函数可以接受一个<code>url</code>参数，url可以socket服务的http完整地址，也可以是相对路径，如果省略则表示默认连接当前路径
+创建index.html文件</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/socket.io/socket.io.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+ window.onload = function(){
+    var socket = io.connect('/');
+    //监听与服务器端的连接成功事件
+    socket.on('connect',function(){
+        console.log('连接成功');
+    });
+    //监听与服务器端断开连接事件
+    socket.on('disconnect',function(){
+       console.log('断开连接');
+    });
+ };
+</code></pre>
+<h3 id="t63.4 发送消息">3.4 发送消息 <a href="#t63.4 发送消息"> # </a></h3>
+<p>成功建立连接后，我们可以通过<code>socket</code>对象的<code>send</code>函数来互相发送消息
+修改index.html</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> socket = io.connect(<span class="hljs-string">'/'</span>);
+socket.on(<span class="hljs-string">'connect'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+   <span class="hljs-comment">//客户端连接成功后发送消息'welcome'</span>
+   socket.send(<span class="hljs-string">'welcome'</span>);
+});
+<span class="hljs-comment">//客户端收到服务器发过来的消息后触发</span>
+socket.on(<span class="hljs-string">'message'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">message</span>)</span>{
+   <span class="hljs-built_in">console</span>.log(message);
+});
+</code></pre>
+<p>修改app.js</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> io = <span class="hljs-built_in">require</span>(<span class="hljs-string">'scoket.io'</span>)(server);
+io.on(<span class="hljs-string">'connection'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">socket</span>)</span>{
+  <span class="hljs-comment">//向客户端发送消息</span>
+  socket.send(<span class="hljs-string">'欢迎光临'</span>);
+  <span class="hljs-comment">//接收到客户端发过来的消息时触发</span>
+  socket.on(<span class="hljs-string">'message'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">data</span>)</span>{
+      <span class="hljs-built_in">console</span>.log(data);
+  });
+});
+</code></pre>
+<h2 id="t74. 深入分析">4. 深入分析 <a href="#t74. 深入分析"> # </a></h2>
+<h3 id="t84.1 send方法">4.1 send方法 <a href="#t84.1 send方法"> # </a></h3>
+<p><code>send</code>函数只是<code>emit</code>的封装</p>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">send</span>(<span class="hljs-params"></span>)</span>{
+  <span class="hljs-keyword">var</span> args = toArray(<span class="hljs-built_in">arguments</span>);
+  args.unshift(<span class="hljs-string">'message'</span>);
+  <span class="hljs-keyword">this</span>.emit.apply(<span class="hljs-keyword">this</span>, args);
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+}
+</code></pre>
+<p><code>emit</code>函数有两个参数</p>
+<ul>
+<li>第一个参数是自定义的事件名称,发送方发送什么类型的事件名称,接收方就可以通过对应的事件名称来监听接收</li>
+<li>第二个参数是要发送的数据</li>
+</ul>
+<h3 id="t94.2 服务端事件">4.2 服务端事件 <a href="#t94.2 服务端事件"> # </a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">事件名称</th>
+<th style="text-align:left">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">connection</td>
+<td style="text-align:left">客户端成功连接到服务器</td>
+</tr>
+<tr>
+<td style="text-align:left">message</td>
+<td style="text-align:left">接收到客户端发送的消息</td>
+</tr>
+<tr>
+<td style="text-align:left">disconnect</td>
+<td style="text-align:left">客户端断开连接</td>
+</tr>
+<tr>
+<td style="text-align:left">error</td>
+<td style="text-align:left">监听错误</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t104.3 客户端事件">4.3 客户端事件 <a href="#t104.3 客户端事件"> # </a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">事件名称</th>
+<th style="text-align:left">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">connect</td>
+<td style="text-align:left">成功连接到服务器</td>
+</tr>
+<tr>
+<td style="text-align:left">message</td>
+<td style="text-align:left">接收到服务器发送的消息</td>
+</tr>
+<tr>
+<td style="text-align:left">disconnect</td>
+<td style="text-align:left">客户端断开连接</td>
+</tr>
+<tr>
+<td style="text-align:left">error</td>
+<td style="text-align:left">监听错误</td>
+</tr>
+</tbody>
+</table>
+<h2 id="t115. 划分命名空间">5. 划分命名空间 <a href="#t115. 划分命名空间"> # </a></h2>
+<h3 id="t125.1 服务器端划分命名空间">5.1 服务器端划分命名空间 <a href="#t125.1 服务器端划分命名空间"> # </a></h3>
+<ul>
+<li>可以把服务分成多个命名空间，默认/,不同空间内不能通信<pre><code class="lang-js">io.on(<span class="hljs-string">'connection'</span>, socket =&gt; {});
+io.of(<span class="hljs-string">'/news'</span>).on(<span class="hljs-string">'connection'</span>, socket =&gt; {});
+</code></pre>
+<h3 id="t135.2 客户端连接命名空间">5.2 客户端连接命名空间 <a href="#t135.2 客户端连接命名空间"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> socket = io(<span class="hljs-string">'http://localhost/'</span>);
+<span class="hljs-keyword">let</span> socket = io(<span class="hljs-string">'http://localhost/news'</span>);
+</code></pre>
+</li>
+</ul>
+<h2 id="t146. 房间">6. 房间 <a href="#t146. 房间"> # </a></h2>
+<ul>
+<li>可以把一个命名空间分成多个房间，一个客户端可以同时进入多个房间。</li>
+<li>如果大大厅里广播 ，那么所有在大厅里的客户端和任何房间内的客户端都能收到消息。</li>
+<li>所有在房间里的广播和通信都不会影响到房间以外的客户端</li>
+</ul>
+<h3 id="t156.1  进入房间">6.1  进入房间 <a href="#t156.1  进入房间"> # </a></h3>
+<pre><code class="lang-javascript">socket.join(<span class="hljs-string">'chat'</span>);<span class="hljs-comment">//进入chat房间</span>
+</code></pre>
+<h3 id="t166.2  离开房间">6.2  离开房间 <a href="#t166.2  离开房间"> # </a></h3>
+<pre><code class="lang-javascript">socket.leave(<span class="hljs-string">'chat'</span>);<span class="hljs-comment">//离开chat房间</span>
+</code></pre>
+<h2 id="t177. 全局广播">7. 全局广播 <a href="#t177. 全局广播"> # </a></h2>
+<p>广播就是向多个客户端都发送消息</p>
+<h3 id="t187.1 向大厅和所有人房间内的人广播">7.1 向大厅和所有人房间内的人广播 <a href="#t187.1 向大厅和所有人房间内的人广播"> # </a></h3>
+<pre><code class="lang-javascript">io.emit(<span class="hljs-string">'message'</span>,<span class="hljs-string">'全局广播'</span>);
+</code></pre>
+<h3 id="t197.2 向除了自己外的所有人广播">7.2 向除了自己外的所有人广播 <a href="#t197.2 向除了自己外的所有人广播"> # </a></h3>
+<pre><code class="lang-js">socket.broadcast.emit(<span class="hljs-string">'message'</span>, msg);
+socket.broadcast.emit(<span class="hljs-string">'message'</span>, msg);
+</code></pre>
+<h2 id="t208. 房间内广播">8. 房间内广播 <a href="#t208. 房间内广播"> # </a></h2>
+<h3 id="t218.1 向房间内广播">8.1 向房间内广播 <a href="#t218.1 向房间内广播"> # </a></h3>
+<p>从服务器的角度来提交事件,提交者会包含在内</p>
+<pre><code class="lang-js"><span class="hljs-comment">//2. 向myRoom广播一个事件，在此房间内除了自己外的所有客户端都会收到消息</span>
+io.in(<span class="hljs-string">'myRoom'</span>).emit(<span class="hljs-string">'message'</span>, msg);
+io.of(<span class="hljs-string">'/news'</span>).in(<span class="hljs-string">'myRoom'</span>).emit(<span class="hljs-string">'message'</span>,msg);
+</code></pre>
+<h3 id="t228.2 向房间内广播">8.2 向房间内广播 <a href="#t228.2 向房间内广播"> # </a></h3>
+<p>从客户端的角度来提交事件,提交者会排除在外</p>
+<pre><code class="lang-js"><span class="hljs-comment">//2. 向myRoom广播一个事件，在此房间内除了自己外的所有客户端都会收到消息</span>
+socket.broadcast.to(<span class="hljs-string">'myroom'</span>).emit(<span class="hljs-string">'message'</span>, msg);
+socket.broadcast.to(<span class="hljs-string">'myroom'</span>).emit(<span class="hljs-string">'message'</span>, msg);
+</code></pre>
+<h3 id="t238.3 获取房间列表">8.3 获取房间列表 <a href="#t238.3 获取房间列表"> # </a></h3>
+<pre><code class="lang-js">io.sockets.adapter.rooms
+</code></pre>
+<h3 id="t248.4 获取房间内的客户id值">8.4 获取房间内的客户id值 <a href="#t248.4 获取房间内的客户id值"> # </a></h3>
+<p>取得进入房间内所对应的所有sockets的hash值，它便是拿到的<code>socket.id</code></p>
+<pre><code class="lang-js"> <span class="hljs-keyword">let</span> roomSockets = io.sockets.adapter.rooms[room].sockets;
+</code></pre>
+<h2 id="t259. 聊天室">9. 聊天室 <a href="#t259. 聊天室"> # </a></h2>
+<ul>
+<li>创建客户端与服务端的websocket通信连接</li>
+<li>客户端与服务端相互发送消息</li>
+<li>添加用户名</li>
+<li>添加私聊</li>
+<li>进入/离开房间聊天</li>
+<li>历史消息</li>
+</ul>
+<p>app.js</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">//express+socket联合使用</span>
+<span class="hljs-comment">//express负责 返回页面和样式等静态资源，socket.io负责 消息通信</span>
+<span class="hljs-keyword">let</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>);
+<span class="hljs-keyword">const</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">'path'</span>);
+<span class="hljs-keyword">let</span> app = express();
+app.get(<span class="hljs-string">'/news'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req, res</span>) </span>{
+    res.sendFile(path.resolve(__dirname, <span class="hljs-string">'public/news.html'</span>));
+});
+app.get(<span class="hljs-string">'/goods'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req, res</span>) </span>{
+    res.sendFile(path.resolve(__dirname, <span class="hljs-string">'public/goods.html'</span>));
+});
+<span class="hljs-keyword">let</span> server = <span class="hljs-built_in">require</span>(<span class="hljs-string">'http'</span>).createServer(app);
+<span class="hljs-keyword">let</span> io = <span class="hljs-built_in">require</span>(<span class="hljs-string">'socket.io'</span>)(server);
+<span class="hljs-comment">//监听客户端发过来的连接</span>
+<span class="hljs-comment">//命名是用来实现隔离的</span>
+<span class="hljs-keyword">let</span> sockets = {};
+io.on(<span class="hljs-string">'connection'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">socket</span>) </span>{
+    <span class="hljs-comment">//当前用户所有的房间</span>
+    <span class="hljs-keyword">let</span> rooms = [];
+    <span class="hljs-keyword">let</span> username;<span class="hljs-comment">//用户名刚开始的时候是undefined</span>
+    <span class="hljs-comment">//监听客户端发过来的消息</span>
+    socket.on(<span class="hljs-string">'message'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">message</span>) </span>{
+        <span class="hljs-keyword">if</span> (username) {
+            <span class="hljs-comment">//如果说在某个房间内的话那么他说的话只会说给房间内的人听</span>
+            <span class="hljs-keyword">if</span> (rooms.length &gt; <span class="hljs-number">0</span>) {
+                <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; rooms.length; i++) {
+                    <span class="hljs-comment">//在此处要判断是私聊还是公聊</span>
+                    <span class="hljs-keyword">let</span> result = message.match(<span class="hljs-regexp">/@([^ ]+) (.+)/</span>);
+                    <span class="hljs-keyword">if</span> (result) {
+                        <span class="hljs-keyword">let</span> toUser = result[<span class="hljs-number">1</span>];
+                        <span class="hljs-keyword">let</span> content = result[<span class="hljs-number">2</span>];
+                        sockets[toUser].send({
+                            username,
+                            content,
+                            <span class="hljs-attr">createAt</span>: <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>()
+                        });
+                    } <span class="hljs-keyword">else</span> {
+                        io.in(rooms[i]).emit(<span class="hljs-string">'message'</span>, {
+                            username,
+                            <span class="hljs-attr">content</span>: message,
+                            <span class="hljs-attr">createAt</span>: <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>()
+                        });
+                    }
+
+                }
+            } <span class="hljs-keyword">else</span> {
+                <span class="hljs-comment">//如果此用户不在任何一个房间内的话需要全局广播 </span>
+                <span class="hljs-keyword">let</span> result = message.match(<span class="hljs-regexp">/@([^ ]+) (.+)/</span>);
+                <span class="hljs-keyword">if</span> (result) {
+                    <span class="hljs-keyword">let</span> toUser = result[<span class="hljs-number">1</span>];
+                    <span class="hljs-keyword">let</span> content = result[<span class="hljs-number">2</span>];
+                    sockets[toUser].send({
+                        username,
+                        content,
+                        <span class="hljs-attr">createAt</span>: <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>()
+                    });
+                } <span class="hljs-keyword">else</span> {
+                    io.emit(<span class="hljs-string">'message'</span>, {
+                        username,
+                        <span class="hljs-attr">content</span>: message,
+                        <span class="hljs-attr">createAt</span>: <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>()
+                    });
+                }
+            }
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-comment">//如果用户名还没有设置过，那说明这是这个用户的第一次发言</span>
+            username = message;
+            <span class="hljs-comment">//在对象中缓存 key是用户名 值是socket</span>
+            sockets[username] = socket;
+            socket.broadcast.emit(<span class="hljs-string">'message'</span>, {
+                <span class="hljs-attr">username</span>: <span class="hljs-string">'系统'</span>,
+                <span class="hljs-attr">content</span>: <span class="hljs-string">`&lt;a&gt;<span class="hljs-subst">${username}</span>&lt;/a&gt; 加入了聊天`</span>,
+                <span class="hljs-attr">createAt</span>: <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>()
+            });
+        }
+
+
+    });
+    <span class="hljs-comment">//监听客户端发过来的join类型的消息,参数是要加入的房间名</span>
+    socket.on(<span class="hljs-string">'join'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">roomName</span>) </span>{
+        <span class="hljs-keyword">let</span> oldIndex = rooms.indexOf(roomName);
+        <span class="hljs-keyword">if</span> (oldIndex == <span class="hljs-number">-1</span>) {
+            socket.join(roomName);<span class="hljs-comment">//相当于这个socket在服务器端进入了某个房间 </span>
+            rooms.push(roomName);
+        }
+    })
+    <span class="hljs-comment">//当客户端告诉服务器说要离开的时候，则如果这个客户端就在房间内，则可以离开这个房间</span>
+    socket.on(<span class="hljs-string">'leave'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">roomName</span>) </span>{
+        <span class="hljs-keyword">let</span> oldIndex = rooms.indexOf(roomName);
+        <span class="hljs-keyword">if</span> (oldIndex != <span class="hljs-number">-1</span>) {
+            socket.leave(roomName);
+            rooms.splice(oldIndex, <span class="hljs-number">1</span>);
+        }
+    });
+    socket.on(<span class="hljs-string">'getRoomInfo'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-built_in">console</span>.log(io);
+        <span class="hljs-comment">//let rooms = io.manager.rooms;</span>
+        <span class="hljs-built_in">console</span>.log(io);
+    });
+});
+<span class="hljs-comment">// io.of('/goods').on('connection', function (socket) {</span>
+<span class="hljs-comment">//     //监听客户端发过来的消息</span>
+<span class="hljs-comment">//     socket.on('message', function (message) {</span>
+<span class="hljs-comment">//         socket.send('goods:' + message);</span>
+<span class="hljs-comment">//     });</span>
+<span class="hljs-comment">// });</span>
+
+server.listen(<span class="hljs-number">8080</span>);
+<span class="hljs-comment">/**
+ * 1. 可以把服务分成多个命名空间，默认/,不同空间内不能通信
+ * 2. 可以把一个命名空间分成多个房间，一个客户端可以同时进入多个房间。
+ * 3. 如果大大厅里广播 ，那么所有在大厅里的客户端和任何房间内的客户端都能收到消息。
+ */</span>
+</code></pre>
+<p>index.html</p>
+<pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"UTF-8"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"viewport"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"width=device-width, initial-scale=1.0"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">http-equiv</span>=<span class="hljs-string">"X-UA-Compatible"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"ie=edge"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.css"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.user</span> {
+            <span class="hljs-attribute">color</span>: green;
+            <span class="hljs-attribute">cursor</span>: pointer;
+        }
+    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>聊天室<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-md-8 col-md-offset-2"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"panel panel-default"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"panel-heading text-center"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-danger"</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">"join('red')"</span>&gt;</span>进入红房间<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-danger"</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">"leave('red')"</span>&gt;</span>离开红房间<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-success"</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">"join('green')"</span>&gt;</span>进入绿房间<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-success"</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">"leave('green')"</span>&gt;</span>进入绿房间<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-primary"</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">"getRoomInfo()"</span>&gt;</span>
+                                获取房间信息
+                            <span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"panel-body"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list-group"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"messages"</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">"clickUser(event)"</span>&gt;</span>
+
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"panel-footer"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-md-10"</span>&gt;</span>
+                                <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"textMsg"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"form-control"</span>&gt;</span>
+                            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-md-2"</span>&gt;</span>
+                                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">"send()"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-primary"</span>&gt;</span>发言<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+                            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/socket.io/socket.io.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+        <span class="hljs-keyword">let</span> socket = io(<span class="hljs-string">'/'</span>);
+        <span class="hljs-keyword">let</span> textMsg = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#textMsg'</span>);
+        <span class="hljs-keyword">let</span> messagesEle = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#messages'</span>);
+        socket.on(<span class="hljs-string">'connect'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+            <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'客户端连接成功'</span>);
+        });
+        socket.on(<span class="hljs-string">'message'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">messageObj</span>) </span>{
+            <span class="hljs-keyword">let</span> li = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'li'</span>);
+            li.innerHTML = <span class="hljs-string">`&lt;span class="user"&gt;<span class="hljs-subst">${messageObj.username}</span>&lt;/span&gt;:<span class="hljs-subst">${messageObj.content}</span> &lt;span class="text-right"&gt;<span class="hljs-subst">${messageObj.createAt.toLocaleString()}</span>&lt;/span&gt;`</span>;
+            li.className = <span class="hljs-string">'list-group-item'</span>;
+            messagesEle.appendChild(li);
+        });
+
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">send</span>(<span class="hljs-params"></span>) </span>{
+            <span class="hljs-keyword">let</span> content = textMsg.value;
+            <span class="hljs-keyword">if</span> (!content)
+                <span class="hljs-keyword">return</span> alert(<span class="hljs-string">'请输入聊天内容'</span>);
+            socket.send(content);
+        }
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">join</span>(<span class="hljs-params">name</span>) </span>{
+            <span class="hljs-comment">//向后台服务器发送一个消息，join name是房间名</span>
+            socket.emit(<span class="hljs-string">'join2'</span>, name);
+        }
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">leave</span>(<span class="hljs-params">name</span>) </span>{
+            <span class="hljs-comment">//向后台服务器发送一个消息，离开某个房间</span>
+            socket.emit(<span class="hljs-string">'leave3'</span>, name);
+        }
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getRoomInfo</span>(<span class="hljs-params"></span>) </span>{
+            socket.emit(<span class="hljs-string">'getRoomInfo'</span>);
+        }
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">clickUser</span>(<span class="hljs-params">event</span>) </span>{
+            <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'clickUser'</span>, event.target.className);
+            <span class="hljs-keyword">if</span> (event.target.className == <span class="hljs-string">'user'</span>) {
+                <span class="hljs-keyword">let</span> username = event.target.innerHTML;
+                textMsg.value = <span class="hljs-string">`@<span class="hljs-subst">${username}</span> `</span>;
+            }
+        }
+    </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<h2 id="t2610. 聊天室">10. 聊天室 <a href="#t2610. 聊天室"> # </a></h2>
+<h3 id="t2710.1 app.js">10.1 app.js <a href="#t2710.1 app.js"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>);
+<span class="hljs-keyword">let</span> http = <span class="hljs-built_in">require</span>(<span class="hljs-string">'http'</span>);
+<span class="hljs-keyword">let</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">'path'</span>)
+<span class="hljs-keyword">let</span> app = express();
+<span class="hljs-keyword">let</span> mysql = <span class="hljs-built_in">require</span>(<span class="hljs-string">'mysql'</span>);
+<span class="hljs-keyword">var</span> connection = mysql.createConnection({
+    <span class="hljs-attr">host</span>: <span class="hljs-string">'localhost'</span>,
+    <span class="hljs-attr">user</span>: <span class="hljs-string">'root'</span>,
+    <span class="hljs-attr">password</span>: <span class="hljs-string">'root'</span>,
+    <span class="hljs-attr">database</span>: <span class="hljs-string">'chat'</span>
+});
+connection.connect();
+app.use(express.static(__dirname));
+app.get(<span class="hljs-string">'/'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req, res</span>) </span>{
+    res.header(<span class="hljs-string">'Content-Type'</span>, <span class="hljs-string">"text/html;charset=utf8"</span>);
+    res.sendFile(path.resolve(<span class="hljs-string">'index.html'</span>));
+});
+
+<span class="hljs-keyword">let</span> server = http.createServer(app);
+<span class="hljs-comment">//因为websocket协议是要依赖http协议实现握手的，所以需要把httpserver的实例的传给socket.io</span>
+<span class="hljs-keyword">let</span> io = <span class="hljs-built_in">require</span>(<span class="hljs-string">'socket.io'</span>)(server);
+<span class="hljs-keyword">const</span> SYSTEM = <span class="hljs-string">'系统'</span>;
+<span class="hljs-comment">//保存着所有的用户名和它的socket对象的对应关系</span>
+<span class="hljs-keyword">let</span> sockets = {};
+<span class="hljs-keyword">let</span> mysockets = {};
+<span class="hljs-keyword">let</span> messages = [];<span class="hljs-comment">//从旧往新旧的  slice</span>
+<span class="hljs-comment">//在服务器监听客户端的连接</span>
+io.on(<span class="hljs-string">'connection'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">socket</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'socket'</span>, socket.id)
+    mysockets[socket.id] = socket;
+    <span class="hljs-comment">//用户名，默认为undefined</span>
+    <span class="hljs-keyword">let</span> username;
+    <span class="hljs-comment">//放置着此客户端所在的房间</span>
+    <span class="hljs-keyword">let</span> rooms = [];
+    <span class="hljs-comment">// 私聊的语法 @用户名 内容</span>
+    socket.on(<span class="hljs-string">'message'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">message</span>) </span>{
+        <span class="hljs-keyword">if</span> (username) {
+            <span class="hljs-comment">//首先要判断是私聊还是公聊</span>
+            <span class="hljs-keyword">let</span> result = message.match(<span class="hljs-regexp">/@([^ ]+) (.+)/</span>);
+            <span class="hljs-keyword">if</span> (result) {<span class="hljs-comment">//有值表示匹配上了</span>
+                <span class="hljs-keyword">let</span> toUser = result[<span class="hljs-number">1</span>];<span class="hljs-comment">//toUser是一个用户名 socket</span>
+                <span class="hljs-keyword">let</span> content = result[<span class="hljs-number">2</span>];
+                <span class="hljs-keyword">let</span> toSocket = sockets[toUser];
+                <span class="hljs-keyword">if</span> (toSocket) {
+                    toSocket.send({
+                        <span class="hljs-attr">user</span>: username,
+                        content,
+                        <span class="hljs-attr">createAt</span>: <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>()
+                    });
+                } <span class="hljs-keyword">else</span> {
+                    socket.send({
+                        <span class="hljs-attr">user</span>: SYSTEM,
+                        <span class="hljs-attr">content</span>: <span class="hljs-string">`你私聊的用户不在线`</span>,
+                        <span class="hljs-attr">createAt</span>: <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>()
+                    });
+                }
+            } <span class="hljs-keyword">else</span> {<span class="hljs-comment">//无值表示未匹配上</span>
+                <span class="hljs-comment">//对于客户端的发言，如果客户端不在任何一个房间内则认为是公共广播，大厅和所有的房间内的人都听的到。</span>
+                <span class="hljs-comment">//如果在某个房间内，则认为是向房间内广播 ，则只有它所在的房间的人才能看到，包括自己</span>
+                <span class="hljs-keyword">let</span> messageObj = {
+                    <span class="hljs-attr">user</span>: username,
+                    <span class="hljs-attr">content</span>: message,
+                    <span class="hljs-attr">createAt</span>: <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>()
+                };
+                <span class="hljs-comment">//相当于持久化消息对象</span>
+                <span class="hljs-comment">//messages.push(messageObj);</span>
+                connection.query(<span class="hljs-string">`INSERT INTO message(user,content,createAt) VALUES(?,?,?)`</span>, [messageObj.user, messageObj.content, messageObj.createAt], <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err, results</span>) </span>{
+                    <span class="hljs-built_in">console</span>.log(results);
+                });
+                <span class="hljs-keyword">if</span> (rooms.length &gt; <span class="hljs-number">0</span>) {
+                    <span class="hljs-comment">/**
+                    socket.emit('message', {
+                        user: username,
+                        content: message,
+                        createAt: new Date()
+                    });
+
+                    rooms.forEach(room =&gt; {
+                        //向房间内的所有的人广播 ，包括自己
+                           io.in(room).emit('message', {
+                              user: username,
+                              content: message,
+                              createAt: new Date()
+                          });
+                        //如何向房间内除了自己之外的其它人广播
+                        socket.broadcast.to(room).emit('message', {
+                            user: username,
+                            content: message,
+                            createAt: new Date()
+                        });
+                    });
+                    */</span>
+                    <span class="hljs-keyword">let</span> targetSockets = {};
+                    rooms.forEach(<span class="hljs-function"><span class="hljs-params">room</span> =&gt;</span> {
+                        <span class="hljs-keyword">let</span> roomSockets = io.sockets.adapter.rooms[room].sockets;
+                        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'roomSockets'</span>, roomSockets);<span class="hljs-comment">//{id1:true,id2:true}</span>
+                        <span class="hljs-built_in">Object</span>.keys(roomSockets).forEach(<span class="hljs-function"><span class="hljs-params">socketId</span> =&gt;</span> {
+                            <span class="hljs-keyword">if</span> (!targetSockets[socketId]) {
+                                targetSockets[socketId] = <span class="hljs-literal">true</span>;
+                            }
+                        });
+                    });
+                    <span class="hljs-built_in">Object</span>.keys(targetSockets).forEach(<span class="hljs-function"><span class="hljs-params">socketId</span> =&gt;</span> {
+                        mysockets[socketId].emit(<span class="hljs-string">'message'</span>, messageObj);
+                    });
+                } <span class="hljs-keyword">else</span> {
+                    io.emit(<span class="hljs-string">'message'</span>, messageObj);
+                }
+            }
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-comment">//把此用户的第一次发言当成用户名</span>
+            username = message;
+            <span class="hljs-comment">//当得到用户名之后,把socket赋给sockets[username]</span>
+            sockets[username] = socket;
+            <span class="hljs-comment">//socket.broadcast表示向除自己以外的所有的人广播</span>
+            socket.broadcast.emit(<span class="hljs-string">'message'</span>, { <span class="hljs-attr">user</span>: SYSTEM, <span class="hljs-attr">content</span>: <span class="hljs-string">`<span class="hljs-subst">${username}</span>加入了聊天室`</span>, <span class="hljs-attr">createAt</span>: <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>() });
+        }
+    });
+    socket.on(<span class="hljs-string">'join'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">roomName</span>) </span>{
+        <span class="hljs-keyword">if</span> (rooms.indexOf(roomName) == <span class="hljs-number">-1</span>) {
+            <span class="hljs-comment">//socket.join表示进入某个房间</span>
+            socket.join(roomName);
+            rooms.push(roomName);
+            socket.send({
+                <span class="hljs-attr">user</span>: SYSTEM,
+                <span class="hljs-attr">content</span>: <span class="hljs-string">`你成功进入了<span class="hljs-subst">${roomName}</span>房间!`</span>,
+                <span class="hljs-attr">createAt</span>: <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>()
+            });
+            <span class="hljs-comment">//告诉客户端你已经成功进入了某个房间</span>
+            socket.emit(<span class="hljs-string">'joined'</span>, roomName);
+        } <span class="hljs-keyword">else</span> {
+            socket.send({
+                <span class="hljs-attr">user</span>: SYSTEM,
+                <span class="hljs-attr">content</span>: <span class="hljs-string">`你已经在<span class="hljs-subst">${roomName}</span>房间了!请不要重复进入!`</span>,
+                <span class="hljs-attr">createAt</span>: <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>()
+            });
+        }
+    });
+    socket.on(<span class="hljs-string">'leave'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">roomName</span>) </span>{
+        <span class="hljs-keyword">let</span> index = rooms.indexOf(roomName);
+        <span class="hljs-keyword">if</span> (index == <span class="hljs-number">-1</span>) {
+            socket.send({
+                <span class="hljs-attr">user</span>: SYSTEM,
+                <span class="hljs-attr">content</span>: <span class="hljs-string">`你并不在<span class="hljs-subst">${roomName}</span>房间，离开个毛!`</span>,
+                <span class="hljs-attr">createAt</span>: <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>()
+            });
+        } <span class="hljs-keyword">else</span> {
+            socket.leave(roomName);
+            rooms.splice(index, <span class="hljs-number">1</span>);
+            socket.send({
+                <span class="hljs-attr">user</span>: SYSTEM,
+                <span class="hljs-attr">content</span>: <span class="hljs-string">`你已经离开了<span class="hljs-subst">${roomName}</span>房间!`</span>,
+                <span class="hljs-attr">createAt</span>: <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>()
+            });
+            socket.emit(<span class="hljs-string">'leaved'</span>, roomName);
+        }
+    });
+    socket.on(<span class="hljs-string">'getAllMessages'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-comment">//let latestMessages = messages.slice(messages.length - 20);</span>
+        connection.query(<span class="hljs-string">`SELECT * FROM message ORDER BY id DESC limit 20`</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err, results</span>) </span>{
+            <span class="hljs-comment">// 21 20 ........2 </span>
+            socket.emit(<span class="hljs-string">'allMessages'</span>, results.reverse());<span class="hljs-comment">// 2 .... 21</span>
+        });
+
+    });
+});
+server.listen(<span class="hljs-number">8080</span>);
+
+<span class="hljs-comment">/**
+ * socket.send 向某个人说话
+ * io.emit('message'); 向所有的客户端说话
+ * 
+ */</span>
+</code></pre>
+<h3 id="t2810.2 index.html">10.2 index.html <a href="#t2810.2 index.html"> # </a></h3>
+<pre><code class="lang-js">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
+    &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous"&gt;
+    &lt;style&gt;
+        .user {
+            color: red;
+            cursor: pointer;
+        }
+    &lt;/style&gt;
+    &lt;title&gt;socket.io&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class="container" style="margin-top:30px;"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-xs-12"&gt;
+                &lt;div class="panel panel-default"&gt;
+                    &lt;div class="panel-heading"&gt;
+                        &lt;h4 class="text-center"&gt;欢迎来到珠峰聊天室&lt;/h4&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-xs-6 text-center"&gt;
+                                &lt;button id="join-red" onclick="join('red')" class="btn btn-danger"&gt;进入红房间&lt;/button&gt;
+                                &lt;button id="leave-red" style="display: none" onclick="leave('red')" class="btn btn-danger"&gt;离开红房间&lt;/button&gt;
+                            &lt;/div&gt;
+                            &lt;div class="col-xs-6 text-center"&gt;
+                                &lt;button id="join-green" onclick="join('green')" class="btn btn-success"&gt;进入绿房间&lt;/button&gt;
+                                &lt;button id="leave-green" style="display: none" onclick="leave('green')" class="btn btn-success"&gt;离开绿房间&lt;/button&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+                    &lt;div class="panel-body"&gt;
+                        &lt;ul id="messages" class="list-group" onclick="talkTo(event)" style="height:500px;overflow-y:scroll"&gt;
+
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                    &lt;div class="panel-footer"&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-xs-11"&gt;
+                                &lt;input onkeyup="onKey(event)" type="text" class="form-control" id="content"&gt;
+                            &lt;/div&gt;
+                            &lt;div class="col-xs-1"&gt;
+                                &lt;button class="btn btn-primary" onclick="send(event)"&gt;发言&lt;/button&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;script src="/socket.io/socket.io.js"&gt;&lt;/script&gt;
+    &lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"&gt;&lt;/script&gt;
+    &lt;script&gt;
+
+        let contentInput = document.getElementById('content');//输入框
+        let messagesUl = document.getElementById('messages');//列表
+        let socket = io('/');//io new Websocket();
+        socket.on('connect', function () {
+            console.log('客户端连接成功');
+            //告诉服务器，我是一个新的客户，请给我最近的20条消息
+            socket.emit('getAllMessages');
+        });
+        socket.on('allMessages', function (messages) {
+            let html = messages.map(messageObj =&gt; `
+                &lt;li class="list-group-item"&gt;&lt;span class="user"&gt;${messageObj.user}&lt;/span&gt;:${messageObj.content} &lt;span class="pull-right"&gt;${new Date(messageObj.createAt).toLocaleString()}&lt;/span&gt;&lt;/li&gt;
+            `).join('');
+            messagesUl.innerHTML = html;
+            messagesUl.scrollTop = messagesUl.scrollHeight;
+        });
+        socket.on('message', function (messageObj) {
+            let li = document.createElement('li');
+            li.className = "list-group-item";
+            li.innerHTML = `&lt;span class="user"&gt;${messageObj.user}&lt;/span&gt;:${messageObj.content} &lt;span class="pull-right"&gt;${new Date(messageObj.createAt).toLocaleString()}&lt;/span&gt;`;
+            messagesUl.appendChild(li);
+            messagesUl.scrollTop = messagesUl.scrollHeight;
+        });
+
+        // click delegate
+        function talkTo(event) {
+            if (event.target.className == 'user') {
+                let username = event.target.innerText;
+                contentInput.value = `@${username} `;
+            }
+        }
+        //进入某个房间
+        function join(roomName) {
+            //告诉服务器，我这个客户端将要在服务器进入某个房间
+            socket.emit('join', roomName);
+        }
+        socket.on('joined', function (roomName) {
+            document.querySelector(`#leave-${roomName}`).style.display = 'inline-block';
+            document.querySelector(`#join-${roomName}`).style.display = 'none';
+        });
+        socket.on('leaved', function (roomName) {
+            document.querySelector(`#join-${roomName}`).style.display = 'inline-block';
+            document.querySelector(`#leave-${roomName}`).style.display = 'none';
+        });
+        //离开某个房间
+        function leave(roomName) {
+            socket.emit('leave', roomName);
+        }
+        function send() {
+            let content = contentInput.value;
+            if (content) {
+                socket.send(content);
+                contentInput.value = '';
+            } else {
+                alert('聊天信息不能为空!');
+            }
+        }
+        function onKey(event) {
+            let code = event.keyCode;
+            if (code == 13) {
+                send();
+            }
+        }
+    &lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+<h2 id="t2910. 参考">10. 参考 <a href="#t2910. 参考"> # </a></h2>
+<ul>
+<li><a href="http://socket.io">socket.io</a></li>
+</ul>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

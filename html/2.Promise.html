@@ -1,0 +1,686 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li class="active"><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. 异步回调">1. 异步回调</a><ul><li><a href="#t11.1 回调地狱">1.1 回调地狱</a></li><li><a href="#t21.2 并行结果">1.2 并行结果</a></li></ul></li><li><a href="#t32. Promise">2. Promise</a></li><li><a href="#t43. Promise的三种状态">3. Promise的三种状态</a></li><li><a href="#t54. 构造一个Promise">4. 构造一个Promise</a><ul><li><a href="#t64.1  使用Promise">4.1  使用Promise</a></li><li><a href="#t74.2  es5模拟Promise">4.2  es5模拟Promise</a></li><li><a href="#t84.3  es6模拟Promise">4.3  es6模拟Promise</a></li></ul></li><li><a href="#t95. promise 做为函数的返回值">5. promise 做为函数的返回值</a></li><li><a href="#t106.promise的链式调用">6.promise的链式调用</a></li><li><a href="#t117.promise API">7.promise API</a><ul><li><a href="#t127.1 Promise.all">7.1 Promise.all</a></li><li><a href="#t137.2 Promise.race">7.2 Promise.race</a></li><li><a href="#t147.3 Promise.resolve">7.3 Promise.resolve</a></li><li><a href="#t157.4 Promise.reject">7.4 Promise.reject</a></li></ul></li><li><a href="#t168. q">8. q</a><ul><li><a href="#t178.1 q的基本用法">8.1 q的基本用法</a></li><li><a href="#t188.2 q的简单实现">8.2 q的简单实现</a></li><li><a href="#t198.3 q的实现">8.3 q的实现</a></li></ul></li><li><a href="#t209. bluebird">9. bluebird</a><ul><li><a href="#t219.1  bluebird经典使用">9.1  bluebird经典使用</a></li><li><a href="#t229.2  bluebird简单实现">9.2  bluebird简单实现</a></li></ul></li><li><a href="#t2310. 动画">10. 动画</a></li><li><a href="#t2411. co">11. co</a><ul><li><a href="#t2511.1  co初体验">11.1  co初体验</a></li><li><a href="#t2611.2  co连续读文件">11.2  co连续读文件</a></li></ul></li><li><a href="#t2712. Promise/A+完整实现">12. Promise/A+完整实现</a></li><li><a href="#t2813. 资源">13. 资源</a></li><li><a href="#t2914.作业">14.作业</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. 异步回调">1. 异步回调 <a href="#t01. 异步回调"> # </a></h2>
+<h3 id="t11.1 回调地狱">1.1 回调地狱 <a href="#t11.1 回调地狱"> # </a></h3>
+<p>在需要多个操作的时候，会导致多个回调函数嵌套，导致代码不够直观，就是常说的回调地狱</p>
+<h3 id="t21.2 并行结果">1.2 并行结果 <a href="#t21.2 并行结果"> # </a></h3>
+<p>如果几个异步操作之间并没有前后顺序之分,但需要等多个异步操作都完成后才能执行后续的任务，无法实现并行节约时间</p>
+<h2 id="t32. Promise">2. Promise <a href="#t32. Promise"> # </a></h2>
+<p>Promise本意是承诺，在程序中的意思就是承诺我<strong>过一段时间后</strong>会给你一个结果。
+什么时候会用到<strong>过一段时间</strong>？答案是异步操作，异步是指可能比较长时间才有结果的才做，例如网络请求、读取本地文件等
+<img src="http://7xjf2l.com1.z0.glb.clouddn.com/zhufengpromise.png" class="img-responsive"></p>
+<h2 id="t43. Promise的三种状态">3. Promise的三种状态 <a href="#t43. Promise的三种状态"> # </a></h2>
+<ul>
+<li>Pending Promise对象实例创建时候的初始状态</li>
+<li>Fulfilled 可以理解为成功的状态</li>
+<li>Rejected 可以理解为失败的状态</li>
+</ul>
+<blockquote>
+<p>then 方法就是用来指定Promise 对象的状态改变时确定执行的操作，resolve 时执行第一个函数（onFulfilled），reject 时执行第二个函数（onRejected）</p>
+</blockquote>
+<h2 id="t54. 构造一个Promise">4. 构造一个Promise <a href="#t54. 构造一个Promise"> # </a></h2>
+<h3 id="t64.1  使用Promise">4.1  使用Promise <a href="#t64.1  使用Promise"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> promise = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
+    setTimeout(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">if</span>(<span class="hljs-built_in">Math</span>.random()&gt;<span class="hljs-number">0.5</span>)
+            resolve(<span class="hljs-string">'This is resolve!'</span>);
+        <span class="hljs-keyword">else</span>
+            reject(<span class="hljs-string">'This is reject!'</span>);
+    }, <span class="hljs-number">1000</span>);
+});
+promise.then(Fulfilled,Rejected)
+</code></pre>
+<ul>
+<li>构造一个Promise实例需要给Promise构造函数传入一个函数。</li>
+<li>传入的函数需要有两个形参，两个形参都是function类型的参数。<ul>
+<li>第一个形参运行后会让Promise实例处于resolve状态，所以我们一般给第一个形参命名为resolve,使 Promise 对象的状态改变成成功，同时传递一个参数用于后续成功后的操作</li>
+<li>第一个形参运行后会让Promise实例处于reject状态，所以我们一般给第一个形参命名为reject,将 Promise 对象的状态改变为失败，同时将错误的信息传递到后续错误处理的操作</li>
+</ul>
+</li>
+</ul>
+<h3 id="t74.2  es5模拟Promise">4.2  es5模拟Promise <a href="#t74.2  es5模拟Promise"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Promise</span>(<span class="hljs-params">fn</span>) </span>{
+    fn(<span class="hljs-function">(<span class="hljs-params">data</span>)=&gt;</span> {
+        <span class="hljs-keyword">this</span>.success(data);
+    }, (error)=&gt; {
+        <span class="hljs-keyword">this</span>.error();
+    });
+}
+
+<span class="hljs-built_in">Promise</span>.prototype.resolve = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+    <span class="hljs-keyword">this</span>.success(data);
+}
+
+<span class="hljs-built_in">Promise</span>.prototype.reject = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">error</span>) </span>{
+    <span class="hljs-keyword">this</span>.error(error);
+}
+
+<span class="hljs-built_in">Promise</span>.prototype.then = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">success, error</span>) </span>{
+    <span class="hljs-keyword">this</span>.success = success;
+    <span class="hljs-keyword">this</span>.error = error;
+}
+</code></pre>
+<h3 id="t84.3  es6模拟Promise">4.3  es6模拟Promise <a href="#t84.3  es6模拟Promise"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Promise</span> </span>{
+    <span class="hljs-keyword">constructor</span>(fn) {
+        fn(<span class="hljs-function">(<span class="hljs-params">data</span>)=&gt;</span> {
+            <span class="hljs-keyword">this</span>.success(data);
+        }, (error)=&gt; {
+            <span class="hljs-keyword">this</span>.error();
+        });
+    }
+
+    resolve(data) {
+        <span class="hljs-keyword">this</span>.success(data);
+    }
+
+    reject(error) {
+        <span class="hljs-keyword">this</span>.error(error);
+    }
+
+    then(success, error) {
+        <span class="hljs-keyword">this</span>.success = success;
+        <span class="hljs-keyword">this</span>.error = error;
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>);
+    }
+}
+</code></pre>
+<h2 id="t95. promise 做为函数的返回值">5. promise 做为函数的返回值 <a href="#t95. promise 做为函数的返回值"> # </a></h2>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">ajaxPromise</span> (<span class="hljs-params">queryUrl</span>) </span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
+    <span class="hljs-keyword">let</span> xhr = <span class="hljs-keyword">new</span> XMLHttpRequest();
+    xhr.open(<span class="hljs-string">'GET'</span>, queryUrl, <span class="hljs-literal">true</span>);
+    xhr.send(<span class="hljs-literal">null</span>);
+    xhr.onreadystatechange = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+      <span class="hljs-keyword">if</span> (xhr.readyState === <span class="hljs-number">4</span>) {
+        <span class="hljs-keyword">if</span> (xhr.status === <span class="hljs-number">200</span>) {
+          resolve(xhr.responseText);
+        } <span class="hljs-keyword">else</span> {
+          reject(xhr.responseText);
+        }
+      }
+    }
+  });
+}
+
+ajaxPromise(<span class="hljs-string">'http://www.baidu.com'</span>)
+  .then(<span class="hljs-function">(<span class="hljs-params">value</span>) =&gt;</span> {
+    <span class="hljs-built_in">console</span>.log(value);
+  })
+  .catch(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> {
+    <span class="hljs-built_in">console</span>.error(err);
+  });
+</code></pre>
+<h2 id="t106.promise的链式调用">6.promise的链式调用 <a href="#t106.promise的链式调用"> # </a></h2>
+<ul>
+<li>每次调用返回的都是一个新的Promise实例</li>
+<li>链式调用的参数通过返回值传递</li>
+</ul>
+<p><code>then</code>可以使用链式调用的写法原因在于，每一次执行该方法时总是会返回一个<code>Promise</code>对象</p>
+<pre><code class="lang-javascript">readFile(<span class="hljs-string">'1.txt'</span>).then(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(data);
+    <span class="hljs-keyword">return</span> data;
+}).then(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(data);
+    <span class="hljs-keyword">return</span> readFile(data);
+}).then(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(data);
+}).catch(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err</span>)</span>{
+ <span class="hljs-built_in">console</span>.log(err);
+});
+</code></pre>
+<h2 id="t117.promise API">7.promise API <a href="#t117.promise API"> # </a></h2>
+<h3 id="t127.1 Promise.all">7.1 Promise.all <a href="#t127.1 Promise.all"> # </a></h3>
+<ul>
+<li><strong>参数</strong>：接受一个数组，数组内都是<code>Promise</code>实例</li>
+<li><strong>返回值</strong>：返回一个<code>Promise</code>实例，这个<code>Promise</code>实例的状态转移取决于参数的<code>Promise</code>实例的状态变化。当参数中所有的实例都处于<code>resolve</code>状态时，返回的<code>Promise</code>实例会变为<code>resolve</code>状态。如果参数中任意一个实例处于<code>reject</code>状态，返回的<code>Promise</code>实例变为<code>reject</code>状态。<pre><code class="lang-javascript"><span class="hljs-built_in">Promise</span>.all([p1, p2]).then(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">result</span>) </span>{
+  <span class="hljs-built_in">console</span>.log(result); <span class="hljs-comment">// [ '2.txt', '2' ]</span>
+});
+</code></pre>
+<blockquote>
+<p> 不管两个promise谁先完成，Promise.all 方法会按照数组里面的顺序将结果返回</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="t137.2 Promise.race">7.2 Promise.race <a href="#t137.2 Promise.race"> # </a></h3>
+<ul>
+<li><strong>参数</strong>：接受一个数组，数组内都是<code>Promise</code>实例</li>
+<li><strong>返回值</strong>：返回一个<code>Promise</code>实例，这个<code>Promise</code>实例的状态转移取决于参数的<code>Promise</code>实例的状态变化。当参数中任何一个实例处于<code>resolve</code>状态时，返回的<code>Promise</code>实例会变为<code>resolve</code>状态。如果参数中任意一个实例处于<code>reject</code>状态，返回的<code>Promise</code>实例变为<code>reject</code>状态。<pre><code class="lang-javascript"><span class="hljs-built_in">Promise</span>.race([p1, p2]).then(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">result</span>) </span>{
+  <span class="hljs-built_in">console</span>.log(result); <span class="hljs-comment">// [ '2.txt', '2' ]</span>
+});
+</code></pre>
+<h3 id="t147.3 Promise.resolve">7.3 Promise.resolve <a href="#t147.3 Promise.resolve"> # </a></h3>
+返回一个<code>Promise</code>实例，这个实例处于<code>resolve</code>状态。</li>
+</ul>
+<p>根据传入的参数不同有不同的功能：</p>
+<ul>
+<li>值(对象、数组、字符串等)：作为<code>resolve</code>传递出去的值</li>
+<li><code>Promise</code>实例：原封不动返回</li>
+</ul>
+<h3 id="t157.4 Promise.reject">7.4 Promise.reject <a href="#t157.4 Promise.reject"> # </a></h3>
+<p>返回一个<code>Promise</code>实例，这个实例处于<code>reject</code>状态。</p>
+<ul>
+<li>参数一般就是抛出的错误信息。</li>
+</ul>
+<h2 id="t168. q">8. q <a href="#t168. q"> # </a></h2>
+<p>Q是一个在Javascript中实现promise的模块</p>
+<h3 id="t178.1 q的基本用法">8.1 q的基本用法 <a href="#t178.1 q的基本用法"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> Q = <span class="hljs-built_in">require</span>(<span class="hljs-string">'q'</span>);
+<span class="hljs-keyword">var</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">'fs'</span>);
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">read</span>(<span class="hljs-params">filename</span>) </span>{
+    <span class="hljs-keyword">var</span> deferred = Q.defer();
+    fs.readFile(filename,<span class="hljs-string">'utf8'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err, data</span>) </span>{
+        <span class="hljs-keyword">if</span>(err){
+            deferred.reject(err);
+        }<span class="hljs-keyword">else</span>{
+            deferred.resolve(data);
+        }
+    });
+    <span class="hljs-keyword">return</span> deferred.promise;
+}
+
+read(<span class="hljs-string">'1.txt1'</span>).then(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">data</span>)</span>{
+    <span class="hljs-built_in">console</span>.log(data);
+},<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">error</span>)</span>{
+    <span class="hljs-built_in">console</span>.error(error);
+});
+</code></pre>
+<h3 id="t188.2 q的简单实现">8.2 q的简单实现 <a href="#t188.2 q的简单实现"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-built_in">module</span>.exports = {
+    defer(){
+        <span class="hljs-keyword">var</span> _success,_error;
+        <span class="hljs-keyword">return</span> {
+            resolve(data){
+                _success(data);
+            },
+            reject(err){
+                _error(err);
+            },
+            <span class="hljs-attr">promise</span>:{
+                then(success,error){
+                    _success = success;
+                    _error = error;
+                }
+            }
+        }
+    }
+}
+</code></pre>
+<h3 id="t198.3 q的实现">8.3 q的实现 <a href="#t198.3 q的实现"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> defer = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">var</span> pending = [], value;
+    <span class="hljs-keyword">return</span> {
+        <span class="hljs-attr">resolve</span>: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">_value</span>) </span>{
+            <span class="hljs-keyword">if</span> (pending) {
+                value = _value;
+                <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>, ii = pending.length; i &lt; ii; i++) {
+                    <span class="hljs-keyword">var</span> callback = pending[i];
+                    callback(value);
+                }
+                pending = <span class="hljs-literal">undefined</span>;
+            }
+        },
+        <span class="hljs-attr">promise</span>: {
+            <span class="hljs-attr">then</span>: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">callback</span>) </span>{
+                <span class="hljs-keyword">if</span> (pending) {
+                    pending.push(callback);
+                } <span class="hljs-keyword">else</span> {
+                    callback(value);
+                }
+            }
+        }
+    };
+};
+</code></pre>
+<h2 id="t209. bluebird">9. bluebird <a href="#t209. bluebird"> # </a></h2>
+<p>实现 promise 标准的库是功能最全，速度最快的一个库</p>
+<h3 id="t219.1  bluebird经典使用">9.1  bluebird经典使用 <a href="#t219.1  bluebird经典使用"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> <span class="hljs-built_in">Promise</span> = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./bluebird'</span>);
+
+<span class="hljs-keyword">var</span> readFile = <span class="hljs-built_in">Promise</span>.promisify(<span class="hljs-built_in">require</span>(<span class="hljs-string">"fs"</span>).readFile);
+readFile(<span class="hljs-string">"1.txt"</span>, <span class="hljs-string">"utf8"</span>).then(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">contents</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(contents);
+})
+
+<span class="hljs-keyword">var</span> fs = <span class="hljs-built_in">Promise</span>.promisifyAll(<span class="hljs-built_in">require</span>(<span class="hljs-string">"fs"</span>));
+
+fs.readFileAsync(<span class="hljs-string">"1.txt"</span>, <span class="hljs-string">"utf8"</span>).then(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">contents</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(contents);
+})
+
+</code></pre>
+<h3 id="t229.2  bluebird简单实现">9.2  bluebird简单实现 <a href="#t229.2  bluebird简单实现"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-built_in">module</span>.exports = {
+    promisify(fn){
+        <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+            <span class="hljs-keyword">var</span> args = <span class="hljs-built_in">Array</span>.from(<span class="hljs-built_in">arguments</span>);
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">resolve, reject</span>) </span>{
+                fn.apply(<span class="hljs-literal">null</span>, args.concat(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err</span>) </span>{
+                    <span class="hljs-keyword">if</span> (err) {
+                        reject(err);
+                    } <span class="hljs-keyword">else</span> {
+                        resolve(<span class="hljs-built_in">arguments</span>[<span class="hljs-number">1</span>])
+                    }
+                }));
+            })
+        }
+    },
+    promisifyAll(obj){
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">var</span> attr <span class="hljs-keyword">in</span> obj){
+            <span class="hljs-keyword">if</span>(obj.hasOwnProperty(attr) &amp;&amp; <span class="hljs-keyword">typeof</span> obj[attr] ==<span class="hljs-string">'function'</span>){
+                obj[attr+<span class="hljs-string">'Async'</span>] = <span class="hljs-keyword">this</span>.promisify(obj[attr]);
+            }
+        }
+        <span class="hljs-keyword">return</span> obj;
+    }
+}
+</code></pre>
+<h2 id="t2310. 动画">10. 动画 <a href="#t2310. 动画"> # </a></h2>
+<pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"UTF-8"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>move<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-class">.square</span>{
+            <span class="hljs-attribute">width</span>:<span class="hljs-number">40px</span>;
+            <span class="hljs-attribute">height</span>:<span class="hljs-number">40px</span>;
+            <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">50%</span>;
+        }
+        <span class="hljs-selector-class">.square1</span>{
+            <span class="hljs-attribute">background-color</span>: red;
+        }
+        <span class="hljs-selector-class">.square2</span>{
+            <span class="hljs-attribute">background-color</span>: yellow;
+        }
+        <span class="hljs-selector-class">.square3</span>{
+            <span class="hljs-attribute">background-color</span>: blue;
+        }
+    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"square square1"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"margin-left: 0"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"square square2"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"margin-left: 0"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"square square3"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"margin-left: 0"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+  <span class="hljs-keyword">var</span> square1 = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'.square1'</span>);
+  <span class="hljs-keyword">var</span> square2 = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'.square2'</span>);
+  <span class="hljs-keyword">var</span> square3 = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'.square3'</span>);
+
+  <span class="hljs-comment">/*function move(element,target,resolve){
+    let timer = setInterval(function(){
+      var marginLeft = parseInt(element.style.marginLeft, 10);
+      if(marginLeft == target){
+        resolve();
+      }else{
+        element.style.marginLeft = ++marginLeft+'px';
+      }
+    },13);
+  }*/</span>
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">move</span>(<span class="hljs-params">element,target,resolve</span>)</span>{
+    <span class="hljs-keyword">let</span> current = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">let</span> timer = setInterval(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+      element.style.transform=<span class="hljs-string">`translateX(<span class="hljs-subst">${++current}</span>px)`</span>;
+      <span class="hljs-keyword">if</span>(current&gt;target){
+        clearInterval(timer);
+        resolve();
+      };
+    },<span class="hljs-number">13</span>);
+  }
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">animate</span>(<span class="hljs-params">element,target</span>)</span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">resolve,reject</span>)</span>{
+      move(element,target,resolve);
+    });
+  }
+  animate(square1,<span class="hljs-number">100</span>)
+    .then(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+      <span class="hljs-keyword">return</span> animate(square2,<span class="hljs-number">100</span>);
+    })
+    .then(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+      <span class="hljs-keyword">return</span> animate(square3,<span class="hljs-number">100</span>);
+    });
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<h2 id="t2411. co">11. co <a href="#t2411. co"> # </a></h2>
+<h3 id="t2511.1  co初体验">11.1  co初体验 <a href="#t2511.1  co初体验"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">'fs'</span>);
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getNumber</span>(<span class="hljs-params"></span>)</span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">resolve,reject</span>) </span>{
+    setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+      <span class="hljs-keyword">let</span> number = <span class="hljs-built_in">Math</span>.random();
+      <span class="hljs-keyword">if</span>(number &gt;<span class="hljs-number">.5</span>){
+        resolve(number);
+      }<span class="hljs-keyword">else</span>{
+        reject(<span class="hljs-string">'数字太小'</span>);
+      }
+    },<span class="hljs-number">1000</span>);
+  });
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> *<span class="hljs-title">read</span>(<span class="hljs-params"></span>)</span>{
+  <span class="hljs-keyword">let</span> a = <span class="hljs-keyword">yield</span> getNumber();
+  <span class="hljs-built_in">console</span>.log(a);
+  <span class="hljs-keyword">let</span> b = <span class="hljs-keyword">yield</span> <span class="hljs-string">'b'</span>;
+  <span class="hljs-built_in">console</span>.log(b);
+  <span class="hljs-keyword">let</span> c = <span class="hljs-keyword">yield</span> getNumber();
+  <span class="hljs-built_in">console</span>.log(c);
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">co</span>(<span class="hljs-params">gen</span>)</span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">resolve,reject</span>)</span>{
+    <span class="hljs-keyword">let</span> g = gen();
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">next</span>(<span class="hljs-params">lastValue</span>)</span>{
+      <span class="hljs-keyword">let</span> {done,value} = g.next(lastValue);
+      <span class="hljs-keyword">if</span>(done){
+         resolve(lastValue);
+      }<span class="hljs-keyword">else</span>{
+        <span class="hljs-keyword">if</span>(value <span class="hljs-keyword">instanceof</span> <span class="hljs-built_in">Promise</span>){
+          value.then(next,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">val</span>)</span>{
+            reject(val);
+          });
+        }<span class="hljs-keyword">else</span>{
+          next(value);
+        }
+      }
+    }
+    next();
+  });
+}
+co(read).then(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">data</span>)</span>{
+  <span class="hljs-built_in">console</span>.log(data);
+},<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">reason</span>)</span>{
+  <span class="hljs-built_in">console</span>.log(reason);
+});
+</code></pre>
+<h3 id="t2611.2  co连续读文件">11.2  co连续读文件 <a href="#t2611.2  co连续读文件"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">'fs'</span>);
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">readFile</span>(<span class="hljs-params">filename</span>)</span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">resolve,reject</span>) </span>{
+    fs.readFile(filename,<span class="hljs-string">'utf8'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,data</span>)</span>{
+      <span class="hljs-keyword">if</span>(err)
+        reject(err);
+      <span class="hljs-keyword">else</span>
+        resolve(data);
+    })
+  });
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> *<span class="hljs-title">read</span>(<span class="hljs-params"></span>)</span>{
+  <span class="hljs-keyword">let</span> a = <span class="hljs-keyword">yield</span> readFile(<span class="hljs-string">'./1.txt'</span>);
+  <span class="hljs-built_in">console</span>.log(a);
+  <span class="hljs-keyword">let</span> b = <span class="hljs-keyword">yield</span> readFile(<span class="hljs-string">'./2.txt'</span>);
+  <span class="hljs-built_in">console</span>.log(b);
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">co</span>(<span class="hljs-params">gen</span>)</span>{
+  <span class="hljs-keyword">let</span> g = gen();
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">next</span>(<span class="hljs-params">val</span>)</span>{
+    <span class="hljs-keyword">let</span> {done,value} = g.next(val);
+    <span class="hljs-keyword">if</span>(!done){
+      value.then(next);
+    }
+  }
+  next();
+}
+</code></pre>
+<h2 id="t2712. Promise/A+完整实现">12. Promise/A+完整实现 <a href="#t2712. Promise/A+完整实现"> # </a></h2>
+<pre><code>function Promise(executor) {
+  let self = this;
+  self.status = "pending";
+  self.value = undefined;
+  self.onResolvedCallbacks = [];
+  self.onRejectedCallbacks = [];
+  function resolve(value) {
+    if (value instanceof Promise) {
+      return value.then(resolve, reject)
+    }
+    setTimeout(function () { // 异步执行所有的回调函数
+      if (self.status == 'pending') {
+        self.value = value;
+        self.status = 'resolved';
+        self.onResolvedCallbacks.forEach(item =&gt; item(value));
+      }
+    });
+
+  }
+
+  function reject(value) {
+    setTimeout(function () {
+      if (self.status == 'pending') {
+        self.value = value;
+        self.status = 'rejected';
+        self.onRejectedCallbacks.forEach(item =&gt; item(value));
+      }
+    });
+  }
+
+  try {
+    executor(resolve, reject);
+  } catch (e) {
+    reject(e);
+  }
+}
+function resolvePromise(promise2, x, resolve, reject) {
+  if (promise2 === x) {
+    return reject(new TypeError('循环引用'));
+  }
+  let then, called;
+
+  if (x != null &amp;&amp; ((typeof x == 'object' || typeof x == 'function'))) {
+    try {
+      then = x.then;
+      if (typeof then == 'function') {
+        then.call(x, function (y) {
+          if (called)return;
+          called = true;
+          resolvePromise(promise2, y, resolve, reject);
+        }, function (r) {
+          if (called)return;
+          called = true;
+          reject(r);
+        });
+      } else {
+        resolve(x);
+      }
+    } catch (e) {
+      if (called)return;
+      called = true;
+      reject(e);
+    }
+  } else {
+    resolve(x);
+  }
+}
+Promise.prototype.then = function (onFulfilled, onRejected) {
+  let self = this;
+  onFulfilled = typeof onFulfilled == 'function' ? onFulfilled : function (value) {
+    return value
+  };
+  onRejected = typeof onRejected == 'function' ? onRejected : function (value) {
+    throw value
+  };
+  let promise2;
+  if (self.status == 'resolved') {
+    promise2 = new Promise(function (resolve, reject) {
+      setTimeout(function () {
+        try {
+          let x = onFulfilled(self.value);
+          resolvePromise(promise2, x, resolve, reject);
+        } catch (e) {
+          reject(e);
+        }
+      });
+
+    });
+  }
+  if (self.status == 'rejected') {
+    promise2 = new Promise(function (resolve, reject) {
+      setTimeout(function () {
+        try {
+          let x = onRejected(self.value);
+          resolvePromise(promise2, x, resolve, reject);
+        } catch (e) {
+          reject(e);
+        }
+      });
+    });
+  }
+  if (self.status == 'pending') {
+    promise2 = new Promise(function (resolve, reject) {
+      self.onResolvedCallbacks.push(function (value) {
+        try {
+          let x = onFulfilled(value);
+          resolvePromise(promise2, x, resolve, reject);
+        } catch (e) {
+          reject(e);
+        }
+      });
+      self.onRejectedCallbacks.push(function (value) {
+        try {
+          let x = onRejected(value);
+          resolvePromise(promise2, x, resolve, reject);
+        } catch (e) {
+          reject(e);
+        }
+      });
+    });
+  }
+  return promise2;
+}
+Promise.prototype.catch = function (onRejected) {
+  return this.then(null, onRejected);
+}
+Promise.all = function (promises) {
+  return new Promise(function (resolve, reject) {
+    let result = [];
+    let count = 0;
+    for (let i = 0; i &lt; promises.length; i++) {
+      promises[i].then(function (data) {
+        result[i] = data;
+        if (++count == promises.length) {
+          resolve(result);
+        }
+      }, function (err) {
+        reject(err);
+      });
+    }
+  });
+}
+
+Promise.deferred = Promise.defer = function () {
+  var defer = {};
+  defer.promise = new Promise(function (resolve, reject) {
+    defer.resolve = resolve;
+    defer.reject = reject;
+  })
+  return defer;
+}
+/**
+ * npm i -g promises-aplus-tests
+ * promises-aplus-tests Promise.js
+ */
+try {
+  module.exports = Promise
+} catch (e) {
+}
+
+</code></pre><h2 id="t2813. 资源">13. 资源 <a href="#t2813. 资源"> # </a></h2>
+<ul>
+<li><a href="http://bluebirdjs.com/docs/api-reference.html">bluebirdAPI</a></li>
+<li><a href="http://liubin.github.io/promises-book/">JavaScript Promise迷你书(中文版)</a></li>
+<li><a href="http://segmentfault.com/a/1190000002452115">Promise/A+规范</a></li>
+<li><a href="https://promisesaplus.com/">Promise/A+</a><h2 id="t2914.作业">14.作业 <a href="#t2914.作业"> # </a></h2>
+</li>
+</ul>
+<p>1.自己实现promise的all、race、resolve和reject方法</p>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

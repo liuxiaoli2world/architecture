@@ -1,0 +1,618 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li class="active"><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01.抓取数据">1.抓取数据</a><ul><li><a href="#t11.1 获取标签列表">1.1 获取标签列表</a></li><li><a href="#t21.2.文章列表">1.2.文章列表</a></li><li><a href="#t31.3.文章详情">1.3.文章详情</a></li><li><a href="#t41.4 入口任务">1.4 入口任务</a></li></ul></li><li><a href="#t52 表结构">2 表结构</a><ul><li><a href="#t62.1 tag(标签表)">2.1 tag(标签表)</a></li><li><a href="#t72.2 articles(文章表)">2.2 articles(文章表)</a></li><li><a href="#t82.3 article_tag(文章标签表)">2.3 article_tag(文章标签表)</a></li></ul></li><li><a href="#t93. 写入数据库">3. 写入数据库</a><ul><li><a href="#t103.1 写入标签">3.1 写入标签</a></li><li><a href="#t113.2 写入文章">3.2 写入文章</a></li></ul></li><li><a href="#t124. 建立web服务器查看数据">4. 建立web服务器查看数据</a><ul><li><a href="#t134.1 server.js">4.1 server.js</a></li><li><a href="#t144.2 index.html">4.2 index.html</a></li><li><a href="#t154.3 detail.html">4.3 detail.html</a></li><li><a href="#t164.4 header.html">4.4 header.html</a></li><li><a href="#t174.5 footer.html">4.5 footer.html</a></li><li><a href="#t184.6 login.html">4.6 login.html</a></li><li><a href="#t194.7 subscribe.html">4.7 subscribe.html</a></li></ul></li><li><a href="#t205. 订阅发布">5. 订阅发布</a><ul><li><a href="#t215.1 web/server.js">5.1 web/server.js</a></li><li><a href="#t225.2 fromCodePoint">5.2 fromCodePoint</a></li></ul></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01.抓取数据">1.抓取数据 <a href="#t01.抓取数据"> # </a></h2>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> request=<span class="hljs-built_in">require</span>(<span class="hljs-string">'request-promise'</span>);
+<span class="hljs-keyword">const</span> cheerio=<span class="hljs-built_in">require</span>(<span class="hljs-string">'cheerio'</span>);
+<span class="hljs-keyword">const</span> debug=<span class="hljs-built_in">require</span>(<span class="hljs-string">'debug'</span>)(<span class="hljs-string">'juejin:task:read'</span>);
+</code></pre>
+<h3 id="t11.1 获取标签列表">1.1 获取标签列表 <a href="#t11.1 获取标签列表"> # </a></h3>
+<pre><code class="lang-js">exports.tagList=<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">uri</span>) </span>{
+    debug(<span class="hljs-string">'读取文章标签列表'</span>);
+    <span class="hljs-keyword">let</span> options={
+        uri,
+        <span class="hljs-attr">transform</span>: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">body</span>) </span>{
+            <span class="hljs-keyword">return</span> cheerio.load(body);
+        }
+    }
+    <span class="hljs-keyword">return</span> request(options).then(<span class="hljs-function"><span class="hljs-params">$</span> =&gt;</span> {
+            <span class="hljs-keyword">let</span> tags= [];
+            $(<span class="hljs-string">'.item'</span>).each(<span class="hljs-function">(<span class="hljs-params">i,item</span>) =&gt;</span> {
+                <span class="hljs-keyword">let</span> tag=$(item);
+                <span class="hljs-keyword">let</span> image=tag.find(<span class="hljs-string">'div.thumb'</span>).first();
+                <span class="hljs-keyword">let</span> title=tag.find(<span class="hljs-string">'.title'</span>).first();
+                <span class="hljs-keyword">let</span> subscribe=tag.find(<span class="hljs-string">'.subscribe'</span>).first();
+                <span class="hljs-keyword">let</span> article=tag.find(<span class="hljs-string">'.article'</span>).first();
+                <span class="hljs-keyword">let</span> name=title.text().trim();
+                tags.push({
+                    <span class="hljs-attr">image</span>: image.data(<span class="hljs-string">'src'</span>).trim(),
+                    name,
+                    <span class="hljs-attr">url</span>:<span class="hljs-string">`https://juejin.im/tag/<span class="hljs-subst">${<span class="hljs-built_in">encodeURIComponent</span>(title.text().trim())}</span>`</span>,
+                    <span class="hljs-attr">subscribe</span>: <span class="hljs-built_in">Number</span>(subscribe.text().match(<span class="hljs-regexp">/(\d+)/</span>)[<span class="hljs-number">1</span>]),
+                    <span class="hljs-attr">article</span>:<span class="hljs-built_in">Number</span>(article.text().match(<span class="hljs-regexp">/(\d+)/</span>)[<span class="hljs-number">1</span>])
+                });
+                debug(<span class="hljs-string">`读取文章标签:<span class="hljs-subst">${name}</span>`</span>);
+            });
+           <span class="hljs-keyword">return</span> tags.slice(<span class="hljs-number">0</span>,<span class="hljs-number">1</span>);
+    });
+}
+</code></pre>
+<h3 id="t21.2.文章列表">1.2.文章列表 <a href="#t21.2.文章列表"> # </a></h3>
+<pre><code class="lang-js">exports.articleList=<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">uri</span>) </span>{
+    debug(<span class="hljs-string">'读取博文列表'</span>);
+    <span class="hljs-keyword">let</span> options={
+        uri,
+        <span class="hljs-attr">transform</span>: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">body</span>) </span>{
+            <span class="hljs-keyword">return</span> cheerio.load(body);
+        }
+    }
+    <span class="hljs-keyword">return</span> request(options).then(<span class="hljs-keyword">async</span> $ =&gt; {
+        <span class="hljs-keyword">let</span> articleList=[];
+        <span class="hljs-keyword">let</span> items =$(<span class="hljs-string">'.item .title'</span>);
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i=<span class="hljs-number">0</span>;i&lt;items.length;i++) {
+            <span class="hljs-keyword">let</span> article=$(items[i]);
+            <span class="hljs-keyword">let</span> href = article.attr(<span class="hljs-string">'href'</span>).trim();
+            <span class="hljs-keyword">let</span> title=article.text().trim();
+            <span class="hljs-keyword">let</span> id=href.match(<span class="hljs-regexp">/\/(\w+)$/</span>)[<span class="hljs-number">1</span>];
+            href=<span class="hljs-string">'https://juejin.im'</span>+href;
+            <span class="hljs-keyword">let</span> articleDetail = <span class="hljs-keyword">await</span> readArticle(id,href);
+            articleList.push({
+                href,
+                title,
+                id,
+                <span class="hljs-attr">content</span>:articleDetail.content,
+                <span class="hljs-attr">tags</span>:articleDetail.tags
+            });
+            debug(<span class="hljs-string">`读取文章列表:<span class="hljs-subst">${title}</span>`</span>);
+        }
+        <span class="hljs-keyword">return</span> articleList;
+    });
+}
+</code></pre>
+<h3 id="t31.3.文章详情">1.3.文章详情 <a href="#t31.3.文章详情"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">readArticle</span>(<span class="hljs-params">id,uri</span>) </span>{
+    debug(<span class="hljs-string">'读取博文'</span>);
+    <span class="hljs-keyword">let</span> options={
+        uri,
+        <span class="hljs-attr">transform</span>: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">body</span>) </span>{
+            <span class="hljs-keyword">return</span> cheerio.load(body);
+        }
+    }
+    <span class="hljs-keyword">return</span> request(options).then(<span class="hljs-function"><span class="hljs-params">$</span> =&gt;</span> {
+        <span class="hljs-keyword">let</span> article=$(<span class="hljs-string">'.main-container'</span>);
+        <span class="hljs-keyword">let</span> title=article.find(<span class="hljs-string">'h1'</span>).text().trim();
+        <span class="hljs-keyword">let</span> content=article.find(<span class="hljs-string">'.article-content'</span>).html();
+        <span class="hljs-keyword">let</span> tags=article.find(<span class="hljs-string">'.tag-list-box&gt;div.tag-list&gt;a.item'</span>);
+        tags=tags.map(<span class="hljs-function">(<span class="hljs-params">index,item</span>) =&gt;</span> {
+            <span class="hljs-keyword">let</span> href = $(item).attr(<span class="hljs-string">'href'</span>);
+            <span class="hljs-keyword">return</span> href? href.slice(<span class="hljs-number">4</span>):href;
+        })
+        tags=<span class="hljs-built_in">Array</span>.prototype.slice.call(tags);
+        debug(<span class="hljs-string">`读取文章详情:<span class="hljs-subst">${title}</span>`</span>);
+        <span class="hljs-keyword">return</span> {
+            id,
+            title,
+            content,
+            tags
+        };
+    });
+}
+</code></pre>
+<h3 id="t41.4 入口任务">1.4 入口任务 <a href="#t41.4 入口任务"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> read = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./read'</span>);
+<span class="hljs-keyword">let</span> write = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./write'</span>);
+(<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">let</span> tagUrl = <span class="hljs-string">'https://juejin.im/subscribe/all'</span>;
+    <span class="hljs-comment">//读取掘金的标签列表</span>
+    <span class="hljs-keyword">let</span> tags = <span class="hljs-keyword">await</span> read.tags(tagUrl);
+    <span class="hljs-comment">//把标签写到数据库中</span>
+    <span class="hljs-keyword">await</span> write.tags(tags);
+    <span class="hljs-keyword">let</span> allAricles = {};
+    <span class="hljs-comment">//标签有很多，不同的标签下面的文章可能会重复</span>
+    <span class="hljs-keyword">for</span> (tag <span class="hljs-keyword">of</span> tags) {
+        <span class="hljs-keyword">let</span> articles = <span class="hljs-keyword">await</span> read.articleList(tag.href);
+        articles.forEach(<span class="hljs-function"><span class="hljs-params">article</span> =&gt;</span> allAricles[article.id] = article);
+    }
+    <span class="hljs-comment">// {id:article}</span>
+    <span class="hljs-keyword">await</span> write.articles(<span class="hljs-built_in">Object</span>.values(allAricles));
+    process.exit();
+})()
+</code></pre>
+<h2 id="t52 表结构">2 表结构 <a href="#t52 表结构"> # </a></h2>
+<h3 id="t62.1 tag(标签表)">2.1 tag(标签表) <a href="#t62.1 tag(标签表)"> # </a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">字段</th>
+<th style="text-align:left">类型</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">id</td>
+<td style="text-align:left">int(11)</td>
+<td style="text-align:left">标签名称</td>
+</tr>
+<tr>
+<td style="text-align:left">name</td>
+<td style="text-align:left">varchar(255)</td>
+<td style="text-align:left">标签名称</td>
+</tr>
+<tr>
+<td style="text-align:left">image</td>
+<td style="text-align:left">varchar(255)</td>
+<td style="text-align:left">标签图片</td>
+</tr>
+<tr>
+<td style="text-align:left">url</td>
+<td style="text-align:left">varchar(255)</td>
+<td style="text-align:left">url地址</td>
+</tr>
+<tr>
+<td style="text-align:left">subscribe</td>
+<td style="text-align:left">int(11)</td>
+<td style="text-align:left">订阅数</td>
+</tr>
+<tr>
+<td style="text-align:left">article</td>
+<td style="text-align:left">int(11)</td>
+<td style="text-align:left">文章数</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-sql">+<span class="hljs-comment">-----------+--------------+------+-----+---------+----------------+</span>
+| Field     | Type         | Null | Key | Default | Extra          |
++<span class="hljs-comment">-----------+--------------+------+-----+---------+----------------+</span>
+| id        | int(11)      | NO   | PRI | NULL    | auto_increment |
+| name      | varchar(255) | NO   |     | NULL    |                |
+| image     | varchar(255) | NO   |     | NULL    |                |
+| url       | varchar(255) | NO   |     | NULL    |                |
+| subscribe | int(11)      | YES  |     | NULL    |                |
+| article   | int(11)      | YES  |     | NULL    |                |
++<span class="hljs-comment">-----------+--------------+------+-----+---------+----------------+</span>
+</code></pre>
+<h3 id="t72.2 articles(文章表)">2.2 articles(文章表) <a href="#t72.2 articles(文章表)"> # </a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">字段</th>
+<th style="text-align:left">类型</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">id</td>
+<td style="text-align:left">varchar(255)</td>
+<td style="text-align:left">文章ID</td>
+</tr>
+<tr>
+<td style="text-align:left">title</td>
+<td style="text-align:left">varchar(255)</td>
+<td style="text-align:left">文章名称</td>
+</tr>
+<tr>
+<td style="text-align:left">href</td>
+<td style="text-align:left">varchar(255)</td>
+<td style="text-align:left">文章连接</td>
+</tr>
+<tr>
+<td style="text-align:left">content</td>
+<td style="text-align:left">longtext</td>
+<td style="text-align:left">文章内容</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-sql">+<span class="hljs-comment">---------+--------------+------+-----+---------+-------+</span>
+| Field   | Type         | Null | Key | Default | Extra |
++<span class="hljs-comment">---------+--------------+------+-----+---------+-------+</span>
+| id      | varchar(255) | NO   | PRI | NULL    |       |
+| title   | varchar(255) | NO   |     | NULL    |       |
+| content | longtext     | YES  |     | NULL    |       |
+| href    | varchar(255) | YES  |     | NULL    |       |
++<span class="hljs-comment">---------+--------------+------+-----+---------+-------+</span>
+</code></pre>
+<h3 id="t82.3 article_tag(文章标签表)">2.3 article_tag(文章标签表) <a href="#t82.3 article_tag(文章标签表)"> # </a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">字段</th>
+<th style="text-align:left">类型</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">article_id</td>
+<td style="text-align:left">varchar(255)</td>
+<td style="text-align:left">文章ID</td>
+</tr>
+<tr>
+<td style="text-align:left">tag_id</td>
+<td style="text-align:left">int(11)</td>
+<td style="text-align:left">标签ID</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-sql">+<span class="hljs-comment">------------+--------------+------+-----+---------+-------+</span>
+| Field      | Type         | Null | Key | Default | Extra |
++<span class="hljs-comment">------------+--------------+------+-----+---------+-------+</span>
+| article_id | varchar(255) | NO   | PRI | NULL    |       |
+| tag_id     | int(11)      | NO   | PRI | NULL    |       |
++<span class="hljs-comment">------------+--------------+------+-----+---------+-------+</span>
+</code></pre>
+<h2 id="t93. 写入数据库">3. 写入数据库 <a href="#t93. 写入数据库"> # </a></h2>
+<p>db.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> mysql=<span class="hljs-built_in">require</span>(<span class="hljs-string">'mysql'</span>);
+<span class="hljs-keyword">var</span> <span class="hljs-built_in">Promise</span> = <span class="hljs-built_in">require</span>(<span class="hljs-string">'bluebird'</span>);
+<span class="hljs-keyword">const</span> connection = mysql.createConnection({
+    <span class="hljs-attr">host</span>:            <span class="hljs-string">'127.0.0.1'</span>,   <span class="hljs-comment">// 数据库地址</span>
+    port:            <span class="hljs-number">3306</span>,          <span class="hljs-comment">// 数据库端口</span>
+    database:        <span class="hljs-string">'juejin'</span>,   <span class="hljs-comment">// 数据库名称</span>
+    user:            <span class="hljs-string">'root'</span>,        <span class="hljs-comment">// 数据库用户</span>
+    password:        <span class="hljs-string">''</span>             <span class="hljs-comment">// 数据库用户对应的密码</span>
+});
+connection.connect();
+<span class="hljs-built_in">module</span>.exports={
+    <span class="hljs-attr">query</span>:<span class="hljs-built_in">Promise</span>.promisify(connection.query).bind(connection),
+    <span class="hljs-attr">end</span>:connection.end
+}
+</code></pre>
+<p>crawl/task/write.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> {query,end}=<span class="hljs-built_in">require</span>(<span class="hljs-string">'../db'</span>);
+<span class="hljs-keyword">const</span> debug=<span class="hljs-built_in">require</span>(<span class="hljs-string">'debug'</span>)(<span class="hljs-string">'juejin:task:write'</span>);
+</code></pre>
+<h3 id="t103.1 写入标签">3.1 写入标签 <a href="#t103.1 写入标签"> # </a></h3>
+<pre><code class="lang-js">exports.tagList=<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">tagList</span>) </span>{
+    debug(<span class="hljs-string">'保存文章标签列表'</span>);
+    <span class="hljs-keyword">for</span> (tag <span class="hljs-keyword">of</span> tagList) {
+        <span class="hljs-keyword">let</span> oldTags=<span class="hljs-keyword">await</span> query(<span class="hljs-string">`SELECT 1 FROM tags WHERE name=? LIMIT 1 `</span>,[tag.name]);
+        <span class="hljs-keyword">if</span> (<span class="hljs-built_in">Array</span>.isArray(oldTags)&amp;&amp;oldTags.length&gt;<span class="hljs-number">0</span>) {
+            <span class="hljs-keyword">let</span> oldTag=oldTags[<span class="hljs-number">0</span>];
+            <span class="hljs-keyword">await</span> query(<span class="hljs-string">`UPDATE tags SET name=?,image=?,url=? WHERE id=?`</span>,[tag.name,tag.image,tag.url,oldTag.id]);
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-keyword">await</span> query(<span class="hljs-string">`INSERT INTO tags(name,image,url) VALUES(?,?,?)`</span>,[tag.name,tag.image,tag.url]);
+        }
+    }
+}
+</code></pre>
+<h3 id="t113.2 写入文章">3.2 写入文章 <a href="#t113.2 写入文章"> # </a></h3>
+<pre><code class="lang-js">
+exports.articleList=<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">articleList</span>) </span>{
+    debug(<span class="hljs-string">'写入博文列表'</span>);
+    <span class="hljs-keyword">debugger</span>;
+    <span class="hljs-keyword">for</span> (article <span class="hljs-keyword">of</span> articleList) {
+        <span class="hljs-keyword">let</span> oldArticles = <span class="hljs-keyword">await</span>  query(<span class="hljs-string">`SELECT 1 FROM articles WHERE id=? LIMIT 1 `</span>,article.id);
+        <span class="hljs-keyword">if</span> (<span class="hljs-built_in">Array</span>.isArray(oldArticles)&amp;&amp;oldArticles.length&gt;<span class="hljs-number">0</span>) {
+            <span class="hljs-keyword">let</span> oldArticle=oldArticles[<span class="hljs-number">0</span>];
+            <span class="hljs-keyword">await</span> query(<span class="hljs-string">`UPDATE articles SET title=?,content=?,href=? WHERE id=?`</span>,[article.title,article.content,article.href,oldArticle.id]);
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-keyword">await</span> query(<span class="hljs-string">`INSERT INTO articles(id,title,href,content) VALUES(?,?,?,?)`</span>,[article.id,article.title,article.href,article.content]);
+        }
+        <span class="hljs-keyword">await</span> query(<span class="hljs-string">`DELETE FROM article_tag WHERE article_id=? `</span>,[article.id]);
+        <span class="hljs-keyword">const</span> where=<span class="hljs-string">"('"</span>+article.tags.join(<span class="hljs-string">"','"</span>)+<span class="hljs-string">"')"</span>;
+        <span class="hljs-keyword">const</span> sql=<span class="hljs-string">`SELECT id FROM tags WHERE name IN <span class="hljs-subst">${where}</span>`</span>;
+        <span class="hljs-keyword">let</span> tagIds = <span class="hljs-keyword">await</span> query(sql);
+        <span class="hljs-keyword">for</span> (row <span class="hljs-keyword">of</span> tagIds) {
+            <span class="hljs-keyword">await</span> query(<span class="hljs-string">`INSERT INTO article_tag(article_id,tag_id) VALUES(?,?)`</span>,[article.id,row.id]);
+        }
+    }
+}
+</code></pre>
+<h2 id="t124. 建立web服务器查看数据">4. 建立web服务器查看数据 <a href="#t124. 建立web服务器查看数据"> # </a></h2>
+<h3 id="t134.1 server.js">4.1 server.js <a href="#t134.1 server.js"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> express=<span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>);
+<span class="hljs-keyword">const</span> path=<span class="hljs-built_in">require</span>(<span class="hljs-string">'path'</span>);
+<span class="hljs-keyword">const</span> {query}=<span class="hljs-built_in">require</span>(<span class="hljs-string">'../db'</span>);
+<span class="hljs-keyword">const</span> cronJob=<span class="hljs-built_in">require</span>(<span class="hljs-string">'cron'</span>).CronJob;
+<span class="hljs-keyword">const</span> debug=<span class="hljs-built_in">require</span>(<span class="hljs-string">'debug'</span>)(<span class="hljs-string">'crawl:server'</span>);
+<span class="hljs-keyword">const</span> {spawn}=<span class="hljs-built_in">require</span>(<span class="hljs-string">'child_process'</span>);
+<span class="hljs-keyword">let</span> app=express();
+app.set(<span class="hljs-string">'view engine'</span>,<span class="hljs-string">'html'</span>);
+app.set(<span class="hljs-string">'views'</span>,path.resolve(<span class="hljs-string">'views'</span>));
+app.engine(<span class="hljs-string">'html'</span>,<span class="hljs-built_in">require</span>(<span class="hljs-string">'ejs'</span>).__express);
+app.get(<span class="hljs-string">'/'</span>,<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res</span>) </span>{
+    <span class="hljs-keyword">let</span> {tagId}=req.query;
+    <span class="hljs-keyword">let</span> tags=<span class="hljs-keyword">await</span> query(<span class="hljs-string">`SELECT * FROM tags`</span>);
+    tagId=tagId||tags[<span class="hljs-number">0</span>].id;
+    <span class="hljs-keyword">let</span> articles=<span class="hljs-keyword">await</span> query(<span class="hljs-string">`SELECT a.* from articles a inner join article_tag  t on a.id = t.article_id WHERE t.tag_id =? `</span>,[tagId]);
+    res.render(<span class="hljs-string">'index'</span>,{
+        tags,articles
+    });
+});
+app.get(<span class="hljs-string">'/detail/:id'</span>,<span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res</span>) </span>{
+    <span class="hljs-keyword">let</span> id=req.params.id;
+    <span class="hljs-keyword">let</span> articles = <span class="hljs-keyword">await</span> query(<span class="hljs-string">`SELECT * FROM articles WHERE id=? `</span>,[id]);
+    res.render(<span class="hljs-string">'detail'</span>,{<span class="hljs-attr">article</span>:articles[<span class="hljs-number">0</span>]});
+});
+app.listen(<span class="hljs-number">8080</span>);
+<span class="hljs-keyword">let</span> job=<span class="hljs-keyword">new</span> CronJob(<span class="hljs-string">'*/5 * * * *'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    debug(<span class="hljs-string">'开始执行定时任务'</span>);
+    <span class="hljs-keyword">let</span> update= spawn(process.execPath,[path.resolve(__dirname,<span class="hljs-string">'update/index.js'</span>)]);
+    update.stdout.pipe(process.stdout);
+    update.stderr.pipe(process.stderr);
+    updaste.on(<span class="hljs-string">'close'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">code</span>) </span>{
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'更新任务，代码=%d'</span>,code);
+    });
+});
+job.start();
+
+process.on(<span class="hljs-string">'uncaughtException'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err</span>) </span>{
+    <span class="hljs-built_in">console</span>.error(<span class="hljs-string">'uncaughtException: %s'</span>,erro.stack);
+});
+</code></pre>
+<h3 id="t144.2 index.html">4.2 index.html <a href="#t144.2 index.html"> # </a></h3>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">%-</span> <span class="hljs-attr">include</span> <span class="hljs-attr">header.html</span>%&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-md-2"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list-group"</span>&gt;</span>
+               <span class="hljs-tag">&lt;<span class="hljs-name">%tags.forEach(tag=</span>&gt;</span>{%&gt;
+                   <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list-group-item text-center"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/?tagId=&lt;%=tag.id%&gt;"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"width:25px;height:25px;"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"&lt;%=tag.image%&gt;"</span>/&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">%=tag.name%</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+                  <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+               <span class="hljs-tag">&lt;<span class="hljs-name">%})%</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-md-10"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list-group"</span>&gt;</span>
+               <span class="hljs-tag">&lt;<span class="hljs-name">%articles.forEach(article=</span>&gt;</span>{%&gt;
+                   <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list-group-item"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/detail/&lt;%=article.id%&gt;"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">%=article.title%</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+                  <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+               <span class="hljs-tag">&lt;<span class="hljs-name">%})%</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">%-</span> <span class="hljs-attr">include</span> <span class="hljs-attr">footer.html</span>%&gt;</span>
+</code></pre>
+<h3 id="t154.3 detail.html">4.3 detail.html <a href="#t154.3 detail.html"> # </a></h3>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">%-</span> <span class="hljs-attr">include</span> <span class="hljs-attr">header.html</span>%&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-md-12"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"panel"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"panel-heading"</span>&gt;</span>
+                  <span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text-center"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">%-</span> <span class="hljs-attr">article.title</span>%&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"panel-body"</span>&gt;</span>
+                  <span class="hljs-tag">&lt;<span class="hljs-name">%-</span> <span class="hljs-attr">article.content</span>%&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">%-</span> <span class="hljs-attr">include</span> <span class="hljs-attr">footer.html</span>%&gt;</span>
+</code></pre>
+<h3 id="t164.4 header.html">4.4 header.html <a href="#t164.4 header.html"> # </a></h3>
+<pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"UTF-8"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"viewport"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"width=device-width, initial-scale=1.0"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">http-equiv</span>=<span class="hljs-string">"X-UA-Compatible"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"ie=edge"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"</span> <span class="hljs-attr">integrity</span>=<span class="hljs-string">"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"</span> <span class="hljs-attr">crossorigin</span>=<span class="hljs-string">"anonymous"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>博客列表<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">nav</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"navbar navbar-default"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container-fluid"</span>&gt;</span>
+    <span class="hljs-comment">&lt;!-- Brand and toggle get grouped for better mobile display --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"navbar-header"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"navbar-toggle collapsed"</span> <span class="hljs-attr">data-toggle</span>=<span class="hljs-string">"collapse"</span> <span class="hljs-attr">data-target</span>=<span class="hljs-string">"#bs-example-navbar-collapse-1"</span> <span class="hljs-attr">aria-expanded</span>=<span class="hljs-string">"false"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"sr-only"</span>&gt;</span>Toggle navigation<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon-bar"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon-bar"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon-bar"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"navbar-brand"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>博客列表<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+    <span class="hljs-comment">&lt;!-- Collect the nav links, forms, and other content for toggling --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"collapse navbar-collapse"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"bs-example-navbar-collapse-1"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav navbar-nav"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"/"</span>&gt;</span>首页<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-comment">&lt;!-- /.navbar-collapse --&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-comment">&lt;!-- /.container-fluid --&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
+</code></pre>
+<h3 id="t174.5 footer.html">4.5 footer.html <a href="#t174.5 footer.html"> # </a></h3>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<h3 id="t184.6 login.html">4.6 login.html <a href="#t184.6 login.html"> # </a></h3>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">%include</span> <span class="hljs-attr">header.html</span>%&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-md-4 col-md-offset-4"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">method</span>=<span class="hljs-string">"POST"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"email"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"email"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"form-control"</span> <span class="hljs-attr">placeholder</span>=<span class="hljs-string">"请输入邮箱进行登录"</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">%include</span> <span class="hljs-attr">footer.html</span>%&gt;</span>
+</code></pre>
+<h3 id="t194.7 subscribe.html">4.7 subscribe.html <a href="#t194.7 subscribe.html"> # </a></h3>
+<pre><code class="lang-html">&lt;%include header.html%&gt;
+    &lt;style&gt;
+        .tag {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    &lt;/style&gt;
+    &lt;div class="row"&gt;
+        &lt;form method="POST"&gt;
+            &lt;%
+               for(let i=0;i&lt;tags.length;i++){
+                   let tag = tags[i];
+                   %&gt;
+                &lt;div class="col-md-3 tag"&gt;
+                    &lt;img src="&lt;%=tag.image%&gt;" /&gt;
+                    &lt;p&gt;
+                        &lt;%=tag.name%&gt;
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                        &lt;%=tag.subscribe%&gt;&amp;nbsp;关注&amp;nbsp;
+                            &lt;%=tag.article%&gt;&amp;nbsp;文章
+                    &lt;/p&gt;
+                    &lt;div class="checkbox"&gt;
+                        &lt;label&gt;
+                            &lt;input &lt;%=tag.subscribed? "checked": ""%&gt; type="checkbox" name="subscribe" value="
+                            &lt;%=tag.id%&gt;"&gt; 关注
+                        &lt;/label&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;%}
+            %&gt;
+                    &lt;input type="submit" class="btn btn-primary" /&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+    &lt;%include footer.html%&gt;
+</code></pre>
+<h2 id="t205. 订阅发布">5. 订阅发布 <a href="#t205. 订阅发布"> # </a></h2>
+<h3 id="t215.1 web/server.js">5.1 web/server.js <a href="#t215.1 web/server.js"> # </a></h3>
+<pre><code class="lang-js">app.get(<span class="hljs-string">'/login'</span>, <span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req, res</span>) </span>{
+    res.render(<span class="hljs-string">'login'</span>, { <span class="hljs-attr">title</span>: <span class="hljs-string">'登录'</span> });
+});
+app.post(<span class="hljs-string">'/login'</span>, <span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req, res</span>) </span>{
+    <span class="hljs-keyword">let</span> { email } = req.body;
+    <span class="hljs-keyword">let</span> oldUsers = <span class="hljs-keyword">await</span> query(<span class="hljs-string">`SELECT * FROM users WHERE email=?`</span>, [email]);
+    <span class="hljs-keyword">if</span> (<span class="hljs-built_in">Array</span>.isArray(oldUsers) &amp;&amp; oldUsers.length &gt; <span class="hljs-number">0</span>) {
+        req.session.user = oldUsers[<span class="hljs-number">0</span>];
+        res.redirect(<span class="hljs-string">'/'</span>);
+    } <span class="hljs-keyword">else</span> {
+        <span class="hljs-keyword">let</span> result = <span class="hljs-keyword">await</span> query(<span class="hljs-string">`INSERT INTO users(email) VALUES(?)`</span>, [email]);
+        req.session.user = {
+            <span class="hljs-attr">id</span>: result.insertId,
+            email
+        }
+        res.redirect(<span class="hljs-string">'/'</span>);
+    }
+});
+app.get(<span class="hljs-string">'/subscribe'</span>, <span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req, res</span>) </span>{
+    <span class="hljs-keyword">let</span> tags = <span class="hljs-keyword">await</span> query(<span class="hljs-string">`SELECT * FROM tags`</span>);
+    <span class="hljs-keyword">let</span> user = req.session.user;<span class="hljs-comment">//{id,name}</span>
+    <span class="hljs-keyword">let</span> selectedTags = <span class="hljs-keyword">await</span> query(<span class="hljs-string">`SELECT tag_id from user_tag WHERE user_id = ?`</span>, [user.id]);
+    <span class="hljs-keyword">let</span> selectTagIds = selectedTags.map(<span class="hljs-function"><span class="hljs-params">item</span> =&gt;</span> item[<span class="hljs-string">'tag_id'</span>]);
+    tags.forEach(<span class="hljs-function"><span class="hljs-params">item</span> =&gt;</span> {
+        item.checked = selectTagIds.indexOf(item.id) != <span class="hljs-number">-1</span> ? <span class="hljs-string">'true'</span> : <span class="hljs-string">'false'</span>;
+    });
+    res.render(<span class="hljs-string">'subscribe'</span>, { <span class="hljs-attr">title</span>: <span class="hljs-string">'请订阅你感兴趣的标签'</span>, tags });
+});
+app.post(<span class="hljs-string">'/subscribe'</span>, <span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req, res</span>) </span>{
+    <span class="hljs-keyword">let</span> { tags } = req.body;<span class="hljs-comment">//[ '1', '2', '9' ] }</span>
+    <span class="hljs-keyword">let</span> user = req.session.user;<span class="hljs-comment">//{id,name}</span>
+    <span class="hljs-keyword">await</span> query(<span class="hljs-string">`DELETE FROM user_tag WHERE user_id=?`</span>, [user.id]);
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; tags.length; i++) {
+        <span class="hljs-keyword">await</span> query(<span class="hljs-string">`INSERT INTO user_tag(user_id,tag_id) VALUES(?,?)`</span>, [user.id, <span class="hljs-built_in">parseInt</span>(tags[i])])
+    }
+    res.redirect(<span class="hljs-string">'/'</span>);
+});
+</code></pre>
+<h3 id="t225.2 fromCodePoint">5.2 fromCodePoint <a href="#t225.2 fromCodePoint"> # </a></h3>
+<p>String.fromCodePoint() 静态方法返回使用指定的代码点序列创建的字符串。</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> str = <span class="hljs-string">'&amp;#x65F6'</span>;
+<span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">String</span>.fromCodePoint(<span class="hljs-string">'0x65F6'</span>))
+content = content.replace(<span class="hljs-regexp">/&amp;#x(\w+?);/g</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">matched, point</span>) </span>{
+   <span class="hljs-keyword">return</span> <span class="hljs-built_in">String</span>.fromCodePoint(<span class="hljs-string">`0x<span class="hljs-subst">${point}</span>`</span>);
+});
+</code></pre>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

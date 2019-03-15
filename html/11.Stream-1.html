@@ -1,0 +1,756 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li class="active"><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. 流的概念">1. 流的概念</a></li><li><a href="#t12.可读流createReadStream">2.可读流createReadStream</a><ul><li><a href="#t22.1 创建可读流">2.1 创建可读流</a></li><li><a href="#t32.2 监听data事件">2.2 监听data事件</a></li><li><a href="#t42.3 监听end事件">2.3 监听end事件</a></li><li><a href="#t52.4 监听error事件">2.4 监听error事件</a></li><li><a href="#t62.5 监听open事件">2.5 监听open事件</a></li><li><a href="#t72.6 监听close事件">2.6 监听close事件</a></li><li><a href="#t82.7 设置编码">2.7 设置编码</a></li><li><a href="#t92.8 暂停和恢复触发data">2.8 暂停和恢复触发data</a></li></ul></li><li><a href="#t103.可写流createWriteStream">3.可写流createWriteStream</a><ul><li><a href="#t113.1 创建可写流">3.1 创建可写流</a></li><li><a href="#t123.2 write方法">3.2 write方法</a></li><li><a href="#t133.3 end方法">3.3 end方法</a></li><li><a href="#t143.4 drain方法">3.4 drain方法</a></li><li><a href="#t153.5 finish方法">3.5 finish方法</a></li></ul></li><li><a href="#t164.pipe方法">4.pipe方法</a><ul><li><a href="#t174.1 pipe方法的原理">4.1 pipe方法的原理</a></li><li><a href="#t184.2 pipe用法">4.2 pipe用法</a></li><li><a href="#t194.3 unpipe用法">4.3 unpipe用法</a></li><li><a href="#t204.4 cork">4.4 cork</a></li><li><a href="#t214.5 uncork">4.5 uncork</a></li></ul></li><li><a href="#t225. 简单实现">5. 简单实现</a><ul><li><a href="#t235.1 可读流的简单实现">5.1 可读流的简单实现</a></li><li><a href="#t245.2 可写流的简单实现">5.2 可写流的简单实现</a></li><li><a href="#t255.3 pipe">5.3 pipe</a></li></ul></li><li><a href="#t265.4 暂停模式">5.4 暂停模式</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. 流的概念">1. 流的概念 <a href="#t01. 流的概念"> # </a></h2>
+<ul>
+<li>流是一组有序的，有起点和终点的字节数据传输手段</li>
+<li>它不关心文件的整体内容，只关注是否从文件中读到了数据，以及读到数据之后的处理</li>
+<li>流是一个抽象接口，被 Node 中的很多对象所实现。比如HTTP 服务器request和response对象都是流。</li>
+</ul>
+<h2 id="t12.可读流createReadStream">2.可读流createReadStream <a href="#t12.可读流createReadStream"> # </a></h2>
+<p>实现了<code>stream.Readable</code>接口的对象,将对象数据读取为流数据,当监听data事件后,开始发射数据</p>
+<pre><code class="lang-javascript">fs.createReadStream = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">path, options</span>) </span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ReadStream(path, options);
+};
+util.inherits(ReadStream, Readable);
+</code></pre>
+<h3 id="t22.1 创建可读流">2.1 创建可读流 <a href="#t22.1 创建可读流"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> rs = fs.createReadStream(path,[options]);
+</code></pre>
+<ol>
+<li>path读取文件的路径</li>
+<li>options<ul>
+<li>flags打开文件要做的操作,默认为'r'</li>
+<li>encoding默认为null</li>
+<li>start开始读取的索引位置</li>
+<li>end结束读取的索引位置(包括结束位置)</li>
+<li>highWaterMark读取缓存区默认的大小64kb</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>如果指定utf8编码highWaterMark要大于3个字节</p>
+</blockquote>
+<h3 id="t32.2 监听data事件">2.2 监听data事件 <a href="#t32.2 监听data事件"> # </a></h3>
+<p>流切换到流动模式,数据会被尽可能快的读出</p>
+<pre><code class="lang-javascript">rs.on(<span class="hljs-string">'data'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(data);
+});
+</code></pre>
+<h3 id="t42.3 监听end事件">2.3 监听end事件 <a href="#t42.3 监听end事件"> # </a></h3>
+<p>该事件会在读完数据后被触发</p>
+<pre><code class="lang-javascript">rs.on(<span class="hljs-string">'end'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'读取完成'</span>);
+});
+</code></pre>
+<h3 id="t52.4 监听error事件">2.4 监听error事件 <a href="#t52.4 监听error事件"> # </a></h3>
+<pre><code class="lang-javascript">rs.on(<span class="hljs-string">'error'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(err);
+});
+</code></pre>
+<h3 id="t62.5 监听open事件">2.5 监听open事件 <a href="#t62.5 监听open事件"> # </a></h3>
+<pre><code class="lang-javascript">rs.on(<span class="hljs-string">'open'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(err);
+});
+</code></pre>
+<h3 id="t72.6 监听close事件">2.6 监听close事件 <a href="#t72.6 监听close事件"> # </a></h3>
+<pre><code class="lang-javascript">rs.on(<span class="hljs-string">'close'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(err);
+});
+</code></pre>
+<h3 id="t82.7 设置编码">2.7 设置编码 <a href="#t82.7 设置编码"> # </a></h3>
+<p>与指定{encoding:'utf8'}效果相同，设置编码</p>
+<pre><code class="lang-javascript">rs.setEncoding(<span class="hljs-string">'utf8'</span>);
+</code></pre>
+<h3 id="t92.8 暂停和恢复触发data">2.8 暂停和恢复触发data <a href="#t92.8 暂停和恢复触发data"> # </a></h3>
+<p>通过pause()方法和resume()方法</p>
+<pre><code class="lang-javascript">rs.on(<span class="hljs-string">'data'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+    rs.pause();
+    <span class="hljs-built_in">console</span>.log(data);
+});
+setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    rs.resume();
+},<span class="hljs-number">2000</span>);
+</code></pre>
+<h2 id="t103.可写流createWriteStream">3.可写流createWriteStream <a href="#t103.可写流createWriteStream"> # </a></h2>
+<p>实现了stream.Writable接口的对象来将流数据写入到对象中</p>
+<pre><code class="lang-javascript">fs.createWriteStream = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">path, options</span>) </span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> WriteStream(path, options);
+};
+
+util.inherits(WriteStream, Writable);
+</code></pre>
+<h3 id="t113.1 创建可写流">3.1 创建可写流 <a href="#t113.1 创建可写流"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> ws = fs.createWriteStream(path,[options]);
+</code></pre>
+<ol>
+<li>path写入的文件路径</li>
+<li>options<ul>
+<li>flags打开文件要做的操作,默认为'w'</li>
+<li>encoding默认为utf8</li>
+<li>highWaterMark写入缓存区的默认大小16kb</li>
+</ul>
+</li>
+</ol>
+<h3 id="t123.2 write方法">3.2 write方法 <a href="#t123.2 write方法"> # </a></h3>
+<pre><code class="lang-javascript">ws.write(chunk,[encoding],[callback]);
+</code></pre>
+<ol>
+<li>chunk写入的数据buffer/string</li>
+<li>encoding编码格式chunk为字符串时有用，可选</li>
+<li>callback 写入成功后的回调</li>
+</ol>
+<blockquote>
+<p>返回值为布尔值，系统缓存区满时为false,未满时为true</p>
+</blockquote>
+<h3 id="t133.3 end方法">3.3 end方法 <a href="#t133.3 end方法"> # </a></h3>
+<pre><code class="lang-javascript">ws.end(chunk,[encoding],[callback]);
+</code></pre>
+<blockquote>
+<p>表明接下来没有数据要被写入 Writable
+通过传入可选的 chunk 和 encoding 参数，可以在关闭流之前再写入一段数据
+如果传入了可选的 callback 函数，它将作为 'finish' 事件的回调函数</p>
+</blockquote>
+<h3 id="t143.4 drain方法">3.4 drain方法 <a href="#t143.4 drain方法"> # </a></h3>
+<ul>
+<li>当一个流不处在 drain 的状态， 对 write() 的调用会缓存数据块， 并且返回 false。 一旦所有当前所有缓存的数据块都排空了（被操作系统接受来进行输出）， 那么 'drain' 事件就会被触发</li>
+<li>建议， 一旦 write() 返回 false， 在 'drain' 事件触发前， 不能写入任何数据块<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">'fs'</span>);
+<span class="hljs-keyword">let</span> ws = fs.createWriteStream(<span class="hljs-string">'./2.txt'</span>,{
+  <span class="hljs-attr">flags</span>:<span class="hljs-string">'w'</span>,
+  <span class="hljs-attr">encoding</span>:<span class="hljs-string">'utf8'</span>,
+  <span class="hljs-attr">highWaterMark</span>:<span class="hljs-number">3</span>
+});
+<span class="hljs-keyword">let</span> i = <span class="hljs-number">10</span>;
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">write</span>(<span class="hljs-params"></span>)</span>{
+ <span class="hljs-keyword">let</span>  flag = <span class="hljs-literal">true</span>;
+ <span class="hljs-keyword">while</span>(i&amp;&amp;flag){
+      flag = ws.write(<span class="hljs-string">"1"</span>);
+      i--;
+     <span class="hljs-built_in">console</span>.log(flag);
+ }
+}
+write();
+ws.on(<span class="hljs-string">'drain'</span>,()=&gt;{
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"drain"</span>);
+  write();
+});
+</code></pre>
+</li>
+</ul>
+<h3 id="t153.5 finish方法">3.5 finish方法 <a href="#t153.5 finish方法"> # </a></h3>
+<p>在调用了 stream.end() 方法，且缓冲区数据都已经传给底层系统之后， 'finish' 事件将被触发。</p>
+<pre><code>var writer = fs.createWriteStream('./2.txt');
+for (let i = 0; i &lt; 100; i++) {
+  writer.write(`hello, ${i}!\n`);
+}
+writer.end('结束\n');
+writer.on('finish', () =&gt; {
+  console.error('所有的写入已经完成!');
+});
+</code></pre><h2 id="t164.pipe方法">4.pipe方法 <a href="#t164.pipe方法"> # </a></h2>
+<h3 id="t174.1 pipe方法的原理">4.1 pipe方法的原理 <a href="#t174.1 pipe方法的原理"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">'fs'</span>);
+<span class="hljs-keyword">var</span> ws = fs.createWriteStream(<span class="hljs-string">'./2.txt'</span>);
+<span class="hljs-keyword">var</span> rs = fs.createReadStream(<span class="hljs-string">'./1.txt'</span>);
+rs.on(<span class="hljs-string">'data'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+    <span class="hljs-keyword">var</span> flag = ws.write(data);
+    <span class="hljs-keyword">if</span>(!flag)
+    rs.pause();
+});
+ws.on(<span class="hljs-string">'drain'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    rs.resume();
+});
+rs.on(<span class="hljs-string">'end'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    ws.end();
+});
+</code></pre>
+<h3 id="t184.2 pipe用法">4.2 pipe用法 <a href="#t184.2 pipe用法"> # </a></h3>
+<pre><code class="lang-javascript">readStream.pipe(writeStream);
+<span class="hljs-keyword">var</span> <span class="hljs-keyword">from</span> = fs.createReadStream(<span class="hljs-string">'./1.txt'</span>);
+<span class="hljs-keyword">var</span> to = fs.createWriteStream(<span class="hljs-string">'./2.txt'</span>);
+<span class="hljs-keyword">from</span>.pipe(to);
+</code></pre>
+<blockquote>
+<p>将数据的滞留量限制到一个可接受的水平，以使得不同速度的来源和目标不会淹没可用内存。</p>
+</blockquote>
+<h3 id="t194.3 unpipe用法">4.3 unpipe用法 <a href="#t194.3 unpipe用法"> # </a></h3>
+<ul>
+<li>readable.unpipe()方法将之前通过stream.pipe()方法绑定的流分离</li>
+<li>如果 destination 没有传入, 则所有绑定的流都会被分离.<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">'fs'</span>);
+<span class="hljs-keyword">var</span> <span class="hljs-keyword">from</span> = fs.createReadStream(<span class="hljs-string">'./1.txt'</span>);
+<span class="hljs-keyword">var</span> to = fs.createWriteStream(<span class="hljs-string">'./2.txt'</span>);
+<span class="hljs-keyword">from</span>.pipe(to);
+setTimeout(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">'关闭向2.txt的写入'</span>);
+<span class="hljs-keyword">from</span>.unpipe(writable);
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">'手工关闭文件流'</span>);
+to.end();
+}, <span class="hljs-number">1000</span>);
+</code></pre>
+</li>
+</ul>
+<h3 id="t204.4 cork">4.4 cork <a href="#t204.4 cork"> # </a></h3>
+<p>调用 writable.cork() 方法将强制所有写入数据都存放到内存中的缓冲区里。 直到调用 stream.uncork() 或 stream.end() 方法时，缓冲区里的数据才会被输出。</p>
+<h3 id="t214.5 uncork">4.5 uncork <a href="#t214.5 uncork"> # </a></h3>
+<p>writable.uncork()将输出在<code>stream.cork()</code>方法被调用之后缓冲在内存中的所有数据。</p>
+<pre><code>stream.cork();
+stream.write('1');
+stream.write('2');
+process.nextTick(() =&gt; stream.uncork());
+</code></pre><h2 id="t225. 简单实现">5. 简单实现 <a href="#t225. 简单实现"> # </a></h2>
+<h3 id="t235.1 可读流的简单实现">5.1 可读流的简单实现 <a href="#t235.1 可读流的简单实现"> # </a></h3>
+<pre><code>let fs = require('fs');
+let ReadStream = require('./ReadStream');
+let rs = ReadStream('./1.txt', {
+    flags: 'r',
+    encoding: 'utf8',
+    start: 3,
+    end: 7,
+    highWaterMark: 3
+});
+rs.on('open', function () {
+    console.log("open");
+});
+rs.on('data', function (data) {
+    console.log(data);
+});
+rs.on('end', function () {
+    console.log("end");
+});
+rs.on('close', function () {
+    console.log("close");
+});
+/**
+ open
+ 456
+ 789
+ end
+ close
+ **/
+</code></pre><pre><code>let fs = require('fs');
+let EventEmitter = require('events');
+
+class WriteStream extends EventEmitter {
+    constructor(path, options) {
+        super(path, options);
+        this.path = path;
+        this.fd = options.fd;
+        this.flags = options.flags || 'r';
+        this.encoding = options.encoding;
+        this.start = options.start || 0;
+        this.pos = this.start;
+        this.end = options.end;
+        this.flowing = false;
+        this.autoClose = true;
+        this.highWaterMark = options.highWaterMark || 64 * 1024;
+        this.buffer = Buffer.alloc(this.highWaterMark);
+        this.length = 0;
+        this.on('newListener', (type, listener) =&gt; {
+            if (type == 'data') {
+                this.flowing = true;
+                this.read();
+            }
+        });
+        this.on('end', () =&gt; {
+            if (this.autoClose) {
+                this.destroy();
+            }
+        });
+        this.open();
+    }
+
+    read() {
+        if (typeof this.fd != 'number') {
+            return this.once('open', () =&gt; this.read());
+        }
+        let n = this.end ? Math.min(this.end - this.pos, this.highWaterMark) : this.highWaterMark;
+        fs.read(this.fd,this.buffer,0,n,this.pos,(err,bytesRead)=&gt;{
+            if(err){
+             return;
+            }
+            if(bytesRead){
+                let data = this.buffer.slice(0,bytesRead);
+                data = this.encoding?data.toString(this.encoding):data;
+                this.emit('data',data);
+                this.pos += bytesRead;
+                if(this.end &amp;&amp; this.pos &gt; this.end){
+                  return this.emit('end');
+                }
+                if(this.flowing)
+                    this.read();
+            }else{
+                this.emit('end');
+            }
+        })
+    }
+
+    open() {
+        fs.open(this.path, this.flags, this.mode, (err, fd) =&gt; {
+            if (err) return this.emit('error', err);
+            this.fd = fd;
+            this.emit('open', fd);
+        })
+    }
+
+
+    end() {
+        if (this.autoClose) {
+            this.destroy();
+        }
+    }
+
+    destroy() {
+        fs.close(this.fd, () =&gt; {
+            this.emit('close');
+        })
+    }
+
+}
+
+module.exports = WriteStream;
+</code></pre><h3 id="t245.2 可写流的简单实现">5.2 可写流的简单实现 <a href="#t245.2 可写流的简单实现"> # </a></h3>
+<pre><code>let fs = require('fs');
+ let FileWriteStream = require('./FileWriteStream');
+ let ws = FileWriteStream('./2.txt',{
+     flags:'w',
+     encoding:'utf8',
+     highWaterMark:3
+ });
+ let i = 10;
+ function write(){
+     let  flag = true;
+     while(i&amp;&amp;flag){
+         flag = ws.write("1",'utf8',(function(i){
+             return function(){
+                 console.log(i);
+             }
+         })(i));
+         i--;
+         console.log(flag);
+     }
+ }
+ write();
+ ws.on('drain',()=&gt;{
+     console.log("drain");
+     write();
+ });
+ /**
+  10
+  9
+  8
+  drain
+  7
+  6
+  5
+  drain
+  4
+  3
+  2
+  drain
+  1
+  **/
+</code></pre><pre><code>let fs = require('fs');
+let EventEmitter = require('events');
+class WriteStream extends  EventEmitter{
+    constructor(path, options) {
+        super(path, options);
+        this.path = path;
+        this.fd = options.fd;
+        this.flags = options.flags || 'w';
+        this.mode = options.mode || 0o666;
+        this.encoding = options.encoding;
+        this.start = options.start || 0;
+        this.pos = this.start;
+        this.writing = false;
+        this.autoClose = true;
+        this.highWaterMark = options.highWaterMark || 16 * 1024;
+        this.buffers = [];
+        this.length = 0;
+        this.open();
+    }
+
+    open() {
+        fs.open(this.path, this.flags, this.mode, (err, fd) =&gt; {
+            if (err) return this.emit('error', err);
+            this.fd = fd;
+            this.emit('open', fd);
+        })
+    }
+
+    write(chunk, encoding, cb) {
+        if (typeof encoding == 'function') {
+            cb = encoding;
+            encoding = null;
+        }
+
+        chunk = Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk, this.encoding || 'utf8');
+        let len = chunk.length;
+        this.length += len;
+        let ret = this.length &lt; this.highWaterMark;
+        if (this.writing) {
+            this.buffers.push({
+                chunk,
+                encoding,
+                cb,
+            });
+        } else {
+            this.writing = true;
+            this._write(chunk, encoding,this.clearBuffer.bind(this));
+        }
+        return ret;
+    }
+
+    _write(chunk, encoding, cb) {
+        if (typeof this.fd != 'number') {
+            return this.once('open', () =&gt; this._write(chunk, encoding, cb));
+        }
+        fs.write(this.fd, chunk, 0, chunk.length, this.pos, (err, written) =&gt; {
+            if (err) {
+                if (this.autoClose) {
+                    this.destroy();
+                }
+                return this.emit('error', err);
+            }
+            this.length -= written;
+            this.pos += written;
+            cb &amp;&amp; cb();
+        });
+    }
+
+    clearBuffer() {
+        let data = this.buffers.shift();
+        if (data) {
+            this._write(data.chunk, data.encoding, this.clearBuffer.bind(this))
+        } else {
+            this.writing = false;
+            this.emit('drain');
+        }
+    }
+
+    end() {
+        if (this.autoClose) {
+            this.emit('end');
+            this.destroy();
+        }
+    }
+
+    destroy() {
+        fs.close(this.fd, () =&gt; {
+            this.emit('close');
+        })
+    }
+
+}
+
+module.exports = WriteStream;
+</code></pre><h3 id="t255.3 pipe">5.3 pipe <a href="#t255.3 pipe"> # </a></h3>
+<pre><code>let fs = require('fs');
+let ReadStream = require('./ReadStream');
+let rs = ReadStream('./1.txt', {
+    flags: 'r',
+    encoding: 'utf8',
+    highWaterMark: 3
+});
+let FileWriteStream = require('./WriteStream');
+let ws = FileWriteStream('./2.txt',{
+    flags:'w',
+    encoding:'utf8',
+    highWaterMark:3
+});
+rs.pipe(ws);
+</code></pre><pre><code>ReadStream.prototype.pipe = function (dest) {
+    this.on('data', (data)=&gt;{
+        let flag = dest.write(data);
+        if(!flag){
+            this.pause();
+        }
+    });
+    dest.on('drain', ()=&gt;{
+        this.resume();
+    });
+    this.on('end', ()=&gt;{
+        dest.end();
+    });
+}
+ReadStream.prototype.pause = function(){
+    this.flowing = false;
+
+}
+ReadStream.prototype.resume = function(){
+    this.flowing = true;
+    this.read();
+}
+</code></pre><h2 id="t265.4 暂停模式">5.4 暂停模式 <a href="#t265.4 暂停模式"> # </a></h2>
+<pre><code>let fs =require('fs');
+let ReadStream2 = require('./ReadStream2');
+let rs = new ReadStream2('./1.txt',{
+    start:3,
+    end:8,
+    encoding:'utf8',
+    highWaterMark:3
+});
+rs.on('readable',function () {
+    console.log('readable');
+    console.log('rs.buffer.length',rs.length);
+    let d = rs.read(1);
+    console.log(d);
+    console.log('rs.buffer.length',rs.length);
+
+    setTimeout(()=&gt;{
+        console.log('rs.buffer.length',rs.length);
+    },500)
+});
+</code></pre><p><code>`</code>
+let fs = require('fs');
+let EventEmitter = require('events');
+class ReadStream extends EventEmitter {
+    constructor(path, options) {
+        super(path, options);
+        this.path = path;
+        this.highWaterMark = options.highWaterMark || 64 * 1024;
+        this.buffer = Buffer.alloc(this.highWaterMark);
+        this.flags = options.flags || 'r';
+        this.encoding = options.encoding;
+        this.mode = options.mode || 0o666;
+        this.start = options.start || 0;
+        this.end = options.end;
+        this.pos = this.start;
+        this.autoClose = options.autoClose || true;
+        this.bytesRead = 0;
+        this.closed = false;
+        this.flowing;
+        this.needReadable = false;
+        this.length = 0;
+        this.buffers = [];
+        this.on('end', function () {
+            if (this.autoClose) {
+                this.destroy();
+            }
+        });
+        this.on('newListener', (type) =&gt; {
+            if (type == 'data') {
+                this.flowing = true;
+                this.read();
+            }
+            if (type == 'readable') {
+                this.read(0);
+            }
+        });
+        this.open();
+    }</p>
+<pre><code>open() {
+    fs.open(this.path, this.flags, this.mode, (err, fd) =&gt; {
+        if (err) {
+            if (this.autoClose) {
+                this.destroy();
+                return this.emit('error', err);
+            }
+        }
+        this.fd = fd;
+        this.emit('open');
+    });
+}
+
+read(n) {
+    if (typeof this.fd != 'number') {
+        return this.once('open', () =&gt; this.read());
+    }
+    n = parseInt(n,10);
+    if(n != n){
+        n = this.length;
+    }
+    if(this.length ==0)
+        this.needReadable = true;
+    let ret;
+    if (0&lt;n &lt; this.length) {
+        ret = Buffer.alloc(n);
+        let b ;
+        let index = 0;
+        while(null != (b = this.buffers.shift())){
+            for(let i=0;i&lt;b.length;i++){
+                ret[index++] = b[i];
+                if(index == ret.length){
+                    this.length -= n;
+                    b = b.slice(i+1);
+                    this.buffers.unshift(b);
+                    break;
+                }
+            }
+        }
+        if (this.encoding) ret = ret.toString(this.encoding);
+    }
+
+    let _read = () =&gt; {
+        let m = this.end ? Math.min(this.end - this.pos + 1, this.highWaterMark) : this.highWaterMark;
+        fs.read(this.fd, this.buffer, 0, m, this.pos, (err, bytesRead) =&gt; {
+            if (err) {
+                return
+            }
+            let data;
+            if (bytesRead &gt; 0) {
+                data = this.buffer.slice(0, bytesRead);
+                this.pos += bytesRead;
+                this.length += bytesRead;
+                if (this.end &amp;&amp; this.pos &gt; this.end) {
+                    if(this.needReadable){
+                        this.emit('readable');
+                    }
+
+                    this.emit('end');
+                } else {
+                    this.buffers.push(data);
+                    if(this.needReadable){
+                        this.emit('readable');
+                        this.needReadable = false;
+                    }
+
+                }
+            } else {
+                if(this.needReadable) {
+                    this.emit('readable');
+                }
+                return this.emit('end');
+            }
+        })
+    }
+    if (this.length == 0 || (this.length &lt; this.highWaterMark)) {
+        _read(0);
+    }
+    return ret;
+}
+
+destroy() {
+    fs.close(this.fd, (err) =&gt; {
+        this.emit('close');
+    });
+}
+
+pause() {
+    this.flowing = false;
+}
+
+resume() {
+    this.flowing = true;
+    this.read();
+}
+
+pipe(dest) {
+    this.on('data', (data) =&gt; {
+        let flag = dest.write(data);
+        if (!flag) this.pause();
+    });
+    dest.on('drain', () =&gt; {
+        this.resume();
+    });
+    this.on('end', () =&gt; {
+        dest.end();
+    });
+}
+</code></pre><p>}</p>
+<p>module.exports = ReadStream;
+/**</p>
+<ul>
+<li><p>if (n !== 0)
+state.emittedReadable = false; 只要要读的字节数不是0就需要触发readable事件
+如果传入的NaN,则将n赋为缓区的长度，第一次就是0</p>
+<p>缓存区为0就开始读吧
+如果n等于0就返回null,state.needReadable = true;
+如果缓存区为0，是  state.needReadable = true; 需要触发readable</p>
+<p>**/
+<code></code></p>
+</li>
+</ul>
+<ul>
+<li><a href="http://www.moye.me/2015/03/29/streaming_in_node/">streaming_in_node</a></li>
+<li><a href="https://github.com/jabez128/stream-handbook">stream-handbook</a></li>
+</ul>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

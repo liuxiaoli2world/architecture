@@ -1,0 +1,694 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li class="active"><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. Express 介绍">1. Express 介绍</a></li><li><a href="#t12. Express 的应用">2. Express 的应用</a><ul><li><a href="#t22.1 安装express">2.1 安装express</a></li><li><a href="#t32.2 使用express">2.2 使用express</a></li><li><a href="#t42.3 express的get方法">2.3 express的get方法</a></li><li><a href="#t52.4 express的post方法">2.4 express的post方法</a></li><li><a href="#t62.5 express的all方法">2.5 express的all方法</a></li><li><a href="#t72.6 中间件">2.6 中间件</a></li><li><a href="#t82.7 获取参数和查询字符串">2.7 获取参数和查询字符串</a></li><li><a href="#t92.8 获取params参数">2.8 获取params参数</a></li><li><a href="#t102.9 express中的send方法">2.9 express中的send方法</a></li></ul></li><li><a href="#t113. 模板的应用">3. 模板的应用</a><ul><li><a href="#t123.1 安装ejs">3.1 安装ejs</a></li><li><a href="#t133.2 设置模板">3.2 设置模板</a></li><li><a href="#t143.3 渲染html">3.3 渲染html</a></li><li><a href="#t153.4 渲染视图">3.4 渲染视图</a></li><li><a href="#t163.5 模板的实现">3.5 模板的实现</a></li></ul></li><li><a href="#t174. 静态文件服务器">4. 静态文件服务器</a><ul><li><a href="#t184.1 静态文件服务器实现">4.1 静态文件服务器实现</a></li></ul></li><li><a href="#t195. 重定向">5. 重定向</a><ul><li><a href="#t205.1 redirect使用">5.1 redirect使用</a></li><li><a href="#t215.2 redirect的实现">5.2 redirect的实现</a></li></ul></li><li><a href="#t226. 接收 post 响应体">6. 接收 post 响应体</a><ul><li><a href="#t236.1 使用body-parser">6.1 使用body-parser</a></li><li><a href="#t246.2 req.body的实现">6.2 req.body的实现</a></li></ul></li><li><a href="#t25源代码地址">源代码地址</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. Express 介绍">1. Express 介绍 <a href="#t01. Express 介绍"> # </a></h2>
+<p>Express 是一个小巧且灵活的 Node.js Web应用框架，它有一套健壮的特性，可用于开发单页、多页和混合Web应用。</p>
+<p><a href="http://www.expressjs.com.cn/">express</a></p>
+<h2 id="t12. Express 的应用">2. Express 的应用 <a href="#t12. Express 的应用"> # </a></h2>
+<h5 id="t22.1 安装express">2.1 安装express <a href="#t22.1 安装express"> # </a></h5>
+<p>npm安装</p>
+<pre><code class="lang-shell"><span class="hljs-meta">$</span><span class="bash"> npm install express</span>
+</code></pre>
+<h5 id="t32.2 使用express">2.2 使用express <a href="#t32.2 使用express"> # </a></h5>
+<p>创建http服务</p>
+<pre><code class="lang-JS"><span class="hljs-comment">//引入express</span>
+<span class="hljs-keyword">var</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>);
+<span class="hljs-comment">//执行express**函数</span>
+<span class="hljs-keyword">var</span> app = express();
+<span class="hljs-comment">//监听端口</span>
+app.listen(<span class="hljs-number">3000</span>);
+</code></pre>
+<h5 id="t42.3 express的get方法">2.3 express的get方法 <a href="#t42.3 express的get方法"> # </a></h5>
+<p>根据请求路径来处理客户端发出的GET请求</p>
+<ul>
+<li>第一个参数path为请求的路径</li>
+<li>第二个参数为处理请求的回调函数</li>
+</ul>
+<pre><code class="lang-js">app.get(path,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req, res</span>));
+</span></code></pre>
+<p>get方法使用：</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>);
+<span class="hljs-keyword">const</span> app = express();
+app.get(<span class="hljs-string">'/hello'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res</span>)</span>{
+    res.end(<span class="hljs-string">'hello'</span>);
+});
+app.get(<span class="hljs-string">'/world'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res</span>)</span>{
+    res.end(<span class="hljs-string">'world'</span>);
+});
+app.get(<span class="hljs-string">'*'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res</span>)</span>{
+    res.setHeader(<span class="hljs-string">'Content-Type'</span>,<span class="hljs-string">'text/plain;charset=utf8'</span>);
+    res.end(<span class="hljs-string">'Not Found'</span>);
+});
+app.listen(<span class="hljs-number">3000</span>);
+
+</code></pre>
+<p>get方法实现：</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> url = <span class="hljs-built_in">require</span>(<span class="hljs-string">'url'</span>);
+<span class="hljs-keyword">let</span> express = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">let</span> app = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req, res</span>) </span>{
+        <span class="hljs-keyword">let</span> {pathname} = url.parse(req.url, <span class="hljs-literal">true</span>);
+        <span class="hljs-keyword">let</span> method = req.method.toLowerCase();
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; app.routes.length; i++) {
+            <span class="hljs-keyword">let</span> {path, method, handler} = app.routes[i];
+            <span class="hljs-keyword">if</span> ((path == pathname || path == <span class="hljs-string">"*"</span>) &amp;&amp; method == req.method.toLowerCase()) {
+                <span class="hljs-keyword">return</span> handler(req, res);
+            }
+        }
+        res.end(<span class="hljs-string">`CANNOT <span class="hljs-subst">${req.method}</span> <span class="hljs-subst">${req.url}</span>`</span>);
+    }
+    app.routes = [];
+    app.listen = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">port</span>) </span>{
+        <span class="hljs-built_in">require</span>(<span class="hljs-string">'http'</span>).createServer(app).listen(port);
+    }
+    app.get = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">path, handler</span>) </span>{
+        app.routes.push({
+            path, handler, <span class="hljs-attr">method</span>: <span class="hljs-string">'get'</span>
+        });
+    }
+    <span class="hljs-keyword">return</span> app;
+}
+
+<span class="hljs-built_in">module</span>.exports = express;
+</code></pre>
+<h5 id="t52.4 express的post方法">2.4 express的post方法 <a href="#t52.4 express的post方法"> # </a></h5>
+<p>根据请求路径来处理客户端发出的POST请求</p>
+<ul>
+<li>第一个参数path为请求的路径</li>
+<li>第二个参数为处理请求的回调函数</li>
+</ul>
+<pre><code class="lang-js">app.post(path,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res</span>));
+</span></code></pre>
+<p>post方法的使用：</p>
+<pre><code class="lang-js"><span class="hljs-comment">//引入express</span>
+<span class="hljs-keyword">var</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./express'</span>);
+<span class="hljs-comment">//执行express函数</span>
+<span class="hljs-keyword">var</span> app = express();
+<span class="hljs-comment">//监听端口</span>
+app.post(<span class="hljs-string">'/hello'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res</span>) </span>{
+   res.end(<span class="hljs-string">'hello'</span>);
+});
+app.post(<span class="hljs-string">'*'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res</span>) </span>{
+    res.end(<span class="hljs-string">'post没找到'</span>);
+});
+app.listen(<span class="hljs-number">3000</span>);
+</code></pre>
+<p>通过linux命令发送post请求</p>
+<pre><code class="lang-shell"><span class="hljs-meta">$</span><span class="bash"> curl -X POST http://localhost:3000/hello</span>
+</code></pre>
+<p>post的实现：</p>
+<p>增加所有请求的方法</p>
+<pre><code class="lang-js">http.METHODS.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">method</span>)</span>{
+        app[method] = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">path, handler</span>) </span>{
+            app.routes.push({
+                path, handler, method
+            });
+        }
+});
+</code></pre>
+<h5 id="t62.5 express的all方法">2.5 express的all方法 <a href="#t62.5 express的all方法"> # </a></h5>
+<p>监听所有的请求方法，可以匹配所有的HTTP动词。根据请求路径来处理客户端发出的所有请求</p>
+<ul>
+<li>第一个参数path为请求的路径</li>
+<li>第二个参数为处理请求的回调函数</li>
+</ul>
+<pre><code class="lang-js">app.all(path,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req, res</span>));
+</span></code></pre>
+<p>all的方法使用：</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>);
+<span class="hljs-keyword">const</span> app = express();
+app.all(<span class="hljs-string">'/world'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res</span>)</span>{
+    res.end(<span class="hljs-string">'all world'</span>);
+});
+app.listen(<span class="hljs-number">3000</span>);
+
+</code></pre>
+<pre><code class="lang-js">app.all = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">path, handler</span>) </span>{
+        app.routes.push({
+            path, handler, <span class="hljs-attr">method</span>: <span class="hljs-string">'all'</span>
+        });
+    }
+</code></pre>
+<h5 id="t72.6 中间件">2.6 中间件 <a href="#t72.6 中间件"> # </a></h5>
+<p>中间件就是处理HTTP请求的函数，用来完成各种特定的任务，比如检查用户是否登录、检测用户是否有权限访问等，它的特点是：</p>
+<ul>
+<li>一个中间件处理完请求和响应可以把相应数据再传递给下一个中间件</li>
+<li>回调函数的next参数,表示接受其他中间件的调用，函数体中的next(),表示将请求数据继续传递</li>
+<li>可以根据路径来区分返回执行不同的中间件</li>
+</ul>
+<p>中间件的使用方法：</p>
+<p>增加中间件</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>);
+<span class="hljs-keyword">var</span> app = express();
+app.use(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res,next</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'全部匹配'</span>);
+    next();
+});
+app.use(<span class="hljs-string">'/water'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res,next</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'只匹配/water'</span>);
+    next();
+});
+app.get(<span class="hljs-string">'/water'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res</span>) </span>{
+    res.end(<span class="hljs-string">'water'</span>);
+});
+app.listen(<span class="hljs-number">3000</span>);
+</code></pre>
+<p>use方法的实现：在路由数组中增加中间件</p>
+<pre><code class="lang-js">app.use = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">path,fn</span>) </span>{
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> fn !=<span class="hljs-string">'function'</span>){
+        fn = path;
+        path = <span class="hljs-string">'/'</span>;
+    }
+    app.routes.push({<span class="hljs-attr">method</span>:<span class="hljs-string">'middle'</span>,<span class="hljs-attr">path</span>:path,<span class="hljs-attr">fn</span>:fn});
+}
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> url = <span class="hljs-built_in">require</span>(<span class="hljs-string">'url'</span>);
+<span class="hljs-keyword">let</span> http = <span class="hljs-built_in">require</span>(<span class="hljs-string">'http'</span>);
+<span class="hljs-keyword">let</span> express = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">let</span> app = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req, res</span>) </span>{
+        <span class="hljs-keyword">let</span> {pathname} = url.parse(req.url, <span class="hljs-literal">true</span>);
+        <span class="hljs-keyword">let</span> method = req.method.toLowerCase();
+        <span class="hljs-keyword">let</span> index = <span class="hljs-number">0</span>;
+
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">next</span>(<span class="hljs-params">err</span>) </span>{
+            <span class="hljs-keyword">if</span> (index &gt;= app.routes.length) {
+                <span class="hljs-keyword">return</span> res.end(<span class="hljs-string">`CANNOT <span class="hljs-subst">${method}</span> <span class="hljs-subst">${pathname}</span>`</span>);
+            }
+            <span class="hljs-keyword">let</span> route = app.routes[index++];
+            <span class="hljs-keyword">if</span> (route.method == <span class="hljs-string">'middle'</span>) {
+                <span class="hljs-keyword">if</span> (route.path == <span class="hljs-string">'/'</span> || pathname.startsWith(route.path + <span class="hljs-string">'/'</span>) || route.path == pathname) {
+                    route.handler(req, res, next);
+                } <span class="hljs-keyword">else</span> {
+                    next();
+                }
+            } <span class="hljs-keyword">else</span> {
+                <span class="hljs-keyword">if</span> ((route.path == pathname || route.path == <span class="hljs-string">"*"</span>) &amp;&amp; (route.method == req.method.toLowerCase()) || method == <span class="hljs-string">'all'</span>) {
+                    <span class="hljs-keyword">return</span> route.handler(req, res);
+                } <span class="hljs-keyword">else</span> {
+                    next();
+                }
+            }
+        }
+
+        next();
+    }
+    app.routes = [];
+    app.listen = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">port</span>) </span>{
+        http.createServer(app).listen(port);
+    }
+    http.METHODS.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">method</span>) </span>{
+        method = method.toLowerCase();
+        app[method] = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">path, handler</span>) </span>{
+            app.routes.push({
+                path, handler, method
+            });
+        }
+    });
+    app.all = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">path, handler</span>) </span>{
+        app.routes.push({
+            path, handler, <span class="hljs-attr">method</span>: <span class="hljs-string">'all'</span>
+        });
+    }
+    app.use = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">path, handler</span>) </span>{
+        <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> handler != <span class="hljs-string">'function'</span>) {
+            handler = path;
+            path = <span class="hljs-string">"/"</span>;
+        }
+        app.routes.push({
+            <span class="hljs-attr">method</span>: <span class="hljs-string">'middle'</span>,
+            path,
+            handler
+        });
+    }
+
+    <span class="hljs-keyword">return</span> app;
+}
+
+<span class="hljs-built_in">module</span>.exports = express;
+</code></pre>
+<p>错误中间件：next中可以传递错误，默认执行错误中间件</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>);
+<span class="hljs-keyword">var</span> app = express();
+app.use(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res,next</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'过滤石头'</span>);
+    next(<span class="hljs-string">'stone is too big'</span>);
+});
+app.use(<span class="hljs-string">'/water'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res,next</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'过滤沙子'</span>);
+    next();
+});
+app.get(<span class="hljs-string">'/water'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res</span>) </span>{
+    res.end(<span class="hljs-string">'water'</span>);
+});
+app.use(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err,req,res,next</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(err);
+    res.end(err);
+});
+app.listen(<span class="hljs-number">3000</span>);
+</code></pre>
+<p>错误中间件的实现：对错误中间件进行处理</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> url = <span class="hljs-built_in">require</span>(<span class="hljs-string">'url'</span>);
+<span class="hljs-keyword">let</span> http = <span class="hljs-built_in">require</span>(<span class="hljs-string">'http'</span>);
+<span class="hljs-keyword">let</span> express = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">let</span> app = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req, res</span>) </span>{
+        <span class="hljs-keyword">let</span> {pathname} = url.parse(req.url, <span class="hljs-literal">true</span>);
+        <span class="hljs-keyword">let</span> method = req.method.toLowerCase();
+        <span class="hljs-keyword">let</span> index = <span class="hljs-number">0</span>;
+
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">next</span>(<span class="hljs-params">err</span>) </span>{
+            <span class="hljs-keyword">if</span> (index &gt;= app.routes.length) {
+                <span class="hljs-keyword">return</span> res.end(<span class="hljs-string">`CANNOT <span class="hljs-subst">${method}</span> <span class="hljs-subst">${pathname}</span>`</span>);
+            }
+            <span class="hljs-keyword">let</span> route = app.routes[index++];
+            <span class="hljs-keyword">if</span> (err) {
+                <span class="hljs-keyword">if</span> (route.method == <span class="hljs-string">'middle'</span> &amp;&amp; route.handler.length == <span class="hljs-number">4</span>) {
+                    route.handler(req, res, next)
+                }
+            }
+            <span class="hljs-keyword">if</span> (route.method == <span class="hljs-string">'middle'</span>) {
+                <span class="hljs-keyword">if</span> (route.path == <span class="hljs-string">'/'</span> || pathname.startsWith(route.path + <span class="hljs-string">'/'</span>) || route.path == pathname) {
+                    route.handler(req, res, next);
+                } <span class="hljs-keyword">else</span> {
+                    next();
+                }
+            } <span class="hljs-keyword">else</span> {
+                <span class="hljs-keyword">if</span> ((route.path == pathname || route.path == <span class="hljs-string">"*"</span>) &amp;&amp; (route.method == req.method.toLowerCase()) || method == <span class="hljs-string">'all'</span>) {
+                    <span class="hljs-keyword">return</span> route.handler(req, res);
+                } <span class="hljs-keyword">else</span> {
+                    next();
+                }
+            }
+        }
+
+        next();
+    }
+    app.routes = [];
+    app.listen = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">port</span>) </span>{
+        http.createServer(app).listen(port);
+    }
+    http.METHODS.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">method</span>) </span>{
+        method = method.toLowerCase();
+        app[method] = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">path, handler</span>) </span>{
+            app.routes.push({
+                path, handler, method
+            });
+        }
+    });
+    app.all = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">path, handler</span>) </span>{
+        app.routes.push({
+            path, handler, <span class="hljs-attr">method</span>: <span class="hljs-string">'all'</span>
+        });
+    }
+    app.use = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">path, handler</span>) </span>{
+        <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> handler != <span class="hljs-string">'function'</span>) {
+            handler = path;
+            path = <span class="hljs-string">"/"</span>;
+        }
+        app.routes.push({
+            <span class="hljs-attr">method</span>: <span class="hljs-string">'middle'</span>,
+            path,
+            handler
+        });
+    }
+
+    <span class="hljs-keyword">return</span> app;
+}
+
+<span class="hljs-built_in">module</span>.exports = express;
+</code></pre>
+<h5 id="t82.7 获取参数和查询字符串">2.7 获取参数和查询字符串 <a href="#t82.7 获取参数和查询字符串"> # </a></h5>
+<ul>
+<li><code>req.hostname</code> 返回请求头里取的主机名</li>
+<li><code>req.path</code> 返回请求的URL的路径名</li>
+<li><code>req.query</code> 查询字符串</li>
+</ul>
+<pre><code class="lang-js"><span class="hljs-comment">//http://localhost:3000/?name=zfpx&amp;age=8</span>
+app.get(<span class="hljs-string">'/'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res</span>)</span>{
+    res.write(<span class="hljs-built_in">JSON</span>.stringify(req.query))
+    res.end(req.path+<span class="hljs-string">" "</span>+req.path);
+});
+</code></pre>
+<p>具体实现：对请求增加方法</p>
+<pre><code class="lang-js">  req.path = pathname;
+  req.query = query;
+</code></pre>
+<h5 id="t92.8 获取params参数">2.8 获取params参数 <a href="#t92.8 获取params参数"> # </a></h5>
+<p>req.params 匹配到的所有路径参数组成的对象</p>
+<pre><code class="lang-js">app.get(<span class="hljs-string">'/school/:name/:age'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(req.params);
+    res.end(<span class="hljs-string">'water'</span>);
+});
+</code></pre>
+<p>params实现：增加params属性</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> url = <span class="hljs-built_in">require</span>(<span class="hljs-string">'url'</span>);
+<span class="hljs-keyword">let</span> http = <span class="hljs-built_in">require</span>(<span class="hljs-string">'http'</span>);
+<span class="hljs-keyword">let</span> express = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">let</span> app = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req, res</span>) </span>{
+        <span class="hljs-keyword">let</span> {pathname, query} = url.parse(req.url, <span class="hljs-literal">true</span>);
+        <span class="hljs-keyword">let</span> method = req.method.toLowerCase();
+        <span class="hljs-keyword">let</span> index = <span class="hljs-number">0</span>;
+        req.path = pathname;
+        req.query = query;
+
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">next</span>(<span class="hljs-params">err</span>) </span>{
+            <span class="hljs-keyword">if</span> (index &gt;= app.routes.length) {
+                <span class="hljs-keyword">return</span> res.end(<span class="hljs-string">`CANNOT <span class="hljs-subst">${method}</span> <span class="hljs-subst">${pathname}</span>`</span>);
+            }
+            <span class="hljs-keyword">let</span> route = app.routes[index++];
+
+            <span class="hljs-keyword">if</span> (err) {
+                <span class="hljs-keyword">if</span> (route.method == <span class="hljs-string">'middle'</span> &amp;&amp; route.handler.length == <span class="hljs-number">4</span>) {
+                    route.handler(req, res, next)
+                } <span class="hljs-keyword">else</span> {
+                    next();
+                }
+            } <span class="hljs-keyword">else</span> {
+
+                <span class="hljs-keyword">if</span> (route.method == <span class="hljs-string">'middle'</span>) {
+                    <span class="hljs-keyword">if</span> (route.path == <span class="hljs-string">'/'</span> || pathname.startsWith(route.path + <span class="hljs-string">'/'</span>) || route.path == pathname) {
+                        route.handler(req, res, next);
+                    } <span class="hljs-keyword">else</span> {
+                        next();
+                    }
+                } <span class="hljs-keyword">else</span> {
+                    <span class="hljs-keyword">if</span> (route.paramNames) {
+                        <span class="hljs-keyword">let</span> matchers = pathname.match(<span class="hljs-keyword">new</span> <span class="hljs-built_in">RegExp</span>(route.path));
+                        <span class="hljs-keyword">if</span> (matchers) {
+                            <span class="hljs-keyword">let</span> params = {};
+                            <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i=<span class="hljs-number">0</span>;i&lt;route.paramNames.length;i++){
+                                params[route.paramNames[i]] = matchers[i+<span class="hljs-number">1</span>];
+                            }
+                            req.params = params;
+                            route.handler(req,res);
+                        }<span class="hljs-keyword">else</span>{
+                            next();
+                        }
+                    } <span class="hljs-keyword">else</span> {
+                        <span class="hljs-keyword">if</span> ((route.path == pathname || route.path == <span class="hljs-string">"*"</span>) &amp;&amp; (route.method == req.method.toLowerCase()) || method == <span class="hljs-string">'all'</span>) {
+                            <span class="hljs-keyword">return</span> route.handler(req, res);
+                        } <span class="hljs-keyword">else</span> {
+                            next();
+                        }
+                    }
+                }
+            }
+        }
+
+        next();
+    }
+    app.routes = [];
+    app.listen = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">port</span>) </span>{
+        http.createServer(app).listen(port);
+    }
+    http.METHODS.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">method</span>) </span>{
+        method = method.toLowerCase();
+        app[method] = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">path, handler</span>) </span>{
+            <span class="hljs-keyword">const</span> layer = {path, handler, method};
+            <span class="hljs-keyword">if</span> (path.includes(<span class="hljs-string">':'</span>)) {
+                <span class="hljs-keyword">let</span> paramNames = [];
+                layer.path = path.replace(<span class="hljs-regexp">/:([^\/]+)/g</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+                    paramNames.push(<span class="hljs-built_in">arguments</span>[<span class="hljs-number">1</span>]);
+                    <span class="hljs-keyword">return</span> <span class="hljs-string">'([^\/]+)'</span>;
+                });
+                layer.paramNames = paramNames;
+            }
+            app.routes.push(layer);
+        }
+    });
+    app.all = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">path, handler</span>) </span>{
+        app.routes.push({
+            path, handler, <span class="hljs-attr">method</span>: <span class="hljs-string">'all'</span>
+        });
+    }
+    app.use = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">path, handler</span>) </span>{
+        <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> handler != <span class="hljs-string">'function'</span>) {
+            handler = path;
+            path = <span class="hljs-string">"/"</span>;
+        }
+        app.routes.push({
+            <span class="hljs-attr">method</span>: <span class="hljs-string">'middle'</span>,
+            path,
+            handler
+        });
+    }
+    <span class="hljs-keyword">return</span> app;
+}
+
+<span class="hljs-built_in">module</span>.exports = express;
+</code></pre>
+<h5 id="t102.9 express中的send方法">2.9 express中的send方法 <a href="#t102.9 express中的send方法"> # </a></h5>
+<p>参数为要响应的内容,可以智能处理不同类型的数据,在输出响应时会自动进行一些设置，比如HEAD信息、HTTP缓存支持等等</p>
+<pre><code class="lang-js">res.send([body]);
+</code></pre>
+<p>当参数是一个字符串时，这个方法会设置Content-type为text/html</p>
+<pre><code class="lang-js">app.get(<span class="hljs-string">'/'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res</span>) </span>{
+    res.send(<span class="hljs-string">'&lt;p&gt;hello world&lt;/p&gt;'</span>);
+});
+</code></pre>
+<p>当参数是一个Array或者Object，这个方法返回json格式</p>
+<pre><code class="lang-js">app.get(<span class="hljs-string">'/json'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res</span>) </span>{
+     res.send({<span class="hljs-attr">obj</span>:<span class="hljs-number">1</span>});
+});
+app.get(<span class="hljs-string">'/arr'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res</span>) </span>{
+ res.send([<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>]);
+});
+</code></pre>
+<p>当参数是一个number类型，这个方法返回对应的状态码短语</p>
+<pre><code class="lang-js">app.get(<span class="hljs-string">'/status'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res</span>) </span>{
+    res.send(<span class="hljs-number">404</span>); <span class="hljs-comment">//not found</span>
+    <span class="hljs-comment">//res.status(404).send('没有找到');设置短语</span>
+});
+</code></pre>
+<p>send方法的实现：自定义send方法</p>
+<pre><code class="lang-js">   res.send = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">msg</span>)</span>{
+            <span class="hljs-keyword">let</span> type = <span class="hljs-keyword">typeof</span> msg;
+            <span class="hljs-keyword">if</span>(type == <span class="hljs-string">'object'</span>){
+                res.setHeader(<span class="hljs-string">'Content-Type'</span>,<span class="hljs-string">'application/json'</span>);
+                msg = <span class="hljs-built_in">JSON</span>.stringify(msg);
+            }<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(type == <span class="hljs-string">'number'</span>){
+                res.setHeader(<span class="hljs-string">'Content-Type'</span>,<span class="hljs-string">'application/plain'</span>);
+                res.status(msg);
+                res.end(http.STATUS_CODES[msg]);
+            }<span class="hljs-keyword">else</span>{
+                res.setHeader(<span class="hljs-string">'Content-Type'</span>,<span class="hljs-string">'application/html'</span>);
+                res.end(msg);
+            }
+        }
+</code></pre>
+<h2 id="t113. 模板的应用">3. 模板的应用 <a href="#t113. 模板的应用"> # </a></h2>
+<h5 id="t123.1 安装ejs">3.1 安装ejs <a href="#t123.1 安装ejs"> # </a></h5>
+<p>npm安装ejs</p>
+<pre><code class="lang-shell"><span class="hljs-meta">$</span><span class="bash"> npm install ejs</span>
+</code></pre>
+<h5 id="t133.2 设置模板">3.2 设置模板 <a href="#t133.2 设置模板"> # </a></h5>
+<p>使用ejs模版</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>);
+<span class="hljs-keyword">var</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">'path'</span>);
+<span class="hljs-keyword">var</span> app = express();
+app.set(<span class="hljs-string">'view engine'</span>,<span class="hljs-string">'ejs'</span>);
+app.set(<span class="hljs-string">'views'</span>,path.join(__dirname,<span class="hljs-string">'views'</span>));
+app.listen(<span class="hljs-number">3000</span>);
+</code></pre>
+<h5 id="t143.3 渲染html">3.3 渲染html <a href="#t143.3 渲染html"> # </a></h5>
+<p>配置成html格式</p>
+<pre><code class="lang-js">app.set(<span class="hljs-string">'view engine'</span>,<span class="hljs-string">'html'</span>)
+app.set(<span class="hljs-string">'views'</span>,path.join(__dirname,<span class="hljs-string">'views'</span>));
+app.engine(<span class="hljs-string">'html'</span>,<span class="hljs-built_in">require</span>(<span class="hljs-string">'ejs'</span>).__express);
+</code></pre>
+<h5 id="t153.4 渲染视图">3.4 渲染视图 <a href="#t153.4 渲染视图"> # </a></h5>
+<ul>
+<li>第一个参数 要渲染的模板</li>
+<li>第二个参数 渲染所需要的数据</li>
+</ul>
+<pre><code class="lang-js">app.get(<span class="hljs-string">'/'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res</span>) </span>{
+    res.render(<span class="hljs-string">'hello'</span>,{<span class="hljs-attr">title</span>:<span class="hljs-string">'hello'</span>},<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,data</span>)</span>{});
+});
+</code></pre>
+<h5 id="t163.5 模板的实现">3.5 模板的实现 <a href="#t163.5 模板的实现"> # </a></h5>
+<p>读取模版渲染</p>
+<pre><code class="lang-js">res.render = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">name, data</span>) </span>{
+    <span class="hljs-keyword">var</span> viewEngine = engine.viewEngineList[engine.viewType];
+    <span class="hljs-keyword">if</span> (viewEngine) {
+        viewEngine(path.join(engine.viewsPath, name + <span class="hljs-string">'.'</span> + engine.viewType), data, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err, data</span>) </span>{
+            <span class="hljs-keyword">if</span> (err) {
+                res.status(<span class="hljs-number">500</span>).sendHeader().send(<span class="hljs-string">'view engine failure'</span> + err);
+            } <span class="hljs-keyword">else</span> {
+                res.status(<span class="hljs-number">200</span>).contentType(<span class="hljs-string">'text/html'</span>).sendHeader().send(data);
+            }
+        });
+    } <span class="hljs-keyword">else</span> {
+        res.status(<span class="hljs-number">500</span>).sendHeader().send(<span class="hljs-string">'view engine failure'</span>);
+    }
+}
+</code></pre>
+<h2 id="t174. 静态文件服务器">4. 静态文件服务器 <a href="#t174. 静态文件服务器"> # </a></h2>
+<p>如果要在网页中加载静态文件（css、js、img），就需要另外指定一个存放静态文件的目录，当浏览器发出非HTML文件请求时，服务器端就会到这个目录下去寻找相关文件</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>);
+<span class="hljs-keyword">var</span> app = express();
+<span class="hljs-keyword">var</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">'path'</span>);
+app.use(express.static(path.join(__dirname,<span class="hljs-string">'public'</span>)));
+app.listen(<span class="hljs-number">3000</span>);
+</code></pre>
+<h5 id="t184.1 静态文件服务器实现">4.1 静态文件服务器实现 <a href="#t184.1 静态文件服务器实现"> # </a></h5>
+<p>配置静态服务器</p>
+<pre><code class="lang-js">express.static = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">p</span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req, res, next</span>) </span>{
+        <span class="hljs-keyword">var</span> staticPath = path.join(p, req.path);
+        <span class="hljs-keyword">var</span> exists = fs.existsSync(staticPath);
+        <span class="hljs-keyword">if</span> (exists) {
+            res.sendFile(staticPath);
+        } <span class="hljs-keyword">else</span> {
+            next();
+        }
+    }
+};
+
+</code></pre>
+<h2 id="t195. 重定向">5. 重定向 <a href="#t195. 重定向"> # </a></h2>
+<p>redirect方法允许网址的重定向，跳转到指定的url并且可以指定status，默认为302方式。</p>
+<ul>
+<li>参数1 状态码(可选)</li>
+<li>参数2 跳转的路径</li>
+</ul>
+<pre><code class="lang-js">res.redirect([status], url);
+</code></pre>
+<h5 id="t205.1 redirect使用">5.1 redirect使用 <a href="#t205.1 redirect使用"> # </a></h5>
+<p>使用重定向</p>
+<pre><code class="lang-js">app.get(<span class="hljs-string">'/'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res</span>) </span>{
+    res.redirect(<span class="hljs-string">'http://www.baidu.com'</span>)
+});
+</code></pre>
+<h5 id="t215.2 redirect的实现">5.2 redirect的实现 <a href="#t215.2 redirect的实现"> # </a></h5>
+<p>302重定向</p>
+<pre><code class="lang-js">res.redirect = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">url</span>) </span>{
+    res.status(<span class="hljs-number">302</span>);
+    res.headers(<span class="hljs-string">'Location'</span>, url || <span class="hljs-string">'/'</span>);
+    res.sendHeader();
+    res.end();
+};
+</code></pre>
+<h2 id="t226. 接收 post 响应体">6. 接收 post 响应体 <a href="#t226. 接收 post 响应体"> # </a></h2>
+<p>安装body-parser</p>
+<pre><code class="lang-shell"><span class="hljs-meta">$</span><span class="bash"> npm install body-parser</span>
+</code></pre>
+<h5 id="t236.1 使用body-parser">6.1 使用body-parser <a href="#t236.1 使用body-parser"> # </a></h5>
+<p>接收请求体中的数据</p>
+<pre><code class="lang-js">app.get(<span class="hljs-string">'/login'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res</span>) </span>{
+    res.sendFile(<span class="hljs-string">'./login.html'</span>,{<span class="hljs-attr">root</span>:__dirname})
+});
+app.post(<span class="hljs-string">'/user'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(req.body);
+    res.send(req.body);
+});
+app.listen(<span class="hljs-number">3000</span>);
+</code></pre>
+<h5 id="t246.2 req.body的实现">6.2 req.body的实现 <a href="#t246.2 req.body的实现"> # </a></h5>
+<p>实现bodyParser</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">bodyParser</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req,res,next</span>) </span>{
+        <span class="hljs-keyword">var</span> result = <span class="hljs-string">''</span>;
+        req.on(<span class="hljs-string">'data'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+            result+=data;
+        });
+        req.on(<span class="hljs-string">'end'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+            <span class="hljs-keyword">try</span>{
+                req.body = <span class="hljs-built_in">JSON</span>.parse(result);
+            }<span class="hljs-keyword">catch</span>(e){
+                req.body = <span class="hljs-built_in">require</span>(<span class="hljs-string">'querystring'</span>).parse(result);
+            }
+            next();
+        })
+    }
+};
+</code></pre>
+<h2 id="t25源代码地址">源代码地址 <a href="#t25源代码地址"> # </a></h2>
+<p><a href="https://github.com/YataoZhang/mockxpress">https://github.com/YataoZhang/mockxpress</a></p>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

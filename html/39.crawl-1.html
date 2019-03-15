@@ -1,0 +1,617 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li class="active"><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. 掘金爬虫">1. 掘金爬虫</a></li><li><a href="#t12. 核心步骤">2. 核心步骤</a></li><li><a href="#t23. 核心类库">3. 核心类库</a><ul><li><a href="#t33.1 request">3.1 request</a><ul><li><a href="#t43.1.1 安装">3.1.1 安装</a></li><li><a href="#t53.1.2 GET请求">3.1.2 GET请求</a></li><li><a href="#t63.1.3 POST application/json">3.1.3 POST application/json</a></li><li><a href="#t73.1.4 POST application/x-www-form-urlencoded">3.1.4 POST application/x-www-form-urlencoded</a></li><li><a href="#t83.1.5 POST multipart/form-data">3.1.5 POST multipart/form-data</a></li></ul></li><li><a href="#t93.2 cheerio">3.2 cheerio</a><ul><li><a href="#t103.2.1 安装">3.2.1 安装</a></li><li><a href="#t113.2.2 load装载DOM">3.2.2 load装载DOM</a></li><li><a href="#t123.2.3 选择器">3.2.3 选择器</a></li><li><a href="#t133.2.5 attr修改属性">3.2.5 attr修改属性</a></li><li><a href="#t143.2.6 removeAttr(name)">3.2.6 removeAttr(name)</a></li><li><a href="#t153.2.7 prop()修改状态值">3.2.7 prop()修改状态值</a></li><li><a href="#t163.2.8 data()自定义属性">3.2.8 data()自定义属性</a></li><li><a href="#t173.2.9 val()赋值">3.2.9 val()赋值</a></li><li><a href="#t183.2.10 hasClass( className )">3.2.10 hasClass( className )</a></li><li><a href="#t193.2.11 addClass(name)">3.2.11 addClass(name)</a></li><li><a href="#t203.2.12 emoveClass([className])">3.2.12 emoveClass([className])</a></li><li><a href="#t213.2.13 find(selector)">3.2.13 find(selector)</a></li><li><a href="#t223.2.14 parent([selector])">3.2.14 parent([selector])</a></li><li><a href="#t233.2.15 next()获得第一个本元素之后的同级元素">3.2.15 next()获得第一个本元素之后的同级元素</a></li><li><a href="#t243.2.16 .nextAll()">3.2.16 .nextAll()</a></li><li><a href="#t253.2.17 prev()">3.2.17 prev()</a></li><li><a href="#t263.2.18 preAll()">3.2.18 preAll()</a></li><li><a href="#t273.2.19 slice(start,[end])">3.2.19 slice(start,[end])</a></li><li><a href="#t283.2.20 siblings(selector)">3.2.20 siblings(selector)</a></li><li><a href="#t293.2.21 first()">3.2.21 first()</a></li><li><a href="#t303.2.22 last()">3.2.22 last()</a></li><li><a href="#t313.2.23 eq(i)">3.2.23 eq(i)</a></li><li><a href="#t323.2.24 children(selector)">3.2.24 children(selector)</a></li><li><a href="#t333.2.25 each(function(index,element))">3.2.25 each(function(index,element))</a></li><li><a href="#t343.2.26 map(function(index,element))">3.2.26 map(function(index,element))</a></li><li><a href="#t353.2.27 filter(selector)">3.2.27 filter(selector)</a></li><li><a href="#t363.2.28 append(content,[content…])">3.2.28 append(content,[content…])</a></li><li><a href="#t373.2.29 prepend(content,[content,…])">3.2.29 prepend(content,[content,…])</a></li><li><a href="#t383.2.30 after(content,[content,…])">3.2.30 after(content,[content,…])</a></li><li><a href="#t393.2.31 before(content,[content,…])">3.2.31 before(content,[content,…])</a></li><li><a href="#t403.2.32 remove( [selector] )">3.2.32 remove( [selector] )</a></li><li><a href="#t413.2.33 replaceWith( content )">3.2.33 replaceWith( content )</a></li><li><a href="#t423.2.34 empty()">3.2.34 empty()</a></li><li><a href="#t433.2.35 html( [htmlString] )">3.2.35 html( [htmlString] )</a></li><li><a href="#t443.2.36 text( [textString] )">3.2.36 text( [textString] )</a></li></ul></li><li><a href="#t453.3 debug">3.3 debug</a></li><li><a href="#t463.4 corn">3.4 corn</a></li><li><a href="#t473.5 监听未知错误">3.5 监听未知错误</a></li><li><a href="#t483.6 pm2">3.6 pm2</a></li><li><a href="#t493.7 编码(iconv-lite)">3.7 编码(iconv-lite)</a></li><li><a href="#t503.8 发送邮件">3.8 发送邮件</a></li></ul></li><li><a href="#t513.9 HTTP代理工具">3.9 HTTP代理工具</a><ul><li><a href="#t523.9.1 https抓包设置">3.9.1 https抓包设置</a><ul><li><a href="#t533.9.1.1 Fiddler">3.9.1.1 Fiddler</a></li><li><a href="#t543.9.1.2 Android">3.9.1.2 Android</a></li><li><a href="#t553.9.1.3 抓取接口">3.9.1.3 抓取接口</a></li></ul></li></ul></li><li><a href="#t56参考">参考</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. 掘金爬虫">1. 掘金爬虫 <a href="#t01. 掘金爬虫"> # </a></h2>
+<p>通过一个实例来介绍如何编写网络爬虫抓去掘金数据，并存储到MySQL数据库中，以及定时任务爬虫来更新内容</p>
+<h2 id="t12. 核心步骤">2. 核心步骤 <a href="#t12. 核心步骤"> # </a></h2>
+<ol>
+<li>发起HTTP请求获取网页内容</li>
+<li>使用类似jQuery的语法来操作网页提取需要的数据</li>
+<li>把数据保存到数据库中以供查询</li>
+<li>建立一个服务器来显示这些数据</li>
+<li>可以定时爬取数据</li>
+<li>让程序稳定运行</li>
+<li>对编码进行转换</li>
+</ol>
+<h2 id="t23. 核心类库">3. 核心类库 <a href="#t23. 核心类库"> # </a></h2>
+<h3 id="t33.1 request">3.1 request <a href="#t33.1 request"> # </a></h3>
+<ul>
+<li><a href="https://nodei.co/npm/request">npm request</a></li>
+<li><a href="https://github.com/request/request">github request</a></li>
+</ul>
+<h4 id="t43.1.1 安装">3.1.1 安装 <a href="#t43.1.1 安装"> # </a></h4>
+<pre><code class="lang-js">npm install --save request
+</code></pre>
+<h4 id="t53.1.2 GET请求">3.1.2 GET请求 <a href="#t53.1.2 GET请求"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> request = <span class="hljs-built_in">require</span>(<span class="hljs-string">'request'</span>);
+request(<span class="hljs-string">'http://www.baidu.com'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">error, response, body</span>) </span>{
+  <span class="hljs-keyword">if</span> (!error &amp;&amp; response.statusCode == <span class="hljs-number">200</span>) {
+    <span class="hljs-built_in">console</span>.log(body);
+  }
+</code></pre>
+<h4 id="t63.1.3 POST application/json">3.1.3 POST application/json <a href="#t63.1.3 POST application/json"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> request=<span class="hljs-built_in">require</span>(<span class="hljs-string">'request'</span>);
+<span class="hljs-keyword">const</span> options={
+    <span class="hljs-attr">url</span>: <span class="hljs-string">'http://localhost:8080/post'</span>,
+    <span class="hljs-attr">method</span>:<span class="hljs-string">'POST'</span>,
+    <span class="hljs-attr">json</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-attr">headers</span>: {
+        <span class="hljs-string">"Content-Type"</span>:<span class="hljs-string">"application/json"</span>
+    },
+    <span class="hljs-attr">body</span>: {<span class="hljs-attr">name</span>:<span class="hljs-string">"zfpx"</span>,<span class="hljs-attr">age</span>:<span class="hljs-number">8</span>}
+}
+request(options,<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">error,response,body</span>) </span>{
+    <span class="hljs-keyword">if</span> (!error &amp;&amp; response.statusCode == <span class="hljs-number">200</span>) {
+        <span class="hljs-built_in">console</span>.log(body);
+    } <span class="hljs-keyword">else</span> {
+        <span class="hljs-built_in">console</span>.error(error);
+    }
+});
+</code></pre>
+<h4 id="t73.1.4 POST application/x-www-form-urlencoded">3.1.4 POST application/x-www-form-urlencoded <a href="#t73.1.4 POST application/x-www-form-urlencoded"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> request=<span class="hljs-built_in">require</span>(<span class="hljs-string">'request'</span>);
+<span class="hljs-keyword">const</span> options={
+    <span class="hljs-attr">url</span>: <span class="hljs-string">'http://localhost:8080/form'</span>,
+    <span class="hljs-attr">method</span>:<span class="hljs-string">'POST'</span>,
+    <span class="hljs-attr">json</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-attr">form</span>:{<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx'</span>,<span class="hljs-attr">age</span>:<span class="hljs-number">10</span>}
+}
+request(options,<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">error,response,body</span>) </span>{
+    <span class="hljs-keyword">if</span> (!error &amp;&amp; response.statusCode == <span class="hljs-number">200</span>) {
+        <span class="hljs-built_in">console</span>.log(body);
+    } <span class="hljs-keyword">else</span> {
+        <span class="hljs-built_in">console</span>.error(error);
+    }
+});
+</code></pre>
+<h4 id="t83.1.5 POST multipart/form-data">3.1.5 POST multipart/form-data <a href="#t83.1.5 POST multipart/form-data"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> request=<span class="hljs-built_in">require</span>(<span class="hljs-string">'request'</span>);
+<span class="hljs-keyword">const</span> fs=<span class="hljs-built_in">require</span>(<span class="hljs-string">'fs'</span>);
+<span class="hljs-keyword">var</span> formData = {
+    <span class="hljs-attr">name</span>: <span class="hljs-string">'zfpx'</span>,
+    <span class="hljs-attr">avatar</span>:{
+      <span class="hljs-attr">value</span>:  fs.createReadStream(<span class="hljs-string">'avatar.jpg'</span>),
+      <span class="hljs-attr">options</span>: {
+        <span class="hljs-attr">filename</span>: <span class="hljs-string">'avatar.jpg'</span>,
+        <span class="hljs-attr">contentType</span>: <span class="hljs-string">'image/jpeg'</span>
+      }
+  }
+};
+request.post({<span class="hljs-attr">url</span>:<span class="hljs-string">'http://localhost:8080/upload'</span>, formData}, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">error, response, body</span>) </span>{  
+    <span class="hljs-keyword">if</span> (!error&amp;&amp;response.statusCode==<span class="hljs-number">200</span>) {
+        <span class="hljs-built_in">console</span>.log(body);
+    } <span class="hljs-keyword">else</span> {
+        <span class="hljs-built_in">console</span>.log(error);
+    }
+})
+</code></pre>
+<h3 id="t93.2 cheerio">3.2 cheerio <a href="#t93.2 cheerio"> # </a></h3>
+<p><a href="https://www.npmjs.com/package/cheerio">cheerio</a>是一个node的库，可以理解为一个Node.js版本的jquery，使用方式和jquery基本相同。</p>
+<h4 id="t103.2.1 安装">3.2.1 安装 <a href="#t103.2.1 安装"> # </a></h4>
+<pre><code class="lang-js">npm install cheerio
+</code></pre>
+<h4 id="t113.2.2 load装载DOM">3.2.2 load装载DOM <a href="#t113.2.2 load装载DOM"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> str=<span class="hljs-string">`
+&lt;h2 class="title"&gt;Hello world&lt;/h2&gt;
+`</span>;
+<span class="hljs-keyword">const</span> cheerio=<span class="hljs-built_in">require</span>(<span class="hljs-string">'cheerio'</span>);
+<span class="hljs-keyword">const</span> $=cheerio.load(str);
+$(<span class="hljs-string">'h2.title'</span>).text(<span class="hljs-string">'hello there!'</span>);
+$(<span class="hljs-string">'h2'</span>).addClass(<span class="hljs-string">'welcome'</span>);
+<span class="hljs-built_in">console</span>.log($.html());
+</code></pre>
+<h4 id="t123.2.3 选择器">3.2.3 选择器 <a href="#t123.2.3 选择器"> # </a></h4>
+<ul>
+<li>选择器在 Context 范围内搜索，Context又在Root范围内搜索。</li>
+<li>root在右，context在左</li>
+<li>selector 和context可以是一个字符串表达式，DOM元素，和DOM元素的数组，或者chreeio对象。</li>
+<li>root 是通常是HTML 文档字符串。</li>
+</ul>
+<pre><code class="lang-js">$(selectior,[context],[root])
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> html=<span class="hljs-string">`
+&lt;ul id="fruits"&gt;
+  &lt;li class="apple"&gt;Apple&lt;/li&gt;
+  &lt;li class="orange"&gt;Orange&lt;/li&gt;
+  &lt;li class="pear"&gt;Pear&lt;/li&gt;
+&lt;/ul&gt;
+`</span>;
+
+<span class="hljs-keyword">let</span> cheerio=<span class="hljs-built_in">require</span>(<span class="hljs-string">'cheerio'</span>);
+<span class="hljs-keyword">let</span> $=cheerio.load(html);
+<span class="hljs-built_in">console</span>.log($(<span class="hljs-string">'.apple'</span>,<span class="hljs-string">'#fruits'</span>).text());
+</code></pre>
+<h4 id="t133.2.5 attr修改属性">3.2.5 attr修改属性 <a href="#t133.2.5 attr修改属性"> # </a></h4>
+<ul>
+<li>获得和修改属性</li>
+<li>在匹配的元素中只能获得第一元素的属性。</li>
+<li>如果设置一个属性的值为null，则移除这个属性</li>
+<li>你也可以传递一对键值，或者一个函数。<pre><code class="lang-js">attr(name,value)
+</code></pre>
+</li>
+</ul>
+<pre><code class="lang-js"><span class="hljs-built_in">console</span>.log($(<span class="hljs-string">'ul'</span>).attr(<span class="hljs-string">'id'</span>));
+$(<span class="hljs-string">'.apple'</span>).attr(<span class="hljs-string">'id'</span>,<span class="hljs-string">'favorite'</span>).attr(<span class="hljs-string">'class'</span>,<span class="hljs-string">'favorite'</span>);
+$(<span class="hljs-string">'.apple'</span>).attr({<span class="hljs-attr">id</span>:<span class="hljs-string">'favorite'</span>,<span class="hljs-attr">class</span>:<span class="hljs-string">'favorite'</span>});
+<span class="hljs-built_in">console</span>.log($(<span class="hljs-string">'.favorite'</span>).html());
+<span class="hljs-built_in">console</span>.log($(<span class="hljs-string">'ul'</span>).html());
+</code></pre>
+<h4 id="t143.2.6 removeAttr(name)">3.2.6 removeAttr(name) <a href="#t143.2.6 removeAttr(name)"> # </a></h4>
+<p>通过name删除属性</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'.favorite'</span>).removeAttr(<span class="hljs-string">'id'</span>);
+</code></pre>
+<h4 id="t153.2.7 prop()修改状态值">3.2.7 prop()修改状态值 <a href="#t153.2.7 prop()修改状态值"> # </a></h4>
+<pre><code class="lang-js">$(<span class="hljs-string">'input[type="checkbox"]'</span>).prop(<span class="hljs-string">'checked'</span>)
+<span class="hljs-comment">//=&gt; false</span>
+
+$(<span class="hljs-string">'input[type="checkbox"]'</span>).prop(<span class="hljs-string">'checked'</span>, <span class="hljs-literal">true</span>).val()
+<span class="hljs-comment">//=&gt; ok</span>
+</code></pre>
+<h4 id="t163.2.8 data()自定义属性">3.2.8 data()自定义属性 <a href="#t163.2.8 data()自定义属性"> # </a></h4>
+<pre><code class="lang-js">$(<span class="hljs-string">'&lt;div data-apple-color="red"&gt;&lt;/div&gt;'</span>).data()
+<span class="hljs-comment">//=&gt; { appleColor: 'red' }</span>
+
+$(<span class="hljs-string">'&lt;div data-apple-color="red"&gt;&lt;/div&gt;'</span>).data(<span class="hljs-string">'apple-color'</span>)
+<span class="hljs-comment">//=&gt; 'red'</span>
+
+<span class="hljs-keyword">var</span> apple = $(<span class="hljs-string">'.apple'</span>).data(<span class="hljs-string">'kind'</span>, <span class="hljs-string">'mac'</span>)
+apple.data(<span class="hljs-string">'kind'</span>)
+<span class="hljs-comment">//=&gt; 'mac'</span>
+</code></pre>
+<h4 id="t173.2.9 val()赋值">3.2.9 val()赋值 <a href="#t173.2.9 val()赋值"> # </a></h4>
+<pre><code class="lang-js">$(<span class="hljs-string">'input[type="text"]'</span>).val()
+<span class="hljs-comment">//=&gt; input_text</span>
+
+$(<span class="hljs-string">'input[type="text"]'</span>).val(<span class="hljs-string">'test'</span>).html()
+<span class="hljs-comment">//=&gt; &lt;input type="text" value="test"/&gt;</span>
+</code></pre>
+<h4 id="t183.2.10 hasClass( className )">3.2.10 hasClass( className ) <a href="#t183.2.10 hasClass( className )"> # </a></h4>
+<p>检查匹配的元素是否有给出的类名</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'.pear'</span>).hasClass(<span class="hljs-string">'pear'</span>)<span class="hljs-comment">//=&gt; true</span>
+$(<span class="hljs-string">'apple'</span>).hasClass(<span class="hljs-string">'fruit'</span>)<span class="hljs-comment">//=&gt; false</span>
+$(<span class="hljs-string">'li'</span>).hasClass(<span class="hljs-string">'pear'</span>)<span class="hljs-comment">//=&gt; true</span>
+</code></pre>
+<h4 id="t193.2.11 addClass(name)">3.2.11 addClass(name) <a href="#t193.2.11 addClass(name)"> # </a></h4>
+<p>增加class(es)给所有匹配的elements.也可以传函数。</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'.pear'</span>).addClass(<span class="hljs-string">'fruit'</span>).html()<span class="hljs-comment">//=&gt; &lt;li class="pear fruit"&gt;Pear&lt;/li&gt;</span>
+$(<span class="hljs-string">'.apple'</span>).addClass(<span class="hljs-string">'fruit red'</span>).html()<span class="hljs-comment">//=&gt; &lt;li class="apple fruit red"&gt;Apple&lt;/li&gt;</span>
+</code></pre>
+<h4 id="t203.2.12 emoveClass([className])">3.2.12 emoveClass([className]) <a href="#t203.2.12 emoveClass([className])"> # </a></h4>
+<p>从选择的elements里去除一个或多个有空格分开的class。如果className 没有定义，所有的classes将会被去除，也可以传函数</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'.pear'</span>).removeClass(<span class="hljs-string">'pear'</span>).html()<span class="hljs-comment">//=&gt;Pear</span>
+$(<span class="hljs-string">'.apple'</span>).addClass(<span class="hljs-string">'red'</span>).removeClass().html()<span class="hljs-comment">//=&gt;Apple</span>
+</code></pre>
+<h4 id="t213.2.13 find(selector)">3.2.13 find(selector) <a href="#t213.2.13 find(selector)"> # </a></h4>
+<p>获得一个在匹配的元素中由选择器滤过的后代</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'#fruits'</span>).find(<span class="hljs-string">'li'</span>).length<span class="hljs-comment">//=&gt; 3</span>
+</code></pre>
+<h4 id="t223.2.14 parent([selector])">3.2.14 parent([selector]) <a href="#t223.2.14 parent([selector])"> # </a></h4>
+<p>获得通过选择器筛选匹配的元素的parent集合</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'.orange'</span>).parents().length<span class="hljs-comment">// =&gt; 2</span>
+$(<span class="hljs-string">'.orange'</span>).parents(<span class="hljs-string">'#fruits'</span>).length<span class="hljs-comment">// =&gt; 1</span>
+</code></pre>
+<h4 id="t233.2.15 next()获得第一个本元素之后的同级元素">3.2.15 next()获得第一个本元素之后的同级元素 <a href="#t233.2.15 next()获得第一个本元素之后的同级元素"> # </a></h4>
+<pre><code class="lang-js">$(<span class="hljs-string">'.apple'</span>).next().hasClass(<span class="hljs-string">'orange'</span>)<span class="hljs-comment">//=&gt; true</span>
+$(<span class="hljs-string">'.pear'</span>).next().html()<span class="hljs-comment">//=&gt; null</span>
+</code></pre>
+<h4 id="t243.2.16 .nextAll()">3.2.16 .nextAll() <a href="#t243.2.16 .nextAll()"> # </a></h4>
+<p>获得本元素之后的所有同级元素</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'.apple'</span>).nextAll()<span class="hljs-comment">//=&gt; [&lt;li class="orange"&gt;Orange&lt;/li&gt;, &lt;li class="pear"&gt;Pear&lt;/li&gt;]</span>
+$(<span class="hljs-string">'.apple'</span>).nextAll().length<span class="hljs-comment">//=&gt;2</span>
+</code></pre>
+<h4 id="t253.2.17 prev()">3.2.17 prev() <a href="#t253.2.17 prev()"> # </a></h4>
+<p>获得本元素之前的第一个同级元素</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'.orange'</span>).prev().hasClass(<span class="hljs-string">'apple'</span>)<span class="hljs-comment">//=&gt; true</span>
+</code></pre>
+<h4 id="t263.2.18 preAll()">3.2.18 preAll() <a href="#t263.2.18 preAll()"> # </a></h4>
+<p>获得本元素前的所有同级元素</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'.pear'</span>).prevAll()<span class="hljs-comment">//=&gt; [&lt;li class="orange"&gt;Orange&lt;/li&gt;, &lt;li class="apple"&gt;Apple&lt;/li&gt;]</span>
+</code></pre>
+<h4 id="t273.2.19 slice(start,[end])">3.2.19 slice(start,[end]) <a href="#t273.2.19 slice(start,[end])"> # </a></h4>
+<p>获得选定范围内的元素数组</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'li'</span>).slice(<span class="hljs-number">1</span>).eq(<span class="hljs-number">0</span>).text()<span class="hljs-comment">//=&gt; 'Orange'</span>
+$(<span class="hljs-string">'li'</span>).slice(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>).length<span class="hljs-comment">//=&gt; 1</span>
+</code></pre>
+<h4 id="t283.2.20 siblings(selector)">3.2.20 siblings(selector) <a href="#t283.2.20 siblings(selector)"> # </a></h4>
+<p>获得被选择的同级元素(除去自己)</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'.pear'</span>).siblings().length<span class="hljs-comment">//=&gt; 2</span>
+$(<span class="hljs-string">'.pear'</span>).siblings(<span class="hljs-string">'.orange'</span>).length<span class="hljs-comment">//=&gt; 1</span>
+$(<span class="hljs-string">'.pear'</span>).siblings(<span class="hljs-string">'.pear'</span>).length<span class="hljs-comment">//=&gt; 0</span>
+</code></pre>
+<h4 id="t293.2.21 first()">3.2.21 first() <a href="#t293.2.21 first()"> # </a></h4>
+<p>会选择chreeio对象的第一个元素</p>
+<pre><code class="lang-js">(<span class="hljs-string">'#fruits'</span>).children().first().text()<span class="hljs-comment">//=&gt; Apple</span>
+</code></pre>
+<h4 id="t303.2.22 last()">3.2.22 last() <a href="#t303.2.22 last()"> # </a></h4>
+<p>会选择chreeio对象的最后一个元素</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'#fruits'</span>).children().last().text()<span class="hljs-comment">//=&gt; Pear</span>
+</code></pre>
+<h4 id="t313.2.23 eq(i)">3.2.23 eq(i) <a href="#t313.2.23 eq(i)"> # </a></h4>
+<p>通过索引筛选匹配的元素。使用.eq(-i)就从最后一个元素向前数。</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'li'</span>).eq(<span class="hljs-number">0</span>).text()<span class="hljs-comment">//=&gt; Apple</span>
+$(<span class="hljs-string">'li'</span>).eq(<span class="hljs-number">-1</span>).text()<span class="hljs-comment">//=&gt; Pear</span>
+</code></pre>
+<h4 id="t323.2.24 children(selector)">3.2.24 children(selector) <a href="#t323.2.24 children(selector)"> # </a></h4>
+<p>获被选择元素的子元素</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'#fruits'</span>).children().length<span class="hljs-comment">//=&gt; 3</span>
+$(<span class="hljs-string">'#fruits'</span>).children(<span class="hljs-string">'.pear'</span>).text()<span class="hljs-comment">//=&gt; Pear</span>
+</code></pre>
+<h4 id="t333.2.25 each(function(index,element))">3.2.25 each(function(index,element)) <a href="#t333.2.25 each(function(index,element))"> # </a></h4>
+<p>迭代一个cheerio对象，为每个匹配元素执行一个函数。要提早跳出循环，返回false.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> fruits = [];
+
+$(<span class="hljs-string">'li'</span>).each(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">i, elem</span>) </span>{
+  fruits[i] = $(<span class="hljs-keyword">this</span>).text();
+});
+
+fruits.join(<span class="hljs-string">', '</span>);
+<span class="hljs-comment">//=&gt; Apple, Orange, Pear</span>
+</code></pre>
+<h4 id="t343.2.26 map(function(index,element))">3.2.26 map(function(index,element)) <a href="#t343.2.26 map(function(index,element))"> # </a></h4>
+<p>迭代一个cheerio对象，为每个匹配元素执行一个函数。Map会返回一个迭代结果的数组。</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'li'</span>).map(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">i, el</span>) </span>{ 
+  <span class="hljs-keyword">return</span> $(<span class="hljs-keyword">this</span>).attr(<span class="hljs-string">'class'</span>);
+}).join(<span class="hljs-string">', '</span>);
+<span class="hljs-comment">//=&gt; apple, orange, pear</span>
+</code></pre>
+<h4 id="t353.2.27 filter(selector)">3.2.27 filter(selector) <a href="#t353.2.27 filter(selector)"> # </a></h4>
+<ul>
+<li>迭代一个cheerio对象，滤出匹配选择器或者是传进去的函数的元素。</li>
+<li>如果使用函数方法，这个函数在被选择的元素中执行，所以this指向的手势当前元素。</li>
+</ul>
+<pre><code class="lang-js">$(<span class="hljs-string">'li'</span>).filter(<span class="hljs-string">'.orange'</span>).attr(<span class="hljs-string">'class'</span>);<span class="hljs-comment">//=&gt; orange</span>
+
+$(<span class="hljs-string">'li'</span>).filter(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">i, el</span>) </span>{ 
+    <span class="hljs-comment">// this === el </span>
+    <span class="hljs-keyword">return</span> $(<span class="hljs-keyword">this</span>).attr(<span class="hljs-string">'class'</span>) === <span class="hljs-string">'orange'</span>;
+}).attr(<span class="hljs-string">'class'</span>)；
+
+
+<span class="hljs-comment">//=&gt; orange</span>
+</code></pre>
+<h4 id="t363.2.28 append(content,[content…])">3.2.28 append(content,[content…]) <a href="#t363.2.28 append(content,[content…])"> # </a></h4>
+<p>在每个元素最后插入一个子元素</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'ul'</span>).append(<span class="hljs-string">'&lt;li class="plum"&gt;Plum&lt;/li&gt;'</span>)
+$.html()
+<span class="hljs-comment">//=&gt;</span>
+<span class="hljs-comment">// &lt;li class="apple"&gt;Apple&lt;/li&gt;</span>
+<span class="hljs-comment">// &lt;li class="orange"&gt;Orange&lt;/li&gt;</span>
+<span class="hljs-comment">// &lt;li class="pear"&gt;Pear&lt;/li&gt;</span>
+<span class="hljs-comment">// &lt;li class="plum"&gt;Plum&lt;/li&gt;//</span>
+</code></pre>
+<h4 id="t373.2.29 prepend(content,[content,…])">3.2.29 prepend(content,[content,…]) <a href="#t373.2.29 prepend(content,[content,…])"> # </a></h4>
+<p>在每个元素最前插入一个子元素</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'ul'</span>).prepend(<span class="hljs-string">'&lt;li class="plum"&gt;Plum&lt;/li&gt;'</span>)
+$.html()
+<span class="hljs-comment">//=&gt;</span>
+<span class="hljs-comment">// &lt;li class="plum"&gt;Plum&lt;/li&gt;</span>
+<span class="hljs-comment">// &lt;li class="apple"&gt;Apple&lt;/li&gt;</span>
+<span class="hljs-comment">// &lt;li class="orange"&gt;Orange&lt;/li&gt;</span>
+<span class="hljs-comment">// &lt;li class="pear"&gt;Pear&lt;/li&gt;</span>
+</code></pre>
+<h4 id="t383.2.30 after(content,[content,…])">3.2.30 after(content,[content,…]) <a href="#t383.2.30 after(content,[content,…])"> # </a></h4>
+<p>在每个匹配元素之后插入一个元素</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'.apple'</span>).after(<span class="hljs-string">'&lt;li class="plum"&gt;Plum&lt;/li&gt;'</span>)
+$.html()
+<span class="hljs-comment">//=&gt;</span>
+<span class="hljs-comment">// &lt;li class="apple"&gt;Apple&lt;/li&gt;</span>
+<span class="hljs-comment">// &lt;li class="plum"&gt;Plum&lt;/li&gt;</span>
+<span class="hljs-comment">// &lt;li class="orange"&gt;Orange&lt;/li&gt;</span>
+<span class="hljs-comment">// &lt;li class="pear"&gt;Pear&lt;/li&gt;</span>
+</code></pre>
+<h4 id="t393.2.31 before(content,[content,…])">3.2.31 before(content,[content,…]) <a href="#t393.2.31 before(content,[content,…])"> # </a></h4>
+<p>在每个匹配的元素之前插入一个元素</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'.apple'</span>).before(<span class="hljs-string">'&lt;li class="plum"&gt;Plum&lt;/li&gt;'</span>)
+$.html()
+<span class="hljs-comment">//=&gt;</span>
+<span class="hljs-comment">// &lt;li class="plum"&gt;Plum&lt;/li&gt;</span>
+<span class="hljs-comment">// &lt;li class="apple"&gt;Apple&lt;/li&gt;</span>
+<span class="hljs-comment">// &lt;li class="orange"&gt;Orange&lt;/li&gt;</span>
+<span class="hljs-comment">// &lt;li class="pear"&gt;Pear&lt;/li&gt;</span>
+</code></pre>
+<h4 id="t403.2.32 remove( [selector] )">3.2.32 remove( [selector] ) <a href="#t403.2.32 remove( [selector] )"> # </a></h4>
+<p>从DOM中去除匹配的元素和它们的子元素。选择器用来筛选要删除的元素。</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'.pear'</span>).remove()
+$.html()<span class="hljs-comment">//=&gt;</span>
+
+<span class="hljs-comment">// &lt;li class="apple"&gt;Apple&lt;/li&gt;</span>
+<span class="hljs-comment">// &lt;li class="orange"&gt;Orange&lt;/li&gt;</span>
+</code></pre>
+<h4 id="t413.2.33 replaceWith( content )">3.2.33 replaceWith( content ) <a href="#t413.2.33 replaceWith( content )"> # </a></h4>
+<p>替换匹配的的元素</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> plum = $(<span class="hljs-string">'&lt;li class="plum"&gt;Plum&lt;/li&gt;'</span>)
+$(<span class="hljs-string">'.pear'</span>).replaceWith(plum)
+$.html()
+<span class="hljs-comment">//=&gt;</span>
+<span class="hljs-comment">// &lt;li class="apple"&gt;Apple&lt;/li&gt;</span>
+<span class="hljs-comment">// &lt;li class="orange"&gt;Orange&lt;/li&gt;</span>
+<span class="hljs-comment">// &lt;li class="plum"&gt;Plum&lt;/li&gt;//</span>
+</code></pre>
+<h4 id="t423.2.34 empty()">3.2.34 empty() <a href="#t423.2.34 empty()"> # </a></h4>
+<p>清空一个元素，移除所有的子元素</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'ul'</span>).empty()$.html()
+</code></pre>
+<h4 id="t433.2.35 html( [htmlString] )">3.2.35 html( [htmlString] ) <a href="#t433.2.35 html( [htmlString] )"> # </a></h4>
+<p>获得元素的HTML字符串。如果htmlString有内容的话，将会替代原来的HTML</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'.orange'</span>).html()
+<span class="hljs-comment">//=&gt; Orange</span>
+$(<span class="hljs-string">'#fruits'</span>).html(<span class="hljs-string">'&lt;li class="mango"&gt;Mango&lt;/li&gt;'</span>).html()
+<span class="hljs-comment">//=&gt; &lt;li class="mango"&gt;Mango&lt;/li&gt;</span>
+</code></pre>
+<h4 id="t443.2.36 text( [textString] )">3.2.36 text( [textString] ) <a href="#t443.2.36 text( [textString] )"> # </a></h4>
+<p>获得元素的text内容，包括子元素。如果textString被指定的话，每个元素的text内容都会被替换。</p>
+<pre><code class="lang-js">$(<span class="hljs-string">'.orange'</span>).text()<span class="hljs-comment">//=&gt; Orange</span>
+$(<span class="hljs-string">'ul'</span>).text()<span class="hljs-comment">//=&gt; Apple// Orange// Pear</span>
+</code></pre>
+<h3 id="t453.3 debug">3.3 debug <a href="#t453.3 debug"> # </a></h3>
+<ul>
+<li>在编写程序的时候，有时候需要输出一些调试信息，以便排查问题。</li>
+<li>但是在程序运行过程中又不需要这些信息，为了方便切换而且不需要改代码，可以使用debug模块<pre><code class="lang-js"><span class="hljs-keyword">let</span> debug = <span class="hljs-built_in">require</span>(<span class="hljs-string">'debug'</span>)(<span class="hljs-string">'app:main'</span>);
+debug(<span class="hljs-string">'现在的时间是%s'</span>,<span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>());
+</code></pre>
+</li>
+<li>Window系统在命令行中执行 <code>SET DEBUG=app:*</code></li>
+<li>Mac系统在命令行中执行 <code>export DEBUG=app:*</code></li>
+</ul>
+<h3 id="t463.4 corn">3.4 corn <a href="#t463.4 corn"> # </a></h3>
+<p><a href="https://www.npmjs.com/package/cron">cron</a>用来周期性的执行某种任务或等待处理某些事件的一个守护进程</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">符号</th>
+<th style="text-align:left">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">星号(*)</td>
+<td style="text-align:left">代表所有可能的值</td>
+</tr>
+<tr>
+<td style="text-align:left">逗号(,)</td>
+<td style="text-align:left">可以用逗号隔开的值指定一个列表范围，例如，“1,2,5,7,8,9”</td>
+</tr>
+<tr>
+<td style="text-align:left">中杠(-)</td>
+<td style="text-align:left">可以用整数之间的中杠表示一个整数范围，例如“2-6”表示“2,3,4,5,6”</td>
+</tr>
+<tr>
+<td style="text-align:left">正斜线(/)</td>
+<td style="text-align:left">可以用正斜线指定时间的间隔频率，*/10，如果用在minute字段，表示每十分钟执行一次</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">单位</th>
+<th style="text-align:left">范围</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Seconds</td>
+<td style="text-align:left">0-59</td>
+</tr>
+<tr>
+<td style="text-align:left">Minutes</td>
+<td style="text-align:left">0-59</td>
+</tr>
+<tr>
+<td style="text-align:left">Hours</td>
+<td style="text-align:left">0-23</td>
+</tr>
+<tr>
+<td style="text-align:left">Day</td>
+<td style="text-align:left">1-31</td>
+</tr>
+<tr>
+<td style="text-align:left">Months</td>
+<td style="text-align:left">0-11</td>
+</tr>
+<tr>
+<td style="text-align:left">Day of Week</td>
+<td style="text-align:left">0-6</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> cronJob = <span class="hljs-built_in">require</span>(<span class="hljs-string">'cron'</span>).CronJob;
+<span class="hljs-keyword">var</span> job1 = <span class="hljs-keyword">new</span> cronJob(<span class="hljs-string">"* * * * * *"</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'每秒'</span>);
+});
+job1.start();
+</code></pre>
+<h3 id="t473.5 监听未知错误">3.5 监听未知错误 <a href="#t473.5 监听未知错误"> # </a></h3>
+<ul>
+<li>大部分情况下，异步的IO操作发生的错误无法被try catch捕获，如果没有捕获会导致程序退出</li>
+<li>在Node.js中，如果一个抛出的异常没有被try catch捕获，会尝试将错误交给uncaughtException事件处理函数来进行处理，仅当没有注册该事件处理函数时才会导致进程直接退出。</li>
+</ul>
+<pre><code class="lang-js">process.on(<span class="hljs-string">'uncaughtException'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err</span>) </span>{
+    <span class="hljs-built_in">console</span>.error(<span class="hljs-string">'uncaughtException: %s'</span>,erro.stack);
+});
+</code></pre>
+<h3 id="t483.6 pm2">3.6 pm2 <a href="#t483.6 pm2"> # </a></h3>
+<p>pm2是一个功能强大的进程管理器，通过<code>pm2 start</code>来启动程序, 当该进程异常退出时,pm2会自动尝试重启进程。</p>
+<pre><code class="lang-js">npm install pm2 -g
+npm2 start 
+pm2 stop 
+</code></pre>
+<h3 id="t493.7 编码(iconv-lite)">3.7 编码(iconv-lite) <a href="#t493.7 编码(iconv-lite)"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> request = <span class="hljs-built_in">require</span>(<span class="hljs-string">'request'</span>);
+<span class="hljs-keyword">var</span> iconv=<span class="hljs-built_in">require</span>(<span class="hljs-string">'iconv-lite'</span>);
+<span class="hljs-keyword">let</span> cheerio=<span class="hljs-built_in">require</span>(<span class="hljs-string">'cheerio'</span>);
+request({<span class="hljs-attr">url</span>: <span class="hljs-string">'http://top.baidu.com/buzz?b=26&amp;c=1&amp;fr=topcategory_c1'</span>
+, <span class="hljs-attr">encoding</span>: <span class="hljs-literal">null</span>},<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,response,body</span>)</span>{
+    <span class="hljs-keyword">if</span>(err)
+        <span class="hljs-built_in">console</span>.error(err);
+    body = iconv.decode(body, <span class="hljs-string">'gbk'</span>).toString();
+    <span class="hljs-keyword">let</span> $=cheerio.load(body);
+    <span class="hljs-keyword">let</span> movies=[];
+    $(<span class="hljs-string">'.keyword .list-title'</span>).each(<span class="hljs-function">(<span class="hljs-params">index,item</span>) =&gt;</span> {
+        <span class="hljs-keyword">let</span> movie=$(item);
+        movies.push({
+            <span class="hljs-attr">name</span>:movie.text()
+        });
+    });
+    <span class="hljs-built_in">console</span>.log(movies);
+})
+</code></pre>
+<h3 id="t503.8 发送邮件">3.8 发送邮件 <a href="#t503.8 发送邮件"> # </a></h3>
+<p><a href="https://nodemailer.com/about/">nodemailer</a>是一个简单易用的Node.js邮件发送模块</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> nodemailer = <span class="hljs-built_in">require</span>(<span class="hljs-string">'nodemailer'</span>);
+<span class="hljs-keyword">let</span> transporter = nodemailer.createTransport({
+    <span class="hljs-comment">// host: 'smtp.ethereal.email',</span>
+    service: <span class="hljs-string">'qq'</span>, <span class="hljs-comment">// 使用了内置传输发送邮件 查看支持列表：https://nodemailer.com/smtp/well-known/</span>
+    port: <span class="hljs-number">465</span>, <span class="hljs-comment">// SMTP 端口</span>
+    secureConnection: <span class="hljs-literal">true</span>, <span class="hljs-comment">// 使用了 SSL</span>
+    auth: {
+        <span class="hljs-attr">user</span>: <span class="hljs-string">'83687401@qq.com'</span>,
+        <span class="hljs-comment">// 这里密码不是qq密码，是你设置的smtp授权码</span>
+        pass: <span class="hljs-string">'gfndwuvvfpbebjdi'</span>,
+    }
+});
+
+<span class="hljs-keyword">let</span> mailOptions = {
+    <span class="hljs-attr">from</span>: <span class="hljs-string">'"83687401" &lt;83687401@qq.com&gt;'</span>, <span class="hljs-comment">// sender address</span>
+    to: <span class="hljs-string">'83687401@qq.com'</span>, <span class="hljs-comment">// list of receivers</span>
+    subject: <span class="hljs-string">'hello'</span>, <span class="hljs-comment">// Subject line</span>
+    <span class="hljs-comment">// 发送text或者html格式</span>
+    <span class="hljs-comment">// text: 'Hello world?', // plain text body</span>
+    html: <span class="hljs-string">'&lt;h1&gt;Hello world&lt;/h1&gt;'</span> <span class="hljs-comment">// html body</span>
+};
+
+<span class="hljs-comment">// send mail with defined transport object</span>
+transporter.sendMail(mailOptions, (error, info) =&gt; {
+    <span class="hljs-keyword">if</span> (error) {
+        <span class="hljs-keyword">return</span> <span class="hljs-built_in">console</span>.log(error);
+    }
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Message sent: %s'</span>, info.messageId);
+    <span class="hljs-comment">// Message sent: &lt;04ec7731-cc68-1ef6-303c-61b0f796b78f@qq.com&gt;</span>
+});
+</code></pre>
+<h2 id="t513.9 HTTP代理工具">3.9 HTTP代理工具 <a href="#t513.9 HTTP代理工具"> # </a></h2>
+<ul>
+<li>Windows 平台有 Fiddler，macOS 有 Charles，阿里有AnyProxy</li>
+<li>基本原理就是通过在手机客户端设置好代理IP和端口,客户端所有的 HTTP、HTTPS 请求就会经过代理工具</li>
+</ul>
+<h3 id="t523.9.1 https抓包设置">3.9.1 https抓包设置 <a href="#t523.9.1 https抓包设置"> # </a></h3>
+<h4 id="t533.9.1.1 Fiddler">3.9.1.1 Fiddler <a href="#t533.9.1.1 Fiddler"> # </a></h4>
+<ul>
+<li>Tools &gt; Fiddler Options &gt; Connections<ul>
+<li>Fiddler listens on port 8888</li>
+<li>Allow remote computers to connect</li>
+</ul>
+</li>
+<li>Tools &gt; Fiddler Options &gt; HTTPS &gt; Decrypt HTTPS traffic<ul>
+<li>Capture HTTPS CONNECTs</li>
+<li>Decrypt HTTPS traffic</li>
+</ul>
+</li>
+</ul>
+<h4 id="t543.9.1.2 Android">3.9.1.2 Android <a href="#t543.9.1.2 Android"> # </a></h4>
+<ul>
+<li>进入手机的 WLAN 设置，选择当前所在局域网的 WiFi 链接，设置代理服务器的 IP 和端口</li>
+<li>访问<a href="http://192.168.31.236:8888/显示echo页面">http://192.168.31.236:8888/显示echo页面</a></li>
+<li>下载 FiddlerRoot certificate，下载并安装证书，并验证通过</li>
+</ul>
+<h4 id="t553.9.1.3 抓取接口">3.9.1.3 抓取接口 <a href="#t553.9.1.3 抓取接口"> # </a></h4>
+<ul>
+<li>过滤 <code>mp.weixin.qq.com</code> 接口</li>
+<li>历史消息 <a href="https://mp.weixin.qq.com/mp/profile_ext">https://mp.weixin.qq.com/mp/profile_ext</a></li>
+<li>文章详情 <a href="https://mp.weixin.qq.com/mp/getappmsgext">https://mp.weixin.qq.com/mp/getappmsgext</a> </li>
+</ul>
+<h2 id="t56参考">参考 <a href="#t56参考"> # </a></h2>
+<ul>
+<li><a href="https://www.telerik.com/download/fiddler">fiddler</a></li>
+<li><a href="https://www.cnblogs.com/joshua317/p/8670923.html">Fiddler抓取https设置详解</a></li>
+</ul>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

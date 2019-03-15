@@ -1,0 +1,1551 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li class="active"><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. redux-saga">1. redux-saga</a></li><li><a href="#t12. redux-saga工作原理">2. redux-saga工作原理</a></li><li><a href="#t23. redux-saga分类">3. redux-saga分类</a></li><li><a href="#t34. 构建项目">4. 构建项目</a><ul><li><a href="#t44.1 初始化项目">4.1 初始化项目</a></li></ul></li><li><a href="#t55. 跑通saga">5. 跑通saga</a><ul><li><a href="#t65.1 src\index.js">5.1 src\index.js</a></li><li><a href="#t75.2 store\index.js">5.2 store\index.js</a></li><li><a href="#t85.3 store\reducer.js">5.3 store\reducer.js</a></li><li><a href="#t95.4 store\sagas.js">5.4 store\sagas.js</a></li></ul></li><li><a href="#t106. 异步计数器">6. 异步计数器</a><ul><li><a href="#t116.1 components/Counter.js">6.1 components/Counter.js</a></li><li><a href="#t126.2 src/index.js">6.2 src/index.js</a></li><li><a href="#t136.3 store/action-types.js">6.3 store/action-types.js</a></li><li><a href="#t146.4 store/actions.js">6.4 store/actions.js</a></li><li><a href="#t156.5 src/store/index.js">6.5 src/store/index.js</a></li><li><a href="#t166.6 store/reducer.js">6.6 store/reducer.js</a></li><li><a href="#t176.7 store/sagas.js">6.7 store/sagas.js</a></li><li><a href="#t186.8 takeLatest">6.8 takeLatest</a></li></ul></li><li><a href="#t197. 单元测试">7. 单元测试</a><ul><li><a href="#t207.1 安装模块">7.1 安装模块</a></li><li><a href="#t217.2 测试脚本">7.2 测试脚本</a></li><li><a href="#t227.3 store\sagas.spec.js">7.3 store\sagas.spec.js</a></li></ul></li><li><a href="#t238. 声明式 Effects">8. 声明式 Effects</a><ul><li><a href="#t248.1 src/store/sagas.js">8.1 src/store/sagas.js</a></li><li><a href="#t258.2 store/sagas.spec.js">8.2 store/sagas.spec.js</a></li><li><a href="#t268.3 src/utils.js">8.3 src/utils.js</a></li></ul></li><li><a href="#t279. 错误处理">9. 错误处理</a><ul><li><a href="#t289.1 try catch">9.1 try catch</a></li><li><a href="#t299.2 错误标识">9.2 错误标识</a></li></ul></li><li><a href="#t3010. take">10. take</a><ul><li><a href="#t3110.1 store/sagas.js">10.1 store/sagas.js</a></li><li><a href="#t3210.2 utils.js">10.2 utils.js</a></li></ul></li><li><a href="#t3311. 登陆流程">11. 登陆流程</a><ul><li><a href="#t3411.1 src/index.js">11.1 src/index.js</a></li><li><a href="#t3511.2 store/action-types.js">11.2 store/action-types.js</a></li><li><a href="#t3611.3 store/actions.js">11.3 store/actions.js</a></li><li><a href="#t3711.4 store/reducer.js">11.4 store/reducer.js</a></li><li><a href="#t3811.5 store/sagas.js">11.5 store/sagas.js</a></li><li><a href="#t3911.6  src/Api.js">11.6  src/Api.js</a></li><li><a href="#t4011.7 components/Login.js">11.7 components/Login.js</a></li></ul></li><li><a href="#t4112. fork">12. fork</a><ul><li><a href="#t4212.1 src/Api.js">12.1 src/Api.js</a></li><li><a href="#t4312.2 components/Login.js">12.2 components/Login.js</a></li><li><a href="#t4412.3 store/reducer.js">12.3 store/reducer.js</a></li><li><a href="#t4512.4 store/sagas.js">12.4 store/sagas.js</a></li></ul></li><li><a href="#t4613. 取消任务">13. 取消任务</a><ul><li><a href="#t4713.1 src/Api.js">13.1 src/Api.js</a></li><li><a href="#t4813.2 components/Login.js">13.2 components/Login.js</a></li><li><a href="#t4913.3 store/sagas.js">13.3 store/sagas.js</a></li></ul></li><li><a href="#t5014. race">14. race</a><ul><li><a href="#t5114.1 src/index.js">14.1 src/index.js</a></li><li><a href="#t5214.2 store/action-types.js">14.2 store/action-types.js</a></li><li><a href="#t5314.3 store/actions.js">14.3 store/actions.js</a></li><li><a href="#t5414.4 store/sagas.js">14.4 store/sagas.js</a></li><li><a href="#t5514.5 components/Recorder.js">14.5 components/Recorder.js</a></li></ul></li><li><a href="#t56参考">参考</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. redux-saga">1. redux-saga <a href="#t01. redux-saga"> # </a></h2>
+<ul>
+<li><a href="https://redux-saga-in-chinese.js.org/">redux-saga</a> 是一个 redux 的中间件，而中间件的作用是为 redux 提供额外的功能。</li>
+<li>在 reducers 中的所有操作都是同步的并且是纯粹的，即 reducer 都是纯函数，纯函数是指一个函数的返回结果只依赖于它的参数，并且在执行过程中不会对外部产生副作用，即给它传什么，就吐出什么。</li>
+<li>但是在实际的应用开发中，我们希望做一些异步的（如Ajax请求）且不纯粹的操作（如改变外部的状态），这些在函数式编程范式中被称为“副作用”。</li>
+</ul>
+<blockquote>
+<p>redux-saga 就是用来处理上述副作用（异步任务）的一个中间件。它是一个接收事件，并可能触发新事件的过程管理者，为你的应用管理复杂的流程。</p>
+</blockquote>
+<h2 id="t12. redux-saga工作原理">2. redux-saga工作原理 <a href="#t12. redux-saga工作原理"> # </a></h2>
+<ul>
+<li>sages 采用 Generator 函数来 yield Effects（包含指令的文本对象）</li>
+<li>Generator 函数的作用是可以暂停执行，再次执行的时候从上次暂停的地方继续执行</li>
+<li>Effect 是一个简单的对象，该对象包含了一些给 middleware 解释执行的信息。</li>
+<li>你可以通过使用 effects API 如 fork，call，take，put，cancel 等来创建 Effect。 </li>
+</ul>
+<h2 id="t23. redux-saga分类">3. redux-saga分类 <a href="#t23. redux-saga分类"> # </a></h2>
+<ul>
+<li>worker saga 做左右的工作，如调用API，进行异步请求，获取异步封装结果</li>
+<li>watcher saga 监听被dispatch的actions,当接受到action或者知道其被触发时，调用worker执行任务</li>
+<li>root saga  立即启动saga的唯一入口</li>
+</ul>
+<h2 id="t34. 构建项目">4. 构建项目 <a href="#t34. 构建项目"> # </a></h2>
+<h3 id="t44.1 初始化项目">4.1 初始化项目 <a href="#t44.1 初始化项目"> # </a></h3>
+<pre><code class="lang-js">cnpm install create-react-app -g 
+create-react-app zhufeng-saga-start
+cd zhufeng-saga-start
+cnpm i redux-saga --save
+</code></pre>
+<h2 id="t55. 跑通saga">5. 跑通saga <a href="#t55. 跑通saga"> # </a></h2>
+<h3 id="t65.1 src\index.js">5.1 src\index.js <a href="#t65.1 src\index.js"> # </a></h3>
+<p>src\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> store <span class="hljs-keyword">from</span> <span class="hljs-string">'./store'</span>;
+</code></pre>
+<h3 id="t75.2 store\index.js">5.2 store\index.js <a href="#t75.2 store\index.js"> # </a></h3>
+<p>src\store\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> {createStore, applyMiddleware} <span class="hljs-keyword">from</span> <span class="hljs-string">'redux'</span>;
+<span class="hljs-keyword">import</span> reducer <span class="hljs-keyword">from</span> <span class="hljs-string">'./reducer'</span>;
+<span class="hljs-keyword">import</span> createSagaMiddleware <span class="hljs-keyword">from</span> <span class="hljs-string">'redux-saga'</span>;
+<span class="hljs-comment">//首先我们引入 ./sagas 模块中的 Saga。然后使用 redux-saga 模块的 createSagaMiddleware 工厂函数来创建一个 Saga middleware</span>
+<span class="hljs-keyword">import</span> {helloSaga} <span class="hljs-keyword">from</span> <span class="hljs-string">'./sagas'</span>;
+<span class="hljs-keyword">let</span> sagaMiddleware = createSagaMiddleware();
+<span class="hljs-comment">//运行 helloSaga 之前，我们必须使用 applyMiddleware 将 middleware 连接至 Store。然后使用 sagaMiddleware.run(helloSaga) 运行 Saga。</span>
+<span class="hljs-keyword">let</span> store=applyMiddleware(sagaMiddleware)(createStore)(reducer);
+sagaMiddleware.run(helloSaga);
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> store;
+</code></pre>
+<h3 id="t85.3 store\reducer.js">5.3 store\reducer.js <a href="#t85.3 store\reducer.js"> # </a></h3>
+<p>src\store\reducer.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">state,action</span>) </span>{}
+</code></pre>
+<h3 id="t95.4 store\sagas.js">5.4 store\sagas.js <a href="#t95.4 store\sagas.js"> # </a></h3>
+<p>src\store\sagas.js</p>
+<pre><code class="lang-js"><span class="hljs-comment">//helloSaga它只是打印了一条消息，然后退出。</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">helloSaga</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Hello Saga!'</span>);
+}
+</code></pre>
+<h2 id="t106. 异步计数器">6. 异步计数器 <a href="#t106. 异步计数器"> # </a></h2>
+<h3 id="t116.1 components/Counter.js">6.1 components/Counter.js <a href="#t116.1 components/Counter.js"> # </a></h3>
+<p>src/components/Counter.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>
+<span class="hljs-keyword">import</span> {connect} <span class="hljs-keyword">from</span> <span class="hljs-string">'react-redux'</span>;
+<span class="hljs-keyword">import</span> actions <span class="hljs-keyword">from</span> <span class="hljs-string">'../store/actions'</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Counter</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>{this.props.number}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.props.incrementAsync}</span>&gt;</span>+<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+      )
+  }
+}
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> connect(
+    <span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> state,
+    actions
+)(Counter);
+</code></pre>
+<h3 id="t126.2 src/index.js">6.2 src/index.js <a href="#t126.2 src/index.js"> # </a></h3>
+<p>src/index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+<span class="hljs-keyword">import</span> Counter <span class="hljs-keyword">from</span> <span class="hljs-string">'./components/Counter'</span>;
+<span class="hljs-keyword">import</span> {Provider} <span class="hljs-keyword">from</span> <span class="hljs-string">'react-redux'</span>;
+<span class="hljs-keyword">import</span> store <span class="hljs-keyword">from</span> <span class="hljs-string">'./store'</span>;
+ReactDOM.render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Provider</span> <span class="hljs-attr">store</span>=<span class="hljs-string">{store}</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">Counter</span>/&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">Provider</span>&gt;</span></span>,<span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#root'</span>));
+</code></pre>
+<h3 id="t136.3 store/action-types.js">6.3 store/action-types.js <a href="#t136.3 store/action-types.js"> # </a></h3>
+<p>src/store/action-types.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> INCREMENT=<span class="hljs-string">'INCREMENT'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> INCREMENT_ASYNC=<span class="hljs-string">'INCREMENT_ASYNC'</span>;
+</code></pre>
+<h3 id="t146.4 store/actions.js">6.4 store/actions.js <a href="#t146.4 store/actions.js"> # </a></h3>
+<p>src/store/actions.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> types <span class="hljs-keyword">from</span> <span class="hljs-string">'./action-types'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    incrementAsync() {
+        <span class="hljs-keyword">return</span> {<span class="hljs-attr">type</span>:types.INCREMENT_ASYNC}
+    }
+}
+</code></pre>
+<h3 id="t156.5 src/store/index.js">6.5 src/store/index.js <a href="#t156.5 src/store/index.js"> # </a></h3>
+<p>src/store/index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> {createStore, applyMiddleware} <span class="hljs-keyword">from</span> <span class="hljs-string">'redux'</span>;
+<span class="hljs-keyword">import</span> reducer <span class="hljs-keyword">from</span> <span class="hljs-string">'./reducer'</span>;
+<span class="hljs-keyword">import</span> createSagaMiddleware <span class="hljs-keyword">from</span> <span class="hljs-string">'redux-saga'</span>;
+<span class="hljs-comment">//首先我们引入 ./sagas 模块中的 Saga。然后使用 redux-saga 模块的 createSagaMiddleware 工厂函数来创建一个 Saga middleware</span>
+<span class="hljs-keyword">import</span> rootSaga <span class="hljs-keyword">from</span> <span class="hljs-string">'./sagas'</span>;
+<span class="hljs-keyword">let</span> sagaMiddleware = createSagaMiddleware();
+<span class="hljs-comment">//运行 rootSaga 之前，我们必须使用 applyMiddleware 将 middleware 连接至 Store。然后使用 sagaMiddleware.run(helloSaga) 运行 Saga。</span>
+<span class="hljs-keyword">let</span> store=applyMiddleware(sagaMiddleware)(createStore)(reducer);
+sagaMiddleware.run(rootSaga);
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> store;
+</code></pre>
+<h3 id="t166.6 store/reducer.js">6.6 store/reducer.js <a href="#t166.6 store/reducer.js"> # </a></h3>
+<p>src/store/reducer.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> types <span class="hljs-keyword">from</span> <span class="hljs-string">'./action-types'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">state={number:<span class="hljs-number">0</span>},action</span>) </span>{
+    <span class="hljs-keyword">switch</span>(action.type){
+        <span class="hljs-keyword">case</span> types.INCREMENT:
+            <span class="hljs-keyword">return</span> {<span class="hljs-attr">number</span>: state.number+<span class="hljs-number">1</span>};
+        <span class="hljs-keyword">default</span>:
+            <span class="hljs-keyword">return</span> state;
+    }
+}
+</code></pre>
+<h3 id="t176.7 store/sagas.js">6.7 store/sagas.js <a href="#t176.7 store/sagas.js"> # </a></h3>
+<p>src/store/sagas.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> { delay,all,put, takeEvery } <span class="hljs-keyword">from</span> <span class="hljs-string">'redux-saga/effects'</span>
+
+<span class="hljs-comment">//worker Saga: 将执行异步的 increment 任务</span>
+<span class="hljs-comment">//incrementAsync Saga 通过 delay(1000) 延迟了 1 秒钟，然后 dispatch 一个叫 INCREMENT 的 action。</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">incrementAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//工具函数 delay，这个函数返回一个延迟 1 秒再 resolve 的 Promise 我们将使用这个函数去 block(阻塞) Generator</span>
+    <span class="hljs-comment">//Sagas 被实现为 Generator functions，它会 yield 对象到 redux-saga middleware。 被 yield 的对象都是一类指令，指令可被 middleware 解释执行。当 middleware 取得一个 yield 后的 Promise，middleware 会暂停 Saga，直到 Promise 完成</span>
+    <span class="hljs-comment">//incrementAsync 这个 Saga 会暂停直到 delay 返回的 Promise 被 resolve，这个 Promise 将在 1 秒后 resolve</span>
+    <span class="hljs-keyword">yield</span> delay(<span class="hljs-number">1000</span>)
+    <span class="hljs-comment">//一旦 Promise 被 resolve，middleware 会恢复 Saga 接着执行，直到遇到下一个 yield</span>
+    <span class="hljs-comment">//在这里下一个语句是另一个被 yield 的对象：调用 put({type: 'INCREMENT'}) 的结果，意思是告诉 middleware 发起一个 INCREMENT 的 action</span>
+    <span class="hljs-comment">//put 就是我们称作 Effect 的一个例子。Effects 是一些简单 Javascript 对象，包含了要被 middleware 执行的指令</span>
+    <span class="hljs-comment">//当 middleware 拿到一个被 Saga yield 的 Effect，它会暂停 Saga，直到 Effect 执行完成，然后 Saga 会再次被恢复</span>
+    <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: <span class="hljs-string">'INCREMENT'</span> })
+}
+<span class="hljs-comment">//takeEvery，用于监听所有的 INCREMENT_ASYNC action，并在 action 被匹配时执行 incrementAsync 任务</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">watchIncrementAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">yield</span> takeEvery(<span class="hljs-string">'INCREMENT_ASYNC'</span>, incrementAsync)
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">helloSaga</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Hello Saga!'</span>);
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">rootSaga</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//这个 Saga yield 了一个数组，值是调用 helloSaga 和 watchIncrementAsync 两个 Saga 的结果。意思是说这两个 Generators 将会同时启动</span>
+    <span class="hljs-keyword">yield</span> all([
+      helloSaga(),
+      watchIncrementAsync()
+    ])
+  }
+</code></pre>
+<h3 id="t186.8 takeLatest">6.8 takeLatest <a href="#t186.8 takeLatest"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">yield</span> takeEvery(<span class="hljs-string">'INCREMENT_ASYNC'</span>, incrementAsync);
+<span class="hljs-keyword">yield</span> takeLatest(<span class="hljs-string">'INCREMENT_ASYNC'</span>, incrementAsync);
+</code></pre>
+<h2 id="t197. 单元测试">7. 单元测试 <a href="#t197. 单元测试"> # </a></h2>
+<ul>
+<li><a href="https://babeljs.io/docs/en/next/babel-node.html">babel-node</a></li>
+<li><a href="https://babeljs.io/docs/en/babel-node">/babel-node</a></li>
+</ul>
+<h3 id="t207.1 安装模块">7.1 安装模块 <a href="#t207.1 安装模块"> # </a></h3>
+<pre><code class="lang-js">cnpm i @babel/core @babel/node @babel/plugin-transform-modules-commonjs --save-dev
+</code></pre>
+<h3 id="t217.2 测试脚本">7.2 测试脚本 <a href="#t217.2 测试脚本"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-string">"scripts"</span>: {
+    <span class="hljs-string">"test"</span>: <span class="hljs-string">"babel-node src/store/sagas.spec.js --plugins @babel/plugin-transform-modules-commonjs"</span>
+}
+</code></pre>
+<h3 id="t227.3 store\sagas.spec.js">7.3 store\sagas.spec.js <a href="#t227.3 store\sagas.spec.js"> # </a></h3>
+<p>src\store\sagas.spec.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> test <span class="hljs-keyword">from</span> <span class="hljs-string">'tape'</span>;
+<span class="hljs-keyword">import</span> { all,put, takeEvery,call } <span class="hljs-keyword">from</span> <span class="hljs-string">'redux-saga/effects'</span>;
+<span class="hljs-keyword">import</span> { incrementAsync }  <span class="hljs-keyword">from</span> <span class="hljs-string">'./sagas'</span>;
+<span class="hljs-keyword">import</span> {delay} <span class="hljs-keyword">from</span> <span class="hljs-string">'../utils'</span>;
+<span class="hljs-comment">/**
+ * incrementAsync 是一个 Generator 函数。执行的时候返回一个 iterator object，这个 iterator 的 next 方法返回一个对象
+ * gen.next() // =&gt; { done: boolean, value: any }
+ * value 字段包含被 yield 后的表达式，也就是 yield 后面那个表达式的结果。
+ * done 字段指示 generator 是结束了，还是有更多的 yield 表达式
+ */</span>
+test(<span class="hljs-string">'incrementAsync Saga test'</span>, (assert) =&gt; {
+    <span class="hljs-keyword">const</span> gen = incrementAsync();
+    assert.deepEqual(
+    gen.next().value,
+    call(delay,<span class="hljs-number">3000</span>),
+    <span class="hljs-string">'incrementAsync should return a Promise that will resolve after 3 second'</span>
+  ) 
+
+   assert.deepEqual(
+    gen.next().value,
+    put({<span class="hljs-attr">type</span>: <span class="hljs-string">'INCREMENT'</span>}),
+    <span class="hljs-string">'incrementAsync Saga must dispatch an INCREMENT action'</span>
+  )
+  assert.deepEqual(
+    gen.next(),
+    {<span class="hljs-attr">done</span>:<span class="hljs-literal">true</span>,<span class="hljs-attr">value</span>:<span class="hljs-literal">undefined</span>},
+    <span class="hljs-string">'incrementAsync Saga must be done'</span>
+  )
+
+  assert.end() 
+});
+</code></pre>
+<h2 id="t238. 声明式 Effects">8. 声明式 Effects <a href="#t238. 声明式 Effects"> # </a></h2>
+<ul>
+<li>在 redux-saga 的世界里，Sagas 都用 Generator 函数实现。我们从 Generator 里 yield 纯 JavaScript 对象以表达 Saga 逻辑</li>
+<li>我们称呼那些对象为 Effect。Effect 是一个简单的对象，这个对象包含了一些给 middleware 解释执行的信息</li>
+<li>你可以把 Effect 看作是发送给 middleware 的指令以执行某些操作（调用某些异步函数，发起一个 action 到 store，等等）</li>
+</ul>
+<h3 id="t248.1 src/store/sagas.js">8.1 src/store/sagas.js <a href="#t248.1 src/store/sagas.js"> # </a></h3>
+<p>src/store/sagas.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> {all,put, takeEvery,call,takeLatest,cps,apply } <span class="hljs-keyword">from</span> <span class="hljs-string">'redux-saga/effects'</span>
+<span class="hljs-keyword">import</span> {delay,read} <span class="hljs-keyword">from</span> <span class="hljs-string">'../utils'</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">readAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">let</span> content = <span class="hljs-keyword">yield</span> cps(read,<span class="hljs-string">'1.txt'</span>);
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'content='</span>,content);
+}
+<span class="hljs-comment">//worker Saga: 将执行异步的 increment 任务</span>
+<span class="hljs-comment">//incrementAsync Saga 通过 delay(1000) 延迟了 1 秒钟，然后 dispatch 一个叫 INCREMENT 的 action。</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">incrementAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//工具函数 delay，这个函数返回一个延迟 1 秒再 resolve 的 Promise 我们将使用这个函数去 block(阻塞) Generator</span>
+    <span class="hljs-comment">//Sagas 被实现为 Generator functions，它会 yield 对象到 redux-saga middleware。 被 yield 的对象都是一类指令，指令可被 middleware 解释执行。当 middleware 取得一个 yield 后的 Promise，middleware 会暂停 Saga，直到 Promise 完成</span>
+    <span class="hljs-comment">//incrementAsync 这个 Saga 会暂停直到 delay 返回的 Promise 被 resolve，这个 Promise 将在 1 秒后 resolve</span>
+    <span class="hljs-comment">//put 还是 call 都不执行任何 dispatch 或异步调用，它们只是简单地返回 plain Javascript 对象</span>
+    <span class="hljs-keyword">yield</span> call(delay,<span class="hljs-number">3000</span>);
+    <span class="hljs-comment">//yield call([null,delay],3000);</span>
+    <span class="hljs-comment">//yield apply(null,delay,3000);</span>
+    <span class="hljs-comment">//yield delay(3000);</span>
+    <span class="hljs-comment">//一旦 Promise 被 resolve，middleware 会恢复 Saga 接着执行，直到遇到下一个 yield</span>
+    <span class="hljs-comment">//在这里下一个语句是另一个被 yield 的对象：调用 put({type: 'INCREMENT'}) 的结果，意思是告诉 middleware 发起一个 INCREMENT 的 action</span>
+    <span class="hljs-comment">//put 就是我们称作 Effect 的一个例子。Effects 是一些简单 Javascript 对象，包含了要被 middleware 执行的指令</span>
+    <span class="hljs-comment">//当 middleware 拿到一个被 Saga yield 的 Effect，它会暂停 Saga，直到 Effect 执行完成，然后 Saga 会再次被恢复</span>
+    <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: <span class="hljs-string">'INCREMENT'</span> })
+}
+<span class="hljs-comment">//takeEvery，用于监听所有的 INCREMENT_ASYNC action，并在 action 被匹配时执行 incrementAsync 任务</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">watchIncrementAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//yield takeEvery('INCREMENT_ASYNC', incrementAsync);</span>
+    <span class="hljs-comment">//只想得到最新那个请求的响应,如果已经有一个任务在执行的时候启动另一个 fetchData ，那之前的这个任务会被自动取消</span>
+    <span class="hljs-keyword">yield</span> takeLatest(<span class="hljs-string">'INCREMENT_ASYNC'</span>, incrementAsync);
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">helloSaga</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Hello Saga!'</span>);
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">rootSaga</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//这个 Saga yield 了一个数组，值是调用 helloSaga 和 watchIncrementAsync 两个 Saga 的结果。意思是说这两个 Generators 将会同时启动</span>
+    <span class="hljs-keyword">yield</span> all([
+      helloSaga(),
+      watchIncrementAsync()
+    ])
+  }
+</code></pre>
+<h3 id="t258.2 store/sagas.spec.js">8.2 store/sagas.spec.js <a href="#t258.2 store/sagas.spec.js"> # </a></h3>
+<p>src/store/sagas.spec.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> test <span class="hljs-keyword">from</span> <span class="hljs-string">'tape'</span>;
+<span class="hljs-keyword">import</span> { all,put, takeEvery,call,cps,apply } <span class="hljs-keyword">from</span> <span class="hljs-string">'redux-saga/effects'</span>;
+<span class="hljs-keyword">import</span> { incrementAsync,readAsync }  <span class="hljs-keyword">from</span> <span class="hljs-string">'./sagas'</span>;
+<span class="hljs-keyword">import</span> {delay,read} <span class="hljs-keyword">from</span> <span class="hljs-string">'../utils'</span>;
+<span class="hljs-comment">/**
+ * incrementAsync 是一个 Generator 函数。执行的时候返回一个 iterator object，这个 iterator 的 next 方法返回一个对象
+ * gen.next() // =&gt; { done: boolean, value: any }
+ * value 字段包含被 yield 后的表达式，也就是 yield 后面那个表达式的结果。
+ * done 字段指示 generator 是结束了，还是有更多的 yield 表达式
+ */</span>
+test(<span class="hljs-string">'incrementAsync Saga test'</span>, (assert) =&gt; {
+    <span class="hljs-keyword">const</span> gen = incrementAsync();
+     assert.deepEqual(
+    gen.next().value,
+    call(delay,<span class="hljs-number">3000</span>),
+    <span class="hljs-string">'incrementAsync should return a Promise that will resolve after 3 second'</span>
+    )  
+    <span class="hljs-comment">/* assert.deepEqual(
+      gen.next().value,
+      call([null,delay],3000),
+      'incrementAsync should return a Promise that will resolve after 3 second'
+    ) */</span>
+    <span class="hljs-comment">/* assert.deepEqual(
+      gen.next().value,
+      apply(null,delay,3000),
+      'incrementAsync should return a Promise that will resolve after 3 second'
+    ) */</span>
+
+   assert.deepEqual(
+    gen.next().value,
+    put({<span class="hljs-attr">type</span>: <span class="hljs-string">'INCREMENT'</span>}),
+    <span class="hljs-string">'incrementAsync Saga must dispatch an INCREMENT action'</span>
+  )
+  assert.deepEqual(
+    gen.next(),
+    {<span class="hljs-attr">done</span>:<span class="hljs-literal">true</span>,<span class="hljs-attr">value</span>:<span class="hljs-literal">undefined</span>},
+    <span class="hljs-string">'incrementAsync Saga must be done'</span>
+  )
+
+
+  assert.end() 
+});
+
+test(<span class="hljs-string">'readAsync Saga test'</span>, (assert) =&gt; {
+  <span class="hljs-keyword">const</span> gen = readAsync();
+  assert.deepEqual(
+    gen.next().value,
+    cps(read,<span class="hljs-string">'1.txt'</span>),
+    <span class="hljs-string">'readAsync should be done  after 3 second'</span>
+  )
+  assert.deepEqual(
+    gen.next(),
+    {<span class="hljs-attr">done</span>:<span class="hljs-literal">true</span>,<span class="hljs-attr">value</span>:<span class="hljs-literal">undefined</span>},
+    <span class="hljs-string">'readAsync Saga must be done'</span>
+  )
+  assert.end();
+});
+</code></pre>
+<h3 id="t268.3 src/utils.js">8.3 src/utils.js <a href="#t268.3 src/utils.js"> # </a></h3>
+<p>src/utils.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> delay=<span class="hljs-function"><span class="hljs-params">ms</span> =&gt;</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve,reject</span>) =&gt;</span> {
+    setTimeout(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> resolve(),ms);
+});
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">read</span>(<span class="hljs-params">filename,callback</span>)</span>{
+    setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'read'</span>,filename);
+     callback(<span class="hljs-literal">null</span>,filename);
+    },<span class="hljs-number">1000</span>);
+ }
+</code></pre>
+<h2 id="t279. 错误处理">9. 错误处理 <a href="#t279. 错误处理"> # </a></h2>
+<h3 id="t289.1 try catch">9.1 try catch <a href="#t289.1 try catch"> # </a></h3>
+<ul>
+<li>我们可以使用熟悉的 try/catch 语法在 Saga 中捕获错误</li>
+</ul>
+<p>src\store\sagas.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">try</span>{
+    <span class="hljs-keyword">yield</span> call(delay,<span class="hljs-number">3000</span>);
+    <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>:<span class="hljs-string">'INCREMENT'</span>});
+    alert(<span class="hljs-string">'操作成功'</span>);
+}<span class="hljs-keyword">catch</span>(error){
+    alert(<span class="hljs-string">'操作失败'</span>);
+}
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> delay=<span class="hljs-function"><span class="hljs-params">ms</span> =&gt;</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve,reject</span>) =&gt;</span> {
+    setTimeout(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">if</span>(<span class="hljs-built_in">Math</span>.random()&gt;<span class="hljs-number">.5</span>){
+            resolve();
+        }<span class="hljs-keyword">else</span>{
+            reject();
+        }
+    },ms);
+});
+</code></pre>
+<h3 id="t299.2 错误标识">9.2 错误标识 <a href="#t299.2 错误标识"> # </a></h3>
+<ul>
+<li>你也可以让你的 API 服务返回一个正常的含有错误标识的值
+src\store\sagas.js<pre><code class="lang-js">  <span class="hljs-keyword">let</span> {code,data} = <span class="hljs-keyword">yield</span> call(delay2,<span class="hljs-number">1000</span>);
+  <span class="hljs-keyword">if</span>(code == <span class="hljs-number">0</span>){
+      <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>:<span class="hljs-string">'INCREMENT'</span>});
+      alert(<span class="hljs-string">'操作成功'</span>);
+  }<span class="hljs-keyword">else</span>{
+      alert(<span class="hljs-string">'操作失败'</span>);
+  }
+</code></pre>
+</li>
+</ul>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> delay2=<span class="hljs-function"><span class="hljs-params">ms</span> =&gt;</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve,reject</span>) =&gt;</span> {
+    setTimeout(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">if</span>(<span class="hljs-built_in">Math</span>.random()&gt;<span class="hljs-number">.5</span>){
+            resolve({<span class="hljs-attr">code</span>:<span class="hljs-number">0</span>,<span class="hljs-attr">data</span>:<span class="hljs-number">1</span>});
+        }<span class="hljs-keyword">else</span>{
+            resolve({<span class="hljs-attr">code</span>:<span class="hljs-number">1</span>,<span class="hljs-attr">data</span>:<span class="hljs-string">'error'</span>});
+        }
+    },ms);
+});
+</code></pre>
+<h2 id="t3010. take">10. take <a href="#t3010. take"> # </a></h2>
+<ul>
+<li>takeEvery 只是一个在强大的低阶 API 之上构建的 <code>wrapper effect</code></li>
+<li>take 就像我们更早之前看到的 call 和 put。它创建另一个命令对象，告诉 middleware 等待一个特定的 action</li>
+</ul>
+<h3 id="t3110.1 store/sagas.js">10.1 store/sagas.js <a href="#t3110.1 store/sagas.js"> # </a></h3>
+<p>src/store/sagas.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> {all,put, takeEvery,call,takeLatest,cps,apply,select,take } <span class="hljs-keyword">from</span> <span class="hljs-string">'redux-saga/effects'</span>
+<span class="hljs-keyword">import</span> {delay,delay2,read} <span class="hljs-keyword">from</span> <span class="hljs-string">'../utils'</span>;
+<span class="hljs-keyword">import</span> {INCREMENT_ASYNC,INCREMENT} <span class="hljs-keyword">from</span> <span class="hljs-string">'./action-types'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">readAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">let</span> content = <span class="hljs-keyword">yield</span> cps(read,<span class="hljs-string">'1.txt'</span>);
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'content='</span>,content);
+}
+<span class="hljs-comment">//worker Saga: 将执行异步的 increment 任务</span>
+<span class="hljs-comment">//incrementAsync Saga 通过 delay(1000) 延迟了 1 秒钟，然后 dispatch 一个叫 INCREMENT 的 action。</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">incrementAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//工具函数 delay，这个函数返回一个延迟 1 秒再 resolve 的 Promise 我们将使用这个函数去 block(阻塞) Generator</span>
+    <span class="hljs-comment">//Sagas 被实现为 Generator functions，它会 yield 对象到 redux-saga middleware。 被 yield 的对象都是一类指令，指令可被 middleware 解释执行。当 middleware 取得一个 yield 后的 Promise，middleware 会暂停 Saga，直到 Promise 完成</span>
+    <span class="hljs-comment">//incrementAsync 这个 Saga 会暂停直到 delay 返回的 Promise 被 resolve，这个 Promise 将在 1 秒后 resolve</span>
+    <span class="hljs-comment">//put 还是 call 都不执行任何 dispatch 或异步调用，它们只是简单地返回 plain Javascript 对象</span>
+    <span class="hljs-comment">//yield call(delay,3000);</span>
+    <span class="hljs-comment">//yield call([null,delay],3000);</span>
+    <span class="hljs-comment">//yield apply(null,delay,3000);</span>
+    <span class="hljs-comment">//yield delay(3000);</span>
+    <span class="hljs-comment">//一旦 Promise 被 resolve，middleware 会恢复 Saga 接着执行，直到遇到下一个 yield</span>
+    <span class="hljs-comment">//在这里下一个语句是另一个被 yield 的对象：调用 put({type: 'INCREMENT'}) 的结果，意思是告诉 middleware 发起一个 INCREMENT 的 action</span>
+    <span class="hljs-comment">//put 就是我们称作 Effect 的一个例子。Effects 是一些简单 Javascript 对象，包含了要被 middleware 执行的指令</span>
+    <span class="hljs-comment">//当 middleware 拿到一个被 Saga yield 的 Effect，它会暂停 Saga，直到 Effect 执行完成，然后 Saga 会再次被恢复</span>
+    <span class="hljs-comment">//yield put({ type: 'INCREMENT' });</span>
+    <span class="hljs-comment">//----------------------</span>
+    <span class="hljs-comment">/* try{
+        yield call(delay,3000);
+        yield put({ type:'INCREMENT'});
+        alert('操作成功');
+    }catch(error){
+        alert('操作失败');
+    } */</span>
+    <span class="hljs-comment">/* let {code,data} = yield call(delay2,1000);
+    if(code == 0){
+        yield put({ type:INCREMENT_ASYNC});
+        alert('操作成功');
+    }else{
+        alert('操作失败');
+    } */</span>
+    <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: INCREMENT });
+
+}
+<span class="hljs-comment">//takeEvery，用于监听所有的 INCREMENT_ASYNC action，并在 action 被匹配时执行 incrementAsync 任务</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">watchIncrementAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//yield takeEvery('INCREMENT_ASYNC', incrementAsync);</span>
+    <span class="hljs-comment">//只想得到最新那个请求的响应,如果已经有一个任务在执行的时候启动另一个 fetchData ，那之前的这个任务会被自动取消</span>
+    <span class="hljs-keyword">yield</span> takeLatest(INCREMENT_ASYNC, incrementAsync);
+    <span class="hljs-comment">//take 就像我们更早之前看到的 call 和 put。它创建另一个命令对象，告诉 middleware 等待一个特定的 action</span>
+    <span class="hljs-comment">//在 take 的情况中，它将会暂停 Generator 直到一个匹配的 action 被发起了</span>
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">watchIncrementAsync2</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">3</span>; i++) {
+        <span class="hljs-keyword">const</span> action = <span class="hljs-keyword">yield</span> take(INCREMENT_ASYNC);
+        <span class="hljs-built_in">console</span>.log(action);
+        <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:INCREMENT});
+    }
+    alert(<span class="hljs-string">'最多只能点三次!'</span>);
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">watchAndLog</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//take 就像我们更早之前看到的 call 和 put。它创建另一个命令对象，告诉 middleware 等待一个特定的 action</span>
+    <span class="hljs-comment">//在 take 的情况中，它将会暂停 Generator 直到一个匹配的 action 被发起了</span>
+    <span class="hljs-comment">//在 takeEvery 的情况中，被调用的任务无法控制何时被调用， 它们将在每次 action 被匹配时一遍又一遍地被调用。并且它们也无法控制何时停止监听</span>
+    <span class="hljs-comment">//在 take 的情况中，控制恰恰相反。与 action 被 推向（pushed） 任务处理函数不同，Saga 是自己主动 拉取（pulling） action 的。 看起来就像是 Saga 在执行一个普通的函数调用 action = getNextAction()，这个函数将在 action 被发起时 resolve</span>
+    <span class="hljs-keyword">while</span>(<span class="hljs-literal">true</span>){
+        <span class="hljs-keyword">let</span> action = <span class="hljs-keyword">yield</span> take(<span class="hljs-string">'*'</span>);
+        <span class="hljs-keyword">const</span> state = <span class="hljs-keyword">yield</span> select();
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'action'</span>, action);
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'state after'</span>, state);
+    }
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">helloSaga</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Hello Saga!'</span>);
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">rootSaga</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//这个 Saga yield 了一个数组，值是调用 helloSaga 和 watchIncrementAsync 两个 Saga 的结果。意思是说这两个 Generators 将会同时启动</span>
+    <span class="hljs-keyword">yield</span> all([
+      helloSaga(),
+      watchIncrementAsync2(),
+      watchAndLog()
+    ])
+  }
+</code></pre>
+<h3 id="t3210.2 utils.js">10.2 utils.js <a href="#t3210.2 utils.js"> # </a></h3>
+<p>src/utils.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> delay=<span class="hljs-function"><span class="hljs-params">ms</span> =&gt;</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve,reject</span>) =&gt;</span> {
+    setTimeout(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">if</span>(<span class="hljs-built_in">Math</span>.random()&gt;<span class="hljs-number">.5</span>){
+            resolve();
+        }<span class="hljs-keyword">else</span>{
+            reject();
+        }
+    },ms);
+});
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> delay2=<span class="hljs-function"><span class="hljs-params">ms</span> =&gt;</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve,reject</span>) =&gt;</span> {
+    setTimeout(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">if</span>(<span class="hljs-built_in">Math</span>.random()&gt;<span class="hljs-number">.5</span>){
+            resolve({<span class="hljs-attr">code</span>:<span class="hljs-number">0</span>,<span class="hljs-attr">data</span>:<span class="hljs-number">1</span>});
+        }<span class="hljs-keyword">else</span>{
+            resolve({<span class="hljs-attr">code</span>:<span class="hljs-number">1</span>,<span class="hljs-attr">data</span>:<span class="hljs-string">'error'</span>});
+        }
+    },ms);
+});
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">read</span>(<span class="hljs-params">filename,callback</span>)</span>{
+    setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'read'</span>,filename);
+     callback(<span class="hljs-literal">null</span>,filename);
+    },<span class="hljs-number">1000</span>);
+ }
+</code></pre>
+<h2 id="t3311. 登陆流程">11. 登陆流程 <a href="#t3311. 登陆流程"> # </a></h2>
+<h3 id="t3411.1 src/index.js">11.1 src/index.js <a href="#t3411.1 src/index.js"> # </a></h3>
+<p>src/index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+<span class="hljs-keyword">import</span> Login <span class="hljs-keyword">from</span> <span class="hljs-string">'./components/Login'</span>;
+<span class="hljs-keyword">import</span> {Provider} <span class="hljs-keyword">from</span> <span class="hljs-string">'react-redux'</span>;
+<span class="hljs-keyword">import</span> store <span class="hljs-keyword">from</span> <span class="hljs-string">'./store'</span>;
+ReactDOM.render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Provider</span> <span class="hljs-attr">store</span>=<span class="hljs-string">{store}</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">Login</span>/&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">Provider</span>&gt;</span></span>,<span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#root'</span>));
+</code></pre>
+<h3 id="t3511.2 store/action-types.js">11.2 store/action-types.js <a href="#t3511.2 store/action-types.js"> # </a></h3>
+<p>src/store/action-types.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> INCREMENT=<span class="hljs-string">'INCREMENT'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> INCREMENT_ASYNC=<span class="hljs-string">'INCREMENT_ASYNC'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> LOGIN_REQUEST=<span class="hljs-string">'LOGIN_REQUEST'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> LOGIN_SUCCESS=<span class="hljs-string">'LOGIN_SUCCESS'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> SET_USERNAME=<span class="hljs-string">'SET_USERNAME'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> LOGIN_ERROR=<span class="hljs-string">'LOGIN_ERROR'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> LOGOUT=<span class="hljs-string">'LOGOUT'</span>;
+</code></pre>
+<h3 id="t3611.3 store/actions.js">11.3 store/actions.js <a href="#t3611.3 store/actions.js"> # </a></h3>
+<p>src/store/actions.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> types <span class="hljs-keyword">from</span> <span class="hljs-string">'./action-types'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    incrementAsync() {
+        <span class="hljs-keyword">return</span> {<span class="hljs-attr">type</span>:types.INCREMENT_ASYNC}
+    },
+    login(username,password){
+        <span class="hljs-keyword">return</span> {<span class="hljs-attr">type</span>:types.LOGIN_REQUEST,username,password}
+    },
+    logout(){
+        <span class="hljs-keyword">return</span> {<span class="hljs-attr">type</span>:types.LOGOUT}
+    }
+}
+</code></pre>
+<h3 id="t3711.4 store/reducer.js">11.4 store/reducer.js <a href="#t3711.4 store/reducer.js"> # </a></h3>
+<p>src/store/reducer.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> types <span class="hljs-keyword">from</span> <span class="hljs-string">'./action-types'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">state={number:<span class="hljs-number">0</span>,username:null},action</span>) </span>{
+    <span class="hljs-keyword">switch</span>(action.type){
+        <span class="hljs-keyword">case</span> types.INCREMENT:
+            <span class="hljs-keyword">return</span> {<span class="hljs-attr">number</span>: state.number+<span class="hljs-number">1</span>};
+        <span class="hljs-keyword">case</span> types.SET_USERNAME:
+            <span class="hljs-keyword">return</span> {<span class="hljs-attr">username</span>: action.username};
+        <span class="hljs-keyword">default</span>:
+            <span class="hljs-keyword">return</span> state;
+    }
+}
+</code></pre>
+<h3 id="t3811.5 store/sagas.js">11.5 store/sagas.js <a href="#t3811.5 store/sagas.js"> # </a></h3>
+<p>src/store/sagas.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> {all,put, takeEvery,call,takeLatest,cps,apply,select,take } <span class="hljs-keyword">from</span> <span class="hljs-string">'redux-saga/effects'</span>
+<span class="hljs-keyword">import</span> {delay,delay2,read} <span class="hljs-keyword">from</span> <span class="hljs-string">'../utils'</span>;
+<span class="hljs-keyword">import</span> {INCREMENT_ASYNC,INCREMENT,LOGIN_ERROR,LOGIN_SUCCESS,LOGOUT,LOGIN_REQUEST,SET_USERNAME} <span class="hljs-keyword">from</span> <span class="hljs-string">'./action-types'</span>;
+<span class="hljs-keyword">import</span> Api <span class="hljs-keyword">from</span> <span class="hljs-string">'../Api'</span>
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">readAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">let</span> content = <span class="hljs-keyword">yield</span> cps(read,<span class="hljs-string">'1.txt'</span>);
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'content='</span>,content);
+}
+<span class="hljs-comment">//worker Saga: 将执行异步的 increment 任务</span>
+<span class="hljs-comment">//incrementAsync Saga 通过 delay(1000) 延迟了 1 秒钟，然后 dispatch 一个叫 INCREMENT 的 action。</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">incrementAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//工具函数 delay，这个函数返回一个延迟 1 秒再 resolve 的 Promise 我们将使用这个函数去 block(阻塞) Generator</span>
+    <span class="hljs-comment">//Sagas 被实现为 Generator functions，它会 yield 对象到 redux-saga middleware。 被 yield 的对象都是一类指令，指令可被 middleware 解释执行。当 middleware 取得一个 yield 后的 Promise，middleware 会暂停 Saga，直到 Promise 完成</span>
+    <span class="hljs-comment">//incrementAsync 这个 Saga 会暂停直到 delay 返回的 Promise 被 resolve，这个 Promise 将在 1 秒后 resolve</span>
+    <span class="hljs-comment">//put 还是 call 都不执行任何 dispatch 或异步调用，它们只是简单地返回 plain Javascript 对象</span>
+    <span class="hljs-comment">//yield call(delay,3000);</span>
+    <span class="hljs-comment">//yield call([null,delay],3000);</span>
+    <span class="hljs-comment">//yield apply(null,delay,3000);</span>
+    <span class="hljs-comment">//yield delay(3000);</span>
+    <span class="hljs-comment">//一旦 Promise 被 resolve，middleware 会恢复 Saga 接着执行，直到遇到下一个 yield</span>
+    <span class="hljs-comment">//在这里下一个语句是另一个被 yield 的对象：调用 put({type: 'INCREMENT'}) 的结果，意思是告诉 middleware 发起一个 INCREMENT 的 action</span>
+    <span class="hljs-comment">//put 就是我们称作 Effect 的一个例子。Effects 是一些简单 Javascript 对象，包含了要被 middleware 执行的指令</span>
+    <span class="hljs-comment">//当 middleware 拿到一个被 Saga yield 的 Effect，它会暂停 Saga，直到 Effect 执行完成，然后 Saga 会再次被恢复</span>
+    <span class="hljs-comment">//yield put({ type: 'INCREMENT' });</span>
+    <span class="hljs-comment">//----------------------</span>
+    <span class="hljs-comment">/* try{
+        yield call(delay,3000);
+        yield put({ type:'INCREMENT'});
+        alert('操作成功');
+    }catch(error){
+        alert('操作失败');
+    } */</span>
+    <span class="hljs-comment">/* let {code,data} = yield call(delay2,1000);
+    if(code == 0){
+        yield put({ type:INCREMENT_ASYNC});
+        alert('操作成功');
+    }else{
+        alert('操作失败');
+    } */</span>
+    <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: INCREMENT });
+
+}
+<span class="hljs-comment">//takeEvery，用于监听所有的 INCREMENT_ASYNC action，并在 action 被匹配时执行 incrementAsync 任务</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">watchIncrementAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//yield takeEvery('INCREMENT_ASYNC', incrementAsync);</span>
+    <span class="hljs-comment">//只想得到最新那个请求的响应,如果已经有一个任务在执行的时候启动另一个 fetchData ，那之前的这个任务会被自动取消</span>
+    <span class="hljs-keyword">yield</span> takeLatest(INCREMENT_ASYNC, incrementAsync);
+    <span class="hljs-comment">//take 就像我们更早之前看到的 call 和 put。它创建另一个命令对象，告诉 middleware 等待一个特定的 action</span>
+    <span class="hljs-comment">//在 take 的情况中，它将会暂停 Generator 直到一个匹配的 action 被发起了</span>
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">watchIncrementAsync2</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">3</span>; i++) {
+        <span class="hljs-keyword">const</span> action = <span class="hljs-keyword">yield</span> take(INCREMENT_ASYNC);
+        <span class="hljs-built_in">console</span>.log(action);
+        <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:INCREMENT});
+    }
+    alert(<span class="hljs-string">'最多只能点三次!'</span>);
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">watchAndLog</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//take 就像我们更早之前看到的 call 和 put。它创建另一个命令对象，告诉 middleware 等待一个特定的 action</span>
+    <span class="hljs-comment">//在 take 的情况中，它将会暂停 Generator 直到一个匹配的 action 被发起了</span>
+    <span class="hljs-comment">//在 takeEvery 的情况中，被调用的任务无法控制何时被调用， 它们将在每次 action 被匹配时一遍又一遍地被调用。并且它们也无法控制何时停止监听</span>
+    <span class="hljs-comment">//在 take 的情况中，控制恰恰相反。与 action 被 推向（pushed） 任务处理函数不同，Saga 是自己主动 拉取（pulling） action 的。 看起来就像是 Saga 在执行一个普通的函数调用 action = getNextAction()，这个函数将在 action 被发起时 resolve</span>
+    <span class="hljs-keyword">while</span>(<span class="hljs-literal">true</span>){
+        <span class="hljs-keyword">let</span> action = <span class="hljs-keyword">yield</span> take(<span class="hljs-string">'*'</span>);
+        <span class="hljs-keyword">const</span> state = <span class="hljs-keyword">yield</span> select();
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'action'</span>, action);
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'state after'</span>, state);
+    }
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">helloSaga</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Hello Saga!'</span>);
+}
+
+
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">rootSaga</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//这个 Saga yield 了一个数组，值是调用 helloSaga 和 watchIncrementAsync 两个 Saga 的结果。意思是说这两个 Generators 将会同时启动</span>
+    <span class="hljs-keyword">yield</span> all([
+      <span class="hljs-comment">/* helloSaga(),
+      watchIncrementAsync2(),
+      watchAndLog() */</span>
+      loginFlow()
+    ])
+  }
+<span class="hljs-comment">//首先我们创建了一个独立的 Generator login，它将执行真实的 API 调用并在成功后通知 Store。</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">login</span>(<span class="hljs-params">username, password</span>) </span>{
+  <span class="hljs-keyword">try</span> {
+      <span class="hljs-comment">//如果 Api 调用成功了，login 将发起一个 LOGIN_SUCCESS action 然后返回获取到的 token。 如果调用导致了错误，将会发起一个 LOGIN_ERROR action。</span>
+      <span class="hljs-keyword">const</span> token = <span class="hljs-keyword">yield</span> call(Api.login, username, password);
+      <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: LOGIN_SUCCESS, token});
+      <span class="hljs-keyword">return</span> token;
+  } <span class="hljs-keyword">catch</span>(error) {
+      <span class="hljs-comment">//在 login 失败的情况下，它将返回一个 undefined 值，这将导致 loginFlow 跳过当前处理进程并等待一个新的 LOGIN_REQUEST action</span>
+      <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: LOGIN_ERROR, error});
+  }
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">loginFlow</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-comment">//一旦到达流程最后一步（LOGOUT），通过等待一个新的 LOGIN_REQUEST action 来启动一个新的迭代</span>
+  <span class="hljs-keyword">while</span>(<span class="hljs-literal">true</span>) {
+      <span class="hljs-comment">//loginFlow 首先等待一个 LOGIN_REQUEST action,然后调用一个 call 到 login 任务</span>
+      <span class="hljs-comment">//call 不仅可以用来调用返回 Promise 的函数。我们也可以用它来调用其他 Generator 函数</span>
+      <span class="hljs-comment">//loginFlow 将等待 login 直到它终止或返回（即执行 api 调用后，发起 action 然后返回 token 至 loginFlow）</span>
+      <span class="hljs-keyword">const</span> {username, password} = <span class="hljs-keyword">yield</span> take(LOGIN_REQUEST);
+      <span class="hljs-keyword">const</span> token = <span class="hljs-keyword">yield</span> call(login, username, password);
+      <span class="hljs-comment">//在 authorize 失败的情况下，它将返回一个 undefined 值，这将导致 loginFlow 跳过当前处理进程并等待一个新的 LOGIN_REQUEST action</span>
+      <span class="hljs-keyword">if</span>(token) {
+        <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:SET_USERNAME,username});
+        <span class="hljs-comment">//如果调用 login 成功，loginFlow 将在 DOM storage 中存储返回的 token，并等待 LOGOUT action   </span>
+        Api.storeItem(<span class="hljs-string">'token'</span>,token);
+        <span class="hljs-comment">//当用户登出，我们删除存储的 token 并等待一个新的用户登录</span>
+        <span class="hljs-keyword">yield</span> take(LOGOUT);
+        Api.clearItem(<span class="hljs-string">'token'</span>);
+        <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:SET_USERNAME,<span class="hljs-attr">username</span>:<span class="hljs-literal">null</span>});
+      }
+  }
+}
+</code></pre>
+<h3 id="t3911.6  src/Api.js">11.6  src/Api.js <a href="#t3911.6  src/Api.js"> # </a></h3>
+<p> src/Api.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    login(username, password){
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">resolve,reject</span>)</span>{
+            <span class="hljs-keyword">if</span>(<span class="hljs-built_in">Math</span>.random()&gt;<span class="hljs-number">.5</span>){
+                resolve(username+<span class="hljs-string">'-'</span>+password);
+            }<span class="hljs-keyword">else</span>{
+                reject(<span class="hljs-string">'登录失败'</span>);
+            }
+        });
+    },
+    storeItem(key,value){
+        localStorage.setItem(key,value);
+    },
+    clearItem(){
+        localStorage.removeItem(<span class="hljs-string">'token'</span>);
+    }
+}
+</code></pre>
+<h3 id="t4011.7 components/Login.js">11.7 components/Login.js <a href="#t4011.7 components/Login.js"> # </a></h3>
+<p>src/components/Login.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>
+<span class="hljs-keyword">import</span> {connect} <span class="hljs-keyword">from</span> <span class="hljs-string">'react-redux'</span>;
+<span class="hljs-keyword">import</span> actions <span class="hljs-keyword">from</span> <span class="hljs-string">'../store/actions'</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Login</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    <span class="hljs-keyword">constructor</span>(props){
+        <span class="hljs-keyword">super</span>(props);
+        <span class="hljs-keyword">this</span>.username=React.createRef();
+        <span class="hljs-keyword">this</span>.password=React.createRef();
+    }
+    login = <span class="hljs-function">(<span class="hljs-params">event</span>)=&gt;</span>{
+        event.preventDefault();
+        <span class="hljs-keyword">let</span> username = <span class="hljs-keyword">this</span>.username.current.value;
+        <span class="hljs-keyword">let</span> password = <span class="hljs-keyword">this</span>.password.current.value;
+        <span class="hljs-keyword">this</span>.props.login(username,password);
+    }
+    logout = <span class="hljs-function">(<span class="hljs-params">event</span>)=&gt;</span>{
+        event.preventDefault();
+        <span class="hljs-keyword">this</span>.props.logout();
+    }
+    render() {
+        <span class="hljs-keyword">let</span> {username} = <span class="hljs-keyword">this</span>.props;
+        <span class="hljs-keyword">let</span> loginForm = (
+            &lt;form&gt;
+                &lt;label&gt;用户名&lt;/label&gt;&lt;input ref={this.username}/&gt;&lt;br/&gt;
+                &lt;label&gt;密码&lt;/label&gt;&lt;input ref={this.password}/&gt;&lt;br/&gt;
+                &lt;button onClick={this.login}&gt;登录&lt;/button&gt;
+            &lt;/form&gt;
+        )
+        let logoutForm = (
+            &lt;form &gt;
+                 用户名:{username}&lt;br/&gt;
+                &lt;button onClick={this.logout}&gt;退出&lt;/button&gt;
+            &lt;/form&gt;
+        )
+        return (
+            username?logoutForm:loginForm
+      )
+  }
+}
+export default connect(
+    state =&gt; state,
+    actions
+)(Login);
+</code></pre>
+<h2 id="t4112. fork">12. fork <a href="#t4112. fork"> # </a></h2>
+<ul>
+<li>当 loginFlow 在 login 中被阻塞了，最终发生在开始调用和收到响应之间的 <code>LOGOUT</code> 将会被错过</li>
+<li>我们需要的是一些非阻塞调用login</li>
+<li>为了表示无阻塞调用，redux-saga 提供了另一个 Effect：fork,当我们 fork 一个 任务，任务会在后台启动，调用者也可以继续它自己的流程，而不用等待被 fork 的任务结束</li>
+</ul>
+<h3 id="t4212.1 src/Api.js">12.1 src/Api.js <a href="#t4212.1 src/Api.js"> # </a></h3>
+<p>src/Api.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    login(username, password){
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">resolve,reject</span>)</span>{
+            <span class="hljs-keyword">if</span>(<span class="hljs-built_in">Math</span>.random()&gt;<span class="hljs-number">.5</span>){
+                resolve(username);
+            }<span class="hljs-keyword">else</span>{
+                reject(<span class="hljs-string">'登录失败'</span>);
+            }
+        });
+    },
+    storeItem(key,value){
+        localStorage.setItem(key,value);
+    },
+    clearItem(){
+        localStorage.removeItem(<span class="hljs-string">'token'</span>);
+    }
+}
+</code></pre>
+<h3 id="t4312.2 components/Login.js">12.2 components/Login.js <a href="#t4312.2 components/Login.js"> # </a></h3>
+<p>src/components/Login.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>
+<span class="hljs-keyword">import</span> {connect} <span class="hljs-keyword">from</span> <span class="hljs-string">'react-redux'</span>;
+<span class="hljs-keyword">import</span> actions <span class="hljs-keyword">from</span> <span class="hljs-string">'../store/actions'</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Login</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    <span class="hljs-keyword">constructor</span>(props){
+        <span class="hljs-keyword">super</span>(props);
+        <span class="hljs-keyword">this</span>.username=React.createRef();
+        <span class="hljs-keyword">this</span>.password=React.createRef();
+    }
+    login = <span class="hljs-function">(<span class="hljs-params">event</span>)=&gt;</span>{
+        event.preventDefault();
+        <span class="hljs-keyword">let</span> username = <span class="hljs-keyword">this</span>.username.current.value;
+        <span class="hljs-keyword">let</span> password = <span class="hljs-keyword">this</span>.password.current.value;
+        <span class="hljs-keyword">this</span>.props.login(username,password);
+    }
+    logout = <span class="hljs-function">(<span class="hljs-params">event</span>)=&gt;</span>{
+        event.preventDefault();
+        <span class="hljs-keyword">this</span>.props.logout();
+    }
+    render() {
+        <span class="hljs-keyword">let</span> {token} = <span class="hljs-keyword">this</span>.props;
+        <span class="hljs-keyword">let</span> loginForm = (
+            &lt;form&gt;
+                &lt;label&gt;用户名&lt;/label&gt;&lt;input ref={this.username}/&gt;&lt;br/&gt;
+                &lt;label&gt;密码&lt;/label&gt;&lt;input ref={this.password}/&gt;&lt;br/&gt;
+                &lt;button onClick={this.login}&gt;登录&lt;/button&gt;
+            &lt;/form&gt;
+        )
+        let logoutForm = (
+            &lt;form &gt;
+                 token:{token}&lt;br/&gt;
+                &lt;button onClick={this.logout}&gt;退出&lt;/button&gt;
+            &lt;/form&gt;
+        )
+        return (
+            token?logoutForm:loginForm
+      )
+  }
+}
+export default connect(
+    state =&gt; state,
+    actions
+)(Login);
+</code></pre>
+<h3 id="t4412.3 store/reducer.js">12.3 store/reducer.js <a href="#t4412.3 store/reducer.js"> # </a></h3>
+<p>src/store/reducer.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> types <span class="hljs-keyword">from</span> <span class="hljs-string">'./action-types'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">state={number:<span class="hljs-number">0</span>,token:null},action</span>) </span>{
+    <span class="hljs-keyword">switch</span>(action.type){
+        <span class="hljs-keyword">case</span> types.INCREMENT:
+            <span class="hljs-keyword">return</span> {<span class="hljs-attr">number</span>: state.number+<span class="hljs-number">1</span>};
+        <span class="hljs-keyword">case</span> types.LOGIN_SUCCESS:
+            <span class="hljs-keyword">return</span> {<span class="hljs-attr">token</span>:action.token};
+        <span class="hljs-keyword">case</span> types.LOGOUT:
+            <span class="hljs-keyword">return</span> {<span class="hljs-attr">token</span>:<span class="hljs-literal">null</span>};
+        <span class="hljs-keyword">default</span>:
+            <span class="hljs-keyword">return</span> state;
+    }
+}
+</code></pre>
+<h3 id="t4512.4 store/sagas.js">12.4 store/sagas.js <a href="#t4512.4 store/sagas.js"> # </a></h3>
+<p>src/store/sagas.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> {all,put, takeEvery,call,takeLatest,cps,apply,select,take,fork } <span class="hljs-keyword">from</span> <span class="hljs-string">'redux-saga/effects'</span>
+<span class="hljs-keyword">import</span> {delay,delay2,read} <span class="hljs-keyword">from</span> <span class="hljs-string">'../utils'</span>;
+<span class="hljs-keyword">import</span> {INCREMENT_ASYNC,INCREMENT,LOGIN_ERROR,LOGIN_SUCCESS,LOGOUT,LOGIN_REQUEST,SET_USERNAME} <span class="hljs-keyword">from</span> <span class="hljs-string">'./action-types'</span>;
+<span class="hljs-keyword">import</span> Api <span class="hljs-keyword">from</span> <span class="hljs-string">'../Api'</span>
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">readAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">let</span> content = <span class="hljs-keyword">yield</span> cps(read,<span class="hljs-string">'1.txt'</span>);
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'content='</span>,content);
+}
+<span class="hljs-comment">//worker Saga: 将执行异步的 increment 任务</span>
+<span class="hljs-comment">//incrementAsync Saga 通过 delay(1000) 延迟了 1 秒钟，然后 dispatch 一个叫 INCREMENT 的 action。</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">incrementAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//工具函数 delay，这个函数返回一个延迟 1 秒再 resolve 的 Promise 我们将使用这个函数去 block(阻塞) Generator</span>
+    <span class="hljs-comment">//Sagas 被实现为 Generator functions，它会 yield 对象到 redux-saga middleware。 被 yield 的对象都是一类指令，指令可被 middleware 解释执行。当 middleware 取得一个 yield 后的 Promise，middleware 会暂停 Saga，直到 Promise 完成</span>
+    <span class="hljs-comment">//incrementAsync 这个 Saga 会暂停直到 delay 返回的 Promise 被 resolve，这个 Promise 将在 1 秒后 resolve</span>
+    <span class="hljs-comment">//put 还是 call 都不执行任何 dispatch 或异步调用，它们只是简单地返回 plain Javascript 对象</span>
+    <span class="hljs-comment">//yield call(delay,3000);</span>
+    <span class="hljs-comment">//yield call([null,delay],3000);</span>
+    <span class="hljs-comment">//yield apply(null,delay,3000);</span>
+    <span class="hljs-comment">//yield delay(3000);</span>
+    <span class="hljs-comment">//一旦 Promise 被 resolve，middleware 会恢复 Saga 接着执行，直到遇到下一个 yield</span>
+    <span class="hljs-comment">//在这里下一个语句是另一个被 yield 的对象：调用 put({type: 'INCREMENT'}) 的结果，意思是告诉 middleware 发起一个 INCREMENT 的 action</span>
+    <span class="hljs-comment">//put 就是我们称作 Effect 的一个例子。Effects 是一些简单 Javascript 对象，包含了要被 middleware 执行的指令</span>
+    <span class="hljs-comment">//当 middleware 拿到一个被 Saga yield 的 Effect，它会暂停 Saga，直到 Effect 执行完成，然后 Saga 会再次被恢复</span>
+    <span class="hljs-comment">//yield put({ type: 'INCREMENT' });</span>
+    <span class="hljs-comment">//----------------------</span>
+    <span class="hljs-comment">/* try{
+        yield call(delay,3000);
+        yield put({ type:'INCREMENT'});
+        alert('操作成功');
+    }catch(error){
+        alert('操作失败');
+    } */</span>
+    <span class="hljs-comment">/* let {code,data} = yield call(delay2,1000);
+    if(code == 0){
+        yield put({ type:INCREMENT_ASYNC});
+        alert('操作成功');
+    }else{
+        alert('操作失败');
+    } */</span>
+    <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: INCREMENT });
+
+}
+<span class="hljs-comment">//takeEvery，用于监听所有的 INCREMENT_ASYNC action，并在 action 被匹配时执行 incrementAsync 任务</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">watchIncrementAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//yield takeEvery('INCREMENT_ASYNC', incrementAsync);</span>
+    <span class="hljs-comment">//只想得到最新那个请求的响应,如果已经有一个任务在执行的时候启动另一个 fetchData ，那之前的这个任务会被自动取消</span>
+    <span class="hljs-keyword">yield</span> takeLatest(INCREMENT_ASYNC, incrementAsync);
+    <span class="hljs-comment">//take 就像我们更早之前看到的 call 和 put。它创建另一个命令对象，告诉 middleware 等待一个特定的 action</span>
+    <span class="hljs-comment">//在 take 的情况中，它将会暂停 Generator 直到一个匹配的 action 被发起了</span>
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">watchIncrementAsync2</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">3</span>; i++) {
+        <span class="hljs-keyword">const</span> action = <span class="hljs-keyword">yield</span> take(INCREMENT_ASYNC);
+        <span class="hljs-built_in">console</span>.log(action);
+        <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:INCREMENT});
+    }
+    alert(<span class="hljs-string">'最多只能点三次!'</span>);
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">watchAndLog</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//take 就像我们更早之前看到的 call 和 put。它创建另一个命令对象，告诉 middleware 等待一个特定的 action</span>
+    <span class="hljs-comment">//在 take 的情况中，它将会暂停 Generator 直到一个匹配的 action 被发起了</span>
+    <span class="hljs-comment">//在 takeEvery 的情况中，被调用的任务无法控制何时被调用， 它们将在每次 action 被匹配时一遍又一遍地被调用。并且它们也无法控制何时停止监听</span>
+    <span class="hljs-comment">//在 take 的情况中，控制恰恰相反。与 action 被 推向（pushed） 任务处理函数不同，Saga 是自己主动 拉取（pulling） action 的。 看起来就像是 Saga 在执行一个普通的函数调用 action = getNextAction()，这个函数将在 action 被发起时 resolve</span>
+    <span class="hljs-keyword">while</span>(<span class="hljs-literal">true</span>){
+        <span class="hljs-keyword">let</span> action = <span class="hljs-keyword">yield</span> take(<span class="hljs-string">'*'</span>);
+        <span class="hljs-keyword">const</span> state = <span class="hljs-keyword">yield</span> select();
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'action'</span>, action);
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'state after'</span>, state);
+    }
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">helloSaga</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Hello Saga!'</span>);
+}
+
+
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">rootSaga</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//这个 Saga yield 了一个数组，值是调用 helloSaga 和 watchIncrementAsync 两个 Saga 的结果。意思是说这两个 Generators 将会同时启动</span>
+    <span class="hljs-keyword">yield</span> all([
+      <span class="hljs-comment">/* helloSaga(),
+      watchIncrementAsync2(),
+      watchAndLog() */</span>
+      loginFlow2()
+    ])
+  }
+<span class="hljs-comment">//首先我们创建了一个独立的 Generator login，它将执行真实的 API 调用并在成功后通知 Store。</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">login</span>(<span class="hljs-params">username, password</span>) </span>{
+  <span class="hljs-keyword">try</span> {
+      <span class="hljs-comment">//如果 Api 调用成功了，login 将发起一个 LOGIN_SUCCESS action 然后返回获取到的 token。 如果调用导致了错误，将会发起一个 LOGIN_ERROR action。</span>
+      <span class="hljs-keyword">const</span> token = <span class="hljs-keyword">yield</span> call(Api.login, username, password);
+      <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: LOGIN_SUCCESS, token});
+      <span class="hljs-keyword">return</span> token;
+  } <span class="hljs-keyword">catch</span>(error) {
+      <span class="hljs-comment">//在 login 失败的情况下，它将返回一个 undefined 值，这将导致 loginFlow 跳过当前处理进程并等待一个新的 LOGIN_REQUEST action</span>
+      <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: LOGIN_ERROR, error});
+  }
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">loginFlow</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-comment">//一旦到达流程最后一步（LOGOUT），通过等待一个新的 LOGIN_REQUEST action 来启动一个新的迭代</span>
+  <span class="hljs-keyword">while</span>(<span class="hljs-literal">true</span>) {
+      <span class="hljs-comment">//loginFlow 首先等待一个 LOGIN_REQUEST action,然后调用一个 call 到 login 任务</span>
+      <span class="hljs-comment">//call 不仅可以用来调用返回 Promise 的函数。我们也可以用它来调用其他 Generator 函数</span>
+      <span class="hljs-comment">//loginFlow 将等待 login 直到它终止或返回（即执行 api 调用后，发起 action 然后返回 token 至 loginFlow）</span>
+      <span class="hljs-keyword">const</span> {username, password} = <span class="hljs-keyword">yield</span> take(LOGIN_REQUEST);
+      <span class="hljs-keyword">const</span> token = <span class="hljs-keyword">yield</span> call(login, username, password);
+      <span class="hljs-comment">//在 authorize 失败的情况下，它将返回一个 undefined 值，这将导致 loginFlow 跳过当前处理进程并等待一个新的 LOGIN_REQUEST action</span>
+      <span class="hljs-keyword">if</span>(token) {
+        <span class="hljs-comment">//如果调用 login 成功，loginFlow 将在 DOM storage 中存储返回的 token，并等待 LOGOUT action   </span>
+        Api.storeItem(<span class="hljs-string">'token'</span>,token);
+        <span class="hljs-comment">//当用户登出，我们删除存储的 token 并等待一个新的用户登录</span>
+        <span class="hljs-keyword">yield</span> take(LOGOUT);
+        Api.clearItem(<span class="hljs-string">'token'</span>);
+      }
+  }
+}
+
+<span class="hljs-comment">//首先我们创建了一个独立的 Generator login，它将执行真实的 API 调用并在成功后通知 Store。</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">login2</span>(<span class="hljs-params">username, password</span>) </span>{
+    <span class="hljs-keyword">try</span> {
+        <span class="hljs-comment">//如果 Api 调用成功了，login 将发起一个 LOGIN_SUCCESS action 然后返回获取到的 token。 如果调用导致了错误，将会发起一个 LOGIN_ERROR action。</span>
+        <span class="hljs-keyword">const</span> token = <span class="hljs-keyword">yield</span> call(Api.login, username, password);
+        <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: LOGIN_SUCCESS, token});
+        <span class="hljs-comment">//如果调用 login 成功，loginFlow 将在 DOM storage 中存储返回的 token，并等待 LOGOUT action   </span>
+        Api.storeItem(<span class="hljs-string">'token'</span>,token);
+    } <span class="hljs-keyword">catch</span>(error) {
+        <span class="hljs-comment">//在 login 失败的情况下，它将返回一个 undefined 值，这将导致 loginFlow 跳过当前处理进程并等待一个新的 LOGIN_REQUEST action</span>
+        <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: LOGIN_ERROR, error});
+    }
+  }
+
+  <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">loginFlow2</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//一旦到达流程最后一步（LOGOUT），通过等待一个新的 LOGIN_REQUEST action 来启动一个新的迭代</span>
+    <span class="hljs-keyword">while</span>(<span class="hljs-literal">true</span>) {
+        <span class="hljs-comment">//loginFlow 首先等待一个 LOGIN_REQUEST action,然后调用一个 call 到 login 任务</span>
+        <span class="hljs-comment">//call 不仅可以用来调用返回 Promise 的函数。我们也可以用它来调用其他 Generator 函数</span>
+        <span class="hljs-comment">//loginFlow 将等待 login 直到它终止或返回（即执行 api 调用后，发起 action 然后返回 token 至 loginFlow）</span>
+        <span class="hljs-keyword">const</span> {username, password} = <span class="hljs-keyword">yield</span> take(LOGIN_REQUEST);
+        <span class="hljs-comment">//自从 login 的 action 在后台启动之后，我们获取不到 token 的结果,所以我们需要将 token 存储操作移到 login 任务内部</span>
+        <span class="hljs-keyword">yield</span> fork(login2, username, password);
+        <span class="hljs-comment">//yield take(['LOGOUT', 'LOGIN_ERROR'])。意思是监听 2 个并发的 action</span>
+        <span class="hljs-comment">//如果 login 任务在用户登出之前成功了，它将会发起一个 LOGIN_SUCCESS action 然后结束。 然后 loginFlow Saga 只会等待一个未来的 LOGOUT action 被发起</span>
+        <span class="hljs-comment">//如果 login 在用户登出之前失败了，它将会发起一个 LOGIN_ERROR action 然后结束</span>
+        <span class="hljs-comment">//如果在 login 结束之前，用户就登出了，那么 loginFlow 将收到一个 LOGOUT action 并且也会等待下一个 LOGIN_REQUEST</span>
+        <span class="hljs-keyword">yield</span> take([LOGOUT,LOGIN_ERROR]);
+        Api.clearItem(<span class="hljs-string">'token'</span>);
+    }
+  }
+</code></pre>
+<h2 id="t4613. 取消任务">13. 取消任务 <a href="#t4613. 取消任务"> # </a></h2>
+<ul>
+<li>如果我们在 API 调用期间收到一个 LOGOUT action，我们必须要 取消 login 处理进程,否则将有 2 个并发的任务， 并且 login 任务将会继续运行，并在成功的响应（或失败的响应）返回后发起一个 LOGIN_SUCCESS action（或一个 LOGIN_ERROR action），而这将导致状态不一致</li>
+<li>cancel Effect 不会粗暴地结束我们的 login 任务，相反它会给予一个机会执行清理的逻辑,在 finally 区块可以处理任何的取消逻辑（以及其他类型的完成逻辑）</li>
+</ul>
+<h3 id="t4713.1 src/Api.js">13.1 src/Api.js <a href="#t4713.1 src/Api.js"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    login(username, password){
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">resolve,reject</span>)</span>{
+           setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+            <span class="hljs-comment">//if(Math.random()&gt;.5){</span>
+                resolve(username);
+            <span class="hljs-comment">//}else{</span>
+            <span class="hljs-comment">//    reject('登录失败');</span>
+            <span class="hljs-comment">//}</span>
+           },<span class="hljs-number">3000</span>);
+        });
+    },
+    storeItem(key,value){
+        localStorage.setItem(key,value);
+    },
+    clearItem(){
+        localStorage.removeItem(<span class="hljs-string">'token'</span>);
+    }
+}
+</code></pre>
+<h3 id="t4813.2 components/Login.js">13.2 components/Login.js <a href="#t4813.2 components/Login.js"> # </a></h3>
+<p>src/components/Login.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>
+<span class="hljs-keyword">import</span> {connect} <span class="hljs-keyword">from</span> <span class="hljs-string">'react-redux'</span>;
+<span class="hljs-keyword">import</span> actions <span class="hljs-keyword">from</span> <span class="hljs-string">'../store/actions'</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Login</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    <span class="hljs-keyword">constructor</span>(props){
+        <span class="hljs-keyword">super</span>(props);
+        <span class="hljs-keyword">this</span>.username=React.createRef();
+        <span class="hljs-keyword">this</span>.password=React.createRef();
+    }
+    login = <span class="hljs-function">(<span class="hljs-params">event</span>)=&gt;</span>{
+        event.preventDefault();
+        <span class="hljs-keyword">let</span> username = <span class="hljs-keyword">this</span>.username.current.value;
+        <span class="hljs-keyword">let</span> password = <span class="hljs-keyword">this</span>.password.current.value;
+        <span class="hljs-keyword">this</span>.props.login(username,password);
+    }
+    logout = <span class="hljs-function">(<span class="hljs-params">event</span>)=&gt;</span>{
+        event.preventDefault();
+        <span class="hljs-keyword">this</span>.props.logout();
+    }
+    render() {
+        <span class="hljs-keyword">let</span> {token} = <span class="hljs-keyword">this</span>.props;
+        <span class="hljs-keyword">let</span> loginForm = (
+            &lt;form&gt;
+                &lt;label&gt;用户名&lt;/label&gt;&lt;input ref={this.username}/&gt;&lt;br/&gt;
+                &lt;label&gt;密码&lt;/label&gt;&lt;input ref={this.password}/&gt;&lt;br/&gt;
+                &lt;button onClick={this.login}&gt;登录&lt;/button&gt;
+                &lt;button onClick={this.logout}&gt;退出&lt;/button&gt;
+            &lt;/form&gt;
+        )
+        let logoutForm = (
+            &lt;form &gt;
+                 token:{token}&lt;br/&gt;
+                &lt;button onClick={this.logout}&gt;退出&lt;/button&gt;
+            &lt;/form&gt;
+        )
+        return (
+            token?logoutForm:loginForm
+      )
+  }
+}
+export default connect(
+    state =&gt; state,
+    actions
+)(Login);
+</code></pre>
+<h3 id="t4913.3 store/sagas.js">13.3 store/sagas.js <a href="#t4913.3 store/sagas.js"> # </a></h3>
+<p>src/store/sagas.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> {all,put, takeEvery,call,takeLatest,cps,apply,select,take,fork,cancel,cancelled } <span class="hljs-keyword">from</span> <span class="hljs-string">'redux-saga/effects'</span>
+<span class="hljs-keyword">import</span> {delay,delay2,read} <span class="hljs-keyword">from</span> <span class="hljs-string">'../utils'</span>;
+<span class="hljs-keyword">import</span> {INCREMENT_ASYNC,INCREMENT,LOGIN_ERROR,LOGIN_SUCCESS,LOGOUT,LOGIN_REQUEST,SET_USERNAME} <span class="hljs-keyword">from</span> <span class="hljs-string">'./action-types'</span>;
+<span class="hljs-keyword">import</span> Api <span class="hljs-keyword">from</span> <span class="hljs-string">'../Api'</span>
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">readAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">let</span> content = <span class="hljs-keyword">yield</span> cps(read,<span class="hljs-string">'1.txt'</span>);
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'content='</span>,content);
+}
+<span class="hljs-comment">//worker Saga: 将执行异步的 increment 任务</span>
+<span class="hljs-comment">//incrementAsync Saga 通过 delay(1000) 延迟了 1 秒钟，然后 dispatch 一个叫 INCREMENT 的 action。</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">incrementAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//工具函数 delay，这个函数返回一个延迟 1 秒再 resolve 的 Promise 我们将使用这个函数去 block(阻塞) Generator</span>
+    <span class="hljs-comment">//Sagas 被实现为 Generator functions，它会 yield 对象到 redux-saga middleware。 被 yield 的对象都是一类指令，指令可被 middleware 解释执行。当 middleware 取得一个 yield 后的 Promise，middleware 会暂停 Saga，直到 Promise 完成</span>
+    <span class="hljs-comment">//incrementAsync 这个 Saga 会暂停直到 delay 返回的 Promise 被 resolve，这个 Promise 将在 1 秒后 resolve</span>
+    <span class="hljs-comment">//put 还是 call 都不执行任何 dispatch 或异步调用，它们只是简单地返回 plain Javascript 对象</span>
+    <span class="hljs-comment">//yield call(delay,3000);</span>
+    <span class="hljs-comment">//yield call([null,delay],3000);</span>
+    <span class="hljs-comment">//yield apply(null,delay,3000);</span>
+    <span class="hljs-comment">//yield delay(3000);</span>
+    <span class="hljs-comment">//一旦 Promise 被 resolve，middleware 会恢复 Saga 接着执行，直到遇到下一个 yield</span>
+    <span class="hljs-comment">//在这里下一个语句是另一个被 yield 的对象：调用 put({type: 'INCREMENT'}) 的结果，意思是告诉 middleware 发起一个 INCREMENT 的 action</span>
+    <span class="hljs-comment">//put 就是我们称作 Effect 的一个例子。Effects 是一些简单 Javascript 对象，包含了要被 middleware 执行的指令</span>
+    <span class="hljs-comment">//当 middleware 拿到一个被 Saga yield 的 Effect，它会暂停 Saga，直到 Effect 执行完成，然后 Saga 会再次被恢复</span>
+    <span class="hljs-comment">//yield put({ type: 'INCREMENT' });</span>
+    <span class="hljs-comment">//----------------------</span>
+    <span class="hljs-comment">/* try{
+        yield call(delay,3000);
+        yield put({ type:'INCREMENT'});
+        alert('操作成功');
+    }catch(error){
+        alert('操作失败');
+    } */</span>
+    <span class="hljs-comment">/* let {code,data} = yield call(delay2,1000);
+    if(code == 0){
+        yield put({ type:INCREMENT_ASYNC});
+        alert('操作成功');
+    }else{
+        alert('操作失败');
+    } */</span>
+    <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: INCREMENT });
+
+}
+<span class="hljs-comment">//takeEvery，用于监听所有的 INCREMENT_ASYNC action，并在 action 被匹配时执行 incrementAsync 任务</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">watchIncrementAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//yield takeEvery('INCREMENT_ASYNC', incrementAsync);</span>
+    <span class="hljs-comment">//只想得到最新那个请求的响应,如果已经有一个任务在执行的时候启动另一个 fetchData ，那之前的这个任务会被自动取消</span>
+    <span class="hljs-keyword">yield</span> takeLatest(INCREMENT_ASYNC, incrementAsync);
+    <span class="hljs-comment">//take 就像我们更早之前看到的 call 和 put。它创建另一个命令对象，告诉 middleware 等待一个特定的 action</span>
+    <span class="hljs-comment">//在 take 的情况中，它将会暂停 Generator 直到一个匹配的 action 被发起了</span>
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">watchIncrementAsync2</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">3</span>; i++) {
+        <span class="hljs-keyword">const</span> action = <span class="hljs-keyword">yield</span> take(INCREMENT_ASYNC);
+        <span class="hljs-built_in">console</span>.log(action);
+        <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:INCREMENT});
+    }
+    alert(<span class="hljs-string">'最多只能点三次!'</span>);
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">watchAndLog</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//take 就像我们更早之前看到的 call 和 put。它创建另一个命令对象，告诉 middleware 等待一个特定的 action</span>
+    <span class="hljs-comment">//在 take 的情况中，它将会暂停 Generator 直到一个匹配的 action 被发起了</span>
+    <span class="hljs-comment">//在 takeEvery 的情况中，被调用的任务无法控制何时被调用， 它们将在每次 action 被匹配时一遍又一遍地被调用。并且它们也无法控制何时停止监听</span>
+    <span class="hljs-comment">//在 take 的情况中，控制恰恰相反。与 action 被 推向（pushed） 任务处理函数不同，Saga 是自己主动 拉取（pulling） action 的。 看起来就像是 Saga 在执行一个普通的函数调用 action = getNextAction()，这个函数将在 action 被发起时 resolve</span>
+    <span class="hljs-keyword">while</span>(<span class="hljs-literal">true</span>){
+        <span class="hljs-keyword">let</span> action = <span class="hljs-keyword">yield</span> take(<span class="hljs-string">'*'</span>);
+        <span class="hljs-keyword">const</span> state = <span class="hljs-keyword">yield</span> select();
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'action'</span>, action);
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'state after'</span>, state);
+    }
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">helloSaga</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Hello Saga!'</span>);
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">rootSaga</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//这个 Saga yield 了一个数组，值是调用 helloSaga 和 watchIncrementAsync 两个 Saga 的结果。意思是说这两个 Generators 将会同时启动</span>
+    <span class="hljs-keyword">yield</span> all([
+      <span class="hljs-comment">/* helloSaga(),
+      watchIncrementAsync2(),
+      watchAndLog() */</span>
+      loginFlow2()
+    ])
+  }
+<span class="hljs-comment">//首先我们创建了一个独立的 Generator login，它将执行真实的 API 调用并在成功后通知 Store。</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">login</span>(<span class="hljs-params">username, password</span>) </span>{
+  <span class="hljs-keyword">try</span> {
+      <span class="hljs-comment">//如果 Api 调用成功了，login 将发起一个 LOGIN_SUCCESS action 然后返回获取到的 token。 如果调用导致了错误，将会发起一个 LOGIN_ERROR action。</span>
+      <span class="hljs-keyword">const</span> token = <span class="hljs-keyword">yield</span> call(Api.login, username, password);
+      <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: LOGIN_SUCCESS, token});
+      <span class="hljs-keyword">return</span> token;
+  } <span class="hljs-keyword">catch</span>(error) {
+      <span class="hljs-comment">//在 login 失败的情况下，它将返回一个 undefined 值，这将导致 loginFlow 跳过当前处理进程并等待一个新的 LOGIN_REQUEST action</span>
+      <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: LOGIN_ERROR, error});
+  }
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">loginFlow</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-comment">//一旦到达流程最后一步（LOGOUT），通过等待一个新的 LOGIN_REQUEST action 来启动一个新的迭代</span>
+  <span class="hljs-keyword">while</span>(<span class="hljs-literal">true</span>) {
+      <span class="hljs-comment">//loginFlow 首先等待一个 LOGIN_REQUEST action,然后调用一个 call 到 login 任务</span>
+      <span class="hljs-comment">//call 不仅可以用来调用返回 Promise 的函数。我们也可以用它来调用其他 Generator 函数</span>
+      <span class="hljs-comment">//loginFlow 将等待 login 直到它终止或返回（即执行 api 调用后，发起 action 然后返回 token 至 loginFlow）</span>
+      <span class="hljs-keyword">const</span> {username, password} = <span class="hljs-keyword">yield</span> take(LOGIN_REQUEST);
+      <span class="hljs-keyword">const</span> token = <span class="hljs-keyword">yield</span> call(login, username, password);
+      <span class="hljs-comment">//在 authorize 失败的情况下，它将返回一个 undefined 值，这将导致 loginFlow 跳过当前处理进程并等待一个新的 LOGIN_REQUEST action</span>
+      <span class="hljs-keyword">if</span>(token) {
+        <span class="hljs-comment">//如果调用 login 成功，loginFlow 将在 DOM storage 中存储返回的 token，并等待 LOGOUT action   </span>
+        Api.storeItem(<span class="hljs-string">'token'</span>,token);
+        <span class="hljs-comment">//当用户登出，我们删除存储的 token 并等待一个新的用户登录</span>
+        <span class="hljs-keyword">yield</span> take(LOGOUT);
+        Api.clearItem(<span class="hljs-string">'token'</span>);
+      }
+  }
+}
+
+<span class="hljs-comment">//首先我们创建了一个独立的 Generator login，它将执行真实的 API 调用并在成功后通知 Store。</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">login2</span>(<span class="hljs-params">username, password</span>) </span>{
+    <span class="hljs-keyword">try</span> {
+        <span class="hljs-comment">//如果 Api 调用成功了，login 将发起一个 LOGIN_SUCCESS action 然后返回获取到的 token。 如果调用导致了错误，将会发起一个 LOGIN_ERROR action。</span>
+        Api.storeItem(<span class="hljs-string">'loading'</span>,<span class="hljs-string">'true'</span>);
+        <span class="hljs-keyword">const</span> token = <span class="hljs-keyword">yield</span> call(Api.login, username, password);
+        <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: LOGIN_SUCCESS, token});
+        <span class="hljs-comment">//如果调用 login 成功，loginFlow 将在 DOM storage 中存储返回的 token，并等待 LOGOUT action   </span>
+        Api.storeItem(<span class="hljs-string">'token'</span>,token);
+        Api.storeItem(<span class="hljs-string">'loading'</span>,<span class="hljs-string">'false'</span>);
+    } <span class="hljs-keyword">catch</span>(error) {
+        <span class="hljs-comment">//在 login 失败的情况下，它将返回一个 undefined 值，这将导致 loginFlow 跳过当前处理进程并等待一个新的 LOGIN_REQUEST action</span>
+        <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: LOGIN_ERROR, error});
+        Api.storeItem(<span class="hljs-string">'loading'</span>,<span class="hljs-string">'false'</span>);
+    } <span class="hljs-keyword">finally</span> {
+        <span class="hljs-keyword">if</span> (<span class="hljs-keyword">yield</span> cancelled()) {
+          <span class="hljs-comment">// ... put special cancellation handling code here</span>
+          Api.storeItem(<span class="hljs-string">'loading'</span>,<span class="hljs-string">'false'</span>);
+        }
+      }
+  }
+
+  <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">loginFlow2</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//一旦到达流程最后一步（LOGOUT），通过等待一个新的 LOGIN_REQUEST action 来启动一个新的迭代</span>
+    <span class="hljs-keyword">while</span>(<span class="hljs-literal">true</span>) {
+        <span class="hljs-comment">//loginFlow 首先等待一个 LOGIN_REQUEST action,然后调用一个 call 到 login 任务</span>
+        <span class="hljs-comment">//call 不仅可以用来调用返回 Promise 的函数。我们也可以用它来调用其他 Generator 函数</span>
+        <span class="hljs-comment">//loginFlow 将等待 login 直到它终止或返回（即执行 api 调用后，发起 action 然后返回 token 至 loginFlow）</span>
+        <span class="hljs-keyword">const</span> {username, password} = <span class="hljs-keyword">yield</span> take(LOGIN_REQUEST);
+        <span class="hljs-comment">//自从 login 的 action 在后台启动之后，我们获取不到 token 的结果,所以我们需要将 token 存储操作移到 login 任务内部</span>
+        <span class="hljs-comment">//yield fork 的返回结果是一个 Task Object</span>
+        <span class="hljs-keyword">const</span> task = <span class="hljs-keyword">yield</span> fork(login2, username, password);
+        <span class="hljs-comment">//yield take(['LOGOUT', 'LOGIN_ERROR'])。意思是监听 2 个并发的 action</span>
+        <span class="hljs-comment">//如果 login 任务在用户登出之前成功了，它将会发起一个 LOGIN_SUCCESS action 然后结束。 然后 loginFlow Saga 只会等待一个未来的 LOGOUT action 被发起</span>
+        <span class="hljs-comment">//如果 login 在用户登出之前失败了，它将会发起一个 LOGIN_ERROR action 然后结束</span>
+        <span class="hljs-comment">//如果在 login 结束之前，用户就登出了，那么 loginFlow 将收到一个 LOGOUT action 并且也会等待下一个 LOGIN_REQUEST</span>
+        <span class="hljs-keyword">const</span> action = <span class="hljs-keyword">yield</span> take([LOGOUT,LOGIN_ERROR]);
+        <span class="hljs-comment">//将task 传入给 cancel Effect。 如果任务仍在运行，它会被中止,如果任务已完成，那什么也不会发生</span>
+        <span class="hljs-keyword">if</span>(action.type == LOGOUT){
+            <span class="hljs-keyword">yield</span> cancel(task);
+        }
+        Api.clearItem(<span class="hljs-string">'token'</span>);
+    }
+}
+</code></pre>
+<h2 id="t5014. race">14. race <a href="#t5014. race"> # </a></h2>
+<ul>
+<li>有时候我们同时启动多个任务，但又不想等待所有任务完成，我们只希望拿到 胜利者：即第一个被 resolve（或 reject）的任务</li>
+<li>race 的另一个有用的功能是，它会自动取消那些失败的 Effects</li>
+</ul>
+<h3 id="t5114.1 src/index.js">14.1 src/index.js <a href="#t5114.1 src/index.js"> # </a></h3>
+<p>src/index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+<span class="hljs-keyword">import</span> Login <span class="hljs-keyword">from</span> <span class="hljs-string">'./components/Login'</span>;
+<span class="hljs-keyword">import</span> Recorder <span class="hljs-keyword">from</span> <span class="hljs-string">'./components/Recorder'</span>;
+<span class="hljs-keyword">import</span> {Provider} <span class="hljs-keyword">from</span> <span class="hljs-string">'react-redux'</span>;
+<span class="hljs-keyword">import</span> store <span class="hljs-keyword">from</span> <span class="hljs-string">'./store'</span>;
+ReactDOM.render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Provider</span> <span class="hljs-attr">store</span>=<span class="hljs-string">{store}</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">Recorder</span>/&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">Provider</span>&gt;</span></span>,<span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#root'</span>));
+</code></pre>
+<h3 id="t5214.2 store/action-types.js">14.2 store/action-types.js <a href="#t5214.2 store/action-types.js"> # </a></h3>
+<p>src/store/action-types.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> CANCEL_TASK=<span class="hljs-string">'CANCEL_TASK'</span>;
+</code></pre>
+<h3 id="t5314.3 store/actions.js">14.3 store/actions.js <a href="#t5314.3 store/actions.js"> # </a></h3>
+<p>src/store/actions.js</p>
+<pre><code class="lang-js">stop(){
+        <span class="hljs-keyword">return</span> {<span class="hljs-attr">type</span>:types.CANCEL_TASK}
+}
+</code></pre>
+<h3 id="t5414.4 store/sagas.js">14.4 store/sagas.js <a href="#t5414.4 store/sagas.js"> # </a></h3>
+<p>src/store/sagas.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> {all,put, takeEvery,call,takeLatest,race,cps,apply,select,take,fork,cancel,cancelled } <span class="hljs-keyword">from</span> <span class="hljs-string">'redux-saga/effects'</span>
+<span class="hljs-keyword">import</span> {delay,delay2,read} <span class="hljs-keyword">from</span> <span class="hljs-string">'../utils'</span>;
+<span class="hljs-keyword">import</span> {INCREMENT_ASYNC,INCREMENT,LOGIN_ERROR,LOGIN_SUCCESS,CANCEL_TASK,LOGOUT,LOGIN_REQUEST,SET_USERNAME} <span class="hljs-keyword">from</span> <span class="hljs-string">'./action-types'</span>;
+<span class="hljs-keyword">import</span> Api <span class="hljs-keyword">from</span> <span class="hljs-string">'../Api'</span>
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">readAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">let</span> content = <span class="hljs-keyword">yield</span> cps(read,<span class="hljs-string">'1.txt'</span>);
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'content='</span>,content);
+}
+<span class="hljs-comment">//worker Saga: 将执行异步的 increment 任务</span>
+<span class="hljs-comment">//incrementAsync Saga 通过 delay(1000) 延迟了 1 秒钟，然后 dispatch 一个叫 INCREMENT 的 action。</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">incrementAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//工具函数 delay，这个函数返回一个延迟 1 秒再 resolve 的 Promise 我们将使用这个函数去 block(阻塞) Generator</span>
+    <span class="hljs-comment">//Sagas 被实现为 Generator functions，它会 yield 对象到 redux-saga middleware。 被 yield 的对象都是一类指令，指令可被 middleware 解释执行。当 middleware 取得一个 yield 后的 Promise，middleware 会暂停 Saga，直到 Promise 完成</span>
+    <span class="hljs-comment">//incrementAsync 这个 Saga 会暂停直到 delay 返回的 Promise 被 resolve，这个 Promise 将在 1 秒后 resolve</span>
+    <span class="hljs-comment">//put 还是 call 都不执行任何 dispatch 或异步调用，它们只是简单地返回 plain Javascript 对象</span>
+    <span class="hljs-comment">//yield call(delay,3000);</span>
+    <span class="hljs-comment">//yield call([null,delay],3000);</span>
+    <span class="hljs-comment">//yield apply(null,delay,3000);</span>
+    <span class="hljs-comment">//yield delay(3000);</span>
+    <span class="hljs-comment">//一旦 Promise 被 resolve，middleware 会恢复 Saga 接着执行，直到遇到下一个 yield</span>
+    <span class="hljs-comment">//在这里下一个语句是另一个被 yield 的对象：调用 put({type: 'INCREMENT'}) 的结果，意思是告诉 middleware 发起一个 INCREMENT 的 action</span>
+    <span class="hljs-comment">//put 就是我们称作 Effect 的一个例子。Effects 是一些简单 Javascript 对象，包含了要被 middleware 执行的指令</span>
+    <span class="hljs-comment">//当 middleware 拿到一个被 Saga yield 的 Effect，它会暂停 Saga，直到 Effect 执行完成，然后 Saga 会再次被恢复</span>
+    <span class="hljs-comment">//yield put({ type: 'INCREMENT' });</span>
+    <span class="hljs-comment">//----------------------</span>
+    <span class="hljs-comment">/* try{
+        yield call(delay,3000);
+        yield put({ type:'INCREMENT'});
+        alert('操作成功');
+    }catch(error){
+        alert('操作失败');
+    } */</span>
+    <span class="hljs-comment">/* let {code,data} = yield call(delay2,1000);
+    if(code == 0){
+        yield put({ type:INCREMENT_ASYNC});
+        alert('操作成功');
+    }else{
+        alert('操作失败');
+    } */</span>
+    <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: INCREMENT });
+
+}
+<span class="hljs-comment">//takeEvery，用于监听所有的 INCREMENT_ASYNC action，并在 action 被匹配时执行 incrementAsync 任务</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">watchIncrementAsync</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//yield takeEvery('INCREMENT_ASYNC', incrementAsync);</span>
+    <span class="hljs-comment">//只想得到最新那个请求的响应,如果已经有一个任务在执行的时候启动另一个 fetchData ，那之前的这个任务会被自动取消</span>
+    <span class="hljs-keyword">yield</span> takeLatest(INCREMENT_ASYNC, incrementAsync);
+    <span class="hljs-comment">//take 就像我们更早之前看到的 call 和 put。它创建另一个命令对象，告诉 middleware 等待一个特定的 action</span>
+    <span class="hljs-comment">//在 take 的情况中，它将会暂停 Generator 直到一个匹配的 action 被发起了</span>
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">watchIncrementAsync2</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">3</span>; i++) {
+        <span class="hljs-keyword">const</span> action = <span class="hljs-keyword">yield</span> take(INCREMENT_ASYNC);
+        <span class="hljs-built_in">console</span>.log(action);
+        <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:INCREMENT});
+    }
+    alert(<span class="hljs-string">'最多只能点三次!'</span>);
+}
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">watchAndLog</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//take 就像我们更早之前看到的 call 和 put。它创建另一个命令对象，告诉 middleware 等待一个特定的 action</span>
+    <span class="hljs-comment">//在 take 的情况中，它将会暂停 Generator 直到一个匹配的 action 被发起了</span>
+    <span class="hljs-comment">//在 takeEvery 的情况中，被调用的任务无法控制何时被调用， 它们将在每次 action 被匹配时一遍又一遍地被调用。并且它们也无法控制何时停止监听</span>
+    <span class="hljs-comment">//在 take 的情况中，控制恰恰相反。与 action 被 推向（pushed） 任务处理函数不同，Saga 是自己主动 拉取（pulling） action 的。 看起来就像是 Saga 在执行一个普通的函数调用 action = getNextAction()，这个函数将在 action 被发起时 resolve</span>
+    <span class="hljs-keyword">while</span>(<span class="hljs-literal">true</span>){
+        <span class="hljs-keyword">let</span> action = <span class="hljs-keyword">yield</span> take(<span class="hljs-string">'*'</span>);
+        <span class="hljs-keyword">const</span> state = <span class="hljs-keyword">yield</span> select();
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'action'</span>, action);
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'state after'</span>, state);
+    }
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">helloSaga</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Hello Saga!'</span>);
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">rootSaga</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//这个 Saga yield 了一个数组，值是调用 helloSaga 和 watchIncrementAsync 两个 Saga 的结果。意思是说这两个 Generators 将会同时启动</span>
+    <span class="hljs-keyword">yield</span> all([
+      <span class="hljs-comment">/* helloSaga(),
+      watchIncrementAsync2(),
+      watchAndLog() */</span>
+      <span class="hljs-comment">//loginFlow2(),</span>
+      <span class="hljs-comment">//raceFlow(),</span>
+      recorder()
+    ])
+  }
+<span class="hljs-comment">//首先我们创建了一个独立的 Generator login，它将执行真实的 API 调用并在成功后通知 Store。</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">login</span>(<span class="hljs-params">username, password</span>) </span>{
+  <span class="hljs-keyword">try</span> {
+      <span class="hljs-comment">//如果 Api 调用成功了，login 将发起一个 LOGIN_SUCCESS action 然后返回获取到的 token。 如果调用导致了错误，将会发起一个 LOGIN_ERROR action。</span>
+      <span class="hljs-keyword">const</span> token = <span class="hljs-keyword">yield</span> call(Api.login, username, password);
+      <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: LOGIN_SUCCESS, token});
+      <span class="hljs-keyword">return</span> token;
+  } <span class="hljs-keyword">catch</span>(error) {
+      <span class="hljs-comment">//在 login 失败的情况下，它将返回一个 undefined 值，这将导致 loginFlow 跳过当前处理进程并等待一个新的 LOGIN_REQUEST action</span>
+      <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: LOGIN_ERROR, error});
+  }
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">loginFlow</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-comment">//一旦到达流程最后一步（LOGOUT），通过等待一个新的 LOGIN_REQUEST action 来启动一个新的迭代</span>
+  <span class="hljs-keyword">while</span>(<span class="hljs-literal">true</span>) {
+      <span class="hljs-comment">//loginFlow 首先等待一个 LOGIN_REQUEST action,然后调用一个 call 到 login 任务</span>
+      <span class="hljs-comment">//call 不仅可以用来调用返回 Promise 的函数。我们也可以用它来调用其他 Generator 函数</span>
+      <span class="hljs-comment">//loginFlow 将等待 login 直到它终止或返回（即执行 api 调用后，发起 action 然后返回 token 至 loginFlow）</span>
+      <span class="hljs-keyword">const</span> {username, password} = <span class="hljs-keyword">yield</span> take(LOGIN_REQUEST);
+      <span class="hljs-keyword">const</span> token = <span class="hljs-keyword">yield</span> call(login, username, password);
+      <span class="hljs-comment">//在 authorize 失败的情况下，它将返回一个 undefined 值，这将导致 loginFlow 跳过当前处理进程并等待一个新的 LOGIN_REQUEST action</span>
+      <span class="hljs-keyword">if</span>(token) {
+        <span class="hljs-comment">//如果调用 login 成功，loginFlow 将在 DOM storage 中存储返回的 token，并等待 LOGOUT action   </span>
+        Api.storeItem(<span class="hljs-string">'token'</span>,token);
+        <span class="hljs-comment">//当用户登出，我们删除存储的 token 并等待一个新的用户登录</span>
+        <span class="hljs-keyword">yield</span> take(LOGOUT);
+        Api.clearItem(<span class="hljs-string">'token'</span>);
+      }
+  }
+}
+
+<span class="hljs-comment">//首先我们创建了一个独立的 Generator login，它将执行真实的 API 调用并在成功后通知 Store。</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">login2</span>(<span class="hljs-params">username, password</span>) </span>{
+    <span class="hljs-keyword">try</span> {
+        <span class="hljs-comment">//如果 Api 调用成功了，login 将发起一个 LOGIN_SUCCESS action 然后返回获取到的 token。 如果调用导致了错误，将会发起一个 LOGIN_ERROR action。</span>
+        Api.storeItem(<span class="hljs-string">'loading'</span>,<span class="hljs-string">'true'</span>);
+        <span class="hljs-keyword">const</span> token = <span class="hljs-keyword">yield</span> call(Api.login, username, password);
+        <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: LOGIN_SUCCESS, token});
+        <span class="hljs-comment">//如果调用 login 成功，loginFlow 将在 DOM storage 中存储返回的 token，并等待 LOGOUT action   </span>
+        Api.storeItem(<span class="hljs-string">'token'</span>,token);
+        Api.storeItem(<span class="hljs-string">'loading'</span>,<span class="hljs-string">'false'</span>);
+    } <span class="hljs-keyword">catch</span>(error) {
+        <span class="hljs-comment">//在 login 失败的情况下，它将返回一个 undefined 值，这将导致 loginFlow 跳过当前处理进程并等待一个新的 LOGIN_REQUEST action</span>
+        <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>: LOGIN_ERROR, error});
+        Api.storeItem(<span class="hljs-string">'loading'</span>,<span class="hljs-string">'false'</span>);
+    } <span class="hljs-keyword">finally</span> {
+        <span class="hljs-keyword">if</span> (<span class="hljs-keyword">yield</span> cancelled()) {
+          <span class="hljs-comment">// ... put special cancellation handling code here</span>
+          Api.storeItem(<span class="hljs-string">'loading'</span>,<span class="hljs-string">'false'</span>);
+        }
+      }
+  }
+
+  <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">loginFlow2</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">//一旦到达流程最后一步（LOGOUT），通过等待一个新的 LOGIN_REQUEST action 来启动一个新的迭代</span>
+    <span class="hljs-keyword">while</span>(<span class="hljs-literal">true</span>) {
+        <span class="hljs-comment">//loginFlow 首先等待一个 LOGIN_REQUEST action,然后调用一个 call 到 login 任务</span>
+        <span class="hljs-comment">//call 不仅可以用来调用返回 Promise 的函数。我们也可以用它来调用其他 Generator 函数</span>
+        <span class="hljs-comment">//loginFlow 将等待 login 直到它终止或返回（即执行 api 调用后，发起 action 然后返回 token 至 loginFlow）</span>
+        <span class="hljs-keyword">const</span> {username, password} = <span class="hljs-keyword">yield</span> take(LOGIN_REQUEST);
+        <span class="hljs-comment">//自从 login 的 action 在后台启动之后，我们获取不到 token 的结果,所以我们需要将 token 存储操作移到 login 任务内部</span>
+        <span class="hljs-comment">//yield fork 的返回结果是一个 Task Object</span>
+        <span class="hljs-keyword">const</span> task = <span class="hljs-keyword">yield</span> fork(login2, username, password);
+        <span class="hljs-comment">//yield take(['LOGOUT', 'LOGIN_ERROR'])。意思是监听 2 个并发的 action</span>
+        <span class="hljs-comment">//如果 login 任务在用户登出之前成功了，它将会发起一个 LOGIN_SUCCESS action 然后结束。 然后 loginFlow Saga 只会等待一个未来的 LOGOUT action 被发起</span>
+        <span class="hljs-comment">//如果 login 在用户登出之前失败了，它将会发起一个 LOGIN_ERROR action 然后结束</span>
+        <span class="hljs-comment">//如果在 login 结束之前，用户就登出了，那么 loginFlow 将收到一个 LOGOUT action 并且也会等待下一个 LOGIN_REQUEST</span>
+        <span class="hljs-keyword">const</span> action = <span class="hljs-keyword">yield</span> take([LOGOUT,LOGIN_ERROR]);
+        <span class="hljs-comment">//将task 传入给 cancel Effect。 如果任务仍在运行，它会被中止,如果任务已完成，那什么也不会发生</span>
+        <span class="hljs-keyword">if</span>(action.type == LOGOUT){
+            <span class="hljs-keyword">yield</span> cancel(task);
+        }
+        Api.clearItem(<span class="hljs-string">'token'</span>);
+    }
+  }
+
+<span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">raceFlow</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">const</span> {a, b} = <span class="hljs-keyword">yield</span> race({
+        <span class="hljs-attr">a</span>: call(delay, <span class="hljs-number">1000</span>),
+        <span class="hljs-attr">b</span>: call(delay, <span class="hljs-number">2000</span>)
+    });
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'a='</span>+a,<span class="hljs-string">'b='</span>+b);
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">start</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">while</span>(<span class="hljs-literal">true</span>){
+        <span class="hljs-keyword">yield</span> call(delay,<span class="hljs-number">1000</span>);
+        <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:INCREMENT});
+    }
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">recorder</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">yield</span> race({
+        <span class="hljs-attr">start</span>: call(start),
+        <span class="hljs-attr">stop</span>: take(CANCEL_TASK)
+    });
+}
+</code></pre>
+<h3 id="t5514.5 components/Recorder.js">14.5 components/Recorder.js <a href="#t5514.5 components/Recorder.js"> # </a></h3>
+<p>src/components/Recorder.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>
+<span class="hljs-keyword">import</span> {connect} <span class="hljs-keyword">from</span> <span class="hljs-string">'react-redux'</span>;
+<span class="hljs-keyword">import</span> actions <span class="hljs-keyword">from</span> <span class="hljs-string">'../store/actions'</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Counter</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>{this.props.number}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.props.stop}</span>&gt;</span>停止<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+      )
+  }
+}
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> connect(
+    <span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> state,
+    actions
+)(Counter);
+</code></pre>
+<h2 id="t56参考">参考 <a href="#t56参考"> # </a></h2>
+<ul>
+<li><a href="https://gitee.com/zhufengpeixun/zhufeng-saga-start">zhufeng-saga-start</a></li>
+</ul>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

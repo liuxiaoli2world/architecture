@@ -1,0 +1,635 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li class="active"><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. 手工测试">1. 手工测试</a></li><li><a href="#t12. assert断言">2. assert断言</a></li><li><a href="#t23. 测试框架">3. 测试框架</a></li><li><a href="#t34.开发模式">4.开发模式</a><ul><li><a href="#t44.1 瀑布模式">4.1 瀑布模式</a></li><li><a href="#t54.2 TDD">4.2 TDD</a></li><li><a href="#t64.3 TDD">4.3 TDD</a></li></ul></li><li><a href="#t75. 常用测试框架">5. 常用测试框架</a></li><li><a href="#t86. Jest">6. Jest</a><ul><li><a href="#t96.1 安装">6.1 安装</a></li><li><a href="#t106.2 编写">6.2 编写</a></li><li><a href="#t116.3 运行">6.3 运行</a></li><li><a href="#t126.4 编写测试用例">6.4 编写测试用例</a></li><li><a href="#t136.5 配置">6.5 配置</a><ul><li><a href="#t146.5.1 配置位置">6.5.1 配置位置</a></li><li><a href="#t156.5.2 配置项">6.5.2 配置项</a></li><li><a href="#t166.5.3 Matchers">6.5.3 Matchers</a></li></ul></li><li><a href="#t176.6 DOM测试">6.6 DOM测试</a></li><li><a href="#t186.7 测试选项卡">6.7 测试选项卡</a></li><li><a href="#t196.8 异步测试">6.8 异步测试</a><ul><li><a href="#t206.8.1 普通异步">6.8.1 普通异步</a></li><li><a href="#t216.8.2 ajax异步">6.8.2 ajax异步</a></li><li><a href="#t226.9 代码覆盖率">6.9 代码覆盖率</a></li></ul></li></ul></li><li><a href="#t237.附录">7.附录</a><ul><li><a href="#t247.1 glob">7.1 glob</a><ul><li><a href="#t257.2 glob规则">7.2 glob规则</a></li><li><a href="#t267.3 glob示例">7.3 glob示例</a></li></ul></li></ul></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. 手工测试">1. 手工测试 <a href="#t01. 手工测试"> # </a></h2>
+<p>qs.js</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">parse</span>(<span class="hljs-params">str</span>) </span>{
+    <span class="hljs-keyword">let</span> arr = str.split(<span class="hljs-string">'&amp;'</span>);
+    <span class="hljs-keyword">let</span> obj = {};
+    arr.forEach(<span class="hljs-function">(<span class="hljs-params">item</span>) =&gt;</span> {
+        <span class="hljs-keyword">let</span> [key, val] = item.split(<span class="hljs-string">'='</span>);
+        obj[key] = val;
+    });
+    <span class="hljs-keyword">return</span> obj;
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">stringify</span>(<span class="hljs-params">obj</span>) </span>{
+    <span class="hljs-keyword">let</span> arr = [];
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> key <span class="hljs-keyword">in</span> obj) {
+        arr.push(key + <span class="hljs-string">'='</span> + obj[key]);
+    }
+    <span class="hljs-keyword">return</span> arr.join(<span class="hljs-string">'&amp;'</span>);
+}
+exports.parse = parse;
+exports.stringify = stringify;
+</code></pre>
+<h2 id="t12. assert断言">2. assert断言 <a href="#t12. assert断言"> # </a></h2>
+<ul>
+<li>断言是表达设计人员对于系统应达到状态的一种预期</li>
+<li>各种语言都内置了断言的接口</li>
+<li>断言是单元测试的核心</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">问题</th>
+<th style="text-align:left">解决方案</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">污染 源代码里混杂了很多测试代码</td>
+<td style="text-align:left">从源代码中抽离出去</td>
+</tr>
+<tr>
+<td style="text-align:left">零散 杂乱无章，不能分组和分类</td>
+<td style="text-align:left">整体规划 和设计</td>
+</tr>
+<tr>
+<td style="text-align:left">没有持久化 没有存储</td>
+<td style="text-align:left">把测试文件单独存放</td>
+</tr>
+<tr>
+<td style="text-align:left">手动跑测试比较麻烦</td>
+<td style="text-align:left">自动运行并显示结果</td>
+</tr>
+</tbody>
+</table>
+<h2 id="t23. 测试框架">3. 测试框架 <a href="#t23. 测试框架"> # </a></h2>
+<ul>
+<li>通过测试框架，我们可以分离测试代码和源代码</li>
+<li>测试框架可以自动运行所有的用例并输出结果</li>
+<li>测试框架可能提高编写测试代码的效率</li>
+</ul>
+<h2 id="t34.开发模式">4.开发模式 <a href="#t34.开发模式"> # </a></h2>
+<h3 id="t44.1 瀑布模式">4.1 瀑布模式 <a href="#t44.1 瀑布模式"> # </a></h3>
+<ol>
+<li>分析需求</li>
+<li>调试开发</li>
+<li>测试发布</li>
+</ol>
+<h3 id="t54.2 TDD">4.2 TDD <a href="#t54.2 TDD"> # </a></h3>
+<p><code>Test-Driven-Development</code> 测试驱动开发，</p>
+<ol>
+<li>分析需求</li>
+<li>任务、模块分解</li>
+<li>编写测试用例,尽量穷尽和考虑所有边界</li>
+<li>快速构建代码跑通测试用例</li>
+<li>重构代码</li>
+<li>功能测试、发布</li>
+</ol>
+<h3 id="t64.3 TDD">4.3 TDD <a href="#t64.3 TDD"> # </a></h3>
+<ul>
+<li>在TDD理念中，先有测试代码再有功能逻辑代码</li>
+<li>包括测试用例和断言</li>
+<li>分为模块测试和单元测试</li>
+<li>有其使用场景，不能滥用</li>
+<li>在实际开发中一般会使用测试框架</li>
+</ul>
+<h2 id="t75. 常用测试框架">5. 常用测试框架 <a href="#t75. 常用测试框架"> # </a></h2>
+<ul>
+<li><a href="https://github.com/qunitjs/qunit">qunit</a> jQuery</li>
+<li><a href="https://github.com/mochajs/mocha">mocha</a> 支持Node&amp;Browser express.js</li>
+<li><a href="https://github.com/jasmine/jasmine">jasmine</a>支持Node&amp;Browser Vue.js</li>
+<li><a href="https://github.com/karma-runner/karma">karma</a> A Test-Runner 在不同的浏览器中跑测试用例 Angular </li>
+<li><a href="https://github.com/facebook/jest">jest</a> React<ul>
+<li>零配置</li>
+<li>内置代码覆盖率</li>
+<li>内置Mocks</li>
+</ul>
+</li>
+</ul>
+<h2 id="t86. Jest">6. Jest <a href="#t86. Jest"> # </a></h2>
+<p><a href="https://facebook.github.io/jest/docs/en/expect.html">Jest官方文档</a></p>
+<h3 id="t96.1 安装">6.1 安装 <a href="#t96.1 安装"> # </a></h3>
+<pre><code class="lang-js">cnpm i jest --save-dev 
+cnpm i jest -g 
+</code></pre>
+<h3 id="t106.2 编写">6.2 编写 <a href="#t106.2 编写"> # </a></h3>
+<p>**test.js</p>
+<h3 id="t116.3 运行">6.3 运行 <a href="#t116.3 运行"> # </a></h3>
+<pre><code class="lang-js">jest npm jest 
+npm test
+</code></pre>
+<h3 id="t126.4 编写测试用例">6.4 编写测试用例 <a href="#t126.4 编写测试用例"> # </a></h3>
+<ul>
+<li>Test Suits 测试套件，每个文件就是一个套件</li>
+<li>Test Group 分组 describe</li>
+<li>Test Case 测试用途 test()</li>
+<li>Assert 断言 expect()</li>
+</ul>
+<p>qs.test.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> { parse, stringify } = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./qs'</span>);
+describe(<span class="hljs-string">'parse'</span>, () =&gt; {<span class="hljs-comment">//分组</span>
+    test(<span class="hljs-string">'one'</span>, () =&gt; {<span class="hljs-comment">//测试用例</span>
+        expect(parse(<span class="hljs-string">"name=zfpx"</span>).name).toBe(<span class="hljs-string">'zfpx'</span>);
+    });
+    test(<span class="hljs-string">'two'</span>, () =&gt; {
+        expect(parse(<span class="hljs-string">"name=zfpx&amp;age=9"</span>).age).toBe(<span class="hljs-string">'9'</span>);
+    });
+});
+
+
+describe(<span class="hljs-string">'stringify'</span>, () =&gt; {
+    test(<span class="hljs-string">'one'</span>, () =&gt; {
+        expect(stringify({ <span class="hljs-attr">name</span>: <span class="hljs-string">'zfpx'</span> })).toBe(<span class="hljs-string">'name=zfpx'</span>);
+    });
+    test(<span class="hljs-string">'two'</span>, () =&gt; {
+        expect(stringify({ <span class="hljs-attr">name</span>: <span class="hljs-string">'zfpx'</span>, <span class="hljs-attr">age</span>: <span class="hljs-number">9</span> })).toBe(<span class="hljs-string">'name=zfpx&amp;age=9'</span>);
+    });
+});
+
+</code></pre>
+<h3 id="t136.5 配置">6.5 配置 <a href="#t136.5 配置"> # </a></h3>
+<h4 id="t146.5.1 配置位置">6.5.1 配置位置 <a href="#t146.5.1 配置位置"> # </a></h4>
+<ul>
+<li>package.json</li>
+<li>jest.config.js</li>
+<li>命令行</li>
+</ul>
+<h4 id="t156.5.2 配置项">6.5.2 配置项 <a href="#t156.5.2 配置项"> # </a></h4>
+<ul>
+<li>testMatch glob规则,识别哪些文件中测试文件</li>
+<li>testRegex 文件正则</li>
+<li>testEnvironment 测试环境 </li>
+<li>rootDir 根目录 </li>
+<li>moduleFileExtensions 模块文件扩展名</li>
+</ul>
+<pre><code class="lang-js"><span class="hljs-built_in">module</span>.exports = {
+    <span class="hljs-attr">testMatch</span>: [<span class="hljs-string">'**/__tests__/**/*.js?(x)'</span>, <span class="hljs-string">'**/?(*.)(spec|test).js?(x)'</span>],<span class="hljs-comment">//设置识别哪些文件是测试文件（glob形式），与testRegex互斥，不能同时写</span>
+    testRegex: <span class="hljs-string">'(/__tests__).*|(\\.|/)(test|spec))\\.jsx?$'</span>,<span class="hljs-comment">//设置识别哪些文件是测试文件（正则形式），与testMatch互斥，不能同时写</span>
+    testEnvironment: <span class="hljs-string">'jsdom'</span>,<span class="hljs-comment">//测试环境，默认值是：jsdom，可修改为node</span>
+    rootDir: <span class="hljs-string">''</span>,<span class="hljs-comment">//默认值：当前目录，一般是package.json所在的目录。</span>
+    moduleFileExtensions: [<span class="hljs-string">'js'</span>, <span class="hljs-string">'json'</span>, <span class="hljs-string">'jsx'</span>, <span class="hljs-string">'node'</span>]<span class="hljs-comment">//测试文件的类型</span>
+}
+</code></pre>
+<h4 id="t166.5.3 Matchers">6.5.3 Matchers <a href="#t166.5.3 Matchers"> # </a></h4>
+<ul>
+<li>相等断言<ul>
+<li>toBe(value)： 比较数字、字符串</li>
+<li>toEqual(value)： 比较对象、数组</li>
+<li>toBeNull()</li>
+<li>toBeUndefined()</li>
+</ul>
+</li>
+<li>包含断言<ul>
+<li>toHaveProperty(keyPath, value)： 是否有对应的属性</li>
+<li>toContain(item)： 是否包含对应的值，括号里写上数组、字符串</li>
+<li>toMatch(regexpOrString)： 括号里写上正则</li>
+</ul>
+</li>
+<li>逻辑断言,在JavaScript中，有六个falsy值：false，0，''，null， undefined，和NaN。其他一切都是Truthy。<ul>
+<li>toBeTruthy() </li>
+<li>toBeFalsy()</li>
+<li>oBeGreaterThan(number)： 大于</li>
+<li>toBeLessThan(number)： 小于</li>
+</ul>
+</li>
+<li>not 取反</li>
+</ul>
+<pre><code class="lang-js">test(<span class="hljs-string">'matchers'</span>, () =&gt; {
+    <span class="hljs-keyword">const</span> a = {
+        <span class="hljs-attr">name</span>: <span class="hljs-string">'a'</span>,
+        <span class="hljs-attr">home</span>: {
+            <span class="hljs-attr">name</span>: <span class="hljs-string">'beijing'</span>
+        }
+    }
+    <span class="hljs-keyword">const</span> b = {
+        <span class="hljs-attr">name</span>: <span class="hljs-string">'a'</span>,
+        <span class="hljs-attr">home</span>: {
+            <span class="hljs-attr">name</span>: <span class="hljs-string">'beijing'</span>
+        }
+    }
+    expect(a).toEqual(b)
+    expect([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>]).toEqual([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>])
+    expect(<span class="hljs-literal">null</span>).toBeNull()
+
+    expect([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>]).toContain(<span class="hljs-number">1</span>)
+    expect(b).toHaveProperty(<span class="hljs-string">'home'</span>)
+    expect(<span class="hljs-string">'abc'</span>).toContain(<span class="hljs-string">'b'</span>)
+    expect(<span class="hljs-string">'abc'</span>).toMatch(<span class="hljs-regexp">/^\w+$/</span>)
+    expect(<span class="hljs-string">'123'</span>).not.toContain(<span class="hljs-string">'4'</span>)
+})
+</code></pre>
+<h3 id="t176.6 DOM测试">6.6 DOM测试 <a href="#t176.6 DOM测试"> # </a></h3>
+<ul>
+<li><a href="https://github.com/jsdom/jsdom">jsdom</a></li>
+<li>Jest能操作DOM是因为内置了JSDOM</li>
+<li>JSDOM是在node中模拟了DOM环境 </li>
+</ul>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">remove</span>(<span class="hljs-params">node</span>) </span>{
+    node.parentNode.removeChild(node);
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">on</span>(<span class="hljs-params">node, type, handler</span>) </span>{
+    node.addEventListener(type, handler);
+}
+exports.remove = remove;
+exports.on = on;
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> { remove, on } = <span class="hljs-built_in">require</span>(<span class="hljs-string">'../src/dom'</span>);
+describe(<span class="hljs-string">'dom'</span>, () =&gt; {
+    test(<span class="hljs-string">'remove'</span>, () =&gt; {
+        <span class="hljs-built_in">document</span>.body.innerHTML = <span class="hljs-string">'&lt;div id="container"&gt;&lt;span id="hello"&gt;hello&lt;/span&gt;&lt;/div&gt;'</span>;
+        <span class="hljs-keyword">let</span> container = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'container'</span>);
+        expect(container.nodeName.toLocaleLowerCase()).toBe(<span class="hljs-string">'div'</span>);
+        <span class="hljs-keyword">let</span> hello = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'hello'</span>);
+        expect(hello.nodeName.toLocaleLowerCase()).toBe(<span class="hljs-string">'span'</span>);
+        remove(hello);
+        <span class="hljs-keyword">let</span> hello2 = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'hello'</span>);
+        expect(hello2).toBeNull();
+    })
+
+    test(<span class="hljs-string">'on'</span>, () =&gt; {
+        <span class="hljs-built_in">document</span>.body.innerHTML = <span class="hljs-string">'&lt;div id="container"&gt;&lt;button id="clickMe"&gt;click&lt;/button&gt;&lt;/div&gt;'</span>;
+        <span class="hljs-keyword">let</span> clickMe = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'clickMe'</span>);
+        on(clickMe, <span class="hljs-string">'click'</span>, () =&gt; {
+            clickMe.innerHTML = <span class="hljs-string">'clicked'</span>;
+        });
+        clickMe.click();
+        expect(clickMe.innerHTML).toBe(<span class="hljs-string">'clicked'</span>);
+
+    })
+});
+</code></pre>
+<h3 id="t186.7 测试选项卡">6.7 测试选项卡 <a href="#t186.7 测试选项卡"> # </a></h3>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"tab"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"tab-button"</span>&gt;</span>选项1<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"tab-button"</span>&gt;</span>选项2<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"tab-panel"</span>&gt;</span>面板1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"tab-panel"</span>&gt;</span>面板2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Tab</span></span>{
+    <span class="hljs-keyword">constructor</span>(id,buttonClass,panelClass){
+        <span class="hljs-keyword">this</span>.tab = tab = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#'</span>+id);
+        <span class="hljs-keyword">this</span>.buttons = <span class="hljs-built_in">Array</span>.from(tab.querySelectorAll(<span class="hljs-string">'.'</span>+buttonClass));
+        <span class="hljs-keyword">this</span>.panels = <span class="hljs-built_in">Array</span>.from(tab.querySelectorAll(<span class="hljs-string">'.'</span>+panelClass));
+        <span class="hljs-keyword">this</span>.select(<span class="hljs-number">0</span>);
+        <span class="hljs-keyword">this</span>.bindEvent();
+    }
+    select(index){
+        <span class="hljs-keyword">this</span>.buttons.forEach(<span class="hljs-function"><span class="hljs-params">button</span>=&gt;</span>button.style.backgroundColor= <span class="hljs-string">'white'</span>);
+        <span class="hljs-keyword">this</span>.buttons[index].style.backgroundColor= <span class="hljs-string">'red'</span>;
+        <span class="hljs-keyword">this</span>.panels.forEach(<span class="hljs-function"><span class="hljs-params">panel</span>=&gt;</span>panel.style.display= <span class="hljs-string">'none'</span>);
+        <span class="hljs-keyword">this</span>.panels[index].style.display= <span class="hljs-string">'block'</span>;
+    }
+    bindEvent(){
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i=<span class="hljs-number">0</span>;i&lt;<span class="hljs-keyword">this</span>.buttons.length;i++){
+            <span class="hljs-keyword">this</span>.buttons[i].addEventListener(<span class="hljs-string">'click'</span>,()=&gt;{
+                <span class="hljs-keyword">this</span>.select(i);
+            });
+        }
+    }
+}
+<span class="hljs-built_in">module</span>.exports = Tab;
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Tab = <span class="hljs-built_in">require</span>(<span class="hljs-string">'../src/tab'</span>);
+<span class="hljs-keyword">const</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">'fs'</span>);
+<span class="hljs-keyword">const</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">'path'</span>);
+
+test(<span class="hljs-string">'tab'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-built_in">document</span>.body.innerHTML = fs.readFileSync(path.resolve(__dirname,<span class="hljs-string">'tab.html'</span>),<span class="hljs-string">'utf8'</span>);
+    <span class="hljs-keyword">const</span> tab = <span class="hljs-keyword">new</span> Tab(<span class="hljs-string">'tab'</span>,<span class="hljs-string">'tab-button'</span>,<span class="hljs-string">'tab-panel'</span>);
+    expect(tab.buttons[<span class="hljs-number">0</span>].style.backgroundColor).toBe(<span class="hljs-string">'red'</span>);
+    expect(tab.buttons[<span class="hljs-number">1</span>].style.backgroundColor).toBe(<span class="hljs-string">'white'</span>);
+    expect(tab.panels[<span class="hljs-number">0</span>].style.display).toBe(<span class="hljs-string">'block'</span>);
+    expect(tab.panels[<span class="hljs-number">1</span>].style.display).toBe(<span class="hljs-string">'none'</span>);
+    tab.buttons[<span class="hljs-number">1</span>].click();
+    expect(tab.buttons[<span class="hljs-number">0</span>].style.backgroundColor).toBe(<span class="hljs-string">'white'</span>);
+    expect(tab.buttons[<span class="hljs-number">1</span>].style.backgroundColor).toBe(<span class="hljs-string">'red'</span>);
+    expect(tab.panels[<span class="hljs-number">0</span>].style.display).toBe(<span class="hljs-string">'none'</span>);
+    expect(tab.panels[<span class="hljs-number">1</span>].style.display).toBe(<span class="hljs-string">'block'</span>);
+});
+</code></pre>
+<h3 id="t196.8 异步测试">6.8 异步测试 <a href="#t196.8 异步测试"> # </a></h3>
+<h4 id="t206.8.1 普通异步">6.8.1 普通异步 <a href="#t206.8.1 普通异步"> # </a></h4>
+<pre><code class="lang-js">test(<span class="hljs-string">'async'</span>,(done)=&gt;{
+    setTimeout(<span class="hljs-function"><span class="hljs-params">()</span>=&gt;</span>{
+        expect(<span class="hljs-number">2</span>).toBe(<span class="hljs-number">2</span>);
+        done();
+    },<span class="hljs-number">1000</span>);
+});
+</code></pre>
+<h4 id="t216.8.2 ajax异步">6.8.2 ajax异步 <a href="#t216.8.2 ajax异步"> # </a></h4>
+<ul>
+<li>Mocks可以擦除函数的实际实现来测试代码之间的链接</li>
+<li>Mocks可以捕获对函数的调用</li>
+<li>manual_mocks用可mock依赖的模块，放置在相应<strong>mocks</strong>目录下</li>
+<li>使用mock function可以查看函数的调用次数，以及参数</li>
+</ul>
+<p>__tests__\users.js</p>
+<pre><code class="lang-js">jest.mock(<span class="hljs-string">'../js/ajax'</span>);
+<span class="hljs-keyword">const</span> getUsers = <span class="hljs-built_in">require</span>(<span class="hljs-string">'../js/getUsers'</span>);
+test(<span class="hljs-string">'getUsers'</span>,(done)=&gt;{
+    <span class="hljs-built_in">document</span>.body.innerHTML = <span class="hljs-string">`&lt;ul id="users"&gt;&lt;/ul&gt;`</span>;
+    getUsers(<span class="hljs-string">'/users.json'</span>,<span class="hljs-string">'users'</span>,()=&gt;{
+        <span class="hljs-keyword">const</span> ul = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#users'</span>);
+        <span class="hljs-keyword">const</span> lis = ul.querySelectorAll(<span class="hljs-string">'li'</span>);
+        expect(lis.length).toBe(<span class="hljs-number">2</span>);
+        expect(lis[<span class="hljs-number">1</span>].innerHTML).toBe(<span class="hljs-string">'zfpx2'</span>);
+        done();
+    });
+});
+</code></pre>
+<p>\js\getUsers.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> ajax = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./ajax'</span>);
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getUsers</span>(<span class="hljs-params">url,id,callback</span>)</span>{
+ <span class="hljs-keyword">const</span> users = <span class="hljs-built_in">document</span>.getElementById(id);
+ ajax(url,data=&gt;{
+     <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'ajax ok'</span>);
+     data = <span class="hljs-built_in">JSON</span>.parse(data);
+     users.innerHTML = data.map(<span class="hljs-function"><span class="hljs-params">item</span>=&gt;</span><span class="hljs-string">`&lt;li&gt;<span class="hljs-subst">${item.name}</span>&lt;/li&gt;`</span>).join(<span class="hljs-string">''</span>);
+     callback&amp;&amp;callback();
+ });
+}
+
+<span class="hljs-built_in">module</span>.exports = getUsers;
+</code></pre>
+<p>\js\ajax.js</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">ajax</span>(<span class="hljs-params">url,success</span>)</span>{
+  <span class="hljs-keyword">const</span> xhr = <span class="hljs-keyword">new</span> XMLHttpRequest();
+  xhr.onreadystatechange = <span class="hljs-function"><span class="hljs-params">()</span>=&gt;</span>{
+      <span class="hljs-keyword">if</span>(xhr.readyState == <span class="hljs-number">4</span>){
+          success&amp;success(xhr.responseText);
+      }
+  }
+  xhr.open(<span class="hljs-string">'get'</span>,url);
+  xhr.send(<span class="hljs-literal">null</span>);
+}
+<span class="hljs-built_in">module</span>.exports = ajax;
+</code></pre>
+<p>js__mocks__\ajax.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">'fs'</span>);
+<span class="hljs-keyword">const</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">'path'</span>);
+<span class="hljs-keyword">const</span> ajax = <span class="hljs-function">(<span class="hljs-params">url,success</span>)=&gt;</span>{
+   setTimeout(<span class="hljs-function"><span class="hljs-params">()</span>=&gt;</span>{
+       success(<span class="hljs-built_in">JSON</span>.stringify([{<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx1'</span>},{<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx2'</span>}]));
+   },<span class="hljs-number">1000</span>);
+}
+<span class="hljs-built_in">module</span>.exports = ajax;
+</code></pre>
+<pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"UTF-8"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"viewport"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"width=device-width, initial-scale=1.0"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">http-equiv</span>=<span class="hljs-string">"X-UA-Compatible"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"ie=edge"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Document<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"users"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+        <span class="hljs-keyword">let</span> <span class="hljs-built_in">module</span> = {};
+        <span class="hljs-keyword">let</span> <span class="hljs-built_in">require</span> = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> ajax;
+    </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/js/ajax.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/js/getUsers.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="actionscript">
+        getUsers(<span class="hljs-string">'http://localhost:3000/users.json'</span>, <span class="hljs-string">'users'</span>);
+    </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<p>users.html</p>
+<pre><code class="lang-js">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;ul id="users"&gt;&lt;/ul&gt;
+    &lt;script&gt;
+        let module = {};
+        let require = () =&gt; ajax;
+    &lt;/script&gt;
+    &lt;script src="/js/ajax.js"&gt;&lt;/script&gt;
+    &lt;script src="/js/getUsers.js"&gt;&lt;/script&gt;
+    &lt;script&gt;
+        getUsers('http://localhost:3000/users.json', 'users');
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>server.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>);
+<span class="hljs-keyword">const</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">'path'</span>);
+<span class="hljs-keyword">const</span> app = express();
+app.use(express.static(__dirname));
+app.get(<span class="hljs-string">'/'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res</span>)</span>{
+    res.sendFile(path.resolve(__dirname,<span class="hljs-string">'users.html'</span>));
+});
+
+app.get(<span class="hljs-string">'/users.json'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req,res</span>)</span>{
+  res.json([{<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx1'</span>},{<span class="hljs-attr">name</span>:<span class="hljs-string">'zfpx2'</span>}]);
+});
+app.listen(<span class="hljs-number">3000</span>);
+</code></pre>
+<h4 id="t226.9 代码覆盖率">6.9 代码覆盖率 <a href="#t226.9 代码覆盖率"> # </a></h4>
+<ul>
+<li>line coverage 行覆盖率</li>
+<li>function coverage 函数覆盖率</li>
+<li>branch coverage 分支覆盖率</li>
+<li>statement coverage 语句覆盖率</li>
+</ul>
+<pre><code class="lang-js">npx jest --coverage
+</code></pre>
+<h2 id="t237.附录">7.附录 <a href="#t237.附录"> # </a></h2>
+<h3 id="t247.1 glob">7.1 glob <a href="#t247.1 glob"> # </a></h3>
+<p>gulp内部使用了node-glob模块来实现其文件匹配功能。我们可以使用下面这些特殊的字符来匹配我们想要的文件：</p>
+<h4 id="t257.2 glob规则">7.2 glob规则 <a href="#t257.2 glob规则"> # </a></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">匹配符</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">星</td>
+<td style="text-align:left">匹配文件路径中的0个或多个字符，但不会匹配路径分隔符</td>
+</tr>
+<tr>
+<td style="text-align:left">**</td>
+<td style="text-align:left">匹配路径中的0个或多个目录及其子目录</td>
+</tr>
+<tr>
+<td style="text-align:left">[...]</td>
+<td style="text-align:left">匹配方括号中出现的字符中的任意一个，当方括号中第一个字符为^或!时，则表示不匹配方括号中出现的其他字符中的任意一个</td>
+</tr>
+<tr>
+<td style="text-align:left">!(pattern pattern pattern)</td>
+<td style="text-align:left">匹配任何与括号中给定的任一模式都不匹配的</td>
+</tr>
+<tr>
+<td style="text-align:left">?(pattern pattern pattern)</td>
+<td style="text-align:left">匹配括号中给定的任一模式0次或1次，类似于js正则中的?</td>
+</tr>
+<tr>
+<td style="text-align:left">+(pattern pattern pattern)</td>
+<td style="text-align:left">匹配括号中给定的任一模式至少1次，类似于js正则中的+</td>
+</tr>
+<tr>
+<td style="text-align:left">(pattern pattern pattern)</td>
+<td style="text-align:left">匹配括号中给定的任一模式0次或多次，类似于js正则中的 *</td>
+</tr>
+<tr>
+<td style="text-align:left">@(pattern pattern pattern)</td>
+<td style="text-align:left">匹配括号中给定的任一模式1次，类似于js正则中的</td>
+</tr>
+</tbody>
+</table>
+<h4 id="t267.3 glob示例">7.3 glob示例 <a href="#t267.3 glob示例"> # </a></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">glob</th>
+<th style="text-align:left">匹配</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">*</td>
+<td style="text-align:left">能匹配 a.js,x.y,abc,abc/,但不能匹配a/b.js</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"><em>.</em></td>
+<td style="text-align:left">a.js,style.css,a.b,x.y</td>
+</tr>
+<tr>
+<td style="text-align:left"><em>/</em>/*.js</td>
+<td style="text-align:left">能匹配 a/b/c.js,x/y/z.js,不能匹配a/b.js,a/b/c/d.js</td>
+</tr>
+<tr>
+<td style="text-align:left">**</td>
+<td style="text-align:left">能匹配 abc,a/b.js,a/b/c.js,x/y/z,x/y/z/a.b,能用来匹配所有的目录和文件</td>
+</tr>
+<tr>
+<td style="text-align:left">a/**/z</td>
+<td style="text-align:left">能匹配 a/z,a/b/z,a/b/c/z,a/d/g/h/j/k/z</td>
+</tr>
+<tr>
+<td style="text-align:left">a/**b/z</td>
+<td style="text-align:left">能匹配 a/b/z,a/sb/z,但不能匹配a/x/sb/z,因为只有单**单独出现才能匹配多级目录</td>
+</tr>
+<tr>
+<td style="text-align:left">?.js</td>
+<td style="text-align:left">能匹配 a.js,b.js,c.js</td>
+</tr>
+<tr>
+<td style="text-align:left">a??</td>
+<td style="text-align:left">能匹配 a.b,abc,但不能匹配ab/,因为它不会匹配路径分隔符</td>
+</tr>
+<tr>
+<td style="text-align:left">[xyz].js</td>
+<td style="text-align:left">只能匹配 x.js,y.js,z.js,不会匹配xy.js,xyz.js等,整个中括号只代表一个字符</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">[^xyz].js</td>
+<td style="text-align:left">能匹配 a.js,b.js,c.js等,不能匹配x.js,y.js,z.js</td>
+</tr>
+</tbody>
+</table>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>

@@ -1,0 +1,607 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>珠峰架构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            珠峰架构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html">0.Async</a></li><li><a href="../html/0.editor.html">0.editor</a></li><li><a href="../html/0.module.html">0.module</a></li><li><a href="../html/1.ES2015.html">1.ES2015</a></li><li><a href="../html/2.Promise.html">2.Promise</a></li><li><a href="../html/3.Node.html">3.Node</a></li><li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="../html/5.REPL.html">5.REPL</a></li><li><a href="../html/6.NodeCore.html">6.NodeCore</a></li><li><a href="../html/7.module&amp;NPM.html">7.module&amp;NPM</a></li><li><a href="../html/8.Encoding.html">8.Encoding</a></li><li><a href="../html/9.Buffer.html">9.Buffer</a></li><li><a href="../html/10.fs.html">10.fs</a></li><li><a href="../html/11.Stream-1.html">11.Stream-1</a></li><li><a href="../html/11.Stream-2.html">11.Stream-2</a></li><li><a href="../html/11.Stream-3.html">11.Stream-3</a></li><li><a href="../html/11.Stream-4.html">11.Stream-4</a></li><li><a href="../html/12-Network-2.html">12-Network-2</a></li><li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="../html/12.Network-1.html">12.Network-1</a></li><li><a href="../html/13.tcp.html">13.tcp</a></li><li><a href="../html/14.http-1.html">14.http-1</a></li><li><a href="../html/14.http-2.html">14.http-2</a></li><li><a href="../html/15.compress.html">15.compress</a></li><li><a href="../html/16.crypto.html">16.crypto</a></li><li><a href="../html/17.process.html">17.process</a></li><li><a href="../html/18.yargs.html">18.yargs</a></li><li><a href="../html/19.cache.html">19.cache</a></li><li><a href="../html/20.action.html">20.action</a></li><li><a href="../html/21.https.html">21.https</a></li><li><a href="../html/22.cookie.html">22.cookie</a></li><li><a href="../html/23.session.html">23.session</a></li><li><a href="../html/24.express-1.html">24.express-1</a></li><li><a href="../html/24.express-2.html">24.express-2</a></li><li><a href="../html/24.express-3.html">24.express-3</a></li><li><a href="../html/24.express-4.html">24.express-4</a></li><li><a href="../html/25.koa-1.html">25.koa-1</a></li><li><a href="../html/26.webpack-1-basic.html">26.webpack-1-basic</a></li><li><a href="../html/26.webpack-2-optimize.html">26.webpack-2-optimize</a></li><li><a href="../html/26.webpack-3.tapable.html">26.webpack-3.tapable</a></li><li><a href="../html/26.webpack-4-AST.html">26.webpack-4-AST</a></li><li><a href="../html/26.webpack-5-source.html">26.webpack-5-source</a></li><li><a href="../html/26.webpack-6-loader.html">26.webpack-6-loader</a></li><li><a href="../html/26.webpack-7-plugin.html">26.webpack-7-plugin</a></li><li><a href="../html/26.webpack-8-hand.html">26.webpack-8-hand</a></li><li><a href="../html/27.react-1.html">27.react-1</a></li><li><a href="../html/27.react-2.html">27.react-2</a></li><li><a href="../html/27.react-3.html">27.react-3</a></li><li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="../html/27.react-6.html">27.react-6</a></li><li><a href="../html/28.react-mobx.html">28.react-mobx</a></li><li><a href="../html/28.redux-0.html">28.redux-0</a></li><li><a href="../html/28.redux-1.html">28.redux-1</a></li><li><a href="../html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="../html/28.redux-jwt-back.html">28.redux-jwt-back</a></li><li><a href="../html/28.redux-jwt-front.html">28.redux-jwt-front</a></li><li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="../html/30.cms-1-mysql.html">30.cms-1-mysql</a></li><li><a href="../html/30.cms-2-mysql.html">30.cms-2-mysql</a></li><li><a href="../html/30.cms-3-mysql.html">30.cms-3-mysql</a></li><li><a href="../html/30.cms-4-nunjucks.html">30.cms-4-nunjucks</a></li><li><a href="../html/30.cms-5-mock.html">30.cms-5-mock</a></li><li><a href="../html/30.cms-6-egg.html">30.cms-6-egg</a></li><li><a href="../html/30.cms-7-api.html">30.cms-7-api</a></li><li><a href="../html/30.cms-8-roadhog.html">30.cms-8-roadhog</a></li><li><a href="../html/30.cms-9-yaml.html">30.cms-9-yaml</a></li><li><a href="../html/30.cms-10-umi.html">30.cms-10-umi</a></li><li><a href="../html/30.cms-11-saga.html">30.cms-11-saga</a></li><li><a href="../html/30.cms-12-dva.html">30.cms-12-dva</a></li><li><a href="../html/30.cms-13-dva-ant.html">30.cms-13-dva-ant</a></li><li><a href="../html/30.cms-14-front.html">30.cms-14-front</a></li><li><a href="../html/30.cms-15-deploy.html">30.cms-15-deploy</a></li><li><a href="../html/31.dva.html">31.dva</a></li><li><a href="../html/33.redis.html">33.redis</a></li><li><a href="../html/34.unittest.html">34.unittest</a></li><li><a href="../html/35.jwt.html">35.jwt</a></li><li><a href="../html/36.websocket-1.html">36.websocket-1</a></li><li><a href="../html/36.websocket-2.html">36.websocket-2</a></li><li><a href="../html/38.chat-api-1.html">38.chat-api-1</a></li><li><a href="../html/38.chat-api-2.html">38.chat-api-2</a></li><li><a href="../html/38.chat-3.html">38.chat-3</a></li><li><a href="../html/38.chat-api-3.html">38.chat-api-3</a></li><li class="active"><a href="../html/38.chat.html">38.chat</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/38.chat2.html">38.chat2</a></li><li><a href="../html/39.crawl-0.html">39.crawl-0</a></li><li><a href="../html/39.crawl-1.html">39.crawl-1</a></li><li><a href="../html/39.crawl-2.html">39.crawl-2</a></li><li><a href="../html/40.deploy.html">40.deploy</a></li><li><a href="../html/41.safe.html">41.safe</a></li><li><a href="../html/42.test.html">42.test</a></li><li><a href="../html/43.nginx.html">43.nginx</a></li><li><a href="../html/44.enzyme.html">44.enzyme</a></li><li><a href="../html/45.docker.html">45.docker</a></li><li><a href="../html/46.elastic.html">46.elastic</a></li><li><a href="../html/47.oauth.html">47.oauth</a></li><li><a href="../html/48.wxpay.html">48.wxpay</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/51.typescript.html">51.typescript</a></li><li><a href="../html/52.UML.html">52.UML</a></li><li><a href="../html/53.design.html">53.design</a></li><li><a href="../html/index.html">index</a></li><li><a href="../html/54.linux.html">54.linux</a></li><li><a href="../html/57.ts.html">57.ts</a></li><li><a href="../html/56.react-ssr.html">56.react-ssr</a></li><li><a href="../html/58.ts_react.html">58.ts_react</a></li><li><a href="../html/59.ketang.html">59.ketang</a></li><li><a href="../html/59.ketang2.html">59.ketang2</a></li><li><a href="../html/31.saga.html">31.saga</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01.安装 dva-cli">1.安装 dva-cli</a></li><li><a href="#t12. 生成项目">2. 生成项目</a></li><li><a href="#t23. 配置路由">3. 配置路由</a></li><li><a href="#t34. 编写登录页面">4. 编写登录页面</a><ul><li><a href="#t44.1 编写顶部导航">4.1 编写顶部导航</a></li><li><a href="#t54.2 编写登录页面">4.2 编写登录页面</a></li><li><a href="#t64.3 登录表单">4.3 登录表单</a></li><li><a href="#t74.4 编写用户模型">4.4 编写用户模型</a></li><li><a href="#t84.5 编写用户服务">4.5 编写用户服务</a></li></ul></li><li><a href="#t95. 编写房间列表">5. 编写房间列表</a><ul><li><a href="#t105.1 房间列表页面">5.1 房间列表页面</a></li><li><a href="#t115.2  编写模型">5.2  编写模型</a></li><li><a href="#t125.3 房间列表服务">5.3 房间列表服务</a></li></ul></li><li><a href="#t136. 编写房间列表">6. 编写房间列表</a><ul><li><a href="#t146.1 聊天房间组件">6.1 聊天房间组件</a></li><li><a href="#t156.2 聊天房间模型">6.2 聊天房间模型</a></li><li><a href="#t166.3 聊天表单">6.3 聊天表单</a></li></ul></li><li><a href="#t17参考">参考</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01.安装 dva-cli">1.安装 dva-cli <a href="#t01.安装 dva-cli"> # </a></h2>
+<pre><code class="lang-js">$ npm install -g dva-cli
+</code></pre>
+<h2 id="t12. 生成项目">2. 生成项目 <a href="#t12. 生成项目"> # </a></h2>
+<pre><code class="lang-js">dva <span class="hljs-keyword">new</span> zfchat2 --demo
+cd zfchat
+npm i --registry=https:<span class="hljs-comment">//registry.npm.taobao.org</span>
+npm start
+</code></pre>
+<h2 id="t23. 配置路由">3. 配置路由 <a href="#t23. 配置路由"> # </a></h2>
+<p>src\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> dva <span class="hljs-keyword">from</span> <span class="hljs-string">'dva'</span>;
+<span class="hljs-keyword">import</span> { Router, Route, Switch } <span class="hljs-keyword">from</span> <span class="hljs-string">'dva/router'</span>;
+<span class="hljs-keyword">import</span> Login <span class="hljs-keyword">from</span> <span class="hljs-string">'./routes/Login'</span>;
+<span class="hljs-keyword">import</span> Rooms <span class="hljs-keyword">from</span> <span class="hljs-string">'./routes/Rooms'</span>;
+<span class="hljs-keyword">import</span> Room <span class="hljs-keyword">from</span> <span class="hljs-string">'./routes/Room'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'antd/dist/antd.css'</span>;
+<span class="hljs-keyword">import</span> user <span class="hljs-keyword">from</span> <span class="hljs-string">'./model/user'</span>;
+<span class="hljs-keyword">import</span> rooms <span class="hljs-keyword">from</span> <span class="hljs-string">'./model/rooms'</span>;
+<span class="hljs-keyword">import</span> room <span class="hljs-keyword">from</span> <span class="hljs-string">'./model/room'</span>;
+<span class="hljs-keyword">const</span> app = dva();
+
+<span class="hljs-comment">// 2. Model</span>
+<span class="hljs-comment">// Remove the comment and define your model.</span>
+app.model(user);
+app.model(rooms);
+app.model(room);
+<span class="hljs-comment">// 3. Router</span>
+
+app.router(<span class="hljs-function">(<span class="hljs-params">{ history }</span>) =&gt;</span>
+  &lt;Router history={history}&gt;
+    &lt;Switch&gt;
+      &lt;Route path="/" exact component={Login} /&gt;
+      &lt;Route path="/rooms" exact component={Rooms} /&gt;
+      &lt;Route path="/rooms/:id" exact component={Room} /&gt;
+    &lt;/Switch&gt;
+  &lt;/Router&gt;
+);
+
+// 4. Start
+app.start('#root');
+
+</code></pre>
+<h2 id="t34. 编写登录页面">4. 编写登录页面 <a href="#t34. 编写登录页面"> # </a></h2>
+<h3 id="t44.1 编写顶部导航">4.1 编写顶部导航 <a href="#t44.1 编写顶部导航"> # </a></h3>
+<p>/src/components/Header.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> {Layout,Menu,Icon} <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+<span class="hljs-keyword">import</span> {Link} <span class="hljs-keyword">from</span> <span class="hljs-string">'dva/router'</span>
+<span class="hljs-keyword">import</span> styles <span class="hljs-keyword">from</span> <span class="hljs-string">'./Header'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Header</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;Layout.Header&gt;
+                    &lt;Menu
+                        theme="dark"
+                        mode="horizontal"
+                        defaultSelectedKeys={["home"]}
+                        style={{lineHeight:'64px'}}
+                    &gt;
+                        &lt;Menu.Item key="home"&gt;
+                            &lt;Link to="/"&gt;&lt;Icon type="home"/&gt;首页&lt;/Link&gt;
+                        &lt;/Menu.Item&gt;
+                    &lt;/Menu&gt;
+            &lt;/Layout.Header&gt;
+        )
+    }
+}
+</code></pre>
+<h3 id="t54.2 编写登录页面">4.2 编写登录页面 <a href="#t54.2 编写登录页面"> # </a></h3>
+<p>/src/routes/Login.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> {Layout,Row,Col} <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+<span class="hljs-keyword">import</span> LoginForm <span class="hljs-keyword">from</span> <span class="hljs-string">'../components/LoginForm'</span>;
+<span class="hljs-keyword">import</span> Header <span class="hljs-keyword">from</span> <span class="hljs-string">'../components/Header'</span>;
+<span class="hljs-keyword">import</span> {connect} <span class="hljs-keyword">from</span> <span class="hljs-string">'dva'</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Login</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;Layout className="layout"&gt;
+                &lt;Header/&gt;
+                &lt;Layout.Content&gt;
+                    &lt;Row&gt;
+                        &lt;Col offset={2} span={20}&gt;
+                            &lt;LoginForm dispatch={this.props.dispatch}/&gt;
+                        &lt;/Col&gt;
+                    &lt;/Row&gt;
+                &lt;/Layout.Content&gt;
+            &lt;/Layout&gt;
+        )
+    }
+}
+export default connect(
+    state=&gt;state.user
+)(Login);
+</code></pre>
+<h3 id="t64.3 登录表单">4.3 登录表单 <a href="#t64.3 登录表单"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> {Form,Input,Button,Icon} <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">hasErrors</span>(<span class="hljs-params">fieldsError</span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-built_in">Object</span>.keys(fieldsError).some(<span class="hljs-function"><span class="hljs-params">field</span>=&gt;</span>fieldsError[field]);
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">LoginForm</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    componentDidMount() {
+        <span class="hljs-keyword">this</span>.props.form.validateFields();
+    }
+    handleSubmit=<span class="hljs-function">(<span class="hljs-params">event</span>) =&gt;</span> {
+        event.preventDefault();
+        <span class="hljs-keyword">this</span>.props.form.validateFields(<span class="hljs-function">(<span class="hljs-params">err,values</span>) =&gt;</span> {
+            <span class="hljs-keyword">if</span> (!err) {
+                <span class="hljs-keyword">this</span>.props.dispatch({<span class="hljs-attr">type</span>: <span class="hljs-string">'user/login'</span>,<span class="hljs-attr">payload</span>: values});
+                <span class="hljs-keyword">this</span>.props.form.resetFields();
+            }
+        });
+    }
+    render() {
+        <span class="hljs-keyword">let</span> {getFieldDecorator,isFieldTouched,getFieldError,getFieldsError}=<span class="hljs-keyword">this</span>.props.form;
+        <span class="hljs-keyword">const</span> contentError=isFieldTouched(<span class="hljs-string">'email'</span>)&amp;&amp;getFieldError(<span class="hljs-string">'email'</span>);
+        <span class="hljs-keyword">return</span>(
+            &lt;Form onSubmit={this.handleSubmit}&gt;
+                &lt;Form.Item
+                  validateStatus={contentError?'error':''}         
+                  help={contentError||''}    
+                &gt;
+                    {
+                        getFieldDecorator('email',{type:'email',rules: [{required: true,message: '请输入邮箱'}]})(
+                            &lt;Input  prefix={&lt;Icon type="email" style={{color:'rbga(0,0,0,.25)'}}/&gt;} placeholder="请输入邮箱"/&gt;
+                        )
+                    }
+                    &lt;Button type="primary" htmlType="submit" disabled={hasErrors(getFieldsError())}&gt;
+                      &lt;Icon type="mail"/&gt; 登陆    
+                    &lt;/Button&gt;
+                &lt;/Form.Item&gt;        
+            &lt;/Form&gt;
+        )
+    }
+}
+export default Form.create()(LoginForm);
+</code></pre>
+<h3 id="t74.4 编写用户模型">4.4 编写用户模型 <a href="#t74.4 编写用户模型"> # </a></h3>
+<p>/src/models/user.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> userService <span class="hljs-keyword">from</span> <span class="hljs-string">'../service/user'</span>;
+<span class="hljs-keyword">import</span> { routerRedux } <span class="hljs-keyword">from</span> <span class="hljs-string">'dva/router'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    <span class="hljs-attr">namespace</span>: <span class="hljs-string">'user'</span>,<span class="hljs-comment">//命名空间</span>
+    state: {<span class="hljs-comment">///初始状态 </span>
+        user: <span class="hljs-literal">null</span>
+    },
+    <span class="hljs-attr">reducers</span>: {<span class="hljs-comment">//处理器</span>
+        user(state, action) {
+            <span class="hljs-keyword">return</span> { ...state, <span class="hljs-attr">user</span>: action.payload };
+        }
+    },
+    <span class="hljs-attr">effects</span>: {<span class="hljs-comment">//副作用函数 payload = user</span>
+        *login({ payload }, { put, call }) {
+            <span class="hljs-keyword">const</span> { <span class="hljs-attr">data</span>: token } = <span class="hljs-keyword">yield</span> call(userService.login, payload);
+            sessionStorage.setItem(<span class="hljs-string">'token'</span>, token);
+            <span class="hljs-keyword">yield</span> put(routerRedux.push(<span class="hljs-string">'/rooms'</span>));
+        },
+        *validate(action, { put, call }) {
+            <span class="hljs-keyword">const</span> { code, <span class="hljs-attr">data</span>: user } = <span class="hljs-keyword">yield</span> call(userService.validate);
+            <span class="hljs-keyword">if</span> (code == <span class="hljs-number">0</span>) {
+                <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: <span class="hljs-string">'user'</span>, <span class="hljs-attr">payload</span>: user });
+            } <span class="hljs-keyword">else</span> {
+                <span class="hljs-keyword">yield</span> put(routerRedux.push(<span class="hljs-string">'/'</span>));
+            }
+        }
+    }
+}
+</code></pre>
+<h3 id="t84.5 编写用户服务">4.5 编写用户服务 <a href="#t84.5 编写用户服务"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> request <span class="hljs-keyword">from</span> <span class="hljs-string">'../utils/request'</span>;
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">login</span>(<span class="hljs-params">data</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">'http://localhost:7001/login'</span>, {
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'POST'</span>,
+        <span class="hljs-attr">headers</span>: {
+            <span class="hljs-string">"Content-Type"</span>: <span class="hljs-string">"application/json"</span>
+        },
+        <span class="hljs-attr">body</span>: <span class="hljs-built_in">JSON</span>.stringify(data)
+    });
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">validate</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">'http://localhost:7001/validate'</span>, {
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'POST'</span>,
+        <span class="hljs-attr">headers</span>: {
+            <span class="hljs-string">"Content-Type"</span>: <span class="hljs-string">"application/json"</span>
+        },
+        <span class="hljs-attr">body</span>: <span class="hljs-built_in">JSON</span>.stringify({ <span class="hljs-attr">token</span>: sessionStorage.getItem(<span class="hljs-string">'token'</span>) })
+    });
+}
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    login,
+    validate
+}
+</code></pre>
+<h2 id="t95. 编写房间列表">5. 编写房间列表 <a href="#t95. 编写房间列表"> # </a></h2>
+<h3 id="t105.1 房间列表页面">5.1 房间列表页面 <a href="#t105.1 房间列表页面"> # </a></h3>
+<p>src/routes/Rooms.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> { Layout, Card, Row, Col, Input, Badge, Avatar, Button } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+<span class="hljs-keyword">import</span> { connect } <span class="hljs-keyword">from</span> <span class="hljs-string">'dva'</span>;
+<span class="hljs-keyword">import</span> { Link } <span class="hljs-keyword">from</span> <span class="hljs-string">'dva/router'</span>;
+<span class="hljs-keyword">import</span> Header <span class="hljs-keyword">from</span> <span class="hljs-string">'../../components/Header'</span>;
+<span class="hljs-comment">//页面级组件一般是用来跟仓库连接 </span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Rooms</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    handleChange = <span class="hljs-function">(<span class="hljs-params">event</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({ <span class="hljs-attr">type</span>: <span class="hljs-string">'rooms/changeKeyword'</span>, <span class="hljs-attr">payload</span>: event.target.value });
+    }
+    createRoom = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.props.dispatch({ <span class="hljs-attr">type</span>: <span class="hljs-string">'rooms/createRoom'</span>, <span class="hljs-attr">payload</span>: { <span class="hljs-attr">name</span>: <span class="hljs-keyword">this</span>.props.keyword } });
+    }
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;Layout&gt;
+                &lt;Header /&gt;
+                &lt;Row style={{ margin: '10px 0px' }}&gt;
+                    &lt;Col span={24}&gt;
+                        &lt;Input placeholder="搜索房间" onChange={this.handleChange} /&gt;
+                    &lt;/Col&gt;
+                &lt;/Row&gt;
+                &lt;Row gutter={16} style={{ margin: '10px 0px' }}&gt;
+                    {
+                        this.props.rooms.map(room =&gt; (
+                            &lt;Col key={room._id} span={6} style={{ margin: '10px' }}&gt;
+                                &lt;Link to={`/rooms/${room._id}`}&gt;
+                                    &lt;Card
+                                        title={room.name}
+                                        extra={&lt;Badge count={(room.users ? room.users.length : 0) + '人'} /&gt;}
+                                    &gt;
+                                        {
+                                            room.users &amp;&amp; room.users.map(user =&gt; (
+                                                &lt;Avatar key={user.id} src={user.avatar} /&gt;
+                                            ))
+                                        }
+                                    &lt;/Card&gt;
+                                &lt;/Link&gt;
+                            &lt;/Col&gt;
+                        ))
+                    }
+                &lt;/Row&gt;
+                &lt;Row&gt;
+                    {
+                        this.props.rooms.length == 0 &amp;&amp; (
+                            &lt;Row&gt;
+                                &lt;Col span={24} style={{ textAlign: 'center' }}&gt;
+                                    &lt;Button type="primary" onClick={this.createRoom}&gt;点击创建&lt;/Button&gt;
+                                &lt;/Col&gt;
+                            &lt;/Row&gt;
+                        )
+                    }
+                &lt;/Row&gt;
+            &lt;/Layout&gt;
+        )
+    }
+}
+export default connect(
+    state =&gt; (
+        {
+            keyword: state.rooms.keyword,
+            rooms: state.rooms.rooms.filter(item =&gt; item.name.indexOf(state.rooms.keyword) != -1)
+        }
+    )
+)(Rooms);
+</code></pre>
+<h3 id="t115.2  编写模型">5.2  编写模型 <a href="#t115.2  编写模型"> # </a></h3>
+<p>src/models/rooms.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> roomsService <span class="hljs-keyword">from</span> <span class="hljs-string">'../service/rooms'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    <span class="hljs-attr">namespace</span>: <span class="hljs-string">'rooms'</span>,
+    <span class="hljs-attr">state</span>: {
+        <span class="hljs-attr">rooms</span>: [],
+        <span class="hljs-attr">keyword</span>: <span class="hljs-string">''</span>
+    },
+    <span class="hljs-attr">subscriptions</span>: {
+        setup({ dispatch, history }) {
+            history.listen(<span class="hljs-function">(<span class="hljs-params">{ pathname }</span>) =&gt;</span> {
+                <span class="hljs-keyword">if</span> (pathname == <span class="hljs-string">'/rooms'</span>) {
+                    dispatch({ <span class="hljs-attr">type</span>: <span class="hljs-string">'user/validate'</span> });
+                    dispatch({ <span class="hljs-attr">type</span>: <span class="hljs-string">'getAllRooms'</span> });
+                }
+            });
+        }
+    },
+    <span class="hljs-attr">effects</span>: {
+        *getAllRooms({ }, { call, put }) {
+            <span class="hljs-keyword">const</span> { <span class="hljs-attr">data</span>: rooms } = <span class="hljs-keyword">yield</span> call(roomsService.getAllRooms);
+            <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'rooms'</span>, rooms);
+            <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: <span class="hljs-string">'allRooms'</span>, <span class="hljs-attr">payload</span>: rooms });
+        },
+        *createRoom({ payload }, { put, call, select }) {
+            <span class="hljs-keyword">const</span> { <span class="hljs-attr">data</span>: room } = <span class="hljs-keyword">yield</span> call(roomsService.createRoom, payload);
+            <span class="hljs-keyword">yield</span> put({ <span class="hljs-attr">type</span>: <span class="hljs-string">'roomAdded'</span>, <span class="hljs-attr">payload</span>: room });
+        }
+    },
+    <span class="hljs-attr">reducers</span>: {
+        changeKeyword(state, { payload }) {
+            <span class="hljs-keyword">return</span> { ...state, <span class="hljs-attr">keyword</span>: payload };
+        },
+        allRooms(state, { payload }) {
+            <span class="hljs-keyword">return</span> { ...state, <span class="hljs-attr">rooms</span>: [...payload] };
+        },
+        roomAdded(state, { payload }) {
+            <span class="hljs-keyword">return</span> { ...state, <span class="hljs-attr">rooms</span>: [...state.rooms, payload] };
+        }
+    }
+}
+</code></pre>
+<h3 id="t125.3 房间列表服务">5.3 房间列表服务 <a href="#t125.3 房间列表服务"> # </a></h3>
+<p>src/services/rooms.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> request <span class="hljs-keyword">from</span> <span class="hljs-string">'../utils/request'</span>;
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">createRoom</span>(<span class="hljs-params">data</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">'http://localhost:7001/createRoom'</span>, {
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'POST'</span>,
+        <span class="hljs-attr">headers</span>: {
+            <span class="hljs-string">"Content-Type"</span>: <span class="hljs-string">"application/json"</span>
+        },
+        <span class="hljs-attr">body</span>: <span class="hljs-built_in">JSON</span>.stringify(data)
+    });
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getAllRooms</span>(<span class="hljs-params">data</span>) </span>{
+    <span class="hljs-keyword">return</span> request(<span class="hljs-string">'http://localhost:7001/getAllRooms'</span>, {
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'GET'</span>
+    });
+}
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    createRoom,
+    getAllRooms
+}
+</code></pre>
+<h2 id="t136. 编写房间列表">6. 编写房间列表 <a href="#t136. 编写房间列表"> # </a></h2>
+<h3 id="t146.1 聊天房间组件">6.1 聊天房间组件 <a href="#t146.1 聊天房间组件"> # </a></h3>
+<p>src\routes\Room\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> { connect } <span class="hljs-keyword">from</span> <span class="hljs-string">'dva'</span>;
+<span class="hljs-keyword">import</span> Header <span class="hljs-keyword">from</span> <span class="hljs-string">'../../components/Header'</span>;
+<span class="hljs-keyword">import</span> { Layout, Row, Col, List, Input, Icon, Avatar } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+<span class="hljs-keyword">import</span> ChatForm <span class="hljs-keyword">from</span> <span class="hljs-string">'../../components/ChatForm'</span>;
+<span class="hljs-comment">//页面级组件一般是用来跟仓库连接 </span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Room</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    componentDidMount() {
+        <span class="hljs-keyword">this</span>.scrollToTop();
+    }
+    componentDidUpdate() {
+        <span class="hljs-keyword">this</span>.scrollToTop();
+    }
+    scrollToTop = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.chatList.scrollTop = <span class="hljs-keyword">this</span>.chatList.scrollHeight;
+    }
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;Layout className="layout"&gt;
+                &lt;Header /&gt;
+                &lt;Layout.Content&gt;
+                    &lt;Row&gt;
+                        &lt;Col offset={2} span={20}&gt;
+                            &lt;div
+                                ref={ref =&gt; this.chatList = ref}
+                                style={{ maxHeight: '600px', minHeight: '300px', overflow: 'auto' }}
+                            &gt;
+                                &lt;List
+                                    header={&lt;div style={{ textAlign: 'center' }}&gt;欢迎来到珠峰聊天室&lt;/div&gt;}
+                                    size="large"
+                                    bordered={false}
+                                    dataSource={this.props.messages}
+                                    renderItem={
+                                        item =&gt; (
+                                            &lt;List.Item&gt;
+                                                &lt;List.Item.Meta
+                                                    avatar={&lt;Avatar src={item.user &amp;&amp; item.user.avatar} /&gt;}
+                                                    title={item.user &amp;&amp; item.user.name}
+                                                    description={item.user &amp;&amp; item.user.email}
+                                                /&gt;
+                                                &lt;div&gt;{item.content}&lt;/div&gt;
+                                            &lt;/List.Item&gt;
+                                        )
+                                    }
+                                &gt;
+                                &lt;/List&gt;
+                            &lt;/div&gt;
+                            &lt;ChatForm
+                                dispatch={this.props.dispatch}
+                                room={this.props.match.params.id} /&gt;
+                        &lt;/Col&gt;
+                    &lt;/Row&gt;
+                &lt;/Layout.Content&gt;
+            &lt;/Layout&gt;
+        )
+    }
+}
+export default connect(
+    state =&gt; state.room
+)(Room);
+</code></pre>
+<h3 id="t156.2 聊天房间模型">6.2 聊天房间模型 <a href="#t156.2 聊天房间模型"> # </a></h3>
+<p>/src/models/room.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> pathToRegexp <span class="hljs-keyword">from</span> <span class="hljs-string">'path-to-regexp'</span>;
+<span class="hljs-keyword">import</span> routerRedux <span class="hljs-keyword">from</span> <span class="hljs-string">'dva/router'</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    <span class="hljs-attr">namespace</span>: <span class="hljs-string">'room'</span>,
+    <span class="hljs-attr">state</span>: {
+        <span class="hljs-attr">messages</span>: [],
+        <span class="hljs-attr">room</span>: <span class="hljs-string">''</span>
+    },
+    <span class="hljs-attr">subscriptions</span>: {
+        setup({ dispatch, history }) {
+            history.listen(<span class="hljs-function">(<span class="hljs-params">{ pathname }</span>) =&gt;</span> {
+                <span class="hljs-keyword">const</span> match = pathToRegexp(<span class="hljs-string">'/rooms/:id'</span>).exec(pathname);
+                <span class="hljs-keyword">if</span> (match) {
+                    <span class="hljs-keyword">let</span> room = match[<span class="hljs-number">1</span>];
+                    dispatch({ <span class="hljs-attr">type</span>: <span class="hljs-string">'setRoom'</span>, <span class="hljs-attr">payload</span>: room });
+                    dispatch({ <span class="hljs-attr">type</span>: <span class="hljs-string">'user/validate'</span> });
+                    <span class="hljs-keyword">let</span> io = <span class="hljs-built_in">require</span>(<span class="hljs-string">'socket.io-client'</span>);
+                    <span class="hljs-keyword">let</span> socket = io(<span class="hljs-string">'http://localhost:7001'</span>, {
+                        <span class="hljs-attr">query</span>: { <span class="hljs-attr">token</span>: sessionStorage.getItem(<span class="hljs-string">'token'</span>), room }
+                    });
+                    socket.on(<span class="hljs-string">'connect'</span>, () =&gt; {
+                        socket.emit(<span class="hljs-string">'getAllMessages'</span>, room);
+                    });
+                    socket.on(<span class="hljs-string">'allMessages'</span>, messages =&gt; {
+                        dispatch({ <span class="hljs-attr">type</span>: <span class="hljs-string">'allMessages'</span>, <span class="hljs-attr">payload</span>: messages });
+                    });
+                    socket.on(<span class="hljs-string">'messageAdded'</span>, message =&gt; {
+                        dispatch({ <span class="hljs-attr">type</span>: <span class="hljs-string">'messageAdded'</span>, <span class="hljs-attr">payload</span>: message });
+                    });
+                    socket.on(<span class="hljs-string">'online'</span>, message =&gt; {
+                        dispatch({ <span class="hljs-attr">type</span>: <span class="hljs-string">'messageAdded'</span>, <span class="hljs-attr">payload</span>: message });
+                    });
+                    socket.on(<span class="hljs-string">'offline'</span>, message =&gt; {
+                        dispatch({ <span class="hljs-attr">type</span>: <span class="hljs-string">'messageAdded'</span>, <span class="hljs-attr">payload</span>: message });
+                    });
+                    socket.on(<span class="hljs-string">'needLogin'</span>, message =&gt; {
+                        dispatch(routerRedux.push(<span class="hljs-string">'/'</span>));
+                    });
+                    <span class="hljs-built_in">window</span>.socket = socket;
+                }
+            });
+        }
+    },
+    <span class="hljs-attr">effects</span>: {
+        *addMessage(action, { put, call, select }) {
+            <span class="hljs-keyword">const</span> { user, room } = <span class="hljs-keyword">yield</span> select(<span class="hljs-function"><span class="hljs-params">state</span> =&gt;</span> state);
+            <span class="hljs-keyword">let</span> message = action.payload;
+            message.user = user.user._id;
+            message.room = room.room;
+            <span class="hljs-built_in">window</span>.socket.emit(<span class="hljs-string">'addMessage'</span>, message);
+        }
+    },
+    <span class="hljs-attr">reducers</span>: {
+        setRoom(state, action) {
+            <span class="hljs-keyword">return</span> { ...state, <span class="hljs-attr">room</span>: action.payload };
+        },
+        allMessages(state, action) {
+            <span class="hljs-keyword">return</span> { ...state, <span class="hljs-attr">messages</span>: action.payload };
+        },
+        messageAdded(state, action) {
+            <span class="hljs-keyword">return</span> { ...state, <span class="hljs-attr">messages</span>: [...state.messages, action.payload] }
+        }
+    }
+
+}
+</code></pre>
+<h3 id="t166.3 聊天表单">6.3 聊天表单 <a href="#t166.3 聊天表单"> # </a></h3>
+<p>src/components/ChatForm.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> { Form, Input, Button, Icon } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ChatForm</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    componentDidMount() {
+        <span class="hljs-keyword">this</span>.props.form.validateFields();
+    }
+    handleSubmit = <span class="hljs-function"><span class="hljs-params">event</span> =&gt;</span> {
+        event.preventDefault();
+        <span class="hljs-keyword">this</span>.props.form.validateFields(<span class="hljs-function">(<span class="hljs-params">err, values</span>) =&gt;</span> {
+            <span class="hljs-keyword">if</span> (!err) {
+                <span class="hljs-keyword">this</span>.props.dispatch({ <span class="hljs-attr">type</span>: <span class="hljs-string">'room/addMessage'</span>, <span class="hljs-attr">payload</span>: values });
+                <span class="hljs-keyword">this</span>.props.form.resetFields();
+            }
+        });
+    }
+    render() {
+        <span class="hljs-keyword">let</span> { getFieldDecorator, isFieldTouched, getFieldError, getFieldsError } = <span class="hljs-keyword">this</span>.props.form;
+        <span class="hljs-keyword">const</span> contentError = isFieldTouched(<span class="hljs-string">'content'</span>) &amp;&amp; getFieldError(<span class="hljs-string">'content'</span>);
+        <span class="hljs-keyword">return</span> (
+            &lt;Form onSubmit={this.handleSubmit}&gt;
+                &lt;Form.Item
+                    validateStatus={contentError ? 'error' : ''}
+                    help={contentError || ''}
+                &gt;
+                    {
+                        getFieldDecorator('content', {
+                            rules: [
+                                [{ required: true, message: '请输入内容' }]
+                            ]
+                        })(
+                            &lt;Input
+                                placeholder="请输入聊天信息"
+                                prefix={&lt;Icon type="wechat" style={{ color: 'rgba(0,0,0,.25)' }} /&gt;} /&gt;
+                        )
+                    }
+                    &lt;Button type="primary" htmlType="submit" disabled={contentError}&gt;
+                        &lt;Icon type="mail" /&gt;发言
+                    &lt;/Button&gt;
+                &lt;/Form.Item&gt;
+            &lt;/Form&gt;
+        )
+
+    }
+}
+
+export default Form.create()(ChatForm);
+</code></pre>
+<h2 id="t17参考">参考 <a href="#t17参考"> # </a></h2>
+<ul>
+<li><a href="https://gitee.com/zhufengpeixun/zhufengchat">zhufengchat</a></li>
+</ul>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+
+
+</body></html>
